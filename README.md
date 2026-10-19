@@ -6,7 +6,8 @@ Neuradna stran z buildi za **Project Diablo 2, Season 14 (Alliance)**. Izbereš 
 - oceno za bossing (Diablo Clone, Rathma, Lucion, T0 in T2),
 - nasvetom za leveling (direktno ali z respecom, iz S13 posnetkov na pd2.tools),
 - planerji z razporeditvijo točk, opremo po fazah, slikami predmetov in mercem,
-- S13 statistiko s pd2.tools (koliko likov 90+, kaj nosijo).
+- S13 statistiko s pd2.tools (koliko likov 90+, kaj nosijo),
+- tooltipi: statsi predmetov z razponi (aktualni PD2 wiki) in sinergije skillov (Hiim + wiki), ob premiku miške ali tapu.
 
 Za nekaj buildov je tudi naš podroben vodič (leveling po levelih, oprema s kljukicami), poleg tega pa še druid plan in splošni vodič (loot, runewordi, crafting, recepti, mape).
 
@@ -23,11 +24,12 @@ Hiim tier liste se med sezono spreminjajo. Vse podatke osvežiš z:
 Skripta po vrsti:
 
 1. `tools/fetch_hiim.py --force`: Hiim tier liste, katalog plannerja in vse povezane planerje
-2. `tools/fetch_pd2tools.py`: pd2.tools statistika za vsak build (S13)
-3. `tools/fetch_pd2tools.py --respec`: posnetki najhitrejših likov (traja dlje)
-4. `tools/build_data.py`: združi vse v `data/site.json`
-5. `tools/fetch_images.py`: prenese manjkajoče slike v `docs/img`
-6. `tools/build_site.py`: zgradi HTML v `docs/`
+2. `tools/fetch_wiki.py`: wiki strani s skilli (predpogoji) in predmeti (statsi za tooltipe)
+3. `tools/fetch_pd2tools.py`: pd2.tools statistika za vsak build (S13)
+4. `tools/fetch_pd2tools.py --respec`: posnetki najhitrejših likov (traja dlje)
+5. `tools/build_data.py`: združi vse v `data/site.json` in `docs/assets/tips.json`
+6. `tools/fetch_images.py`: prenese manjkajoče slike v `docs/img`
+7. `tools/build_site.py`: zgradi HTML v `docs/`
 
 Uporablja samo Python 3 in `curl`.
 

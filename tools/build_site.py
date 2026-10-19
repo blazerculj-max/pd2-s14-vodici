@@ -56,6 +56,35 @@ def load_names():
 ITEM_IMG = load_names()
 
 
+def _norm(name):
+    return re.sub(r"[^a-z0-9]", "", name.lower().replace("'s", "s"))
+
+
+_TN = json.load(open(os.path.join(ROOT, "data", "tip_names.json"))) if os.path.exists(os.path.join(ROOT, "data", "tip_names.json")) else {}
+TIP_BY_NORM = {_norm(k): v for k, v in _TN.items()}
+
+
+def tip_for_name(name):
+    import difflib
+    n = _norm(html.unescape(name))
+    if n in TIP_BY_NORM:
+        return TIP_BY_NORM[n]
+    near = difflib.get_close_matches(n, list(TIP_BY_NORM), n=1, cutoff=0.88)
+    return TIP_BY_NORM[near[0]] if near else None
+
+
+def add_tips_to_fragment(frag):
+    """V naših vodičih doda tooltipe imenom predmetov (span.item in td.q-r)."""
+    def repl(m):
+        key = tip_for_name(re.sub(r"<[^>]+>", "", m.group(3)))
+        if not key:
+            return m.group(0)
+        return f'<{m.group(1)} class="{m.group(2)}" data-tip="{e(key)}" tabindex="0">{m.group(3)}</{m.group(1)}>'
+    frag = re.sub(r'<(span) class="(item q-[usrmy])">(.*?)</span>', repl, frag)
+    frag = re.sub(r'<(td) class="(q-r)">(.*?)</td>', repl, frag)
+    return frag
+
+
 def has_img(path):
     return path and os.path.exists(os.path.join(DOCS, "img", path))
 
@@ -82,7 +111,7 @@ def item_html(slot, it):
     name = e(it["name"]) + (" (eth)" if it.get("eth") else "")
     parts = []
     if it.get("runes"):
-        rn = "".join(f'<span class="rn">{img_tag(r.get("img"), alt=r["name"])}{e(r["name"])}</span>' for r in it["runes"])
+        rn = "".join(f'<span class="rn"{(" data-tip=" + chr(34) + e(r["tip"]) + chr(34)) if r.get("tip") else ""}>{img_tag(r.get("img"), alt=r["name"])}{e(r["name"])}</span>' for r in it["runes"])
         parts.append(rn)
     if it.get("base") and q in ("r", "y", "c", "m"):
         parts.append(e(it["base"]))
@@ -92,7 +121,16 @@ def item_html(slot, it):
         parts.append("korupcija: " + e(it["corr"]))
     sub = f'<span class="sub2">{" · ".join(parts)}</span>' if parts else ""
     label = f'<span class="sl">{e(SLOT_LABEL.get(slot, slot))}</span>' if slot else ""
-    return (f'<div class="it"><span class="ic">{img_tag(it.get("img"), alt=it["name"])}</span>'
+    attrs = ""
+    if it.get("tip"):
+        attrs = f' data-tip="{e(it["tip"])}" tabindex="0"'
+        if it.get("eth"):
+            attrs += ' data-eth="1"'
+        if it.get("corr"):
+            attrs += f' data-corr="{e(it["corr"])}"'
+        if it.get("sockets"):
+            attrs += ' data-sock="' + e(", ".join((f'{s["n"]}× ' if s.get("n", 1) > 1 else "") + s["name"] for s in it["sockets"])) + '"'
+    return (f'<div class="it"{attrs}><span class="ic">{img_tag(it.get("img"), alt=it["name"])}</span>'
             f'{label}<span class="nm q-{q}">{name}</span>{sub}</div>')
 
 
@@ -107,8 +145,9 @@ def planner_html(p):
         st = (f'<div class="muted" style="font-size:0.9rem">Stati: Str {stats.get("str", 0)} · Dex {stats.get("dex", 0)} · '
               f'Vit {stats.get("vit", 0)} · Ene {stats.get("ene", 0)}</div>')
     skills = "".join(
-        f'<span class="sk{" max" if s["pts"] >= 20 else ""}">{img_tag(s.get("img"), alt=s["name"])}'
-        f'{e(s["name"])} <span class="pts">{s["pts"]}</span></span>' for s in p["skills"])
+        f'<span class="sk{" max" if s["pts"] >= 20 else ""}" data-skill="{e(s["id"])}" data-pts="{s["pts"]}"'
+        + (f' data-tip="{e(s["tip"])}" tabindex="0"' if s.get("tip") else "") + '>'
+        f'{img_tag(s.get("img"), alt=s["name"])}{e(s["name"])} <span class="pts">{s["pts"]}</span></span>' for s in p["skills"])
     gear = "".join(item_html(slot, it) for slot, it in p["gear"].items())
     out = [head, st]
     if skills:
@@ -200,7 +239,11 @@ def ratings_html(b):
 def stats_html(st):
     if not st:
         return ""
-    top = "".join(f'<span>{img_tag(ITEM_IMG.get(n), alt=n)}{e(n)} <span class="muted">{p} %</span></span>' for n, p in st.get("items", [])[:12])
+    def top_item(n, p):
+        key = tip_for_name(n)
+        attr = f' data-tip="{e(key)}" tabindex="0"' if key else ""
+        return f'<span{attr}>{img_tag(ITEM_IMG.get(n), alt=n)}{e(n)} <span class="muted">{p} %</span></span>'
+    top = "".join(top_item(n, p) for n, p in st.get("items", [])[:12])
     merc = ", ".join(f"{e(MERC_LABEL.get(n, n))} {p} %" for n, p in st.get("mercs", []))
     return (f'<div class="stats13"><h4>Kaj nosijo liki 90+ v S13 (skill {e(st["skill"])} na 20)</h4>'
             f'<div class="top">{top}</div>' + (f'<span class="muted">Merc: {merc}</span>' if merc else "") + "</div>")
@@ -228,7 +271,7 @@ def build_html(b, cls):
                f'<span class="badges">{"".join(badges)}</span></summary>')
     body = [ratings_html(b), f"<div><h4>Leveling</h4>{lev}</div>"]
     if guide_file:
-        body.append('<div><h4>Naš vodič</h4>' + open(os.path.join(CONTENT, "builds", guide_file)).read() + "</div>")
+        body.append('<div><h4>Naš vodič</h4>' + add_tips_to_fragment(open(os.path.join(CONTENT, "builds", guide_file)).read()) + "</div>")
     if cls["id"] == "druid" and b["id"] in DRUID_PLAN_BUILDS:
         body.append('<div class="note"><b>Naš druid plan:</b> leveling kot summoner, nato Poison Creeper ali Rabies. '
                     '<a href="druid-nacrt.html">Odpri druid plan</a>.</div>')
@@ -342,7 +385,7 @@ def class_html(c):
 <header class="hero"><div class="wrap">
 <div class="eyebrow">Razred · {len(c["builds"])} buildov</div>
 <h1>{e(c["name"])}</h1>
-<p class="lead">{e(TAGLINE[c["id"]])} Klikni build za ocene, leveling, planerje z opremo in merca.</p>
+<p class="lead">{e(TAGLINE[c["id"]])} Klikni build za ocene, leveling, planerje z opremo in merca. Za statse predmeta ali sinergije skilla premakni miško nanj ali ga tapni.</p>
 </div></header>
 <main class="wrap"><section>
 {plan}
@@ -361,14 +404,14 @@ def guide_html():
 <h1>Splošni vodič</h1>
 <p class="lead">Kaj pobirati, budget runewordi, crafting, recepti v Horadric Cubu, mape za začetnika in S14 spremembe.</p>
 </div></header>
-<main class="wrap">{open(os.path.join(CONTENT, "guide-general.html")).read()}</main>"""
+<main class="wrap">{add_tips_to_fragment(open(os.path.join(CONTENT, "guide-general.html")).read())}</main>"""
     return page("Splošni vodič · PD2 S14 buildi", body, "vodic.html",
                 "Loot, runewordi, crafting, recepti in mape za Project Diablo 2 S14.")
 
 
 def druid_plan_html():
     header = open(os.path.join(CONTENT, "druid-plan-header.html")).read()
-    main = open(os.path.join(CONTENT, "druid-plan-main.html")).read()
+    main = add_tips_to_fragment(open(os.path.join(CONTENT, "druid-plan-main.html")).read())
     script = open(os.path.join(CONTENT, "druid-plan-script.html")).read()
     druid = next(c for c in SITE["classes"] if c["id"] == "druid")
     rabies = next((b for b in druid["builds"] if b["id"] == "rabies"), None)

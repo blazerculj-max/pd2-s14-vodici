@@ -28,6 +28,15 @@ SLOTS = ["weapon", "offhand", "helm", "armor", "gloves", "belt", "boots", "amule
          "swapWeapon", "swapOffhand"]
 GENERIC_IMG = {"amu": "items/amulet/Amulet_1.png", "rin": "items/ring/Ring_1.png"}
 
+import hashlib
+import importlib.util
+
+_spec = importlib.util.spec_from_file_location("tips", os.path.join(os.path.dirname(os.path.abspath(__file__)), "tips.py"))
+tips = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(tips)
+TIPS = {}
+TIP_NAMES = {}
+
 images = set()
 need_bases = set()
 _bi = os.path.join(ROOT, "data", "base_images.json")
@@ -46,6 +55,7 @@ def slug(text):
 items_cat = load("items")
 UNIQ = {i["id"]: i for i in items_cat["items"]}
 RW = {r["id"]: r for r in load("runewords")}
+SET_OF = {i: st["name"] for st in items_cat["sets"] for i in st.get("items", [])}
 SOCK = {s["id"]: s for s in load("socketables")}
 PRESET = {p["id"]: p for p in load("presets")}
 CHARM = {c["id"]: c for c in load("charms")}
@@ -92,6 +102,30 @@ def base_name(code):
     return b["name"] if b else None
 
 
+def tip_unique(it):
+    key = f"u:{it['id']}"
+    if key not in TIPS:
+        TIPS[key] = tips.unique_tip(it, SET_OF.get(it["id"]))
+        TIP_NAMES.setdefault(it["name"].lower(), key)
+    return key
+
+
+def tip_runeword(rw):
+    key = f"rw:{rw['id']}"
+    if key not in TIPS:
+        names = [(SOCK.get(r) or {}).get("name", r).replace(" Rune", "") for r in rw.get("runes", [])]
+        TIPS[key] = tips.runeword_tip(rw, names)
+        TIP_NAMES.setdefault(rw["name"].lower(), key)
+    return key
+
+
+def tip_socket(sid):
+    key = f"so:{sid}"
+    if key not in TIPS and SOCK.get(sid):
+        TIPS[key] = tips.socket_tip(SOCK[sid])
+    return key if key in TIPS else None
+
+
 def resolve_item(g):
     """Planner zapis predmeta → {name, q, img, runes, base, eth, corr}."""
     if not isinstance(g, dict) or not g.get("kind"):
@@ -106,6 +140,7 @@ def resolve_item(g):
             return None
         out.update(name=it["name"], q="u" if it["kind"] == "unique" else "s", img=img(it.get("image")),
                    req=it.get("reqLevel"), base=it.get("baseName"))
+        out["tip"] = tip_unique(it)
     elif kind == "runeword":
         rw = RW.get(g.get("id"))
         if not rw:
@@ -116,6 +151,9 @@ def resolve_item(g):
             runes.append({"name": s["name"].replace(" Rune", "") if s else rid, "img": img(s.get("image")) if s else None})
         bcode = g.get("base")
         out.update(name=rw["name"], q="r", runes=runes, base=base_name(bcode), img=base_img(bcode))
+        out["tip"] = tip_runeword(rw)
+        for r, rid in zip(out["runes"], rw.get("runes", [])):
+            r["tip"] = tip_socket(rid)
     elif kind == "preset":
         p = PRESET.get(g.get("id")) or CHARM.get(g.get("id"))
         if not p:
@@ -123,19 +161,27 @@ def resolve_item(g):
         rarity = p.get("rarity", "magic")
         q = {"magic": "m", "rare": "y", "crafted": "c", "unique": "u", "set": "s"}.get(rarity, "m")
         out.update(name=p["name"], q=q, img=img(p.get("image")), req=p.get("reqLevel"), base=p.get("baseName"))
+        key = f"p:{p['id']}"
+        if key not in TIPS:
+            TIPS[key] = tips.preset_tip(p, q)
+        out["tip"] = key
     elif kind == "custom":
         it = g.get("item") or {}
         q = {"magic": "m", "rare": "y", "crafted": "c", "unique": "u", "set": "s"}.get(it.get("quality"), "y")
         code = it.get("base")
         out.update(name=it.get("name") or base_name(code) or "Rare", q=q, base=base_name(code),
                    img=img(GENERIC_IMG.get(code)) or base_img(code))
+        key = "c:" + hashlib.sha1(json.dumps(it, sort_keys=True).encode()).hexdigest()[:12]
+        if key not in TIPS:
+            TIPS[key] = tips.custom_tip(it, q, base_name(code))
+        out["tip"] = key
     else:
         return None
     socks = {}
     for s in g.get("sockets") or []:
         so = SOCK.get(s.get("id"))
         if so:
-            rec = socks.setdefault(so["name"], {"name": so["name"], "img": img(so.get("image")), "n": 0})
+            rec = socks.setdefault(so["name"], {"name": so["name"], "img": img(so.get("image")), "n": 0, "tip": tip_socket(so["id"])})
             rec["n"] += 1
     if socks:
         out["sockets"] = list(socks.values())
@@ -153,7 +199,13 @@ def skill_info(cls, sid):
         return {"id": sid, "name": sid.replace("_", " ").title(), "req": None, "img": None}
     path = f"skills/{cls}/{s['name']}.png"
     syn = [SKILLS[(cls, x["skill"])]["name"] for x in s.get("synergies") or [] if (cls, x.get("skill")) in SKILLS]
-    return {"id": sid, "name": s["name"], "req": s.get("reqLevel"), "img": img(path), "syn": syn}
+    key = f"sk:{cls}:{sid}"
+    if key not in TIPS:
+        t = tips.skill_tip(cls, sid)
+        if t:
+            TIPS[key] = t
+    return {"id": sid, "name": s["name"], "req": s.get("reqLevel"), "img": img(path), "syn": syn,
+            "tip": key if key in TIPS else None}
 
 
 def resolve_planner(cls, content, label, title=None):
@@ -323,6 +375,20 @@ def main():
     json.dump(site, open(os.path.join(ROOT, "data", "site.json"), "w"), indent=1)
     json.dump(sorted(images), open(os.path.join(ROOT, "data", "images.json"), "w"), indent=1)
     json.dump(sorted(need_bases), open(os.path.join(ROOT, "data", "base_codes.json"), "w"), indent=1)
+    for it in UNIQ.values():
+        tip_unique(it)
+    for rw in RW.values():
+        tip_runeword(rw)
+    for c in CHARM.values():
+        if c.get("rarity") == "unique":
+            key = f"p:{c['id']}"
+            if key not in TIPS:
+                TIPS[key] = tips.preset_tip(c, "u")
+            TIP_NAMES.setdefault(c["name"].lower(), key)
+    os.makedirs(os.path.join(ROOT, "docs", "assets"), exist_ok=True)
+    json.dump(TIPS, open(os.path.join(ROOT, "docs", "assets", "tips.json"), "w"), separators=(",", ":"))
+    json.dump(TIP_NAMES, open(os.path.join(ROOT, "data", "tip_names.json"), "w"), indent=1)
+    print(f"tooltipov: {len(TIPS)}")
     n = sum(len(c["builds"]) for c in site["classes"])
     print(f"buildov: {n}, slik: {len(images)}")
     for c in site["classes"]:

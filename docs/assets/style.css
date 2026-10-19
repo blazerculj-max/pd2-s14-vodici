@@ -313,3 +313,37 @@ details.build > summary:focus-visible { outline: 2px solid var(--accent); outlin
 .our-guide[data-build="necro"] { --build: var(--b-necro); }
 .our-guide[data-build="wind"] { --build: var(--b-wind); }
 .our-guide { border-color: var(--build); }
+
+/* ===== tooltipi (enoten temni videz kot v igri, v obeh temah) ===== */
+[data-tip] { cursor: help; }
+.it[data-tip]:hover, .sk[data-tip]:hover { outline: 1px solid var(--accent); }
+[data-tip]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tt {
+  position: fixed; z-index: 50; max-width: min(360px, calc(100vw - 16px)); padding: 10px 14px;
+  background: rgba(8, 8, 7, 0.97); border: 1px solid #4a463a; color: #e8e4d8; text-align: center;
+  font-family: var(--font-body); font-size: 0.9rem; line-height: 1.35; pointer-events: none;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45); color-scheme: dark;
+}
+.tt.pinned { pointer-events: auto; border-color: #8a7a4a; }
+.tt div + div { margin-top: 1px; }
+.tt .tt-name { font-family: var(--font-display); font-weight: 700; font-size: 1rem; letter-spacing: 0.02em; }
+.tt .q-u { color: #c7b377; } .tt .q-s { color: #4fd34f; } .tt .q-r { color: #d9a44a; } .tt .q-m { color: #8b93ff; }
+.tt .q-y { color: #e8e05c; } .tt .q-c { color: #e8913a; } .tt .q-sk { color: #e8e4d8; }
+.tt .tt-base { color: #a8a294; }
+.tt .tt-runes { color: #d9a44a; font-family: var(--font-mono); font-size: 0.82rem; }
+.tt .tt-info { color: #c9c3b4; font-size: 0.84rem; margin-top: 4px; }
+.tt .tt-req { color: #e8e4d8; font-size: 0.84rem; margin-top: 2px; }
+.tt .tt-mods { color: #8b93ff; margin-top: 6px; }
+.tt .tt-set { color: #4fd34f; margin-top: 8px; border-top: 1px solid #2c2a23; padding-top: 6px; }
+.tt .tt-h { color: #a8a294; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 2px; }
+.tt .tt-desc { color: #e8e4d8; margin-top: 6px; font-size: 0.86rem; }
+.tt .tt-syn { margin-top: 8px; border-top: 1px solid #2c2a23; padding-top: 6px; color: #c9c3b4; text-align: left; }
+.tt .tt-syn .on { color: #8fca7c; }
+.tt .tt-pts { color: #a8a294; font-size: 0.8rem; }
+.tt .tt-syn .on .tt-pts { color: #8fca7c; }
+.tt .tt-inst { color: #a8a294; font-size: 0.84rem; margin-top: 6px; }
+.tt .tt-eth { color: #c9c3b4; }
+.tt .tt-corr { color: #e06a5a; }
+.stats13 .top span[data-tip] { border-bottom: 1px dotted var(--line); }
+span.item[data-tip], td[data-tip] { text-decoration: underline dotted; text-underline-offset: 3px; }
+.rn[data-tip] { cursor: help; }

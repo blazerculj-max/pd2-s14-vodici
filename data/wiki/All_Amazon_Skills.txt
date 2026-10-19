@@ -1,0 +1,11638 @@
+
+This page lists all Amazon skills & stats. Also see: Amazon Build Guides, Class Attributes, All Skills
+Attributes
+ | Attribute
+ | Level 1
+ | /Level
+ | /Point
+ | Strength
+ | 20
+ | 
+ | 
+ | Dexterity
+ | 25
+ | 
+ | 
+ |     • Attack Rating
+ | 95
+ | 
+ | +5
+ |     • Defense
+ | 6
+ | 
+ | +0.25
+ | Vitality
+ | 20
+ | 
+ | 
+ |     • Life
+ | 50
+ | +2
+ | +3
+ |     • Stamina
+ | 184
+ | +1
+ | +1
+ | Energy
+ | 15
+ | 
+ | 
+ |     • Mana
+ | 15
+ | +2
+ | +1.5
+Vanilla Attributes:
+84 stamina at level 1
++1.5 mana per level
+Individual skill tree pages:
+Javelin and Spear Skills
+Passive and Magic Skills
+Bow and Crossbow Skills
+Below is a compilation of all Amazon skills:
+## Contents
+1 Javelin and Spear Skills
+1.1 Jab
+1.2 Poison Javelin
+1.3 Javelin and Spear Mastery
+1.4 Power Strike
+1.5 Lightning Bolt
+1.6 Fend
+1.7 Charged Strike
+1.8 Plague Javelin
+1.9 Lightning Strike
+1.10 Lightning Fury
+2 Passive and Magic Skills
+2.1 Inner Sight
+2.2 Critical Strike
+2.3 Evade
+2.4 Slow Movement
+2.5 Pierce
+2.6 Dodge
+2.7 Decoy
+2.8 Penetrate
+2.9 Valkyrie
+3 Bow and Crossbow Skills
+3.1 Magic Arrow
+3.2 Multiple Shot
+3.3 Fire Arrow
+3.4 Cold Arrow
+3.5 Ice Arrow
+3.6 Guided Arrow
+3.7 Exploding Arrow
+3.8 Strafe
+3.9 Immolation Arrow
+3.10 Freezing Arrow
+Expand/Collapse All
+Javelin and Spear Skills[edit]
+## Jab[edit]
+Description: Attacks with a series of rapid thrusts using a javelin or spear class weapon
+Required Level: 1
+Required Skills: None
+Attacks One Target 3 Times
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 30
+ | 48
+ | 66
+ | 84
+ | 102
+ | 120
+ | 138
+ | 156
+ | 174
+ | 192
+ | 210
+ | 228
+ | 246
+ | 264
+ | 282
+ | 300
+ | 318
+ | 336
+ | 354
+ | 372
+ | 390
+ | 408
+ | 426
+ | 444
+ | 462
+ | 480
+ | 498
+ | 516
+ | 534
+ | 552
+ | 570
+ | 588
+ | 606
+ | 624
+ | 642
+ | 660
+ | 678
+ | 696
+ | 714
+ | 732
+ | 750
+ | 768
+ | 786
+ | 804
+ | 822
+ | 840
+ | 858
+ | 876
+ | 894
+ | 912
+ | 930
+ | 948
+ | 966
+ | 984
+ | 1002
+ | 1020
+ | 1038
+ | 1056
+ | 1074
+ | 1092
+ | Attack Rating +%
+ | 25
+ | 37
+ | 49
+ | 61
+ | 73
+ | 85
+ | 97
+ | 109
+ | 121
+ | 133
+ | 145
+ | 157
+ | 169
+ | 181
+ | 193
+ | 205
+ | 217
+ | 229
+ | 241
+ | 253
+ | 265
+ | 277
+ | 289
+ | 301
+ | 313
+ | 325
+ | 337
+ | 349
+ | 361
+ | 373
+ | 385
+ | 397
+ | 409
+ | 421
+ | 433
+ | 445
+ | 457
+ | 469
+ | 481
+ | 493
+ | 505
+ | 517
+ | 529
+ | 541
+ | 553
+ | 565
+ | 577
+ | 589
+ | 601
+ | 613
+ | 625
+ | 637
+ | 649
+ | 661
+ | 673
+ | 685
+ | 697
+ | 709
+ | 721
+ | 733
+ | Mana Cost
+ | 1.5
+ | 1.75
+ | 2
+ | 2.25
+ | 2.5
+ | 2.75
+ | 3
+ | 3.25
+ | 3.5
+ | 3.75
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+Jab Receives Bonuses From:
+Fend: +15% Damage per Level
+Changelog
+ | 
+Season 13:
+Enhanced damage per level reduced from +20% to +18%
+Synergies reduced from +18% to +15%
+Season 11:
+Attack animation speed increased by ~15%
+Season 9:
+Enhanced damage per level increased from 18% to 20%
+Synergies increased from 15% to 18%
+Season 8:
+Base damage bonus increased from 20% to 30%
+Damage per level increased from 14% to 18%
+Synergies increased from 12% to 14%
+Season 5:
+Jab damage per level reduced from 18% to 14%
+Season 4:
+Jab's fend synergy increased from 8% to 12%
+Jab damage increased from 15% per level to 18%
+Jab base damage increased from 15% to 20%
+Season 3:
+Jab attack rating per level reduced from 15% to 12%
+Season 1:
+attack rating buffed
+damage buffed
+starting mana cost reduced to 1.5 (was 2)
+now has Fend as an 8% synergy
+Vanilla Info
+## Poison Javelin[edit]
+Description: Magically enhances your javelin to leave a trail of poison clouds
+Required Level: 1
+Required Skills: None
+Poison Length: 1 Second
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Poison Damage (min)
+ | 2
+ | 4
+ | 6
+ | 9
+ | 11
+ | 13
+ | 16
+ | 18
+ | 25
+ | 32
+ | 39
+ | 46
+ | 53
+ | 60
+ | 67
+ | 74
+ | 88
+ | 102
+ | 116
+ | 131
+ | 145
+ | 159
+ | 187
+ | 215
+ | 243
+ | 271
+ | 299
+ | 327
+ | 384
+ | 440
+ | 496
+ | 552
+ | 609
+ | 665
+ | 721
+ | 777
+ | 834
+ | 890
+ | 946
+ | 1002
+ | 1059
+ | 1115
+ | 1171
+ | 1227
+ | 1284
+ | 1340
+ | 1396
+ | 1452
+ | 1509
+ | 1565
+ | 1621
+ | 1677
+ | 1734
+ | 1790
+ | 1846
+ | 1902
+ | 1959
+ | 2015
+ | 2071
+ | 2127
+ | Poison Damage (max)
+ | 5
+ | 7
+ | 10
+ | 12
+ | 15
+ | 17
+ | 19
+ | 22
+ | 29
+ | 37
+ | 44
+ | 51
+ | 58
+ | 66
+ | 73
+ | 80
+ | 95
+ | 110
+ | 124
+ | 139
+ | 154
+ | 168
+ | 198
+ | 227
+ | 256
+ | 286
+ | 315
+ | 344
+ | 403
+ | 461
+ | 520
+ | 579
+ | 637
+ | 696
+ | 754
+ | 813
+ | 871
+ | 930
+ | 989
+ | 1047
+ | 1106
+ | 1164
+ | 1223
+ | 1282
+ | 1340
+ | 1399
+ | 1457
+ | 1516
+ | 1575
+ | 1633
+ | 1692
+ | 1750
+ | 1809
+ | 1868
+ | 1926
+ | 1985
+ | 2043
+ | 2102
+ | 2161
+ | 2219
+ | Mana Cost
+ | 1.5
+ | 1.75
+ | 2
+ | 2.25
+ | 2.5
+ | 2.75
+ | 3
+ | 3.25
+ | 3.5
+ | 3.75
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+Poison Javelin Receives Bonuses From:
+Plague Javelin: +24% Poison Damage per Level
+Javelin and Spear Mastery: +24% Poison Damage per Level
+Changelog
+ | 
+Season 4:
+Poison Javelin missile hitbox size increased by 100%
+poison javelin synergy reduced from 25% to 24%
+Season 3:
+Increased poison javelin missile velocity by 25%
+Season 1:
+moved in the skill tree, requires level 1 (was 6)
+Deals damage over 1 second instead of over 8 seconds
+damage per second increased
+Now has Javelin and Spear Mastery as an additional synergy
+Synergies are now 25% (was 12%)
+Vanilla Info
+## Javelin and Spear Mastery[edit]
+Description: Increases damage and critical hit damage with javelin and spear class weapons
+Required Level: 6
+Required Skills: Jab [1]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 40
+ | 52
+ | 64
+ | 76
+ | 88
+ | 100
+ | 112
+ | 124
+ | 136
+ | 148
+ | 160
+ | 172
+ | 184
+ | 196
+ | 208
+ | 220
+ | 232
+ | 244
+ | 256
+ | 268
+ | 280
+ | 292
+ | 304
+ | 316
+ | 328
+ | 340
+ | 352
+ | 364
+ | 376
+ | 388
+ | 400
+ | 412
+ | 424
+ | 436
+ | 448
+ | 460
+ | 472
+ | 484
+ | 496
+ | 508
+ | 520
+ | 532
+ | 544
+ | 556
+ | 568
+ | 580
+ | 592
+ | 604
+ | 616
+ | 628
+ | 640
+ | 652
+ | 664
+ | 676
+ | 688
+ | 700
+ | 712
+ | 724
+ | 736
+ | 748
+ | Critical Strike Multiplier +%
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+Changelog
+ | 
+Season 13:
+No longer has critical strike
+Enhanced damage per level reduced from 15% to 12%
+Now has +% critical strike multiplier (Note: This is additive with the 200% (2x) critical strike multiplier)
+Season 9:
+Enhanced damage per level increased from 12% to 15%
+Season 8:
+Base enhanced damage bonus increased from 35% to 40%
+Damage per level increased from 10% to 12%
+Season 6:
+Javelin and spear mastery now properly apply to the throwing damage tooltip
+Season 1:
+replaced Impale, moved in the skill tree, requires level 6 (Impale was 12)
+New skill that adds bonus damage and critical strike chance for javelins and spears
+Vanilla Info for Impale
+## Power Strike[edit]
+Description: Adds lightning damage to attacks with javelin and spear class weapons
+Required Level: 6
+Required Skills: Jab [1]
+Nova Radius: 4.30 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | Lightning Damage (max)
+ | 1
+ | 4
+ | 7
+ | 10
+ | 13
+ | 16
+ | 19
+ | 22
+ | 27
+ | 32
+ | 37
+ | 42
+ | 47
+ | 52
+ | 57
+ | 62
+ | 75
+ | 88
+ | 101
+ | 114
+ | 127
+ | 140
+ | 162
+ | 184
+ | 206
+ | 228
+ | 250
+ | 272
+ | 304
+ | 336
+ | 368
+ | 400
+ | 432
+ | 464
+ | 496
+ | 528
+ | 560
+ | 592
+ | 624
+ | 656
+ | 688
+ | 720
+ | 752
+ | 784
+ | 816
+ | 848
+ | 880
+ | 912
+ | 944
+ | 976
+ | 1008
+ | 1040
+ | 1072
+ | 1104
+ | 1136
+ | 1168
+ | 1200
+ | 1232
+ | 1264
+ | 1296
+ | Nova Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | Nova Damage (max)
+ | 3
+ | 7
+ | 11
+ | 15
+ | 19
+ | 23
+ | 27
+ | 31
+ | 39
+ | 47
+ | 55
+ | 63
+ | 71
+ | 79
+ | 87
+ | 95
+ | 123
+ | 151
+ | 179
+ | 207
+ | 235
+ | 263
+ | 308
+ | 353
+ | 398
+ | 443
+ | 488
+ | 533
+ | 595
+ | 657
+ | 719
+ | 781
+ | 843
+ | 905
+ | 967
+ | 1029
+ | 1091
+ | 1153
+ | 1215
+ | 1277
+ | 1339
+ | 1401
+ | 1463
+ | 1525
+ | 1587
+ | 1649
+ | 1711
+ | 1773
+ | 1835
+ | 1897
+ | 1959
+ | 2021
+ | 2083
+ | 2145
+ | 2207
+ | 2269
+ | 2331
+ | 2393
+ | 2455
+ | 2517
+ | Attack Rating +%
+ | 20
+ | 32
+ | 44
+ | 56
+ | 68
+ | 80
+ | 92
+ | 104
+ | 116
+ | 128
+ | 140
+ | 152
+ | 164
+ | 176
+ | 188
+ | 200
+ | 212
+ | 224
+ | 236
+ | 248
+ | 260
+ | 272
+ | 284
+ | 296
+ | 308
+ | 320
+ | 332
+ | 344
+ | 356
+ | 368
+ | 380
+ | 392
+ | 404
+ | 416
+ | 428
+ | 440
+ | 452
+ | 464
+ | 476
+ | 488
+ | 500
+ | 512
+ | 524
+ | 536
+ | 548
+ | 560
+ | 572
+ | 584
+ | 596
+ | 608
+ | 620
+ | 632
+ | 644
+ | 656
+ | 668
+ | 680
+ | 692
+ | 704
+ | 716
+ | 728
+ | Mana Cost
+ | 2
+ | 2.1875
+ | 2.375
+ | 2.5625
+ | 2.75
+ | 2.9375
+ | 3.125
+ | 3.3125
+ | 3.5
+ | 3.6875
+ | 3.875
+ | 4.0625
+ | 4.25
+ | 4.4375
+ | 4.625
+ | 4.8125
+ | 5
+ | 5.1875
+ | 5.375
+ | 5.5625
+ | 5.75
+ | 5.9375
+ | 6.125
+ | 6.3125
+ | 6.5
+ | 6.6875
+ | 6.875
+ | 7.0625
+ | 7.25
+ | 7.4375
+ | 7.625
+ | 7.8125
+ | 8
+ | 8.1875
+ | 8.375
+ | 8.5625
+ | 8.75
+ | 8.9375
+ | 9.125
+ | 9.3125
+ | 9.5
+ | 9.6875
+ | 9.875
+ | 10.0625
+ | 10.25
+ | 10.4375
+ | 10.625
+ | 10.8125
+ | 11
+ | 11.1875
+ | 11.375
+ | 11.5625
+ | 11.75
+ | 11.9375
+ | 12.125
+ | 12.3125
+ | 12.5
+ | 12.6875
+ | 12.875
+ | 13.0625
+Power Strike Receives Bonuses From:
+Lightning Strike: +20% Lightning Damage per Level
+Lightning Strike: +20% Nova Lightning Damage per Level
+Lightning Bolt: +20% Lightning Damage per Level
+Lightning Bolt: +20% Nova Lightning Damage per Level
+Changelog
+ | 
+Season 7:
+Level 28+ scaling increased from 0-31 to 0-32
+Season 4:
+Power Strike nova aoe increased by 14%
+Season 2:
+damage tooltip now properly shows in the character screen
+increased base scaling by roughly ~15%
+increased radius by 50%
+Season 1:
+now also creates a lightning nova on attack
+damage scaling reduced
+removed Charged Strike & Lightning Fury synergies
+synergies are now 20% (was 10%)
+mana cost per level decreased
+Vanilla Info
+## Lightning Bolt[edit]
+Description: Magically converts your javelin into a bolt of lightning
+Required Level: 12
+Required Skills: Jab [1], Poison Javelin [1], Power Strike [6]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 15
+ | 18
+ | 21
+ | 24
+ | 27
+ | 30
+ | 33
+ | 36
+ | 41
+ | 46
+ | 51
+ | 56
+ | 61
+ | 66
+ | 74
+ | 82
+ | 90
+ | 98
+ | 106
+ | 114
+ | 125
+ | 136
+ | 147
+ | 158
+ | 169
+ | 180
+ | 191
+ | 202
+ | 213
+ | 224
+ | 235
+ | 246
+ | 257
+ | 268
+ | 279
+ | 290
+ | 301
+ | 312
+ | 323
+ | 334
+ | 345
+ | 356
+ | 367
+ | 378
+ | 389
+ | 400
+ | 411
+ | 422
+ | 433
+ | 444
+ | 455
+ | 466
+ | Lightning Damage (max)
+ | 40
+ | 52
+ | 64
+ | 76
+ | 88
+ | 100
+ | 112
+ | 124
+ | 150
+ | 176
+ | 202
+ | 228
+ | 254
+ | 280
+ | 306
+ | 332
+ | 386
+ | 440
+ | 494
+ | 548
+ | 602
+ | 656
+ | 738
+ | 820
+ | 902
+ | 984
+ | 1066
+ | 1148
+ | 1258
+ | 1368
+ | 1478
+ | 1588
+ | 1698
+ | 1808
+ | 1918
+ | 2028
+ | 2138
+ | 2248
+ | 2358
+ | 2468
+ | 2578
+ | 2688
+ | 2798
+ | 2908
+ | 3018
+ | 3128
+ | 3238
+ | 3348
+ | 3458
+ | 3568
+ | 3678
+ | 3788
+ | 3898
+ | 4008
+ | 4118
+ | 4228
+ | 4338
+ | 4448
+ | 4558
+ | 4668
+ | Mana Cost
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+100% Weapon Damage added to Skill Damage, and 100% of Physical Damage converted to Lightning Damage
+Lightning Bolt Receives Bonuses From:
+Power Strike: +15% Lightning Damage per Level
+Lightning Fury: +15% Lightning Damage per Level
+Changelog
+ | 
+Season 13:
+Base minimum damage increased from 1 to 5
+Levels 1-8 minimum damage scaling increased from 0 to 1
+Levels 8-16 minimum damage scaling increased from 0 to 3
+Levels 16-22 minimum damage scaling increased from 0 to 5
+Levels 22-28 minimum damage scaling increased from 0 to 8
+Levels 28+ minimum damage scaling increased from 0 to 11
+Season 11:
+Projectile hitbox size increased from 2 to 3
+Synergies increased from 14% to 15%
+Season 5:
+Lightning bolt now deals full weapon damage up from 3/4
+Season 2:
+increased synergies by 2%
+Season 1:
+prerequisites increased from 1 to 3 (now also requires Jab, Power Strike)
+damage scaling increased
+mana cost decreased
+removed Charged Strike & Lightning Strike synergies
+synergies are now 12% (was 3%)
+Vanilla Info
+## Fend[edit]
+Description: Attacks all adjacent targets
+Required Level: 18
+Required Skills: Jab [1], Javelin and Spear Mastery [6]
+Mana Cost: 5
+Attacks: 3
+Melee Splash Radius for Attacks 1/2/3: +20/40/60%
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 100
+ | 125
+ | 150
+ | 175
+ | 200
+ | 225
+ | 250
+ | 275
+ | 300
+ | 325
+ | 350
+ | 375
+ | 400
+ | 425
+ | 450
+ | 475
+ | 500
+ | 525
+ | 550
+ | 575
+ | 600
+ | 625
+ | 650
+ | 675
+ | 700
+ | 725
+ | 750
+ | 775
+ | 800
+ | 825
+ | 850
+ | 875
+ | 900
+ | 925
+ | 950
+ | 975
+ | 1000
+ | 1025
+ | 1050
+ | 1075
+ | 1100
+ | 1125
+ | 1150
+ | 1175
+ | 1200
+ | 1225
+ | 1250
+ | 1275
+ | 1300
+ | 1325
+ | 1350
+ | 1375
+ | 1400
+ | 1425
+ | 1450
+ | 1475
+ | 1500
+ | 1525
+ | 1550
+ | 1575
+ | Attack Rating +%
+ | 80
+ | 86
+ | 92
+ | 98
+ | 104
+ | 110
+ | 116
+ | 122
+ | 128
+ | 134
+ | 140
+ | 146
+ | 152
+ | 158
+ | 164
+ | 170
+ | 176
+ | 182
+ | 188
+ | 194
+ | 200
+ | 206
+ | 212
+ | 218
+ | 224
+ | 230
+ | 236
+ | 242
+ | 248
+ | 254
+ | 260
+ | 266
+ | 272
+ | 278
+ | 284
+ | 290
+ | 296
+ | 302
+ | 308
+ | 314
+ | 320
+ | 326
+ | 332
+ | 338
+ | 344
+ | 350
+ | 356
+ | 362
+ | 368
+ | 374
+ | 380
+ | 386
+ | 392
+ | 398
+ | 404
+ | 410
+ | 416
+ | 422
+ | 428
+ | 434
+Fend Receives Bonuses From:
+Jab: +20% Damage per Level
+Changelog
+ | 
+Season 13:
+Fixed splash bonus not applying
+Now applies +20%/40%/60% increased melee splash radius up from +0%/+20%/+40%
+Note: These bonuses never worked properly so this is the first season of them applying
+Season 9:
+Enhanced damage per level increased from 20% to 25%
+Synergies increased from 15% to 20%
+Season 7:
+Now gains +20% melee splash radius on it's second attack and +40% on it's third
+Synergies increased from 12% to 15%
+Season 4:
+Fend synergies increased from 8% to 12%
+Season 3:
+Fend base attack rating reduced from 160% to 80%
+Fend attack rating per level reduced from 10% to 6%
+Season 1:
+moved in the skill tree, requires level 18 (was 24)
+5 attacks instead of 10
+attack rating bonus increased
+damage bonus increased
+now has Jab as a synergy at 8%
+Vanilla Info
+## Charged Strike[edit]
+Description: Adds lightning damage to javelin and spear class weapons and releases charged bolts upon impact
+Required Level: 18
+Required Skills: Jab [1], Power Strike [6]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 31
+ | 33
+ | 35
+ | 37
+ | 40
+ | 43
+ | 46
+ | 49
+ | 52
+ | 55
+ | 59
+ | 63
+ | 67
+ | 71
+ | 75
+ | 79
+ | 83
+ | 87
+ | 91
+ | 95
+ | 99
+ | 103
+ | 107
+ | 111
+ | 115
+ | 119
+ | 123
+ | 127
+ | 131
+ | 135
+ | 139
+ | 143
+ | 147
+ | 151
+ | 155
+ | 159
+ | 163
+ | 167
+ | 171
+ | 175
+ | 179
+ | 183
+ | 187
+ | 191
+ | 195
+ | 199
+ | 203
+ | 207
+ | Lightning Damage (max)
+ | 40
+ | 52
+ | 64
+ | 76
+ | 88
+ | 100
+ | 112
+ | 124
+ | 140
+ | 156
+ | 172
+ | 188
+ | 204
+ | 220
+ | 236
+ | 252
+ | 272
+ | 292
+ | 312
+ | 332
+ | 352
+ | 372
+ | 396
+ | 420
+ | 444
+ | 468
+ | 492
+ | 516
+ | 544
+ | 572
+ | 600
+ | 628
+ | 656
+ | 684
+ | 712
+ | 740
+ | 768
+ | 796
+ | 824
+ | 852
+ | 880
+ | 908
+ | 936
+ | 964
+ | 992
+ | 1020
+ | 1048
+ | 1076
+ | 1104
+ | 1132
+ | 1160
+ | 1188
+ | 1216
+ | 1244
+ | 1272
+ | 1300
+ | 1328
+ | 1356
+ | 1384
+ | 1412
+ | Number of Bolts
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 9
+ | 
+9
+ | 
+9
+ | 10
+ | 
+10
+ | 
+10
+ | 11
+ | 
+11
+ | 
+11
+ | 12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | Mana Cost
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+Charged Bolts Pierce enemies.
+Charged Strike Receives Bonuses From:
+Power Strike: +8% Lightning Damage per Level
+Lightning Strike: +8% Lightning Damage per Level
+Changelog
+ | 
+Season 13:
+Base minimum damage increased from 1 to 7
+Levels 1-8 minimum damage scaling increased from 0 to 2
+Levels 8-16 minimum damage scaling increased from 0 to 2
+Levels 16-22 minimum damage scaling increased from 0 to 3
+Levels 22-28 minimum damage scaling increased from 0 to 4
+Levels 28+ minimum damage scaling increased from 0 to 4
+Season 11:
+Bolts now always pierce
+Note: It still shotguns
+Bolts velocity increased from 12 to 24
+Season 10:
+Now gains an additional charged bolt every 3 levels instead of every 5
+Maximum charged bolt count now caps at 12
+Lightning Fury synergy removed
+Power Strike synergy increased from 5% to 8%
+Lightning Strike synergy increased from 5% to 8%
+Season 5:
+Charged strike now fires 3 bolts at level 1 instead of 2 bolts
+Season 1:
+prerequisites reduced from 4 to 2 (no longer requires Poison Javelin, Lightning Bolt)
+now begins with 2 charged bolts released (was 3)
+deals 10 more maximum damage at all levels
+removed Lightning Bolt synergy
+synergies are now 5% (was 10%)
+Vanilla Info
+## Plague Javelin[edit]
+Description: Magically enhances your javelin to release expanding clouds of poison upon impact
+Required Level: 18
+Required Skills: Jab [1], Poison Javelin [1], Power Strike [6], Lightning Bolt [12]
+Poison Cloud Radius: ~6 Yards
+Poison Length: 3 Seconds
+Cooldown: 1 Second
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Poison Damage (min)
+ | 23
+ | 37
+ | 51
+ | 65
+ | 79
+ | 93
+ | 107
+ | 121
+ | 150
+ | 178
+ | 206
+ | 234
+ | 262
+ | 290
+ | 318
+ | 346
+ | 393
+ | 440
+ | 487
+ | 534
+ | 581
+ | 628
+ | 721
+ | 815
+ | 909
+ | 1003
+ | 1096
+ | 1190
+ | 1378
+ | 1565
+ | 1753
+ | 1940
+ | 2128
+ | 2315
+ | 2503
+ | 2690
+ | 2878
+ | 3065
+ | 3253
+ | 3440
+ | 3628
+ | 3815
+ | 4003
+ | 4190
+ | 4378
+ | 4565
+ | 4753
+ | 4940
+ | 5128
+ | 5315
+ | 5503
+ | 5690
+ | 5878
+ | 6065
+ | 6253
+ | 6440
+ | 6628
+ | 6815
+ | 7003
+ | 7190
+ | Poison Damage (max)
+ | 37
+ | 51
+ | 65
+ | 79
+ | 93
+ | 107
+ | 121
+ | 135
+ | 164
+ | 192
+ | 220
+ | 248
+ | 276
+ | 304
+ | 332
+ | 360
+ | 407
+ | 454
+ | 501
+ | 548
+ | 595
+ | 642
+ | 735
+ | 829
+ | 923
+ | 1017
+ | 1110
+ | 1204
+ | 1392
+ | 1579
+ | 1767
+ | 1954
+ | 2142
+ | 2329
+ | 2517
+ | 2704
+ | 2892
+ | 3079
+ | 3267
+ | 3454
+ | 3642
+ | 3829
+ | 4017
+ | 4204
+ | 4392
+ | 4579
+ | 4767
+ | 4954
+ | 5142
+ | 5329
+ | 5517
+ | 5704
+ | 5892
+ | 6079
+ | 6267
+ | 6454
+ | 6642
+ | 6829
+ | 7017
+ | 7204
+ | Attack Rating +%
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | 630
+ | 640
+ | Mana Cost
+ | 7
+ | 7.5
+ | 8
+ | 8.5
+ | 9
+ | 9.5
+ | 10
+ | 10.5
+ | 11
+ | 11.5
+ | 12
+ | 12.5
+ | 13
+ | 13.5
+ | 14
+ | 14.5
+ | 15
+ | 15.5
+ | 16
+ | 16.5
+ | 17
+ | 17.5
+ | 18
+ | 18.5
+ | 19
+ | 19.5
+ | 20
+ | 20.5
+ | 21
+ | 21.5
+ | 22
+ | 22.5
+ | 23
+ | 23.5
+ | 24
+ | 24.5
+ | 25
+ | 25.5
+ | 26
+ | 26.5
+ | 27
+ | 27.5
+ | 28
+ | 28.5
+ | 29
+ | 29.5
+ | 30
+ | 30.5
+ | 31
+ | 31.5
+ | 32
+ | 32.5
+ | 33
+ | 33.5
+ | 34
+ | 34.5
+ | 35
+ | 35.5
+ | 36
+ | 36.5
+Plague Javelin Receives Bonuses From:
+Poison Javelin: +12% Poison Damage per Level
+Javelin and Spear Mastery: +12% Poison Damage per Level
+Changelog
+ | 
+Season 11:
+Projectile hitbox size increased from 2 to 3
+Season 4:
+Plague Javelin missile hitbox size increased by 100%
+plague javelin synergies reduced from 14%/7% to 12%/6%
+Season 3:
+Increase plague javelin range by roughly 30%
+Increased plague javelin missile velocity by 25%
+Season 1:
+prerequisites increased from 2 to 4 (now also requires Jab, Power Strike)
+attack rating bonus increased
+damage scaling reduced
+synergy from Poison Javelin is now 14% (was 10%)
+now has Javelin and Spear Mastery as an additional synergy at 7%
+Vanilla Info
+## Lightning Strike[edit]
+Description: Adds lightning damage to javelin and spear class weapons and releases chain lightning upon impact
+Required Level: 30
+Required Skills: Jab [1], Power Strike [6], Charged Strike [18]
+Chain Distance: 10.66 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 6
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 24
+ | 28
+ | 32
+ | 36
+ | 40
+ | 44
+ | 48
+ | 52
+ | 59
+ | 66
+ | 73
+ | 80
+ | 87
+ | 94
+ | 105
+ | 116
+ | 127
+ | 138
+ | 149
+ | 160
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 265
+ | 280
+ | 295
+ | 310
+ | 325
+ | 340
+ | 355
+ | 370
+ | 385
+ | 400
+ | 415
+ | 430
+ | 445
+ | 460
+ | 475
+ | 490
+ | 505
+ | 520
+ | 535
+ | 550
+ | 565
+ | 580
+ | 595
+ | 610
+ | 625
+ | 640
+ | Lightning Damage (max)
+ | 25
+ | 35
+ | 45
+ | 55
+ | 65
+ | 75
+ | 85
+ | 95
+ | 115
+ | 135
+ | 155
+ | 175
+ | 195
+ | 215
+ | 235
+ | 255
+ | 290
+ | 325
+ | 360
+ | 395
+ | 430
+ | 465
+ | 520
+ | 575
+ | 630
+ | 685
+ | 740
+ | 795
+ | 870
+ | 945
+ | 1020
+ | 1095
+ | 1170
+ | 1245
+ | 1320
+ | 1395
+ | 1470
+ | 1545
+ | 1620
+ | 1695
+ | 1770
+ | 1845
+ | 1920
+ | 1995
+ | 2070
+ | 2145
+ | 2220
+ | 2295
+ | 2370
+ | 2445
+ | 2520
+ | 2595
+ | 2670
+ | 2745
+ | 2820
+ | 2895
+ | 2970
+ | 3045
+ | 3120
+ | 3195
+ | Number of Chains per Bolt
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | Mana Cost
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | 19
+ | 19.25
+ | 19.5
+ | 19.75
+ | 20
+ | 20.25
+ | 20.5
+ | 20.75
+Lightning Strike Receives Bonuses From:
+Power Strike: +8% Lightning Damage per Level
+Charged Strike: +8% Lightning Damage per Level
+Changelog
+ | 
+Season 13:
+Base minimum damage increased from 1 to 6
+Levels 1-8 minimum damage scaling increased from 0 to 2
+Levels 8-16 minimum damage scaling increased from 0 to 4
+Levels 16-22 minimum damage scaling increased from 0 to 7
+Levels 22-28 minimum damage scaling increased from 0 to 11
+Levels 28+ minimum damage scaling increased from 0 to 15
+Season 10:
+Synergies reduced from 9% to 8%
+Season 9:
+Synergies reduced from 10% to 9%
+Season 7:
+Chain range reduced from 20 to 16
+Hits reduced from 12 to 10
+Synergies reduced from 12% to 10%
+Season 3:
+Lightning strike synergy reduced from 14% to 12%
+Season 1:
+prerequisites reduced from 5 to 3 (no longer requires Poison Javelin, Lightning Bolt)
+now begins with more hits and gains fewer additional hits per level
+damage scaling increased
+mana cost now begins lower and increases per level
+removed Lighting Bolt & Lightning Fury synergies
+synergies are now 14% (was 8%)
+Vanilla Info
+## Lightning Fury[edit]
+Description: Changes a thrown javelin into a powerful bolt of lightning that splits on impact
+Required Level: 30
+Required Skills: Jab [1], Poison Javelin [1], Power Strike [6], Lightning Bolt [12], Plague Javelin [18]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 53
+ | 56
+ | 59
+ | 62
+ | 65
+ | 68
+ | 71
+ | 74
+ | 77
+ | 80
+ | 83
+ | 86
+ | 89
+ | 92
+ | 95
+ | 98
+ | 101
+ | 104
+ | 107
+ | 110
+ | 113
+ | 116
+ | 119
+ | 122
+ | 125
+ | 128
+ | 131
+ | 134
+ | 137
+ | 140
+ | 143
+ | 146
+ | Lightning Damage (max)
+ | 65
+ | 73
+ | 81
+ | 89
+ | 97
+ | 105
+ | 113
+ | 121
+ | 130
+ | 139
+ | 148
+ | 157
+ | 166
+ | 175
+ | 184
+ | 193
+ | 203
+ | 213
+ | 223
+ | 233
+ | 243
+ | 253
+ | 264
+ | 275
+ | 286
+ | 297
+ | 308
+ | 319
+ | 331
+ | 343
+ | 355
+ | 367
+ | 379
+ | 391
+ | 403
+ | 415
+ | 427
+ | 439
+ | 451
+ | 463
+ | 475
+ | 487
+ | 499
+ | 511
+ | 523
+ | 535
+ | 547
+ | 559
+ | 571
+ | 583
+ | 595
+ | 607
+ | 619
+ | 631
+ | 643
+ | 655
+ | 667
+ | 679
+ | 691
+ | 703
+ | Maximum Number of Bolts
+ | 10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 11
+ | 
+11
+ | 
+11
+ | 
+11
+ | 
+11
+ | 12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 13
+ | 
+13
+ | 
+13
+ | 
+13
+ | 
+13
+ | 14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 15
+ | 
+15
+ | 
+15
+ | 
+15
+ | 
+15
+ | 16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 17
+ | 
+17
+ | 
+17
+ | 
+17
+ | 
+17
+ | 18
+ | 
+18
+ | 
+18
+ | 
+18
+ | 
+18
+ | 19
+ | 
+19
+ | 
+19
+ | 
+19
+ | 
+19
+ | 20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 21
+ | 
+21
+ | 
+21
+ | 
+21
+ | 
+21
+ | 22
+ | Mana Cost
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | 19
+ | 19.25
+ | 19.5
+ | 19.75
+100% Weapon Damage added to primary Bolt (not secondary Bolts)
+Lightning Fury releases one secondary Bolt upon impact with an enemy, and one additional Bolt targeting each other enemy within 10 Yards, up to (Maximum Number of Bolts).
+Lightning Fury's primary projectile releases its Bolts upon every impact with an enemy (and has no Next Hit Delay), making Pierce Chance particularly valuable for this skill. Secondary Bolts always Pierce.
+Lightning Fury Receives Bonuses From:
+Power Strike: +3% Lightning Damage per Level
+Lightning Bolt: +3% Lightning Damage per Level
+Changelog
+ | 
+Season 13:
+Base minimum damage increased from 1 to 14
+Levels 1-8 minimum damage scaling increased from 0 to 2
+Levels 8-16 minimum damage scaling increased from 0 to 2
+Levels 16-22 minimum damage scaling increased from 0 to 2
+Levels 22-28 minimum damage scaling increased from 0 to 2
+Levels 28+ minimum damage scaling increased from 0 to 3
+Season 12:
+Pierce limit increased from 4 to 6
+Season 9:
+Synergies increased from 2% to 3%
+Season 7:
+Changed from gaining a bolt every 5 base levels to every 5 soft
+Season 4:
+Lightning Fury now gains an additional bolt every 5 base levels instead of every 10 soft levels
+Lightning Fury now starts with 60 damage at level 1 instead of 40
+lightning fury scaling reduced from 14/15/16/17/18 per level to 8/9/10/11/12
+Season 3:
+Lightning Fury's level 8+ damage per level reduced by 1
+Lightning Fury now gains an additional bolt every 10 soft levels
+Season 2:
+mana cost reduced by 50%
+Season 1:
+prerequisites increased from 3 to 5 (now also requires Jab, Power Strike)
+releases 10 bolts instead of the amount scaling per level
+damage scaling reduced
+mana cost reduced
+removed Charged Strike & Lightning Strike synergies
+synergies are now 2% (was 1%)
+Vanilla Info
+Passive and Magic Skills[edit]
+## Inner Sight[edit]
+Description: Illuminates nearby enemies, making them easier to hit for you and your party
+Required Level: 1
+Required Skills: None
+Tag: Magic Skill
+Mana Cost: 5
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Enemy Defense
+ | -40
+ | -65
+ | -90
+ | -115
+ | -140
+ | -165
+ | -190
+ | -215
+ | -260
+ | -305
+ | -350
+ | -395
+ | -440
+ | -485
+ | -530
+ | -575
+ | -635
+ | -695
+ | -755
+ | -815
+ | -875
+ | -935
+ | -1015
+ | -1095
+ | -1175
+ | -1255
+ | -1335
+ | -1415
+ | -1515
+ | -1615
+ | -1715
+ | -1815
+ | -1915
+ | -2015
+ | -2115
+ | -2215
+ | -2315
+ | -2415
+ | -2515
+ | -2615
+ | -2715
+ | -2815
+ | -2915
+ | -3015
+ | -3115
+ | -3215
+ | -3315
+ | -3415
+ | -3515
+ | -3615
+ | -3715
+ | -3815
+ | -3915
+ | -4015
+ | -4115
+ | -4215
+ | -4315
+ | -4415
+ | -4515
+ | -4615
+ | Enemy Attack Rating %
+ | -10
+ | -11
+ | -12
+ | -13
+ | -14
+ | -15
+ | -16
+ | -17
+ | -18
+ | -19
+ | -20
+ | -21
+ | -22
+ | -23
+ | -24
+ | -25
+ | -26
+ | -27
+ | -28
+ | -29
+ | -30
+ | -31
+ | -32
+ | -33
+ | -34
+ | -35
+ | -36
+ | -37
+ | -38
+ | -39
+ | -40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | 
+-40
+ | Radius (yards)
+ | 6.66
+ | 7.33
+ | 8
+ | 8.66
+ | 9.33
+ | 10
+ | 10.66
+ | 11.33
+ | 12
+ | 12.66
+ | 13.33
+ | 14
+ | 14.66
+ | 15.33
+ | 16
+ | 16.66
+ | 17.33
+ | 18
+ | 18.66
+ | 19.33
+ | 20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | Duration (seconds)
+ | 8
+ | 12
+ | 16
+ | 20
+ | 24
+ | 28
+ | 32
+ | 36
+ | 40
+ | 44
+ | 48
+ | 52
+ | 56
+ | 60
+ | 64
+ | 68
+ | 72
+ | 76
+ | 80
+ | 84
+ | 88
+ | 92
+ | 96
+ | 100
+ | 104
+ | 108
+ | 112
+ | 116
+ | 120
+ | 124
+ | 128
+ | 132
+ | 136
+ | 140
+ | 144
+ | 148
+ | 152
+ | 156
+ | 160
+ | 164
+ | 168
+ | 172
+ | 176
+ | 180
+ | 184
+ | 188
+ | 192
+ | 196
+ | 200
+ | 204
+ | 208
+ | 212
+ | 216
+ | 220
+ | 224
+ | 228
+ | 232
+ | 236
+ | 240
+ | 244
+On Casting Sources: Ondal's Wisdom (20% cast level 20)
+Changelog
+ | 
+Season 5:
+Inner Sight radius cap increased from 18 yards to 20
+Inner Sight level 1 -1% to enemy attack rating increased to -10%
+Season 2:
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+now also reduces enemy attack rating by 1% per level
+radius begins at 6.6 yards and scales up to 18 yards (was always 13.3 yards)
+Vanilla Info
+## Critical Strike[edit]
+Description: Passive - Your attacks have a chance to deal 2x damage
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Critical Strike +%
+ | 15
+ | 23
+ | 30
+ | 35
+ | 40
+ | 43
+ | 46
+ | 48
+ | 51
+ | 52
+ | 54
+ | 56
+ | 57
+ | 58
+ | 59
+ | 61
+ | 
+61
+ | 62
+ | 63
+ | 
+63
+ | 64
+ | 65
+ | 
+65
+ | 66
+ | 
+66
+ | 67
+ | 68
+ | 
+68
+ | 
+68
+ | 
+68
+ | 69
+ | 
+69
+ | 70
+ | 
+70
+ | 
+70
+ | 
+70
+ | 
+70
+ | 71
+ | 
+71
+ | 
+71
+ | 
+71
+ | 72
+ | 
+72
+ | 
+72
+ | 
+72
+ | 
+72
+ | 
+72
+ | 
+72
+ | 73
+ | 
+73
+ | 
+73
+ | 
+73
+ | 
+73
+ | 74
+ | 
+74
+ | 
+74
+ | 
+74
+ | 
+74
+ | 
+74
+ | 75
+Changelog
+ | 
+Season 13:
+1.5x base damage modifier increased to 2x
+Season 4:
+Critical Strike now caps at 75% instead of 80%
+Critical Strikes now deal 50% more damage instead of 100% more damage
+Season 1:
+no changes
+Vanilla Info
+## Evade[edit]
+Description: Passive - You move faster and have a chance to dodge a melee or missile attack when walking or running
+Required Level: 6
+Required Skills: None
+Internal Cooldown: 0.16 Seconds (4 frames)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Movement Speed +%
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 31
+ | 33
+ | 35
+ | 37
+ | 39
+ | 41
+ | 43
+ | 45
+ | 47
+ | 49
+ | 51
+ | 53
+ | 55
+ | 57
+ | 59
+ | 61
+ | 63
+ | 65
+ | 67
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 79
+ | 80
+ | 81
+ | 82
+ | 83
+ | 84
+ | 85
+ | 86
+ | 87
+ | 88
+ | 89
+ | 90
+ | 91
+ | 92
+ | 93
+ | 94
+ | 95
+ | 96
+ | 97
+ | 98
+ | 99
+ | 100
+ | 101
+ | Evade Chance +%
+ | 6
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+ | 
+40
+Above values have been verified from the game files - Skill Description is incorrect.
+Changelog
+ | 
+Season 13
++% Movement speed bonus is no longer capped at 65%
+Now gains +1% movement speed bonus per level at level 28+
+Season 11:
+Tooltip now includes the 0.16 second cooldown between successful dodges
+Season 7:
+The passive movement speed bonus now works properly
+Season 5:
+Now have a 4 frame cooldown after mitigating an attack
+Evade movement speed bonus changed from a diminishing return scaling capping at 45% to gaining an additional 2% per level capping at 65%
+Evade level 1 movement speed bonus increased from 10% to 15%
+Season 4:
+Evade now starts at 6% chance to dodge from 10%
+Season 1:
+moved in the skill tree, requires level 6 (was 24)
+prerequisites reduced from 2 to 0 (no longer requires Dodge, Avoid)
+reduced dodge chance
+scaling FRW added
+Vanilla Info
+## Slow Movement[edit]
+Description: Illuminates nearby enemies and slows their ranged attacks and movement
+Required Level: 12
+Required Skills: Inner Sight [1]
+Tag: Magic Skill
+Mana Cost: 5
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Enemy Movement Speed %
+ | -20
+ | -22
+ | -24
+ | -26
+ | -28
+ | -30
+ | -32
+ | -34
+ | -36
+ | -38
+ | -40
+ | -42
+ | -44
+ | -46
+ | -48
+ | -50
+ | -52
+ | -54
+ | -56
+ | -58
+ | -60
+ | -62
+ | -64
+ | -65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | 
+-65
+ | Enemy Missile Speed %
+ | -25
+ | -27
+ | -29
+ | -31
+ | -33
+ | -35
+ | -37
+ | -39
+ | -41
+ | -43
+ | -45
+ | -47
+ | -49
+ | -51
+ | -53
+ | -55
+ | -56
+ | -57
+ | -58
+ | -59
+ | -60
+ | -61
+ | -62
+ | -63
+ | -64
+ | -65
+ | -66
+ | -67
+ | -68
+ | -69
+ | -70
+ | -71
+ | -72
+ | -73
+ | -74
+ | -75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | 
+-75
+ | Radius (yards)
+ | 12
+ | 12.66
+ | 13.33
+ | 14
+ | 14.66
+ | 15.33
+ | 16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | 
+16
+ | Duration (seconds)
+ | 10
+ | 10.2
+ | 10.4
+ | 10.6
+ | 10.8
+ | 11
+ | 11.2
+ | 11.4
+ | 11.6
+ | 11.8
+ | 12
+ | 12.2
+ | 12.4
+ | 12.6
+ | 12.8
+ | 13
+ | 13.2
+ | 13.4
+ | 13.6
+ | 13.8
+ | 14
+ | 14.2
+ | 14.4
+ | 14.6
+ | 14.8
+ | 15
+ | 15.2
+ | 15.4
+ | 15.6
+ | 15.8
+ | 16
+ | 16.2
+ | 16.4
+ | 16.6
+ | 16.8
+ | 17
+ | 17.2
+ | 17.4
+ | 17.6
+ | 17.8
+ | 18
+ | 18.2
+ | 18.4
+ | 18.6
+ | 18.8
+ | 19
+ | 19.2
+ | 19.4
+ | 19.6
+ | 19.8
+ | 20
+ | 20.2
+ | 20.4
+ | 20.6
+ | 20.8
+ | 21
+ | 21.2
+ | 21.4
+ | 21.6
+ | 21.8
+Slow Movement slows enemy projectile speed, not Attack speed.
+When Struck Sources: Peace (8% cast level 12)
+On Casting Sources: Chromatic Ire (10% cast level 6)
+Changelog
+ | 
+Season 5:
+Slow movement movement speed reduction per level increased from 1% to 2%
+Slow movement missile speed reduction level 1-16 scaling increased from 1% per level to 2%
+Slow movement radius cap increased from 12 yards to 16
+Slow movement radius now increases by .6 per level
+Slow movement base duration increased from 5 seconds to 10 seconds
+Slow movement now gains .2 seconds duration per level
+Season 2:
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+renamed from Slow Missiles
+now also slows enemy movement speed
+slows ranged attacks to 75% and scales by 1% per level (was always 33%)
+duration reduced to 5 seconds (was 6 + 6 per level)
+Vanilla Info for Slow Missiles
+## Pierce[edit]
+Description: Passive - Your missiles have a chance to pass through enemies that they hit
+Required Level: 12
+Required Skills: Critical Strike [1]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Pierce Chance +%
+ | 20
+ | 22
+ | 24
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 52
+ | 54
+ | 56
+ | 58
+ | 60
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 79
+ | 80
+ | 81
+ | 82
+ | 83
+ | 84
+ | 85
+ | 86
+ | 87
+ | 88
+ | 89
+ | 90
+ | 91
+ | 92
+ | 93
+ | 94
+ | 95
+ | 96
+ | 97
+ | 98
+ | 99
+ | 100
+Changelog
+ | 
+Season 11:
+Base pierce chance reduced from 30% to 20%
+Level 1-8 +% pierce per level reduced from 3% to 2%
+Season 6:
+Pierce scaling reworked from a diminishing return scaling going from 10 to 100 into the following
+Pierce base chance increased from 23% to 30%
+Pierce level 1-8 scaling reworked to 3% per level
+Pierce level 8-22 scaling reworked to 2% per level
+Pierce level 22+ scaling reworked to 1% per level
+Season 1:
+moved in the skill tree, requires level 12 (was 30)
+prerequisites reduced from 2 to 1 (no longer requires Penetrate)
+Vanilla Info
+## Dodge[edit]
+Description: Passive - You recover faster from attacks and have a chance to dodge a melee or ranged attack when attacking or standing still
+Required Level: 18
+Required Skills: Inner Sight [1], Evade [6], Slow Movement [12]
+Internal Cooldown: 0.16 Seconds (4 frames)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Dodge Chance +%
+ | 6
+ | 11
+ | 15
+ | 18
+ | 20
+ | 22
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 
+31
+ | 32
+ | 
+32
+ | 
+32
+ | 33
+ | 
+33
+ | 34
+ | 
+34
+ | 
+34
+ | 35
+ | 
+35
+ | 36
+ | 
+36
+ | 
+36
+ | 
+36
+ | 
+36
+ | 
+36
+ | 
+36
+ | 37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 40
+ | Faster Hit Recovery +%
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+Dodge combines both effects of the "Dodge" and "Avoid" Skills from Lord of Destruction.
+Changelog
+ | 
+Undocumented change:
+FHR scales with soft points instead of hard points
+Season 11:
+Tooltip now includes the 0.16 second cooldown between successful dodges
+Season 6:
+Dodge now display its faster hit recovery bonus value in its tooltip
+Season 5:
+Now have a 4 frame cooldown after mitigating an attack
+Season 4:
+Dodge now starts at 6% chance to dodge from 10%
+Season 1:
+merged with Avoid (works against missile attacks as well as melee attacks)
+moved in the skill tree, requires level 18 (was 6)
+prerequisites increased from 0 to 3 (now requires Inner Sight, Slow Movement, Evade)
+reduced dodge chance
+now also grants bonus FHR per hard point
+removed animation
+Vanilla Info
+## Decoy[edit]
+Description: Creates a duplicate of yourself that fires arrows at nearby enemies
+Required Level: 18
+Required Skills: Inner Sight [1], Slow Movement [12]
+Tag: Magic Skill
+Duration: 30 Seconds
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Physical Damage (min)
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 26
+ | 28
+ | 33
+ | 38
+ | 43
+ | 48
+ | 53
+ | 58
+ | 63
+ | 68
+ | 76
+ | 84
+ | 92
+ | 100
+ | 108
+ | 116
+ | 128
+ | 140
+ | 152
+ | 164
+ | 176
+ | 188
+ | 205
+ | 222
+ | 239
+ | 256
+ | 273
+ | 290
+ | 307
+ | 324
+ | 341
+ | 358
+ | 375
+ | 392
+ | 409
+ | 426
+ | 443
+ | 460
+ | 477
+ | 494
+ | 511
+ | 528
+ | 545
+ | 562
+ | 579
+ | 596
+ | 613
+ | 630
+ | 647
+ | 664
+ | 681
+ | 698
+ | 715
+ | 732
+ | Physical Damage (max)
+ | 18
+ | 22
+ | 26
+ | 30
+ | 34
+ | 38
+ | 42
+ | 46
+ | 53
+ | 60
+ | 67
+ | 74
+ | 81
+ | 88
+ | 95
+ | 102
+ | 112
+ | 122
+ | 132
+ | 142
+ | 152
+ | 162
+ | 176
+ | 190
+ | 204
+ | 218
+ | 232
+ | 246
+ | 265
+ | 284
+ | 303
+ | 322
+ | 341
+ | 360
+ | 379
+ | 398
+ | 417
+ | 436
+ | 455
+ | 474
+ | 493
+ | 512
+ | 531
+ | 550
+ | 569
+ | 588
+ | 607
+ | 626
+ | 645
+ | 664
+ | 683
+ | 702
+ | 721
+ | 740
+ | 759
+ | 778
+ | 797
+ | 816
+ | 835
+ | 854
+ | Attack Rating
+ | 250
+ | 300
+ | 350
+ | 400
+ | 450
+ | 500
+ | 550
+ | 600
+ | 650
+ | 700
+ | 750
+ | 800
+ | 850
+ | 900
+ | 950
+ | 1000
+ | 1050
+ | 1100
+ | 1150
+ | 1200
+ | 1250
+ | 1300
+ | 1350
+ | 1400
+ | 1450
+ | 1500
+ | 1550
+ | 1600
+ | 1650
+ | 1700
+ | 1750
+ | 1800
+ | 1850
+ | 1900
+ | 1950
+ | 2000
+ | 2050
+ | 2100
+ | 2150
+ | 2200
+ | 2250
+ | 2300
+ | 2350
+ | 2400
+ | 2450
+ | 2500
+ | 2550
+ | 2600
+ | 2650
+ | 2700
+ | 2750
+ | 2800
+ | 2850
+ | 2900
+ | 2950
+ | 3000
+ | 3050
+ | 3100
+ | 3150
+ | 3200
+ | Life
+ | 300
+ | 345
+ | 390
+ | 435
+ | 480
+ | 525
+ | 570
+ | 615
+ | 660
+ | 705
+ | 750
+ | 795
+ | 840
+ | 885
+ | 930
+ | 975
+ | 1020
+ | 1065
+ | 1110
+ | 1155
+ | 1200
+ | 1245
+ | 1290
+ | 1335
+ | 1380
+ | 1425
+ | 1470
+ | 1515
+ | 1560
+ | 1605
+ | 1650
+ | 1695
+ | 1740
+ | 1785
+ | 1830
+ | 1875
+ | 1920
+ | 1965
+ | 2010
+ | 2055
+ | 2100
+ | 2145
+ | 2190
+ | 2235
+ | 2280
+ | 2325
+ | 2370
+ | 2415
+ | 2460
+ | 2505
+ | 2550
+ | 2595
+ | 2640
+ | 2685
+ | 2730
+ | 2775
+ | 2820
+ | 2865
+ | 2910
+ | 2955
+ | All Resistances %
+ | 5
+ | 10
+ | 15
+ | 20
+ | 25
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 
+85
+ | Mana Cost
+ | 5
+ | 5.5
+ | 6
+ | 6.5
+ | 7
+ | 7.5
+ | 8
+ | 8.5
+ | 9
+ | 9.5
+ | 10
+ | 10.5
+ | 11
+ | 11.5
+ | 12
+ | 12.5
+ | 13
+ | 13.5
+ | 14
+ | 14.5
+ | 15
+ | 15.5
+ | 16
+ | 16.5
+ | 17
+ | 17.5
+ | 18
+ | 18.5
+ | 19
+ | 19.5
+ | 20
+ | 20.5
+ | 21
+ | 21.5
+ | 22
+ | 22.5
+ | 23
+ | 23.5
+ | 24
+ | 24.5
+ | 25
+ | 25.5
+ | 26
+ | 26.5
+ | 27
+ | 27.5
+ | 28
+ | 28.5
+ | 29
+ | 29.5
+ | 30
+ | 30.5
+ | 31
+ | 31.5
+ | 32
+ | 32.5
+ | 33
+ | 33.5
+ | 34
+ | 34.5
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Number of Decoys
+ | 1
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 3
+Other Attributes
+ | 
+ | Attribute
+ | Normal
+ | Nightmare
+ | Hell
+ | Physical Resist
+ | 40
+ | 40
+ | 40
+ | Magic Resist
+ | 0
+ | 0
+ | 0
+ | Base Defense
+ | 200
+ | Arrow Range
+ | 20.66 Yards
+ | Life Regen
+ | 1.2% per second
+ | AI Delay
+ | 0.08 seconds (2 frames)
+Decoy Receives Bonuses From:
+Strafe: +10% Damage per Level
+Valkyrie: +10% Damage per Level
+Critical Strike
+Pierce
+Penetrate
+Note: Decoys are given your Hard Level of Critical Strike, Pierce, and Penetrate and receive those Skills' full effects.
+Changelog
+ | 
+Season 13:
+Base damage reduced from 35-50 to 14-18
+Level 1-8 damage scaling reduced from 4-6 to 2-4
+Level 8-16 damage scaling reduced from 6-8 to 5-7
+Level 16-22 damage scaling reduced from 9-11 to 8-10
+Level 28+ damage scaling increased from 15-17 to 17-19
+Note: Decoy also benefits from critical strike modifier being increased from 1.5x to 2x
+Season 10:
+Fixed a bug that was causing stats to not properly apply (e.g. Critical Strike, etc)
+Season 8:
+Lowered the threat of decoys (decoys will now have similar aggro to mercenaries)
+Season 6:
+Decoy now properly benefits from critical strike (bugged, crit and DS do not work)
+Decoy now properly benefits from penetrate
+Decoy now properly benefits from pierce
+Season 5:
+Decoy missile range increased by 10%
+Decoy Ai delay reduced by 20% (will now attempt actions more often)
+Decoy duration increased from 15 seconds to 30 seconds
+Decoy synergies increased from 8% to 10%
+Decoy level 1 mana cost reduced from 10 to 5
+Season 4:
+Decoy has been reworked to now cast strafe dealing flat physical damage and functions similar to a trap (this damage scales from +skills not weapon damage however decoys can benefit from auras)
+Now has synergies
+Season 2:
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+moved in the skill tree, requires level 18 (was 24)
+life bonus begins at 10% (was 55%) and gains 10% per level (was 5%)
+Vanilla Info
+## Penetrate[edit]
+Description: Passive - Increases your attack rating and lowers target physical resistance
+Required Level: 24
+Required Skills: Critical Strike [1], Pierce [12]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Attack Rating +%
+ | 35
+ | 45
+ | 55
+ | 65
+ | 75
+ | 85
+ | 95
+ | 105
+ | 115
+ | 125
+ | 135
+ | 145
+ | 155
+ | 165
+ | 175
+ | 185
+ | 195
+ | 205
+ | 215
+ | 225
+ | 235
+ | 245
+ | 255
+ | 265
+ | 275
+ | 285
+ | 295
+ | 305
+ | 315
+ | 325
+ | 335
+ | 345
+ | 355
+ | 365
+ | 375
+ | 385
+ | 395
+ | 405
+ | 415
+ | 425
+ | 435
+ | 445
+ | 455
+ | 465
+ | 475
+ | 485
+ | 495
+ | 505
+ | 515
+ | 525
+ | 535
+ | 545
+ | 555
+ | 565
+ | 575
+ | 585
+ | 595
+ | 605
+ | 615
+ | 625
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Physical Resistance Pierce %
+ | 0
+ | 0
+ | -1
+ | 
+-1
+ | -2
+ | 
+-2
+ | -3
+ | 
+-3
+ | -4
+ | 
+-4
+ | -5
+ | 
+-5
+ | -6
+ | 
+-6
+ | -7
+ | 
+-7
+ | -8
+ | 
+-8
+ | -9
+ | 
+-9
+ | -10
+Penetrate does not break Physical Immunity. See Reducing Resistances for more information.
+Changelog
+ | 
+Season 11:
+-2% to enemy target defense per base level removed
+Added -1% to enemy physical resistance per 2 base levels
+Season 9:
+Target defense per hard point increased from -1% to -2%
+Season 1:
+moved in the skill tree, requires level 24 (was 18)
+prerequisites increased from 1 to 2 (now also requires Pierce)
+now also reduces enemy defense % (begins at 5% and scales by 1% per hard point)
+Vanilla Info
+## Valkyrie[edit]
+Description: Summons a powerful Valkyrie ally
+Required Level: 30
+Required Skills: Inner Sight [1], Slow Movement [12], Decoy [18]
+Tag: Magic Skill
+Cooldown: 1 Second
+ | Attribute
+ | Normal
+ | Nightmare
+ | Hell
+ | Base Life
+ | 200-280
+ | 300-380
+ | 900-980
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Valk Power Strike Level
+ | 5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+ | 
+10
+ | 11
+ | 
+11
+ | 12
+ | 
+12
+ | 13
+ | 
+13
+ | 14
+ | 
+14
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 17
+ | 
+17
+ | 18
+ | 
+18
+ | 19
+ | 
+19
+ | 20
+ | 
+20
+ | 21
+ | 
+21
+ | 22
+ | 
+22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 25
+ | 
+25
+ | 26
+ | 
+26
+ | 27
+ | 
+27
+ | 28
+ | 
+28
+ | 29
+ | 
+29
+ | 30
+ | 
+30
+ | 31
+ | 
+31
+ | 32
+ | 
+32
+ | 33
+ | 
+33
+ | 34
+ | 
+34
+ | 35
+ | Strength
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Dexterity
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Attack Rating +
+ | 40
+ | 80
+ | 120
+ | 160
+ | 200
+ | 240
+ | 280
+ | 320
+ | 360
+ | 400
+ | 440
+ | 480
+ | 520
+ | 560
+ | 600
+ | 640
+ | 680
+ | 720
+ | 760
+ | 800
+ | 840
+ | 880
+ | 920
+ | 960
+ | 1000
+ | 1040
+ | 1080
+ | 1120
+ | 1160
+ | 1200
+ | 1240
+ | 1280
+ | 1320
+ | 1360
+ | 1400
+ | 1440
+ | 1480
+ | 1520
+ | 1560
+ | 1600
+ | 1640
+ | 1680
+ | 1720
+ | 1760
+ | 1800
+ | 1840
+ | 1880
+ | 1920
+ | 1960
+ | 2000
+ | 2040
+ | 2080
+ | 2120
+ | 2160
+ | 2200
+ | 2240
+ | 2280
+ | 2320
+ | 2360
+ | 2400
+ | Life +%
+ | 0
+ | 7
+ | 14
+ | 21
+ | 28
+ | 35
+ | 42
+ | 49
+ | 56
+ | 63
+ | 70
+ | 77
+ | 84
+ | 91
+ | 98
+ | 105
+ | 112
+ | 119
+ | 126
+ | 133
+ | 140
+ | 147
+ | 154
+ | 161
+ | 168
+ | 175
+ | 182
+ | 189
+ | 196
+ | 203
+ | 210
+ | 217
+ | 224
+ | 231
+ | 238
+ | 245
+ | 252
+ | 259
+ | 266
+ | 273
+ | 280
+ | 287
+ | 294
+ | 301
+ | 308
+ | 315
+ | 322
+ | 329
+ | 336
+ | 343
+ | 350
+ | 357
+ | 364
+ | 371
+ | 378
+ | 385
+ | 392
+ | 399
+ | 406
+ | 413
+ | Defense +%
+ | 0
+ | 5
+ | 10
+ | 15
+ | 20
+ | 25
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | All Resistances %
+ | 3
+ | 6
+ | 9
+ | 12
+ | 15
+ | 18
+ | 20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | 
+20
+ | Number of Valkyries
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | Mana Cost
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 79
+ | 80
+ | 81
+ | 82
+ | 83
+ | 84
+ | Valk Power Strike Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | Lightning Damage (max)
+ | 1
+ | 3
+ | 5
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 19
+ | 23
+ | 27
+ | 31
+ | 35
+ | 39
+ | 43
+ | 47
+ | 58
+ | 69
+ | 80
+ | 91
+ | 102
+ | 113
+ | 138
+ | 163
+ | 188
+ | 213
+ | 238
+ | 263
+ | 298
+ | 333
+ | 368
+ | 403
+ | 438
+ | 473
+ | 508
+ | 543
+ | 578
+ | 613
+ | 648
+ | 683
+ | 718
+ | 753
+ | 788
+ | 823
+ | 858
+ | 893
+ | 928
+ | 963
+ | 998
+ | 1033
+ | 1068
+ | 1103
+ | 1138
+ | 1173
+ | 1208
+ | 1243
+ | 1278
+ | 1313
+ | 1348
+ | 1383
+ | Nova Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | Nova Damage (max)
+ | 3
+ | 7
+ | 11
+ | 15
+ | 19
+ | 23
+ | 27
+ | 31
+ | 39
+ | 47
+ | 55
+ | 63
+ | 71
+ | 79
+ | 87
+ | 95
+ | 123
+ | 151
+ | 179
+ | 207
+ | 235
+ | 263
+ | 308
+ | 353
+ | 398
+ | 443
+ | 488
+ | 533
+ | 595
+ | 657
+ | 719
+ | 781
+ | 843
+ | 905
+ | 967
+ | 1029
+ | 1091
+ | 1153
+ | 1215
+ | 1277
+ | 1339
+ | 1401
+ | 1463
+ | 1525
+ | 1587
+ | 1649
+ | 1711
+ | 1773
+ | 1835
+ | 1897
+ | 1959
+ | 2021
+ | 2083
+ | 2145
+ | 2207
+ | 2269
+ | 2331
+ | 2393
+ | 2455
+ | 2517
+ | Attack Rating +%
+ | 20
+ | 32
+ | 44
+ | 56
+ | 68
+ | 80
+ | 92
+ | 104
+ | 116
+ | 128
+ | 140
+ | 152
+ | 164
+ | 176
+ | 188
+ | 200
+ | 212
+ | 224
+ | 236
+ | 248
+ | 260
+ | 272
+ | 284
+ | 296
+ | 308
+ | 320
+ | 332
+ | 344
+ | 356
+ | 368
+ | 380
+ | 392
+ | 404
+ | 416
+ | 428
+ | 440
+ | 452
+ | 464
+ | 476
+ | 488
+ | 500
+ | 512
+ | 524
+ | 536
+ | 548
+ | 560
+ | 572
+ | 584
+ | 596
+ | 608
+ | 620
+ | 632
+ | 644
+ | 656
+ | 668
+ | 680
+ | 692
+ | 704
+ | 716
+ | 728
+Valk Power Strike Nova Radius: 4.30 yards
+Other Attributes
+ | 
+ | Valkyrie Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26+
+ | Equipment Item Level
+ | 25
+ | 28
+ | 31
+ | 34
+ | 37
+ | 40
+ | 43
+ | 46
+ | 49
+ | 52
+ | 55
+ | 58
+ | 61
+ | 64
+ | 67
+ | 70
+ | 73
+ | 76
+ | 79
+ | 82
+ | 85
+ | 88
+ | 91
+ | 94
+ | 97
+ | 99
+ | Attribute
+ | Normal
+ | Nightmare
+ | Hell
+ | Base Attack Rating
+ | 250
+ | 300
+ | 350
+ | Base Defense
+ | 141
+ | 152
+ | 164
+ | Physical Resist
+ | 0
+ | 0
+ | 0
+ | Magic Resist
+ | 0
+ | 0
+ | 0
+ | Life Regen
+ | 1.2% per second
+ | AI Delay
+ | 0.24 seconds (6 frames)
+Number of Valkyries can be increased further with the Peace Runeword.
+Valkyries equip randomly-generated equipment which can be viewed by using the Inspect hotkey (9) while hovering over a Valkyrie with the Unsummon skill on right-click. This equipment improves Damage, Attack Speed, Defense, and other Attributes. Chance to Cast effects from the equipment are functional.
+Valkyrie Receives Bonuses From:
+Decoy: +20 Strength per Level (results in 15% Enhanced Damage per Level from Spear Strength scaling)
+Pierce: +2% Lightning Resistance Pierce per Level
+Penetrate: +40 Attack Rating per Level
+Power Strike: +20% Lightning Damage per Level (only affects Nova Damage)
+Critical Strike
+Note: Valkyries are given your Hard Level of Critical Strike and receive that Skill's full effect.
+Changelog
+ | 
+Season 13:
+Strength per level bonus reduced from +20 to +10
+Dexterity per level bonus reduced from +15 to +10
+Level 1-8 power strike scaling reduced from 0-3 to 0-2
+Level 8-16 power strike scaling reduced from 0-5 to 0-4
+Level 16-22 power strike scaling reduced from 0-13 to 0-11
+Level 22-28 power strike scaling increased from 0-22 to 0-25
+Note: Valkyrie also benefits from critical strike modifier being increased from 1.5x to 2x
+Season 6:
+Valkyrie ai has been improved
+Valkyrie cooldown no longer reduces with base points and is now 1 seconds at all levels (cooldowns are no longer shared with other skills)
+Valkyrie 25 strength per level reduced to 20
+Valkyrie 20 dexterity per level reduced to 15
+Valkyrie decoy 25% physical damage synergy reduced to 20%
+Valkyrie now properly benefits from critical strike
+Season 5:
+Valkyrie run speed increased by 10%
+Valkyrie base power strike level increased from 1 to 5
+Valkyrie dexterity per level increased from 12 to 20
+Valkyrie strength per level increased from 20 to 25
+Valkyrie decoy synergy increased from 20 strength per level to 25
+Valkyrie power strike nova synergy increased from 10% to 20%
+Valkyrie pierce synergy increased from -1% enemy lightning resist per level to -2% per level
+Season 4:
+Valkyries now have vanilla life regeneration
+Valkyrie AI has been drastically improved and they no longer use normal attack
+valkyries now gain 20 strength per level from 15
+valkyrie now gains 20% enhanced damage from decoy synergy instead of 15%
+Season 3:
+Valkyrie now gain an additional 5 strength per level
+Season 2:
+fixed a bug that was causing Valkyries to Dodge/Evade/Avoid at an extremely high rate
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+prerequisites reduced from 6 to 3 (no longer requires Dodge, Avoid, Evade)
+can now summon an additional valkyrie at levels 20 and 30
+Valkyries move faster and use Power strike
+Valkyries can now be inspected
+attack scaling reduced
+now gains damage and defense per level
+removed Dodge, Avoid, & Evade synergies
+Decoy synergy now adds physical damage instead of life
+now has Pierce as a synergy for 1% lightning damage per level
+now has Power Strike as a synergy for 20% lightning damage & 10% nova damage
+Vanilla Info
+Bow and Crossbow Skills[edit]
+## Magic Arrow[edit]
+Description: Creates a magical arrow or bolt that does extra damage
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Magic Damage (min)
+ | 2
+ | 3
+ | 5
+ | 6
+ | 8
+ | 9
+ | 11
+ | 12
+ | 16
+ | 20
+ | 24
+ | 27
+ | 31
+ | 35
+ | 39
+ | 42
+ | 54
+ | 65
+ | 76
+ | 87
+ | 99
+ | 110
+ | 132
+ | 155
+ | 177
+ | 200
+ | 222
+ | 245
+ | 278
+ | 311
+ | 344
+ | 377
+ | 410
+ | 443
+ | 476
+ | 509
+ | 542
+ | 575
+ | 608
+ | 641
+ | 674
+ | 707
+ | 740
+ | 773
+ | 806
+ | 839
+ | 872
+ | 905
+ | 938
+ | 971
+ | 1004
+ | 1037
+ | 1070
+ | 1103
+ | 1136
+ | 1169
+ | 1202
+ | 1235
+ | 1268
+ | 1301
+ | Magic Damage (max)
+ | 3
+ | 6
+ | 8
+ | 10
+ | 12
+ | 15
+ | 17
+ | 19
+ | 24
+ | 30
+ | 35
+ | 40
+ | 45
+ | 51
+ | 56
+ | 61
+ | 74
+ | 87
+ | 99
+ | 112
+ | 125
+ | 138
+ | 162
+ | 186
+ | 210
+ | 234
+ | 258
+ | 282
+ | 317
+ | 352
+ | 387
+ | 423
+ | 458
+ | 493
+ | 528
+ | 564
+ | 599
+ | 634
+ | 669
+ | 705
+ | 740
+ | 775
+ | 810
+ | 846
+ | 881
+ | 916
+ | 951
+ | 987
+ | 1022
+ | 1057
+ | 1092
+ | 1128
+ | 1163
+ | 1198
+ | 1233
+ | 1269
+ | 1304
+ | 1339
+ | 1374
+ | 1410
+ | Attack Rating +%
+ | 10
+ | 19
+ | 28
+ | 37
+ | 46
+ | 55
+ | 64
+ | 73
+ | 82
+ | 91
+ | 100
+ | 109
+ | 118
+ | 127
+ | 136
+ | 145
+ | 154
+ | 163
+ | 172
+ | 181
+ | 190
+ | 199
+ | 208
+ | 217
+ | 226
+ | 235
+ | 244
+ | 253
+ | 262
+ | 271
+ | 280
+ | 289
+ | 298
+ | 307
+ | 316
+ | 325
+ | 334
+ | 343
+ | 352
+ | 361
+ | 370
+ | 379
+ | 388
+ | 397
+ | 406
+ | 415
+ | 424
+ | 433
+ | 442
+ | 451
+ | 460
+ | 469
+ | 478
+ | 487
+ | 496
+ | 505
+ | 514
+ | 523
+ | 532
+ | 541
+ | Mana Cost
+ | 2
+ | 2.125
+ | 2.25
+ | 2.375
+ | 2.5
+ | 2.625
+ | 2.75
+ | 2.875
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Number of Arrows
+ | 1
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 5
+75% Weapon Damage added to Skill Damage, and 50% of Physical Damage converted to Magic Damage
+Magic Arrow always Pierces.
+Magic Arrow Receives Bonuses From:
+Inner Sight: +20% Magic Damage per Level
+Slow Movement: +20% Magic Damage per Level
+Guided Arrow: +20% Magic Damage per Level
+Changelog
+ | 
+Season 11:
+Projectile hitbox size increased from 1 to 2
+Season 10:
+Synergies increased from +18% to +20%
+Season 8:
+Level 22-28 scaling reduced from 22.5-25.5 to 22-24
+Level 28+ scaling reduced from 34-38 to 33-35
+Fixed an issue that was causing the tooltip to display lower values than the actual damage
+Season 6:
+Magic arrow ½ weapon damage increased to ¾ weapon damage
+Season 4:
+Magic arrow now gains 1 additional arrow every 5 base points instead of every 10 soft points
+Season 3:
+Magic arrow's attack rating per level reduced from 20% per level to 9% per level
+Magic arrow synergy increased from 15% to 18%
+Season 2:
+damage scaling has been reworked and buffed
+Season 1:
+now shoots an additional arrow every 10 soft points
+50% weapon damage (was 100%)
+now converts 50% damage to magic (was 1% per level)
+deals flat magic damage
+mana cost now increases per level instead of decreasing
+now has Inner Sight, Slow Movement, & Guided Arrow as 15% synergies
+Vanilla Info
+## Multiple Shot[edit]
+Description: Magically splits one arrow or bolt into many
+Required Level: 6
+Required Skills: Magic Arrow [1]
+Range: 17.33 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 52
+ | 54
+ | 56
+ | 58
+ | 60
+ | 62
+ | 64
+ | 66
+ | 68
+ | 70
+ | 72
+ | 74
+ | 76
+ | 78
+ | 80
+ | 82
+ | 84
+ | 86
+ | 88
+ | 90
+ | 92
+ | 94
+ | 96
+ | 98
+ | 100
+ | 102
+ | 104
+ | 106
+ | 108
+ | 110
+ | 112
+ | 114
+ | 116
+ | 118
+ | 120
+ | 122
+ | 124
+ | 126
+ | 128
+ | 130
+ | 132
+ | 134
+ | 136
+ | 138
+ | 140
+ | 142
+ | 144
+ | 146
+ | 148
+ | Attack Rating +%
+ | 8
+ | 14
+ | 20
+ | 26
+ | 32
+ | 38
+ | 44
+ | 50
+ | 56
+ | 62
+ | 68
+ | 74
+ | 80
+ | 86
+ | 92
+ | 98
+ | 104
+ | 110
+ | 116
+ | 122
+ | 128
+ | 134
+ | 140
+ | 146
+ | 152
+ | 158
+ | 164
+ | 170
+ | 176
+ | 182
+ | 188
+ | 194
+ | 200
+ | 206
+ | 212
+ | 218
+ | 224
+ | 230
+ | 236
+ | 242
+ | 248
+ | 254
+ | 260
+ | 266
+ | 272
+ | 278
+ | 284
+ | 290
+ | 296
+ | 302
+ | 308
+ | 314
+ | 320
+ | 326
+ | 332
+ | 338
+ | 344
+ | 350
+ | 356
+ | 362
+ | Number of Arrows
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 
+24
+ | Mana Cost
+ | 1.5
+ | 1.625
+ | 1.75
+ | 1.875
+ | 2
+ | 2.125
+ | 2.25
+ | 2.375
+ | 2.5
+ | 2.625
+ | 2.75
+ | 2.875
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+Multiple Shot projectiles deal 20% reduced Damage every time they Pierce an enemy (Minimum Damage: 20%).
+Changelog
+ | 
+Season 13:
+Base enhanced damage bonus reduced from +40% to +30%
+Enhanced damage per level reduced from 3% to 2%
+Season 12:
+Enhanced damage per level reduced from +5% to +3%
+Season 11:
+Enhanced damage per level reduced from +10% to +5%
+Season 10:
+The 3 middle arrows now proc effects instead of the middle 2
+Level 1 Enhanced Damage bonus increased from +30% to +40%
+Enhanced Damage bonus per level increased f rom +8% to +10%
+Season 9:
+Base enhanced damage increased from 25% to 30%
+Enhanced damage per level increased from 5% to 8%
+Season 6:
+Multishot now gets 25% enhanced damage at level 1 and 5% enhanced damage per level
+Multishot flat damage has been removed
+Season 5:
+Reduced penalty from 50% per pierce (ex. 100%>50%>25%>12.5%>etc) to 20% flat reduction per pierce capping at 20% minimum (ex 100%>80%>60%>40%>20%>20%>etc)
+Multiple shot range increased by 8%
+Season 3:
+Multiple shot now has +8% attack rating at level 1 from +50%
+Multiple shot now gains +6% attack rating per level from 20%
+Multiple shot now deals 50% reduced damage each time it pierces (the initial hit will always deal 100%)
+Season 1:
+Range reduced greatly
+Starts at 3 arrows instead of 2
+Used to deal 3/4 weapon damage
+Now also adds flat damage
+Now also adds bonus attack rating (50% + 20% per level)
+Reduced mana cost (was 3 + slvl)
+Vanilla Info
+## Fire Arrow[edit]
+Description: Magically enhances your arrows or bolts with fire
+Required Level: 6
+Required Skills: Magic Arrow [1]
+Range: 12 Yards
+Damage Radius: 1.33 Yards
+Burning Duration: 1.48 Seconds (37 frames)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min)
+ | 8
+ | 12
+ | 15
+ | 19
+ | 22
+ | 26
+ | 29
+ | 33
+ | 39
+ | 45
+ | 51
+ | 57
+ | 63
+ | 69
+ | 75
+ | 81
+ | 97
+ | 113
+ | 129
+ | 145
+ | 161
+ | 177
+ | 209
+ | 241
+ | 273
+ | 305
+ | 337
+ | 369
+ | 417
+ | 465
+ | 513
+ | 561
+ | 609
+ | 657
+ | 705
+ | 753
+ | 801
+ | 849
+ | 897
+ | 945
+ | 993
+ | 1041
+ | 1089
+ | 1137
+ | 1185
+ | 1233
+ | 1281
+ | 1329
+ | 1377
+ | 1425
+ | 1473
+ | 1521
+ | 1569
+ | 1617
+ | 1665
+ | 1713
+ | 1761
+ | 1809
+ | 1857
+ | 1905
+ | Fire Damage (max)
+ | 12
+ | 16
+ | 21
+ | 25
+ | 30
+ | 34
+ | 39
+ | 43
+ | 51
+ | 58
+ | 66
+ | 73
+ | 81
+ | 88
+ | 96
+ | 103
+ | 121
+ | 138
+ | 156
+ | 173
+ | 191
+ | 208
+ | 243
+ | 278
+ | 313
+ | 348
+ | 383
+ | 418
+ | 471
+ | 523
+ | 576
+ | 628
+ | 681
+ | 733
+ | 786
+ | 838
+ | 891
+ | 943
+ | 996
+ | 1048
+ | 1101
+ | 1153
+ | 1206
+ | 1258
+ | 1311
+ | 1363
+ | 1416
+ | 1468
+ | 1521
+ | 1573
+ | 1626
+ | 1678
+ | 1731
+ | 1783
+ | 1836
+ | 1888
+ | 1941
+ | 1993
+ | 2046
+ | 2098
+ | Burning Damage (min)
+ | 4
+ | 7
+ | 9
+ | 11
+ | 14
+ | 16
+ | 18
+ | 21
+ | 28
+ | 35
+ | 42
+ | 49
+ | 56
+ | 63
+ | 70
+ | 77
+ | 93
+ | 110
+ | 126
+ | 142
+ | 159
+ | 175
+ | 208
+ | 241
+ | 274
+ | 307
+ | 339
+ | 372
+ | 421
+ | 471
+ | 520
+ | 569
+ | 618
+ | 667
+ | 717
+ | 766
+ | 815
+ | 864
+ | 914
+ | 963
+ | 1012
+ | 1061
+ | 1110
+ | 1160
+ | 1209
+ | 1258
+ | 1307
+ | 1357
+ | 1406
+ | 1455
+ | 1504
+ | 1553
+ | 1603
+ | 1652
+ | 1701
+ | 1750
+ | 1800
+ | 1849
+ | 1898
+ | 1947
+ | Burning Damage (max)
+ | 7
+ | 11
+ | 16
+ | 21
+ | 25
+ | 30
+ | 35
+ | 39
+ | 49
+ | 58
+ | 67
+ | 77
+ | 86
+ | 96
+ | 105
+ | 114
+ | 133
+ | 152
+ | 171
+ | 189
+ | 208
+ | 227
+ | 264
+ | 302
+ | 339
+ | 377
+ | 414
+ | 452
+ | 508
+ | 564
+ | 621
+ | 677
+ | 733
+ | 789
+ | 846
+ | 902
+ | 958
+ | 1014
+ | 1071
+ | 1127
+ | 1183
+ | 1239
+ | 1296
+ | 1352
+ | 1408
+ | 1464
+ | 1521
+ | 1577
+ | 1633
+ | 1689
+ | 1746
+ | 1802
+ | 1858
+ | 1914
+ | 1971
+ | 2027
+ | 2083
+ | 2139
+ | 2196
+ | 2252
+ | Attack Rating +%
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Number of Arrows
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 9
+ | 
+9
+ | 
+9
+ | 10
+ | 
+10
+ | 
+10
+ | 11
+ | 
+11
+ | 
+11
+ | 12
+ | 
+12
+ | 
+12
+ | 13
+ | 
+13
+ | 
+13
+ | 14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | 
+14
+ | Mana Cost
+ | 1.5
+ | 1.625
+ | 1.75
+ | 1.875
+ | 2
+ | 2.125
+ | 2.25
+ | 2.375
+ | 2.5
+ | 2.625
+ | 2.75
+ | 2.875
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+50% Weapon Damage added to Skill Damage, and 50% of Physical Damage converted to Fire Damage
+Fire Arrow's Burning Damage is applied every frame (x3 times due to how Burning ground works). Values here are per second (75x the game file data) and rounded. See below for unrounded per-frame data:
+Per-Frame Fire Arrow Burning Damage
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min per frame)
+ | 0.0625
+ | 0.09375
+ | 0.125
+ | 0.15625
+ | 0.1875
+ | 0.21875
+ | 0.25
+ | 0.28125
+ | 0.375
+ | 0.46875
+ | 0.5625
+ | 0.65625
+ | 0.75
+ | 0.84375
+ | 0.9375
+ | 1.03125
+ | 1.25
+ | 1.46875
+ | 1.6875
+ | 1.90625
+ | 2.125
+ | 2.34375
+ | 2.78125
+ | 3.21875
+ | 3.65625
+ | 4.09375
+ | 4.53125
+ | 4.96875
+ | 5.625
+ | 6.28125
+ | 6.9375
+ | 7.59375
+ | 8.25
+ | 8.90625
+ | 9.5625
+ | 10.21875
+ | 10.875
+ | 11.53125
+ | 12.1875
+ | 12.84375
+ | 13.5
+ | 14.15625
+ | 14.8125
+ | 15.46875
+ | 16.125
+ | 16.78125
+ | 17.4375
+ | 18.09375
+ | 18.75
+ | 19.40625
+ | 20.0625
+ | 20.71875
+ | 21.375
+ | 22.03125
+ | 22.6875
+ | 23.34375
+ | 24
+ | 24.65625
+ | 25.3125
+ | 25.96875
+ | Fire Damage (max per frame)
+ | 0.09375
+ | 0.15625
+ | 0.21875
+ | 0.28125
+ | 0.34375
+ | 0.40625
+ | 0.46875
+ | 0.53125
+ | 0.65625
+ | 0.78125
+ | 0.90625
+ | 1.03125
+ | 1.15625
+ | 1.28125
+ | 1.40625
+ | 1.53125
+ | 1.78125
+ | 2.03125
+ | 2.28125
+ | 2.53125
+ | 2.78125
+ | 3.03125
+ | 3.53125
+ | 4.03125
+ | 4.53125
+ | 5.03125
+ | 5.53125
+ | 6.03125
+ | 6.78125
+ | 7.53125
+ | 8.28125
+ | 9.03125
+ | 9.78125
+ | 10.53125
+ | 11.28125
+ | 12.03125
+ | 12.78125
+ | 13.53125
+ | 14.28125
+ | 15.03125
+ | 15.78125
+ | 16.53125
+ | 17.28125
+ | 18.03125
+ | 18.78125
+ | 19.53125
+ | 20.28125
+ | 21.03125
+ | 21.78125
+ | 22.53125
+ | 23.28125
+ | 24.03125
+ | 24.78125
+ | 25.53125
+ | 26.28125
+ | 27.03125
+ | 27.78125
+ | 28.53125
+ | 29.28125
+ | 30.03125
+Fire Arrow Receives Bonuses From:
+Magic Arrow: +15% Fire Damage per Level (18% to Burning Damage)
+Immolation Arrow: +15% Fire Damage per Level (0% to Burning Damage)
+Changelog
+ | 
+Season 13:
+Fire arrow has been reworked: Arrows now leave ground fire that deals damage over time on impact
+Undocumented change:
+Synergies reduced from 18% to 15%
+Season 10:
+Synergies reduced from 21% to 18%
+Maximum arrow count now caps at 14
+Season 8:
+Base damage increased from 3-4 to 8.5-12
+Level 1-8 scaling increased from 1-1.5 to 3.5-4.5
+Level 8-16 scaling increased from 3.5 to 6 to 6-17.5
+Level 16-22 scaling increased from 10-12 to 16-17.5
+Level 22-28 scaling increased from 17.5-19.5 to 32-35
+Level 28+ scaling increased from 25-27 to 48-52.5
+Synergies reduced from 26% to 21%
+Season 5:
+Fire arrow level 8-16 scaling increased from 6-10 to 7-12
+Fire arrow level 16-22 scaling increased from 16-20 to 20-24
+Fire arrow level 22-28 scaling reduced from 36-40 to 35-39
+Fire arrow level 28+ scaling reduced from 56-60 to 50-54
+Fire arrow synergies increased from 24% to 26%
+Season 4:
+Fire Arrow minimum damage scaling increased from 2/6/16/32/48 to 2/6/16/36/56
+Fire Arrow maximum damage scaling increased from 3/7/17/34 to 3/10/20/40/60
+Season 2:
+tooltips now properly display its damage
+rebalanced and buffed (roughly ~50% damage gain by level 50)
+Immolation Arrow synergy increased to 24% (was 22%)
+Season 1:
+moved in the skill tree, requires level 6 (was 1)
+prerequisites increased from 0 to 1 (now requires Magic Arrow)
+Fires 2 arrows + 1 per 3 levels (was just 1)
+Deals 1/2 weapon damage
+Converts 50% physical damage to fire damage (was 3% + 2% per level)
+Flat fire damage buffed
+attack rating scaling changed to +10% per level (was +9%)
+Mana cost reduced slightly
+synergy for Exploding Arrow changed to Immolation Arrow and is now 22% (was 12%)
+now also has Magic Arrow as a synergy at 24%
+Vanilla Info
+## Cold Arrow[edit]
+Description: Magically enhances your arrows or bolts by adding cold damage and a slowing effect. Cold arrows only do half of their regular damage
+Required Level: 6
+Required Skills: Magic Arrow [1]
+Range: 13.33 Yards
+Cold Length: 4 Seconds
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Cold Damage (min)
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 26
+ | 31
+ | 36
+ | 41
+ | 46
+ | 51
+ | 56
+ | 61
+ | 76
+ | 91
+ | 106
+ | 121
+ | 136
+ | 151
+ | 181
+ | 211
+ | 241
+ | 271
+ | 301
+ | 331
+ | 376
+ | 421
+ | 466
+ | 511
+ | 556
+ | 601
+ | 646
+ | 691
+ | 736
+ | 781
+ | 826
+ | 871
+ | 916
+ | 961
+ | 1006
+ | 1051
+ | 1096
+ | 1141
+ | 1186
+ | 1231
+ | 1276
+ | 1321
+ | 1366
+ | 1411
+ | 1456
+ | 1501
+ | 1546
+ | 1591
+ | 1636
+ | 1681
+ | 1726
+ | 1771
+ | Cold Damage (max)
+ | 10
+ | 14
+ | 18
+ | 22
+ | 26
+ | 30
+ | 34
+ | 38
+ | 44
+ | 50
+ | 56
+ | 62
+ | 68
+ | 74
+ | 80
+ | 86
+ | 102
+ | 118
+ | 134
+ | 150
+ | 166
+ | 182
+ | 214
+ | 246
+ | 278
+ | 310
+ | 342
+ | 374
+ | 422
+ | 470
+ | 518
+ | 566
+ | 614
+ | 662
+ | 710
+ | 758
+ | 806
+ | 854
+ | 902
+ | 950
+ | 998
+ | 1046
+ | 1094
+ | 1142
+ | 1190
+ | 1238
+ | 1286
+ | 1334
+ | 1382
+ | 1430
+ | 1478
+ | 1526
+ | 1574
+ | 1622
+ | 1670
+ | 1718
+ | 1766
+ | 1814
+ | 1862
+ | 1910
+ | Attack Rating +%
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Number of Arrows
+ | 2
+ | 
+2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 11
+ | 
+11
+ | 
+11
+ | 
+11
+ | 12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | 
+12
+ | Mana Cost
+ | 1.5
+ | 1.625
+ | 1.75
+ | 1.875
+ | 2
+ | 2.125
+ | 2.25
+ | 2.375
+ | 2.5
+ | 2.625
+ | 2.75
+ | 2.875
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+50% Weapon Damage added to Skill Damage, and 50% of Physical Damage converted to Cold Damage
+Number of Arrows can be increased further with Frozen Sorrow.
+Cold Arrow Receives Bonuses From:
+Magic Arrow: +15% Cold Damage per Level
+Ice Arrow: +15% Cold Damage per Level
+Changelog
+ | 
+Season 13:
+Synergies reduced from 17% to 15%
+Season 10:
+Synergies reduced from 20% to 17%
+Maximum arrow count now caps at 12
+Season 8:
+Synergies reduced from 22% to 20%
+Fixed an issue that was causing the tooltip to display incorrect values
+Season 6:
+Cold arrow ¼ weapon damage increased to ½
+Season 2:
+tooltips now properly display its damage
+rebalanced and buffed (roughly ~50% damage gain by level 50)
+Ice Arrow synergy increased to 22% (was 20%)
+Season 1:
+prerequisites increased from 0 to 1 (now requires Magic Arrow)
+Fires 2 arrows + 1 per 4 levels (was just 1)
+Deals 1/4 weapon damage
+Converts 50% physical damage to cold damage (was 3% + 2% per level)
+attack rating scaling changed to +10% per level (was +9%)
+Flat cold damage buffed
+Cold length is always 4 seconds (was 4 + 1.2 per level)
+Mana cost reduced slightly
+synergy for Ice Arrow is now 20% (was 12%)
+now also has Magic Arrow as a synergy at 22%
+Vanilla Info
+## Ice Arrow[edit]
+Description: Magically enhances your arrow or bolt to freeze your enemies
+Required Level: 12
+Required Skills: Magic Arrow [1], Cold Arrow [6]
+Range: 12.66 Yards
+Freeze Length: 1 Second (Up to 3 Seconds with Synergies)
+Mana Cost: 3
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Cold Damage (min)
+ | 22
+ | 32
+ | 42
+ | 52
+ | 62
+ | 72
+ | 82
+ | 92
+ | 106
+ | 120
+ | 134
+ | 148
+ | 162
+ | 176
+ | 190
+ | 204
+ | 228
+ | 252
+ | 276
+ | 300
+ | 324
+ | 348
+ | 382
+ | 416
+ | 450
+ | 484
+ | 518
+ | 552
+ | 596
+ | 640
+ | 684
+ | 728
+ | 772
+ | 816
+ | 860
+ | 904
+ | 948
+ | 992
+ | 1036
+ | 1080
+ | 1124
+ | 1168
+ | 1212
+ | 1256
+ | 1300
+ | 1344
+ | 1388
+ | 1432
+ | 1476
+ | 1520
+ | 1564
+ | 1608
+ | 1652
+ | 1696
+ | 1740
+ | 1784
+ | 1828
+ | 1872
+ | 1916
+ | 1960
+ | Cold Damage (max)
+ | 36
+ | 47
+ | 58
+ | 69
+ | 80
+ | 91
+ | 102
+ | 113
+ | 129
+ | 145
+ | 161
+ | 177
+ | 193
+ | 209
+ | 225
+ | 241
+ | 267
+ | 293
+ | 319
+ | 345
+ | 371
+ | 397
+ | 433
+ | 469
+ | 505
+ | 541
+ | 577
+ | 613
+ | 659
+ | 705
+ | 751
+ | 797
+ | 843
+ | 889
+ | 935
+ | 981
+ | 1027
+ | 1073
+ | 1119
+ | 1165
+ | 1211
+ | 1257
+ | 1303
+ | 1349
+ | 1395
+ | 1441
+ | 1487
+ | 1533
+ | 1579
+ | 1625
+ | 1671
+ | 1717
+ | 1763
+ | 1809
+ | 1855
+ | 1901
+ | 1947
+ | 1993
+ | 2039
+ | 2085
+ | Attack Rating +%
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+Ice Arrow Receives Bonuses From:
+Magic Arrow: +16% Cold Damage per Level
+Cold Arrow: +10% Cold Damage per Level
+Freezing Arrow: +10% Cold Damage per Level
+Cold Arrow: +5% Freeze Length per Level (0.05 seconds / 1.25 frames per level rounded down)
+Freezing Arrow: +5% Freeze Length per Level (0.05 seconds / 1.25 frames per level rounded down)
+Changelog
+ | 
+Season 5:
+Ice arrow now affected by pierce
+Ice arrow velocity reduced by 12.5%
+Ice arrow magic arrow synergy reduced from 20% to 16%
+Ice arrow cold arrow synergy reduced from 14% to 10%
+Ice arrow freezing arrow synergy reduced from 14% to 10%
+Season 3:
+Ice arrow projectile speed increased by 50%
+Ice arrow range increased by roughly 15%
+Season 1:
+moved in the skill tree, requires level 12 (was 18)
+prerequisites increased from 1 to 2 (now also requires Magic Arrow)
+cold damage buffed
+attack rating scaling changed to +10% per level (was +9%)
+freeze duration no longer scales per level
+mana cost is now always 3 (was 4 + 0.25 per level)
+synergy for Cold Arrow is now 14% (was 8%)
+now also has Magic Arrow as a synergy at 20% and Freezing Arrow as a synergy at 14%
+now also has Cold Arrow as a synergy at 5% freeze length per level
+Vanilla Info
+## Guided Arrow[edit]
+Description: Enhances your arrows and bolts to track your target or seek one of its own
+Required Level: 18
+Required Skills: Magic Arrow [1], Multiple Shot [6]
+Range: 25.33 Yards
+Deals 50% of Weapon Damage
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 25
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | Mana Cost
+ | 8
+ | 7.75
+ | 7.5
+ | 7.25
+ | 7
+ | 6.75
+ | 6.5
+ | 6.25
+ | 6
+ | 5.75
+ | 5.5
+ | 5.25
+ | 5
+ | 4.75
+ | 4.5
+ | 4.25
+ | 4
+ | 3.75
+ | 3.5
+ | 3.25
+ | 3
+ | 2.75
+ | 2.5
+ | 2.25
+ | 2
+ | 1.75
+ | 1.5
+ | 1.25
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+Guided Arrow always hits its target, Piercing it a maximum of 2 times.
+Guided Arrow Receives Bonuses From:
+Magic Arrow: +1% Magic Damage Conversion per Two Levels
+Changelog
+ | 
+Season 13:
+Base enhanced damage increased from 0% to +25%
+Season 9:
+Enhanced damage per level increased from 4% to 5%
+Season 3:
+Guided arrow reduced to 1/2 weapon damage from 100%
+Guided arrow now gains 4% enhanced damage per level from 3%
+Season 2:
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+prerequisites reduced from 3 to 2 (no longer requires Cold Arrow)
+Now pierces
+Can pierce same target 3 times
+damage scaling changed to +3% per level (was +5%)
+now has Magic Arrow as a synergy at 1% magic damage conversion per 2 levels
+Vanilla Info
+## Exploding Arrow[edit]
+Description: Enchants an arrow or bolt that explodes on contact, damaging all nearby enemies
+Required Level: 18
+Required Skills: Magic Arrow [1], Fire Arrow [6]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min)
+ | 2
+ | 7
+ | 12
+ | 17
+ | 22
+ | 27
+ | 32
+ | 37
+ | 46
+ | 55
+ | 64
+ | 73
+ | 82
+ | 91
+ | 100
+ | 109
+ | 126
+ | 143
+ | 160
+ | 177
+ | 194
+ | 211
+ | 238
+ | 265
+ | 292
+ | 319
+ | 346
+ | 373
+ | 410
+ | 447
+ | 484
+ | 521
+ | 558
+ | 595
+ | 632
+ | 669
+ | 706
+ | 743
+ | 780
+ | 817
+ | 854
+ | 891
+ | 928
+ | 965
+ | 1002
+ | 1039
+ | 1076
+ | 1113
+ | 1150
+ | 1187
+ | 1224
+ | 1261
+ | 1298
+ | 1335
+ | 1372
+ | 1409
+ | 1446
+ | 1483
+ | 1520
+ | 1557
+ | Fire Damage (max)
+ | 6
+ | 12
+ | 18
+ | 24
+ | 30
+ | 36
+ | 42
+ | 48
+ | 58
+ | 68
+ | 78
+ | 88
+ | 98
+ | 108
+ | 118
+ | 128
+ | 146
+ | 164
+ | 182
+ | 200
+ | 218
+ | 236
+ | 264
+ | 292
+ | 320
+ | 348
+ | 376
+ | 404
+ | 442
+ | 480
+ | 518
+ | 556
+ | 594
+ | 632
+ | 670
+ | 708
+ | 746
+ | 784
+ | 822
+ | 860
+ | 898
+ | 936
+ | 974
+ | 1012
+ | 1050
+ | 1088
+ | 1126
+ | 1164
+ | 1202
+ | 1240
+ | 1278
+ | 1316
+ | 1354
+ | 1392
+ | 1430
+ | 1468
+ | 1506
+ | 1544
+ | 1582
+ | 1620
+ | Attack Rating +%
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | Secondary Explosions
+ | 3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 
+8
+ | Mana Cost
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Primary Explosion Radius (yards)
+ | 2
+ | 2
+ | 
+2
+ | 
+2
+ | 2.66
+ | 
+2.66
+ | 
+2.66
+ | 
+2.66
+ | 3.33
+ | 
+3.33
+ | 
+3.33
+ | 
+3.33
+ | 4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 4.66
+ | 
+4.66
+ | 
+4.66
+ | 
+4.66
+ | 5.33
+Exploding Arrow's primary explosion creates a number of 2-Yard secondary explosions up to 6.66 Yards from the impact location 0.08 seconds (2 frames) after the previous explosion.
+Exploding Arrow Receives Bonuses From:
+Magic Arrow: +18% Fire Damage per Level
+Immolation Arrow: +18% Fire Damage per Level
+Changelog
+ | 
+Season 12:
+Reworked: Monsters hit from the initial arrow now create smaller explosions behind them
+Season 11:
+Level 8-16 scaling increased from 8-9 to 9-10
+Level 16-22 scaling increased from 14-15 to 17-18
+Level 22-28 scaling increased from 23-24 to 27-28
+Level 28+ scaling increased from 35-36 to 37-38
+Projectile hitbox size increased from 1 to 3
+Reduced visual density of explosions
+Season 2:
+Immolation Arrow synergy increased to 18% (was 16%)
+damage scaling has been buffed (roughly ~30% damage gain by level 50)
+Season 1:
+moved in the skill tree, requires level 18 (was 12)
+prerequisites reduced from 3 to 2 (no longer requires Multiple Shot)
+Bigger AOE
+Flat fire damage buffed
+attack rating scaling changed to +10% per level (was +9%)
+Mana cost reduced
+synergy for Fire Arrow changed to Immolation Arrow and is now 16% (was 8%)
+now also has Magic Arrow as a synergy at 18%
+Vanilla Info
+## Strafe[edit]
+Description: Magically splits one arrow into several that target multiple nearby enemies
+Required Level: 24
+Required Skills: Magic Arrow [1], Multiple Shot [6], Guided Arrow [18]
+Range: 18.66 Yards
+Mana Cost: 11
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 80
+ | 92
+ | 104
+ | 116
+ | 128
+ | 140
+ | 152
+ | 164
+ | 176
+ | 188
+ | 200
+ | 212
+ | 224
+ | 236
+ | 248
+ | 260
+ | 272
+ | 284
+ | 296
+ | 308
+ | 320
+ | 332
+ | 344
+ | 356
+ | 368
+ | 380
+ | 392
+ | 404
+ | 416
+ | 428
+ | 440
+ | 452
+ | 464
+ | 476
+ | 488
+ | 500
+ | 512
+ | 524
+ | 536
+ | 548
+ | 560
+ | 572
+ | 584
+ | 596
+ | 608
+ | 620
+ | 632
+ | 644
+ | 656
+ | 668
+ | 680
+ | 692
+ | 704
+ | 716
+ | 728
+ | 740
+ | 752
+ | 764
+ | 776
+ | 788
+ | Attack Rating +%
+ | 80
+ | 86
+ | 92
+ | 98
+ | 104
+ | 110
+ | 116
+ | 122
+ | 128
+ | 134
+ | 140
+ | 146
+ | 152
+ | 158
+ | 164
+ | 170
+ | 176
+ | 182
+ | 188
+ | 194
+ | 200
+ | 206
+ | 212
+ | 218
+ | 224
+ | 230
+ | 236
+ | 242
+ | 248
+ | 254
+ | 260
+ | 266
+ | 272
+ | 278
+ | 284
+ | 290
+ | 296
+ | 302
+ | 308
+ | 314
+ | 320
+ | 326
+ | 332
+ | 338
+ | 344
+ | 350
+ | 356
+ | 362
+ | 368
+ | 374
+ | 380
+ | 386
+ | 392
+ | 398
+ | 404
+ | 410
+ | 416
+ | 422
+ | 428
+ | 434
+ | Number of Targets
+ | 2
+ | 3
+ | 4
+ | 5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+Strafe Receives Bonuses From:
+Penetrate: +10% Damage per Level
+Changelog
+ | 
+Season 13:
+Base enhanced damage reduced from +100% to +80%
+Enhanced damage per level reduced from +15% to +12%
+Season 12:
+Synergy reduced from 12% to 10%
+Season 11:
+Fixed strafe incorrectly dealing 75% weapon damage instead of 100%
+Season 10:
+Penetrate synergy increased from 10% to 12%
+Season 5:
+Strafe damage per level increased from 14% to 15%
+Strafe missile speed reduced by 25% (to help prevent some missile desync)
+Strafe missile range increased by 33% (this results in roughly the same total range due to the missile speed loss)
+Strafe now has penetrate as a synergy at 10% damage per level
+Season 3:
+Strafe projectile speed has been tripled
+Strafe projectile hitbox size has been doubled
+Strafe base attack rating reduced from 140% to 80%
+Strafe attack rating per level reduced from 10% to 6%
+Strafe now gains 14% damage per level instead of 16%
+Season 2:
+damage per level increased from 14% to 16%
+Season 1:
+prerequisites reduced from 4 to 3 (no longer requires Cold Arrow)
+No next hit delay
+Reduced to 5 attacks from 10
+Used to deal 3/4 weapon damage
+Damage scaling increased to 100% + 14% per level (was 50% + 5%)
+Now adds bonus bonus attack rating of 140% + 10% per level
+Vanilla Info
+## Immolation Arrow[edit]
+Description: Enhances arrows or bolts to cause severe fire damage and creates a pyre upon impact
+Required Level: 30
+Required Skills: Magic Arrow [1], Fire Arrow [6], Exploding Arrow [18]
+Explosion Radius: 2.66 Yards
+Burning Ground Radius: 2 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min)
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 98
+ | 116
+ | 134
+ | 152
+ | 170
+ | 188
+ | 206
+ | 224
+ | 251
+ | 278
+ | 305
+ | 332
+ | 359
+ | 386
+ | 415
+ | 444
+ | 473
+ | 502
+ | 531
+ | 560
+ | 590
+ | 620
+ | 650
+ | 680
+ | 710
+ | 740
+ | 770
+ | 800
+ | 830
+ | 860
+ | 890
+ | 920
+ | 950
+ | 980
+ | 1010
+ | 1040
+ | 1070
+ | 1100
+ | 1130
+ | 1160
+ | 1190
+ | 1220
+ | 1250
+ | 1280
+ | 1310
+ | 1340
+ | 1370
+ | 1400
+ | 1430
+ | 1460
+ | 1490
+ | 1520
+ | Fire Damage (max)
+ | 23
+ | 33
+ | 43
+ | 53
+ | 63
+ | 73
+ | 83
+ | 93
+ | 111
+ | 129
+ | 147
+ | 165
+ | 183
+ | 201
+ | 219
+ | 237
+ | 264
+ | 291
+ | 318
+ | 345
+ | 372
+ | 399
+ | 428
+ | 457
+ | 486
+ | 515
+ | 544
+ | 573
+ | 603
+ | 633
+ | 663
+ | 693
+ | 723
+ | 753
+ | 783
+ | 813
+ | 843
+ | 873
+ | 903
+ | 933
+ | 963
+ | 993
+ | 1023
+ | 1053
+ | 1083
+ | 1113
+ | 1143
+ | 1173
+ | 1203
+ | 1233
+ | 1263
+ | 1293
+ | 1323
+ | 1353
+ | 1383
+ | 1413
+ | 1443
+ | 1473
+ | 1503
+ | 1533
+ | Burning Damage (min)
+ | 11
+ | 17
+ | 23
+ | 29
+ | 35
+ | 41
+ | 46
+ | 52
+ | 65
+ | 78
+ | 91
+ | 104
+ | 117
+ | 130
+ | 142
+ | 155
+ | 175
+ | 195
+ | 215
+ | 235
+ | 255
+ | 275
+ | 302
+ | 329
+ | 356
+ | 383
+ | 410
+ | 437
+ | 471
+ | 505
+ | 539
+ | 573
+ | 607
+ | 641
+ | 675
+ | 708
+ | 742
+ | 776
+ | 810
+ | 844
+ | 878
+ | 912
+ | 946
+ | 980
+ | 1014
+ | 1048
+ | 1082
+ | 1116
+ | 1150
+ | 1184
+ | 1218
+ | 1252
+ | 1286
+ | 1320
+ | 1354
+ | 1388
+ | 1422
+ | 1456
+ | 1490
+ | 1524
+ | Burning Damage (max)
+ | 11
+ | 18
+ | 25
+ | 32
+ | 39
+ | 46
+ | 53
+ | 60
+ | 75
+ | 89
+ | 103
+ | 117
+ | 131
+ | 145
+ | 159
+ | 173
+ | 194
+ | 215
+ | 236
+ | 257
+ | 278
+ | 300
+ | 328
+ | 356
+ | 384
+ | 412
+ | 440
+ | 468
+ | 503
+ | 539
+ | 574
+ | 609
+ | 644
+ | 679
+ | 714
+ | 750
+ | 785
+ | 820
+ | 855
+ | 890
+ | 925
+ | 960
+ | 996
+ | 1031
+ | 1066
+ | 1101
+ | 1136
+ | 1171
+ | 1207
+ | 1242
+ | 1277
+ | 1312
+ | 1347
+ | 1382
+ | 1417
+ | 1453
+ | 1488
+ | 1523
+ | 1558
+ | 1593
+ | Attack Rating +%
+ | 30
+ | 39
+ | 48
+ | 57
+ | 66
+ | 75
+ | 84
+ | 93
+ | 102
+ | 111
+ | 120
+ | 129
+ | 138
+ | 147
+ | 156
+ | 165
+ | 174
+ | 183
+ | 192
+ | 201
+ | 210
+ | 219
+ | 228
+ | 237
+ | 246
+ | 255
+ | 264
+ | 273
+ | 282
+ | 291
+ | 300
+ | 309
+ | 318
+ | 327
+ | 336
+ | 345
+ | 354
+ | 363
+ | 372
+ | 381
+ | 390
+ | 399
+ | 408
+ | 417
+ | 426
+ | 435
+ | 444
+ | 453
+ | 462
+ | 471
+ | 480
+ | 489
+ | 498
+ | 507
+ | 516
+ | 525
+ | 534
+ | 543
+ | 552
+ | 561
+ | Mana Cost
+ | 6
+ | 6.5
+ | 7
+ | 7.5
+ | 8
+ | 8.5
+ | 9
+ | 9.5
+ | 10
+ | 10.5
+ | 11
+ | 11.5
+ | 12
+ | 12.5
+ | 13
+ | 13.5
+ | 14
+ | 14.5
+ | 15
+ | 15.5
+ | 16
+ | 16.5
+ | 17
+ | 17.5
+ | 18
+ | 18.5
+ | 19
+ | 19.5
+ | 20
+ | 20.5
+ | 21
+ | 21.5
+ | 22
+ | 22.5
+ | 23
+ | 23.5
+ | 24
+ | 24.5
+ | 25
+ | 25.5
+ | 26
+ | 26.5
+ | 27
+ | 27.5
+ | 28
+ | 28.5
+ | 29
+ | 29.5
+ | 30
+ | 30.5
+ | 31
+ | 31.5
+ | 32
+ | 32.5
+ | 33
+ | 33.5
+ | 34
+ | 34.5
+ | 35
+ | 35.5
+Immolation Arrow's Burning Damage is applied every frame (x3 times due to how Burning ground works). Values here are per second (75x the game file data) and rounded. See below for unrounded per-frame data:
+Per-Frame Immolation Arrow Burning Damage
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min per frame)
+ | 0.15625
+ | 0.234375
+ | 0.3125
+ | 0.390625
+ | 0.46875
+ | 0.546875
+ | 0.625
+ | 0.703125
+ | 0.875
+ | 1.046875
+ | 1.21875
+ | 1.390625
+ | 1.5625
+ | 1.734375
+ | 1.90625
+ | 2.078125
+ | 2.34375
+ | 2.609375
+ | 2.875
+ | 3.140625
+ | 3.40625
+ | 3.671875
+ | 4.03125
+ | 4.390625
+ | 4.75
+ | 5.109375
+ | 5.46875
+ | 5.828125
+ | 6.28125
+ | 6.734375
+ | 7.1875
+ | 7.640625
+ | 8.09375
+ | 8.546875
+ | 9
+ | 9.453125
+ | 9.90625
+ | 10.359375
+ | 10.8125
+ | 11.265625
+ | 11.71875
+ | 12.171875
+ | 12.625
+ | 13.078125
+ | 13.53125
+ | 13.984375
+ | 14.4375
+ | 14.890625
+ | 15.34375
+ | 15.796875
+ | 16.25
+ | 16.703125
+ | 17.15625
+ | 17.609375
+ | 18.0625
+ | 18.515625
+ | 18.96875
+ | 19.421875
+ | 19.875
+ | 20.328125
+ | Fire Damage (max per frame)
+ | 0.15625
+ | 0.25
+ | 0.34375
+ | 0.4375
+ | 0.53125
+ | 0.625
+ | 0.71875
+ | 0.8125
+ | 1
+ | 1.1875
+ | 1.375
+ | 1.5625
+ | 1.75
+ | 1.9375
+ | 2.125
+ | 2.3125
+ | 2.59375
+ | 2.875
+ | 3.15625
+ | 3.4375
+ | 3.71875
+ | 4
+ | 4.375
+ | 4.75
+ | 5.125
+ | 5.5
+ | 5.875
+ | 6.25
+ | 6.71875
+ | 7.1875
+ | 7.65625
+ | 8.125
+ | 8.59375
+ | 9.0625
+ | 9.53125
+ | 10
+ | 10.46875
+ | 10.9375
+ | 11.40625
+ | 11.875
+ | 12.34375
+ | 12.8125
+ | 13.28125
+ | 13.75
+ | 14.21875
+ | 14.6875
+ | 15.15625
+ | 15.625
+ | 16.09375
+ | 16.5625
+ | 17.03125
+ | 17.5
+ | 17.96875
+ | 18.4375
+ | 18.90625
+ | 19.375
+ | 19.84375
+ | 20.3125
+ | 20.78125
+ | 21.25
+Immolation Arrow Receives Bonuses From:
+Magic Arrow: +5% Fire Damage per Level
+Exploding Arrow: +5% Fire Damage per Level
+Fire Arrow: +5% Fire Damage per Level
+Changelog
+ | 
+Season 10:
+Synergies reworked and rebalanced to now affect both the fire explosion damage and the fire damage over time instead of one or the other
+Level 1-28+ fire explosion damage scaling reduced by ~20%
+Level 1-28+ fire damage over time scaling increased by ~20%
+Season 4:
+Immolation Arrow fire damage over time scaling increased from 5-5 per level to 4-5 / 9-10 / 14-15 / 19-20 / 24-25
+Immolation Arrow level 1 damage increased from 8-10 to 9-11
+Season 3:
+Immolation arrow no longer has a cooldown
+Immolation arrow now explodes on impact and no longer benefits from pierce
+Immolation arrow's explosion fire now lasts 2 seconds instead of 4
+Immolation arrow's fire trail now lasts 1.5 seconds instead of 3
+Season 1:
+moved in the skill tree, requires level 30 (was 24)
+prerequisites reduced from 4 to 3 (no longer requires Multiple Shot)
+synergy for Exploding Arrow is now 8% (was 10%)
+synergy for Fire Arrow is now a fire damage synergy at 8% (was +5% average fire damage)
+now also has Magic Arrow as a synergy at 16% average fire damage per level
+Vanilla Info
+## Freezing Arrow[edit]
+Description: Magically enhances an arrow or bolt to freeze entire groups of monsters
+Required Level: 30
+Required Skills: Magic Arrow [1], Cold Arrow [6], Ice Arrow [12]
+Freeze Length: 0.48 Seconds (12 frames)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Cold Damage (min)
+ | 35
+ | 43
+ | 51
+ | 59
+ | 67
+ | 75
+ | 83
+ | 91
+ | 103
+ | 115
+ | 127
+ | 139
+ | 151
+ | 163
+ | 175
+ | 187
+ | 203
+ | 219
+ | 235
+ | 251
+ | 267
+ | 283
+ | 303
+ | 323
+ | 343
+ | 363
+ | 383
+ | 403
+ | 427
+ | 451
+ | 475
+ | 499
+ | 523
+ | 547
+ | 571
+ | 595
+ | 619
+ | 643
+ | 667
+ | 691
+ | 715
+ | 739
+ | 763
+ | 787
+ | 811
+ | 835
+ | 859
+ | 883
+ | 907
+ | 931
+ | 955
+ | 979
+ | 1003
+ | 1027
+ | 1051
+ | 1075
+ | 1099
+ | 1123
+ | 1147
+ | 1171
+ | Cold Damage (max)
+ | 55
+ | 65
+ | 75
+ | 85
+ | 95
+ | 105
+ | 115
+ | 125
+ | 139
+ | 153
+ | 167
+ | 181
+ | 195
+ | 209
+ | 223
+ | 237
+ | 255
+ | 273
+ | 291
+ | 309
+ | 327
+ | 345
+ | 367
+ | 389
+ | 411
+ | 433
+ | 455
+ | 477
+ | 503
+ | 529
+ | 555
+ | 581
+ | 607
+ | 633
+ | 659
+ | 685
+ | 711
+ | 737
+ | 763
+ | 789
+ | 815
+ | 841
+ | 867
+ | 893
+ | 919
+ | 945
+ | 971
+ | 997
+ | 1023
+ | 1049
+ | 1075
+ | 1101
+ | 1127
+ | 1153
+ | 1179
+ | 1205
+ | 1231
+ | 1257
+ | 1283
+ | 1309
+ | Attack Rating +%
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | 630
+ | Mana Cost
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | 19
+ | 19.25
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Radius (yards)
+ | 2.66
+ | 2.66
+ | 
+2.66
+ | 
+2.66
+ | 3.33
+ | 
+3.33
+ | 
+3.33
+ | 
+3.33
+ | 4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 4.66
+ | 
+4.66
+ | 
+4.66
+ | 
+4.66
+ | 5.33
+ | 
+5.33
+ | 
+5.33
+ | 
+5.33
+ | 6
+Freezing Arrow Receives Bonuses From:
+Cold Arrow: +6% Cold Damage per Level
+Ice Arrow: +6% Cold Damage per Level
+Changelog
+ | 
+Season 11:
+Projectile hitbox size increased from 1 to 2
+Season 9:
+Level 1-8 scaling reduced from 10-10 to 8-10
+Level 8-16 scaling reduced from 14-14 to 12-14
+Level 16-22 scaling reduced from 18-18 to 16-18
+Level 22-28 scaling reduced from 22-22 to 20-22
+Level 28+ scaling reduced from 26-26 to 24-26
+Season 6:
+Freezing arrow level 8-16 scaling reduced from 15-15 to 14-14 per level
+Freezing arrow level 16-22 scaling reduced from 20-20 to 18-18 per level
+Freezing arrow level 22-28 scaling reduced from 25-25 to 22-22 per level
+Freezing arrow level 28+ scaling reduced from 28-28 to 26-26 per level
+Season 3:
+Freezing arrow's freeze duration reduced from 1 second to 0.5
+Season 2:
+level 28+ scaling reduced from 30 per level to 28 per level
+Season 1:
+prerequisites increased from 2 to 3 (now also requires Magic Arrow)
+radius now scales up to 6 yards (was 3.3)
+attack rating scaling changed to +10% per level (was +9%)
+damage range increased slightly
+freeze length reduced to 1 second (was 2)
+mana cost halved
+synergy for Cold Arrow is now 6% (was 12%)
+synergy for Ice Arrow is now a damage synergy at 6% (was +5% freeze length per level)
+Vanilla Info

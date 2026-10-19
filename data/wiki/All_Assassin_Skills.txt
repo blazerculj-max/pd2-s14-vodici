@@ -1,0 +1,13791 @@
+
+This page lists all Assassin skills & stats. Also see: Assassin Build Guides, Class Attributes, All Skills
+Attributes
+ | Attribute
+ | Level 1
+ | /Level
+ | /Point
+ | Strength
+ | 20
+ | 
+ | 
+ | Dexterity
+ | 20
+ | 
+ | 
+ |     • Attack Rating
+ | 80
+ | 
+ | +5
+ |     • Defense
+ | 5
+ | 
+ | +0.25
+ | Vitality
+ | 20
+ | 
+ | 
+ |     • Life
+ | 50
+ | +2
+ | +3
+ |     • Stamina
+ | 220
+ | +1.25
+ | +1.25
+ | Energy
+ | 25
+ | 
+ | 
+ |     • Mana
+ | 25
+ | +2
+ | +1.75
+Vanilla Attributes:
+95 stamina at level 1
++1.5 mana per level
+Individual skill tree pages:
+Martial Arts
+Shadow Disciplines
+Traps
+Below is a compilation of all Assassin skills:
+## Contents
+1 Martial Arts
+1.1 Tiger Strike
+1.2 Dragon Talon
+1.3 Dragon Claw
+1.4 Fists of Fire
+1.5 Cobra Strike
+1.6 Claws of Thunder
+1.7 Dragon Tail
+1.8 Dragon Flight
+1.9 Blades of Ice
+1.10 Phoenix Strike
+1.11 Blade Dance
+2 Shadow Disciplines
+2.1 Claw and Dagger Mastery
+2.2 Psychic Hammer
+2.3 Burst of Speed
+2.4 Weapon Block
+2.5 Cloak of Shadows
+2.6 Mind Blast
+2.7 Fade
+2.8 Shadow Warrior
+2.9 Shadow Master
+2.10 Venom
+3 Traps
+3.1 Fire Blast
+3.2 Shock Web
+3.3 Blade Sentinel
+3.4 Charged Bolt Sentry
+3.5 Wake of Fire
+3.6 Blade Fury
+3.7 Blade Shield
+3.8 Lightning Sentry
+3.9 Wake of Inferno
+3.10 Chain Lightning Sentry
+3.11 Death Sentry
+Expand/Collapse All
+Martial Arts[edit]
+## Tiger Strike[edit]
+Description: Charge-up Skill - Consecutive hits add damage bonuses based on the amount of charges you have available and deplete on the third attack. Can only be used with claw and dagger class weapons
+Required Level: 1
+Required Skills: None
+Duration: 300 seconds
+Mana Cost: 1
+ | Charge
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 1
+ | Damage +%
+ | 50
+ | 75
+ | 100
+ | 125
+ | 150
+ | 175
+ | 200
+ | 225
+ | 250
+ | 275
+ | 300
+ | 325
+ | 350
+ | 375
+ | 400
+ | 425
+ | 450
+ | 475
+ | 500
+ | 525
+ | 550
+ | 575
+ | 600
+ | 625
+ | 650
+ | 675
+ | 700
+ | 725
+ | 750
+ | 775
+ | 800
+ | 825
+ | 850
+ | 875
+ | 900
+ | 925
+ | 950
+ | 975
+ | 1000
+ | 1025
+ | 1050
+ | 1075
+ | 1100
+ | 1125
+ | 1150
+ | 1175
+ | 1200
+ | 1225
+ | 1250
+ | 1275
+ | 1300
+ | 1325
+ | 1350
+ | 1375
+ | 1400
+ | 1425
+ | 1450
+ | 1475
+ | 1500
+ | 1525
+ | 2
+ | Damage +%
+ | 100
+ | 150
+ | 200
+ | 250
+ | 300
+ | 350
+ | 400
+ | 450
+ | 500
+ | 550
+ | 600
+ | 650
+ | 700
+ | 750
+ | 800
+ | 850
+ | 900
+ | 950
+ | 1000
+ | 1050
+ | 1100
+ | 1150
+ | 1200
+ | 1250
+ | 1300
+ | 1350
+ | 1400
+ | 1450
+ | 1500
+ | 1550
+ | 1600
+ | 1650
+ | 1700
+ | 1750
+ | 1800
+ | 1850
+ | 1900
+ | 1950
+ | 2000
+ | 2050
+ | 2100
+ | 2150
+ | 2200
+ | 2250
+ | 2300
+ | 2350
+ | 2400
+ | 2450
+ | 2500
+ | 2550
+ | 2600
+ | 2650
+ | 2700
+ | 2750
+ | 2800
+ | 2850
+ | 2900
+ | 2950
+ | 3000
+ | 3050
+ | 3
+ | Damage +%
+ | 150
+ | 225
+ | 300
+ | 375
+ | 450
+ | 525
+ | 600
+ | 675
+ | 750
+ | 825
+ | 900
+ | 975
+ | 1050
+ | 1125
+ | 1200
+ | 1275
+ | 1350
+ | 1425
+ | 1500
+ | 1575
+ | 1650
+ | 1725
+ | 1800
+ | 1875
+ | 1950
+ | 2025
+ | 2100
+ | 2175
+ | 2250
+ | 2325
+ | 2400
+ | 2475
+ | 2550
+ | 2625
+ | 2700
+ | 2775
+ | 2850
+ | 2925
+ | 3000
+ | 3075
+ | 3150
+ | 3225
+ | 3300
+ | 3375
+ | 3450
+ | 3525
+ | 3600
+ | 3675
+ | 3750
+ | 3825
+ | 3900
+ | 3975
+ | 4050
+ | 4125
+ | 4200
+ | 4275
+ | 4350
+ | 4425
+ | 4500
+ | 4575
+ | All
+ | Tiger Strike Attack Rating +%
+ | 25
+ | 40
+ | 55
+ | 70
+ | 85
+ | 100
+ | 115
+ | 130
+ | 145
+ | 160
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 265
+ | 280
+ | 295
+ | 310
+ | 325
+ | 340
+ | 355
+ | 370
+ | 385
+ | 400
+ | 415
+ | 430
+ | 445
+ | 460
+ | 475
+ | 490
+ | 505
+ | 520
+ | 535
+ | 550
+ | 565
+ | 580
+ | 595
+ | 610
+ | 625
+ | 640
+ | 655
+ | 670
+ | 685
+ | 700
+ | 715
+ | 730
+ | 745
+ | 760
+ | 775
+ | 790
+ | 805
+ | 820
+ | 835
+ | 850
+ | 865
+ | 880
+ | 895
+ | 910
+ | Charges
+ | 1
+ | 2
+ | 3
+ | Tiger Strike Melee Splash Radius +%
+ | 0
+ | 20
+ | 40
+ | Finishing Move Attack Rating +%
+ | 50
+ | 100
+ | 150
+Changelog
+ | 
+Season 13:
+Melee splash bonus now only applies to Tiger Strike itself
+Season 7:
+Animation reverted back to only using it's main hand
+Can now use daggers
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Tiger strike attack rating per level increased from +10% to +15%
+Tiger strike charge duration increased from 1 minute to 5 minutes (patch 6)
+Season 4:
+Tiger Strike enhanced damage bonus increased from 20% damage per level to 25%
+Tiger Strike level 1 base enhanced damage bonus reduced from 100% to 50%
+Tiger Strike charge duration increased from 15 seconds to 1 minute
+Tiger Strike now grants 20% increased splash radius on charge 2 and 40% on charge 3 (Splash increases by 1 breakpoint every 20%)
+Season 3:
+Tiger strike attack rating per level reduced from 20% to 10%
+Tiger strike now attacks with both weapons (requires dual claws)
+Season 2:
+Charge-up skills reworked
+Instead of charges being generated one-at-a-time per charge-up attack and the effects only applying when consumed by a finishing move or normal attack:
+Charge-up attacks immediately apply the attacks' effect of the appropriate stage (1-3) and generate charges until the character has that many charges of the attacks' type. Charges are "shared" between charge-up attacks so the first attack will apply a stage 1 effect and generate 1 charge, the second attack will apply a stage 2 effect and generate 1-2 charges, and the third attack will apply a stage 3 effect before the charges are reset and the cycle repeats.
+Since charges are reset after the 3rd attack rather than before the first attack of the next cycle, it's impossible to have 3 charges of any single type; to get 3 charges, they must be of different types. A finishing move can be used at any point to consume the charges as usual.
+?
+Season 1:
+attack rating bonus increased
+Vanilla Info
+## Dragon Talon[edit]
+Description: Finishing Move - Kick your enemies out of your way. Adds charged-up bonuses to the kick
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Kick Damage +%
+ | 60
+ | 90
+ | 120
+ | 150
+ | 180
+ | 210
+ | 240
+ | 270
+ | 300
+ | 330
+ | 360
+ | 390
+ | 420
+ | 450
+ | 480
+ | 510
+ | 540
+ | 570
+ | 600
+ | 630
+ | 660
+ | 690
+ | 720
+ | 750
+ | 780
+ | 810
+ | 840
+ | 870
+ | 900
+ | 930
+ | 960
+ | 990
+ | 1020
+ | 1050
+ | 1080
+ | 1110
+ | 1140
+ | 1170
+ | 1200
+ | 1230
+ | 1260
+ | 1290
+ | 1320
+ | 1350
+ | 1380
+ | 1410
+ | 1440
+ | 1470
+ | 1500
+ | 1530
+ | 1560
+ | 1590
+ | 1620
+ | 1650
+ | 1680
+ | 1710
+ | 1740
+ | 1770
+ | 1800
+ | 1830
+ | Number of Kicks
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | Attack Rating +%
+ | 20
+ | 45
+ | 70
+ | 95
+ | 120
+ | 145
+ | 170
+ | 195
+ | 220
+ | 245
+ | 270
+ | 295
+ | 320
+ | 345
+ | 370
+ | 395
+ | 420
+ | 445
+ | 470
+ | 495
+ | 520
+ | 545
+ | 570
+ | 595
+ | 620
+ | 645
+ | 670
+ | 695
+ | 720
+ | 745
+ | 770
+ | 795
+ | 820
+ | 845
+ | 870
+ | 895
+ | 920
+ | 945
+ | 970
+ | 995
+ | 1020
+ | 1045
+ | 1070
+ | 1095
+ | 1120
+ | 1145
+ | 1170
+ | 1195
+ | 1220
+ | 1245
+ | 1270
+ | 1295
+ | 1320
+ | 1345
+ | 1370
+ | 1395
+ | 1420
+ | 1445
+ | 1470
+ | 1495
+ | Mana Cost
+ | 2
+ | 2.25
+ | 2.5
+ | 2.75
+ | 3
+ | 3.25
+ | 3.5
+ | 3.75
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+Dragon Talon Receives Bonuses From:
+Dragon Tail: +25% Damage per Level
+Dragon Flight: +25% Damage per Level
+Changelog
+ | 
+Season 13:
+Level 1 mana cost reduced from 6 to 2
+Mana cost now increased by .25 per level
+Base enhanced damage bonus increased from 50% to 60%
+Enhanced damage per level increased to 25% to 30%
+Synergies increased from 22% to 25%
+Season 10:
+Base Enhanced Damage bonus increased from +30% to +50%
+Enhanced Damage per level increased from +20% to +25%
+Dragon Tail synergy increased from +18% to +22%
+Dragon Flight synergy increased from +18% to +22%
+Season 9:
+Base enhanced damage increased from 25% to 30%
+Synergies increased from 15% to 18%
+Season 8:
+Reworked kick damage dex/str scaling:
+ Removed strength from base feet damage calc, changed from dex/6 - dex/5 to dex/3 - dex/2 Not accurate to implemented formula
+ Kick damage formula is (dex/4 - dex/3)
+ Lowered strength attribute bonus on boots from 120 -> 80 Not accurate to implemented formula
+ Kick strength attribute damage bonus is 1.0 / 100%
+Season 6:
+Base min kick damage attribute bonus lowered from (str + dex - 20) / 4 to (str + dex - 20) / 6
+Base max kick damage attribute bonus lowered from (str + dex - 20) / 3 to (str + dex - 20) / 5
+Added 1 range to kick attacks
+Dragon talon now splashes its kick damage
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Dragon talon attack rating per level increased from +15% to 25%
+Season 4:
+Kick Skills now benefits from the following: min/max damage from off-weapon sources, enhanced damage to demons/undead, critical/deadly strike, flat damage ("damage +X")
+Dragon Talon 15% damage per level increased to 20%
+Dragon Talon now has dragon flight as an additional synergy
+Dragon Talon synergies increased from 8% to 10%
+Season 3:
+Dragon talon attack rating per level reduced from 35% to 10%
+Season 2:
+indirectly affected by charge-up skills being reworked
+now properly synergizes with Dragon Tail
+?
+Season 1:
+now caps at 3 kicks (was just 1 + 1 kick per six levels)
+kick damage increased
+now has Dragon Tail as a synergy at 10%
+Vanilla Info
+## Dragon Claw[edit]
+Description: Finishing Move - Slice and dice your enemies with your dual claw-class weapons. Adds charged-up bonuses to both claw attacks
+Required Level: 6
+Required Skills: Dragon Talon [1]
+Mana Cost: 2
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 50
+ | 75
+ | 100
+ | 125
+ | 150
+ | 175
+ | 200
+ | 225
+ | 250
+ | 275
+ | 300
+ | 325
+ | 350
+ | 375
+ | 400
+ | 425
+ | 450
+ | 475
+ | 500
+ | 525
+ | 550
+ | 575
+ | 600
+ | 625
+ | 650
+ | 675
+ | 700
+ | 725
+ | 750
+ | 775
+ | 800
+ | 825
+ | 850
+ | 875
+ | 900
+ | 925
+ | 950
+ | 975
+ | 1000
+ | 1025
+ | 1050
+ | 1075
+ | 1100
+ | 1125
+ | 1150
+ | 1175
+ | 1200
+ | 1225
+ | 1250
+ | 1275
+ | 1300
+ | 1325
+ | 1350
+ | 1375
+ | 1400
+ | 1425
+ | 1450
+ | 1475
+ | 1500
+ | 1525
+ | Attack Rating +%
+ | 40
+ | 60
+ | 80
+ | 100
+ | 120
+ | 140
+ | 160
+ | 180
+ | 200
+ | 220
+ | 240
+ | 260
+ | 280
+ | 300
+ | 320
+ | 340
+ | 360
+ | 380
+ | 400
+ | 420
+ | 440
+ | 460
+ | 480
+ | 500
+ | 520
+ | 540
+ | 560
+ | 580
+ | 600
+ | 620
+ | 640
+ | 660
+ | 680
+ | 700
+ | 720
+ | 740
+ | 760
+ | 780
+ | 800
+ | 820
+ | 840
+ | 860
+ | 880
+ | 900
+ | 920
+ | 940
+ | 960
+ | 980
+ | 1000
+ | 1020
+ | 1040
+ | 1060
+ | 1080
+ | 1100
+ | 1120
+ | 1140
+ | 1160
+ | 1180
+ | 1200
+ | 1220
+Dragon Claw hits once with each equipped claw, triggering charge bonuses on both attacks. It cannot be interrupted.
+Dragon Claw Receives Bonuses From:
+Claw and Dagger Mastery: +20% Damage per Level
+Weapon Block: +20% Damage per Level
+Changelog
+ | 
+Season 10:
+Synergies increased from +14% to +20%
+Season 8:
+Can no longer be interrupted
+Now procs all built up charges on both weapon attacks before consuming them
+Season 7:
+Synergies increased from 8% to 14%
+Damage per level increased from 15% to 25%
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Season 4:
+Dragon Claw 5% damage per level increased to 15%
+Dragon Claw 6% synergy increased to 8%
+Dragon Claw now has weapon block as a synergy
+Season 2:
+indirectly affected by charge-up skills being reworked
+Season 1:
+attack rating bonus decreased
+synergy is now 6% (was 4%)
+Vanilla Info
+## Fists of Fire[edit]
+Description: Charge-up Skill - Consecutive hits add fire bonuses based on the amount of charges you have available and deplete on the third attack. Can only be used with claw and dagger class weapons
+Required Level: 6
+Required Skills: None
+Duration: 300 Seconds
+Charge 1: Fire Explosion with Burning Ground
+Explosion Radius: 2.66 Yards
+Burning Duration: 2.56 Seconds (64 frames)
+Charge 2: Fire Nova
+Nova Radius: 7.33 Yards
+Charge 3: 3 Meteors Drop successively in a line
+Meteor Radii: 2.33 Yards
+Burning Duration: 1 Second
+ | Charge
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 1
+ | Fire Damage (min)
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 34
+ | 44
+ | 54
+ | 64
+ | 74
+ | 84
+ | 102
+ | 120
+ | 138
+ | 156
+ | 174
+ | 192
+ | 218
+ | 244
+ | 270
+ | 296
+ | 322
+ | 348
+ | 374
+ | 400
+ | 426
+ | 452
+ | 478
+ | 504
+ | 530
+ | 556
+ | 582
+ | 608
+ | 634
+ | 660
+ | 686
+ | 712
+ | 738
+ | 764
+ | 790
+ | 816
+ | 842
+ | 868
+ | 894
+ | 920
+ | 946
+ | 972
+ | 998
+ | 1024
+ | 1
+ | Fire Damage (max)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 12
+ | 15
+ | 18
+ | 21
+ | 24
+ | 27
+ | 30
+ | 33
+ | 48
+ | 63
+ | 78
+ | 93
+ | 108
+ | 123
+ | 150
+ | 177
+ | 204
+ | 231
+ | 258
+ | 285
+ | 324
+ | 363
+ | 402
+ | 441
+ | 480
+ | 519
+ | 558
+ | 597
+ | 636
+ | 675
+ | 714
+ | 753
+ | 792
+ | 831
+ | 870
+ | 909
+ | 948
+ | 987
+ | 1026
+ | 1065
+ | 1104
+ | 1143
+ | 1182
+ | 1221
+ | 1260
+ | 1299
+ | 1338
+ | 1377
+ | 1416
+ | 1455
+ | 1494
+ | 1533
+ | 1 + 3
+ | Burning Damage (min)
+ | 2
+ | 4
+ | 7
+ | 9
+ | 11
+ | 14
+ | 16
+ | 18
+ | 23
+ | 28
+ | 32
+ | 37
+ | 42
+ | 46
+ | 51
+ | 56
+ | 63
+ | 70
+ | 77
+ | 84
+ | 91
+ | 98
+ | 107
+ | 117
+ | 126
+ | 135
+ | 145
+ | 154
+ | 166
+ | 178
+ | 189
+ | 201
+ | 213
+ | 225
+ | 236
+ | 248
+ | 260
+ | 271
+ | 283
+ | 295
+ | 307
+ | 318
+ | 330
+ | 342
+ | 353
+ | 365
+ | 377
+ | 389
+ | 400
+ | 412
+ | 424
+ | 435
+ | 447
+ | 459
+ | 471
+ | 482
+ | 494
+ | 506
+ | 517
+ | 529
+ | 1 + 3
+ | Burning Damage (max)
+ | 4
+ | 7
+ | 9
+ | 11
+ | 14
+ | 16
+ | 18
+ | 21
+ | 28
+ | 35
+ | 42
+ | 49
+ | 56
+ | 63
+ | 70
+ | 77
+ | 86
+ | 96
+ | 105
+ | 114
+ | 124
+ | 133
+ | 145
+ | 157
+ | 168
+ | 180
+ | 192
+ | 203
+ | 217
+ | 232
+ | 246
+ | 260
+ | 274
+ | 288
+ | 302
+ | 316
+ | 330
+ | 344
+ | 358
+ | 372
+ | 386
+ | 400
+ | 414
+ | 428
+ | 442
+ | 457
+ | 471
+ | 485
+ | 499
+ | 513
+ | 527
+ | 541
+ | 555
+ | 569
+ | 583
+ | 597
+ | 611
+ | 625
+ | 639
+ | 653
+ | 2
+ | Fire Nova Damage (min)
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 39
+ | 54
+ | 69
+ | 84
+ | 99
+ | 114
+ | 143
+ | 172
+ | 201
+ | 230
+ | 259
+ | 288
+ | 332
+ | 376
+ | 420
+ | 464
+ | 508
+ | 552
+ | 596
+ | 640
+ | 684
+ | 728
+ | 772
+ | 816
+ | 860
+ | 904
+ | 948
+ | 992
+ | 1036
+ | 1080
+ | 1124
+ | 1168
+ | 1212
+ | 1256
+ | 1300
+ | 1344
+ | 1388
+ | 1432
+ | 1476
+ | 1520
+ | 1564
+ | 1608
+ | 1652
+ | 1696
+ | 2
+ | Fire Nova Damage (max)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 12
+ | 15
+ | 18
+ | 21
+ | 24
+ | 27
+ | 30
+ | 33
+ | 51
+ | 69
+ | 87
+ | 105
+ | 123
+ | 141
+ | 175
+ | 209
+ | 243
+ | 277
+ | 311
+ | 345
+ | 396
+ | 447
+ | 498
+ | 549
+ | 600
+ | 651
+ | 702
+ | 753
+ | 804
+ | 855
+ | 906
+ | 957
+ | 1008
+ | 1059
+ | 1110
+ | 1161
+ | 1212
+ | 1263
+ | 1314
+ | 1365
+ | 1416
+ | 1467
+ | 1518
+ | 1569
+ | 1620
+ | 1671
+ | 1722
+ | 1773
+ | 1824
+ | 1875
+ | 1926
+ | 1977
+ | 3
+ | Meteor Physical Damage (min)
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 25
+ | 34
+ | 43
+ | 52
+ | 61
+ | 70
+ | 88
+ | 106
+ | 124
+ | 142
+ | 160
+ | 178
+ | 206
+ | 234
+ | 262
+ | 290
+ | 318
+ | 346
+ | 374
+ | 402
+ | 430
+ | 458
+ | 486
+ | 514
+ | 542
+ | 570
+ | 598
+ | 626
+ | 654
+ | 682
+ | 710
+ | 738
+ | 766
+ | 794
+ | 822
+ | 850
+ | 878
+ | 906
+ | 934
+ | 962
+ | 990
+ | 1018
+ | 1046
+ | 1074
+ | 3
+ | Meteor Physical Damage (max)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 35
+ | 45
+ | 55
+ | 65
+ | 75
+ | 85
+ | 104
+ | 123
+ | 142
+ | 161
+ | 180
+ | 199
+ | 228
+ | 257
+ | 286
+ | 315
+ | 344
+ | 373
+ | 402
+ | 431
+ | 460
+ | 489
+ | 518
+ | 547
+ | 576
+ | 605
+ | 634
+ | 663
+ | 692
+ | 721
+ | 750
+ | 779
+ | 808
+ | 837
+ | 866
+ | 895
+ | 924
+ | 953
+ | 982
+ | 1011
+ | 1040
+ | 1069
+ | 1098
+ | 1127
+ | 3
+ | Meteor Fire Damage (min)
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 25
+ | 34
+ | 43
+ | 52
+ | 61
+ | 70
+ | 87
+ | 104
+ | 121
+ | 138
+ | 155
+ | 172
+ | 197
+ | 222
+ | 247
+ | 272
+ | 297
+ | 322
+ | 347
+ | 372
+ | 397
+ | 422
+ | 447
+ | 472
+ | 497
+ | 522
+ | 547
+ | 572
+ | 597
+ | 622
+ | 647
+ | 672
+ | 697
+ | 722
+ | 747
+ | 772
+ | 797
+ | 822
+ | 847
+ | 872
+ | 897
+ | 922
+ | 947
+ | 972
+ | 3
+ | Meteor Fire Damage (max)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 35
+ | 45
+ | 55
+ | 65
+ | 75
+ | 85
+ | 103
+ | 121
+ | 139
+ | 157
+ | 175
+ | 193
+ | 219
+ | 245
+ | 271
+ | 297
+ | 323
+ | 349
+ | 375
+ | 401
+ | 427
+ | 453
+ | 479
+ | 505
+ | 531
+ | 557
+ | 583
+ | 609
+ | 635
+ | 661
+ | 687
+ | 713
+ | 739
+ | 765
+ | 791
+ | 817
+ | 843
+ | 869
+ | 895
+ | 921
+ | 947
+ | 973
+ | 999
+ | 1025
+ | All
+ | Fists of Fire Attack Rating +%
+ | 35
+ | 50
+ | 65
+ | 80
+ | 95
+ | 110
+ | 125
+ | 140
+ | 155
+ | 170
+ | 185
+ | 200
+ | 215
+ | 230
+ | 245
+ | 260
+ | 275
+ | 290
+ | 305
+ | 320
+ | 335
+ | 350
+ | 365
+ | 380
+ | 395
+ | 410
+ | 425
+ | 440
+ | 455
+ | 470
+ | 485
+ | 500
+ | 515
+ | 530
+ | 545
+ | 560
+ | 575
+ | 590
+ | 605
+ | 620
+ | 635
+ | 650
+ | 665
+ | 680
+ | 695
+ | 710
+ | 725
+ | 740
+ | 755
+ | 770
+ | 785
+ | 800
+ | 815
+ | 830
+ | 845
+ | 860
+ | 875
+ | 890
+ | 905
+ | 920
+ | All
+ | Mana Cost
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+ | 9.5
+ | 9.625
+ | 9.75
+ | 9.875
+ | 10
+ | 10.125
+ | 10.25
+ | 10.375
+ | None*
+ | Physical Damage Converted to Fire %
+ | 3
+ | 6
+ | 9
+ | 12
+ | 15
+ | 18
+ | 21
+ | 24
+ | 27
+ | 30
+ | 33
+ | 36
+ | 39
+ | 42
+ | 45
+ | 48
+ | 51
+ | 54
+ | 57
+ | 60
+ | 63
+ | 66
+ | 69
+ | 72
+ | 75
+ | 78
+ | 81
+ | 84
+ | 87
+ | 90
+ | 93
+ | 96
+ | 99
+ | 100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | Charges
+ | 1
+ | 2
+ | 3
+ | Finishing Move Attack Rating +%
+ | 50
+ | 100
+ | 150
+Fists of Fire converts Physical Damage to Fire Damage on any Finishing Move when at least 1 Fists of Fire Charge is active. 
+Charge 3: The first Meteor drops at the feet of the Assassin (not the target), and the next two drop 0.2/0.4 Seconds (5/10 frames) later approx. 2/4 yards farther away.
+Fists of Fire Receives Bonuses From:
+Tiger Strike: +26% Damage per Level
+Dragon Flight: +26% Damage per Level
+Changelog
+ | 
+Season 11:
+Third stage meteor explosion radius increased by 75%.
+Fixed fists of fire third stage meteor’s physical damage using phoenix strike instead of dragon flight as a synergy.
+Season 10:
+Fixed several damage bugs:
+No longer incorrectly carries weapon damage on its elemental attacks
+Now properly applies elemental damage on several attacks
+Charge 1 level 16-22 scaling increased from 6-7 to 10-15
+Charge 1 level 22-28 scaling increased from 10-11 to 18-27
+Charge 1 level 28+ scaling increased from 14-15 to 26-39
+Phoenix Strike synergy replaced with Dragon Flight
+Now properly shows +% Fire Damage bonuses in its tooltip
+Season 9:
+Fire nova level 22-28 scaling increased from 28-33 to 29-34
+Fire nova level 28+ scaling increased from 41-48 to 44-51
+Meteor level 22-28 scaling increased from 17-18 to 18-19
+Meteor level 28+ scaling increased from 25-26 to 28-29
+Season 8:
+First charge and third charge meteor fire burn damage per second
+Level 16-22 scaling increased from 3-4 to 4-6
+Level 22-28 scaling increased from 4-5 to 7-9
+Level 28+ scaling increased from 5-6 to 10-12
+Second charge fire nova damage
+Level 22-28 scaling increased from 27-33 to 28-33
+Level 28+ scaling increased from 33-40 to 41-48
+Third charge meteor impact damage
+Level 22-28 scaling increased from 16-17 to 17-18
+Level 28+ scaling increased from 22-23 to 25-26
+Season 7:
+Fixed fists of fire's meteor physical damage only gaining 25% from synergies instead of 26%
+Fists of fire second charge nova level 22-28 scaling reduced from 30-33 to 27-33
+Fists of fire second charge nova level 28+ scaling increased from 30-33 to 33-40
+Season 6:
+Fists of fire damage per second synergy increased from 20% to 26%
+Fists of fire damage synergy increased from 25% to 26% (was previously only showing the fire damage per second synergy)
+Fists of fire damage per second level 16-22 scaling reduced from 4-5 to 3-4 per level
+Fists of fire damage per second level 22-28 scaling reduced from 6-7 to 4-5 per level
+Fists of fire damage per second level 28+ scaling reduced from 8-9 to 5-6 per level
+Fists of fire level 28+ meteor scaling increased from 32-34 to 44-46 per level
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Charges now last 5 minutes
+Fists of fire rework has been reworked
+Stage 1: explosion + ground fire
+Stage 2: fire nova
+Stage 3: casts 3 meteors in a line with delays between each other that leave ground fire
+Attack rating scaling increased from +10% per level to +15% per level
+Season 3:
+Fists of fire base attack rating bonus reduced from 55% to 35%
+Fists of fire attack rating per level reduced from 18% to 10%
+Season 2:
+Charge-up skills reworked
+Instead of charges being generated one-at-a-time per charge-up attack and the effects only applying when consumed by a finishing move or normal attack:
+Charge-up attacks immediately apply the attacks' effect of the appropriate stage (1-3) and generate charges until the character has that many charges of the attacks' type. Charges are "shared" between charge-up attacks so the first attack will apply a stage 1 effect and generate 1 charge, the second attack will apply a stage 2 effect and generate 1-2 charges, and the third attack will apply a stage 3 effect before the charges are reset and the cycle repeats.
+Since charges are reset after the 3rd attack rather than before the first attack of the next cycle, it's impossible to have 3 charges of any single type; to get 3 charges, they must be of different types. A finishing move can be used at any point to consume the charges as usual.
+synergy increased from 14% to 18%
+damage decreased
+Season 1:
+attack rating bonus increased
+synergy is now 14% (was 12%)
+Vanilla Info
+## Cobra Strike[edit]
+Description: Charge-up Skill - Consecutive hits add poison bonuses based on the amount of charges you have available and deplete on the third attack. Can only be used with claw and dagger class weapons
+Required Level: 12
+Required Skills: Tiger Strike [1]
+Duration: 300 Seconds
+Poison Length: 1 Second
+Mana Cost: 2
+Charge 1: Shoots 7 Poison Bolts in a ~120 degree frontal arc
+Range: 12.25 Yards
+Charge 2: Enhanced Damage and Life & Mana Steal
+Charge 3: Poison Cloud
+Cloud Radius: 6 Yards
+Cloud Duration: 1 Second
+ | Charge
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 1
+ | Poison Bolt Damage (min)
+ | 3
+ | 9
+ | 15
+ | 21
+ | 28
+ | 34
+ | 40
+ | 46
+ | 65
+ | 84
+ | 103
+ | 121
+ | 140
+ | 159
+ | 178
+ | 196
+ | 228
+ | 259
+ | 290
+ | 321
+ | 353
+ | 384
+ | 462
+ | 540
+ | 618
+ | 696
+ | 775
+ | 853
+ | 1009
+ | 1165
+ | 1321
+ | 1478
+ | 1634
+ | 1790
+ | 1946
+ | 2103
+ | 2259
+ | 2415
+ | 2571
+ | 2728
+ | 2884
+ | 3040
+ | 3196
+ | 3353
+ | 3509
+ | 3665
+ | 3821
+ | 3978
+ | 4134
+ | 4290
+ | 4446
+ | 4603
+ | 4759
+ | 4915
+ | 5071
+ | 5228
+ | 5384
+ | 5540
+ | 5696
+ | 5853
+ | 1
+ | Poison Bolt Damage (max)
+ | 12
+ | 18
+ | 25
+ | 31
+ | 37
+ | 43
+ | 50
+ | 56
+ | 75
+ | 93
+ | 112
+ | 131
+ | 150
+ | 168
+ | 187
+ | 206
+ | 237
+ | 268
+ | 300
+ | 331
+ | 362
+ | 393
+ | 471
+ | 550
+ | 628
+ | 706
+ | 784
+ | 862
+ | 1018
+ | 1175
+ | 1331
+ | 1487
+ | 1643
+ | 1800
+ | 1956
+ | 2112
+ | 2268
+ | 2425
+ | 2581
+ | 2737
+ | 2893
+ | 3050
+ | 3206
+ | 3362
+ | 3518
+ | 3675
+ | 3831
+ | 3987
+ | 4143
+ | 4300
+ | 4456
+ | 4612
+ | 4768
+ | 4925
+ | 5081
+ | 5237
+ | 5393
+ | 5550
+ | 5706
+ | 5862
+ | 2
+ | Damage +%
+ | 90
+ | 120
+ | 150
+ | 180
+ | 210
+ | 240
+ | 270
+ | 300
+ | 330
+ | 360
+ | 390
+ | 420
+ | 450
+ | 480
+ | 510
+ | 540
+ | 570
+ | 600
+ | 630
+ | 660
+ | 690
+ | 720
+ | 750
+ | 780
+ | 810
+ | 840
+ | 870
+ | 900
+ | 930
+ | 960
+ | 990
+ | 1020
+ | 1050
+ | 1080
+ | 1110
+ | 1140
+ | 1170
+ | 1200
+ | 1230
+ | 1260
+ | 1290
+ | 1320
+ | 1350
+ | 1380
+ | 1410
+ | 1440
+ | 1470
+ | 1500
+ | 1530
+ | 1560
+ | 1590
+ | 1620
+ | 1650
+ | 1680
+ | 1710
+ | 1740
+ | 1770
+ | 1800
+ | 1830
+ | 1860
+ | 2
+ | Life & Mana Steal +%
+ | 16
+ | 20
+ | 24
+ | 28
+ | 32
+ | 36
+ | 40
+ | 44
+ | 48
+ | 52
+ | 56
+ | 60
+ | 64
+ | 68
+ | 72
+ | 76
+ | 80
+ | 84
+ | 88
+ | 92
+ | 96
+ | 100
+ | 104
+ | 108
+ | 112
+ | 116
+ | 120
+ | 124
+ | 128
+ | 132
+ | 136
+ | 140
+ | 144
+ | 148
+ | 152
+ | 156
+ | 160
+ | 164
+ | 168
+ | 172
+ | 176
+ | 180
+ | 184
+ | 188
+ | 192
+ | 196
+ | 200
+ | 204
+ | 208
+ | 212
+ | 216
+ | 220
+ | 224
+ | 228
+ | 232
+ | 236
+ | 240
+ | 244
+ | 248
+ | 252
+ | 3
+ | Poison Cloud Damage (min)
+ | 6
+ | 15
+ | 25
+ | 34
+ | 43
+ | 53
+ | 62
+ | 71
+ | 96
+ | 121
+ | 146
+ | 171
+ | 196
+ | 221
+ | 246
+ | 271
+ | 309
+ | 346
+ | 384
+ | 421
+ | 459
+ | 496
+ | 590
+ | 684
+ | 778
+ | 871
+ | 965
+ | 1059
+ | 1265
+ | 1471
+ | 1678
+ | 1884
+ | 2090
+ | 2296
+ | 2503
+ | 2709
+ | 2915
+ | 3121
+ | 3328
+ | 3534
+ | 3740
+ | 3946
+ | 4153
+ | 4359
+ | 4565
+ | 4771
+ | 4978
+ | 5184
+ | 5390
+ | 5596
+ | 5803
+ | 6009
+ | 6215
+ | 6421
+ | 6628
+ | 6834
+ | 7040
+ | 7246
+ | 7453
+ | 7659
+ | 3
+ | Poison Cloud Damage (max)
+ | 18
+ | 28
+ | 37
+ | 46
+ | 56
+ | 65
+ | 75
+ | 84
+ | 109
+ | 134
+ | 159
+ | 184
+ | 209
+ | 234
+ | 259
+ | 284
+ | 321
+ | 359
+ | 396
+ | 434
+ | 471
+ | 509
+ | 603
+ | 696
+ | 790
+ | 884
+ | 978
+ | 1071
+ | 1278
+ | 1484
+ | 1690
+ | 1896
+ | 2103
+ | 2309
+ | 2515
+ | 2721
+ | 2928
+ | 3134
+ | 3340
+ | 3546
+ | 3753
+ | 3959
+ | 4165
+ | 4371
+ | 4578
+ | 4784
+ | 4990
+ | 5196
+ | 5403
+ | 5609
+ | 5815
+ | 6021
+ | 6228
+ | 6434
+ | 6640
+ | 6846
+ | 7053
+ | 7259
+ | 7465
+ | 7671
+ | All
+ | Cobra Strike Attack Rating +%
+ | 60
+ | 74
+ | 88
+ | 102
+ | 116
+ | 130
+ | 144
+ | 158
+ | 172
+ | 186
+ | 200
+ | 214
+ | 228
+ | 242
+ | 256
+ | 270
+ | 284
+ | 298
+ | 312
+ | 326
+ | 340
+ | 354
+ | 368
+ | 382
+ | 396
+ | 410
+ | 424
+ | 438
+ | 452
+ | 466
+ | 480
+ | 494
+ | 508
+ | 522
+ | 536
+ | 550
+ | 564
+ | 578
+ | 592
+ | 606
+ | 620
+ | 634
+ | 648
+ | 662
+ | 676
+ | 690
+ | 704
+ | 718
+ | 732
+ | 746
+ | 760
+ | 774
+ | 788
+ | 802
+ | 816
+ | 830
+ | 844
+ | 858
+ | 872
+ | 886
+ | Charges
+ | 1
+ | 2
+ | 3
+ | Finishing Move Attack Rating +%
+ | 50
+ | 100
+ | 150
+All components of Cobra Strike, including the Bolts and Cloud, add your weapon's Poison Damage, including Venom.
+Listed Poison Damage is the rounded total over the 1 second duration. For calculating total character Poison Damage, the below "per frame" unrounded numbers may be useful:
+Per-Frame Cobra Strike Damage
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Poison Bolt Damage (min per frame)
+ | 0.125
+ | 0.375
+ | 0.625
+ | 0.875
+ | 1.125
+ | 1.375
+ | 1.625
+ | 1.875
+ | 2.625
+ | 3.375
+ | 4.125
+ | 4.875
+ | 5.625
+ | 6.375
+ | 7.125
+ | 7.875
+ | 9.125
+ | 10.375
+ | 11.625
+ | 12.875
+ | 14.125
+ | 15.375
+ | 18.5
+ | 21.625
+ | 24.75
+ | 27.875
+ | 31
+ | 34.125
+ | 40.375
+ | 46.625
+ | 52.875
+ | 59.125
+ | 65.375
+ | 71.625
+ | 77.875
+ | 84.125
+ | 90.375
+ | 96.625
+ | 102.875
+ | 109.125
+ | 115.375
+ | 121.625
+ | 127.875
+ | 134.125
+ | 140.375
+ | 146.625
+ | 152.875
+ | 159.125
+ | 165.375
+ | 171.625
+ | 177.875
+ | 184.125
+ | 190.375
+ | 196.625
+ | 202.875
+ | 209.125
+ | 215.375
+ | 221.625
+ | 227.875
+ | 234.125
+ | Poison Bolt Damage (max per frame)
+ | 0.5
+ | 0.75
+ | 1
+ | 1.25
+ | 1.5
+ | 1.75
+ | 2
+ | 2.25
+ | 3
+ | 3.75
+ | 4.5
+ | 5.25
+ | 6
+ | 6.75
+ | 7.5
+ | 8.25
+ | 9.5
+ | 10.75
+ | 12
+ | 13.25
+ | 14.5
+ | 15.75
+ | 18.875
+ | 22
+ | 25.125
+ | 28.25
+ | 31.375
+ | 34.5
+ | 40.75
+ | 47
+ | 53.25
+ | 59.5
+ | 65.75
+ | 72
+ | 78.25
+ | 84.5
+ | 90.75
+ | 97
+ | 103.25
+ | 109.5
+ | 115.75
+ | 122
+ | 128.25
+ | 134.5
+ | 140.75
+ | 147
+ | 153.25
+ | 159.5
+ | 165.75
+ | 172
+ | 178.25
+ | 184.5
+ | 190.75
+ | 197
+ | 203.25
+ | 209.5
+ | 215.75
+ | 222
+ | 228.25
+ | 234.5
+ | Poison Cloud Damage (min per frame)
+ | 0.25
+ | 0.625
+ | 1
+ | 1.375
+ | 1.75
+ | 2.125
+ | 2.5
+ | 2.875
+ | 3.875
+ | 4.875
+ | 5.875
+ | 6.875
+ | 7.875
+ | 8.875
+ | 9.875
+ | 10.875
+ | 12.375
+ | 13.875
+ | 15.375
+ | 16.875
+ | 18.375
+ | 19.875
+ | 23.625
+ | 27.375
+ | 31.125
+ | 34.875
+ | 38.625
+ | 42.375
+ | 50.625
+ | 58.875
+ | 67.125
+ | 75.375
+ | 83.625
+ | 91.875
+ | 100.125
+ | 108.375
+ | 116.625
+ | 124.875
+ | 133.125
+ | 141.375
+ | 149.625
+ | 157.875
+ | 166.125
+ | 174.375
+ | 182.625
+ | 190.875
+ | 199.125
+ | 207.375
+ | 215.625
+ | 223.875
+ | 232.125
+ | 240.375
+ | 248.625
+ | 256.875
+ | 265.125
+ | 273.375
+ | 281.625
+ | 289.875
+ | 298.125
+ | 306.375
+ | Poison Cloud Damage (max per frame)
+ | 0.75
+ | 1.125
+ | 1.5
+ | 1.875
+ | 2.25
+ | 2.625
+ | 3
+ | 3.375
+ | 4.375
+ | 5.375
+ | 6.375
+ | 7.375
+ | 8.375
+ | 9.375
+ | 10.375
+ | 11.375
+ | 12.875
+ | 14.375
+ | 15.875
+ | 17.375
+ | 18.875
+ | 20.375
+ | 24.125
+ | 27.875
+ | 31.625
+ | 35.375
+ | 39.125
+ | 42.875
+ | 51.125
+ | 59.375
+ | 67.625
+ | 75.875
+ | 84.125
+ | 92.375
+ | 100.625
+ | 108.875
+ | 117.125
+ | 125.375
+ | 133.625
+ | 141.875
+ | 150.125
+ | 158.375
+ | 166.625
+ | 174.875
+ | 183.125
+ | 191.375
+ | 199.625
+ | 207.875
+ | 216.125
+ | 224.375
+ | 232.625
+ | 240.875
+ | 249.125
+ | 257.375
+ | 265.625
+ | 273.875
+ | 282.125
+ | 290.375
+ | 298.625
+ | 306.875
+Cobra Strike Receives Bonuses From:
+Venom: +20% Poison Damage per Level
+Changelog
+ | 
+Season 11:
+Second Charge:
+Now has +90% enhanced damage base bonus.
+Now gains +30% enhanced damage per level.
+Life and mana steal values reduced by 60%.
+Season 10:
+Second charge life and mana steal per level increased from +5% to +10%
+Season 9:
+Poison bolt level 22-28 scaling increased from 20-20 to 25-25
+Poison bolt level 28+ scaling increased from 30-30 to 50-50
+Poison Cloud level 22-28 scaling increased from 24-24 to 30-30
+Poison Cloud level level 28+ scaling increased from 36-36 to 66-66
+Season 8:
+Synergies increased from 14% to 20%
+Season 7:
+Now has 4 frame next hit delay
+Poison Bolt level 22-28 scaling increased from 18-18 to 20-20
+Poison Bolt level 28+ scaling increased from 26-26 to 30-30
+Synergies increased from 12% to 14%
+Season 6:
+Cobra strike poison bolts range increased by 17%
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Charges now last 5 minutes
+Cobra strike attack rating per level increased from +8% to 14%
+Season 3:
+Cobra strike base attack rating bonus reduced from 145% to 60%
+Cobra strike attack rating per level reduced from 20% to 8%
+Season 2:
+Charge-up skills reworked
+Instead of charges being generated one-at-a-time per charge-up attack and the effects only applying when consumed by a finishing move or normal attack:
+Charge-up attacks immediately apply the attacks' effect of the appropriate stage (1-3) and generate charges until the character has that many charges of the attacks' type. Charges are "shared" between charge-up attacks so the first attack will apply a stage 1 effect and generate 1 charge, the second attack will apply a stage 2 effect and generate 1-2 charges, and the third attack will apply a stage 3 effect before the charges are reset and the cycle repeats.
+Since charges are reset after the 3rd attack rather than before the first attack of the next cycle, it's impossible to have 3 charges of any single type; to get 3 charges, they must be of different types. A finishing move can be used at any point to consume the charges as usual.
+has been reworked to cast 'poison teeth' on stage 1, dual leech on stage 2, and a poison cloud on stage 3 (these attacks carry Venom damage and poison damage from gear)
+now has Venom as a synergy at 12%
+Season 1:
+attack rating bonus increased
+Vanilla Info
+## Claws of Thunder[edit]
+Description: Charge-up Skill - Consecutive hits add lightning bonuses based on the amount of charges you have available and deplete on the third attack. Can only be used with claw and dagger class weapons
+Required Level: 18
+Required Skills: Fists of Fire [6]
+Duration: 300 Seconds
+Mana Cost: 4
+Charge 1: Adds Lightning Damage to Attack
+Charge 2: Nova
+Nova Radius: 7.33 Yards
+Charge 3: Target is struck by Lightning, releasing 16 Charged Bolts around the target. Any enemy hit by a Bolt is also struck by Lightning
+Bolt Range: 9 Yards
+ | Charge
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 1
+ | Lightning Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 1
+ | Lightning Damage (max)
+ | 80
+ | 100
+ | 120
+ | 140
+ | 160
+ | 180
+ | 200
+ | 220
+ | 260
+ | 300
+ | 340
+ | 380
+ | 420
+ | 460
+ | 500
+ | 540
+ | 600
+ | 660
+ | 720
+ | 780
+ | 840
+ | 900
+ | 980
+ | 1060
+ | 1140
+ | 1220
+ | 1300
+ | 1380
+ | 1480
+ | 1580
+ | 1680
+ | 1780
+ | 1880
+ | 1980
+ | 2080
+ | 2180
+ | 2280
+ | 2380
+ | 2480
+ | 2580
+ | 2680
+ | 2780
+ | 2880
+ | 2980
+ | 3080
+ | 3180
+ | 3280
+ | 3380
+ | 3480
+ | 3580
+ | 3680
+ | 3780
+ | 3880
+ | 3980
+ | 4080
+ | 4180
+ | 4280
+ | 4380
+ | 4480
+ | 4580
+ | 2
+ | Nova Damage (min)
+ | 5
+ | 10
+ | 15
+ | 20
+ | 25
+ | 30
+ | 35
+ | 40
+ | 60
+ | 80
+ | 100
+ | 120
+ | 140
+ | 160
+ | 180
+ | 200
+ | 235
+ | 270
+ | 305
+ | 340
+ | 375
+ | 410
+ | 460
+ | 510
+ | 560
+ | 610
+ | 660
+ | 710
+ | 775
+ | 840
+ | 905
+ | 970
+ | 1035
+ | 1100
+ | 1165
+ | 1230
+ | 1295
+ | 1360
+ | 1425
+ | 1490
+ | 1555
+ | 1620
+ | 1685
+ | 1750
+ | 1815
+ | 1880
+ | 1945
+ | 2010
+ | 2075
+ | 2140
+ | 2205
+ | 2270
+ | 2335
+ | 2400
+ | 2465
+ | 2530
+ | 2595
+ | 2660
+ | 2725
+ | 2790
+ | 2
+ | Nova Damage (max)
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 130
+ | 160
+ | 190
+ | 220
+ | 250
+ | 280
+ | 310
+ | 340
+ | 390
+ | 440
+ | 490
+ | 540
+ | 590
+ | 640
+ | 710
+ | 780
+ | 850
+ | 920
+ | 990
+ | 1060
+ | 1150
+ | 1240
+ | 1330
+ | 1420
+ | 1510
+ | 1600
+ | 1690
+ | 1780
+ | 1870
+ | 1960
+ | 2050
+ | 2140
+ | 2230
+ | 2320
+ | 2410
+ | 2500
+ | 2590
+ | 2680
+ | 2770
+ | 2860
+ | 2950
+ | 3040
+ | 3130
+ | 3220
+ | 3310
+ | 3400
+ | 3490
+ | 3580
+ | 3670
+ | 3760
+ | 3850
+ | 3940
+ | 3
+ | Lightning & Bolt Damage (min)
+ | 5
+ | 8
+ | 11
+ | 14
+ | 17
+ | 20
+ | 23
+ | 26
+ | 31
+ | 36
+ | 41
+ | 46
+ | 51
+ | 56
+ | 61
+ | 66
+ | 74
+ | 82
+ | 90
+ | 98
+ | 106
+ | 114
+ | 124
+ | 134
+ | 144
+ | 154
+ | 164
+ | 174
+ | 187
+ | 200
+ | 213
+ | 226
+ | 239
+ | 252
+ | 265
+ | 278
+ | 291
+ | 304
+ | 317
+ | 330
+ | 343
+ | 356
+ | 369
+ | 382
+ | 395
+ | 408
+ | 421
+ | 434
+ | 447
+ | 460
+ | 473
+ | 486
+ | 499
+ | 512
+ | 525
+ | 538
+ | 551
+ | 564
+ | 577
+ | 590
+ | 3
+ | Lightning & Bolt Damage (max)
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 110
+ | 130
+ | 150
+ | 170
+ | 190
+ | 210
+ | 230
+ | 250
+ | 280
+ | 310
+ | 340
+ | 370
+ | 400
+ | 430
+ | 470
+ | 510
+ | 550
+ | 590
+ | 630
+ | 670
+ | 720
+ | 770
+ | 820
+ | 870
+ | 920
+ | 970
+ | 1020
+ | 1070
+ | 1120
+ | 1170
+ | 1220
+ | 1270
+ | 1320
+ | 1370
+ | 1420
+ | 1470
+ | 1520
+ | 1570
+ | 1620
+ | 1670
+ | 1720
+ | 1770
+ | 1820
+ | 1870
+ | 1920
+ | 1970
+ | 2020
+ | 2070
+ | 2120
+ | 2170
+ | 2220
+ | 2270
+ | All
+ | Claws of Thunder Attack Rating +%
+ | 80
+ | 92
+ | 104
+ | 116
+ | 128
+ | 140
+ | 152
+ | 164
+ | 176
+ | 188
+ | 200
+ | 212
+ | 224
+ | 236
+ | 248
+ | 260
+ | 272
+ | 284
+ | 296
+ | 308
+ | 320
+ | 332
+ | 344
+ | 356
+ | 368
+ | 380
+ | 392
+ | 404
+ | 416
+ | 428
+ | 440
+ | 452
+ | 464
+ | 476
+ | 488
+ | 500
+ | 512
+ | 524
+ | 536
+ | 548
+ | 560
+ | 572
+ | 584
+ | 596
+ | 608
+ | 620
+ | 632
+ | 644
+ | 656
+ | 668
+ | 680
+ | 692
+ | 704
+ | 716
+ | 728
+ | 740
+ | 752
+ | 764
+ | 776
+ | 788
+ | Charges
+ | 1
+ | 2
+ | 3
+ | Finishing Move Attack Rating +%
+ | 50
+ | 100
+ | 150
+Charge 3: Charged Bolts Pierce enemies. Damage ranges for the Lightning strike and Charged Bolts are identical, but the two components roll damage independently. 
+Claws of Thunder Receives Bonuses From:
+Dragon Claw: +16% Lightning Damage per Level
+Changelog
+ | 
+Season 12:
+Stage 3 charged bolt hitbox size increased to 2
+Season 10:
+Third charge reworked to send down bolts of lightning at enemies struck by the charged bolts
+Third charge charged bolts now always pierce enemies
+Phoenix Strike synergy replaced with Dragon Claw
+Now properly shows +% Lightning Damage bonuses in its tooltip
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Charges now last 5 minutes
+Claws of thunder attack rating per level increased from +8% to 12%
+Season 3:
+Claws of thunder base attack rating reduced from 180% to 80%
+Claws of thunder attack rating per level reduced from 14% to 6%
+Claws of thunder nova's damage scaling has been improved
+Claws of thunder's nova base damage has been increased from 1-30 to 5-30
+Claws of thunder's nova damage scaling from level 1-8 reworked from 0-15 per level to 5-10
+Claws of thunder's nova damage scaling from level 8-16 increased from 0-25 per level to 20-30
+Claws of thunder's nova damage scaling from level 16-22 increased from 0-35 per level to 35-50
+Claws of thunder's nova damage scaling from level 22-28 increased from 0-45 per level to 50-70
+Claws of thunder's nova damage scaling from level 28+ increased from 0-65 per level to 65-90
+Claws of thunder charged bolt missile travel velocity has been doubled
+Claws of thunder's charged bolt damage scaling has been improved
+Claw of thunder's charged bolt base damage increased from 1-40 to 10-40
+Claws of thunder's charged bolt damage scaling from level 1-8 increased from 0-20 per level to 5-20
+Claws of thunder's charged bolt damage scaling from level 8-16 increased from 0-40 per level to 10-40
+Claws of thunder's charged bolt damage scaling from level 16-22 increased from 0-60 per level to 15-60
+Claws of thunder's charged bolt damage scaling from level 22-28 increased from 0-80 per level to 20-80
+Claws of thunder's charged bolt damage scaling from level 28+ increased from 0-100 per level to 25-100
+Season 2:
+Charge-up skills reworked
+Instead of charges being generated one-at-a-time per charge-up attack and the effects only applying when consumed by a finishing move or normal attack:
+Charge-up attacks immediately apply the attacks' effect of the appropriate stage (1-3) and generate charges until the character has that many charges of the attacks' type. Charges are "shared" between charge-up attacks so the first attack will apply a stage 1 effect and generate 1 charge, the second attack will apply a stage 2 effect and generate 1-2 charges, and the third attack will apply a stage 3 effect before the charges are reset and the cycle repeats.
+Since charges are reset after the 3rd attack rather than before the first attack of the next cycle, it's impossible to have 3 charges of any single type; to get 3 charges, they must be of different types. A finishing move can be used at any point to consume the charges as usual.
+synergy increased from 10% to 16%
+?
+Season 1:
+attack rating bonus increased
+synergy is now 10% (was 8%)
+Vanilla Info
+## Dragon Tail[edit]
+Description: Finishing Move - Deals damage to your enemies with an explosive kick. Adds charged-up bonuses to the kick
+Required Level: 18
+Required Skills: Dragon Talon [1], Dragon Claw [6]
+Radius: 4 yards
+Mana Cost: 10
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Kick Fire Damage +%
+ | 40
+ | 53
+ | 66
+ | 79
+ | 92
+ | 105
+ | 118
+ | 131
+ | 144
+ | 157
+ | 170
+ | 183
+ | 196
+ | 209
+ | 222
+ | 235
+ | 248
+ | 261
+ | 274
+ | 287
+ | 300
+ | 313
+ | 326
+ | 339
+ | 352
+ | 365
+ | 378
+ | 391
+ | 404
+ | 417
+ | 430
+ | 443
+ | 456
+ | 469
+ | 482
+ | 495
+ | 508
+ | 521
+ | 534
+ | 547
+ | 560
+ | 573
+ | 586
+ | 599
+ | 612
+ | 625
+ | 638
+ | 651
+ | 664
+ | 677
+ | 690
+ | 703
+ | 716
+ | 729
+ | 742
+ | 755
+ | 768
+ | 781
+ | 794
+ | 807
+ | Attack Rating +%
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | 630
+ | 640
+ | 650
+ | 660
+ | 670
+ | 680
+ | 690
+ | 700
+ | 710
+ | 720
+ | 730
+ | 740
+ | 750
+ | 760
+ | 770
+ | 780
+ | 790
+ | 800
+Converts 100% of Physical Damage to Fire Damage (does not stack with Fists of Fire's conversion)
+Dragon Tail Receives Bonuses From:
+Dragon Talon: +8% Damage per Level
+Dragon Flight: +8% Damage per Level
+Changelog
+ | 
+Season 8:
+Reworked kick damage dex/str scaling:
+ Removed strength from base feet damage calc, changed from dex/6 - dex/5 to dex/3 - dex/2 Not accurate to implemented formula
+ Kick damage formula is (dex/4 - dex/3)
+ Lowered strength attribute bonus on boots from 120 -> 80 Not accurate to implemented formula
+ Kick strength attribute damage bonus is 1.0 / 100%
+Season 6:
+Base min kick damage attribute bonus lowered from (str + dex - 20) / 4 to (str + dex - 20) / 6
+Base max kick damage attribute bonus lowered from (str + dex - 20) / 3 to (str + dex - 20) / 5
+Added 1 range to kick attacks
+Dragon Tail now converts its damage to fire before dealing the initial physical attack
+Fixed dragon tail character screen tooltip to properly show its damage
+Removed dragon tail's knockback
+Dragon tail base increased fire damage bonus reduced from +50% to +40%
+Dragon tail increased fire damage per level reduced 15% to 13%
+Dragon tail synergies reduced from +10% to +8%
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Season 4:
+Kick Skills now benefits from the following: min/max damage from off-weapon sources, enhanced damage to demons/undead, critical/deadly strike, flat damage ("damage +X")
+Dragon Tail 10% damage per level increased to 15%
+Dragon Tail now has dragon flight as an additional synergy
+Dragon Tail synergies increased from 8% to 10%
+Dragon Tail attack speed reduction reduced from -40 to -20
+Season 2:
+indirectly affected by charge-up skills being reworked
+now properly synergizes with Dragon Talon
+Season 1:
+attack rating bonus increased
+now has Dragon Talon as a synergy at 10%
+Vanilla Info
+## Dragon Flight[edit]
+Description: Finishing Move - Teleport to your enemies and destroy them with a kick. Adds charged-up bonuses to the kick
+Required Level: 24
+Required Skills: Dragon Talon [1], Dragon Claw [6], Dragon Tail [18]
+Mana Cost: 15
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Kick Damage +%
+ | 100
+ | 125
+ | 150
+ | 175
+ | 200
+ | 225
+ | 250
+ | 275
+ | 300
+ | 325
+ | 350
+ | 375
+ | 400
+ | 425
+ | 450
+ | 475
+ | 500
+ | 525
+ | 550
+ | 575
+ | 600
+ | 625
+ | 650
+ | 675
+ | 700
+ | 725
+ | 750
+ | 775
+ | 800
+ | 825
+ | 850
+ | 875
+ | 900
+ | 925
+ | 950
+ | 975
+ | 1000
+ | 1025
+ | 1050
+ | 1075
+ | 1100
+ | 1125
+ | 1150
+ | 1175
+ | 1200
+ | 1225
+ | 1250
+ | 1275
+ | 1300
+ | 1325
+ | 1350
+ | 1375
+ | 1400
+ | 1425
+ | 1450
+ | 1475
+ | 1500
+ | 1525
+ | 1550
+ | 1575
+ | Attack Rating +%
+ | 180
+ | 195
+ | 210
+ | 225
+ | 240
+ | 255
+ | 270
+ | 285
+ | 300
+ | 315
+ | 330
+ | 345
+ | 360
+ | 375
+ | 390
+ | 405
+ | 420
+ | 435
+ | 450
+ | 465
+ | 480
+ | 495
+ | 510
+ | 525
+ | 540
+ | 555
+ | 570
+ | 585
+ | 600
+ | 615
+ | 630
+ | 645
+ | 660
+ | 675
+ | 690
+ | 705
+ | 720
+ | 735
+ | 750
+ | 765
+ | 780
+ | 795
+ | 810
+ | 825
+ | 840
+ | 855
+ | 870
+ | 885
+ | 900
+ | 915
+ | 930
+ | 945
+ | 960
+ | 975
+ | 990
+ | 1005
+ | 1020
+ | 1035
+ | 1050
+ | 1065
+ | Cooldown (seconds)
+ | 2
+ | 1.96
+ | 1.92
+ | 1.88
+ | 1.84
+ | 1.8
+ | 1.76
+ | 1.72
+ | 1.68
+ | 1.64
+ | 1.6
+ | 1.56
+ | 1.52
+ | 1.48
+ | 1.44
+ | 1.4
+ | 1.36
+ | 1.32
+ | 1.28
+ | 1.24
+ | 1.2
+ | 1.16
+ | 1.12
+ | 1.08
+ | 1.04
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+Changelog
+ | 
+Season 12:
+Now has it’s cooldown reduced with soft points going from 2 seconds (base) to 1 second (at level 24)
+Season 8:
+Reworked kick damage dex/str scaling:
+ Removed strength from base feet damage calc, changed from dex/6 - dex/5 to dex/3 - dex/2 Not accurate to implemented formula
+ Kick damage formula is (dex/4 - dex/3)
+ Lowered strength attribute bonus on boots from 120 -> 80 Not accurate to implemented formula
+ Kick strength attribute damage bonus is 1.0 / 100%
+Season 6:
+Base min kick damage attribute bonus lowered from (str + dex - 20) / 4 to (str + dex - 20) / 6
+Base max kick damage attribute bonus lowered from (str + dex - 20) / 3 to (str + dex - 20) / 5
+Added 1 range to kick attacks
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Dragon flight attack rating per level increased from 10% to 15%
+Season 4:
+Kick Skills now benefits from the following: min/max damage from off-weapon sources, enhanced damage to demons/undead, critical/deadly strike, flat damage ("damage +X")
+Season 3:
+Dragon flight range has been increased by 50%
+Season 2:
+indirectly affected by charge-up skills being reworked
+Season 1:
+attack rating bonus starts higher and scales less with levels
+cooldown increased to 2 seconds (was 1)
+Vanilla Info
+## Blades of Ice[edit]
+Description: Charge-up Skill - Consecutive hits add cold bonuses based on the amount of charges you have available and deplete on the third attack. Can only be used with claw and dagger class weapons
+Required Level: 24
+Required Skills: Fists of Fire [6], Claws of Thunder [18]
+Duration: 300 Seconds
+Cold/Freeze Length: 10 Seconds
+Mana Cost: 3
+Charge 1: Adds Cold Damage to Attack
+Charge 2: Cold Wave
+Width: 4 Yards
+Range: 10.66 Yards
+Knockback Chance: 20%
+Charge 3: Shoots 10 Ice Bolts outward around the target in a spiral pattern
+Range: ~16 Yards
+ | Charge
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 1
+ | Cold Damage (min)
+ | 13
+ | 20
+ | 27
+ | 34
+ | 41
+ | 48
+ | 55
+ | 62
+ | 72
+ | 82
+ | 92
+ | 102
+ | 112
+ | 122
+ | 132
+ | 142
+ | 165
+ | 188
+ | 211
+ | 234
+ | 257
+ | 280
+ | 317
+ | 354
+ | 391
+ | 428
+ | 465
+ | 502
+ | 551
+ | 600
+ | 649
+ | 698
+ | 747
+ | 796
+ | 845
+ | 894
+ | 943
+ | 992
+ | 1041
+ | 1090
+ | 1139
+ | 1188
+ | 1237
+ | 1286
+ | 1335
+ | 1384
+ | 1433
+ | 1482
+ | 1531
+ | 1580
+ | 1629
+ | 1678
+ | 1727
+ | 1776
+ | 1825
+ | 1874
+ | 1923
+ | 1972
+ | 2021
+ | 2070
+ | 1
+ | Cold Damage (max)
+ | 30
+ | 39
+ | 48
+ | 57
+ | 66
+ | 75
+ | 84
+ | 93
+ | 105
+ | 117
+ | 129
+ | 141
+ | 153
+ | 165
+ | 177
+ | 189
+ | 214
+ | 239
+ | 264
+ | 289
+ | 314
+ | 339
+ | 376
+ | 413
+ | 450
+ | 487
+ | 524
+ | 561
+ | 611
+ | 661
+ | 711
+ | 761
+ | 811
+ | 861
+ | 911
+ | 961
+ | 1011
+ | 1061
+ | 1111
+ | 1161
+ | 1211
+ | 1261
+ | 1311
+ | 1361
+ | 1411
+ | 1461
+ | 1511
+ | 1561
+ | 1611
+ | 1661
+ | 1711
+ | 1761
+ | 1811
+ | 1861
+ | 1911
+ | 1961
+ | 2011
+ | 2061
+ | 2111
+ | 2161
+ | 2
+ | Cold Wave damage (min)
+ | 15
+ | 23
+ | 31
+ | 39
+ | 47
+ | 55
+ | 63
+ | 71
+ | 83
+ | 95
+ | 107
+ | 119
+ | 131
+ | 143
+ | 155
+ | 167
+ | 194
+ | 221
+ | 248
+ | 275
+ | 302
+ | 329
+ | 372
+ | 415
+ | 458
+ | 501
+ | 544
+ | 587
+ | 645
+ | 703
+ | 761
+ | 819
+ | 877
+ | 935
+ | 993
+ | 1051
+ | 1109
+ | 1167
+ | 1225
+ | 1283
+ | 1341
+ | 1399
+ | 1457
+ | 1515
+ | 1573
+ | 1631
+ | 1689
+ | 1747
+ | 1805
+ | 1863
+ | 1921
+ | 1979
+ | 2037
+ | 2095
+ | 2153
+ | 2211
+ | 2269
+ | 2327
+ | 2385
+ | 2443
+ | 2
+ | Cold Wave damage (max)
+ | 35
+ | 45
+ | 55
+ | 65
+ | 75
+ | 85
+ | 95
+ | 105
+ | 119
+ | 133
+ | 147
+ | 161
+ | 175
+ | 189
+ | 203
+ | 217
+ | 246
+ | 275
+ | 304
+ | 333
+ | 362
+ | 391
+ | 435
+ | 479
+ | 523
+ | 567
+ | 611
+ | 655
+ | 714
+ | 773
+ | 832
+ | 891
+ | 950
+ | 1009
+ | 1068
+ | 1127
+ | 1186
+ | 1245
+ | 1304
+ | 1363
+ | 1422
+ | 1481
+ | 1540
+ | 1599
+ | 1658
+ | 1717
+ | 1776
+ | 1835
+ | 1894
+ | 1953
+ | 2012
+ | 2071
+ | 2130
+ | 2189
+ | 2248
+ | 2307
+ | 2366
+ | 2425
+ | 2484
+ | 2543
+ | 3
+ | Ice Bolt Damage (min)
+ | 24
+ | 32
+ | 40
+ | 48
+ | 56
+ | 64
+ | 72
+ | 80
+ | 93
+ | 106
+ | 119
+ | 132
+ | 145
+ | 158
+ | 171
+ | 184
+ | 211
+ | 238
+ | 265
+ | 292
+ | 319
+ | 346
+ | 379
+ | 412
+ | 445
+ | 478
+ | 511
+ | 544
+ | 588
+ | 632
+ | 676
+ | 720
+ | 764
+ | 808
+ | 852
+ | 896
+ | 940
+ | 984
+ | 1028
+ | 1072
+ | 1116
+ | 1160
+ | 1204
+ | 1248
+ | 1292
+ | 1336
+ | 1380
+ | 1424
+ | 1468
+ | 1512
+ | 1556
+ | 1600
+ | 1644
+ | 1688
+ | 1732
+ | 1776
+ | 1820
+ | 1864
+ | 1908
+ | 1952
+ | 3
+ | Ice Bolt Damage (max)
+ | 32
+ | 44
+ | 56
+ | 68
+ | 80
+ | 92
+ | 104
+ | 116
+ | 133
+ | 150
+ | 167
+ | 184
+ | 201
+ | 218
+ | 235
+ | 252
+ | 288
+ | 324
+ | 360
+ | 396
+ | 432
+ | 468
+ | 512
+ | 556
+ | 600
+ | 644
+ | 688
+ | 732
+ | 791
+ | 850
+ | 909
+ | 968
+ | 1027
+ | 1086
+ | 1145
+ | 1204
+ | 1263
+ | 1322
+ | 1381
+ | 1440
+ | 1499
+ | 1558
+ | 1617
+ | 1676
+ | 1735
+ | 1794
+ | 1853
+ | 1912
+ | 1971
+ | 2030
+ | 2089
+ | 2148
+ | 2207
+ | 2266
+ | 2325
+ | 2384
+ | 2443
+ | 2502
+ | 2561
+ | 2620
+ | All
+ | Blades of Ice Attack Rating +%
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | 630
+ | 640
+ | 650
+ | 660
+ | 670
+ | 680
+ | 690
+ | 700
+ | 710
+ | 720
+ | 730
+ | 740
+ | 750
+ | Charges
+ | 1
+ | 2
+ | 3
+ | Finishing Move Attack Rating +%
+ | 50
+ | 100
+ | 150
+Charge 3: Ice Bolts Pierce enemies.
+Blades of Ice Receives Bonuses From:
+Tiger Strike: +17% Cold Damage per Level
+Changelog
+ | 
+Season 11:
+Synergies increased from 15% to 17%
+Third stage missile count increased from 8 to 10
+Third stage base damage increased from 11-26 to 24-32
+Third stage level 1-8 damage scaling increased from 6-8 to 8-12
+Third stage level 8-16 damage scaling increased from 9-11 to 13-17
+Third stage level 16-22 damage scaling increased from 20-22 to 27-36
+Third stage level 22-28 damage scaling increased from 32-33 to 33-44
+Third stage level 28+ damage scaling increased from 44-44 to 44-59
+Season 11:
+Synergies increased from 12% to 15%.
+Second Stage:
+Area of effect widened and range increased.
+Knockback chance reduced from 30% to 20%.
+Season 10:
+Charge 2 and charge 3 attacks have been completely reworked
+Phoenix Strike synergy replaced with Tiger Strike (22% -> 12%)
+Now properly shows +% Cold Damage bonuses in its tooltip
+AR scaling increased
+mana cost fixed at 3
+Season 8:
+Base freeze duration change from 100 frames to 250
+Removed the 10 frames per level freeze duration scaling
+Synergies increased from 20% to 22%
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Charges now last 5 minutes
+Blades of ice attack rating per level increased from +4% to 10%
+Season 3:
+Blades of ice base attack rating reduced from 240% to 160%
+Blades of ice attack rating per level reduced from 10% to 4%
+Season 2:
+Charge-up skills reworked
+Instead of charges being generated one-at-a-time per charge-up attack and the effects only applying when consumed by a finishing move or normal attack:
+Charge-up attacks immediately apply the attacks' effect of the appropriate stage (1-3) and generate charges until the character has that many charges of the attacks' type. Charges are "shared" between charge-up attacks so the first attack will apply a stage 1 effect and generate 1 charge, the second attack will apply a stage 2 effect and generate 1-2 charges, and the third attack will apply a stage 3 effect before the charges are reset and the cycle repeats.
+Since charges are reset after the 3rd attack rather than before the first attack of the next cycle, it's impossible to have 3 charges of any single type; to get 3 charges, they must be of different types. A finishing move can be used at any point to consume the charges as usual.
+synergy increased from 10% to 20%
+Season 1:
+attack rating bonus increased
+synergy is now 10% (was 8%)
+Vanilla Info
+## Phoenix Strike[edit]
+Description: Charge-up Skill - Consecutive hits add elemental bonuses based on the amount of charges you have available and deplete on the third attack. Can only be used with claw and dagger class weapons
+Required Level: 30
+Required Skills: Tiger Strike [1], Fists of Fire [6], Cobra Strike [12], Claws of Thunder [18], Blades of Ice [24]
+Duration: 300 Seconds
+Mana Cost: 4
+Charge 1: Meteor lands on target
+Radius: 4 Yards
+Burning Duration: 1.48 Seconds (37 frames)
+Charge 2: 7 Chain Lightning Bolts arc outward around target, and then back inward
+Maximum Range: ~12 Yards
+Charge 3: 24 Ice Bolts circle outward around target, and then back inward
+Cold Length: 4 Seconds
+Maximum Range: ~8 Yards
+ | Charge
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 1
+ | Fire Damage (min)
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 109
+ | 128
+ | 147
+ | 166
+ | 185
+ | 204
+ | 223
+ | 242
+ | 271
+ | 300
+ | 329
+ | 358
+ | 387
+ | 416
+ | 454
+ | 492
+ | 530
+ | 568
+ | 606
+ | 644
+ | 690
+ | 736
+ | 782
+ | 828
+ | 874
+ | 920
+ | 966
+ | 1012
+ | 1058
+ | 1104
+ | 1150
+ | 1196
+ | 1242
+ | 1288
+ | 1334
+ | 1380
+ | 1426
+ | 1472
+ | 1518
+ | 1564
+ | 1610
+ | 1656
+ | 1702
+ | 1748
+ | 1794
+ | 1840
+ | 1886
+ | 1932
+ | 1978
+ | 2024
+ | 2070
+ | 2116
+ | 1
+ | Fire Damage (max)
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 131
+ | 152
+ | 173
+ | 194
+ | 215
+ | 236
+ | 257
+ | 278
+ | 311
+ | 344
+ | 377
+ | 410
+ | 443
+ | 476
+ | 518
+ | 560
+ | 602
+ | 644
+ | 686
+ | 728
+ | 778
+ | 828
+ | 878
+ | 928
+ | 978
+ | 1028
+ | 1078
+ | 1128
+ | 1178
+ | 1228
+ | 1278
+ | 1328
+ | 1378
+ | 1428
+ | 1478
+ | 1528
+ | 1578
+ | 1628
+ | 1678
+ | 1728
+ | 1778
+ | 1828
+ | 1878
+ | 1928
+ | 1978
+ | 2028
+ | 2078
+ | 2128
+ | 2178
+ | 2228
+ | 2278
+ | 2328
+ | 1
+ | Burning Damage (min)
+ | 14
+ | 25
+ | 37
+ | 49
+ | 60
+ | 72
+ | 84
+ | 96
+ | 114
+ | 133
+ | 152
+ | 171
+ | 189
+ | 208
+ | 227
+ | 246
+ | 271
+ | 297
+ | 323
+ | 349
+ | 375
+ | 400
+ | 433
+ | 466
+ | 499
+ | 532
+ | 564
+ | 597
+ | 637
+ | 677
+ | 717
+ | 757
+ | 796
+ | 836
+ | 876
+ | 916
+ | 956
+ | 996
+ | 1035
+ | 1075
+ | 1115
+ | 1155
+ | 1195
+ | 1235
+ | 1275
+ | 1314
+ | 1354
+ | 1394
+ | 1434
+ | 1474
+ | 1514
+ | 1553
+ | 1593
+ | 1633
+ | 1673
+ | 1713
+ | 1753
+ | 1792
+ | 1832
+ | 1872
+ | 1
+ | Burning Damage (max)
+ | 23
+ | 37
+ | 51
+ | 65
+ | 79
+ | 93
+ | 107
+ | 121
+ | 142
+ | 164
+ | 185
+ | 206
+ | 227
+ | 248
+ | 269
+ | 290
+ | 318
+ | 346
+ | 375
+ | 403
+ | 431
+ | 459
+ | 494
+ | 529
+ | 564
+ | 600
+ | 635
+ | 670
+ | 712
+ | 754
+ | 796
+ | 839
+ | 881
+ | 923
+ | 965
+ | 1007
+ | 1050
+ | 1092
+ | 1134
+ | 1176
+ | 1218
+ | 1260
+ | 1303
+ | 1345
+ | 1387
+ | 1429
+ | 1471
+ | 1514
+ | 1556
+ | 1598
+ | 1640
+ | 1682
+ | 1725
+ | 1767
+ | 1809
+ | 1851
+ | 1893
+ | 1935
+ | 1978
+ | 2020
+ | 2
+ | Lightning Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 2
+ | Lightning Damage (max)
+ | 60
+ | 100
+ | 140
+ | 180
+ | 220
+ | 260
+ | 300
+ | 340
+ | 410
+ | 480
+ | 550
+ | 620
+ | 690
+ | 760
+ | 830
+ | 900
+ | 1000
+ | 1100
+ | 1200
+ | 1300
+ | 1400
+ | 1500
+ | 1630
+ | 1760
+ | 1890
+ | 2020
+ | 2150
+ | 2280
+ | 2440
+ | 2600
+ | 2760
+ | 2920
+ | 3080
+ | 3240
+ | 3400
+ | 3560
+ | 3720
+ | 3880
+ | 4040
+ | 4200
+ | 4360
+ | 4520
+ | 4680
+ | 4840
+ | 5000
+ | 5160
+ | 5320
+ | 5480
+ | 5640
+ | 5800
+ | 5960
+ | 6120
+ | 6280
+ | 6440
+ | 6600
+ | 6760
+ | 6920
+ | 7080
+ | 7240
+ | 7400
+ | 3
+ | Cold Damage (min)
+ | 16
+ | 20
+ | 24
+ | 28
+ | 32
+ | 36
+ | 40
+ | 44
+ | 52
+ | 60
+ | 68
+ | 76
+ | 84
+ | 92
+ | 100
+ | 108
+ | 120
+ | 132
+ | 144
+ | 156
+ | 168
+ | 180
+ | 200
+ | 220
+ | 240
+ | 260
+ | 280
+ | 300
+ | 328
+ | 356
+ | 384
+ | 412
+ | 440
+ | 468
+ | 496
+ | 524
+ | 552
+ | 580
+ | 608
+ | 636
+ | 664
+ | 692
+ | 720
+ | 748
+ | 776
+ | 804
+ | 832
+ | 860
+ | 888
+ | 916
+ | 944
+ | 972
+ | 1000
+ | 1028
+ | 1056
+ | 1084
+ | 1112
+ | 1140
+ | 1168
+ | 1196
+ | 3
+ | Cold Damage (max)
+ | 32
+ | 36
+ | 40
+ | 44
+ | 48
+ | 52
+ | 56
+ | 60
+ | 68
+ | 76
+ | 84
+ | 92
+ | 100
+ | 108
+ | 116
+ | 124
+ | 137
+ | 150
+ | 163
+ | 176
+ | 189
+ | 202
+ | 223
+ | 244
+ | 265
+ | 286
+ | 307
+ | 328
+ | 357
+ | 386
+ | 415
+ | 444
+ | 473
+ | 502
+ | 531
+ | 560
+ | 589
+ | 618
+ | 647
+ | 676
+ | 705
+ | 734
+ | 763
+ | 792
+ | 821
+ | 850
+ | 879
+ | 908
+ | 937
+ | 966
+ | 995
+ | 1024
+ | 1053
+ | 1082
+ | 1111
+ | 1140
+ | 1169
+ | 1198
+ | 1227
+ | 1256
+ | All
+ | Phoenix Strike Attack Rating +%
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | 630
+ | 640
+ | 650
+ | 660
+ | 670
+ | 680
+ | 690
+ | 700
+ | 710
+ | 720
+ | 730
+ | 740
+ | 750
+ | Charges
+ | 1
+ | 2
+ | 3
+ | Finishing Move Attack Rating +%
+ | 25
+ | 50
+ | 75
+Phoenix Strike's Meteor does no Physical Damage.
+Charge 2 + 3: Projectiles Pierce enemies.
+Phoenix Strike Receives Bonuses From:
+Fists of Fire: +14% Meteor Damage per Level
+Fists of Fire: +10% Burning Damage per Level
+Claws of Thunder: +10% Lightning Damage per Level
+Blades of Ice: +14% Cold Damage per Level
+Changelog
+ | 
+Season 10:
+Fists of Fire initial meteor damage synergy reduced from 16% to 14%
+Claws of Thunder synergy reduced from 14% to 10%
+Blades of Ice synergy reduced from 14% to 10%
+Now properly shows +% elemental damage bonuses in its tooltip
+Season 9:
+Chaos ice freeze replaced by a 4 second chill
+Season 8:
+Third charge freeze duration reduced from 1 second to .5
+Season 6:
+Phoenix strike meteor synergies now displays their proper values
+Season 5:
+Martials arts attacks now maintain their third charge and allow you to use a finisher to cast all three stages at once
+Charges now last 5 minutes
+Phoenix strike attack rating per level increased from +4% to 10%
+Phoenix strike chain lightning base damage increased from 1-40 to 1-60
+Phoenix strike level 1-8 chain lightning scaling increased from 0-20 to 0-40
+Phoenix strike level 8-16 chain lightning scaling increased from 0-40 to 0-70
+Phoenix strike level 16-22 chain lightning scaling increased from 0-60 to 0-100
+Phoenix strike level 22-28 chain lightning scaling increased from 0-80 to 0-130
+Phoenix strike level 28+ chain lightning scaling increased from 0-100 to 0-160
+Phoenix strike meteor fire duration reduced from 55 frames to 25
+Phoenix strike meteor level 1-8 scaling increased from 5-5 to 5-6
+Phoenix strike meteor level 8-16 scaling reduced from 10-10 to 8-9
+Phoenix strike meteor level 16-22 scaling reduced from 16-17 to 11-12
+Phoenix strike meteor level 22-28 scaling reduced from 22-24 to 14-15
+Phoenix strike meteor level 28+ scaling reduced from 30-32 to 17-18
+Season 4:
+Phoenix Strike meteor ground fire damage now lasts 2.2 seconds from 1.2
+Phoenix Strike's blades of ice synergy increased from 10% to 14%
+Phoenix Strike claw of thunder synergy increased from 13% to 14%
+Season 3:
+Phoenix strike meteor fire duration reduced to 1 second (this will prevent visual clutter and the "shenk bug" where too many sprites are on screen at once)
+Phoenix strike meteor fire damage per second synergy increased from 6% to 10%
+Phoenix strike ice attack freeze reduced to a 0.5 second freeze
+Phoenix strike's base attack rating reduced from 240% to 160%
+Phoenix strike's attack rating per level reduced from 10% to 4%
+Season 2:
+Charge-up skills reworked
+Instead of charges being generated one-at-a-time per charge-up attack and the effects only applying when consumed by a finishing move or normal attack:
+Charge-up attacks immediately apply the attacks' effect of the appropriate stage (1-3) and generate charges until the character has that many charges of the attacks' type. Charges are "shared" between charge-up attacks so the first attack will apply a stage 1 effect and generate 1 charge, the second attack will apply a stage 2 effect and generate 1-2 charges, and the third attack will apply a stage 3 effect before the charges are reset and the cycle repeats.
+Since charges are reset after the 3rd attack rather than before the first attack of the next cycle, it's impossible to have 3 charges of any single type; to get 3 charges, they must be of different types. A finishing move can be used at any point to consume the charges as usual.
+Season 1:
+Removed Next Hit Delay for 3rd charge (cold attack)
+2nd charge (lightning attack) no longer prevents 3rd charge from dealing damage when using Dragon Claw as the finisher
+attack rating bonus increased
+Vanilla Info
+## Blade Dance[edit]
+For information on Blade Dance, see: Blade Dance.
+Shadow Disciplines[edit]
+## Claw and Dagger Mastery[edit]
+Description: Passive - Improves your skill with claw and dagger weapons
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 40
+ | 55
+ | 70
+ | 85
+ | 100
+ | 115
+ | 130
+ | 145
+ | 160
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 265
+ | 280
+ | 295
+ | 310
+ | 325
+ | 340
+ | 355
+ | 370
+ | 385
+ | 400
+ | 415
+ | 430
+ | 445
+ | 460
+ | 475
+ | 490
+ | 505
+ | 520
+ | 535
+ | 550
+ | 565
+ | 580
+ | 595
+ | 610
+ | 625
+ | 640
+ | 655
+ | 670
+ | 685
+ | 700
+ | 715
+ | 730
+ | 745
+ | 760
+ | 775
+ | 790
+ | 805
+ | 820
+ | 835
+ | 850
+ | 865
+ | 880
+ | 895
+ | 910
+ | 925
+ | Attack Rating +%
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | Critical Strike +%
+ | 4
+ | 8
+ | 10
+ | 13
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 
+21
+ | 22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 
+24
+ | 
+24
+ | 25
+ | 
+25
+ | 
+25
+ | 26
+ | 
+26
+ | 
+26
+ | 
+26
+ | 27
+ | 
+27
+ | 
+27
+ | 
+27
+ | 
+27
+ | 
+27
+ | 
+27
+ | 
+27
+ | 
+27
+ | 28
+ | 
+28
+ | 
+28
+ | 
+28
+ | 
+28
+ | 
+28
+ | 
+28
+ | 
+28
+ | 
+28
+ | 29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 
+29
+ | 30
+Changelog
+ | 
+Season 13:
+Critical strike multiplier increased from 1.5x to 2x
+Critical strike cap increased from +25% to +30%
+Season 9:
+Base enhanced damage bonus increased from 35% to 40%
+Enhanced damage bonus per level increased from 12% to 15%
+Season 5:
+Claw and dagger mastery +10% enhanced damage per level increased to +12%
+Season 4:
+Claw and Dagger Mastery enhanced damage per level increased from 8% to 10%
+Season 2:
+damage scaling increased from 4% per level to 8% per level
+Season 1:
+renamed, now affects daggers as well as claws
+Vanilla Info for Claw Mastery
+## Psychic Hammer[edit]
+Description: Use the power of your mind to create a psychic blast to crush and knock back your enemies. Bounces to nearby enemies
+Required Level: 1
+Required Skills: None
+Bounce Radius: 5.33 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Magic Damage (min)
+ | 4
+ | 7
+ | 10
+ | 13
+ | 16
+ | 19
+ | 22
+ | 25
+ | 31
+ | 37
+ | 43
+ | 49
+ | 55
+ | 61
+ | 67
+ | 73
+ | 85
+ | 97
+ | 109
+ | 121
+ | 133
+ | 145
+ | 169
+ | 193
+ | 217
+ | 241
+ | 265
+ | 289
+ | 325
+ | 361
+ | 397
+ | 433
+ | 469
+ | 505
+ | 541
+ | 577
+ | 613
+ | 649
+ | 685
+ | 721
+ | 757
+ | 793
+ | 829
+ | 865
+ | 901
+ | 937
+ | 973
+ | 1009
+ | 1045
+ | 1081
+ | 1117
+ | 1153
+ | 1189
+ | 1225
+ | 1261
+ | 1297
+ | 1333
+ | 1369
+ | 1405
+ | 1441
+ | Magic Damage (max)
+ | 6
+ | 10
+ | 14
+ | 18
+ | 22
+ | 26
+ | 30
+ | 34
+ | 42
+ | 50
+ | 58
+ | 66
+ | 74
+ | 82
+ | 90
+ | 98
+ | 112
+ | 126
+ | 140
+ | 154
+ | 168
+ | 182
+ | 208
+ | 234
+ | 260
+ | 286
+ | 312
+ | 338
+ | 376
+ | 414
+ | 452
+ | 490
+ | 528
+ | 566
+ | 604
+ | 642
+ | 680
+ | 718
+ | 756
+ | 794
+ | 832
+ | 870
+ | 908
+ | 946
+ | 984
+ | 1022
+ | 1060
+ | 1098
+ | 1136
+ | 1174
+ | 1212
+ | 1250
+ | 1288
+ | 1326
+ | 1364
+ | 1402
+ | 1440
+ | 1478
+ | 1516
+ | 1554
+ | Number of Hits
+ | 2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | Mana Cost
+ | 1.5
+ | 1.75
+ | 2
+ | 2.25
+ | 2.5
+ | 2.75
+ | 3
+ | 3.25
+ | 3.5
+ | 3.75
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+Psychic Hammer deals 20% reduced Damage every time it bounces to an enemy.
+Psychic Hammer Receives Bonuses From:
+Mind Blast: +20% Damage per Level
+Cloak of Shadows: +20% Damage per Level
+Shadow Warrior: +20% Damage per Level
+Changelog
+ | 
+Season 10:
+Synergies increased from +15% to +20%
+Season 6:
+Psychic hammer bounce range increased by 33%
+Psychic hammer tooltip now displays that its damage reduces by 20% per bounce (was previously hidden)
+Season 5:
+Psychic hammer now gains an additional bounce every 10 soft levels instead of capping at 3
+Psychic hammer bounce distance increased by 20%
+Season 2:
+synergies reduced to 15% (was 18%)
+Season 1:
+Hits another enemy at level 10+
+damage buffed, only deals magic damage
+starting mana cost reduced to 1.5 (was 4)
+now has Mind Blast, Cloak of Shadows, & Shadow Warrior as synergies at 18%
+Vanilla Info
+## Burst of Speed[edit]
+Description: Increases attack and movement speed for a period of time
+Required Level: 6
+Required Skills: Claw and Dagger Mastery [1]
+Mana Cost: 10
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Movement Speed +%
+ | 20
+ | 22
+ | 24
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 79
+ | 80
+ | 81
+ | 82
+ | 83
+ | 84
+ | 85
+ | 86
+ | Duration (seconds)
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+ | 350
+ | 355
+ | 360
+ | 365
+ | 370
+ | 375
+ | 380
+ | 385
+ | 390
+ | 395
+ | 400
+ | 405
+ | 410
+ | 415
+ | 420
+ | 425
+ | 430
+ | 435
+ | 440
+ | 445
+ | 450
+ | 455
+ | 460
+ | 465
+ | 470
+ | 475
+ | 480
+ | 485
+ | 490
+ | 495
+ | 500
+ | 505
+ | 510
+ | 515
+ | 520
+ | 525
+ | 530
+ | 535
+ | 540
+ | 545
+ | 550
+ | 555
+ | 560
+ | 565
+ | 570
+ | 575
+ | 580
+ | 585
+ | 590
+ | 595
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Attack Speed +%
+ | 15
+ | 22
+ | 27
+ | 31
+ | 34
+ | 37
+ | 39
+ | 41
+ | 43
+ | 44
+ | 45
+ | 47
+ | 48
+ | 
+48
+ | 49
+ | 50
+ | 51
+ | 
+51
+ | 52
+ | 
+52
+ | 53
+Other Sources: Hustle (level 6)
+Changelog
+ | 
+Season 5:
+Burst of speed base movement speed increased from 10% to 20%
+Burst of speed level 8-16 movement speed bonus reduced from 2% to 1%
+Burst of speed base duration increased from 2 minutes to 5 minutes
+Burst of speed duration scaling reduced from 12 seconds per level to 5 seconds
+Season 1:
+now grants attack speed with hard points instead of soft points
+walk/run speed reduced
+Vanilla Info
+## Weapon Block[edit]
+Description: Passive - Chance to block when you are using dual claw-class weapons
+Required Level: 12
+Required Skills: Claw and Dagger Mastery [1]
+Internal Cooldown: 0.16 Seconds (4 frames)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Parry Chance %
+ | 8
+ | 14
+ | 19
+ | 24
+ | 27
+ | 30
+ | 32
+ | 34
+ | 36
+ | 37
+ | 39
+ | 40
+ | 41
+ | 42
+ | 
+42
+ | 44
+ | 
+44
+ | 45
+ | 
+45
+ | 46
+ | 
+46
+ | 47
+ | 
+47
+ | 48
+ | 
+48
+ | 
+48
+ | 49
+ | 
+49
+ | 50
+ | 
+50
+ | 
+50
+ | 
+50
+ | 51
+ | 
+51
+ | 
+51
+ | 
+51
+ | 
+51
+ | 52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 54
+ | 
+54
+ | 
+54
+ | 
+54
+ | 
+54
+ | 
+54
+ | 55
+ | Faster Block Rate +%
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+Parry Chance is improved by 1/5 of your "Increased Chance of Blocking" stat (rounded down).
+Maximum Parry Chance: 75%
+Dexterity has no effect on Parry Chance.
+Weapon Block's Faster Block Rate +% also affects Block Rate when wearing a Shield.
+Changelog
+ | 
+Season 11:
+Tooltip now includes the 0.16 second cooldown between successful parries.
+Season 8:
+Now gains 1% faster block rate per soft point instead of hard points
+The blocking mechanic from weapon based blocks will now be called a "Parry" to differentiate it from normal block
+Base parry chance set to 8%
+Parry chance cap granted by skill points reduced from 60% to 55%. Can still increase past this cap via "increased block chance" mods.
+Now can be increased by increased block chance at a 1:5 ratio (weapon block : increased block chance)
+Season 6:
+Weapon block now gives +1% faster block rate per base point
+Weapon block diminishing return scaling increased from 8 to 50 to 6 to 60
+Season 5:
+Now has a 4 frame cooldown after mitigating an attack
+Season 4:
+Weapon Block maximum block chance reduced from 65% to 50%
+Weapon Block minimum block chance reduced from 26% to 14%
+Weapon Block now works while moving
+Season 1:
+no changes
+Vanilla Info
+## Cloak of Shadows[edit]
+Description: Cast a shadow to blind nearby enemies, lowering their defenses for a period of time
+Required Level: 12
+Required Skills: Psychic Hammer [1]
+Range: 20 Yards
+Duration: 5 Seconds
+Cooldown: 5 Seconds
+Mana Cost: 13
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Defense +%
+ | 5
+ | 6
+ | 8
+ | 9
+ | 11
+ | 12
+ | 14
+ | 15
+ | 17
+ | 18
+ | 20
+ | 21
+ | 23
+ | 24
+ | 26
+ | 27
+ | 29
+ | 30
+ | 32
+ | 33
+ | 35
+ | 36
+ | 38
+ | 39
+ | 41
+ | 42
+ | 44
+ | 45
+ | 47
+ | 48
+ | 50
+ | 51
+ | 53
+ | 54
+ | 56
+ | 57
+ | 59
+ | 60
+ | 62
+ | 63
+ | 65
+ | 66
+ | 68
+ | 69
+ | 71
+ | 72
+ | 74
+ | 75
+ | 77
+ | 78
+ | 80
+ | 81
+ | 83
+ | 84
+ | 86
+ | 87
+ | 89
+ | 90
+ | 92
+ | 93
+ | Enemy Defense %
+ | -15
+ | -16
+ | -17
+ | -18
+ | -19
+ | -20
+ | -21
+ | -22
+ | -23
+ | -24
+ | -25
+ | -26
+ | -27
+ | -28
+ | -29
+ | -30
+ | -31
+ | -32
+ | -33
+ | -34
+ | -35
+ | -36
+ | -37
+ | -38
+ | -39
+ | -40
+ | -41
+ | -42
+ | -43
+ | -44
+ | -45
+ | -46
+ | -47
+ | -48
+ | -49
+ | -50
+ | -51
+ | -52
+ | -53
+ | -54
+ | -55
+ | -56
+ | -57
+ | -58
+ | -59
+ | -60
+ | -61
+ | -62
+ | -63
+ | -64
+ | -65
+ | -66
+ | -67
+ | -68
+ | -69
+ | -70
+ | -71
+ | -72
+ | -73
+ | -74
+Changelog
+ | 
+Season 11:
+Added a cooldown to match its uptime.
+Note: This was done to make it more clear that you cannot cast cloak of shadows while another instance of cloak of shadows is still active.
+Season 2:
+now reduces defense by 1% per level (was 3%)
+Season 1:
+now has a fixed duration of 5 seconds (was 8 + 1 second per level)
+bonus defense reduced
+Vanilla Info
+## Mind Blast[edit]
+Description: Stun a group of enemies using the power of your mind
+Required Level: 18
+Required Skills: Psychic Hammer [1], Cloak of Shadows [12]
+Mana Cost: 9
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Physical Damage (min)
+ | 10
+ | 13
+ | 16
+ | 19
+ | 22
+ | 25
+ | 28
+ | 31
+ | 38
+ | 45
+ | 52
+ | 59
+ | 66
+ | 73
+ | 80
+ | 87
+ | 104
+ | 121
+ | 138
+ | 155
+ | 172
+ | 189
+ | 223
+ | 257
+ | 291
+ | 325
+ | 359
+ | 393
+ | 444
+ | 495
+ | 546
+ | 597
+ | 648
+ | 699
+ | 750
+ | 801
+ | 852
+ | 903
+ | 954
+ | 1005
+ | 1056
+ | 1107
+ | 1158
+ | 1209
+ | 1260
+ | 1311
+ | 1362
+ | 1413
+ | 1464
+ | 1515
+ | 1566
+ | 1617
+ | 1668
+ | 1719
+ | 1770
+ | 1821
+ | 1872
+ | 1923
+ | 1974
+ | 2025
+ | Physical Damage (max)
+ | 20
+ | 23
+ | 26
+ | 29
+ | 32
+ | 35
+ | 38
+ | 41
+ | 48
+ | 55
+ | 62
+ | 69
+ | 76
+ | 83
+ | 90
+ | 97
+ | 114
+ | 131
+ | 148
+ | 165
+ | 182
+ | 199
+ | 233
+ | 267
+ | 301
+ | 335
+ | 369
+ | 403
+ | 454
+ | 505
+ | 556
+ | 607
+ | 658
+ | 709
+ | 760
+ | 811
+ | 862
+ | 913
+ | 964
+ | 1015
+ | 1066
+ | 1117
+ | 1168
+ | 1219
+ | 1270
+ | 1321
+ | 1372
+ | 1423
+ | 1474
+ | 1525
+ | 1576
+ | 1627
+ | 1678
+ | 1729
+ | 1780
+ | 1831
+ | 1882
+ | 1933
+ | 1984
+ | 2035
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Base Radius (yards)
+ | 4
+ | 
+4
+ | 4.66
+ | 
+4.66
+ | 5.33
+ | 
+5.33
+ | 6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | Stun Length (seconds)
+ | 4
+ | 2
+ | 0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | 
+0
+ | Consecutive Casts
+ | 1
+ | 2
+ | 3+
+ | Extra Radius (yards)
+ | 0
+ | 1.33
+ | 2.66
+For the "Consecutive Casts" Extra Radius to apply, Mind Blast casts must be less than 0.48 seconds (12 frames) apart. This requires at least 65% Faster Cast Rate.
+Mind Blast Receives Bonuses From:
+Psychic Hammer: +13% Damage per Level
+Cloak of Shadows: +13% Damage per Level
+Shadow Warrior: +13% Damage per Level
+When Struck Sources: Delirium (6% cast level 14), Treachery (15% cast level 21)
+Changelog
+ | 
+Season 11:
+Casting now requires line of sight.
+Note: The AoE effect still clips through walls and other cover.
+Season 10:
+Now gains increased area of effect with consecutive casts (up to 3 stacks)
+Season 8:
+Reverted back to 100% physical damage
+Season 7:
+Now deals partial magic damage
+Season 3:
+Mind blast starting radius increased from 1.6 yards to 2.6 yards
+Mind blast synergies increased from 10% to 13%
+stun now lasts 1.5 seconds in pvp (was 2 seconds)
+Season 2:
+AoE reduced by 1
+synergies reduced from 12% to 10%
+Season 1:
+moved in the skill tree, requires level 18 (was 24)
+No longer stuns after first hard point (was 2 seconds + 0.2 per level)
+no longer converts enemies
+Increased AOE with soft points
+damage buffed
+Mana cost reduced to 9 (was 15)
+now has Psychic Hammer, Cloak of Shadows, & Shadow Warrior as synergies at 12%
+Vanilla Info
+## Fade[edit]
+Description: Raise all resistances and resist curses for a period of time
+Required Level: 18
+Required Skills: Claw and Dagger Mastery [1], Burst of Speed [6]
+Mana Cost: 10
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | All Resistances +%
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 79
+ | 80
+ | 81
+ | Physical Damage Reduction %
+ | 0
+ | 
+0
+ | 1
+ | 
+1
+ | 
+1
+ | 2
+ | 
+2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 9
+ | 
+9
+ | 
+9
+ | 10
+ | 
+10
+ | 
+10
+ | 11
+ | 
+11
+ | 
+11
+ | 12
+ | 
+12
+ | 
+12
+ | 13
+ | 
+13
+ | 
+13
+ | 14
+ | 
+14
+ | 
+14
+ | 15
+ | 
+15
+ | 
+15
+ | 16
+ | 
+16
+ | 
+16
+ | 17
+ | 
+17
+ | 
+17
+ | 18
+ | 
+18
+ | 
+18
+ | 19
+ | 
+19
+ | 
+19
+ | 20
+ | Curse Duration %
+ | -5
+ | -6
+ | -7
+ | -8
+ | -9
+ | -10
+ | -11
+ | -12
+ | -13
+ | -14
+ | -15
+ | -16
+ | -17
+ | -18
+ | -19
+ | -20
+ | -21
+ | -22
+ | -23
+ | -24
+ | -25
+ | -26
+ | -27
+ | -28
+ | -29
+ | -30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | 
+-30
+ | Duration (seconds)
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+ | 350
+ | 355
+ | 360
+ | 365
+ | 370
+ | 375
+ | 380
+ | 385
+ | 390
+ | 395
+ | 400
+ | 405
+ | 410
+ | 415
+ | 420
+ | 425
+ | 430
+ | 435
+ | 440
+ | 445
+ | 450
+ | 455
+ | 460
+ | 465
+ | 470
+ | 475
+ | 480
+ | 485
+ | 490
+ | 495
+ | 500
+ | 505
+ | 510
+ | 515
+ | 520
+ | 525
+ | 530
+ | 535
+ | 540
+ | 545
+ | 550
+ | 555
+ | 560
+ | 565
+ | 570
+ | 575
+ | 580
+ | 585
+ | 590
+ | 595
+Changelog
+ | 
+Season 10:
+Resists bonus scaling reworked
+Now provides +15% resist at level 1, gainst +2% resists per level from levels 1-8 and +1% per level from levels 8+
+Curse duration reduction cap increased from +20% to +30%
+Physical Damage Reduction reduced from +1% every 2 levels to +1% every 3 levels
+Season 5:
+Fade base duration increased from 2 minutes to 5 minutes
+Fade duration scaling reduced from 12 seconds per level to 5 seconds
+Season 4:
+fade now starts at 5% curse duration reduction from 17%
+fade now caps at 20% curse duration reduction from 60%
+Season 1:
+curse duration reduction reduced
+damage reduction reduced
+Vanilla Info
+## Shadow Warrior[edit]
+Description: Summon a shadow of yourself that mimics your skills and fights by your side
+Required Level: 18
+Required Skills: Claw and Dagger Mastery [1], Psychic Hammer [1], Weapon Block [12], Cloak of Shadows [12]
+Cooldown: 2 Seconds
+Maximum Number of Shadows: 1 (Shared with Shadow Master)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Life (Normal)
+ | 600
+ | 630
+ | 660
+ | 690
+ | 720
+ | 750
+ | 780
+ | 810
+ | 840
+ | 870
+ | 900
+ | 930
+ | 960
+ | 990
+ | 1020
+ | 1050
+ | 1080
+ | 1110
+ | 1140
+ | 1170
+ | 1200
+ | 1230
+ | 1260
+ | 1290
+ | 1320
+ | 1350
+ | 1380
+ | 1410
+ | 1440
+ | 1470
+ | 1500
+ | 1530
+ | 1560
+ | 1590
+ | 1620
+ | 1650
+ | 1680
+ | 1710
+ | 1740
+ | 1770
+ | 1800
+ | 1830
+ | 1860
+ | 1890
+ | 1920
+ | 1950
+ | 1980
+ | 2010
+ | 2040
+ | 2070
+ | 2100
+ | 2130
+ | 2160
+ | 2190
+ | 2220
+ | 2250
+ | 2280
+ | 2310
+ | 2340
+ | 2370
+ | Life (Nightmare)
+ | 800
+ | 840
+ | 880
+ | 920
+ | 960
+ | 1000
+ | 1040
+ | 1080
+ | 1120
+ | 1160
+ | 1200
+ | 1240
+ | 1280
+ | 1320
+ | 1360
+ | 1400
+ | 1440
+ | 1480
+ | 1520
+ | 1560
+ | 1600
+ | 1640
+ | 1680
+ | 1720
+ | 1760
+ | 1800
+ | 1840
+ | 1880
+ | 1920
+ | 1960
+ | 2000
+ | 2040
+ | 2080
+ | 2120
+ | 2160
+ | 2200
+ | 2240
+ | 2280
+ | 2320
+ | 2360
+ | 2400
+ | 2440
+ | 2480
+ | 2520
+ | 2560
+ | 2600
+ | 2640
+ | 2680
+ | 2720
+ | 2760
+ | 2800
+ | 2840
+ | 2880
+ | 2920
+ | 2960
+ | 3000
+ | 3040
+ | 3080
+ | 3120
+ | 3160
+ | Life (Hell)
+ | 1000
+ | 1050
+ | 1100
+ | 1150
+ | 1200
+ | 1250
+ | 1300
+ | 1350
+ | 1400
+ | 1450
+ | 1500
+ | 1550
+ | 1600
+ | 1650
+ | 1700
+ | 1750
+ | 1800
+ | 1850
+ | 1900
+ | 1950
+ | 2000
+ | 2050
+ | 2100
+ | 2150
+ | 2200
+ | 2250
+ | 2300
+ | 2350
+ | 2400
+ | 2450
+ | 2500
+ | 2550
+ | 2600
+ | 2650
+ | 2700
+ | 2750
+ | 2800
+ | 2850
+ | 2900
+ | 2950
+ | 3000
+ | 3050
+ | 3100
+ | 3150
+ | 3200
+ | 3250
+ | 3300
+ | 3350
+ | 3400
+ | 3450
+ | 3500
+ | 3550
+ | 3600
+ | 3650
+ | 3700
+ | 3750
+ | 3800
+ | 3850
+ | 3900
+ | 3950
+ | Strength
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Dexterity
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Attack Rating +
+ | 40
+ | 80
+ | 120
+ | 160
+ | 200
+ | 240
+ | 280
+ | 320
+ | 360
+ | 400
+ | 440
+ | 480
+ | 520
+ | 560
+ | 600
+ | 640
+ | 680
+ | 720
+ | 760
+ | 800
+ | 840
+ | 880
+ | 920
+ | 960
+ | 1000
+ | 1040
+ | 1080
+ | 1120
+ | 1160
+ | 1200
+ | 1240
+ | 1280
+ | 1320
+ | 1360
+ | 1400
+ | 1440
+ | 1480
+ | 1520
+ | 1560
+ | 1600
+ | 1640
+ | 1680
+ | 1720
+ | 1760
+ | 1800
+ | 1840
+ | 1880
+ | 1920
+ | 1960
+ | 2000
+ | 2040
+ | 2080
+ | 2120
+ | 2160
+ | 2200
+ | 2240
+ | 2280
+ | 2320
+ | 2360
+ | 2400
+ | Defense +%
+ | 12
+ | 24
+ | 36
+ | 48
+ | 60
+ | 72
+ | 84
+ | 96
+ | 108
+ | 120
+ | 132
+ | 144
+ | 156
+ | 168
+ | 180
+ | 192
+ | 204
+ | 216
+ | 228
+ | 240
+ | 252
+ | 264
+ | 276
+ | 288
+ | 300
+ | 312
+ | 324
+ | 336
+ | 348
+ | 360
+ | 372
+ | 384
+ | 396
+ | 408
+ | 420
+ | 432
+ | 444
+ | 456
+ | 468
+ | 480
+ | 492
+ | 504
+ | 516
+ | 528
+ | 540
+ | 552
+ | 564
+ | 576
+ | 588
+ | 600
+ | 612
+ | 624
+ | 636
+ | 648
+ | 660
+ | 672
+ | 684
+ | 696
+ | 708
+ | 720
+ | All Resistances +%
+ | 17
+ | 27
+ | 35
+ | 42
+ | 47
+ | 51
+ | 55
+ | 57
+ | 61
+ | 62
+ | 65
+ | 67
+ | 68
+ | 70
+ | 71
+ | 73
+ | 
+73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 
+78
+ | 79
+ | 
+79
+ | 80
+ | 81
+ | 
+81
+ | 82
+ | 
+82
+ | 83
+ | 
+83
+ | 84
+ | 
+84
+ | 
+84
+ | 
+84
+ | 
+84
+ | 85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 86
+ | 
+86
+ | 
+86
+ | 87
+ | 
+87
+ | 
+87
+ | 
+87
+ | 88
+ | 
+88
+ | 
+88
+ | 
+88
+ | 
+88
+ | 89
+ | 
+89
+ | 
+89
+ | 
+89
+ | 
+89
+ | 
+89
+ | 90
+ | Mana Cost
+ | 27
+ | 27.5
+ | 28
+ | 28.5
+ | 29
+ | 29.5
+ | 30
+ | 30.5
+ | 31
+ | 31.5
+ | 32
+ | 32.5
+ | 33
+ | 33.5
+ | 34
+ | 34.5
+ | 35
+ | 35.5
+ | 36
+ | 36.5
+ | 37
+ | 37.5
+ | 38
+ | 38.5
+ | 39
+ | 39.5
+ | 40
+ | 40.5
+ | 41
+ | 41.5
+ | 42
+ | 42.5
+ | 43
+ | 43.5
+ | 44
+ | 44.5
+ | 45
+ | 45.5
+ | 46
+ | 46.5
+ | 47
+ | 47.5
+ | 48
+ | 48.5
+ | 49
+ | 49.5
+ | 50
+ | 50.5
+ | 51
+ | 51.5
+ | 52
+ | 52.5
+ | 53
+ | 53.5
+ | 54
+ | 54.5
+ | 55
+ | 55.5
+ | 56
+ | 56.5
+Other Attributes
+ | 
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28+
+ | Equipment Item Level
+ | 20
+ | 23
+ | 26
+ | 29
+ | 32
+ | 35
+ | 38
+ | 41
+ | 44
+ | 47
+ | 50
+ | 53
+ | 56
+ | 59
+ | 62
+ | 65
+ | 68
+ | 71
+ | 74
+ | 77
+ | 80
+ | 83
+ | 86
+ | 89
+ | 92
+ | 95
+ | 98
+ | 99
+ | Attribute
+ | Normal
+ | Nightmare
+ | Hell
+ | Used Skill's Level
+ | ([Shadow Warrior sLvl] ÷ 3) + ([Skill Used sLvl] ÷ 2)
+ | Base Life
+ | 600
+ | 800
+ | 1000
+ | Base Attack Rating
+ | 163
+ | 243
+ | 323
+ | Physical Resist
+ | 40
+ | 40
+ | 40
+ | Magic Resist
+ | 0
+ | 0
+ | 0
+ | Base Defense
+ | 196
+ | Critical Chance
+ | 5%
+ | Life Regen
+ | 1.8% per second
+ | AI Delay
+ | 0.4 seconds (10 frames)
+Shadow Warrior uses the two Skills you currently have active on Left and Right Click. 
+Number of Shadows can be increased by Whispering Mirage and Natalya's Odium.
+Shadow Warriors equip randomly-generated equipment which can be viewed by using the Inspect hotkey (9) while hovering over a Shadow with the Unsummon skill on right-click. This equipment improves Damage, Attack Speed, Defense, and other Attributes. Chance to Cast effects from the equipment are functional. 
+Changelog
+ | 
+Season 13:
+Traps set by master/warrior no longer “belong” to the player and instead are owned by the shadow
+This mostly applies to blade sentinel and blade fury, which will now use the shadow’s weapon/stats for damage
+Season 11:
+Now displays quantity (to account for cases where you can summon more than one shadow).
+AI rewritten and improved to use abilities more often instead of using normal attack.
+Now snapshots the players skill synergies on summon instead of requiring the shadow to cast them in order to gain the benefits of the synergies (this behaviour now matches the current behaviour of Shadow Masters).
+Now benefits from Weapon Block.
+No longer has innate 50% block chance.
+Season 10:
+Fixed a bug that was causing stats to not properly apply
+Season 7:
+Item quality per level increased from 2 to 3
+Shadow warrior base item quality increased from 18 to 20
+Reworked Shadow Warrior equipment generation so that they will generate boots to increase their kick damage
+Allowed inspecting shadow warriors gear (use unsummon skill to highlight the warrior and press inspect hotkey)
+Season 6:
+Shadow warrior AI has been updated
+Shadow warrior cooldown reduced from 6 seconds to 2 second
+Shadow warrior is now properly gaining its poison resist bonus
+Season 5:
+Shadow warrior base health in normal increased from 376 to 600
+Shadow warrior base health in nightmare increased from 376 to 800
+Shadow warrior base health in hell increased from 376 to 1000
+Shadow warrior health per level reduced from 15% to 5%
+Shadow warrior all resist scaling has been changed from +4 all resist per level capping at 75 to a diminishing return scaling from 5 to 90 (its all resist scaling now matches shadow master)
+Season 1:
+attack rating reduced from 100 per level to 40 per level
+Vanilla Info
+## Shadow Master[edit]
+Description: Summon a powerful shadow of yourself to fight by your side
+Required Level: 30
+Required Skills: Claw and Dagger Mastery [1], Psychic Hammer [1], Weapon Block [12], Cloak of Shadows [12], Shadow Warrior [18]
+Cooldown: 2 Seconds
+Maximum Number of Shadows: 1 (Shared with Shadow Warrior)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Life (Normal)
+ | 600
+ | 630
+ | 660
+ | 690
+ | 720
+ | 750
+ | 780
+ | 810
+ | 840
+ | 870
+ | 900
+ | 930
+ | 960
+ | 990
+ | 1020
+ | 1050
+ | 1080
+ | 1110
+ | 1140
+ | 1170
+ | 1200
+ | 1230
+ | 1260
+ | 1290
+ | 1320
+ | 1350
+ | 1380
+ | 1410
+ | 1440
+ | 1470
+ | 1500
+ | 1530
+ | 1560
+ | 1590
+ | 1620
+ | 1650
+ | 1680
+ | 1710
+ | 1740
+ | 1770
+ | 1800
+ | 1830
+ | 1860
+ | 1890
+ | 1920
+ | 1950
+ | 1980
+ | 2010
+ | 2040
+ | 2070
+ | 2100
+ | 2130
+ | 2160
+ | 2190
+ | 2220
+ | 2250
+ | 2280
+ | 2310
+ | 2340
+ | 2370
+ | Life (Nightmare)
+ | 800
+ | 840
+ | 880
+ | 920
+ | 960
+ | 1000
+ | 1040
+ | 1080
+ | 1120
+ | 1160
+ | 1200
+ | 1240
+ | 1280
+ | 1320
+ | 1360
+ | 1400
+ | 1440
+ | 1480
+ | 1520
+ | 1560
+ | 1600
+ | 1640
+ | 1680
+ | 1720
+ | 1760
+ | 1800
+ | 1840
+ | 1880
+ | 1920
+ | 1960
+ | 2000
+ | 2040
+ | 2080
+ | 2120
+ | 2160
+ | 2200
+ | 2240
+ | 2280
+ | 2320
+ | 2360
+ | 2400
+ | 2440
+ | 2480
+ | 2520
+ | 2560
+ | 2600
+ | 2640
+ | 2680
+ | 2720
+ | 2760
+ | 2800
+ | 2840
+ | 2880
+ | 2920
+ | 2960
+ | 3000
+ | 3040
+ | 3080
+ | 3120
+ | 3160
+ | Life (Hell)
+ | 1000
+ | 1050
+ | 1100
+ | 1150
+ | 1200
+ | 1250
+ | 1300
+ | 1350
+ | 1400
+ | 1450
+ | 1500
+ | 1550
+ | 1600
+ | 1650
+ | 1700
+ | 1750
+ | 1800
+ | 1850
+ | 1900
+ | 1950
+ | 2000
+ | 2050
+ | 2100
+ | 2150
+ | 2200
+ | 2250
+ | 2300
+ | 2350
+ | 2400
+ | 2450
+ | 2500
+ | 2550
+ | 2600
+ | 2650
+ | 2700
+ | 2750
+ | 2800
+ | 2850
+ | 2900
+ | 2950
+ | 3000
+ | 3050
+ | 3100
+ | 3150
+ | 3200
+ | 3250
+ | 3300
+ | 3350
+ | 3400
+ | 3450
+ | 3500
+ | 3550
+ | 3600
+ | 3650
+ | 3700
+ | 3750
+ | 3800
+ | 3850
+ | 3900
+ | 3950
+ | Strength
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Dexterity
+ | 10
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | Attack Rating +
+ | 40
+ | 80
+ | 120
+ | 160
+ | 200
+ | 240
+ | 280
+ | 320
+ | 360
+ | 400
+ | 440
+ | 480
+ | 520
+ | 560
+ | 600
+ | 640
+ | 680
+ | 720
+ | 760
+ | 800
+ | 840
+ | 880
+ | 920
+ | 960
+ | 1000
+ | 1040
+ | 1080
+ | 1120
+ | 1160
+ | 1200
+ | 1240
+ | 1280
+ | 1320
+ | 1360
+ | 1400
+ | 1440
+ | 1480
+ | 1520
+ | 1560
+ | 1600
+ | 1640
+ | 1680
+ | 1720
+ | 1760
+ | 1800
+ | 1840
+ | 1880
+ | 1920
+ | 1960
+ | 2000
+ | 2040
+ | 2080
+ | 2120
+ | 2160
+ | 2200
+ | 2240
+ | 2280
+ | 2320
+ | 2360
+ | 2400
+ | All Resistances +%
+ | 17
+ | 27
+ | 35
+ | 42
+ | 47
+ | 51
+ | 55
+ | 57
+ | 61
+ | 62
+ | 65
+ | 67
+ | 68
+ | 70
+ | 71
+ | 73
+ | 
+73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 
+78
+ | 79
+ | 
+79
+ | 80
+ | 81
+ | 
+81
+ | 82
+ | 
+82
+ | 83
+ | 
+83
+ | 84
+ | 
+84
+ | 
+84
+ | 
+84
+ | 
+84
+ | 85
+ | 
+85
+ | 
+85
+ | 
+85
+ | 86
+ | 
+86
+ | 
+86
+ | 87
+ | 
+87
+ | 
+87
+ | 
+87
+ | 88
+ | 
+88
+ | 
+88
+ | 
+88
+ | 
+88
+ | 89
+ | 
+89
+ | 
+89
+ | 
+89
+ | 
+89
+ | 
+89
+ | 90
+ | Mana Cost
+ | 35
+ | 35.5
+ | 36
+ | 36.5
+ | 37
+ | 37.5
+ | 38
+ | 38.5
+ | 39
+ | 39.5
+ | 40
+ | 40.5
+ | 41
+ | 41.5
+ | 42
+ | 42.5
+ | 43
+ | 43.5
+ | 44
+ | 44.5
+ | 45
+ | 45.5
+ | 46
+ | 46.5
+ | 47
+ | 47.5
+ | 48
+ | 48.5
+ | 49
+ | 49.5
+ | 50
+ | 50.5
+ | 51
+ | 51.5
+ | 52
+ | 52.5
+ | 53
+ | 53.5
+ | 54
+ | 54.5
+ | 55
+ | 55.5
+ | 56
+ | 56.5
+ | 57
+ | 57.5
+ | 58
+ | 58.5
+ | 59
+ | 59.5
+ | 60
+ | 60.5
+ | 61
+ | 61.5
+ | 62
+ | 62.5
+ | 63
+ | 63.5
+ | 64
+ | 64.5
+Other Attributes
+ | 
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26+
+ | Equipment Item Level
+ | 24
+ | 27
+ | 30
+ | 33
+ | 36
+ | 39
+ | 42
+ | 45
+ | 48
+ | 51
+ | 54
+ | 57
+ | 60
+ | 63
+ | 66
+ | 69
+ | 72
+ | 75
+ | 78
+ | 81
+ | 84
+ | 87
+ | 90
+ | 93
+ | 96
+ | 99
+ | Attribute
+ | Normal
+ | Nightmare
+ | Hell
+ | Used Skill's Level
+ | ([Shadow Master sLvl] ÷ 3) + ([Skill Used sLvl] ÷ 2)
+ | Base Life
+ | 600
+ | 800
+ | 1000
+ | Base Attack Rating
+ | 163
+ | 243
+ | 323
+ | Physical Resist
+ | 40
+ | 40
+ | 40
+ | Magic Resist
+ | 0
+ | 0
+ | 0
+ | Base Defense
+ | 196
+ | Critical Chance
+ | 5%
+ | Life Regen
+ | 1.2% per second
+ | AI Delay
+ | 0.4 seconds (10 frames)
+Shadow Master can use any Assassin Skill, even ones you don't have. Its AI is sophisticated and has no set Skill probabilities, but it tends to use more Martial Arts Skills than Traps, almost always keeps Venom and Blade Shield active, and alternates between Fade and Burst of Speed.
+Number of Shadows can be increased by Whispering Mirage and Natalya's Odium.
+Shadow Masters equip randomly-generated equipment which can be viewed by using the Inspect hotkey (9) while hovering over a Shadow with the Unsummon skill on right-click. This equipment improves Damage, Attack Speed, Defense, and other Attributes. Chance to Cast effects from the equipment are functional. 
+Changelog
+ | 
+Season 13:
+Traps set by master/warrior no longer “belong” to the player and instead are owned by the shadow
+This mostly applies to blade sentinel and blade fury, which will now use the shadow’s weapon/stats for damage
+Season 11:
+Now displays quantity (to account for cases where you can summon more than one shadow).
+No longer has 50% innate block chance.
+Note: Shadow masters already previously benefited from Weapon Block.
+Season 10:
+Fixed a bug that was causing stats to not properly apply
+Season 7:
+Reworked Shadow Master equipment generation so that they will generate boots to increase their kick damage
+Allowed inspecting shadow masters gear (using unsummon skill to highlight the warrior and press 0)
+Season 6:
+Shadow master AI has been updated
+Shadow master cooldown reduced from 6 seconds to 2 second
+Season 5:
+Shadow master base health in normal increased from 376 to 600
+Shadow master base health in nightmare increased from 376 to 800
+Shadow master base health in hell increased from 376 to 1000
+Shadow master health per level reduced from 15% to 5%
+Season 1:
+attack rating reduced from 90 per level to 40 per level
+Vanilla Info
+## Venom[edit]
+Description: Adds poison damage to your weapons
+Required Level: 30
+Required Skills: Claw and Dagger Mastery [1], Burst of Speed [6], Fade [18]
+Poison Length: 1 second
+Mana Cost: 12
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Poison Damage (min)
+ | 75
+ | 93
+ | 112
+ | 131
+ | 150
+ | 168
+ | 187
+ | 206
+ | 237
+ | 268
+ | 300
+ | 331
+ | 362
+ | 393
+ | 425
+ | 456
+ | 500
+ | 543
+ | 587
+ | 631
+ | 675
+ | 718
+ | 775
+ | 831
+ | 887
+ | 943
+ | 1000
+ | 1056
+ | 1125
+ | 1193
+ | 1262
+ | 1331
+ | 1400
+ | 1468
+ | 1537
+ | 1606
+ | 1675
+ | 1743
+ | 1812
+ | 1881
+ | 1950
+ | 2018
+ | 2087
+ | 2156
+ | 2225
+ | 2293
+ | 2362
+ | 2431
+ | 2500
+ | 2568
+ | 2637
+ | 2706
+ | 2775
+ | 2843
+ | 2912
+ | 2981
+ | 3050
+ | 3118
+ | 3187
+ | 3256
+ | Poison Damage (max)
+ | 100
+ | 118
+ | 137
+ | 156
+ | 175
+ | 193
+ | 212
+ | 231
+ | 262
+ | 293
+ | 325
+ | 356
+ | 387
+ | 418
+ | 450
+ | 481
+ | 525
+ | 568
+ | 612
+ | 656
+ | 700
+ | 743
+ | 800
+ | 856
+ | 912
+ | 968
+ | 1025
+ | 1081
+ | 1150
+ | 1218
+ | 1287
+ | 1356
+ | 1425
+ | 1493
+ | 1562
+ | 1631
+ | 1700
+ | 1768
+ | 1837
+ | 1906
+ | 1975
+ | 2043
+ | 2112
+ | 2181
+ | 2250
+ | 2318
+ | 2387
+ | 2456
+ | 2525
+ | 2593
+ | 2662
+ | 2731
+ | 2800
+ | 2868
+ | 2937
+ | 3006
+ | 3075
+ | 3143
+ | 3212
+ | 3281
+ | Duration (seconds)
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+ | 350
+ | 355
+ | 360
+ | 365
+ | 370
+ | 375
+ | 380
+ | 385
+ | 390
+ | 395
+ | 400
+ | 405
+ | 410
+ | 415
+ | 420
+ | 425
+ | 430
+ | 435
+ | 440
+ | 445
+ | 450
+ | 455
+ | 460
+ | 465
+ | 470
+ | 475
+ | 480
+ | 485
+ | 490
+ | 495
+ | 500
+ | 505
+ | 510
+ | 515
+ | 520
+ | 525
+ | 530
+ | 535
+ | 540
+ | 545
+ | 550
+ | 555
+ | 560
+ | 565
+ | 570
+ | 575
+ | 580
+ | 585
+ | 590
+ | 595
+To prevent "double dipping" of damage bonuses, Poison Damage added to your attacks is calculated using only the base skill damage and the skill synergy bonus at the time of casting. Mastery damage (from any Poison Skill Damage +% on equipment) is applied on every attack.
+Venom's 1-second Poison Length overrides Poison Length values from item-based sources of Poison Damage, but not Skill-based sources. For more information on calculating Poison Damage/Length, see here.
+Listed Poison Damage is the rounded total over the 1 second duration. For calculating total character Poison Damage, the below "per frame" unrounded numbers may be useful:
+Per-Frame Venom Damage
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Poison Damage (min per frame)
+ | 3
+ | 3.75
+ | 4.5
+ | 5.25
+ | 6
+ | 6.75
+ | 7.5
+ | 8.25
+ | 9.5
+ | 10.75
+ | 12
+ | 13.25
+ | 14.5
+ | 15.75
+ | 17
+ | 18.25
+ | 20
+ | 21.75
+ | 23.5
+ | 25.25
+ | 27
+ | 28.75
+ | 31
+ | 33.25
+ | 35.5
+ | 37.75
+ | 40
+ | 42.25
+ | 45
+ | 47.75
+ | 50.5
+ | 53.25
+ | 56
+ | 58.75
+ | 61.5
+ | 64.25
+ | 67
+ | 69.75
+ | 72.5
+ | 75.25
+ | 78
+ | 80.75
+ | 83.5
+ | 86.25
+ | 89
+ | 91.75
+ | 94.5
+ | 97.25
+ | 100
+ | 102.75
+ | 105.5
+ | 108.25
+ | 111
+ | 113.75
+ | 116.5
+ | 119.25
+ | 122
+ | 124.75
+ | 127.5
+ | 130.25
+ | Poison Damage (max per frame)
+ | 4
+ | 4.75
+ | 5.5
+ | 6.25
+ | 7
+ | 7.75
+ | 8.5
+ | 9.25
+ | 10.5
+ | 11.75
+ | 13
+ | 14.25
+ | 15.5
+ | 16.75
+ | 18
+ | 19.25
+ | 21
+ | 22.75
+ | 24.5
+ | 26.25
+ | 28
+ | 29.75
+ | 32
+ | 34.25
+ | 36.5
+ | 38.75
+ | 41
+ | 43.25
+ | 46
+ | 48.75
+ | 51.5
+ | 54.25
+ | 57
+ | 59.75
+ | 62.5
+ | 65.25
+ | 68
+ | 70.75
+ | 73.5
+ | 76.25
+ | 79
+ | 81.75
+ | 84.5
+ | 87.25
+ | 90
+ | 92.75
+ | 95.5
+ | 98.25
+ | 101
+ | 103.75
+ | 106.5
+ | 109.25
+ | 112
+ | 114.75
+ | 117.5
+ | 120.25
+ | 123
+ | 125.75
+ | 128.5
+ | 131.25
+Venom Receives Bonuses From:
+Cobra Strike: +14% Poison Damage per Level
+Changelog
+ | 
+Season 12:
+Synergies increased from +12% to +14%
+Now properly gains damage bonuses from +% poison damage sources with ranged attacks
+Season 10:
+Synergies increased from +10% to +12%
+Season 9:
+Level 8-16 scaling increased from 8-8 to 10-10
+Level 16-22 scaling increased from 10-10 to 14-14
+Level 22-28 scaling increased from 14-14 to 18-18
+Level 28+ scaling increased from 18-18 to 22-22
+Season 8:
+Now deals it's damage over 1 second instead of 2
+Venom's damage has been doubled and top end increased slightly
+Season 7:
+No longer double dips on increase poison damage% (the poison damage% will be applied on hit and not on casting venom)
+No longer has scaling duration from poison damage%
+Now lasts 1.6 seconds at all levels
+Season 5:
+Venom cobra strike synergy increased from 6% to 8%
+Season 3:
+venom now gains 5 seconds duration per level
+Season 2:
+now lasts 5 minutes at all levels
+Season 1:
+now has Cobra Strike as a synergy at 6%
+Vanilla Info
+Traps[edit]
+## Fire Blast[edit]
+Description: Throw a fire bomb to blast your enemies to bits
+Required Level: 1
+Required Skills: None
+Bomb Radius: 2.66 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 29
+ | 33
+ | 37
+ | 41
+ | 45
+ | 49
+ | 58
+ | 67
+ | 76
+ | 85
+ | 94
+ | 103
+ | 114
+ | 126
+ | 137
+ | 149
+ | 160
+ | 172
+ | 183
+ | 195
+ | 206
+ | 218
+ | 229
+ | 241
+ | 252
+ | 264
+ | 275
+ | 287
+ | 298
+ | 310
+ | 321
+ | 333
+ | 344
+ | 356
+ | 367
+ | 379
+ | 390
+ | 402
+ | 413
+ | 425
+ | 436
+ | 448
+ | 459
+ | 471
+ | Fire Damage (max)
+ | 3
+ | 4
+ | 6
+ | 7
+ | 9
+ | 10
+ | 12
+ | 13
+ | 16
+ | 18
+ | 21
+ | 23
+ | 26
+ | 28
+ | 31
+ | 33
+ | 38
+ | 43
+ | 48
+ | 53
+ | 58
+ | 63
+ | 73
+ | 83
+ | 93
+ | 103
+ | 113
+ | 123
+ | 136
+ | 148
+ | 161
+ | 173
+ | 186
+ | 198
+ | 211
+ | 223
+ | 236
+ | 248
+ | 261
+ | 273
+ | 286
+ | 298
+ | 311
+ | 323
+ | 336
+ | 348
+ | 361
+ | 373
+ | 386
+ | 398
+ | 411
+ | 423
+ | 436
+ | 448
+ | 461
+ | 473
+ | 486
+ | 498
+ | 511
+ | 523
+ | Number of Bombs
+ | 1
+ | 
+1
+ | 2
+ | 
+2
+ | 
+2
+ | 3
+ | 
+3
+ | 
+3
+ | 4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | 
+9
+ | Mana Cost
+ | 2
+ | 2.125
+ | 2.25
+ | 2.375
+ | 2.5
+ | 2.625
+ | 2.75
+ | 2.875
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+Fire Blast's Bombs scatter randomly near the selected target, landing up to ~3.33 Yards away. They have no Next Hit Delay.
+Fire Blast is not considered a summoned creature, and thus benefits from Fire Skill Damage +% and Fire Resistance Pierce -%.
+Fire Blast Receives Bonuses From:
+Shock Web: +18% Fire Damage per Level
+Charged Bolt Sentry: +18% Fire Damage per Level
+Lightning Sentry: +18% Fire Damage per Level
+Chain Lightning Sentry: +18% Fire Damage per Level
+Wake of Fire: +18% Fire Damage per Level
+Wake of Inferno: +18% Fire Damage per Level
+Changelog
+ | 
+Season 13:
+Now gains an additional bomb every 3 soft points instead of base levels
+Now caps at a maximum of 9 bombs up from 7
+Season 11:
++1 additional bomb per 4 base levels increased to +1 additional bomb per 3 base levels.
+Missile velocity increased from 12 to 16.
+Season 10:
+Synergies increased from 15% to 18%
+Season 9:
+Level 28+ scaling increased from 9-10 to 11.5-12.5
+Synergies increased from 14% to 15%
+Season 7:
+Synergies increased from 12 to 14%
+Season 3:
+Fire blast synergies increased from 9% to 12%
+Season 2:
+Traps now gain +% and -% elemental bonuses
+Season 1:
+now gains an extra bomb every 4 hard points
+damage per bomb reduced
+starting mana cost reduced to 3 (was 4)
+synergy for Death Sentry changed to Chain Lightning Sentry
+Vanilla Info
+## Shock Web[edit]
+Description: Throw a web of lightning to shock your enemies
+Required Level: 6
+Required Skills: Fire Blast [1]
+Spike Damage Radius: 1.33 Yards
+Duration: 3.6 seconds (90 frames)
+Cooldown: 1 Second
+Mana Cost: 6
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 3
+ | 4
+ | 6
+ | 7
+ | 9
+ | 10
+ | 12
+ | 14
+ | 17
+ | 20
+ | 23
+ | 26
+ | 29
+ | 32
+ | 35
+ | 39
+ | 43
+ | 48
+ | 53
+ | 57
+ | 62
+ | 67
+ | 73
+ | 79
+ | 85
+ | 92
+ | 98
+ | 104
+ | 114
+ | 123
+ | 132
+ | 142
+ | 151
+ | 160
+ | 170
+ | 179
+ | 189
+ | 198
+ | 207
+ | 217
+ | 226
+ | 235
+ | 245
+ | 254
+ | 264
+ | 273
+ | 282
+ | 292
+ | 301
+ | 310
+ | 320
+ | 329
+ | 339
+ | 348
+ | 357
+ | 367
+ | 376
+ | 385
+ | 395
+ | 404
+ | Lightning Damage (max)
+ | 7
+ | 14
+ | 20
+ | 26
+ | 32
+ | 39
+ | 45
+ | 51
+ | 67
+ | 82
+ | 98
+ | 114
+ | 129
+ | 145
+ | 160
+ | 176
+ | 201
+ | 226
+ | 251
+ | 276
+ | 301
+ | 326
+ | 360
+ | 395
+ | 429
+ | 464
+ | 498
+ | 532
+ | 576
+ | 620
+ | 664
+ | 707
+ | 751
+ | 795
+ | 839
+ | 882
+ | 926
+ | 970
+ | 1014
+ | 1057
+ | 1101
+ | 1145
+ | 1189
+ | 1232
+ | 1276
+ | 1320
+ | 1364
+ | 1407
+ | 1451
+ | 1495
+ | 1539
+ | 1582
+ | 1626
+ | 1670
+ | 1714
+ | 1757
+ | 1801
+ | 1845
+ | 1889
+ | 1932
+ | Number of Spikes
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 9
+ | 
+9
+ | 
+9
+ | 10
+ | 
+10
+ | 
+10
+ | 11
+ | 
+11
+ | 
+11
+ | 12
+ | 
+12
+ | 
+12
+ | 13
+ | 
+13
+ | 
+13
+ | 14
+ | 
+14
+ | 
+14
+ | 15
+ | 
+15
+ | 
+15
+ | 16
+ | 
+16
+ | 
+16
+ | 17
+ | 
+17
+ | 
+17
+ | 18
+ | 
+18
+ | 
+18
+ | 19
+ | 
+19
+ | 
+19
+ | 20
+ | 
+20
+ | 
+20
+ | 21
+ | 
+21
+ | 
+21
+ | 22
+ | 
+22
+ | 
+22
+ | 23
+ | 
+23
+ | 
+23
+ | 24
+Shock Web's Spikes scatter randomly near the selected target, landing up to ~3.33 Yards away. Enemies can take damage from multiple Spikes at one time. 
+Shock Web is not considered a summoned creature, and thus benefits from Lightning Skill Damage +% and Lightning Resistance Pierce -%. 
+Shock Web's damage is applied every frame to enemies in its Radius. Values above are per second (25x the game file data) and rounded. See below for unrounded per-frame data: 
+Per-Frame Shock Web Damage
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min per frame)
+ | 0.125
+ | 0.1875
+ | 0.25
+ | 0.3125
+ | 0.375
+ | 0.4375
+ | 0.5
+ | 0.5625
+ | 0.6875
+ | 0.8125
+ | 0.9375
+ | 1.0625
+ | 1.1875
+ | 1.3125
+ | 1.4375
+ | 1.5625
+ | 1.75
+ | 1.9375
+ | 2.125
+ | 2.3125
+ | 2.5
+ | 2.6875
+ | 2.9375
+ | 3.1875
+ | 3.4375
+ | 3.6875
+ | 3.9375
+ | 4.1875
+ | 4.5625
+ | 4.9375
+ | 5.3125
+ | 5.6875
+ | 6.0625
+ | 6.4375
+ | 6.8125
+ | 7.1875
+ | 7.5625
+ | 7.9375
+ | 8.3125
+ | 8.6875
+ | 9.0625
+ | 9.4375
+ | 9.8125
+ | 10.1875
+ | 10.5625
+ | 10.9375
+ | 11.3125
+ | 11.6875
+ | 12.0625
+ | 12.4375
+ | 12.8125
+ | 13.1875
+ | 13.5625
+ | 13.9375
+ | 14.3125
+ | 14.6875
+ | 15.0625
+ | 15.4375
+ | 15.8125
+ | 16.1875
+ | Lightning Damage (max per frame)
+ | 0.3125
+ | 0.5625
+ | 0.8125
+ | 1.0625
+ | 1.3125
+ | 1.5625
+ | 1.8125
+ | 2.0625
+ | 2.6875
+ | 3.3125
+ | 3.9375
+ | 4.5625
+ | 5.1875
+ | 5.8125
+ | 6.4375
+ | 7.0625
+ | 8.0625
+ | 9.0625
+ | 10.0625
+ | 11.0625
+ | 12.0625
+ | 13.0625
+ | 14.4375
+ | 15.8125
+ | 17.1875
+ | 18.5625
+ | 19.9375
+ | 21.3125
+ | 23.0625
+ | 24.8125
+ | 26.5625
+ | 28.3125
+ | 30.0625
+ | 31.8125
+ | 33.5625
+ | 35.3125
+ | 37.0625
+ | 38.8125
+ | 40.5625
+ | 42.3125
+ | 44.0625
+ | 45.8125
+ | 47.5625
+ | 49.3125
+ | 51.0625
+ | 52.8125
+ | 54.5625
+ | 56.3125
+ | 58.0625
+ | 59.8125
+ | 61.5625
+ | 63.3125
+ | 65.0625
+ | 66.8125
+ | 68.5625
+ | 70.3125
+ | 72.0625
+ | 73.8125
+ | 75.5625
+ | 77.3125
+Shock Web Receives Bonuses From:
+Charged Bolt Sentry: +17% Lightning Damage per Level
+Wake of Fire: +17% Lightning Damage per Level
+Chain Lightning Sentry: +17% Lightning Damage per Level
+Fire Blast: +17% Lightning Damage per Level
+Lightning Sentry: +17% Lightning Damage per Level
+Wake of Inferno: +17% Lightning Damage per Level
+Changelog
+ | 
+Season 13:
+Base minimum damage increased from 1 to 2
+Levels 1-8 minimum damage scaling increased from 0 to 1
+Levels 8-16 minimum damage scaling increased from 0 to 2
+Levels 16-22 minimum damage scaling increased from 0 to 3
+Levels 22-28 minimum damage scaling increased from 0 to 4
+Levels 28+ minimum damage scaling increased from 0 to 6
+Season 10:
+Synergies increased from 15% to 17%
+Season 9:
+Synergies increased from 14% to 15%
+Death sentry synergy replaced with Fire Blast
+Season 7:
+Synergies increased from 12 to 14%
+Season 5:
+Shockweb level 8-16 scaling increased from 1-8 to 1-10
+Shockweb level 16-22 scaling increased from 1-14 to 1-16
+Shockweb level 22-28 scaling increased from 1-20 to 1-22
+Shockweb level 28+ scaling increased from 1-26 to 1-28
+Season 4:
+Shockweb's fire blast synergy replaced with chain lightning sentry
+Season 3:
+Shock web synergies increased from 10% to 12%
+Season 2:
+Traps now gain +% and -% elemental bonuses
+Season 1:
+removed next hit delay
+increased ground speed
+damage increased
+now gains 1 additional spike per three levels
+synergy from Fire Blast changed to lightning damage (was +1 spike per three levels)
+now also has Wake of Fire & Wake of Inferno as synergies
+synergies are now 10% (was 11%)
+Vanilla Info
+## Blade Sentinel[edit]
+Description: Set a spinning blade to patrol between you and target point. Releases small explosion at each endpoint
+Required Level: 6
+Required Skills: None
+100% Weapon Damage added to Skill Damage
+Hits Once Every 0.2 Seconds (5 frames)
+Explosion Radius: 4.66 Yards
+Mana Cost: 3.5
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Physical Damage (min)
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 26
+ | 28
+ | 31
+ | 34
+ | 37
+ | 40
+ | 43
+ | 46
+ | 50
+ | 54
+ | 58
+ | 62
+ | 66
+ | 70
+ | 74
+ | 78
+ | 82
+ | 86
+ | 90
+ | 94
+ | 98
+ | 102
+ | 106
+ | 110
+ | 114
+ | 118
+ | 122
+ | 126
+ | 130
+ | 134
+ | 138
+ | 142
+ | 146
+ | 150
+ | 154
+ | 158
+ | 162
+ | 166
+ | 170
+ | 174
+ | Physical Damage (max)
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 20
+ | 22
+ | 24
+ | 26
+ | 28
+ | 30
+ | 33
+ | 36
+ | 39
+ | 42
+ | 45
+ | 48
+ | 52
+ | 56
+ | 60
+ | 64
+ | 68
+ | 72
+ | 76
+ | 80
+ | 84
+ | 88
+ | 92
+ | 96
+ | 100
+ | 104
+ | 108
+ | 112
+ | 116
+ | 120
+ | 124
+ | 128
+ | 132
+ | 136
+ | 140
+ | 144
+ | 148
+ | 152
+ | 156
+ | 160
+ | 164
+ | 168
+ | 172
+ | 176
+ | Attack Rating +
+ | 5
+ | 10
+ | 15
+ | 20
+ | 25
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | Attack Rating +%
+ | 40
+ | 55
+ | 70
+ | 85
+ | 100
+ | 115
+ | 130
+ | 145
+ | 160
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 265
+ | 280
+ | 295
+ | 310
+ | 325
+ | 340
+ | 355
+ | 370
+ | 385
+ | 400
+ | 415
+ | 430
+ | 445
+ | 460
+ | 475
+ | 490
+ | 505
+ | 520
+ | 535
+ | 550
+ | 565
+ | 580
+ | 595
+ | 610
+ | 625
+ | 640
+ | 655
+ | 670
+ | 685
+ | 700
+ | 715
+ | 730
+ | 745
+ | 760
+ | 775
+ | 790
+ | 805
+ | 820
+ | 835
+ | 850
+ | 865
+ | 880
+ | 895
+ | 910
+ | 925
+Blade Sentinel is classified as a summoned creature. It travels back and forth between the point it was cast from and the target location. It travels 24 Yards per second and deals damage for 2 seconds, although startup and death animations make it appear to last longer. Its collision radius is 2 Yards. 
+When Blade Sentinel changes direction, it explodes, doing 75% weapon damage in the explosion radius as long as it has been 0.48 Seconds (12 frames) since the last explosion. There is no animation for this explosion. Blade Sentinel's explosion benefits fully from all forms of Resistance Pierce -% at full effect, but does not deal Blade Sentinel's skill damage or receive the flat Attack Rating (it will receive the Attack Rating +%).
+Blade Sentinel Receives Bonuses From:
+50% of your Physical Resistance Pierce
+Blade Fury: +12% Damage per Level
+Blade Shield: +12% Damage per Level
+Changelog
+ | 
+Season 13:
+Nerfed the AOE damage to be ¾ the collision damage
+Removed the extra AOE explosion on sentinel death
+Increased the minimum travel time before explosions (if it reached the end of its path too quickly, it will not proc an AOE explosion)
+Season 12:
+Weapon damage increased from 75% -> 100%.
+Added flat damage scaling reduced from 1/2/3/4/5 -> 1/1/2/3/4.
+Added flat damage synergy reduced from 15% -> 12%.
+Improved tooltip to explain AoE damage.
+Season 11:
+Synergies increased from 12% to 15%.
+Level 16-22 flat damage scaling reduced from 4-4 to 3-3.
+Level 22-28 flat damage scaling reduced from 6-6 to 4-4.
+Level 28+ flat damage scaling reduced from 8-8 to 5-5.
+Now shows % weapon damage in the tooltip instead of a fraction.
+Season 9:
+Fixed incorrect damage tooltip
+Season 8:
+Synergies increased from 10% to 12%
+Blade sentinel now releases an aoe burst when changing directions (cannot happen more than once per 12 frames)
+Blade sentinel now has scaling AR bonus with soft points
+Season 7:
+Synergies increased from 9 to 10%
+Season 6:
+Blade sentinel synergies increased from 8% to 9%
+Season 5:
+Blade sentinel synergies reduced from 12% to 8%
+Blade sentinel base mana cost reduced from 7 to 3.5
+Blade sentinel now attacks every 5 frames instead of every 15
+Blade sentinel now always paths to your mouse location and no longer has its pathing blocked by monsters
+Season 4:
+Blade Sentinel synergies increased from 10% to 12%
+Blade Sentinel level 22-28 base damage increased from 5-5 to 6-6
+Blade Sentinel level 28+ base damage increased from 6-6 to 8-8
+Blade Sentinel now benefits from resistance penetration (-% to enemy resists) at half efficiency similar to other traps
+Season 2:
+synergies increased from 6% to 10%
+weapon damage increased from 1/4 to 3/4
+Season 1:
+increased projectile movement speed
+duration no longer scales with levels
+no longer counts toward trap count
+reduced skill damage, damage scaling slightly improved at higher levels
+weapon damage reduced to 1/4 from 3/8
+added Blade Fury and Blade Shield as synergies at 6%
+Vanilla Info
+## Charged Bolt Sentry[edit]
+Description: A trap that emits charged bolts at enemies that pass near
+Required Level: 12
+Required Skills: Fire Blast [1], Shock Web [6]
+Fires 5 Shots
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | Lightning Damage (max)
+ | 8
+ | 13
+ | 18
+ | 23
+ | 28
+ | 33
+ | 38
+ | 43
+ | 48
+ | 54
+ | 59
+ | 65
+ | 70
+ | 76
+ | 81
+ | 87
+ | 93
+ | 99
+ | 105
+ | 111
+ | 117
+ | 123
+ | 129
+ | 136
+ | 142
+ | 149
+ | 155
+ | 162
+ | 169
+ | 176
+ | 183
+ | 190
+ | 197
+ | 204
+ | 211
+ | 218
+ | 225
+ | 232
+ | 239
+ | 246
+ | 253
+ | 260
+ | 267
+ | 274
+ | 281
+ | 288
+ | 295
+ | 302
+ | 309
+ | 316
+ | 323
+ | 330
+ | 337
+ | 344
+ | 351
+ | 358
+ | 365
+ | 372
+ | 379
+ | 386
+ | Mana Cost
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+ | 9.5
+ | 9.625
+ | 9.75
+ | 9.875
+ | 10
+ | 10.125
+ | 10.25
+ | 10.375
+ | 10.5
+ | 10.625
+ | 10.75
+ | 10.875
+ | 11
+ | 11.125
+ | 11.25
+ | 11.375
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Number of Bolts
+ | 4
+ | 4
+ | 
+4
+ | 
+4
+ | 5
+ | 
+5
+ | 
+5
+ | 
+5
+ | 6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 7
+ | 
+7
+ | 
+7
+ | 
+7
+ | 8
+ | 
+8
+ | 
+8
+ | 
+8
+ | 9
+Charged Bolts Pierce enemies.
+Charged Bolt Sentry Receives Bonuses From:
++% Lightning Skill Damage/Mastery
+Fire Blast: +8% Lightning Damage per Level
+Lightning Sentry: +8% Lightning Damage per Level
+Chain Lightning Sentry: +8% Lightning Damage per Level
+Changelog
+ | 
+Season 11:
+Mana cost per level increase reduced from .25 to .125.
+Projectiles will now always pierce.
+Charged bolt sentry range reduced from 98 to 32.
+Charged bolt sentry max velocity increased from 12 to 45.
+Charged bolt sentry now gains 2 velocity per level.
+Season 8:
+Sentries will now be displayed similar to other pets
+Season 6:
+Charged bolt sentry now releases an additional bolt every 4 base levels down from every 3
+Charged bolt sentry level 1-8 scaling increased from 0-7 to 0-10 per level
+Charged bolt sentry level 8-16 scaling increased from 0-10 to 0-11 per level
+Charged bolt sentry level 16-22 scaling reduced from 0-13 to 0-12 per level
+Charged bolt sentry level 22-28 scaling reduced from 0-16 to 0-13 per level
+Charged bolt sentry level 28+ scaling reduced from 0-19 to 0-14 per level
+Season 5:
+Sentry traps no longer benefit from resistance penetration (they still benefit from +% elemental damage)
+Charged bolt sentry death sentry synergy has been removed
+Charged bolt sentry synergies have been increased from 6% to 8%
+Charged bolt sentry shockweb synergy removed
+Charged bolt sentry now has fire blast as a synergy
+Charged bolt sentry base mana cost reduced from 6 to 4
+Charged bolt sentry mana cost now increased by .25 per level
+Charged bolt sentry level 8-16 scaling increased from 0-9 to 0-10
+Charged bolt sentry level 16-22 scaling increased from 0-12 to 0-13
+Charged bolt sentry level 22-28 scaling increased from 0-14 to 0-16
+Charged bolt sentry level 28+ scaling increased from 0-16 to 0-19
+Season 4:
+Synergy from fire blast replaced with shockweb
+Charged Bolt Sentry's lightning sentry and chain lightning sentry synergy increased from 4% to 6%
+Charged Bolt Sentry's death and shockweb synergies reduced from 7% to 6%
+Season 2:
+Traps now gain +% and -% elemental bonuses
+Season 1:
+damage increased slightly
+mana cost reduced
+now gains +1 bolt per three levels
+removed synergies from Shock Web (was +1 bolt per three levels) and Lightning Sentry (was +1 shot per four levels)
+now also has Chain Lightning Sentry as a synergy
+synergies are now 7%/7%/4%/4% (was 6%)
+Vanilla Info
+## Wake of Fire[edit]
+Description: A trap that emits waves of fire
+Required Level: 12
+Required Skills: Fire Blast [1]
+Fires 5 Shots
+Fire Wave Range: 16 Yards
+Fire Wave Width: 12 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 13
+ | 17
+ | 21
+ | 25
+ | 29
+ | 33
+ | 37
+ | 41
+ | 54
+ | 67
+ | 80
+ | 93
+ | 106
+ | 119
+ | 141
+ | 163
+ | 185
+ | 207
+ | 229
+ | 251
+ | 273
+ | 295
+ | 317
+ | 339
+ | 361
+ | 383
+ | 405
+ | 427
+ | 449
+ | 471
+ | 493
+ | 515
+ | 537
+ | 559
+ | 581
+ | 603
+ | 625
+ | 647
+ | 669
+ | 691
+ | 713
+ | 735
+ | 757
+ | 779
+ | 801
+ | 823
+ | 845
+ | 867
+ | 889
+ | 911
+ | 933
+ | 955
+ | Fire Damage (max)
+ | 4
+ | 6
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 24
+ | 30
+ | 36
+ | 42
+ | 48
+ | 54
+ | 60
+ | 66
+ | 82
+ | 98
+ | 114
+ | 130
+ | 146
+ | 162
+ | 188
+ | 214
+ | 240
+ | 266
+ | 292
+ | 318
+ | 344
+ | 370
+ | 396
+ | 422
+ | 448
+ | 474
+ | 500
+ | 526
+ | 552
+ | 578
+ | 604
+ | 630
+ | 656
+ | 682
+ | 708
+ | 734
+ | 760
+ | 786
+ | 812
+ | 838
+ | 864
+ | 890
+ | 916
+ | 942
+ | 968
+ | 994
+ | 1020
+ | 1046
+ | 1072
+ | 1098
+ | 1124
+ | 1150
+ | Mana Cost
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+ | 9.5
+ | 9.625
+ | 9.75
+ | 9.875
+ | 10
+ | 10.125
+ | 10.25
+ | 10.375
+ | 10.5
+ | 10.625
+ | 10.75
+ | 10.875
+ | 11
+ | 11.125
+ | 11.25
+ | 11.375
+ | 11.5
+ | 11.625
+ | 11.75
+ | 11.875
+ | 12
+ | 12.125
+ | 12.25
+ | 12.375
+Wake of Fire Receives Bonuses From:
++% Fire Skill Damage/Mastery
+Fire Blast: +8% Fire Damage per Level
+Wake of Inferno: +8% Fire Damage per Level
+Changelog
+ | 
+Season 12:
+Range increased by 25%
+Season 11:
+Mana cost per level increase reduced from .25 to .125.
+Season 10:
+Level 28+ scaling reduced from 26-31 to 22-26 (about 10% less damage at lvl40)
+Season 8:
+Sentries will now be displayed similar to other pets
+Season 6:
+Wake of fire 28+ scaling reduced from 31-36 to 26-31 per level
+Season 5:
+Sentry traps no longer benefit from resistance penetration (they still benefit from +% elemental damage)
+Wake of fire range increased by 17.5%
+Wake of fire fires 8 shots reduced to 5
+Wake of fire sentry base mana cost reduced from 8 to 5
+Wake of fire sentry mana cost now increased by .25 per level
+Wake of Fire level 16-22 scaling increased from 12-16 to 13-16
+Wake of Fire level 22-28 scaling increased from 20-24 to 22-26
+Wake of Fire level 28+ scaling increased from 28-32 to 31-36
+Season 3:
+Wake of fire's 2 range per level removed
+Wake of fire's base range increased from 25 to 35
+Season 2:
+Traps now gain +% and -% elemental bonuses
+Level 8-16 scaling increased from 5 per level to 6 per level
+Level 16-22 scaling increased from 15 per level to 16 per level
+Level 22-28 scaling reduced from 27 per level to 24 per level
+Level 28+ scaling reduced from 39 per level to 32 per level
+synergies reduced from 10% to 8%
+now properly shoots 8 times instead of 5
+damage tooltip now shows in the character screen
+Season 1:
+shoots 8 times instead of 5
+damage buffed
+mana cost reduced to 7 (was 13)
+synergies are now 10% (was 8%)
+Vanilla Info
+## Blade Fury[edit]
+Description: Throw spinning blades to slice up your enemies. Blades will split when impacting with walls. 50% chance to split when impacting enemies
+Required Level: 18
+Required Skills: Blade Sentinel [6]
+75% Weapon Damage Added to Skill Damage
+Mana Required to Begin Casting: 3
+Range: 29.75 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Physical Damage (min)
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 26
+ | 29
+ | 32
+ | 35
+ | 38
+ | 41
+ | 44
+ | 48
+ | 52
+ | 56
+ | 60
+ | 64
+ | 68
+ | 73
+ | 78
+ | 83
+ | 88
+ | 93
+ | 98
+ | 103
+ | 108
+ | 113
+ | 118
+ | 123
+ | 128
+ | 133
+ | 138
+ | 143
+ | 148
+ | 153
+ | 158
+ | 163
+ | 168
+ | 173
+ | 178
+ | 183
+ | 188
+ | 193
+ | 198
+ | 203
+ | 208
+ | 213
+ | 218
+ | 223
+ | 228
+ | Physical Damage (max)
+ | 6
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 23
+ | 26
+ | 29
+ | 32
+ | 35
+ | 38
+ | 41
+ | 44
+ | 48
+ | 52
+ | 56
+ | 60
+ | 64
+ | 68
+ | 73
+ | 78
+ | 83
+ | 88
+ | 93
+ | 98
+ | 104
+ | 110
+ | 116
+ | 122
+ | 128
+ | 134
+ | 140
+ | 146
+ | 152
+ | 158
+ | 164
+ | 170
+ | 176
+ | 182
+ | 188
+ | 194
+ | 200
+ | 206
+ | 212
+ | 218
+ | 224
+ | 230
+ | 236
+ | 242
+ | 248
+ | 254
+ | 260
+ | 266
+ | 272
+ | 278
+ | 284
+ | 290
+ | Attack Rating +%
+ | 60
+ | 75
+ | 90
+ | 105
+ | 120
+ | 135
+ | 150
+ | 165
+ | 180
+ | 195
+ | 210
+ | 225
+ | 240
+ | 255
+ | 270
+ | 285
+ | 300
+ | 315
+ | 330
+ | 345
+ | 360
+ | 375
+ | 390
+ | 405
+ | 420
+ | 435
+ | 450
+ | 465
+ | 480
+ | 495
+ | 510
+ | 525
+ | 540
+ | 555
+ | 570
+ | 585
+ | 600
+ | 615
+ | 630
+ | 645
+ | 660
+ | 675
+ | 690
+ | 705
+ | 720
+ | 735
+ | 750
+ | 765
+ | 780
+ | 795
+ | 810
+ | 825
+ | 840
+ | 855
+ | 870
+ | 885
+ | 900
+ | 915
+ | 930
+ | 945
+ | Mana Cost
+ | 1
+ | 1.125
+ | 1.25
+ | 1.375
+ | 1.5
+ | 1.625
+ | 1.75
+ | 1.875
+ | 2
+ | 2.125
+ | 2.25
+ | 2.375
+ | 2.5
+ | 2.625
+ | 2.75
+ | 2.875
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+Blade Fury uses your Main Hand weapon to perform a ranged attack. If dual wielding, normal rules regarding attack speed and affixes apply. Blades are normal projectiles, requiring Pierce Chance to pierce enemies. 
+Blades last 1.12 seconds (28 frames). Each Blade splits into 3 Blades when it hits a wall or other terrain (100% chance to split), or an enemy (50% chance), 3 splits maximum. Every time a blade splits it loses 0.08 seconds (2 frames) from its remaining duration.
+Life and Mana Leech work at 75% effectiveness on all Blades; Chance to Cast effects are reduced by 80% on split Blades.
+Blade Fury Receives Bonuses From:
+Blade Sentinel: +10% Damage per Level
+Blade Shield: +10% Damage per Level
+Changelog
+ | 
+Season 12:
+Now requires the +% chance to pierce stat in order to pierce.
+Synergies reduced from 15% to 10%.
+Weapon damage reduced from 100% to 75% (was 85% during beta).
+Season 11:
+Synergies increased from 10% to 15%.
+Now deals full weapon damage instead of ½.
+Now shows % weapon damage in the tooltip instead of a fraction.
+Now leeches at 75% efficiency.
+Reworked so that it’s shattered sub missiles will now also bounce off walls and split into more sub missiles, each time a missile splits the range of the new missiles is reduced.
+Reworked so that it’s bounced missiles will now take the players missile angle into consideration allowing for better aiming.
+Reworked to now have a 50% chance for the missiles to split when hitting an enemy.
+Reworked split missiles to now have an 80% reduced chance to proc effects.
+Ranged reduced from 40 to 28.
+Shadows can now cast blade fury (they cannot channel and will use single instances of the skill).
+Season 9:
+Startup frames reduced from 12 to 3
+Season 8:
+Synergies increased from 7% to 10%
+Season 6:
+Blade fury bounce missile velocity increased by 26%
+Blade fury synergies increased from 6% to 7%
+Season 5:
+Blade fury now splits into multiple projectiles when colliding with a wall
+Blade fury synergies reduced from 8% to 6%
+Season 4:
+Blade fury damage synergy increased from 4% to 8%
+Season 3:
+Blade fury base attack rating reduced from 120% to 60%
+Blade fury attack rating per level reduced from 20% to 12% per level
+Blade Fury now deals 1/2 weapon damage instead of 3/4
+Blade Furys level 8-16 scaling has been increased from 2-2 to 2-3
+Blade Furys level 16-22 scaling has been increased from 3-3 to 3-4
+Blade Furys level 22-28 scaling has been increased from 3-3 to 4-5
+Blade Furys level 22-28 scaling has been increased from 4-4 to 5-6
+Season 2:
+weapon damage reduced from 100% to 3/4
+flat physical damage reduced
+Season 1:
+prerequisites reduced from 3 to 1 (no longer requires Fire Blast, Wake of Fire)
+added pierce
+attack trigger time is now affected by attack speed
+increased weapon damage from 75% to 100%
+penalty for 2-handed weapons removed
+damage reduced
+now adds bonus attack rating of 120% + 20% per level
+added Blade Sentinel & Blade Shield as synergies at 4%
+Vanilla Info
+## Blade Shield[edit]
+Description: Spinning blades slice enemies who stray too close
+Required Level: 24
+Required Skills: Blade Sentinel [6], Blade Fury [18]
+25% Weapon Damage Added to Skill Damage
+Radius: 2.66 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Physical Damage (min)
+ | 1
+ | 6
+ | 11
+ | 16
+ | 21
+ | 26
+ | 31
+ | 36
+ | 43
+ | 50
+ | 57
+ | 64
+ | 71
+ | 78
+ | 85
+ | 92
+ | 102
+ | 112
+ | 122
+ | 132
+ | 142
+ | 152
+ | 165
+ | 178
+ | 191
+ | 204
+ | 217
+ | 230
+ | 246
+ | 262
+ | 278
+ | 294
+ | 310
+ | 326
+ | 342
+ | 358
+ | 374
+ | 390
+ | 406
+ | 422
+ | 438
+ | 454
+ | 470
+ | 486
+ | 502
+ | 518
+ | 534
+ | 550
+ | 566
+ | 582
+ | 598
+ | 614
+ | 630
+ | 646
+ | 662
+ | 678
+ | 694
+ | 710
+ | 726
+ | 742
+ | Physical Damage (max)
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 72
+ | 79
+ | 86
+ | 93
+ | 100
+ | 107
+ | 114
+ | 121
+ | 131
+ | 141
+ | 151
+ | 161
+ | 171
+ | 181
+ | 194
+ | 207
+ | 220
+ | 233
+ | 246
+ | 259
+ | 275
+ | 291
+ | 307
+ | 323
+ | 339
+ | 355
+ | 371
+ | 387
+ | 403
+ | 419
+ | 435
+ | 451
+ | 467
+ | 483
+ | 499
+ | 515
+ | 531
+ | 547
+ | 563
+ | 579
+ | 595
+ | 611
+ | 627
+ | 643
+ | 659
+ | 675
+ | 691
+ | 707
+ | 723
+ | 739
+ | 755
+ | 771
+ | Attack Rating +%
+ | 40
+ | 55
+ | 70
+ | 85
+ | 100
+ | 115
+ | 130
+ | 145
+ | 160
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 265
+ | 280
+ | 295
+ | 310
+ | 325
+ | 340
+ | 355
+ | 370
+ | 385
+ | 400
+ | 415
+ | 430
+ | 445
+ | 460
+ | 475
+ | 490
+ | 505
+ | 520
+ | 535
+ | 550
+ | 565
+ | 580
+ | 595
+ | 610
+ | 625
+ | 640
+ | 655
+ | 670
+ | 685
+ | 700
+ | 715
+ | 730
+ | 745
+ | 760
+ | 775
+ | 790
+ | 805
+ | 820
+ | 835
+ | 850
+ | 865
+ | 880
+ | 895
+ | 910
+ | 925
+ | Duration (seconds)
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+ | 350
+ | 355
+ | 360
+ | 365
+ | 370
+ | 375
+ | 380
+ | 385
+ | 390
+ | 395
+ | 400
+ | 405
+ | 410
+ | 415
+ | 420
+ | 425
+ | 430
+ | 435
+ | 440
+ | 445
+ | 450
+ | 455
+ | 460
+ | 465
+ | 470
+ | 475
+ | 480
+ | 485
+ | 490
+ | 495
+ | 500
+ | 505
+ | 510
+ | 515
+ | 520
+ | 525
+ | 530
+ | 535
+ | 540
+ | 545
+ | 550
+ | 555
+ | 560
+ | 565
+ | 570
+ | 575
+ | 580
+ | 585
+ | 590
+ | 595
+ | Mana Cost
+ | 27
+ | 29
+ | 31
+ | 33
+ | 35
+ | 37
+ | 39
+ | 41
+ | 43
+ | 45
+ | 47
+ | 49
+ | 51
+ | 53
+ | 55
+ | 57
+ | 59
+ | 61
+ | 63
+ | 65
+ | 67
+ | 69
+ | 71
+ | 73
+ | 75
+ | 77
+ | 79
+ | 81
+ | 83
+ | 85
+ | 87
+ | 89
+ | 91
+ | 93
+ | 95
+ | 97
+ | 99
+ | 101
+ | 103
+ | 105
+ | 107
+ | 109
+ | 111
+ | 113
+ | 115
+ | 117
+ | 119
+ | 121
+ | 123
+ | 125
+ | 127
+ | 129
+ | 131
+ | 133
+ | 135
+ | 137
+ | 139
+ | 141
+ | 143
+ | 145
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Damage Frequency (seconds)
+ | 0.8
+ | 0.8
+ | 0.76
+ | 
+0.76
+ | 0.72
+ | 
+0.72
+ | 0.68
+ | 
+0.68
+ | 0.64
+ | 
+0.64
+ | 0.6
+ | 
+0.6
+ | 0.56
+ | 
+0.56
+ | 0.52
+ | 
+0.52
+ | 0.48
+ | 
+0.48
+ | 0.44
+ | 
+0.44
+ | 0.4
+Blade Shield in Project Diablo 2 is a Strike, but not an Attack. This means Blade Shield does not use weapon durability, and "on Striking" but not "on Attack" Chance to Cast effects will function. Blade Shield will also apply Crushing Blow, Open Wounds, and Life & Mana after each Kill, but not many other effects normally applied by weapons. If dual wielding, Blade Shield only uses your Main Hand weapon. 
+Blade Shield checks Attack Rating/Defense when Striking an enemy, but Blade Shield from Innocence does not (it will always hit).
+Blade Shield Receives Bonuses From:
+Blade Sentinel: +10% Damage per Level
+Blade Fury: +10% Damage per Level
+Other Sources: Innocence (level 8-12)
+Changelog
+ | 
+Season 11:
+Now shows % weapon damage in the tooltip instead of a fraction.
+Season 8:
+No longer uses durability
+Radius is no longer capped by weapon range
+Changed the frame delay on blade shield to scale with hard points. It now starts at 20 frame delay base level 1 and scales to 10 frame delay at level 20 (from 12 frames flat at all levels before)
+Now has an attack rating check
+Now has 40% attack rating base
+Now gains 15% attack rating per level
+Now uses "on striking" instead of "on attack"
+Can now apply the following effects
+Chance to Cast on Striking
+Crushing Blow
+Open Wounds
+Life after each Kill
+Mana after each Kill
+Does not apply the following effects (they are usually applied by strikes)
+Slow
+Freeze target
+Chance to flee
+Life gained on hit
+Blinds target
+Season 7:
+Synergies increased from 8% to 10%
+Season 5:
+Blade shield duration now increases by 5 seconds per level
+Blade shield now has the ranged leech penalty (50% reduced leech)
+Season 4:
+Blade Shield now has blade fury and blade sentinel as synergies at 8% each
+Blade Shield now deals 1/4 weapon damage instead of 3/4
+Blade Shield damage scaling increased from 5-5 / 6-6 / 7-7 / 7-7 / 7-7 to 5-5 / 7-7 / 10-10 / 13-13 / 16-16
+Season 3:
+Blade shield can no longer miss
+Blade shield range has been doubled
+Blade shield delay between attacks has been reduced
+Season 2:
+weapon damage increased from 1/4 to 3/4
+now lasts 5 minutes at all levels
+Season 1:
+moved in the skill tree, requires level 24 (was 30)
+prerequisites reduced from 4 to 2 (no longer requires Fire Blast, Wake of Fire)
+weapon damage increased from 1/4 to 1/2
+Vanilla Info
+## Lightning Sentry[edit]
+Description: A trap that shoots lightning to scorch passing enemies
+Required Level: 24
+Required Skills: Fire Blast [1], Shock Web [6], Charged Bolt Sentry [12]
+Fires 7 Shots
+Range: 9.375 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 7
+ | 10
+ | 13
+ | 16
+ | 19
+ | 22
+ | 25
+ | 28
+ | 32
+ | 36
+ | 40
+ | 44
+ | 48
+ | 52
+ | 56
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 97
+ | 104
+ | 111
+ | 118
+ | 125
+ | 132
+ | 140
+ | 148
+ | 156
+ | 164
+ | 172
+ | 180
+ | 188
+ | 196
+ | 204
+ | 212
+ | 220
+ | 228
+ | 236
+ | 244
+ | 252
+ | 260
+ | 268
+ | 276
+ | 284
+ | 292
+ | 300
+ | 308
+ | 316
+ | 324
+ | 332
+ | 340
+ | 348
+ | 356
+ | 364
+ | 372
+ | 380
+ | 388
+ | Lightning Damage (max)
+ | 30
+ | 45
+ | 60
+ | 75
+ | 90
+ | 105
+ | 120
+ | 135
+ | 156
+ | 177
+ | 198
+ | 219
+ | 240
+ | 261
+ | 282
+ | 303
+ | 330
+ | 357
+ | 384
+ | 411
+ | 438
+ | 465
+ | 498
+ | 531
+ | 564
+ | 597
+ | 630
+ | 663
+ | 702
+ | 741
+ | 780
+ | 819
+ | 858
+ | 897
+ | 936
+ | 975
+ | 1014
+ | 1053
+ | 1092
+ | 1131
+ | 1170
+ | 1209
+ | 1248
+ | 1287
+ | 1326
+ | 1365
+ | 1404
+ | 1443
+ | 1482
+ | 1521
+ | 1560
+ | 1599
+ | 1638
+ | 1677
+ | 1716
+ | 1755
+ | 1794
+ | 1833
+ | 1872
+ | 1911
+ | Mana Cost
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+ | 9.5
+ | 9.625
+ | 9.75
+ | 9.875
+ | 10
+ | 10.125
+ | 10.25
+ | 10.375
+ | 10.5
+ | 10.625
+ | 10.75
+ | 10.875
+ | 11
+ | 11.125
+ | 11.25
+ | 11.375
+ | 11.5
+ | 11.625
+ | 11.75
+ | 11.875
+ | 12
+ | 12.125
+ | 12.25
+ | 12.375
+ | 12.5
+ | 12.625
+ | 12.75
+ | 12.875
+ | 13
+ | 13.125
+ | 13.25
+ | 13.375
+ | 13.5
+ | 13.625
+ | 13.75
+ | 13.875
+ | 14
+ | 14.125
+ | 14.25
+ | 14.375
+Lightning Sentry Receives Bonuses From:
++% Lightning Skill Damage/Mastery
+Fire Blast: +16% Lightning Damage per Level
+Charged Bolt Sentry: +16% Lightning Damage per Level
+Chain Lightning Sentry: +16% Lightning Damage per Level
+Changelog
+ | 
+Season 13:
+Base minimum damage increased from 1 to 7
+Levels 1-8 minimum damage scaling increased from 0 to 3
+Levels 8-16 minimum damage scaling increased from 0 to 4
+Levels 16-22 minimum damage scaling increased from 0 to 5
+Levels 22-28 minimum damage scaling increased from 0 to 7
+Levels 28+ minimum damage scaling increased from 0 to 8
+Season 11:
+Mana cost per level increase reduced from .25 to .125.
+Season 9:
+Shots fired increased from 5 to 7
+Season 8:
+Sentries will now be displayed similar to other pets
+Season 6:
+Lightning sentry synergies increased from 14% to 16%
+Lightning sentry base mana cost reduced from 8 to 7
+Season 5:
+Sentry traps no longer benefit from resistance penetration (they still benefit from +% elemental damage)
+Lightning sentry shockweb synergy removed
+Lightning sentry now has fire blast as a synergy
+Lightning sentry fires 12 shots reduced to 5
+Lightning sentry base mana cost reduced from 20 to 8
+Lightning sentry mana cost now increased by .25 per level
+Lightning sentry level 8-16 scaling increased from 0-20 to 0-21
+Lightning sentry level 16-22 scaling increased from 0-25 to 0-27
+Lightning sentry level 22-28 scaling increased from 0-30 to 0-33
+Lightning sentry level 28+ scaling increased from 0-35 to 0-39
+Season 4:
+Lightning sentry base damage changed from 1-20 to 1-30
+Lightning sentry max damage scaling changed from 10 / 16 / 24 / 34 / 44 to 15 / 20 / 25 / 30 / 35
+Synergy from death sentry replaced with chain lightning sentry
+Season 2:
+Traps now gain +% and -% elemental bonuses
+synergies increased from 10% to 12%
+nows shoots 12 times instead of 10
+Season 1:
+synergies are now 10% (was 12%)
+Vanilla Info
+## Wake of Inferno[edit]
+Description: Trap that sprays fire at passing enemies
+Required Level: 24
+Required Skills: Fire Blast [1], Wake of Fire [12]
+Fires 5 Shots
+Shot Length: 1 Second
+Range: 6.66 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min)
+ | 93
+ | 146
+ | 200
+ | 253
+ | 306
+ | 359
+ | 412
+ | 465
+ | 571
+ | 678
+ | 784
+ | 890
+ | 996
+ | 1103
+ | 1209
+ | 1315
+ | 1475
+ | 1634
+ | 1793
+ | 1953
+ | 2112
+ | 2271
+ | 2484
+ | 2696
+ | 2909
+ | 3121
+ | 3334
+ | 3546
+ | 3812
+ | 4078
+ | 4343
+ | 4609
+ | 4875
+ | 5140
+ | 5406
+ | 5671
+ | 5937
+ | 6203
+ | 6468
+ | 6734
+ | 7000
+ | 7265
+ | 7531
+ | 7796
+ | 8062
+ | 8328
+ | 8593
+ | 8859
+ | 9125
+ | 9390
+ | 9656
+ | 9921
+ | 10187
+ | 10453
+ | 10718
+ | 10984
+ | 11250
+ | 11515
+ | 11781
+ | 12046
+ | Fire Damage (max)
+ | 156
+ | 218
+ | 281
+ | 343
+ | 406
+ | 468
+ | 531
+ | 593
+ | 718
+ | 843
+ | 968
+ | 1093
+ | 1218
+ | 1343
+ | 1468
+ | 1593
+ | 1781
+ | 1968
+ | 2156
+ | 2343
+ | 2531
+ | 2718
+ | 2968
+ | 3218
+ | 3468
+ | 3718
+ | 3968
+ | 4218
+ | 4531
+ | 4843
+ | 5156
+ | 5468
+ | 5781
+ | 6093
+ | 6406
+ | 6718
+ | 7031
+ | 7343
+ | 7656
+ | 7968
+ | 8281
+ | 8593
+ | 8906
+ | 9218
+ | 9531
+ | 9843
+ | 10156
+ | 10468
+ | 10781
+ | 11093
+ | 11406
+ | 11718
+ | 12031
+ | 12343
+ | 12656
+ | 12968
+ | 13281
+ | 13593
+ | 13906
+ | 14218
+ | Mana Cost
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+ | 9.5
+ | 9.625
+ | 9.75
+ | 9.875
+ | 10
+ | 10.125
+ | 10.25
+ | 10.375
+ | 10.5
+ | 10.625
+ | 10.75
+ | 10.875
+ | 11
+ | 11.125
+ | 11.25
+ | 11.375
+ | 11.5
+ | 11.625
+ | 11.75
+ | 11.875
+ | 12
+ | 12.125
+ | 12.25
+ | 12.375
+ | 12.5
+ | 12.625
+ | 12.75
+ | 12.875
+ | 13
+ | 13.125
+ | 13.25
+ | 13.375
+ | 13.5
+ | 13.625
+ | 13.75
+ | 13.875
+ | 14
+ | 14.125
+ | 14.25
+ | 14.375
+ | 14.5
+ | 14.625
+ | 14.75
+ | 14.875
+ | 15
+ | 15.125
+ | 15.25
+ | 15.375
+Wake of Inferno's damage is applied every frame. Values above are per second (25x the game file data), rounded, and assuming every frame of damage hits an enemy. See below for unrounded per-frame data:
+Per-Frame Wake of Inferno Damage
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min per frame)
+ | 3.75
+ | 5.875
+ | 8
+ | 10.125
+ | 12.25
+ | 14.375
+ | 16.5
+ | 18.625
+ | 22.875
+ | 27.125
+ | 31.375
+ | 35.625
+ | 39.875
+ | 44.125
+ | 48.375
+ | 52.625
+ | 59
+ | 65.375
+ | 71.75
+ | 78.125
+ | 84.5
+ | 90.875
+ | 99.375
+ | 107.875
+ | 116.375
+ | 124.875
+ | 133.375
+ | 141.875
+ | 152.5
+ | 163.125
+ | 173.75
+ | 184.375
+ | 195
+ | 205.625
+ | 216.25
+ | 226.875
+ | 237.5
+ | 248.125
+ | 258.75
+ | 269.375
+ | 280
+ | 290.625
+ | 301.25
+ | 311.875
+ | 322.5
+ | 333.125
+ | 343.75
+ | 354.375
+ | 365
+ | 375.625
+ | 386.25
+ | 396.875
+ | 407.5
+ | 418.125
+ | 428.75
+ | 439.375
+ | 450
+ | 460.625
+ | 471.25
+ | 481.875
+ | Fire Damage (max per frame)
+ | 6.25
+ | 8.75
+ | 11.25
+ | 13.75
+ | 16.25
+ | 18.75
+ | 21.25
+ | 23.75
+ | 28.75
+ | 33.75
+ | 38.75
+ | 43.75
+ | 48.75
+ | 53.75
+ | 58.75
+ | 63.75
+ | 71.25
+ | 78.75
+ | 86.25
+ | 93.75
+ | 101.25
+ | 108.75
+ | 118.75
+ | 128.75
+ | 138.75
+ | 148.75
+ | 158.75
+ | 168.75
+ | 181.25
+ | 193.75
+ | 206.25
+ | 218.75
+ | 231.25
+ | 243.75
+ | 256.25
+ | 268.75
+ | 281.25
+ | 293.75
+ | 306.25
+ | 318.75
+ | 331.25
+ | 343.75
+ | 356.25
+ | 368.75
+ | 381.25
+ | 393.75
+ | 406.25
+ | 418.75
+ | 431.25
+ | 443.75
+ | 456.25
+ | 468.75
+ | 481.25
+ | 493.75
+ | 506.25
+ | 518.75
+ | 531.25
+ | 543.75
+ | 556.25
+ | 568.75
+Wake of Inferno Receives Bonuses From:
++% Fire Skill Damage/Mastery
+Fire Blast: +12% Fire Damage per Level
+Wake of Fire: +12% Fire Damage per Level
+Changelog
+ | 
+Season 11:
+Mana cost per level increase reduced from .25 to .125.
+Season 8:
+Sentries will now be displayed similar to other pets
+Season 5:
+Sentry traps no longer benefit from resistance penetration (they still benefit from +% elemental damage)
+Inferno sentry death sentry synergy removed
+Inferno sentry synergies increased from 6% to 10%
+Inferno sentry base mana cost reduced from 20 to 8
+Inferno sentry mana cost now increased by .25 per level
+Inferno sentry base damage increased from 40-100 to 60-100
+Inferno sentry level 1-8 scaling increased from 32-36 to 34-40
+Inferno sentry level 8-16 scaling increased from 38-42 to 68-80
+Inferno sentry level 16-22 scaling increased from 44-48 to 102-120
+Inferno sentry level 22-28 scaling increased from 50-54 to 136-160
+Inferno sentry level 28+ scaling increased from 56-60 to 170-200
+Season 3:
+Inferno sentry shoots 5 times instead of 10
+Inferno sentry now has a fixed range of 20 instead of a scaling range of 0.5 yards per level
+Inferno sentry scaling has been reduced
+Inferno sentry synergies have been reduced from 10% to 6%
+Season 2:
+Traps now gain +% and -% elemental bonuses
+Season 1:
+damage buffed (double scaling, even higher scaling at level 22+)
+synergy for Wake of Fire is now 10% (was 7%)
+Vanilla Info
+## Chain Lightning Sentry[edit]
+Description: A trap that shoots chain lightning to scorch passing enemies
+Required Level: 30
+Required Skills: Fire Blast [1], Shock Web [6], Charged Bolt Sentry [12], Lightning Sentry [24]
+Fires 7 Shots
+Lightning Chains 8 Times
+Lightning Chain Distance: 13.33 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 26
+ | 28
+ | 30
+ | 32
+ | 35
+ | 38
+ | 41
+ | 44
+ | 47
+ | 50
+ | 54
+ | 58
+ | 62
+ | 66
+ | 70
+ | 74
+ | 79
+ | 84
+ | 89
+ | 94
+ | 99
+ | 104
+ | 109
+ | 114
+ | 119
+ | 124
+ | 129
+ | 134
+ | 139
+ | 144
+ | 149
+ | 154
+ | 159
+ | 164
+ | 169
+ | 174
+ | 179
+ | 184
+ | 189
+ | 194
+ | 199
+ | 204
+ | 209
+ | 214
+ | 219
+ | 224
+ | 229
+ | 234
+ | Lightning Damage (max)
+ | 50
+ | 58
+ | 66
+ | 74
+ | 82
+ | 90
+ | 98
+ | 106
+ | 118
+ | 130
+ | 142
+ | 154
+ | 166
+ | 178
+ | 190
+ | 202
+ | 220
+ | 238
+ | 256
+ | 274
+ | 292
+ | 310
+ | 336
+ | 362
+ | 388
+ | 414
+ | 440
+ | 466
+ | 502
+ | 538
+ | 574
+ | 610
+ | 646
+ | 682
+ | 718
+ | 754
+ | 790
+ | 826
+ | 862
+ | 898
+ | 934
+ | 970
+ | 1006
+ | 1042
+ | 1078
+ | 1114
+ | 1150
+ | 1186
+ | 1222
+ | 1258
+ | 1294
+ | 1330
+ | 1366
+ | 1402
+ | 1438
+ | 1474
+ | 1510
+ | 1546
+ | 1582
+ | 1618
+ | Mana Cost
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+ | 9.5
+ | 9.625
+ | 9.75
+ | 9.875
+ | 10
+ | 10.125
+ | 10.25
+ | 10.375
+ | 10.5
+ | 10.625
+ | 10.75
+ | 10.875
+ | 11
+ | 11.125
+ | 11.25
+ | 11.375
+ | 11.5
+ | 11.625
+ | 11.75
+ | 11.875
+ | 12
+ | 12.125
+ | 12.25
+ | 12.375
+ | 12.5
+ | 12.625
+ | 12.75
+ | 12.875
+ | 13
+ | 13.125
+ | 13.25
+ | 13.375
+ | 13.5
+ | 13.625
+ | 13.75
+ | 13.875
+ | 14
+ | 14.125
+ | 14.25
+ | 14.375
+Chain Lightning Sentry Receives Bonuses From:
++% Lightning Skill Damage/Mastery
+Fire Blast: +13% Lightning Damage per Level
+Charged Bolt Sentry: +13% Lightning Damage per Level
+Lightning Sentry: +13% Lightning Damage per Level
+Changelog
+ | 
+Season 13:
+Maximum chains increased from 7 to 8
+Base minimum damage increased from 1 to 9
+Levels 1-8 minimum damage scaling increased from 0 to 1
+Levels 8-16 minimum damage scaling increased from 0 to 2
+Levels 16-22 minimum damage scaling increased from 0 to 3
+Levels 22-28 minimum damage scaling increased from 0 to 4
+Levels 28+ minimum damage scaling increased from 0 to 5
+Season 12:
+Maximum chains increased from 5 to 7
+Season 11:
+Mana cost per level increase reduced from .25 to .125.
+Season 10:
+Synergies reduced from 15% to 13%
+Season 9:
+Shots fired increased from 5 to 7
+Season 8:
+Sentries will now be displayed similar to other pets
+Season 6:
+Chain lightning sentry synergies increased from 14% to 15%
+Chain lightning sentry base mana cost reduced from 8 to 7
+Season 5:
+Sentry traps no longer benefit from resistance penetration (they still benefit from +% elemental damage)
+Chain lightning sentry shockweb synergy removed
+Chain lightning sentry now has fire blast as a synergy
+Chain lightning sentry fires 12 shots reduced to 5
+Chain lightning sentry base mana cost reduced from 20 to 8
+Chain lightning sentry mana cost now increased by .25 per level
+Chain lightning sentry level 16-22 scaling increased from 0-17 to 0-18
+Chain lightning sentry level 22-28 scaling increased from 0-23 to 0-26
+Chain lightning sentry level 28+ scaling increased from 0-30 to 0-36
+Season 4:
+Chain lightning sentry starting damage increased from 1-40 to 1-50
+Chain lightning sentry max damage per level increased from 6 / 10 / 14 / 18 / 22 to 8 / 12 / 16 / 20 / 24
+Chain Lightning Sentry synergies reduced from 16% to 14%
+Synergy from death sentry replaced with lightning sentry
+Season 2:
+Traps now gain +% and -% elemental bonuses
+synergies increased from 12% to 15%
+now gains 1 extra damage per level (roughly an ~8% damage increase overall)
+starting max damage is now 40 instead of 35
+Level 22+ scaling increased from 16 to 18
+Level 28+ scaling increased from 20 to 22
+Season 1:
+new skill that shoots bolts of Chain Lightning (can bounce up to 5 times)
+chain radius is the same as Chain Lightning
+## Death Sentry[edit]
+Description: Trap that explodes nearby corpses laying waste to enemies
+Required Level: 30
+Required Skills: Fire Blast [1], Shock Web [6], Charged Bolt Sentry [12], Wake of Fire [12], Lightning Sentry [24], Wake of Inferno [24]
+Fires 500 Shots
+Targeting Range: 14 Yards
+Explosion Radius: 14 Yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Physical Damage (min)
+ | 16
+ | 21
+ | 26
+ | 31
+ | 36
+ | 41
+ | 46
+ | 51
+ | 58
+ | 65
+ | 72
+ | 79
+ | 86
+ | 93
+ | 100
+ | 107
+ | 116
+ | 125
+ | 134
+ | 143
+ | 152
+ | 161
+ | 172
+ | 183
+ | 194
+ | 205
+ | 216
+ | 227
+ | 240
+ | 253
+ | 266
+ | 279
+ | 292
+ | 305
+ | 318
+ | 331
+ | 344
+ | 357
+ | 370
+ | 383
+ | 396
+ | 409
+ | 422
+ | 435
+ | 448
+ | 461
+ | 474
+ | 487
+ | 500
+ | 513
+ | 526
+ | 539
+ | 552
+ | 565
+ | 578
+ | 591
+ | 604
+ | 617
+ | 630
+ | 643
+ | Physical Damage (max)
+ | 20
+ | 26
+ | 32
+ | 38
+ | 44
+ | 50
+ | 56
+ | 62
+ | 70
+ | 78
+ | 86
+ | 94
+ | 102
+ | 110
+ | 118
+ | 126
+ | 136
+ | 146
+ | 156
+ | 166
+ | 176
+ | 186
+ | 198
+ | 210
+ | 222
+ | 234
+ | 246
+ | 258
+ | 272
+ | 286
+ | 300
+ | 314
+ | 328
+ | 342
+ | 356
+ | 370
+ | 384
+ | 398
+ | 412
+ | 426
+ | 440
+ | 454
+ | 468
+ | 482
+ | 496
+ | 510
+ | 524
+ | 538
+ | 552
+ | 566
+ | 580
+ | 594
+ | 608
+ | 622
+ | 636
+ | 650
+ | 664
+ | 678
+ | 692
+ | 706
+ | Fire Damage (min)
+ | 16
+ | 21
+ | 26
+ | 31
+ | 36
+ | 41
+ | 46
+ | 51
+ | 58
+ | 65
+ | 72
+ | 79
+ | 86
+ | 93
+ | 100
+ | 107
+ | 116
+ | 125
+ | 134
+ | 143
+ | 152
+ | 161
+ | 172
+ | 183
+ | 194
+ | 205
+ | 216
+ | 227
+ | 240
+ | 253
+ | 266
+ | 279
+ | 292
+ | 305
+ | 318
+ | 331
+ | 344
+ | 357
+ | 370
+ | 383
+ | 396
+ | 409
+ | 422
+ | 435
+ | 448
+ | 461
+ | 474
+ | 487
+ | 500
+ | 513
+ | 526
+ | 539
+ | 552
+ | 565
+ | 578
+ | 591
+ | 604
+ | 617
+ | 630
+ | 643
+ | Fire Damage (max)
+ | 20
+ | 26
+ | 32
+ | 38
+ | 44
+ | 50
+ | 56
+ | 62
+ | 70
+ | 78
+ | 86
+ | 94
+ | 102
+ | 110
+ | 118
+ | 126
+ | 136
+ | 146
+ | 156
+ | 166
+ | 176
+ | 186
+ | 198
+ | 210
+ | 222
+ | 234
+ | 246
+ | 258
+ | 272
+ | 286
+ | 300
+ | 314
+ | 328
+ | 342
+ | 356
+ | 370
+ | 384
+ | 398
+ | 412
+ | 426
+ | 440
+ | 454
+ | 468
+ | 482
+ | 496
+ | 510
+ | 524
+ | 538
+ | 552
+ | 566
+ | 580
+ | 594
+ | 608
+ | 622
+ | 636
+ | 650
+ | 664
+ | 678
+ | 692
+ | 706
+ | Mana Cost
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | 19
+ | 19.25
+ | 19.5
+ | 19.75
+ | 20
+ | 20.25
+ | 20.5
+ | 20.75
+ | 21
+ | 21.25
+ | 21.5
+ | 21.75
+ | 22
+ | 22.25
+ | 22.5
+ | 22.75
+Additional Damage: 3-5% of Corpse's Max Life (50% Physical, 50% Fire Damage) 
+Death Sentry Receives Bonuses From:
++% Fire Skill Damage/Mastery (Fire Damage Only)
+Wake of Inferno: +9% Damage per Level
+Fire Blast: +9% Damage per Level
+Changelog
+ | 
+Season 12:
+AoE radius increased from 12 yards to 14.
+Synergies increased from 8% to 9%.
+Season 11:
+No longer has a limit to the amount of shots fired.
+Season 9:
+Radius increased from 10 to 12 yards
+Season 8:
+Sentries will now be displayed similar to other pets
+Season 6:
+Death sentry level 1-8 scaling increased from 3-4 to 5-6 per level
+Death sentry level 8-16 scaling increased from 5-6 to 7-8 per level
+Death sentry level 16-22 scaling increased from 7-8 to 9-10 per level
+Death sentry level 22-28 scaling increased from 9-10 to 11-12 per level
+Death sentry level 28+ scaling increased from 11-12 to 13-14 per level
+Season 5:
+Sentry traps no longer benefit from resistance penetration (they still benefit from +% elemental damage)
+Death sentry fires 5 times increased to 10
+Death sentry synergy increased from 6% to 8%
+Death sentry charged bolt sentry synergy removed
+Death sentry now has fire blast as a synergy
+Death sentry base mana cost reduced from 20 to 8
+Death sentry mana cost now increased by .25 per level
+Death sentry level 1-8 scaling increased from 1-2 to 3-4
+Death sentry level 8-16 scaling increased from 3-4 to 5-6
+Death sentry level 16-22 scaling increased from 5-6 to 7-8
+Death sentry level 22-28 scaling increased from 7-8 to 9-10
+Death sentry level 28+ scaling increased from 9-10 to 11-12
+Season 4:
+Death Sentry starts at 16-20 flat damage instead of 8-10
+Death Sentry flat damage scaling changed from 1-1 / 1-2 / 2-3 / 4-5 / 6-7 to 1-2 / 3-4 / 5-6 / 7-8 / 9-10
+Death sentry no longer has shock web as a synergy
+Death sentry now deals 3-5% of a corpses life from 2-5%
+Season 3:
+Death sentry aoe reduced by roughly 17% (from 12 to 10)
+Death sentry scaling has been reworked and reduced significantly overall
+Death sentry synergies increased from 4% to 6%
+Death sentry now deals 2-5% of the corpses life as damage from 5-10%
+Season 2:
+Traps now gain +% and -% elemental bonuses
+Level 22+ scaling has been reduced
+synergies reduced from 6% to 4%
+Season 1:
+moved in the skill tree
+prerequisites increased from 4 to 6 (now also requires Wake of Fire, Wake of Inferno)
+can now only explode corpses instead of also shooting lightning most of the time
+explosion damage is 5-10% of corpse's life
+added flat physical and fire damage
+radius is always 12 yards (was 3.33 + 0.66 per level)
+synergy for Fire Blast removed (was 1 shot per 3 levels), shots now increase per 3 levels
+synergy for Lightning Sentry removed (was 12%)
+now has Shock Web, Charged Bolt Sentry, & Death Sentry as synergies at 6%
+Vanilla Info

@@ -1,0 +1,12884 @@
+
+This page lists all Paladin skills & stats. Also see: Paladin Build Guides, Class Attributes, All Skills
+Attributes
+ | Attribute
+ | Level 1
+ | /Level
+ | /Point
+ | Strength
+ | 25
+ | 
+ | 
+ | Dexterity
+ | 20
+ | 
+ | 
+ |     • Attack Rating
+ | 85
+ | 
+ | +5
+ |     • Defense
+ | 5
+ | 
+ | +0.25
+ | Vitality
+ | 25
+ | 
+ | 
+ |     • Life
+ | 55
+ | +2
+ | +3
+ |     • Stamina
+ | 189
+ | +1
+ | +1
+ | Energy
+ | 15
+ | 
+ | 
+ |     • Mana
+ | 15
+ | +2
+ | +1.5
+Vanilla Attributes:
+89 stamina at level 1
++1.5 mana per level
+Individual skill tree pages:
+Defensive Auras
+Offensive Auras
+Combat Skills
+Below is a compilation of all Paladin skills:
+## Contents
+1 Defensive Auras
+1.1 Prayer
+1.2 Resist Fire
+1.3 Resist Cold
+1.4 Resist Lightning
+1.5 Defiance
+1.6 Cleansing
+1.7 Vigor
+1.8 Meditation
+1.9 Redemption
+1.10 Salvation
+2 Offensive Auras
+2.1 Might
+2.2 Holy Fire
+2.3 Thorns
+2.4 Blessed Aim
+2.5 Concentration
+2.6 Holy Freeze
+2.7 Holy Shock
+2.8 Sanctuary
+2.9 Fanaticism
+2.10 Conviction
+3 Combat Skills (Paladin)
+3.1 Zeal
+3.2 Holy Bolt
+3.3 Smite
+3.4 Sacrifice
+3.5 Holy Light
+3.6 Charge
+3.7 Vengeance
+3.8 Blessed Hammer
+3.9 Holy Shield
+3.10 Joust
+3.11 Fist of the Heavens
+3.12 Holy Sword
+3.13 Holy Nova
+Expand/Collapse All
+Defensive Auras[edit]
+## Prayer[edit]
+Description: When active, aura slowly regenerates the life of you and your party and grants them life when they hit enemies
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Life After Each Hit +
+ | 1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+ | 
+10
+ | 11
+ | 
+11
+ | 12
+ | 
+12
+ | 13
+ | 
+13
+ | 14
+ | 
+14
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 17
+ | 
+17
+ | 18
+ | 
+18
+ | 19
+ | 
+19
+ | 20
+ | 
+20
+ | 21
+ | 
+21
+ | 22
+ | 
+22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 25
+ | 
+25
+ | 26
+ | 
+26
+ | 27
+ | 
+27
+ | 28
+ | 
+28
+ | 29
+ | 
+29
+ | 30
+ | 
+30
+ | 31
+ | Heals
+ | 4
+ | 6
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 21
+ | 24
+ | 27
+ | 30
+ | 33
+ | 36
+ | 39
+ | 42
+ | 46
+ | 50
+ | 54
+ | 58
+ | 62
+ | 66
+ | 71
+ | 76
+ | 81
+ | 86
+ | 91
+ | 96
+ | 101
+ | 106
+ | 111
+ | 116
+ | 121
+ | 126
+ | 131
+ | 136
+ | 141
+ | 146
+ | 151
+ | 156
+ | 161
+ | 166
+ | 171
+ | 176
+ | 181
+ | 186
+ | 191
+ | 196
+ | 201
+ | 206
+ | 211
+ | 216
+ | 221
+ | 226
+ | 231
+ | 236
+ | 241
+ | 246
+ | 251
+ | 256
+ | Radius (yards)
+ | 13.33
+ | 15.33
+ | 17.33
+ | 19.33
+ | 21.33
+ | 23.33
+ | 25.33
+ | 27.33
+ | 29.33
+ | 31.33
+ | 33.33
+ | 35.33
+ | 37.33
+ | 39.33
+ | 41.33
+ | 43.33
+ | 45.33
+ | 47.33
+ | 49.33
+ | 51.33
+ | 53.33
+ | 55.33
+ | 57.33
+ | 59.33
+ | 61.33
+ | 63.33
+ | 65.33
+ | 67.33
+ | 69.33
+ | 71.33
+ | 73.33
+ | 75.33
+ | 77.33
+ | 79.33
+ | 81.33
+ | 83.33
+ | 85.33
+ | 87.33
+ | 89.33
+ | 91.33
+ | 93.33
+ | 95.33
+ | 97.33
+ | 99.33
+ | 101.33
+ | 103.33
+ | 105.33
+ | 107.33
+ | 109.33
+ | 111.33
+ | 113.33
+ | 115.33
+ | 117.33
+ | 119.33
+ | 121.33
+ | 123.33
+ | 125.33
+ | 127.33
+ | 129.33
+ | 131.33
+ | Mana Cost
+ | 2
+ | 2
+ | 2
+ | 2
+ | 2.5
+ | 3
+ | 3.5
+ | 4
+ | 4.5
+ | 5
+ | 5.5
+ | 6
+ | 6.5
+ | 7
+ | 7.5
+ | 8
+ | 8.5
+ | 9
+ | 9.5
+ | 10
+ | 10.5
+ | 11
+ | 11.5
+ | 12
+ | 12.5
+ | 13
+ | 13.5
+ | 14
+ | 14.5
+ | 15
+ | 15.5
+ | 16
+ | 16.5
+ | 17
+ | 17.5
+ | 18
+ | 18.5
+ | 19
+ | 19.5
+ | 20
+ | 20.5
+ | 21
+ | 21.5
+ | 22
+ | 22.5
+ | 23
+ | 23.5
+ | 24
+ | 24.5
+ | 25
+ | 25.5
+ | 26
+ | 26.5
+ | 27
+ | 27.5
+ | 28
+ | 28.5
+ | 29
+ | 29.5
+ | 30
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Life Replenish +
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+Prayer's active Healing is not normal Life Replenish; it instantly restores the listed amount of Life every 2 seconds in exchange for the Mana Cost. Its passive bonus is normal Life Replenish.
+Only the wielder of Prayer Aura pays the Mana Cost, not any allies effected by it.
+Other Sources: Act 3 Mercenary, Purity (level 10-12)
+Changelog
+ | 
+Season 5:
+Prayer level 8-16 life per level increased from 2 to 3
+Prayer level 22-28 life per level increased from 4 to 5
+Prayer level 28+ life per level increased from 2 to 5
+Prayer now costs 1 mana every 2 seconds
+Prayer mana cost now increases by .5 per level
+Season 3:
+Prayer now grants 1 passive life regen per base point instead of 1 every two base points
+Prayer now grants +1 life per hit to allies every second level instead of every third
+Season 2:
+no longer costs mana
+Season 1:
+healing doubled
+now also grants +1 passive health regeneration per two base levels
+now also grants life per hit
+radius increased
+Vanilla Info
+## Resist Fire[edit]
+Description: When active, aura decreases fire damage received and increases fire damage dealt for you and your party
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Resistance +%
+ | 25
+ | 29
+ | 33
+ | 37
+ | 41
+ | 45
+ | 49
+ | 53
+ | 56
+ | 59
+ | 62
+ | 65
+ | 68
+ | 71
+ | 74
+ | 77
+ | 79
+ | 81
+ | 83
+ | 85
+ | 87
+ | 89
+ | 90
+ | 91
+ | 92
+ | 93
+ | 94
+ | 95
+ | 96
+ | 97
+ | 98
+ | 99
+ | 100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | Fire Damage +%
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 52
+ | 54
+ | 56
+ | 58
+ | 60
+ | 62
+ | 64
+ | 66
+ | 68
+ | 70
+ | 72
+ | 74
+ | 76
+ | 78
+ | 80
+ | 82
+ | 84
+ | 86
+ | 88
+ | 90
+ | 92
+ | 94
+ | 96
+ | 98
+ | 100
+ | 102
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Maximum Fire Resistance +%
+ | 0
+ | 0
+ | 1
+ | 
+1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+Other Sources: Djinn Slayer (level 6), Todesfaelle Flamme (level 6), Flickering Flame (level 1-6)
+Changelog
+ | 
+Season 13:
+Level 22+ elemental damage bonuses increased from 1% per level to 2%
+Season 6:
+Maximum Fire Resistance no longer applies to allies
+Season 2:
+bonus elemental damage per level reduced from 3% to 1%
+maximum resist bonuses reduced from 150 to 100
+starting bonuses reduced from 45% to 25%
+now counts as a fire skill (for items with +X to Fire Skills)
+Season 1:
+Now also grants a bonus for fire damage
+Fire resist nerfed slightly
+Maximum fire resistance bonus is no longer doubled when the aura is active
+Radius buffed slightly
+Vanilla Info
+## Resist Cold[edit]
+Description: When active, aura decreases cold damage received and increases cold damage dealt for you and your party
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Cold Resistance +%
+ | 25
+ | 29
+ | 33
+ | 37
+ | 41
+ | 45
+ | 49
+ | 53
+ | 56
+ | 59
+ | 62
+ | 65
+ | 68
+ | 71
+ | 74
+ | 77
+ | 79
+ | 81
+ | 83
+ | 85
+ | 87
+ | 89
+ | 90
+ | 91
+ | 92
+ | 93
+ | 94
+ | 95
+ | 96
+ | 97
+ | 98
+ | 99
+ | 100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | Cold Damage +%
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 52
+ | 54
+ | 56
+ | 58
+ | 60
+ | 62
+ | 64
+ | 66
+ | 68
+ | 70
+ | 72
+ | 74
+ | 76
+ | 78
+ | 80
+ | 82
+ | 84
+ | 86
+ | 88
+ | 90
+ | 92
+ | 94
+ | 96
+ | 98
+ | 100
+ | 102
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Maximum Cold Resistance +%
+ | 0
+ | 0
+ | 1
+ | 
+1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+Other Sources: Frostwind (level 6)
+Changelog
+ | 
+Season 13:
+Level 22+ elemental damage bonuses increased from 1% per level to 2%
+Season 6:
+Maximum Cold Resistance no longer applies to allies
+Season 2:
+bonus elemental damage per level reduced from 3% to 1%
+maximum resist bonuses reduced from 150 to 100
+starting bonuses reduced from 45% to 25%
+now counts as a cold skill (for items with +X to Cold Skills)
+Season 1:
+Requires level 1 (was 6)
+Now also grants a bonus for cold damage
+Cold resist nerfed slightly
+Maximum cold resistance bonus is no longer doubled when the aura is active
+Radius buffed slightly
+Vanilla Info
+## Resist Lightning[edit]
+Description: When active, aura decreases lightning damage received and increases lightning damage dealt for you and your party
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Resistance +%
+ | 25
+ | 29
+ | 33
+ | 37
+ | 41
+ | 45
+ | 49
+ | 53
+ | 56
+ | 59
+ | 62
+ | 65
+ | 68
+ | 71
+ | 74
+ | 77
+ | 79
+ | 81
+ | 83
+ | 85
+ | 87
+ | 89
+ | 90
+ | 91
+ | 92
+ | 93
+ | 94
+ | 95
+ | 96
+ | 97
+ | 98
+ | 99
+ | 100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | 
+100
+ | Lightning Damage +%
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 52
+ | 54
+ | 56
+ | 58
+ | 60
+ | 62
+ | 64
+ | 66
+ | 68
+ | 70
+ | 72
+ | 74
+ | 76
+ | 78
+ | 80
+ | 82
+ | 84
+ | 86
+ | 88
+ | 90
+ | 92
+ | 94
+ | 96
+ | 98
+ | 100
+ | 102
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Maximum Lightning Resistance +%
+ | 0
+ | 0
+ | 1
+ | 
+1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+Other Sources: Lightsabre (level 6)
+Changelog
+ | 
+Season 13:
+Level 22+ elemental damage bonuses increased from 1% per level to 2%
+Season 6:
+Maximum Lightning Resistance no longer applies to allies
+Season 2:
+bonus elemental damage per level reduced from 3% to 1%
+maximum resist bonuses reduced from 150 to 100
+starting bonuses reduced from 45% to 25%
+now counts as a lightning skill (for items with +X to Lightning Skills)
+Season 1:
+Requires level 1 (was 12)
+Now also grants a bonus for lightning damage
+Lightning resist nerfed slightly
+Maximum lightning resistance bonus is no longer doubled when the aura is active
+Radius buffed slightly
+Vanilla Info
+## Defiance[edit]
+Description: When active, aura increases the defense rating and physical damage reduction of you and your party
+Required Level: 6
+Required Skills: Prayer [1]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Defense +%
+ | 70
+ | 74
+ | 78
+ | 82
+ | 86
+ | 90
+ | 94
+ | 98
+ | 104
+ | 110
+ | 116
+ | 122
+ | 128
+ | 134
+ | 140
+ | 146
+ | 154
+ | 162
+ | 170
+ | 178
+ | 186
+ | 194
+ | 204
+ | 214
+ | 224
+ | 234
+ | 244
+ | 254
+ | 266
+ | 278
+ | 290
+ | 302
+ | 314
+ | 326
+ | 338
+ | 350
+ | 362
+ | 374
+ | 386
+ | 398
+ | 410
+ | 422
+ | 434
+ | 446
+ | 458
+ | 470
+ | 482
+ | 494
+ | 506
+ | 518
+ | 530
+ | 542
+ | 554
+ | 566
+ | 578
+ | 590
+ | 602
+ | 614
+ | 626
+ | 638
+ | Physical Damage Reduction %
+ | 0
+ | 1
+ | 
+1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+ | 
+10
+ | 11
+ | 
+11
+ | 12
+ | 
+12
+ | 13
+ | 
+13
+ | 14
+ | 
+14
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 17
+ | 
+17
+ | 18
+ | 
+18
+ | 19
+ | 
+19
+ | 20
+ | 
+20
+ | 21
+ | 
+21
+ | 22
+ | 
+22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 25
+ | 
+25
+ | 26
+ | 
+26
+ | 27
+ | 
+27
+ | 28
+ | 
+28
+ | 29
+ | 
+29
+ | 30
+ | Physical Damage Reduction
+ | 0
+ | 1
+ | 
+1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+ | 
+10
+ | 11
+ | 
+11
+ | 12
+ | 
+12
+ | 13
+ | 
+13
+ | 14
+ | 
+14
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 17
+ | 
+17
+ | 18
+ | 
+18
+ | 19
+ | 
+19
+ | 20
+ | 
+20
+ | 21
+ | 
+21
+ | 22
+ | 
+22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 25
+ | 
+25
+ | 26
+ | 
+26
+ | 27
+ | 
+27
+ | 28
+ | 
+28
+ | 29
+ | 
+29
+ | 30
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+Other Sources: Act 2 Mercenary, Exile (level 13-16)
+Changelog
+ | 
+Note: Flat damage reduction is not mentioned in skill tooltip or patch notes but will show on advanced stat screen.
+Season 6:
+Defiance aura now grants 1% damage reduction every 2 soft points instead of every 2 base points
+Defiance defense per level reworked from 10% per level from levels 1-22 and 5% at level 28+ to 1-8 4%, 8-16 6%, 16-22 8%, 22-28 10%, 28+ 12%
+Season 1:
+prerequisites increased from 0 to 1 (now requires Prayer)
+now also grants +1% PDR per two base levels (active)
+radius increased
+Vanilla Info
+## Cleansing[edit]
+Description: When active, aura reduces the length of time you and your party will remain poisoned or cursed
+Required Level: 12
+Required Skills: Prayer [1]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Curse & Poison Duration %
+ | -25
+ | -27
+ | -29
+ | -31
+ | -33
+ | -35
+ | -37
+ | -39
+ | -41
+ | -43
+ | -45
+ | -47
+ | -49
+ | -51
+ | -53
+ | -55
+ | -57
+ | -59
+ | -61
+ | -63
+ | -65
+ | -67
+ | -68
+ | -69
+ | -70
+ | -71
+ | -72
+ | -73
+ | -74
+ | -75
+ | -76
+ | -77
+ | -78
+ | -79
+ | -80
+ | -81
+ | -82
+ | -83
+ | -84
+ | -85
+ | -86
+ | -87
+ | -88
+ | -89
+ | -90
+ | -91
+ | -92
+ | -93
+ | -94
+ | -95
+ | -96
+ | -97
+ | -98
+ | -99
+ | -100
+ | -101
+ | -102
+ | -103
+ | -104
+ | -105
+ | Curse Resistance +%
+ | 10
+ | 11
+ | 
+11
+ | 12
+ | 
+12
+ | 13
+ | 
+13
+ | 14
+ | 
+14
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 17
+ | 
+17
+ | 18
+ | 
+18
+ | 19
+ | 
+19
+ | 20
+ | 
+20
+ | 21
+ | 
+21
+ | 22
+ | 
+22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 25
+ | 
+25
+ | 26
+ | 
+26
+ | 27
+ | 
+27
+ | 28
+ | 
+28
+ | 29
+ | 
+29
+ | 30
+ | 
+30
+ | 31
+ | 
+31
+ | 32
+ | 
+32
+ | 33
+ | 
+33
+ | 34
+ | 
+34
+ | 35
+ | 
+35
+ | 36
+ | 
+36
+ | 37
+ | 
+37
+ | 38
+ | 
+38
+ | 39
+ | 
+39
+ | 40
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Curse & Poison Duration %
+ | 0
+ | -1
+ | -2
+ | -3
+ | -4
+ | -5
+ | -6
+ | -7
+ | -8
+ | -9
+ | -10
+ | -11
+ | -12
+ | -13
+ | -14
+ | -15
+ | -16
+ | -17
+ | -18
+ | -19
+ | -20
+Poison and Curse Duration Reduction has a cap of -75%, however Poison (but not Curse) Duration has a +100% penalty in Hell Difficulty making its effective cap -175%.
+Cleansing Aura's active Curse/Poison Duration Reduction works independently from matching stats on equipment (and Cleansing's own Passive bonus):
+Instead of reducing the total Duration when the Curse/Poison is inflicted, Cleansing "pulses" its effect every 2 seconds, reducing a Curse/Poison's remaining Duration by the Aura's percentage.
+Other Sources: Act 3 Mercenary, Plague (level 15-17)
+Changelog
+ | 
+Season 13:
+Base curse resistance increased from +5% to +10%
+Season 10:
+Now provides +5% Curse Resistance at level 1 and an additional +1% for every 2 levels
+Season 3:
+Cleansing now gives 1% passive poison/curse duration reduction per hard point instead of every 2 hard points
+Season 2:
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+Shrines are separated from curses. Therefore, shrine up time is no longer negatively affected by Cleansing.
+poison/curse duration reduction reduced
+now also grants +1% passive poison/curse duration reduction per two base levels
+no longer gains bonus healing from Prayer
+radius increased slightly
+Vanilla Info
+## Vigor[edit]
+Description: When active, aura increases stamina recovery rate, maximum stamina and movement speed for you and your party
+Required Level: 18
+Required Skills: Prayer [1], Defiance [6]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Movement Speed +%
+ | 13
+ | 18
+ | 22
+ | 25
+ | 28
+ | 30
+ | 32
+ | 33
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 
+40
+ | 41
+ | 
+41
+ | 42
+ | 
+42
+ | 43
+ | 
+43
+ | 
+43
+ | 44
+ | 
+44
+ | 
+44
+ | 45
+ | 
+45
+ | 
+45
+ | 46
+ | 
+46
+ | 
+46
+ | 
+46
+ | 
+46
+ | 
+46
+ | 
+46
+ | 47
+ | 
+47
+ | 
+47
+ | 
+47
+ | 
+47
+ | 
+47
+ | 48
+ | 
+48
+ | 
+48
+ | 
+48
+ | 
+48
+ | 
+48
+ | 
+48
+ | 49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 
+49
+ | 50
+ | Stamina +%
+ | 50
+ | 75
+ | 100
+ | 125
+ | 150
+ | 175
+ | 200
+ | 225
+ | 250
+ | 275
+ | 300
+ | 325
+ | 350
+ | 375
+ | 400
+ | 425
+ | 450
+ | 475
+ | 500
+ | 525
+ | 550
+ | 575
+ | 600
+ | 625
+ | 650
+ | 675
+ | 700
+ | 725
+ | 750
+ | 775
+ | 800
+ | 825
+ | 850
+ | 875
+ | 900
+ | 925
+ | 950
+ | 975
+ | 1000
+ | 1025
+ | 1050
+ | 1075
+ | 1100
+ | 1125
+ | 1150
+ | 1175
+ | 1200
+ | 1225
+ | 1250
+ | 1275
+ | 1300
+ | 1325
+ | 1350
+ | 1375
+ | 1400
+ | 1425
+ | 1450
+ | 1475
+ | 1500
+ | 1525
+ | Stamina Recovery +%
+ | 50
+ | 75
+ | 100
+ | 125
+ | 150
+ | 175
+ | 200
+ | 225
+ | 250
+ | 275
+ | 300
+ | 325
+ | 350
+ | 375
+ | 400
+ | 425
+ | 450
+ | 475
+ | 500
+ | 525
+ | 550
+ | 575
+ | 600
+ | 625
+ | 650
+ | 675
+ | 700
+ | 725
+ | 750
+ | 775
+ | 800
+ | 825
+ | 850
+ | 875
+ | 900
+ | 925
+ | 950
+ | 975
+ | 1000
+ | 1025
+ | 1050
+ | 1075
+ | 1100
+ | 1125
+ | 1150
+ | 1175
+ | 1200
+ | 1225
+ | 1250
+ | 1275
+ | 1300
+ | 1325
+ | 1350
+ | 1375
+ | 1400
+ | 1425
+ | 1450
+ | 1475
+ | 1500
+ | 1525
+ | Radius (yards)
+ | 17.33
+ | 19.33
+ | 21.33
+ | 23.33
+ | 25.33
+ | 27.33
+ | 29.33
+ | 31.33
+ | 33.33
+ | 35.33
+ | 37.33
+ | 39.33
+ | 41.33
+ | 43.33
+ | 45.33
+ | 47.33
+ | 49.33
+ | 51.33
+ | 53.33
+ | 55.33
+ | 57.33
+ | 59.33
+ | 61.33
+ | 63.33
+ | 65.33
+ | 67.33
+ | 69.33
+ | 71.33
+ | 73.33
+ | 75.33
+ | 77.33
+ | 79.33
+ | 81.33
+ | 83.33
+ | 85.33
+ | 87.33
+ | 89.33
+ | 91.33
+ | 93.33
+ | 95.33
+ | 97.33
+ | 99.33
+ | 101.33
+ | 103.33
+ | 105.33
+ | 107.33
+ | 109.33
+ | 111.33
+ | 113.33
+ | 115.33
+ | 117.33
+ | 119.33
+ | 121.33
+ | 123.33
+ | 125.33
+ | 127.33
+ | 129.33
+ | 131.33
+ | 133.33
+ | 135.33
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Faster Run/Walk %
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+Vigor's active Movement Speed bonus is Effective Faster Run/Walk, but its Passive bonus is "Item" Faster Run/Walk. See Faster Run/Walk Thresholds for more information.
+Other Sources: Act 1 Mercenary, Harmony (level 10), Kalan's Legacy (level 4-6)
+Changelog
+ | 
+Season 11:
++1% faster run walk passive bonus per 2 base points increased to +1% per base point
+Season 1:
+prerequisites reduced from 3 to 2 (no longer requires Cleansing)
+now also grants +1% FRW per base level (passive)
+radius increased
+Vanilla Info
+## Meditation[edit]
+Description: When active, aura increases mana recovery for you and your party
+Required Level: 24
+Required Skills: Prayer [1], Cleansing [12]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Mana Recovery +%
+ | 150
+ | 162
+ | 174
+ | 186
+ | 198
+ | 210
+ | 222
+ | 234
+ | 246
+ | 258
+ | 270
+ | 282
+ | 294
+ | 306
+ | 318
+ | 330
+ | 342
+ | 354
+ | 366
+ | 378
+ | 390
+ | 402
+ | 414
+ | 426
+ | 438
+ | 450
+ | 462
+ | 474
+ | 486
+ | 498
+ | 510
+ | 522
+ | 534
+ | 546
+ | 558
+ | 570
+ | 582
+ | 594
+ | 606
+ | 618
+ | 630
+ | 642
+ | 654
+ | 666
+ | 678
+ | 690
+ | 702
+ | 714
+ | 726
+ | 738
+ | 750
+ | 762
+ | 774
+ | 786
+ | 798
+ | 810
+ | 822
+ | 834
+ | 846
+ | 858
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Mana after Each Kill
+ | 0
+ | 
+0
+ | 1
+ | 
+1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+Other Sources: Act 1 Mercenary, Insight (level 12-17)
+Changelog
+ | 
+Season 3:
+Meditation now grants +1 passive mana after each kill every 2 base levels instead of every 5
+Season 2:
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+mana recovery rate halved
+now also grants +1 passive mana after each kill per five base levels
+no longer gains bonus healing from Prayer
+radius increased slightly
+Vanilla Info
+## Redemption[edit]
+Description: When active, aura attempts to redeem the souls of slain enemies to give you mana and life
+Required Level: 30
+Required Skills: Prayer [1], Defiance [6], Vigor [18]
+Radius: 10.6 yards
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Chance to Redeem Soul %
+ | 23
+ | 34
+ | 42
+ | 49
+ | 55
+ | 59
+ | 63
+ | 65
+ | 69
+ | 71
+ | 73
+ | 75
+ | 77
+ | 79
+ | 80
+ | 82
+ | 
+82
+ | 83
+ | 84
+ | 85
+ | 86
+ | 87
+ | 88
+ | 89
+ | 
+89
+ | 90
+ | 91
+ | 
+91
+ | 
+91
+ | 
+91
+ | 92
+ | 
+92
+ | 93
+ | 
+93
+ | 
+93
+ | 94
+ | 
+94
+ | 95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 96
+ | 
+96
+ | 
+96
+ | 97
+ | 
+97
+ | 
+97
+ | 
+97
+ | 98
+ | 
+98
+ | 
+98
+ | 
+98
+ | 
+98
+ | 99
+ | 
+99
+ | 
+99
+ | 
+99
+ | 
+99
+ | 
+99
+ | 100
+ | Life Recovered
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 31
+ | 33
+ | 35
+ | 37
+ | 39
+ | 41
+ | 43
+ | 45
+ | 47
+ | 49
+ | 51
+ | 53
+ | 55
+ | 57
+ | 59
+ | 61
+ | 63
+ | 65
+ | 67
+ | 69
+ | 71
+ | 73
+ | 75
+ | 77
+ | 79
+ | 81
+ | 83
+ | 85
+ | 87
+ | 89
+ | 91
+ | 93
+ | 95
+ | 97
+ | 99
+ | 101
+ | 103
+ | 105
+ | 107
+ | 109
+ | 111
+ | 113
+ | 115
+ | 117
+ | 119
+ | 121
+ | 123
+ | 125
+ | Mana Recovered
+ | 25
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+Only the wielder of Redemption Aura recovers Life and Mana.
+Other Sources: Phoenix (level 10-12)
+Changelog
+ | 
+Season 4:
+Redemption aura no longer works on desecrate corpses
+Season 3:
+Redemption aura now grants an additional 2 life return per level
+Season 1:
+prerequisites reduced from 4 to 3 (no longer requires Cleansing)
+Redeems 5 Life per corpse at all levels
+Vanilla Info
+## Salvation[edit]
+Description: When active, aura decreases fire, cold, and lightning damage received and increases fire, cold, and lightning damage dealt for you and your party
+Required Level: 30
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire/Cold/Lightning Resistance +%
+ | 20
+ | 24
+ | 28
+ | 32
+ | 36
+ | 40
+ | 44
+ | 48
+ | 51
+ | 54
+ | 57
+ | 60
+ | 63
+ | 66
+ | 69
+ | 72
+ | 74
+ | 75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | Fire/Cold/Lightning Damage +%
+ | 1
+ | 2
+ | 
+2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+ | 
+10
+ | 11
+ | 
+11
+ | 12
+ | 
+12
+ | 13
+ | 
+13
+ | 14
+ | 
+14
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 17
+ | 
+17
+ | 18
+ | 
+18
+ | 19
+ | 
+19
+ | 20
+ | 
+20
+ | 21
+ | 
+21
+ | 22
+ | 
+22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 25
+ | 
+25
+ | 26
+ | 
+26
+ | 27
+ | 
+27
+ | 28
+ | 
+28
+ | 29
+ | 
+29
+ | 30
+ | 
+30
+ | 31
+ | Radius (yards)
+ | 10.66
+ | 12
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+Other Sources: Zenith (level 10-12)
+Changelog
+ | 
+Season 2:
+starting bonus to each elements reduced from 5% to 3%
+maximum resist reduced from 120 to 75
+starting resist bonus reduced from 25 to 20
+Season 1:
+Now also grants a bonus to elemental damage
+Elemental resists nerfed slightly
+Vanilla Info
+Offensive Auras[edit]
+## Might[edit]
+Description: When active, aura increases the physical damage done by you and your party
+Required Level: 1
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Your Damage +%
+ | 40
+ | 60
+ | 80
+ | 100
+ | 120
+ | 140
+ | 160
+ | 180
+ | 200
+ | 220
+ | 240
+ | 260
+ | 280
+ | 300
+ | 320
+ | 340
+ | 360
+ | 380
+ | 400
+ | 420
+ | 440
+ | 460
+ | 480
+ | 500
+ | 520
+ | 540
+ | 560
+ | 580
+ | 600
+ | 620
+ | 640
+ | 660
+ | 680
+ | 700
+ | 720
+ | 740
+ | 760
+ | 780
+ | 800
+ | 820
+ | 840
+ | 860
+ | 880
+ | 900
+ | 920
+ | 940
+ | 960
+ | 980
+ | 1000
+ | 1020
+ | 1040
+ | 1060
+ | 1080
+ | 1100
+ | 1120
+ | 1140
+ | 1160
+ | 1180
+ | 1200
+ | 1220
+ | Ally Damage +%
+ | 20
+ | 30
+ | 40
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | Radius (yards)
+ | 13.33
+ | 15.33
+ | 17.33
+ | 19.33
+ | 21.33
+ | 23.33
+ | 25.33
+ | 27.33
+ | 29.33
+ | 31.33
+ | 33.33
+ | 35.33
+ | 37.33
+ | 39.33
+ | 41.33
+ | 43.33
+ | 45.33
+ | 47.33
+ | 49.33
+ | 51.33
+ | 53.33
+ | 55.33
+ | 57.33
+ | 59.33
+ | 61.33
+ | 63.33
+ | 65.33
+ | 67.33
+ | 69.33
+ | 71.33
+ | 73.33
+ | 75.33
+ | 77.33
+ | 79.33
+ | 81.33
+ | 83.33
+ | 85.33
+ | 87.33
+ | 89.33
+ | 91.33
+ | 93.33
+ | 95.33
+ | 97.33
+ | 99.33
+ | 101.33
+ | 103.33
+ | 105.33
+ | 107.33
+ | 109.33
+ | 111.33
+ | 113.33
+ | 115.33
+ | 117.33
+ | 119.33
+ | 121.33
+ | 123.33
+ | 125.33
+ | 127.33
+ | 129.33
+ | 131.33
+Other Sources: Act 5 Mercenary, Last Wish (level 20), Templar's Might (level 6-8)
+Changelog
+ | 
+Season 7:
+Now grants allies ½ of your personal bonus instead of ⅓
+Might damage per level bonus reduced from +25% to +20%
+Season 4:
+Might aura scaling increased from 10/12/14/16/18% to 25% per level
+might aura now grants party members 1/3rd of the bonus
+Season 1:
+damage bonus scaling increased at level 9+
+radius increased
+Vanilla Info
+## Holy Fire[edit]
+Description: When active, aura damages nearby enemies with heavenly flames and adds fire damage to your attacks
+Required Level: 6
+Required Skills: Might [1]
+Aura Damage Frequency: 1 second
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Attack Damage (min)
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 16
+ | 20
+ | 24
+ | 28
+ | 32
+ | 36
+ | 40
+ | 44
+ | 56
+ | 68
+ | 80
+ | 92
+ | 104
+ | 116
+ | 138
+ | 160
+ | 182
+ | 204
+ | 226
+ | 248
+ | 279
+ | 310
+ | 341
+ | 372
+ | 403
+ | 434
+ | 465
+ | 496
+ | 527
+ | 558
+ | 589
+ | 620
+ | 651
+ | 682
+ | 713
+ | 744
+ | 775
+ | 806
+ | 837
+ | 868
+ | 899
+ | 930
+ | 961
+ | 992
+ | 1023
+ | 1054
+ | 1085
+ | 1116
+ | 1147
+ | 1178
+ | 1209
+ | 1240
+ | Fire Attack Damage (max)
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 80
+ | 95
+ | 110
+ | 125
+ | 140
+ | 155
+ | 181
+ | 207
+ | 233
+ | 259
+ | 285
+ | 311
+ | 348
+ | 385
+ | 422
+ | 459
+ | 496
+ | 533
+ | 570
+ | 607
+ | 644
+ | 681
+ | 718
+ | 755
+ | 792
+ | 829
+ | 866
+ | 903
+ | 940
+ | 977
+ | 1014
+ | 1051
+ | 1088
+ | 1125
+ | 1162
+ | 1199
+ | 1236
+ | 1273
+ | 1310
+ | 1347
+ | 1384
+ | 1421
+ | 1458
+ | 1495
+ | Fire Aura Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 14
+ | 17
+ | 20
+ | 23
+ | 26
+ | 29
+ | 34
+ | 40
+ | 45
+ | 51
+ | 56
+ | 62
+ | 69
+ | 77
+ | 85
+ | 93
+ | 100
+ | 108
+ | 116
+ | 124
+ | 131
+ | 139
+ | 147
+ | 155
+ | 162
+ | 170
+ | 178
+ | 186
+ | 193
+ | 201
+ | 209
+ | 217
+ | 224
+ | 232
+ | 240
+ | 248
+ | 255
+ | 263
+ | 271
+ | 279
+ | 286
+ | 294
+ | 302
+ | 310
+ | Fire Aura Damage (max)
+ | 2
+ | 3
+ | 
+3
+ | 4
+ | 
+4
+ | 5
+ | 
+5
+ | 6
+ | 7
+ | 8
+ | 10
+ | 11
+ | 12
+ | 13
+ | 15
+ | 16
+ | 20
+ | 23
+ | 27
+ | 31
+ | 35
+ | 38
+ | 45
+ | 51
+ | 58
+ | 64
+ | 71
+ | 77
+ | 87
+ | 96
+ | 105
+ | 114
+ | 124
+ | 133
+ | 142
+ | 151
+ | 161
+ | 170
+ | 179
+ | 188
+ | 198
+ | 207
+ | 216
+ | 225
+ | 235
+ | 244
+ | 253
+ | 262
+ | 272
+ | 281
+ | 290
+ | 299
+ | 309
+ | 318
+ | 327
+ | 336
+ | 346
+ | 355
+ | 364
+ | 373
+ | Attack Rating +%
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+ | Radius (yards)
+ | 4
+ | 4.66
+ | 5.33
+ | 6
+ | 6.66
+ | 7.33
+ | 8
+ | 8.66
+ | 9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+ | 
+9.33
+Holy Fire Receives Bonuses From:
+Resist Fire: +16% Fire Damage per Level
+Salvation: +16% Fire Damage per Level
+Blessed Aim: +16% Fire Damage per Level
+Other Sources: Dragon (Chest) (level 12), Dragon (Shield) (level 12), Hand of Justice (level 12), Flamebellow (level 26-28)
+Changelog
+ | 
+Season 11:
+Synergies increased from 15% to 16%
+Season 9:
+Aura radius increased by 17%~
+Aura base damage increased from 4-9 to 5-11
+Aura level 8-16 scaling increased from 3-4 to 4-5
+Aura level 16-22 scaling increased from 10-12 to 12-15
+Aura level 22-28 scaling increased from 18-21 to 22-26
+Aura level 28+ scaling increased from 25-30 to 31-37
+Aura damage to attack multiplier reduced from 5 to 4
+These changes will result in similar on hit damage but more aura damage
+Season 8:
+Added 50% base attack rating
+Added 5% attack rating per level
+Level 1-8 scaling increased from 1-1 to 1-2
+Level 8-16 scaling increased from 3-3 to 3-4
+Level 16-22 scaling increased from 10-10 to 10-12
+Level 22-28 scaling increased from 19-19 to 18-21
+Level 28+ scaling increased from 23-25 to 25-30
+Synergies reduced from 18% to 15%
+Season 6:
+radius reworked from 6 yards flat to scaling from 4 yards at level 1 to an 8 yard cap at level 6
+aura damage to attack damage multiplier increased from 4x to 5x
+synergies reduced from 20% to 18%
+Season 2:
+aura tick scaling has been slightly reduced
+end game scaling has been reduced slightly
+Season 1:
+Aura tick rate increased
+Radius is now always 6 yards (was 4 + 0.66 per level)
+aura fire damage & attack fire damage deal less damage at low levels and have improved scaling
+now also has Blessed Aim as a synergy
+synergies are now 20% (was 18%/6%)
+Vanilla Info
+## Thorns[edit]
+Description: When active, aura returns damage to enemies who attack you or your party
+Required Level: 6
+Required Skills: None
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage Returned
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 21
+ | 25
+ | 29
+ | 33
+ | 37
+ | 41
+ | 49
+ | 57
+ | 65
+ | 73
+ | 81
+ | 89
+ | 101
+ | 113
+ | 125
+ | 137
+ | 149
+ | 161
+ | 173
+ | 185
+ | 197
+ | 209
+ | 221
+ | 233
+ | 245
+ | 257
+ | 269
+ | 281
+ | 293
+ | 305
+ | 317
+ | 329
+ | 341
+ | 353
+ | 365
+ | 377
+ | 389
+ | 401
+ | 413
+ | 425
+ | 437
+ | 449
+ | 461
+ | 473
+ | Open Wounds +%
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 
+16
+ | 17
+ | 
+17
+ | 
+17
+ | 18
+ | 
+18
+ | 
+18
+ | 19
+ | 
+19
+ | 
+19
+ | 20
+ | 
+20
+ | 
+20
+ | 21
+ | 
+21
+ | 
+21
+ | 22
+ | 
+22
+ | 
+22
+ | 23
+ | 
+23
+ | 
+23
+ | 24
+ | 
+24
+ | 
+24
+ | 25
+ | 
+25
+ | 
+25
+ | 26
+ | 
+26
+ | 
+26
+ | 27
+ | 
+27
+ | 
+27
+ | 28
+ | 
+28
+ | 
+28
+ | 29
+ | 
+29
+ | 
+29
+ | 30
+ | 
+30
+ | 
+30
+ | 31
+ | 
+31
+ | 
+31
+ | 32
+ | 
+32
+ | 
+32
+ | 33
+ | 
+33
+ | 
+33
+ | 34
+ | 
+34
+ | 
+34
+ | 35
+ | Your Open Wounds Damage
+ | 1
+ | 2
+ | 4
+ | 5
+ | 6
+ | 8
+ | 9
+ | 10
+ | 12
+ | 13
+ | 14
+ | 16
+ | 17
+ | 18
+ | 20
+ | 21
+ | 26
+ | 32
+ | 37
+ | 42
+ | 48
+ | 53
+ | 64
+ | 74
+ | 85
+ | 96
+ | 106
+ | 117
+ | 133
+ | 149
+ | 165
+ | 181
+ | 197
+ | 213
+ | 229
+ | 245
+ | 261
+ | 277
+ | 293
+ | 309
+ | 325
+ | 341
+ | 357
+ | 373
+ | 389
+ | 405
+ | 421
+ | 437
+ | 453
+ | 469
+ | 485
+ | 501
+ | 517
+ | 533
+ | 549
+ | 565
+ | 581
+ | 597
+ | 613
+ | 629
+ | Ally Open Wounds Damage
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 20
+ | 24
+ | 28
+ | 32
+ | 36
+ | 40
+ | 48
+ | 56
+ | 64
+ | 72
+ | 80
+ | 88
+ | 100
+ | 112
+ | 124
+ | 136
+ | 148
+ | 160
+ | 172
+ | 184
+ | 196
+ | 208
+ | 220
+ | 232
+ | 244
+ | 256
+ | 268
+ | 280
+ | 292
+ | 304
+ | 316
+ | 328
+ | 340
+ | 352
+ | 364
+ | 376
+ | 388
+ | 400
+ | 412
+ | 424
+ | 436
+ | 448
+ | 460
+ | 472
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+Thorns Receives Bonuses From:
+Might: +20% Damage per Level
+Defiance: +20% Damage per Level
+Other Sources: Act 2 Mercenary, Edge (level 15), Bramble (level 18-21), Silence (level 23-25)
+Changelog
+ | 
+Season 10:
+Now provides 15% chance to apply open wounds at level 1
+Now gains +1% chance to apply open wounds every 3 levels
+Now provides open wounds damage (synergies apply)
+Half of thorn’s reflect damage has been converted to open wounds damage
+Thorns now grants additional open wounds damage to the aura provider
+Season 7:
+synergies increased from 18 to 20%
+Season 3:
+Thorns has been reworked and now deals a flat amount of damage to attackers instead of a % of their attack returned
+Thorns now has might and defiance as synergies at 18%
+Season 1:
+radius increased
+Vanilla Info
+## Blessed Aim[edit]
+Description: When active, aura increases the attack rating and deadly strike for you and your party
+Required Level: 12
+Required Skills: Might [1]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Deadly Strike +%
+ | 5
+ | 6
+ | 
+6
+ | 7
+ | 
+7
+ | 8
+ | 
+8
+ | 9
+ | 
+9
+ | 10
+ | 
+10
+ | 11
+ | 
+11
+ | 12
+ | 
+12
+ | 13
+ | 
+13
+ | 14
+ | 
+14
+ | 15
+ | 
+15
+ | 16
+ | 
+16
+ | 17
+ | 
+17
+ | 18
+ | 
+18
+ | 19
+ | 
+19
+ | 20
+ | 
+20
+ | 21
+ | 
+21
+ | 22
+ | 
+22
+ | 23
+ | 
+23
+ | 24
+ | 
+24
+ | 25
+ | 
+25
+ | 26
+ | 
+26
+ | 27
+ | 
+27
+ | 28
+ | 
+28
+ | 29
+ | 
+29
+ | 30
+ | 
+30
+ | 31
+ | 
+31
+ | 32
+ | 
+32
+ | 33
+ | 
+33
+ | 34
+ | 
+34
+ | 35
+ | Attack Rating +%
+ | 60
+ | 75
+ | 90
+ | 105
+ | 120
+ | 135
+ | 150
+ | 165
+ | 180
+ | 195
+ | 210
+ | 225
+ | 240
+ | 255
+ | 270
+ | 285
+ | 300
+ | 315
+ | 330
+ | 345
+ | 360
+ | 375
+ | 390
+ | 405
+ | 420
+ | 435
+ | 450
+ | 465
+ | 480
+ | 495
+ | 510
+ | 525
+ | 540
+ | 555
+ | 570
+ | 585
+ | 600
+ | 615
+ | 630
+ | 645
+ | 660
+ | 675
+ | 690
+ | 705
+ | 720
+ | 735
+ | 750
+ | 765
+ | 780
+ | 795
+ | 810
+ | 825
+ | 840
+ | 855
+ | 870
+ | 885
+ | 900
+ | 915
+ | 930
+ | 945
+ | Radius (yards)
+ | 13.33
+ | 14.66
+ | 16
+ | 17.33
+ | 18.66
+ | 20
+ | 21.33
+ | 22.66
+ | 24
+ | 25.33
+ | 26.66
+ | 28
+ | 29.33
+ | 30.66
+ | 32
+ | 33.33
+ | 34.66
+ | 36
+ | 37.33
+ | 38.66
+ | 40
+ | 41.33
+ | 42.66
+ | 44
+ | 45.33
+ | 46.66
+ | 48
+ | 49.33
+ | 50.66
+ | 52
+ | 53.33
+ | 54.66
+ | 56
+ | 57.33
+ | 58.66
+ | 60
+ | 61.33
+ | 62.66
+ | 64
+ | 65.33
+ | 66.66
+ | 68
+ | 69.33
+ | 70.66
+ | 72
+ | 73.33
+ | 74.66
+ | 76
+ | 77.33
+ | 78.66
+ | 80
+ | 81.33
+ | 82.66
+ | 84
+ | 85.33
+ | 86.66
+ | 88
+ | 89.33
+ | 90.66
+ | 92
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Passive Enemy Defense %
+ | 0
+ | -1
+ | -2
+ | -3
+ | -4
+ | -5
+ | -6
+ | -7
+ | -8
+ | -9
+ | -10
+ | -11
+ | -12
+ | -13
+ | -14
+ | -15
+ | -16
+ | -17
+ | -18
+ | -19
+ | -20
+Other Sources: Act 2 Mercenary
+Changelog
+ | 
+Season 7:
+Attack rating base reduced from +80% to +60%
+Attack rating per level reduced from +20% to +15%
+Now provides +5% deadly strike base
+Now gains +1% deadly strike every 2 levels
+Blessed aim now passively provides -1% target's defense per base level instead of attack rating to prevent it from bugging when the aura is active (patch 1)
+Season 4:
+Blessed Aim attack rating increased from 15-20%
+Blessed Aim level 1 attack rating bonus increased from 75% to 80%
+Season 3:
+Blessed aim attack rating % per level increased from 10% to 15%
+Season 1:
+now also grants passive +10% AR per hard point
+attack rating % per level decreased from 15% to 10%
+radius increased slightly
+Vanilla Info
+## Concentration[edit]
+Description: When active, aura increases the damage and decreases the chance that attacks will be interrupted for you and your party
+Required Level: 18
+Required Skills: Might [1], Blessed Aim [12]
+Chance of Uninterrupted Attack: +20%
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Your Damage +%
+ | 60
+ | 75
+ | 90
+ | 105
+ | 120
+ | 135
+ | 150
+ | 165
+ | 180
+ | 195
+ | 210
+ | 225
+ | 240
+ | 255
+ | 270
+ | 285
+ | 300
+ | 315
+ | 330
+ | 345
+ | 360
+ | 375
+ | 390
+ | 405
+ | 420
+ | 435
+ | 450
+ | 465
+ | 480
+ | 495
+ | 510
+ | 525
+ | 540
+ | 555
+ | 570
+ | 585
+ | 600
+ | 615
+ | 630
+ | 645
+ | 660
+ | 675
+ | 690
+ | 705
+ | 720
+ | 735
+ | 750
+ | 765
+ | 780
+ | 795
+ | 810
+ | 825
+ | 840
+ | 855
+ | 870
+ | 885
+ | 900
+ | 915
+ | 930
+ | 945
+ | Ally Damage +%
+ | 30
+ | 37
+ | 45
+ | 52
+ | 60
+ | 67
+ | 75
+ | 82
+ | 90
+ | 97
+ | 105
+ | 112
+ | 120
+ | 127
+ | 135
+ | 142
+ | 150
+ | 157
+ | 165
+ | 172
+ | 180
+ | 187
+ | 195
+ | 202
+ | 210
+ | 217
+ | 225
+ | 232
+ | 240
+ | 247
+ | 255
+ | 262
+ | 270
+ | 277
+ | 285
+ | 292
+ | 300
+ | 307
+ | 315
+ | 322
+ | 330
+ | 337
+ | 345
+ | 352
+ | 360
+ | 367
+ | 375
+ | 382
+ | 390
+ | 397
+ | 405
+ | 412
+ | 420
+ | 427
+ | 435
+ | 442
+ | 450
+ | 457
+ | 465
+ | 472
+ | Blessed Hammer Damage +%
+ | 30
+ | 37
+ | 45
+ | 52
+ | 60
+ | 67
+ | 75
+ | 82
+ | 90
+ | 97
+ | 105
+ | 112
+ | 120
+ | 127
+ | 135
+ | 142
+ | 150
+ | 157
+ | 165
+ | 172
+ | 180
+ | 187
+ | 195
+ | 202
+ | 210
+ | 217
+ | 225
+ | 232
+ | 240
+ | 247
+ | 255
+ | 262
+ | 270
+ | 277
+ | 285
+ | 292
+ | 300
+ | 307
+ | 315
+ | 322
+ | 330
+ | 337
+ | 345
+ | 352
+ | 360
+ | 367
+ | 375
+ | 382
+ | 390
+ | 397
+ | 405
+ | 412
+ | 420
+ | 427
+ | 435
+ | 442
+ | 450
+ | 457
+ | 465
+ | 472
+ | Attack Rating +%
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | 630
+ | 640
+ | Radius (yards)
+ | 13.33
+ | 15.33
+ | 17.33
+ | 19.33
+ | 21.33
+ | 23.33
+ | 25.33
+ | 27.33
+ | 29.33
+ | 31.33
+ | 33.33
+ | 35.33
+ | 37.33
+ | 39.33
+ | 41.33
+ | 43.33
+ | 45.33
+ | 47.33
+ | 49.33
+ | 51.33
+ | 53.33
+ | 55.33
+ | 57.33
+ | 59.33
+ | 61.33
+ | 63.33
+ | 65.33
+ | 67.33
+ | 69.33
+ | 71.33
+ | 73.33
+ | 75.33
+ | 77.33
+ | 79.33
+ | 81.33
+ | 83.33
+ | 85.33
+ | 87.33
+ | 89.33
+ | 91.33
+ | 93.33
+ | 95.33
+ | 97.33
+ | 99.33
+ | 101.33
+ | 103.33
+ | 105.33
+ | 107.33
+ | 109.33
+ | 111.33
+ | 113.33
+ | 115.33
+ | 117.33
+ | 119.33
+ | 121.33
+ | 123.33
+ | 125.33
+ | 127.33
+ | 129.33
+ | 131.33
+Only the wielder of Concentration Aura gets the Blessed Hammer Damage, not any allies affected by it.
+Other Sources: Pride (level 18-20), Mist (level 12-14)
+Changelog
+ | 
+Season 7:
+Attack rating base increased from +25% to +50%
+Attack rating per level increased from +5% to +10%
+Enhanced damage bonus per level increased from +12% to +15%
+Now has a ½ penalty for its enhanced damage bonus to allies
+Season 4:
+Concentration aura attack rating bonus increased from 4% to 5%
+Concentration aura damage has been increased from 10% per level to 12%
+Season 1:
+now also adds bonus attack rating (25% +4% per level)
+damage bonus is now +10% per level (was +15%)
+radius increased
+Vanilla Info
+## Holy Freeze[edit]
+Description: When active, aura freezes nearby enemies and adds cold damage to your attacks
+Required Level: 18
+Required Skills: Might [1], Holy Fire [6]
+Radius: 8 Yards
+Aura Damage Frequency: 1 Second
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Cold Attack Damage (min)
+ | 10
+ | 16
+ | 22
+ | 28
+ | 34
+ | 40
+ | 46
+ | 52
+ | 60
+ | 68
+ | 76
+ | 84
+ | 92
+ | 100
+ | 108
+ | 116
+ | 128
+ | 140
+ | 152
+ | 164
+ | 176
+ | 188
+ | 208
+ | 228
+ | 248
+ | 268
+ | 288
+ | 308
+ | 338
+ | 368
+ | 398
+ | 428
+ | 458
+ | 488
+ | 518
+ | 548
+ | 578
+ | 608
+ | 638
+ | 668
+ | 698
+ | 728
+ | 758
+ | 788
+ | 818
+ | 848
+ | 878
+ | 908
+ | 938
+ | 968
+ | 998
+ | 1028
+ | 1058
+ | 1088
+ | 1118
+ | 1148
+ | 1178
+ | 1208
+ | 1238
+ | 1268
+ | Cold Attack Damage (max)
+ | 14
+ | 22
+ | 30
+ | 38
+ | 46
+ | 54
+ | 62
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 164
+ | 178
+ | 192
+ | 206
+ | 220
+ | 234
+ | 258
+ | 282
+ | 306
+ | 330
+ | 354
+ | 378
+ | 412
+ | 446
+ | 480
+ | 514
+ | 548
+ | 582
+ | 616
+ | 650
+ | 684
+ | 718
+ | 752
+ | 786
+ | 820
+ | 854
+ | 888
+ | 922
+ | 956
+ | 990
+ | 1024
+ | 1058
+ | 1092
+ | 1126
+ | 1160
+ | 1194
+ | 1228
+ | 1262
+ | 1296
+ | 1330
+ | 1364
+ | 1398
+ | 1432
+ | 1466
+ | Cold Aura Damage (min)
+ | 2
+ | 4
+ | 5
+ | 7
+ | 8
+ | 10
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 32
+ | 35
+ | 38
+ | 41
+ | 44
+ | 47
+ | 52
+ | 57
+ | 62
+ | 67
+ | 72
+ | 77
+ | 84
+ | 92
+ | 99
+ | 107
+ | 114
+ | 122
+ | 129
+ | 137
+ | 144
+ | 152
+ | 159
+ | 167
+ | 174
+ | 182
+ | 189
+ | 197
+ | 204
+ | 212
+ | 219
+ | 227
+ | 234
+ | 242
+ | 249
+ | 257
+ | 264
+ | 272
+ | 279
+ | 287
+ | 294
+ | 302
+ | 309
+ | 317
+ | Cold Aura Damage (max)
+ | 3
+ | 5
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 20
+ | 22
+ | 25
+ | 27
+ | 30
+ | 32
+ | 35
+ | 37
+ | 41
+ | 44
+ | 48
+ | 51
+ | 55
+ | 58
+ | 64
+ | 70
+ | 76
+ | 82
+ | 88
+ | 94
+ | 103
+ | 111
+ | 120
+ | 128
+ | 137
+ | 145
+ | 154
+ | 162
+ | 171
+ | 179
+ | 188
+ | 196
+ | 205
+ | 213
+ | 222
+ | 230
+ | 239
+ | 247
+ | 256
+ | 264
+ | 273
+ | 281
+ | 290
+ | 298
+ | 307
+ | 315
+ | 324
+ | 332
+ | 341
+ | 349
+ | 358
+ | 366
+ | Enemy Speed %
+ | -30
+ | -34
+ | -37
+ | -40
+ | -42
+ | -44
+ | -45
+ | -46
+ | -48
+ | 
+-48
+ | -49
+ | -50
+ | -51
+ | 
+-51
+ | -52
+ | -53
+ | 
+-53
+ | 
+-53
+ | -54
+ | 
+-54
+ | 
+-54
+ | -55
+ | 
+-55
+ | 
+-55
+ | 
+-55
+ | -56
+ | 
+-56
+ | 
+-56
+ | 
+-56
+ | 
+-56
+ | -57
+ | 
+-57
+ | 
+-57
+ | 
+-57
+ | 
+-57
+ | 
+-57
+ | 
+-57
+ | -58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | 
+-58
+ | -59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | 
+-59
+ | -60
+ | Attack Rating +%
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+Holy Freeze Receives Bonuses From:
+Resist Cold: +11% Cold Damage per Level
+Salvation: +11% Cold Damage per Level
+Blessed Aim: +11% Cold Damage per Level
+Other Sources: Doom (level 16), Ice (level 18), Shattered Wall (level 16)
+Changelog
+ | 
+Season 11:
+Synergies reduced from 12% to 11%
+Season 9:
+Aura base damage increased from 4-6 to 5-7
+Aura level 1-8 scaling increased from 2-3 to 3-4
+Aura level 8-16 scaling increased from 3-4 to 4-5
+Aura level 16-22 scaling increased from 5-6 to 6-7
+Aura level 22-28 scaling increased from 8-10 to 10-12
+Aura level 28+ scaling increased from 12-14 to 15-17
+Aura damage to attack multiplier reduced from 5 to 4
+These changes will result in similar on hit damage but more aura damage
+Season 8:
+Added 50% base attack rating
+Added 5% attack rating per level
+Season 6:
+aura damage to attack damage multiplier reduced from 10x to 5x
+aura damage level 1-8 aura scaling increased from 0.5-0.5 to 1-1.5
+aura damage level 8-16 scaling increased from 0.5-1 to 1.5-2
+aura damage level 16-22 scaling increased from 1-1.5 to 2.5-3
+aura damage level 22-28 scaling increased from 2-2 to 4-5
+aura damage level 28+ scaling increased from 2.5-2.5 to 6-7
+Season 3:
+Holy freeze level 22-28 maximum damage scaling reduced from 25 to 20
+Holy freeze level 28+ maximum damage scaling reduced from 35 to 25
+Holy freeze level 22-28 minimum damage scaling reduced by 5 per level
+Holy freeze level 28+ minimum damage scaling reduced by 5 per level
+Season 1:
+Aura tick rate increased
+Radius is now always 8 yards (was 4 + 0.66 per level)
+aura cold damage scaling decreased
+attack cold damage scaling increased
+now also has Blessed Aim as a synergy
+synergies are now 12% (was 15%/7%)
+Vanilla Info
+## Holy Shock[edit]
+Description: When active, aura damages nearby enemies with pulses of electricity and adds lightning damage to your attacks
+Required Level: 24
+Required Skills: Might [1], Holy Fire [6], Holy Freeze [18]
+Radius: 10.66 Yards
+Aura Damage Frequency: 1 Second
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Attack Damage (min)
+ | 6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | 
+6
+ | Lightning Attack Damage (max)
+ | 81
+ | 114
+ | 147
+ | 180
+ | 213
+ | 246
+ | 279
+ | 312
+ | 357
+ | 402
+ | 447
+ | 492
+ | 537
+ | 582
+ | 627
+ | 672
+ | 732
+ | 792
+ | 852
+ | 912
+ | 972
+ | 1032
+ | 1113
+ | 1194
+ | 1275
+ | 1356
+ | 1437
+ | 1518
+ | 1623
+ | 1728
+ | 1833
+ | 1938
+ | 2043
+ | 2148
+ | 2253
+ | 2358
+ | 2463
+ | 2568
+ | 2673
+ | 2778
+ | 2883
+ | 2988
+ | 3093
+ | 3198
+ | 3303
+ | 3408
+ | 3513
+ | 3618
+ | 3723
+ | 3828
+ | 3933
+ | 4038
+ | 4143
+ | 4248
+ | 4353
+ | 4458
+ | 4563
+ | 4668
+ | 4773
+ | 4878
+ | Lightning Aura Damage (min)
+ | 1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | 
+1
+ | Lightning Aura Damage (max)
+ | 13
+ | 19
+ | 24
+ | 30
+ | 35
+ | 41
+ | 46
+ | 52
+ | 59
+ | 67
+ | 74
+ | 82
+ | 89
+ | 97
+ | 104
+ | 112
+ | 122
+ | 132
+ | 142
+ | 152
+ | 162
+ | 172
+ | 185
+ | 199
+ | 212
+ | 226
+ | 239
+ | 253
+ | 270
+ | 288
+ | 305
+ | 323
+ | 340
+ | 358
+ | 375
+ | 393
+ | 410
+ | 428
+ | 445
+ | 463
+ | 480
+ | 498
+ | 515
+ | 533
+ | 550
+ | 568
+ | 585
+ | 603
+ | 620
+ | 638
+ | 655
+ | 673
+ | 690
+ | 708
+ | 725
+ | 743
+ | 760
+ | 778
+ | 795
+ | 813
+ | Attack Rating +%
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+Holy Shock Receives Bonuses From:
+Resist Lightning: +9% Lightning Damage per Level
+Salvation: +9% Lightning Damage per Level
+Blessed Aim: +9% Lightning Damage per Level
+Other Sources: Act 3 Mercenary, Dream Helm (level 14), Dream Shield (level 14)
+Changelog
+ | 
+Season 9:
+Aura radius increased by 14%~
+Aura base damage increased from 2-20 to 2-27
+Aura level 1-8 scaling increased from 2-8 to 2-11
+Aura level 8-16 scaling increased from 2-11 to 2-15
+Aura level 16-22 scaling increased from 2-15 to 2-20
+Aura level 22-28 scaling increased from 2-20 to 2-27
+Aura level 28+ scaling increased from 2-26 to 2-35
+Aura damage to attack multiplier reduced from 8 to 6
+These changes will result in similar on hit damage but more aura damage
+Season 8:
+Added 50% base attack rating
+Added 5% attack rating per level
+Synergies increased from 8% to 9%
+Season 6:
+radius increased from 8 yards to 9.3 yards
+aura damage to attack damage multiplier reduced from 12x to 8x
+aura damage level 1-8 aura scaling increased from 0-6 to 0-8
+aura damage level 8-16 scaling increased from 0-8 to 0-11
+aura damage level 16-22 scaling increased from 0-10 to 0-15
+aura damage level 22-28 scaling increased from 0-13 to 0-20
+aura damage level 28+ scaling increased from 0-16 to 0-26
+Season 1:
+Aura tick rate increased
+Radius is now always 8 yards (was 4 + 0.66 per level)
+aura lightning damage scaling decreased
+attack lightning amage scaling increased slightly
+now also has Blessed Aim as a synergy
+synergies are now 8% (was 12%/4%)
+Vanilla Info
+## Sanctuary[edit]
+Description: When active, aura damages nearby enemies with magic, reduces enemy magic resistances, and adds magic damage to your attacks
+Required Level: 24
+Required Skills: Might [1], Holy Fire [6], Thorns [6], Holy Freeze [18]
+Radius: 12 Yards
+Aura Damage Frequency: 1 second
+The wielder of Sanctuary Aura ignores the Physical Resistance/Immunity of Undead enemies
+Does not work against "Prime Evils" and only applies to the wielder of the Aura, not any allies affected by it.
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Magic Attack Damage (min)
+ | 24
+ | 33
+ | 41
+ | 49
+ | 57
+ | 66
+ | 74
+ | 82
+ | 92
+ | 102
+ | 111
+ | 121
+ | 131
+ | 141
+ | 150
+ | 160
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 273
+ | 297
+ | 320
+ | 343
+ | 366
+ | 390
+ | 424
+ | 459
+ | 493
+ | 528
+ | 562
+ | 597
+ | 631
+ | 666
+ | 700
+ | 735
+ | 769
+ | 804
+ | 838
+ | 873
+ | 907
+ | 942
+ | 976
+ | 1011
+ | 1045
+ | 1080
+ | 1114
+ | 1149
+ | 1183
+ | 1218
+ | 1252
+ | 1287
+ | 1321
+ | 1356
+ | 1390
+ | 1425
+ | 1459
+ | 1494
+ | Magic Attack Damage (max)
+ | 39
+ | 48
+ | 56
+ | 64
+ | 72
+ | 81
+ | 89
+ | 97
+ | 107
+ | 117
+ | 126
+ | 136
+ | 146
+ | 156
+ | 165
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 265
+ | 288
+ | 312
+ | 335
+ | 358
+ | 381
+ | 405
+ | 439
+ | 474
+ | 508
+ | 543
+ | 577
+ | 612
+ | 646
+ | 681
+ | 715
+ | 750
+ | 784
+ | 819
+ | 853
+ | 888
+ | 922
+ | 957
+ | 991
+ | 1026
+ | 1060
+ | 1095
+ | 1129
+ | 1164
+ | 1198
+ | 1233
+ | 1267
+ | 1302
+ | 1336
+ | 1371
+ | 1405
+ | 1440
+ | 1474
+ | 1509
+ | Magic Aura Damage (min)
+ | 8
+ | 11
+ | 13
+ | 16
+ | 19
+ | 22
+ | 24
+ | 27
+ | 30
+ | 34
+ | 37
+ | 40
+ | 43
+ | 47
+ | 50
+ | 53
+ | 58
+ | 63
+ | 68
+ | 73
+ | 78
+ | 83
+ | 91
+ | 99
+ | 106
+ | 114
+ | 122
+ | 130
+ | 141
+ | 153
+ | 164
+ | 176
+ | 187
+ | 199
+ | 210
+ | 222
+ | 233
+ | 245
+ | 256
+ | 268
+ | 279
+ | 291
+ | 302
+ | 314
+ | 325
+ | 337
+ | 348
+ | 360
+ | 371
+ | 383
+ | 394
+ | 406
+ | 417
+ | 429
+ | 440
+ | 452
+ | 463
+ | 475
+ | 486
+ | 498
+ | Magic Aura Damage (max)
+ | 13
+ | 16
+ | 18
+ | 21
+ | 24
+ | 27
+ | 29
+ | 32
+ | 35
+ | 39
+ | 42
+ | 45
+ | 48
+ | 52
+ | 55
+ | 58
+ | 63
+ | 68
+ | 73
+ | 78
+ | 83
+ | 88
+ | 96
+ | 104
+ | 111
+ | 119
+ | 127
+ | 135
+ | 146
+ | 158
+ | 169
+ | 181
+ | 192
+ | 204
+ | 215
+ | 227
+ | 238
+ | 250
+ | 261
+ | 273
+ | 284
+ | 296
+ | 307
+ | 319
+ | 330
+ | 342
+ | 353
+ | 365
+ | 376
+ | 388
+ | 399
+ | 411
+ | 422
+ | 434
+ | 445
+ | 457
+ | 468
+ | 480
+ | 491
+ | 503
+ | Enemy Magic Resistance %
+ | -5
+ | -6
+ | 
+-6
+ | -7
+ | 
+-7
+ | -8
+ | 
+-8
+ | -9
+ | 
+-9
+ | -10
+ | 
+-10
+ | -11
+ | 
+-11
+ | -12
+ | 
+-12
+ | -13
+ | 
+-13
+ | -14
+ | 
+-14
+ | -15
+ | 
+-15
+ | -16
+ | 
+-16
+ | -17
+ | 
+-17
+ | -18
+ | 
+-18
+ | -19
+ | 
+-19
+ | -20
+ | 
+-20
+ | -21
+ | 
+-21
+ | -22
+ | 
+-22
+ | -23
+ | 
+-23
+ | -24
+ | 
+-24
+ | -25
+ | 
+-25
+ | -26
+ | 
+-26
+ | -27
+ | 
+-27
+ | -28
+ | 
+-28
+ | -29
+ | 
+-29
+ | -30
+ | 
+-30
+ | -31
+ | 
+-31
+ | -32
+ | 
+-32
+ | -33
+ | 
+-33
+ | -34
+ | 
+-34
+ | -35
+ | Attack Rating +%
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+Sanctuary Aura can break Magic Immunity. See Reducing Resistances for more information.
+Sanctuary Receives Bonuses From:
+Might: +10% Magic Damage per Level
+Blessed Aim: +10% Magic Damage per Level
+Holy Sword: +10% Magic Damage per Level
+Other Sources: Act 4 Mercenary, Asylum (level 17-20), Azurewrath (level 10-12), Heavenly Garb (level 4-6)
+Changelog
+ | 
+Season 11:
+Synergies increased from 9% to 10%
+Season 10:
+Synergies increased from 8% to 9%
+Radius increased by 12.5%
+Season 9:
+Aura radius increased by 6%~
+Aura base damage increased from 25-40 to 33-53
+Aura level 1-8 scaling increased from 8-8 to 11-11
+Aura level 8-16 scaling increased from 10-10 to 13-13
+Aura level 16-22 scaling increased from 15-15 to 20-20
+Aura level 22-28 scaling increased from 23-23 to 31-31
+Aura level 28+ scaling increased from 34-34 to 46-46
+Aura damage to attack multiplier reduced from 4 to 3
+These changes will result in similar on hit damage but more aura damage
+Season 8:
+Added 50% base attack rating
+Added 5% attack rating per level
+Synergies increased from 7% to 8%
+Now has holy sword instead of conversion as a synergy
+Season 6:
+now reduces enemy magic resistance by -5% at level 1 and an additional 1% every 2 levels
+no longer removes undead monsters physical resistance on prime evils, map bosses or ubers
+radius increased from 9.3 yards to 10
+aura damage to on attack damage multiplier reduced from 6x to 4x
+aura damage level 16-22 scaling increased from 3-3 to 3.75-3.75
+aura damage level 22-28 scaling increased from 4-4 to 5.75-5.75
+aura damage level 28+ scaling increased from 6-6 to 8.5-8.5
+related: new act 4 mercenary grants Sanctuary aura
+Season 3:
+Sanctuary's thorns synergy has been replaced with conversion
+Season 2:
+synergies increased from 6% to 8%
+scaling improved from level 16+
+Season 1:
+Aura tick rate increased
+Radius is now always 9.3 yards (was 3.33 + 0.66 per level)
+aura magic damage scaling decreased, now applies to all enemies instead of just undead
+now also adds magic damage to attacks against undead (damage bonus never applied in vanilla)
+no longer applies knockback to undead
+mana cost removed
+now has Might, Blessed Aim, & Thorns as synergies instead of Cleansing
+synergies are now 6% (was 7%)
+Vanilla Info
+## Fanaticism[edit]
+Description: When active, aura increases damage, attack speed, and attack rating for you and your party
+Required Level: 30
+Required Skills: Might [1], Blessed Aim [12], Concentration [18]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Your Damage +%
+ | 50
+ | 65
+ | 80
+ | 95
+ | 110
+ | 125
+ | 140
+ | 155
+ | 170
+ | 185
+ | 200
+ | 215
+ | 230
+ | 245
+ | 260
+ | 275
+ | 290
+ | 305
+ | 320
+ | 335
+ | 350
+ | 365
+ | 380
+ | 395
+ | 410
+ | 425
+ | 440
+ | 455
+ | 470
+ | 485
+ | 500
+ | 515
+ | 530
+ | 545
+ | 560
+ | 575
+ | 590
+ | 605
+ | 620
+ | 635
+ | 650
+ | 665
+ | 680
+ | 695
+ | 710
+ | 725
+ | 740
+ | 755
+ | 770
+ | 785
+ | 800
+ | 815
+ | 830
+ | 845
+ | 860
+ | 875
+ | 890
+ | 905
+ | 920
+ | 935
+ | Ally Damage +%
+ | 25
+ | 32
+ | 40
+ | 47
+ | 55
+ | 62
+ | 70
+ | 77
+ | 85
+ | 92
+ | 100
+ | 107
+ | 115
+ | 122
+ | 130
+ | 137
+ | 145
+ | 152
+ | 160
+ | 167
+ | 175
+ | 182
+ | 190
+ | 197
+ | 205
+ | 212
+ | 220
+ | 227
+ | 235
+ | 242
+ | 250
+ | 257
+ | 265
+ | 272
+ | 280
+ | 287
+ | 295
+ | 302
+ | 310
+ | 317
+ | 325
+ | 332
+ | 340
+ | 347
+ | 355
+ | 362
+ | 370
+ | 377
+ | 385
+ | 392
+ | 400
+ | 407
+ | 415
+ | 422
+ | 430
+ | 437
+ | 445
+ | 452
+ | 460
+ | 467
+ | Attack Speed +%
+ | 14
+ | 18
+ | 20
+ | 23
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 
+31
+ | 32
+ | 33
+ | 
+33
+ | 34
+ | 
+34
+ | 
+34
+ | 
+34
+ | 35
+ | 
+35
+ | 
+35
+ | 36
+ | 
+36
+ | 
+36
+ | 
+36
+ | 37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 40
+ | Attack Rating +%
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | Radius (yards)
+ | 13.33
+ | 15.33
+ | 17.33
+ | 19.33
+ | 21.33
+ | 23.33
+ | 25.33
+ | 27.33
+ | 29.33
+ | 31.33
+ | 33.33
+ | 35.33
+ | 37.33
+ | 39.33
+ | 41.33
+ | 43.33
+ | 45.33
+ | 47.33
+ | 49.33
+ | 51.33
+ | 53.33
+ | 55.33
+ | 57.33
+ | 59.33
+ | 61.33
+ | 63.33
+ | 65.33
+ | 67.33
+ | 69.33
+ | 71.33
+ | 73.33
+ | 75.33
+ | 77.33
+ | 79.33
+ | 81.33
+ | 83.33
+ | 85.33
+ | 87.33
+ | 89.33
+ | 91.33
+ | 93.33
+ | 95.33
+ | 97.33
+ | 99.33
+ | 101.33
+ | 103.33
+ | 105.33
+ | 107.33
+ | 109.33
+ | 111.33
+ | 113.33
+ | 115.33
+ | 117.33
+ | 119.33
+ | 121.33
+ | 123.33
+ | 125.33
+ | 127.33
+ | 129.33
+ | 131.33
+Other Sources: Beast (level 8-10), Faith (level 12-15)
+Changelog
+ | 
+Season 7:
+Enhanced damage per level reduced from +18% to +15%
+Season 4:
+Fanaticism personal damage increased from 17% per level to 18%
+Fanaticism party damage increased from 8.5% per level to 9%
+Season 1:
+radius increased
+Vanilla Info
+## Conviction[edit]
+Description: When active, aura reduces the defenses and resistances of nearby enemies
+Required Level: 30
+Required Skills: Might [1], Thorns [6], Holy Fire [6], Holy Freeze [18], Sanctuary [24]
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Enemy Defense %
+ | -19
+ | -27
+ | -33
+ | -38
+ | -42
+ | -45
+ | -48
+ | -50
+ | -52
+ | -54
+ | -56
+ | -57
+ | -58
+ | -60
+ | 
+-60
+ | -62
+ | 
+-62
+ | -63
+ | 
+-63
+ | -64
+ | -65
+ | 
+-65
+ | -66
+ | -67
+ | 
+-67
+ | 
+-67
+ | -68
+ | 
+-68
+ | -69
+ | 
+-69
+ | 
+-69
+ | 
+-69
+ | -70
+ | 
+-70
+ | 
+-70
+ | -71
+ | 
+-71
+ | 
+-71
+ | 
+-71
+ | 
+-71
+ | 
+-71
+ | -72
+ | 
+-72
+ | 
+-72
+ | -73
+ | 
+-73
+ | 
+-73
+ | 
+-73
+ | 
+-73
+ | 
+-73
+ | 
+-73
+ | 
+-73
+ | 
+-73
+ | -74
+ | 
+-74
+ | 
+-74
+ | 
+-74
+ | 
+-74
+ | 
+-74
+ | -75
+ | Enemy Fire/Cold/Lightning Resistance %
+ | -12
+ | -14
+ | -16
+ | -18
+ | -20
+ | -22
+ | -24
+ | -26
+ | -28
+ | -30
+ | -32
+ | -34
+ | -36
+ | -38
+ | -40
+ | -42
+ | -44
+ | -46
+ | -48
+ | -50
+ | -52
+ | -54
+ | -56
+ | -58
+ | -60
+ | -62
+ | -64
+ | -66
+ | -68
+ | -70
+ | -72
+ | -74
+ | -76
+ | -78
+ | -80
+ | -82
+ | -84
+ | -86
+ | -88
+ | -90
+ | -92
+ | -94
+ | -96
+ | -98
+ | -100
+ | -102
+ | -104
+ | -106
+ | -108
+ | -110
+ | -112
+ | -114
+ | -116
+ | -118
+ | -120
+ | -122
+ | -124
+ | -126
+ | -128
+ | -130
+ | Radius (yards)
+ | 14.67
+ | 15.33
+ | 16
+ | 16.67
+ | 17.33
+ | 18
+ | 18.67
+ | 19.33
+ | 20
+ | 20.67
+ | 21.33
+ | 22
+ | 22.67
+ | 23.33
+ | 24
+ | 24.67
+ | 25.33
+ | 26
+ | 26.67
+ | 27.33
+ | 28
+ | 28.67
+ | 29.33
+ | 30
+ | 30.67
+ | 31.33
+ | 32
+ | 32.67
+ | 33.33
+ | 34
+ | 34.67
+ | 35.33
+ | 36
+ | 36.67
+ | 37.33
+ | 38
+ | 38.67
+ | 39.33
+ | 40
+ | 40.67
+ | 41.33
+ | 42
+ | 42.67
+ | 43.33
+ | 44
+ | 44.67
+ | 45.33
+ | 46
+ | 46.67
+ | 47.33
+ | 48
+ | 48.67
+ | 49.33
+ | 50
+ | 50.67
+ | 51.33
+ | 52
+ | 52.67
+ | 53.33
+ | 54
+Conviction Aura can break Immunities. See Reducing Resistances for more information.
+Other Sources: Infinity (level 12)
+Changelog
+ | 
+Season 12 Patch #3: 
+Now player conviction overrides monster conviction at the same level, otherwise higher level takes priority like normal (practically this means a player/mercenary wearing an Infinity will only be affected by Aura enchanted enemies with Conviction in Zones with Area level 88 or higher)
+Season 10:
+Reduced the level 1 radius of Conviction by 18%
+Season 1:
+radius is increased and now scales with levels
+enemy defense now starts at -19% (was -49%) and scales slightly more with levels but caps at -75% (was -100%)
+enemy resistance reductions are 2/5 of their previous values - immunities are lowered at 1/2 effectiveness (was 1/5), so Conviction breaks the same immunities (and can break more immunities above level 25)
+Vanilla Info
+Combat Skills (Paladin)[edit]
+## Zeal[edit]
+Description: Allows you to attack multiple adjacent enemies with a single attack
+Required Level: 1
+Required Skills: None
+Mana Cost: 2
+Attacks: 3
+Melee Splash Radius for Attacks 1/2/3: +20/40/60% 
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 30
+ | 55
+ | 80
+ | 105
+ | 130
+ | 155
+ | 180
+ | 205
+ | 230
+ | 255
+ | 280
+ | 305
+ | 330
+ | 355
+ | 380
+ | 405
+ | 430
+ | 455
+ | 480
+ | 505
+ | 530
+ | 555
+ | 580
+ | 605
+ | 630
+ | 655
+ | 680
+ | 705
+ | 730
+ | 755
+ | 780
+ | 805
+ | 830
+ | 855
+ | 880
+ | 905
+ | 930
+ | 955
+ | 980
+ | 1005
+ | 1030
+ | 1055
+ | 1080
+ | 1105
+ | 1130
+ | 1155
+ | 1180
+ | 1205
+ | 1230
+ | 1255
+ | 1280
+ | 1305
+ | 1330
+ | 1355
+ | 1380
+ | 1405
+ | 1430
+ | 1455
+ | 1480
+ | 1505
+ | Attack Rating +%
+ | 35
+ | 55
+ | 75
+ | 95
+ | 115
+ | 135
+ | 155
+ | 175
+ | 195
+ | 215
+ | 235
+ | 255
+ | 275
+ | 295
+ | 315
+ | 335
+ | 355
+ | 375
+ | 395
+ | 415
+ | 435
+ | 455
+ | 475
+ | 495
+ | 515
+ | 535
+ | 555
+ | 575
+ | 595
+ | 615
+ | 635
+ | 655
+ | 675
+ | 695
+ | 715
+ | 735
+ | 755
+ | 775
+ | 795
+ | 815
+ | 835
+ | 855
+ | 875
+ | 895
+ | 915
+ | 935
+ | 955
+ | 975
+ | 995
+ | 1015
+ | 1035
+ | 1055
+ | 1075
+ | 1095
+ | 1115
+ | 1135
+ | 1155
+ | 1175
+ | 1195
+ | 1215
+Zeal Receives Bonuses From:
+Sacrifice: +20% Damage per Level
+Other Sources: Passion, Boneslayer Blade, Ferocity
+Changelog
+ | 
+Season 13:
+Fixed splash bonus not applying
+Note: It appears the splash bonus for Zeal never applied properly so this is the first time this mechanic will be in play
+Now applies +20%/40%/60% increased melee splash radius up from +0%/+20%/+40%
+Season 11:
+Has been moved from a level 6 skill to a level 1 skill
+Season 10:
+Enhanced Damage per level increased from +20% to +25%
+Attack Rating per level increased from +14% to +20%
+Base Enhanced Damage bonus increased from +20% to +30%
+Season 9:
+Synergies increased from 15% to 20%
+Fixed incorrect damage tooltip
+Season 8:
+Added +20% base bonus damage
+Now gains it's +20% damage per level bonus from level 1-4 instead of gaining +0%
+Synergies reduced from 20% to 15%
+Season 7:
+Now gains +20% melee splash radius on it's second attack and +40% on it's third
+Season 4:
+Zeal damage per level increased from 16% to 20%
+Zeal synergy increased from 16% to 20%
+Season 3:
+Zeal's attack rating per level reduced from 25% to 14% per level
+Zeal's base attack rating reduced from 45% to 35%
+Season 1:
+moved in the skill tree, requires level 6 (was 12)
+Number of attacks decreased to 3 from 5, avoids animation lock
+damage increased
+attack rating increased
+synergy is now 16% (was 12%)
+Vanilla Info
+## Holy Bolt[edit]
+Description: A bolt of divine energy that damages enemies or heals allies. Fires an additional holy bolt at levels 15 and 25
+Required Level: 1
+Required Skills: None
+Tag: Magic Skill
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Magic Damage (min)
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 15
+ | 20
+ | 25
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 62
+ | 74
+ | 86
+ | 98
+ | 110
+ | 122
+ | 141
+ | 160
+ | 179
+ | 198
+ | 217
+ | 236
+ | 263
+ | 290
+ | 317
+ | 344
+ | 371
+ | 398
+ | 425
+ | 452
+ | 479
+ | 506
+ | 533
+ | 560
+ | 587
+ | 614
+ | 641
+ | 668
+ | 695
+ | 722
+ | 749
+ | 776
+ | 803
+ | 830
+ | 857
+ | 884
+ | 911
+ | 938
+ | 965
+ | 992
+ | 1019
+ | 1046
+ | 1073
+ | 1100
+ | Magic Damage (max)
+ | 5
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 26
+ | 33
+ | 40
+ | 47
+ | 54
+ | 61
+ | 68
+ | 75
+ | 89
+ | 103
+ | 117
+ | 131
+ | 145
+ | 159
+ | 180
+ | 201
+ | 222
+ | 243
+ | 264
+ | 285
+ | 314
+ | 343
+ | 372
+ | 401
+ | 430
+ | 459
+ | 488
+ | 517
+ | 546
+ | 575
+ | 604
+ | 633
+ | 662
+ | 691
+ | 720
+ | 749
+ | 778
+ | 807
+ | 836
+ | 865
+ | 894
+ | 923
+ | 952
+ | 981
+ | 1010
+ | 1039
+ | 1068
+ | 1097
+ | 1126
+ | 1155
+ | 1184
+ | 1213
+ | Heals (min)
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Heals (max)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | Mana Cost
+ | 2
+ | 2.25
+ | 2.5
+ | 2.75
+ | 3
+ | 3.25
+ | 3.5
+ | 3.75
+ | 4
+ | 4.25
+ | 4.5
+ | 4.75
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+Holy Bolts pierce enemies and allies.
+Holy Bolt Receives Bonuses From:
+Holy Light: +11% Magic Damage per Level
+Fist of the Heavens: +11% Magic Damage per Level
+Holy Nova: +11% Magic Damage per Level
+Prayer: +5% Life Healed per Level
+Changelog
+ | 
+Undocumented Chnage:
+Healing increased to 1 per level (undo season 4 change)
+Season 12:
+Level 28+ scaling increased from 26-28 to 27-29.
+Season 11:
+Synergies increased from 10% to 11%
+Season 10:
+Synergies increased from +9% to +10%
+Season 5:
+Holy bolt synergies increased from 8% to 9%
+Holy bolt level 8-16 scaling increased from 3-5 to 5-7
+Holy bolt level 16-22 scaling increased from 9-11 to 12-14
+Holy bolt level 22-28 scaling increased from 15-17 to 19-21
+Holy bolt level 28+ scaling increased from 21-23 to 26-28
+Season 4:
+Holy Bolt heal per level reduced from 1 per level to 1 every 2 levels
+Holy Bolt synergies increased from 6% to 8%
+Season 3:
+Holy bolt healing per level reduced from 2 to 1
+Holy bolt synergies reduced from 12% to 6%
+Holy bolt's prayer synergy has been reduced from 6% life healed per level to 5%
+Holy bolt's level 8-16 scaling changed from 3-4 to 3-5
+Holy bolt's level 16-22 scaling changed from 9-10 to 9-11
+Holy bolt's level 22-28 scaling changed from 12-13 to 15-17
+Holy bolt's level 28+ scaling has been changed from 15-16 to 21-23
+Season 2:
+synergies reduced from 16% to 12%
+heal synergies reduced from 10% to 6%
+Season 1:
+moved in the skill tree, requires level 1 (was 6)
+bolts now pierce all allies and enemies, healing or damaging each
+fires an additional holy bolt at levels 15 and 25, can shotgun nearby enemies
+magic damage scaling reduced
+healing scaling halved
+mana cost scaling increased
+now has Holy Light & Holy Nova as synergies instead of Blessed Hammer
+damage synergies are now 16% (was 50%)
+synergy for Prayer is now 10% life healed per level (was 15%)
+Vanilla Info
+## Smite[edit]
+Description: Temporarily stun your enemy by bashing it with your shield
+Required Level: 1
+Required Skills: None
+Mana Cost: 2
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 75
+ | 100
+ | 125
+ | 150
+ | 175
+ | 200
+ | 225
+ | 250
+ | 275
+ | 300
+ | 325
+ | 350
+ | 375
+ | 400
+ | 425
+ | 450
+ | 475
+ | 500
+ | 525
+ | 550
+ | 575
+ | 600
+ | 625
+ | 650
+ | 675
+ | 700
+ | 725
+ | 750
+ | 775
+ | 800
+ | 825
+ | 850
+ | 875
+ | 900
+ | 925
+ | 950
+ | 975
+ | 1000
+ | 1025
+ | 1050
+ | 1075
+ | 1100
+ | 1125
+ | 1150
+ | 1175
+ | 1200
+ | 1225
+ | 1250
+ | 1275
+ | 1300
+ | 1325
+ | 1350
+ | 1375
+ | 1400
+ | 1425
+ | 1450
+ | 1475
+ | 1500
+ | 1525
+ | 1550
+ | Stun Length (seconds)
+ | 0.6
+ | 0.8
+ | 1
+ | 1.2
+ | 1.4
+ | 1.6
+ | 1.8
+ | 2
+ | 2.2
+ | 2.4
+ | 2.6
+ | 2.8
+ | 3
+ | 3.2
+ | 3.4
+ | 3.6
+ | 3.8
+ | 4
+ | 4.2
+ | 4.4
+ | 4.6
+ | 4.8
+ | 5
+ | 5.2
+ | 5.4
+ | 5.6
+ | 5.8
+ | 6
+ | 6.2
+ | 6.4
+ | 6.6
+ | 6.8
+ | 7
+ | 7.2
+ | 7.4
+ | 7.6
+ | 7.8
+ | 8
+ | 8.2
+ | 8.4
+ | 8.6
+ | 8.8
+ | 9
+ | 9.2
+ | 9.4
+ | 9.6
+ | 9.8
+ | 10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | 
+10
+ | Crushing Blow Efficiency +%
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 79
+ | 80
+ | 81
+ | Hard Level
+ | 0
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | Crushing Blow +%
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+Smite has not mechanically changed in Project Diablo 2, but many items and Skills that made Smite so powerful in Lord of Destruction (e.g., Grief, Life Tap) have changed. 
+Changelog
+ | 
+Season 13:
+Base crushing blow efficiency increased from +10% to +15%
+Crushing blow efficiency per level from levels 1-8 has been increased from +1% to +2%
+Crushing blow efficiency no longer caps at +50%
+Season 11:
+Updated the tooltip to explain that the crushing blow bonus scales with base points
+Season 10:
+Base Enhanced Damage increased from +40% to +75%
+Enhanced Damage per level increased from +20% to +25%
+Now gains Crushing Blow efficiency per level
+Now has 5% chance of Crushing Blow at level 1 and gains +1% per base point
+Season 8:
+Base damage bonus increased from 20% to 40%
+No longer knocks back in PvE
+Season 6:
+now deals splash damage
+Season 4:
+can gain significantly more damage from the Holy Shield pseudo-synergy since it now has damage synergies of its own
+now adds 20% + 20% enhanced damage per level (was 15% + 30%)
+Season 3:
+stun now lasts up to 2.5 seconds in pvp (was up to 10 seconds)
+Season 1:
+damage bonus increased to +30% per level (was +15%)
+indirectly affected by Grief no longer having "+X damage" ("Adds X-Y damage" is different), although Stone Crusher, The Redeemer, and Astreon's Iron Ward still have "+X damage"
+indirectly affected by Crushing Blow no longer working against bosses, uniques, or champions that are below 65% life
+Vanilla Info
+## Sacrifice[edit]
+Description: A deadly attack at the cost of life - slain monsters explode, dealing 125% of overkill damage plus 5 percent of corpse life as physical damage
+Required Level: 6
+Required Skills: Zeal[1]
+Mana Cost: 0
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 180
+ | 210
+ | 240
+ | 270
+ | 300
+ | 330
+ | 360
+ | 390
+ | 420
+ | 450
+ | 480
+ | 510
+ | 540
+ | 570
+ | 600
+ | 630
+ | 660
+ | 690
+ | 720
+ | 750
+ | 780
+ | 810
+ | 840
+ | 870
+ | 900
+ | 930
+ | 960
+ | 990
+ | 1020
+ | 1050
+ | 1080
+ | 1110
+ | 1140
+ | 1170
+ | 1200
+ | 1230
+ | 1260
+ | 1290
+ | 1320
+ | 1350
+ | 1380
+ | 1410
+ | 1440
+ | 1470
+ | 1500
+ | 1530
+ | 1560
+ | 1590
+ | 1620
+ | 1650
+ | 1680
+ | 1710
+ | 1740
+ | 1770
+ | 1800
+ | 1830
+ | 1860
+ | 1890
+ | 1920
+ | 1950
+ | Damage to Self %
+ | 6
+ | 5
+ | 
+5
+ | 4
+ | 
+4
+ | 3
+ | 
+3
+ | 2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | 
+2
+ | Explosion Radius (yards)
+ | 2.66
+ | 
+2.66
+ | 3.33
+ | 
+3.33
+ | 
+3.33
+ | 4
+ | 
+4
+ | 
+4
+ | 4.66
+ | 
+4.66
+ | 
+4.66
+ | 5.33
+ | 
+5.33
+ | 
+5.33
+ | 6
+ | 
+6
+ | 
+6
+ | 6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | 
+6.66
+ | Attack Rating +%
+ | 20
+ | 36
+ | 52
+ | 68
+ | 84
+ | 100
+ | 116
+ | 132
+ | 148
+ | 164
+ | 180
+ | 196
+ | 212
+ | 228
+ | 244
+ | 260
+ | 276
+ | 292
+ | 308
+ | 324
+ | 340
+ | 356
+ | 372
+ | 388
+ | 404
+ | 420
+ | 436
+ | 452
+ | 468
+ | 484
+ | 500
+ | 516
+ | 532
+ | 548
+ | 564
+ | 580
+ | 596
+ | 612
+ | 628
+ | 644
+ | 660
+ | 676
+ | 692
+ | 708
+ | 724
+ | 740
+ | 756
+ | 772
+ | 788
+ | 804
+ | 820
+ | 836
+ | 852
+ | 868
+ | 884
+ | 900
+ | 916
+ | 932
+ | 948
+ | 964
+Sacrifice's Damage to Self is Physical Damage, and can be reduced by Physical Damage Reduction.
+Sacrifice's in-game skill description displays half the true Explosion Radius - the numbers above are the correct radii.
+Sacrifice Receives Bonuses From:
+Redemption: +25% Damage per Level
+Fanaticism: +25% Damage per Level
+Changelog
+ | 
+Season 13:
+Maximum radius reduced by 16%
+Corpse explosion now deals full physical damage instead of half physical and half magical
+Overkill damage reduced from +150% to +125%
+Enhanced damage per level increased from +25% to +30%
+Reduced base self damage to self from 8% to 6%
+Reduced minimum damage to self from 3% to 2% (This is a buff)
+Damage to self now reduces by 1% every 2 levels instead of every level
+Season 12:
+Increased maximum radius cap by 20%
+Sacrifice now reaches max radius at level 24 instead of level 40
+Season 11:
+Has been moved from a level 1 skill to a level 6 skill
+Base radius reduced to 4
+Now gains +1 radius every 5 soft points
+Maximum radius now caps at 3.3 yards (previously 4 yards at all levels)
+Season 9:
+Fixed sacrifice hitting issues
+Season 8:
+Synergies increased from 20% to 25%
+Lowered the delay for the AoE explosion on death
+Season 7:
+Sacrifice has been reworked: It now causes the killed monster's corpse to explode after a delay dealing 5% of the monsters health and 150% of the overkill damage dealt to the monster. (This means if you deal 130 damage to a monster and the monster has 100 health then the overkill explosion will deal 5% monster health + 45 damage) This damage is dealt as 50% physical and 50% magic. Overkill explosion has a radius of 10 tiles (i.e. 6.66 yards).
+Damage to self is now reduced by physical damage reduction
+Does NOT benefit from Deadly Strike or Critical Strike
+Season 4:
+Sacrifice damage increased from 15% per level to 25%
+Season 3:
+Sacrifice attack rating per level reduced from 28% to 16%
+Season 1:
+Damage to self decreases by 1% per level to a minimum of 3%
+Now benefits from Damage to Undead, Damage to Demons
+Bonus attack rating increased to +28% per level (was +7%)
+Synergies are now 20% (was 15%/5%)
+Vanilla Info
+## Holy Light[edit]
+Description: Calls down light from the heavens, healing allies and damaging enemies in an area
+Required Level: 12
+Required Skills: Holy Bolt [1]
+Tag: Magic Skill
+Damage/Healing Radius: 4 Yards
+When targeting an Ally, Damage done to Enemies is reduced by 50%
+When targeting an Enemy, Healing done to Allies is reduced by 50%
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Magic Damage (min)
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 27
+ | 33
+ | 39
+ | 45
+ | 51
+ | 57
+ | 63
+ | 69
+ | 82
+ | 95
+ | 108
+ | 121
+ | 134
+ | 147
+ | 168
+ | 189
+ | 210
+ | 231
+ | 252
+ | 273
+ | 303
+ | 333
+ | 363
+ | 393
+ | 423
+ | 453
+ | 483
+ | 513
+ | 543
+ | 573
+ | 603
+ | 633
+ | 663
+ | 693
+ | 723
+ | 753
+ | 783
+ | 813
+ | 843
+ | 873
+ | 903
+ | 933
+ | 963
+ | 993
+ | 1023
+ | 1053
+ | 1083
+ | 1113
+ | 1143
+ | 1173
+ | 1203
+ | 1233
+ | Magic Damage (max)
+ | 9
+ | 12
+ | 15
+ | 18
+ | 21
+ | 24
+ | 27
+ | 30
+ | 38
+ | 46
+ | 54
+ | 62
+ | 70
+ | 78
+ | 86
+ | 94
+ | 109
+ | 124
+ | 139
+ | 154
+ | 169
+ | 184
+ | 207
+ | 230
+ | 253
+ | 276
+ | 299
+ | 322
+ | 358
+ | 394
+ | 430
+ | 466
+ | 502
+ | 538
+ | 574
+ | 610
+ | 646
+ | 682
+ | 718
+ | 754
+ | 790
+ | 826
+ | 862
+ | 898
+ | 934
+ | 970
+ | 1006
+ | 1042
+ | 1078
+ | 1114
+ | 1150
+ | 1186
+ | 1222
+ | 1258
+ | 1294
+ | 1330
+ | 1366
+ | 1402
+ | 1438
+ | 1474
+ | Heals (min)
+ | 30
+ | 35
+ | 40
+ | 45
+ | 50
+ | 55
+ | 60
+ | 65
+ | 70
+ | 75
+ | 80
+ | 85
+ | 90
+ | 95
+ | 100
+ | 105
+ | 110
+ | 115
+ | 120
+ | 125
+ | 130
+ | 135
+ | 140
+ | 145
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 190
+ | 195
+ | 200
+ | 205
+ | 210
+ | 215
+ | 220
+ | 225
+ | 230
+ | 235
+ | 240
+ | 245
+ | 250
+ | 255
+ | 260
+ | 265
+ | 270
+ | 275
+ | 280
+ | 285
+ | 290
+ | 295
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | Heals (max)
+ | 50
+ | 60
+ | 70
+ | 80
+ | 90
+ | 100
+ | 110
+ | 120
+ | 130
+ | 140
+ | 150
+ | 160
+ | 170
+ | 180
+ | 190
+ | 200
+ | 210
+ | 220
+ | 230
+ | 240
+ | 250
+ | 260
+ | 270
+ | 280
+ | 290
+ | 300
+ | 310
+ | 320
+ | 330
+ | 340
+ | 350
+ | 360
+ | 370
+ | 380
+ | 390
+ | 400
+ | 410
+ | 420
+ | 430
+ | 440
+ | 450
+ | 460
+ | 470
+ | 480
+ | 490
+ | 500
+ | 510
+ | 520
+ | 530
+ | 540
+ | 550
+ | 560
+ | 570
+ | 580
+ | 590
+ | 600
+ | 610
+ | 620
+ | 630
+ | 640
+ | Mana Cost
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | 19
+ | 19.25
+ | 19.5
+ | 19.75
+Holy Light Receives Bonuses From:
+Holy Bolt: +10% Damage per Level
+Fist of the Heavens: +10% Damage per Level
+Prayer: +5-10 Life Healed per Level
+Changelog
+ | 
+Season 12:
+Updated Holy Light visual effect
+Season 11:
+Base mana cost reduced from 10 to 5
+Mana cost per level reduced from .5 to .25
+Synergies increased from 6% to 10%
+Updated the tooltip to better explain how the aoe mechanic functions with casting on an ally compared to casting on an enemy
+Season 9:
+Reworked holy light to deal damage and heal in an aoe around the target
+Targeting an ally causes heal to deal full effect and the damage to deal half effect
+Targeting an enemy causes the heal to deal half effect and the damage to deal full effect
+Undead are knocked back from damage dealt by holy light
+Holy bolt and fist of heavens have been added as damage synergies
+Season 5:
+Holy light no longer has a cooldown at any level
+Holy light light level 1 mana cost increased from 8 to 10
+Holy light prayer synergy reduced from 10 per level to 5-10
+Season 3:
+Holy light can now only target allies
+Holy light now has a lock on targeting mechanic
+Holy lights heal per level has been increased from 3-5 to 5-10
+Holy light no longer has holy nova as a 5 health per level heal synergy
+Holy light's prayer synergy has been increased from 5 health per level to 10
+Season 1:
+new skill that heals a single target
+## Charge[edit]
+Description: Charge into battle and attack an enemy - gains up to +60% melee splash radius based on the distance traveled
+Required Level: 12
+Required Skills: Smite [1]
+Mana Cost: 9
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 100
+ | 120
+ | 140
+ | 160
+ | 180
+ | 200
+ | 220
+ | 240
+ | 260
+ | 280
+ | 300
+ | 320
+ | 340
+ | 360
+ | 380
+ | 400
+ | 420
+ | 440
+ | 460
+ | 480
+ | 500
+ | 520
+ | 540
+ | 560
+ | 580
+ | 600
+ | 620
+ | 640
+ | 660
+ | 680
+ | 700
+ | 720
+ | 740
+ | 760
+ | 780
+ | 800
+ | 820
+ | 840
+ | 860
+ | 880
+ | 900
+ | 920
+ | 940
+ | 960
+ | 980
+ | 1000
+ | 1020
+ | 1040
+ | 1060
+ | 1080
+ | 1100
+ | 1120
+ | 1140
+ | 1160
+ | 1180
+ | 1200
+ | 1220
+ | 1240
+ | 1260
+ | 1280
+ | Attack Rating +%
+ | 75
+ | 90
+ | 105
+ | 120
+ | 135
+ | 150
+ | 165
+ | 180
+ | 195
+ | 210
+ | 225
+ | 240
+ | 255
+ | 270
+ | 285
+ | 300
+ | 315
+ | 330
+ | 345
+ | 360
+ | 375
+ | 390
+ | 405
+ | 420
+ | 435
+ | 450
+ | 465
+ | 480
+ | 495
+ | 510
+ | 525
+ | 540
+ | 555
+ | 570
+ | 585
+ | 600
+ | 615
+ | 630
+ | 645
+ | 660
+ | 675
+ | 690
+ | 705
+ | 720
+ | 735
+ | 750
+ | 765
+ | 780
+ | 795
+ | 810
+ | 825
+ | 840
+ | 855
+ | 870
+ | 885
+ | 900
+ | 915
+ | 930
+ | 945
+ | 960
+ | Minimum Distance (Yards)
+ | 0
+ | 2.66
+ | 5.33
+ | 8
+ | Melee Splash Radius +%
+ | 0%
+ | 20%
+ | 40%
+ | 60%
+Charge Receives Bonuses From:
+Vigor: +15% Damage per Level
+Might: +15% Damage per Level
+Changelog
+ | 
+Season 11:
+Enhanced damage bonus per level reduced from 25% to 20%
+Synergies reduced from 20% to 15%
+Season 10:
+Fixed several bugs
+Improved functionality
+Now properly uses attack speed during swing animation. Move speed unaffected
+Season 9:
+Fixed Charge not hitting when landing near a target
+Charge lock bug fixes (again)
+Season 8:
+Charge was previously not gaining it's enhanced damage bonus, this has been fixed
+Enhanced damage per level reduced from 30% to 25%
+Synergies reduced from 25% to 20%
+Season 7:
+Now gains up to +60% increased melee splash radius based on the distance traveled
+Will always charge in melee range instead of doing a normal attack
+“Charge bug” has now been fixed
+Season 5:
+Charge no longer attempts to do a normal attack when out of mana
+Season 4:
+Charge damage increased from 25% per level to 30%
+Charge synergies increased from 20% to 25%
+Season 1:
+attack rating bonus increased by +25%
+Vanilla Info
+## Vengeance[edit]
+Description: Deals fire, lightning, and cold damage in an area. This effect carries and increases elemental damage from gear and charms
+Required Level: 18
+Required Skills: Zeal [1], Sacrifice [6]
+Cold Length: 3.2 seconds (80 frames)
+Damage Radius: 4.66 Yards
+Damage Chain Distance: 4.66 Yards (16 Yards maximum)
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Fire Damage (min)
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 16
+ | 19
+ | 22
+ | 25
+ | 28
+ | 31
+ | 34
+ | 37
+ | 42
+ | 47
+ | 52
+ | 57
+ | 62
+ | 67
+ | 73
+ | 79
+ | 85
+ | 91
+ | 97
+ | 103
+ | 110
+ | 117
+ | 124
+ | 131
+ | 138
+ | 145
+ | 152
+ | 159
+ | 166
+ | 173
+ | 180
+ | 187
+ | 194
+ | 201
+ | 208
+ | 215
+ | 222
+ | 229
+ | 236
+ | 243
+ | 250
+ | 257
+ | 264
+ | 271
+ | 278
+ | 285
+ | 292
+ | 299
+ | 306
+ | 313
+ | 320
+ | 327
+ | Fire Damage (max)
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 26
+ | 30
+ | 34
+ | 38
+ | 42
+ | 46
+ | 50
+ | 54
+ | 60
+ | 66
+ | 72
+ | 78
+ | 84
+ | 90
+ | 97
+ | 104
+ | 111
+ | 118
+ | 125
+ | 132
+ | 140
+ | 148
+ | 156
+ | 164
+ | 172
+ | 180
+ | 188
+ | 196
+ | 204
+ | 212
+ | 220
+ | 228
+ | 236
+ | 244
+ | 252
+ | 260
+ | 268
+ | 276
+ | 284
+ | 292
+ | 300
+ | 308
+ | 316
+ | 324
+ | 332
+ | 340
+ | 348
+ | 356
+ | 364
+ | 372
+ | 380
+ | 388
+ | Cold Damage (min)
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 16
+ | 19
+ | 22
+ | 25
+ | 28
+ | 31
+ | 34
+ | 37
+ | 42
+ | 47
+ | 52
+ | 57
+ | 62
+ | 67
+ | 73
+ | 79
+ | 85
+ | 91
+ | 97
+ | 103
+ | 110
+ | 117
+ | 124
+ | 131
+ | 138
+ | 145
+ | 152
+ | 159
+ | 166
+ | 173
+ | 180
+ | 187
+ | 194
+ | 201
+ | 208
+ | 215
+ | 222
+ | 229
+ | 236
+ | 243
+ | 250
+ | 257
+ | 264
+ | 271
+ | 278
+ | 285
+ | 292
+ | 299
+ | 306
+ | 313
+ | 320
+ | 327
+ | Cold Damage (max)
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 26
+ | 30
+ | 34
+ | 38
+ | 42
+ | 46
+ | 50
+ | 54
+ | 60
+ | 66
+ | 72
+ | 78
+ | 84
+ | 90
+ | 97
+ | 104
+ | 111
+ | 118
+ | 125
+ | 132
+ | 140
+ | 148
+ | 156
+ | 164
+ | 172
+ | 180
+ | 188
+ | 196
+ | 204
+ | 212
+ | 220
+ | 228
+ | 236
+ | 244
+ | 252
+ | 260
+ | 268
+ | 276
+ | 284
+ | 292
+ | 300
+ | 308
+ | 316
+ | 324
+ | 332
+ | 340
+ | 348
+ | 356
+ | 364
+ | 372
+ | 380
+ | 388
+ | Lightning Damage (min)
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 16
+ | 19
+ | 22
+ | 25
+ | 28
+ | 31
+ | 34
+ | 37
+ | 42
+ | 47
+ | 52
+ | 57
+ | 62
+ | 67
+ | 73
+ | 79
+ | 85
+ | 91
+ | 97
+ | 103
+ | 110
+ | 117
+ | 124
+ | 131
+ | 138
+ | 145
+ | 152
+ | 159
+ | 166
+ | 173
+ | 180
+ | 187
+ | 194
+ | 201
+ | 208
+ | 215
+ | 222
+ | 229
+ | 236
+ | 243
+ | 250
+ | 257
+ | 264
+ | 271
+ | 278
+ | 285
+ | 292
+ | 299
+ | 306
+ | 313
+ | 320
+ | 327
+ | Lightning Damage (max)
+ | 8
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 26
+ | 30
+ | 34
+ | 38
+ | 42
+ | 46
+ | 50
+ | 54
+ | 60
+ | 66
+ | 72
+ | 78
+ | 84
+ | 90
+ | 97
+ | 104
+ | 111
+ | 118
+ | 125
+ | 132
+ | 140
+ | 148
+ | 156
+ | 164
+ | 172
+ | 180
+ | 188
+ | 196
+ | 204
+ | 212
+ | 220
+ | 228
+ | 236
+ | 244
+ | 252
+ | 260
+ | 268
+ | 276
+ | 284
+ | 292
+ | 300
+ | 308
+ | 316
+ | 324
+ | 332
+ | 340
+ | 348
+ | 356
+ | 364
+ | 372
+ | 380
+ | 388
+ | Elemental Damage +%
+ | 5
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 31
+ | 33
+ | 35
+ | 37
+ | 39
+ | 41
+ | 43
+ | 45
+ | 47
+ | 49
+ | 51
+ | 53
+ | 55
+ | 57
+ | 59
+ | 61
+ | 63
+ | 65
+ | 67
+ | 69
+ | 71
+ | 73
+ | 75
+ | 77
+ | 79
+ | 81
+ | 83
+ | 85
+ | 87
+ | 89
+ | 91
+ | 93
+ | 95
+ | 97
+ | 99
+ | 101
+ | 103
+ | 105
+ | 107
+ | 109
+ | 111
+ | 113
+ | 115
+ | 117
+ | 119
+ | 121
+ | 123
+ | Chance to Chain %
+ | 22
+ | 24
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 52
+ | 54
+ | 56
+ | 58
+ | 60
+ | 62
+ | 64
+ | 66
+ | 68
+ | 70
+ | 72
+ | 74
+ | 76
+ | 78
+ | 80
+ | 82
+ | 84
+ | 86
+ | 88
+ | 90
+ | 92
+ | 94
+ | 95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+95
+ | 
+ | Attack Rating +%
+ | 120
+ | 138
+ | 156
+ | 174
+ | 192
+ | 210
+ | 228
+ | 246
+ | 264
+ | 282
+ | 300
+ | 318
+ | 336
+ | 354
+ | 372
+ | 390
+ | 408
+ | 426
+ | 444
+ | 462
+ | 480
+ | 498
+ | 516
+ | 534
+ | 552
+ | 570
+ | 588
+ | 606
+ | 624
+ | 642
+ | 660
+ | 678
+ | 696
+ | 714
+ | 732
+ | 750
+ | 768
+ | 786
+ | 804
+ | 822
+ | 840
+ | 858
+ | 876
+ | 894
+ | 912
+ | 930
+ | 948
+ | 966
+ | 984
+ | 1002
+ | 1020
+ | 1038
+ | 1056
+ | 1074
+ | 1092
+ | 1110
+ | 1128
+ | 1146
+ | 1164
+ | 1182
+ | Mana Cost
+ | 2
+ | 2.125
+ | 2.25
+ | 2.375
+ | 2.5
+ | 2.625
+ | 2.75
+ | 2.875
+ | 3
+ | 3.125
+ | 3.25
+ | 3.375
+ | 3.5
+ | 3.625
+ | 3.75
+ | 3.875
+ | 4
+ | 4.125
+ | 4.25
+ | 4.375
+ | 4.5
+ | 4.625
+ | 4.75
+ | 4.875
+ | 5
+ | 5.125
+ | 5.25
+ | 5.375
+ | 5.5
+ | 5.625
+ | 5.75
+ | 5.875
+ | 6
+ | 6.125
+ | 6.25
+ | 6.375
+ | 6.5
+ | 6.625
+ | 6.75
+ | 6.875
+ | 7
+ | 7.125
+ | 7.25
+ | 7.375
+ | 7.5
+ | 7.625
+ | 7.75
+ | 7.875
+ | 8
+ | 8.125
+ | 8.25
+ | 8.375
+ | 8.5
+ | 8.625
+ | 8.75
+ | 8.875
+ | 9
+ | 9.125
+ | 9.25
+ | 9.375
+For a detailed explanation of Vengeance's mechanics, see below.
+Vengeance Mechanics
+ | 
+Vengeance Damage
+Vengeance deals Fire, Lightning, and Cold Damage. This damage is calculated from 3 sources in order:
+Weapon Damage
+Vengeance converts 100% of most Weapon Damage into Elemental damage.
+Included Damage: Physical weapon damage, Fire/Lightning/Cold damage from items (equipment and charms).
+Excluded Damage: Poison damage, Magic damage (unconfirmed), Fire/Cold/Lightning Attack damage granted by spells (Paladin Auras and Cold/Fire Enchant).
+Critical Damage, Crushing Blow, Life Leech, etc. are also excluded from Vengeance itself but since Vengeance is a weapon Attack, these attributes (and the above ones) will have a (small) effect on the normal weapon hit and melee splash.
+This conversion is 1:1 for all 3 Elements, not split into 3 Elements.
+For example, 100 weapon damage will turn into 100 Fire, 100 Cold, and 100 Lightning Damage, not 33 damage of each.
+Skill Damage
+Vengeance's flat Elemental Skill Damage is then added to the Converted Damage for each Element.
+The total Damage is then multiplied by the Skill Elemental Damage +%. The Synergy bonuses are added to the % here, and all Synergies apply to all three Damage types.
+For example, the Holy Fire synergy adds up to 40% Damage to all three elements, not just Fire Damage.
+Mastery Damage
++% Elemental Skill Damage/Mastery then applies.
+Each type of Mastery applies to each element individually.
+For example, Level 6 Resist Fire Aura (or two 5% Fire Facets) will increase the Fire Damage of Vengeance by 10%, but not its Cold or Lightning Damage.
+Vengeance Chaining
+Vengeance does its damage in its radius, and any enemy hit by Vengeance has a chance to chain Vengeance, instantly repeating its effect and radius around that enemy.
+Vengeance has no Next Hit Delay, meaning an enemy in range of multiple Vengeance radii can be hit by Vengeance multiple times.
+This chaining will repeat until there are no more enemies to hit, or it reaches the maximum chain distance.
+Vengeance Receives Bonuses From:
+Holy Fire: +2% Elemental Damage per Level
+Holy Freeze: +2% Elemental Damage per Level
+Holy Shock: +2% Elemental Damage per Level
+Conviction: +2% Elemental Damage per Level
+Other Sources: Kingslayer
+Changelog
+ | 
+Season 13:
+Level 1 chain chance increased from 16% to 24%
+Season 11:
+Base chain chance reduced from 25% to 16%
+Max chain distance reduced from 30 to 24
+Level 1-8 damage flat damage scaling reduced from 4-6 to 1-2
+Level 8-16 flat damage scaling reduced from 6-8 to 3-4
+Level 16-22 flat damage scaling reduced from 10-12 to 5-6
+Level 22-28 flat damage scaling reduced from 12-14 to 6-7
+Level 28+ flat damage scaling reduced from 14-16 to 7-8
+Season 10:
+Synergies now apply to both flat elemental damage from items as well as applying to the flat skill damage
+Base chain chance increased from +20% to +25%
+Maximum chain chance increased from 90% to 95%
+Chain distance increased from 5 to 7
+Explosion AoE increased from 5 to 7
+Max chain distance increased from 24 to 30
+Season 9:
+Fixed an issue with Vengeance tooltip display damage
+Season 5:
+Vengeance has been reworked and now chains its aoe explosion onto nearby enemies
+Season 3:
+Vengeance has been reworked completely
+Vengeance will now create an aoe effect on attack that deals flat elemental damage of each type as well as carries any elemental damage from your gear.
+Vengeance now has a +% elemental damage modifier that increased elemental damage from items similar to enhanced damage (only increases elemental damage from items)
+Vengeance starts at 120% increased attack rating instead of 150%
+Vengeance now gains 18% attack rating per level from 10%
+Vengeance synergies changed from Resist Fire, Resist Cold, Resist Lightning and Salvation to Holy Fire, Holy Freeze, Holy Shock and Conviction. Synergies are NOT element specific, but rather apply to the fire, cold, and lightning damage.
+Season 1:
+bonus attack rating increased to 150% + 18% per level (was 20% + 10%)
+Vanilla Info
+## Blessed Hammer[edit]
+Description: Summons an ethereal hammer that spirals outwards damaging enemies it hits
+Required Level: 18
+Required Skills: Holy Bolt [1], Holy Light [12]
+Tag: Magic Skill
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Magic Damage (min)
+ | 12
+ | 20
+ | 28
+ | 36
+ | 44
+ | 52
+ | 60
+ | 68
+ | 78
+ | 88
+ | 98
+ | 108
+ | 118
+ | 128
+ | 138
+ | 148
+ | 160
+ | 172
+ | 184
+ | 196
+ | 208
+ | 220
+ | 233
+ | 246
+ | 259
+ | 272
+ | 285
+ | 298
+ | 312
+ | 326
+ | 340
+ | 354
+ | 368
+ | 382
+ | 396
+ | 410
+ | 424
+ | 438
+ | 452
+ | 466
+ | 480
+ | 494
+ | 508
+ | 522
+ | 536
+ | 550
+ | 564
+ | 578
+ | 592
+ | 606
+ | 620
+ | 634
+ | 648
+ | 662
+ | 676
+ | 690
+ | 704
+ | 718
+ | 732
+ | 746
+ | Magic Damage (max)
+ | 16
+ | 24
+ | 32
+ | 40
+ | 48
+ | 56
+ | 64
+ | 72
+ | 82
+ | 92
+ | 102
+ | 112
+ | 122
+ | 132
+ | 142
+ | 152
+ | 164
+ | 176
+ | 188
+ | 200
+ | 212
+ | 224
+ | 237
+ | 250
+ | 263
+ | 276
+ | 289
+ | 302
+ | 316
+ | 330
+ | 344
+ | 358
+ | 372
+ | 386
+ | 400
+ | 414
+ | 428
+ | 442
+ | 456
+ | 470
+ | 484
+ | 498
+ | 512
+ | 526
+ | 540
+ | 554
+ | 568
+ | 582
+ | 596
+ | 610
+ | 624
+ | 638
+ | 652
+ | 666
+ | 680
+ | 694
+ | 708
+ | 722
+ | 736
+ | 750
+ | Mana Cost
+ | 5
+ | 5.25
+ | 5.5
+ | 5.75
+ | 6
+ | 6.25
+ | 6.5
+ | 6.75
+ | 7
+ | 7.25
+ | 7.5
+ | 7.75
+ | 8
+ | 8.25
+ | 8.5
+ | 8.75
+ | 9
+ | 9.25
+ | 9.5
+ | 9.75
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | 19
+ | 19.25
+ | 19.5
+ | 19.75
+Blessed Hammer receives increased damage from Concentration.
+Blessed Hammer Receives Bonuses From:
+Blessed Aim: +12% Magic Damage per Level
+Vigor: +12% Magic Damage per Level
+Changelog
+ | 
+Season 6:
+Blessed hammer no longer improperly displays dealing bonus damage to undead
+Season 3:
+Blessed hammer missile speed increased by roughly 35%
+Blessed Hammer missile hitbox size has been doubled
+Season 2:
+synergies increased from 10% to 12%
+hammers now have 33% faster travel speed
+Season 1:
+prerequisites increased from 1 to 2 (now also requires Holy Light)
+synergies are now 10% (was 14%)
+Vanilla Info
+## Holy Shield[edit]
+Description: Enhances your shield with divine power
+Required Level: 18
+Required Skills: Smite [1], Charge [12]
+Tag: Magic Skill
+Mana Cost: 35
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Smite Damage + (min)
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 26
+ | 29
+ | 32
+ | 35
+ | 38
+ | 41
+ | 44
+ | 48
+ | 52
+ | 56
+ | 60
+ | 64
+ | 68
+ | 72
+ | 76
+ | 80
+ | 84
+ | 88
+ | 92
+ | 96
+ | 100
+ | 104
+ | 108
+ | 112
+ | 116
+ | 120
+ | 124
+ | 128
+ | 132
+ | 136
+ | 140
+ | 144
+ | 148
+ | 152
+ | 156
+ | 160
+ | 164
+ | 168
+ | 172
+ | 176
+ | 180
+ | 184
+ | 188
+ | 192
+ | 196
+ | Smite Damage + (max)
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 32
+ | 35
+ | 38
+ | 41
+ | 44
+ | 47
+ | 51
+ | 55
+ | 59
+ | 63
+ | 67
+ | 71
+ | 75
+ | 79
+ | 83
+ | 87
+ | 91
+ | 95
+ | 99
+ | 103
+ | 107
+ | 111
+ | 115
+ | 119
+ | 123
+ | 127
+ | 131
+ | 135
+ | 139
+ | 143
+ | 147
+ | 151
+ | 155
+ | 159
+ | 163
+ | 167
+ | 171
+ | 175
+ | 179
+ | 183
+ | 187
+ | 191
+ | 195
+ | 199
+ | Defense +%
+ | 25
+ | 35
+ | 45
+ | 55
+ | 65
+ | 75
+ | 85
+ | 95
+ | 105
+ | 115
+ | 125
+ | 135
+ | 145
+ | 155
+ | 165
+ | 175
+ | 185
+ | 195
+ | 205
+ | 215
+ | 225
+ | 235
+ | 245
+ | 255
+ | 265
+ | 275
+ | 285
+ | 295
+ | 305
+ | 315
+ | 325
+ | 335
+ | 345
+ | 355
+ | 365
+ | 375
+ | 385
+ | 395
+ | 405
+ | 415
+ | 425
+ | 435
+ | 445
+ | 455
+ | 465
+ | 475
+ | 485
+ | 495
+ | 505
+ | 515
+ | 525
+ | 535
+ | 545
+ | 555
+ | 565
+ | 575
+ | 585
+ | 595
+ | 605
+ | 615
+ | Block Chance +%
+ | 10
+ | 14
+ | 17
+ | 20
+ | 22
+ | 24
+ | 25
+ | 26
+ | 28
+ | 
+28
+ | 29
+ | 30
+ | 31
+ | 
+31
+ | 32
+ | 33
+ | 
+33
+ | 
+33
+ | 34
+ | 
+34
+ | 
+34
+ | 35
+ | 
+35
+ | 
+35
+ | 
+35
+ | 36
+ | 
+36
+ | 
+36
+ | 
+36
+ | 
+36
+ | 37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 
+37
+ | 38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 
+38
+ | 39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 
+39
+ | 40
+ | Duration (seconds)
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+ | 350
+ | 355
+ | 360
+ | 365
+ | 370
+ | 375
+ | 380
+ | 385
+ | 390
+ | 395
+ | 400
+ | 405
+ | 410
+ | 415
+ | 420
+ | 425
+ | 430
+ | 435
+ | 440
+ | 445
+ | 450
+ | 455
+ | 460
+ | 465
+ | 470
+ | 475
+ | 480
+ | 485
+ | 490
+ | 495
+ | 500
+ | 505
+ | 510
+ | 515
+ | 520
+ | 525
+ | 530
+ | 535
+ | 540
+ | 545
+ | 550
+ | 555
+ | 560
+ | 565
+ | 570
+ | 575
+ | 580
+ | 585
+ | 590
+ | 595
+Holy Shield Receives Bonuses From:
+Smite: +5% Damage per Level
+Defiance: +5% Damage per Level
+Defiance: +15% Defense per Level
+Changelog
+ | 
+Season 11:
+Has been moved from a level 24 skill to a level 18 skill
+Level 28+ damage scaling reduced from 5-5 to 4-4
+Season 9:
+Damage synergies increased from 4% to 5%
+Season 8:
+Level 28+ damage scaling increased from 4-4 to 5-5
+Season 6:
+Holy shield level 28+ scaling reduced from 5-5 damage per level to 4-4
+Season 5:
+Holy shield no longer attempts to do a normal attack when out of mana
+Holy shield duration changed from 2 minutes base + 10 seconds per level to 5 minutes base + 5 seconds per level (patch 6)
+Season 4:
+Added smite and defiance as Holy Shield smite damage synergies at 4% each
+Holy shield damage scaling reduced from 2/3/4/4/4 to 1/2/3/4/5
+Season 3:
+Holy shield's increased block base reduced from 14% to 10%
+Holy shield now gains 10% defense per level instead of 15%
+Holy shield level 1 duration increased to 2 minutes from 30 seconds
+Holy shield duration per level reduced from 25 to 10
+Season 2:
+now counts as a magic skill (for items with +X to Magic Skills)
+Season 1:
+prerequisites reduced from 4 to 3 (no longer requires Holy Bolt, Blessed Hammer, now requires Conversion)
+Vanilla Info
+## Joust[edit]
+Description: Teleport to your enemies and impale them with a deadly strike, gaining increased movement speed for 2 seconds
+Required Level: 24
+Required Skills: Zeal [1], Sacrifice [6], Vengeance [18]
+Movement Speed Duration: 2 seconds
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Damage +%
+ | 40
+ | 48
+ | 56
+ | 64
+ | 72
+ | 80
+ | 88
+ | 96
+ | 104
+ | 112
+ | 120
+ | 128
+ | 136
+ | 144
+ | 152
+ | 160
+ | 168
+ | 176
+ | 184
+ | 192
+ | 200
+ | 208
+ | 216
+ | 224
+ | 232
+ | 240
+ | 248
+ | 256
+ | 264
+ | 272
+ | 280
+ | 288
+ | 296
+ | 304
+ | 312
+ | 320
+ | 328
+ | 336
+ | 344
+ | 352
+ | 360
+ | 368
+ | 376
+ | 384
+ | 392
+ | 400
+ | 408
+ | 416
+ | 424
+ | 432
+ | 440
+ | 448
+ | 456
+ | 464
+ | 472
+ | 480
+ | 488
+ | 496
+ | 504
+ | 512
+ | Critical Strike +%
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 26
+ | 28
+ | 30
+ | 32
+ | 34
+ | 36
+ | 38
+ | 40
+ | 42
+ | 44
+ | 46
+ | 48
+ | 50
+ | 52
+ | 54
+ | 56
+ | 58
+ | 60
+ | 62
+ | 64
+ | 66
+ | 68
+ | 70
+ | 72
+ | 74
+ | 75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | 
+75
+ | Attack Rating +%
+ | 120
+ | 136
+ | 152
+ | 168
+ | 184
+ | 200
+ | 216
+ | 232
+ | 248
+ | 264
+ | 280
+ | 296
+ | 312
+ | 328
+ | 344
+ | 360
+ | 376
+ | 392
+ | 408
+ | 424
+ | 440
+ | 456
+ | 472
+ | 488
+ | 504
+ | 520
+ | 536
+ | 552
+ | 568
+ | 584
+ | 600
+ | 616
+ | 632
+ | 648
+ | 664
+ | 680
+ | 696
+ | 712
+ | 728
+ | 744
+ | 760
+ | 776
+ | 792
+ | 808
+ | 824
+ | 840
+ | 856
+ | 872
+ | 888
+ | 904
+ | 920
+ | 936
+ | 952
+ | 968
+ | 984
+ | 1000
+ | 1016
+ | 1032
+ | 1048
+ | 1064
+ | Movement Speed +%
+ | 5
+ | 7
+ | 9
+ | 11
+ | 13
+ | 15
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 27
+ | 29
+ | 31
+ | 33
+ | 35
+ | 37
+ | 39
+ | 41
+ | 43
+ | 45
+ | 47
+ | 49
+ | 51
+ | 53
+ | 55
+ | 57
+ | 59
+ | 61
+ | 63
+ | 65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | 
+65
+ | Cooldown (seconds)
+ | 4.08
+ | 3.96
+ | 3.88
+ | 3.76
+ | 3.68
+ | 3.56
+ | 3.48
+ | 3.36
+ | 3.28
+ | 3.16
+ | 3.08
+ | 2.96
+ | 2.88
+ | 2.76
+ | 2.68
+ | 2.56
+ | 2.48
+ | 2.36
+ | 2.28
+ | 2.16
+ | 2.08
+ | 1.96
+ | 1.88
+ | 1.76
+ | 1.68
+ | 1.56
+ | 1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | 
+1.52
+ | Mana Cost
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+Joust's Cooldown can be reduced further with Alma Negra, Leoric's Mithril Bane, or Zerae's Resolve.
+Other Sources: Zerae's Resolve
+Changelog
+ | 
+Season 12:
+Base cooldown increased from 3.5 seconds to 4
+Cooldown now reduces with soft points reaching 1.5 seconds at level 25
+Season 11:
+Level 1 enhanced damage bonus increased from +8% to +40%
+Season 8:
+Items that reduce cooldown will now allow you to reduce the cooldown below the 1.5 second minimum cooldown
+Season 3:
+Joust now starts with a +5% movement speed bonus
+Joust now gains +2% movement speed per soft point instead of 2% per base point
+Jousts movement speed bonus now caps at 65%
+Joust now has its cooldown reduced from base points at .1 per level (eventually reaches a 1.5 second cooldown)
+Joust now has a starting cooldown of 3.5 from 3 seconds
+Joust now has lock on targeting similar to fist of heavens
+Season 1:
+new skill that teleports to an enemy and impales them, has a 3 second cooldown
+FRW boost when landing, hard points increase FRW
+## Fist of the Heavens[edit]
+Description: Lightning strikes your target as holy bolts seek out nearby enemies
+Required Level: 24
+Required Skills: Holy Bolt [1], Holy Light [12], Blessed Hammer [18]
+Fires 4 Holy Bolts
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Lightning Damage (min)
+ | 100
+ | 102
+ | 104
+ | 106
+ | 108
+ | 110
+ | 112
+ | 114
+ | 119
+ | 124
+ | 129
+ | 134
+ | 139
+ | 144
+ | 149
+ | 154
+ | 162
+ | 170
+ | 178
+ | 186
+ | 194
+ | 202
+ | 214
+ | 226
+ | 238
+ | 250
+ | 262
+ | 274
+ | 291
+ | 308
+ | 325
+ | 342
+ | 359
+ | 376
+ | 393
+ | 410
+ | 427
+ | 444
+ | 461
+ | 478
+ | 495
+ | 512
+ | 529
+ | 546
+ | 563
+ | 580
+ | 597
+ | 614
+ | 631
+ | 648
+ | 665
+ | 682
+ | 699
+ | 716
+ | 733
+ | 750
+ | 767
+ | 784
+ | 801
+ | 818
+ | Lightning Damage (max)
+ | 150
+ | 155
+ | 160
+ | 165
+ | 170
+ | 175
+ | 180
+ | 185
+ | 196
+ | 207
+ | 218
+ | 229
+ | 240
+ | 251
+ | 262
+ | 273
+ | 290
+ | 307
+ | 324
+ | 341
+ | 358
+ | 375
+ | 399
+ | 423
+ | 447
+ | 471
+ | 495
+ | 519
+ | 551
+ | 583
+ | 615
+ | 647
+ | 679
+ | 711
+ | 743
+ | 775
+ | 807
+ | 839
+ | 871
+ | 903
+ | 935
+ | 967
+ | 999
+ | 1031
+ | 1063
+ | 1095
+ | 1127
+ | 1159
+ | 1191
+ | 1223
+ | 1255
+ | 1287
+ | 1319
+ | 1351
+ | 1383
+ | 1415
+ | 1447
+ | 1479
+ | 1511
+ | 1543
+ | Bolt Magic Damage (min)
+ | 10
+ | 12
+ | 14
+ | 16
+ | 18
+ | 20
+ | 22
+ | 24
+ | 29
+ | 34
+ | 39
+ | 44
+ | 49
+ | 54
+ | 59
+ | 64
+ | 72
+ | 80
+ | 88
+ | 96
+ | 104
+ | 112
+ | 126
+ | 140
+ | 154
+ | 168
+ | 182
+ | 196
+ | 219
+ | 242
+ | 265
+ | 288
+ | 311
+ | 334
+ | 357
+ | 380
+ | 403
+ | 426
+ | 449
+ | 472
+ | 495
+ | 518
+ | 541
+ | 564
+ | 587
+ | 610
+ | 633
+ | 656
+ | 679
+ | 702
+ | 725
+ | 748
+ | 771
+ | 794
+ | 817
+ | 840
+ | 863
+ | 886
+ | 909
+ | 932
+ | Bolt Magic Damage (max)
+ | 12
+ | 15
+ | 18
+ | 21
+ | 24
+ | 27
+ | 30
+ | 33
+ | 39
+ | 45
+ | 51
+ | 57
+ | 63
+ | 69
+ | 75
+ | 81
+ | 90
+ | 99
+ | 108
+ | 117
+ | 126
+ | 135
+ | 150
+ | 165
+ | 180
+ | 195
+ | 210
+ | 225
+ | 249
+ | 273
+ | 297
+ | 321
+ | 345
+ | 369
+ | 393
+ | 417
+ | 441
+ | 465
+ | 489
+ | 513
+ | 537
+ | 561
+ | 585
+ | 609
+ | 633
+ | 657
+ | 681
+ | 705
+ | 729
+ | 753
+ | 777
+ | 801
+ | 825
+ | 849
+ | 873
+ | 897
+ | 921
+ | 945
+ | 969
+ | 993
+ | Mana Cost
+ | 10
+ | 10.25
+ | 10.5
+ | 10.75
+ | 11
+ | 11.25
+ | 11.5
+ | 11.75
+ | 12
+ | 12.25
+ | 12.5
+ | 12.75
+ | 13
+ | 13.25
+ | 13.5
+ | 13.75
+ | 14
+ | 14.25
+ | 14.5
+ | 14.75
+ | 15
+ | 15.25
+ | 15.5
+ | 15.75
+ | 16
+ | 16.25
+ | 16.5
+ | 16.75
+ | 17
+ | 17.25
+ | 17.5
+ | 17.75
+ | 18
+ | 18.25
+ | 18.5
+ | 18.75
+ | 19
+ | 19.25
+ | 19.5
+ | 19.75
+ | 20
+ | 20.25
+ | 20.5
+ | 20.75
+ | 21
+ | 21.25
+ | 21.5
+ | 21.75
+ | 22
+ | 22.25
+ | 22.5
+ | 22.75
+ | 23
+ | 23.25
+ | 23.5
+ | 23.75
+ | 24
+ | 24.25
+ | 24.5
+ | 24.75
+Holy Bolts from Fist of the Heavens do not Heal.
+Fist of the Heavens Receives Bonuses From:
+Holy Bolt: +11% Damage per Level
+Holy Light: +11% Damage per Level
+Holy Nova: +11% Damage per Level
+Changelog
+ | 
+Season 13:
+Increased projectile speed of the holy bolts by 25%
+Added projectile speed acceleration to the holy bolts causing them to increase in speed as they travel
+Level 8-16 holy bolt damage scaling increased from 4-5 to 5-6
+Level 16-22 holy bolt damage scaling reduced from 9-10 to 8-9
+Level 28+ holy bolt damage scaling increased from 20-21 to 23-24
+Season 12:
+Level 22-28 scaling increased from 11-23 to 12-24.
+Level 28+ scaling increased to 15-30 to 17-32.
+Season 11:
+level 28+ lightning damage scaling increased from 14-29 to 15-30
+28+ holy bolt damage scaling increased from 19-20 to 20-21
+Season 7:
+Synergies increased from 10% to 11%
+Fist of the heavens holy bolts now gain their proper synergy values
+Season 5:
+Fist of heavens synergies reduced from 12% to 10%
+Fist of heavens no longer attempts to do a normal attack when out of mana
+Season 3:
+Fist of heavens damage scaling has been completely reworked to increase its early game potential and allow it to scale more smoothly into end game
+Fist of heavens lightning synergies have been increased from 5% to 12%
+Fist of heavens magic synergies have been reduced from 15% to 12%
+Fist of heavens now has holy nova as a magic damage synergy at 12%
+Fist of heavens holy bolt range has been reduced by 50%
+Fist of heavens reverted back to locking on enemies but with a reduced aoe to make it less clunky
+Fist of Heavens now deals 1% damage in pvp from 6%
+Season 2:
+holy bolts now damage all creature types (was just undead)
+now has holy light as a 15% magic damage synergy
+holy bolt damage scaling has been buffed
+Season 1:
+moved in the skill tree, requires level 24 (was 30)
+prerequisites reduced from 6 to 3 (no longer requires Sacrifice, Zeal, Vengeance, Conversion, now requires Holy Light)
+Removed Auto Target and cooldown
+damage scaling reduced
+mana cost now starts lower and scales with levels
+synergy from Holy Shock changed to Holy Nova at 5% (Holy Shock was 7%)
+now also has Holy Light as a synergy
+synergies for Holy Bolt & Holy Light are 15% magic damage and 5% lightning damage each (was just 15% magic damage)
+Vanilla Info
+## Holy Sword[edit]
+Description: Imbues a two-handed sword with holy energy allowing the user to parry attacks and spells and deal extra damage to demons and undead
+Required Level: 24
+Required Skills: Smite[1], Charge [12], Holy Shield [18]
+Tag: Magic Skill
+Internal Cooldown: 0.16 seconds (4 Frames)
+Mana Cost: 35
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Parry Chance %
+ | 8
+ | 14
+ | 19
+ | 24
+ | 27
+ | 30
+ | 32
+ | 34
+ | 36
+ | 37
+ | 39
+ | 40
+ | 41
+ | 42
+ | 
+42
+ | 44
+ | 
+44
+ | 45
+ | 
+45
+ | 46
+ | 
+46
+ | 47
+ | 
+47
+ | 48
+ | 
+48
+ | 
+48
+ | 49
+ | 
+49
+ | 50
+ | 
+50
+ | 
+50
+ | 
+50
+ | 51
+ | 
+51
+ | 
+51
+ | 
+51
+ | 
+51
+ | 52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 
+52
+ | 53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 
+53
+ | 54
+ | 
+54
+ | 
+54
+ | 
+54
+ | 
+54
+ | 
+54
+ | 55
+ | Damage to Demons/Undead +%
+ | 25
+ | 32
+ | 39
+ | 46
+ | 53
+ | 60
+ | 67
+ | 74
+ | 81
+ | 88
+ | 95
+ | 102
+ | 109
+ | 116
+ | 123
+ | 130
+ | 137
+ | 144
+ | 151
+ | 158
+ | 165
+ | 172
+ | 179
+ | 186
+ | 193
+ | 200
+ | 207
+ | 214
+ | 221
+ | 228
+ | 235
+ | 242
+ | 249
+ | 256
+ | 263
+ | 270
+ | 277
+ | 284
+ | 291
+ | 298
+ | 305
+ | 312
+ | 319
+ | 326
+ | 333
+ | 340
+ | 347
+ | 354
+ | 361
+ | 368
+ | 375
+ | 382
+ | 389
+ | 396
+ | 403
+ | 410
+ | 417
+ | 424
+ | 431
+ | 438
+ | Duration (seconds)
+ | 300
+ | 305
+ | 310
+ | 315
+ | 320
+ | 325
+ | 330
+ | 335
+ | 340
+ | 345
+ | 350
+ | 355
+ | 360
+ | 365
+ | 370
+ | 375
+ | 380
+ | 385
+ | 390
+ | 395
+ | 400
+ | 405
+ | 410
+ | 415
+ | 420
+ | 425
+ | 430
+ | 435
+ | 440
+ | 445
+ | 450
+ | 455
+ | 460
+ | 465
+ | 470
+ | 475
+ | 480
+ | 485
+ | 490
+ | 495
+ | 500
+ | 505
+ | 510
+ | 515
+ | 520
+ | 525
+ | 530
+ | 535
+ | 540
+ | 545
+ | 550
+ | 555
+ | 560
+ | 565
+ | 570
+ | 575
+ | 580
+ | 585
+ | 590
+ | 595
+Parry Chance is improved by 1/5 of your "Increased Chance of Blocking" stat (rounded down).
+Maximum Parry Chance: 75%
+Dexterity has no effect on Parry Chance.
+Changelog
+ | 
+Season 11:
+Tooltip now includes the 0.16 second cooldown between successful parrys
+Has been moved from a level 18 skill to a level 24 skill
+Season 10:
+Enhanced Damage to Demons/Undead per level reduced from +10% per level to +7%
+Now functions like Holy Shield and c an be prebuffed. Holy Sword will stay active without a two-handed sword equipped but will only apply its bonuses when a two-handed sword is equipped
+Season 9:
+Changed Holy Sword to have no internal animation timer (i.e. 0 frame block), this means "faster block rate" has no effect.
+Season 8:
+Replaced Conversion with a new skill: Holy Sword
+Allows the paladin to gain parry chance while wielding two handed swords (Similar to Weapon Block)
+Just like Weapon Block, parry works while moving
+There is a 4 frame delay (or 0.16 seconds) between two potentially successful parries.
+Provides the paladin with increased damage to demons and undead
+Fixed the parry bonus from block being 10:1 block to parry chance to 5:1 block to parry chance (patch 2)
+## Holy Nova[edit]
+Description: Creates an expanding ring of holy energy that damages enemies or heals allies
+Required Level: 30
+Required Skills: Holy Bolt [1], Smite [1], Holy Light [12], Charge [12], Blessed Hammer [18], Holy Shield [18], Fist of the Heavens [24], Holy Sword [24]
+Tag: Magic Skill
+Cooldown: 4 seconds
+ | Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | Magic Damage (min)
+ | 8
+ | 16
+ | 24
+ | 32
+ | 40
+ | 48
+ | 56
+ | 64
+ | 74
+ | 84
+ | 94
+ | 104
+ | 114
+ | 124
+ | 134
+ | 144
+ | 157
+ | 170
+ | 183
+ | 196
+ | 209
+ | 222
+ | 238
+ | 254
+ | 270
+ | 286
+ | 302
+ | 318
+ | 338
+ | 358
+ | 378
+ | 398
+ | 418
+ | 438
+ | 458
+ | 478
+ | 498
+ | 518
+ | 538
+ | 558
+ | 578
+ | 598
+ | 618
+ | 638
+ | 658
+ | 678
+ | 698
+ | 718
+ | 738
+ | 758
+ | 778
+ | 798
+ | 818
+ | 838
+ | 858
+ | 878
+ | 898
+ | 918
+ | 938
+ | 958
+ | Magic Damage (max)
+ | 16
+ | 24
+ | 32
+ | 40
+ | 48
+ | 56
+ | 64
+ | 72
+ | 83
+ | 94
+ | 105
+ | 116
+ | 127
+ | 138
+ | 149
+ | 160
+ | 175
+ | 190
+ | 205
+ | 220
+ | 235
+ | 250
+ | 268
+ | 286
+ | 304
+ | 322
+ | 340
+ | 358
+ | 381
+ | 404
+ | 427
+ | 450
+ | 473
+ | 496
+ | 519
+ | 542
+ | 565
+ | 588
+ | 611
+ | 634
+ | 657
+ | 680
+ | 703
+ | 726
+ | 749
+ | 772
+ | 795
+ | 818
+ | 841
+ | 864
+ | 887
+ | 910
+ | 933
+ | 956
+ | 979
+ | 1002
+ | 1025
+ | 1048
+ | 1071
+ | 1094
+ | Heals
+ | 100
+ | 120
+ | 140
+ | 160
+ | 180
+ | 200
+ | 220
+ | 240
+ | 260
+ | 280
+ | 300
+ | 320
+ | 340
+ | 360
+ | 380
+ | 400
+ | 420
+ | 440
+ | 460
+ | 480
+ | 500
+ | 520
+ | 540
+ | 560
+ | 580
+ | 600
+ | 620
+ | 640
+ | 660
+ | 680
+ | 700
+ | 720
+ | 740
+ | 760
+ | 780
+ | 800
+ | 820
+ | 840
+ | 860
+ | 880
+ | 900
+ | 920
+ | 940
+ | 960
+ | 980
+ | 1000
+ | 1020
+ | 1040
+ | 1060
+ | 1080
+ | 1100
+ | 1120
+ | 1140
+ | 1160
+ | 1180
+ | 1200
+ | 1220
+ | 1240
+ | 1260
+ | 1280
+ | Mana Cost
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | 76
+ | 77
+ | 78
+ | 79
+Holy Nova Receives Bonuses From:
+Prayer: +10 Life Healed per Level
+Holy Light: +10 Life Healed per Level
+Holy Bolt: +15% Magic Damage per Level
+Fist of the Heavens: +15% Magic Damage per Level
+Changelog
+ | 
+Season 5:
+Holy nova prayer magic damage synergy removed
+Holy nova fist of the heavens magic damage synergy increased from 8% to 15%
+Holy nova holy bolt magic damage synergy increased from 12% to 15%
+Season 4:
+Holy Nova base heal increased from 80 to 100
+Holy Nova heal per level increased from 10 to 20
+Now has Prayer and Fist of the Heavens as damage synergies at 8%
+Season 1:
+new skill that heals allies and damages enemies in an area, has a long cooldown
