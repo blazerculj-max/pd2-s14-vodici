@@ -1,0 +1,6164 @@
+{
+ "Sorceress|nova": {
+  "skill": "Nova",
+  "n80": 457,
+  "n90": 503,
+  "n95": 43,
+  "items": [
+   [
+    "Tal Rasha's Fine-Spun Cloth",
+    44
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    43
+   ],
+   [
+    "Aldur's Advance",
+    38
+   ],
+   [
+    "Skin of the Vipermagi",
+    38
+   ],
+   [
+    "Trang-Oul's Claws",
+    38
+   ],
+   [
+    "Constricting Loop",
+    35
+   ],
+   [
+    "Griffon's Eye",
+    34
+   ],
+   [
+    "Spirit",
+    32
+   ],
+   [
+    "Ancients' Pledge",
+    25
+   ],
+   [
+    "Tal Rasha's Lidless Eye",
+    23
+   ],
+   [
+    "Occultist",
+    23
+   ],
+   [
+    "Infinity",
+    23
+   ],
+   [
+    "Silkweave",
+    22
+   ],
+   [
+    "The Oculus",
+    21
+   ],
+   [
+    "Thundergod's Vigor",
+    18
+   ]
+  ],
+  "mercs": [
+   [
+    "Might Merc",
+    57
+   ],
+   [
+    "Defensive Auras",
+    31
+   ],
+   [
+    "Lightning Spells",
+    10
+   ]
+  ]
+ },
+ "Sorceress|frozen_orb": {
+  "skill": "Frozen Orb",
+  "n80": 992,
+  "n90": 501,
+  "n95": 73,
+  "items": [
+   [
+    "Gheed's Fortune",
+    61
+   ],
+   [
+    "Death's Fathom",
+    61
+   ],
+   [
+    "Nightwing's Veil",
+    59
+   ],
+   [
+    "Medusa's Gaze",
+    58
+   ],
+   [
+    "Snowclash",
+    53
+   ],
+   [
+    "Ormus' Robes",
+    37
+   ],
+   [
+    "Silkweave",
+    31
+   ],
+   [
+    "The Stone of Jordan",
+    29
+   ],
+   [
+    "Mara's Kaleidoscope",
+    28
+   ],
+   [
+    "Occultist",
+    26
+   ],
+   [
+    "Arachnid Mesh",
+    22
+   ],
+   [
+    "Magefist",
+    22
+   ],
+   [
+    "Frostburn",
+    18
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    16
+   ],
+   [
+    "Skin of the Vipermagi",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    89
+   ],
+   [
+    "Might Merc",
+    3
+   ],
+   [
+    "Cold Arrow",
+    2
+   ]
+  ]
+ },
+ "Sorceress|charged_bolt": {
+  "skill": "Charged Bolt",
+  "n80": 1434,
+  "n90": 1154,
+  "n95": 144,
+  "items": [
+   [
+    "Griffon's Eye",
+    49
+   ],
+   [
+    "Gheed's Fortune",
+    40
+   ],
+   [
+    "Thundergod's Vigor",
+    30
+   ],
+   [
+    "Silkweave",
+    29
+   ],
+   [
+    "Occultist",
+    29
+   ],
+   [
+    "Skin of the Vipermagi",
+    28
+   ],
+   [
+    "The Stone of Jordan",
+    26
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    26
+   ],
+   [
+    "Tal Rasha's Fine-Spun Cloth",
+    26
+   ],
+   [
+    "Arachnid Mesh",
+    24
+   ],
+   [
+    "Constricting Loop",
+    23
+   ],
+   [
+    "Infinity",
+    22
+   ],
+   [
+    "Trang-Oul's Claws",
+    21
+   ],
+   [
+    "Spirit",
+    20
+   ],
+   [
+    "Magefist",
+    20
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    61
+   ],
+   [
+    "Might Merc",
+    26
+   ],
+   [
+    "Lightning Spells",
+    7
+   ]
+  ]
+ },
+ "Sorceress|chain_lightning": {
+  "skill": "Chain Lightning",
+  "n80": 1030,
+  "n90": 650,
+  "n95": 91,
+  "items": [
+   [
+    "Griffon's Eye",
+    62
+   ],
+   [
+    "Gheed's Fortune",
+    59
+   ],
+   [
+    "Thundergod's Vigor",
+    38
+   ],
+   [
+    "Silkweave",
+    36
+   ],
+   [
+    "The Stone of Jordan",
+    36
+   ],
+   [
+    "Occultist",
+    34
+   ],
+   [
+    "Arachnid Mesh",
+    32
+   ],
+   [
+    "Magefist",
+    22
+   ],
+   [
+    "Infinity",
+    22
+   ],
+   [
+    "Skin of the Vipermagi",
+    21
+   ],
+   [
+    "Mara's Kaleidoscope",
+    21
+   ],
+   [
+    "Skyfall",
+    21
+   ],
+   [
+    "Atma's Wail",
+    20
+   ],
+   [
+    "Ormus' Robes",
+    17
+   ],
+   [
+    "Mang Song's Lesson",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    83
+   ],
+   [
+    "Lightning Spells",
+    5
+   ],
+   [
+    "Cold Arrow",
+    4
+   ]
+  ]
+ },
+ "Sorceress|frost_nova": {
+  "skill": "Frost Nova",
+  "n80": 927,
+  "n90": 493,
+  "n95": 72,
+  "items": [
+   [
+    "Gheed's Fortune",
+    62
+   ],
+   [
+    "Death's Fathom",
+    61
+   ],
+   [
+    "Nightwing's Veil",
+    59
+   ],
+   [
+    "Medusa's Gaze",
+    58
+   ],
+   [
+    "Snowclash",
+    53
+   ],
+   [
+    "Ormus' Robes",
+    38
+   ],
+   [
+    "Silkweave",
+    31
+   ],
+   [
+    "The Stone of Jordan",
+    28
+   ],
+   [
+    "Mara's Kaleidoscope",
+    28
+   ],
+   [
+    "Occultist",
+    26
+   ],
+   [
+    "Arachnid Mesh",
+    22
+   ],
+   [
+    "Magefist",
+    22
+   ],
+   [
+    "Frostburn",
+    17
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    16
+   ],
+   [
+    "Skin of the Vipermagi",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    90
+   ],
+   [
+    "Might Merc",
+    2
+   ],
+   [
+    "Cold Arrow",
+    2
+   ]
+  ]
+ },
+ "Sorceress|ice_barrage": {
+  "skill": "Ice Barrage",
+  "n80": 104,
+  "n90": 73,
+  "n95": 16,
+  "items": [
+   [
+    "Snowclash",
+    63
+   ],
+   [
+    "Nightwing's Veil",
+    58
+   ],
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Death's Fathom",
+    52
+   ],
+   [
+    "Medusa's Gaze",
+    51
+   ],
+   [
+    "Ormus' Robes",
+    44
+   ],
+   [
+    "The Stone of Jordan",
+    33
+   ],
+   [
+    "Mara's Kaleidoscope",
+    27
+   ],
+   [
+    "Silkweave",
+    25
+   ],
+   [
+    "Occultist",
+    21
+   ],
+   [
+    "Arachnid Mesh",
+    19
+   ],
+   [
+    "Frostburn",
+    19
+   ],
+   [
+    "Magefist",
+    18
+   ],
+   [
+    "Spirit",
+    16
+   ],
+   [
+    "Harlequin Crest",
+    16
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    96
+   ],
+   [
+    "Combat",
+    1
+   ],
+   [
+    "Lightning Spells",
+    1
+   ]
+  ]
+ },
+ "Sorceress|blizzard": {
+  "skill": "Blizzard",
+  "n80": 308,
+  "n90": 111,
+  "n95": 12,
+  "items": [
+   [
+    "Gheed's Fortune",
+    53
+   ],
+   [
+    "Nightwing's Veil",
+    49
+   ],
+   [
+    "Death's Fathom",
+    48
+   ],
+   [
+    "Snowclash",
+    41
+   ],
+   [
+    "Medusa's Gaze",
+    39
+   ],
+   [
+    "Frostburn",
+    29
+   ],
+   [
+    "Mara's Kaleidoscope",
+    27
+   ],
+   [
+    "Spirit",
+    25
+   ],
+   [
+    "Ormus' Robes",
+    25
+   ],
+   [
+    "The Stone of Jordan",
+    23
+   ],
+   [
+    "Tal Rasha's Guardianship",
+    22
+   ],
+   [
+    "Magefist",
+    21
+   ],
+   [
+    "Arachnid Mesh",
+    21
+   ],
+   [
+    "Tal Rasha's Fine-Spun Cloth",
+    21
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    21
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    82
+   ],
+   [
+    "Offensive Auras",
+    5
+   ],
+   [
+    "Cold Arrow",
+    5
+   ]
+  ]
+ },
+ "Sorceress|combustion": {
+  "skill": "Combustion",
+  "n80": 219,
+  "n90": 272,
+  "n95": 89,
+  "items": [
+   [
+    "Magefist",
+    76
+   ],
+   [
+    "Arachnid Mesh",
+    66
+   ],
+   [
+    "Ormus' Robes",
+    60
+   ],
+   [
+    "Gheed's Fortune",
+    49
+   ],
+   [
+    "The Stone of Jordan",
+    36
+   ],
+   [
+    "Phoenix",
+    35
+   ],
+   [
+    "Eschuta's Temper",
+    34
+   ],
+   [
+    "Kira's Guardian",
+    32
+   ],
+   [
+    "Silkweave",
+    24
+   ],
+   [
+    "Mara's Kaleidoscope",
+    24
+   ],
+   [
+    "Harlequin Crest",
+    21
+   ],
+   [
+    "Embersworn",
+    17
+   ],
+   [
+    "Constricting Loop",
+    17
+   ],
+   [
+    "Skull Collector",
+    12
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    90
+   ],
+   [
+    "Lightning Spells",
+    3
+   ],
+   [
+    "Offensive Auras",
+    2
+   ]
+  ]
+ },
+ "Sorceress|meteor": {
+  "skill": "Meteor",
+  "n80": 578,
+  "n90": 171,
+  "n95": 15,
+  "items": [
+   [
+    "Magefist",
+    75
+   ],
+   [
+    "Brimstone Rain",
+    52
+   ],
+   [
+    "Gheed's Fortune",
+    49
+   ],
+   [
+    "Arachnid Mesh",
+    46
+   ],
+   [
+    "Harlequin Crest",
+    45
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    24
+   ],
+   [
+    "Ormus' Robes",
+    24
+   ],
+   [
+    "Mara's Kaleidoscope",
+    23
+   ],
+   [
+    "Tal Rasha's Guardianship",
+    20
+   ],
+   [
+    "Skin of the Vipermagi",
+    19
+   ],
+   [
+    "Spirit",
+    17
+   ],
+   [
+    "Kira's Guardian",
+    16
+   ],
+   [
+    "Tal Rasha's Fine-Spun Cloth",
+    16
+   ],
+   [
+    "The Stone of Jordan",
+    16
+   ],
+   [
+    "War Traveler",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    64
+   ],
+   [
+    "Might Merc",
+    18
+   ],
+   [
+    "Fire Arrow",
+    9
+   ]
+  ]
+ },
+ "Sorceress|hydra": {
+  "skill": "Hydra",
+  "n80": 421,
+  "n90": 220,
+  "n95": 34,
+  "items": [
+   [
+    "Magefist",
+    85
+   ],
+   [
+    "Arachnid Mesh",
+    72
+   ],
+   [
+    "Dragon",
+    68
+   ],
+   [
+    "Gheed's Fortune",
+    51
+   ],
+   [
+    "Harlequin Crest",
+    51
+   ],
+   [
+    "Embersworn",
+    44
+   ],
+   [
+    "The Stone of Jordan",
+    36
+   ],
+   [
+    "Mara's Kaleidoscope",
+    35
+   ],
+   [
+    "Phoenix",
+    28
+   ],
+   [
+    "Eschuta's Temper",
+    27
+   ],
+   [
+    "Spirit",
+    13
+   ],
+   [
+    "Merman's Sprocket",
+    11
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    11
+   ],
+   [
+    "Wisp Projector",
+    10
+   ],
+   [
+    "Sandstorm Trek",
+    10
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    87
+   ],
+   [
+    "Cold Arrow",
+    7
+   ],
+   [
+    "Offensive Auras",
+    2
+   ]
+  ]
+ },
+ "Sorceress|enchant_fire": {
+  "skill": "Enchant",
+  "n80": 177,
+  "n90": 98,
+  "n95": 18,
+  "items": [
+   [
+    "Razortail",
+    58
+   ],
+   [
+    "Magnus' Skin",
+    52
+   ],
+   [
+    "Widowmaker",
+    48
+   ],
+   [
+    "Gheed's Fortune",
+    39
+   ],
+   [
+    "Mara's Kaleidoscope",
+    39
+   ],
+   [
+    "Nightwing's Veil",
+    35
+   ],
+   [
+    "Treads of Cthon",
+    31
+   ],
+   [
+    "The Stone of Jordan",
+    31
+   ],
+   [
+    "Demon Machine",
+    29
+   ],
+   [
+    "Arkaine's Valor",
+    26
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    26
+   ],
+   [
+    "Memory",
+    20
+   ],
+   [
+    "Magefist",
+    19
+   ],
+   [
+    "Raven Frost",
+    16
+   ],
+   [
+    "Aetherwing",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    47
+   ],
+   [
+    "Cold Spells",
+    27
+   ],
+   [
+    "Fire Arrow",
+    8
+   ]
+  ]
+ },
+ "Sorceress|inferno": {
+  "skill": "Inferno",
+  "n80": 484,
+  "n90": 142,
+  "n95": 14,
+  "items": [
+   [
+    "Magefist",
+    76
+   ],
+   [
+    "Brimstone Rain",
+    50
+   ],
+   [
+    "Arachnid Mesh",
+    49
+   ],
+   [
+    "Gheed's Fortune",
+    46
+   ],
+   [
+    "Harlequin Crest",
+    39
+   ],
+   [
+    "Ormus' Robes",
+    27
+   ],
+   [
+    "Mara's Kaleidoscope",
+    24
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    21
+   ],
+   [
+    "Kira's Guardian",
+    20
+   ],
+   [
+    "The Stone of Jordan",
+    18
+   ],
+   [
+    "Embersworn",
+    15
+   ],
+   [
+    "Skin of the Vipermagi",
+    15
+   ],
+   [
+    "Spirit",
+    14
+   ],
+   [
+    "War Traveler",
+    14
+   ],
+   [
+    "Tal Rasha's Guardianship",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    64
+   ],
+   [
+    "Might Merc",
+    15
+   ],
+   [
+    "Cold Arrow",
+    8
+   ]
+  ]
+ },
+ "Druid|arctic_blast": {
+  "skill": "Arctic Blast",
+  "n80": 275,
+  "n90": 127,
+  "n95": 20,
+  "items": [
+   [
+    "Gheed's Fortune",
+    47
+   ],
+   [
+    "Frostwind",
+    44
+   ],
+   [
+    "Snowclash",
+    42
+   ],
+   [
+    "Medusa's Gaze",
+    36
+   ],
+   [
+    "Nightwing's Veil",
+    28
+   ],
+   [
+    "Horizon's Tornado",
+    24
+   ],
+   [
+    "Arachnid Mesh",
+    23
+   ],
+   [
+    "Skin of the Vipermagi",
+    20
+   ],
+   [
+    "The Stone of Jordan",
+    20
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    19
+   ],
+   [
+    "Mara's Kaleidoscope",
+    17
+   ],
+   [
+    "Arkaine's Valor",
+    17
+   ],
+   [
+    "Frostburn",
+    17
+   ],
+   [
+    "Denmother",
+    14
+   ],
+   [
+    "Fenris",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    68
+   ],
+   [
+    "Fire Arrow",
+    15
+   ],
+   [
+    "Might Merc",
+    6
+   ]
+  ]
+ },
+ "Druid|tornado": {
+  "skill": "Tornado",
+  "n80": 271,
+  "n90": 137,
+  "n95": 19,
+  "items": [
+   [
+    "Gheed's Fortune",
+    48
+   ],
+   [
+    "Frostwind",
+    39
+   ],
+   [
+    "Snowclash",
+    37
+   ],
+   [
+    "Medusa's Gaze",
+    31
+   ],
+   [
+    "Nightwing's Veil",
+    25
+   ],
+   [
+    "Horizon's Tornado",
+    24
+   ],
+   [
+    "Mara's Kaleidoscope",
+    23
+   ],
+   [
+    "Arachnid Mesh",
+    23
+   ],
+   [
+    "Skin of the Vipermagi",
+    20
+   ],
+   [
+    "The Stone of Jordan",
+    17
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    17
+   ],
+   [
+    "Aldur's Deception",
+    15
+   ],
+   [
+    "Arkaine's Valor",
+    15
+   ],
+   [
+    "Trang-Oul's Claws",
+    15
+   ],
+   [
+    "Aldur's Advance",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    64
+   ],
+   [
+    "Fire Arrow",
+    22
+   ],
+   [
+    "Might Merc",
+    5
+   ]
+  ]
+ },
+ "Druid|shock_wave": {
+  "skill": "Shock Wave",
+  "n80": 29,
+  "n90": 21,
+  "n95": 4,
+  "items": [
+   [
+    "Arachnid Mesh",
+    67
+   ],
+   [
+    "Gheed's Fortune",
+    48
+   ],
+   [
+    "Merman's Sprocket",
+    48
+   ],
+   [
+    "Jalal's Mane",
+    38
+   ],
+   [
+    "Ondal's Wisdom",
+    33
+   ],
+   [
+    "Skin of the Vipermagi",
+    29
+   ],
+   [
+    "Brimstone Rain",
+    29
+   ],
+   [
+    "Fenris",
+    19
+   ],
+   [
+    "Constricting Loop",
+    19
+   ],
+   [
+    "Atma's Wail",
+    14
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    14
+   ],
+   [
+    "Arkaine's Valor",
+    14
+   ],
+   [
+    "The Stone of Jordan",
+    14
+   ],
+   [
+    "Denmother",
+    14
+   ],
+   [
+    "Spirit Keeper",
+    10
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    81
+   ],
+   [
+    "Defensive Auras",
+    10
+   ],
+   [
+    "Lightning Spells",
+    5
+   ]
+  ]
+ },
+ "Druid|armageddon": {
+  "skill": "Armageddon",
+  "n80": 319,
+  "n90": 170,
+  "n95": 26,
+  "items": [
+   [
+    "Ravenlore",
+    59
+   ],
+   [
+    "Magefist",
+    46
+   ],
+   [
+    "Gheed's Fortune",
+    46
+   ],
+   [
+    "Steel Carapace",
+    39
+   ],
+   [
+    "Siggard's Staunch",
+    36
+   ],
+   [
+    "Mang Song's Lesson",
+    31
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    21
+   ],
+   [
+    "Arachnid Mesh",
+    19
+   ],
+   [
+    "Hellrack",
+    16
+   ],
+   [
+    "Mara's Kaleidoscope",
+    15
+   ],
+   [
+    "Raven Frost",
+    14
+   ],
+   [
+    "Bannerlord's Call",
+    14
+   ],
+   [
+    "Hellmouth",
+    12
+   ],
+   [
+    "Earthshaker",
+    12
+   ],
+   [
+    "Jalal's Mane",
+    11
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    38
+   ],
+   [
+    "Lightning Spells",
+    37
+   ],
+   [
+    "Fire Arrow",
+    12
+   ]
+  ]
+ },
+ "Druid|volcano": {
+  "skill": "Volcano",
+  "n80": 255,
+  "n90": 138,
+  "n95": 23,
+  "items": [
+   [
+    "Ravenlore",
+    73
+   ],
+   [
+    "Magefist",
+    57
+   ],
+   [
+    "Gheed's Fortune",
+    48
+   ],
+   [
+    "Steel Carapace",
+    46
+   ],
+   [
+    "Siggard's Staunch",
+    41
+   ],
+   [
+    "Mang Song's Lesson",
+    38
+   ],
+   [
+    "Arachnid Mesh",
+    23
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    19
+   ],
+   [
+    "Hellrack",
+    17
+   ],
+   [
+    "Bannerlord's Call",
+    16
+   ],
+   [
+    "Earthshaker",
+    15
+   ],
+   [
+    "Mara's Kaleidoscope",
+    13
+   ],
+   [
+    "The Stone of Jordan",
+    12
+   ],
+   [
+    "Constricting Loop",
+    12
+   ],
+   [
+    "Dracul's Grasp",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Lightning Spells",
+    45
+   ],
+   [
+    "Defensive Auras",
+    36
+   ],
+   [
+    "Fire Arrow",
+    9
+   ]
+  ]
+ },
+ "Druid|fire_claws": {
+  "skill": "Fire Claws",
+  "n80": 80,
+  "n90": 40,
+  "n95": 4,
+  "items": [
+   [
+    "Jalal's Mane",
+    48
+   ],
+   [
+    "Hellmouth",
+    40
+   ],
+   [
+    "Gheed's Fortune",
+    40
+   ],
+   [
+    "Raven Frost",
+    38
+   ],
+   [
+    "Hellslayer",
+    35
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    28
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    22
+   ],
+   [
+    "Mara's Kaleidoscope",
+    20
+   ],
+   [
+    "String of Ears",
+    20
+   ],
+   [
+    "Siggard's Staunch",
+    20
+   ],
+   [
+    "Shaftstop",
+    18
+   ],
+   [
+    "Waterwalk",
+    15
+   ],
+   [
+    "Steel Carapace",
+    12
+   ],
+   [
+    "Hellrack",
+    12
+   ],
+   [
+    "Ghostflame",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    42
+   ],
+   [
+    "Fire Arrow",
+    25
+   ],
+   [
+    "Might Merc",
+    12
+   ]
+  ]
+ },
+ "Druid|rabies": {
+  "skill": "Rabies",
+  "n80": 351,
+  "n90": 241,
+  "n95": 54,
+  "items": [
+   [
+    "Arachnid Mesh",
+    45
+   ],
+   [
+    "Gheed's Fortune",
+    39
+   ],
+   [
+    "Spirit Ward",
+    37
+   ],
+   [
+    "Stormshield",
+    36
+   ],
+   [
+    "Jalal's Mane",
+    34
+   ],
+   [
+    "Bramble",
+    34
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    32
+   ],
+   [
+    "Plague Bearer",
+    31
+   ],
+   [
+    "Aldur's Stony Gaze",
+    27
+   ],
+   [
+    "Venom Grip",
+    23
+   ],
+   [
+    "Raven Frost",
+    22
+   ],
+   [
+    "The Stone of Jordan",
+    22
+   ],
+   [
+    "Heart of the Oak",
+    19
+   ],
+   [
+    "Trang-Oul's Claws",
+    18
+   ],
+   [
+    "Waterwalk",
+    18
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    43
+   ],
+   [
+    "Lightning Spells",
+    17
+   ],
+   [
+    "Defensive Auras",
+    16
+   ]
+  ]
+ },
+ "Druid|fury": {
+  "skill": "Fury",
+  "n80": 262,
+  "n90": 224,
+  "n95": 34,
+  "items": [
+   [
+    "Raven Frost",
+    62
+   ],
+   [
+    "Gore Rider",
+    56
+   ],
+   [
+    "Gheed's Fortune",
+    48
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    41
+   ],
+   [
+    "Tomb Reaver",
+    39
+   ],
+   [
+    "Fortitude",
+    31
+   ],
+   [
+    "Cerebus' Bite",
+    30
+   ],
+   [
+    "Soul Drainer",
+    29
+   ],
+   [
+    "Metalgrid",
+    26
+   ],
+   [
+    "Bul-Kathos' Death Band",
+    25
+   ],
+   [
+    "Jalal's Mane",
+    21
+   ],
+   [
+    "The Cranium Basher",
+    18
+   ],
+   [
+    "Highlord's Wrath",
+    18
+   ],
+   [
+    "String of Ears",
+    17
+   ],
+   [
+    "Ursa's Nightmare",
+    16
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    38
+   ],
+   [
+    "Defensive Auras",
+    21
+   ],
+   [
+    "Offensive Auras",
+    17
+   ]
+  ]
+ },
+ "Druid|summon_grizzly": {
+  "skill": "Summon Grizzly",
+  "n80": 987,
+  "n90": 472,
+  "n95": 64,
+  "items": [
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Arachnid Mesh",
+    55
+   ],
+   [
+    "Denmother",
+    36
+   ],
+   [
+    "Aldur's Stony Gaze",
+    29
+   ],
+   [
+    "Heart of the Oak",
+    27
+   ],
+   [
+    "Spirit Ward",
+    25
+   ],
+   [
+    "Chance Guards",
+    24
+   ],
+   [
+    "Aldur's Advance",
+    23
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    21
+   ],
+   [
+    "Spirit",
+    19
+   ],
+   [
+    "Mara's Kaleidoscope",
+    17
+   ],
+   [
+    "Arkaine's Valor",
+    16
+   ],
+   [
+    "The Stone of Jordan",
+    16
+   ],
+   [
+    "Aldur's Rhythm",
+    16
+   ],
+   [
+    "Aldur's Deception",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    58
+   ],
+   [
+    "Might Merc",
+    13
+   ],
+   [
+    "Defensive Auras",
+    6
+   ]
+  ]
+ },
+ "Druid|poison_creeper": {
+  "skill": "Poison Creeper",
+  "n80": 414,
+  "n90": 273,
+  "n95": 60,
+  "items": [
+   [
+    "Arachnid Mesh",
+    48
+   ],
+   [
+    "Gheed's Fortune",
+    37
+   ],
+   [
+    "Spirit Ward",
+    35
+   ],
+   [
+    "Stormshield",
+    32
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    30
+   ],
+   [
+    "Bramble",
+    29
+   ],
+   [
+    "Jalal's Mane",
+    29
+   ],
+   [
+    "Aldur's Stony Gaze",
+    27
+   ],
+   [
+    "Plague Bearer",
+    26
+   ],
+   [
+    "The Stone of Jordan",
+    22
+   ],
+   [
+    "Venom Grip",
+    21
+   ],
+   [
+    "Raven Frost",
+    21
+   ],
+   [
+    "Trang-Oul's Claws",
+    20
+   ],
+   [
+    "Heart of the Oak",
+    20
+   ],
+   [
+    "Plague",
+    18
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    42
+   ],
+   [
+    "Defensive Auras",
+    18
+   ],
+   [
+    "Lightning Spells",
+    16
+   ]
+  ]
+ },
+ "Assassin|chain_lightning_sentry": {
+  "skill": "Chain Lightning Sentry",
+  "n80": 295,
+  "n90": 105,
+  "n95": 18,
+  "items": [
+   [
+    "Gheed's Fortune",
+    50
+   ],
+   [
+    "Thundergod's Vigor",
+    50
+   ],
+   [
+    "Griffon's Eye",
+    23
+   ],
+   [
+    "Harlequin Crest",
+    23
+   ],
+   [
+    "The Stone of Jordan",
+    22
+   ],
+   [
+    "Mara's Kaleidoscope",
+    22
+   ],
+   [
+    "Enigma",
+    19
+   ],
+   [
+    "Raven Frost",
+    16
+   ],
+   [
+    "Treachery",
+    15
+   ],
+   [
+    "Arachnid Mesh",
+    13
+   ],
+   [
+    "Magefist",
+    12
+   ],
+   [
+    "Wisp Projector",
+    12
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    11
+   ],
+   [
+    "Natalya's Soul",
+    10
+   ],
+   [
+    "Lava Gout",
+    9
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    78
+   ],
+   [
+    "Cold Arrow",
+    9
+   ],
+   [
+    "Fire Arrow",
+    4
+   ]
+  ]
+ },
+ "Assassin|wake_of_fire": {
+  "skill": "Wake of Fire",
+  "n80": 463,
+  "n90": 393,
+  "n95": 93,
+  "items": [
+   [
+    "Magefist",
+    77
+   ],
+   [
+    "Ghostflame",
+    61
+   ],
+   [
+    "Gerke's Sanctuary",
+    60
+   ],
+   [
+    "Gheed's Fortune",
+    50
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    41
+   ],
+   [
+    "String of Ears",
+    39
+   ],
+   [
+    "Steel Shade",
+    38
+   ],
+   [
+    "Guardian Angel",
+    33
+   ],
+   [
+    "Arachnid Mesh",
+    27
+   ],
+   [
+    "Harlequin Crest",
+    19
+   ],
+   [
+    "Mara's Kaleidoscope",
+    19
+   ],
+   [
+    "Raven Frost",
+    15
+   ],
+   [
+    "The Stone of Jordan",
+    12
+   ],
+   [
+    "Wisp Projector",
+    10
+   ],
+   [
+    "Marrowwalk",
+    9
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    89
+   ],
+   [
+    "Cold Arrow",
+    4
+   ],
+   [
+    "Fire Arrow",
+    3
+   ]
+  ]
+ },
+ "Assassin|cobra_strike": {
+  "skill": "Cobra Strike",
+  "n80": 457,
+  "n90": 314,
+  "n95": 39,
+  "items": [
+   [
+    "Venom Grip",
+    62
+   ],
+   [
+    "Raven Frost",
+    55
+   ],
+   [
+    "Natalya's Shadow",
+    51
+   ],
+   [
+    "Gheed's Fortune",
+    48
+   ],
+   [
+    "Natalya's Soul",
+    47
+   ],
+   [
+    "Natalya's Totem",
+    46
+   ],
+   [
+    "Natalya's Mark",
+    46
+   ],
+   [
+    "Whispering Mirage",
+    36
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    33
+   ],
+   [
+    "Andariel's Visage",
+    32
+   ],
+   [
+    "Jade Talon",
+    31
+   ],
+   [
+    "Mara's Kaleidoscope",
+    27
+   ],
+   [
+    "Chaos",
+    20
+   ],
+   [
+    "Carrion Wind",
+    20
+   ],
+   [
+    "Shadow Dancer",
+    19
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    37
+   ],
+   [
+    "Defensive Auras",
+    28
+   ],
+   [
+    "Might Merc",
+    10
+   ]
+  ]
+ },
+ "Assassin|phoenix_strike": {
+  "skill": "Phoenix Strike",
+  "n80": 127,
+  "n90": 73,
+  "n95": 16,
+  "items": [
+   [
+    "Bartuc's Cut-Throat",
+    67
+   ],
+   [
+    "Raven Frost",
+    55
+   ],
+   [
+    "Gheed's Fortune",
+    53
+   ],
+   [
+    "Kira's Guardian",
+    52
+   ],
+   [
+    "Jade Talon",
+    42
+   ],
+   [
+    "Mara's Kaleidoscope",
+    30
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    26
+   ],
+   [
+    "Arkaine's Valor",
+    22
+   ],
+   [
+    "Wisp Projector",
+    22
+   ],
+   [
+    "Whispering Mirage",
+    22
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    22
+   ],
+   [
+    "Arachnid Mesh",
+    18
+   ],
+   [
+    "Siggard's Staunch",
+    18
+   ],
+   [
+    "Steel Carapace",
+    18
+   ],
+   [
+    "Natalya's Soul",
+    16
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    71
+   ],
+   [
+    "Fire Arrow",
+    19
+   ],
+   [
+    "Offensive Auras",
+    8
+   ]
+  ]
+ },
+ "Assassin|dragon_tail": {
+  "skill": "Dragon Tail",
+  "n80": 117,
+  "n90": 154,
+  "n95": 50,
+  "items": [
+   [
+    "Phoenix",
+    77
+   ],
+   [
+    "Astreon's Iron Ward",
+    77
+   ],
+   [
+    "Steelrend",
+    58
+   ],
+   [
+    "Veil of Steel",
+    51
+   ],
+   [
+    "Saracen's Chance",
+    46
+   ],
+   [
+    "War Traveler",
+    45
+   ],
+   [
+    "Fortitude",
+    41
+   ],
+   [
+    "Raven Frost",
+    41
+   ],
+   [
+    "Siggard's Staunch",
+    38
+   ],
+   [
+    "Gheed's Fortune",
+    38
+   ],
+   [
+    "Gore Rider",
+    22
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    20
+   ],
+   [
+    "Bul-Kathos' Death Band",
+    18
+   ],
+   [
+    "Wisp Projector",
+    16
+   ],
+   [
+    "Crown of Ages",
+    11
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    69
+   ],
+   [
+    "Offensive Auras",
+    11
+   ],
+   [
+    "Fire Arrow",
+    10
+   ]
+  ]
+ },
+ "Assassin|blade_fury": {
+  "skill": "Blade Fury",
+  "n80": 225,
+  "n90": 174,
+  "n95": 37,
+  "items": [
+   [
+    "Raven Frost",
+    40
+   ],
+   [
+    "Gheed's Fortune",
+    33
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    23
+   ],
+   [
+    "Waterwalk",
+    21
+   ],
+   [
+    "Whispering Mirage",
+    21
+   ],
+   [
+    "Gore Rider",
+    21
+   ],
+   [
+    "Veil of Steel",
+    19
+   ],
+   [
+    "Seraph's Hymn",
+    18
+   ],
+   [
+    "Razortail",
+    18
+   ],
+   [
+    "Laying of Hands",
+    15
+   ],
+   [
+    "Dwarf Star",
+    14
+   ],
+   [
+    "Highlord's Wrath",
+    14
+   ],
+   [
+    "Giant Skull",
+    14
+   ],
+   [
+    "Phoenix",
+    13
+   ],
+   [
+    "Fortitude",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    28
+   ],
+   [
+    "Fire Arrow",
+    24
+   ],
+   [
+    "Might Merc",
+    22
+   ]
+  ]
+ },
+ "Assassin|blade_sentinel": {
+  "skill": "Blade Sentinel",
+  "n80": 313,
+  "n90": 265,
+  "n95": 49,
+  "items": [
+   [
+    "Raven Frost",
+    43
+   ],
+   [
+    "Gheed's Fortune",
+    35
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    28
+   ],
+   [
+    "Natalya's Shadow",
+    27
+   ],
+   [
+    "Natalya's Soul",
+    27
+   ],
+   [
+    "Natalya's Mark",
+    25
+   ],
+   [
+    "Whispering Mirage",
+    25
+   ],
+   [
+    "Natalya's Totem",
+    25
+   ],
+   [
+    "Venom Grip",
+    23
+   ],
+   [
+    "Waterwalk",
+    18
+   ],
+   [
+    "Nature's Peace",
+    15
+   ],
+   [
+    "Seraph's Hymn",
+    15
+   ],
+   [
+    "Gore Rider",
+    14
+   ],
+   [
+    "Dwarf Star",
+    14
+   ],
+   [
+    "Mara's Kaleidoscope",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    27
+   ],
+   [
+    "Fire Arrow",
+    27
+   ],
+   [
+    "Might Merc",
+    18
+   ]
+  ]
+ },
+ "Assassin|shadow_warrior": {
+  "skill": "Shadow Warrior",
+  "n80": 666,
+  "n90": 634,
+  "n95": 145,
+  "items": [
+   [
+    "Whispering Mirage",
+    64
+   ],
+   [
+    "Gheed's Fortune",
+    53
+   ],
+   [
+    "Shadow Dancer",
+    49
+   ],
+   [
+    "Arachnid Mesh",
+    44
+   ],
+   [
+    "Enigma",
+    27
+   ],
+   [
+    "Raven Frost",
+    26
+   ],
+   [
+    "Natalya's Shadow",
+    23
+   ],
+   [
+    "Mara's Kaleidoscope",
+    18
+   ],
+   [
+    "Occultist",
+    18
+   ],
+   [
+    "Magefist",
+    16
+   ],
+   [
+    "Natalya's Soul",
+    16
+   ],
+   [
+    "Natalya's Mark",
+    15
+   ],
+   [
+    "Natalya's Totem",
+    15
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    15
+   ],
+   [
+    "Trang-Oul's Claws",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    41
+   ],
+   [
+    "Fire Arrow",
+    37
+   ],
+   [
+    "Might Merc",
+    6
+   ]
+  ]
+ },
+ "Assassin|blade_dance": {
+  "skill": null
+ },
+ "Assassin|claws_of_thunder": {
+  "skill": "Claws of Thunder",
+  "n80": 131,
+  "n90": 82,
+  "n95": 19,
+  "items": [
+   [
+    "Bartuc's Cut-Throat",
+    61
+   ],
+   [
+    "Raven Frost",
+    57
+   ],
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Kira's Guardian",
+    46
+   ],
+   [
+    "Jade Talon",
+    44
+   ],
+   [
+    "Mara's Kaleidoscope",
+    27
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    24
+   ],
+   [
+    "Arkaine's Valor",
+    22
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    20
+   ],
+   [
+    "Wisp Projector",
+    18
+   ],
+   [
+    "Whispering Mirage",
+    18
+   ],
+   [
+    "Siggard's Staunch",
+    17
+   ],
+   [
+    "Steel Carapace",
+    16
+   ],
+   [
+    "Natalya's Soul",
+    16
+   ],
+   [
+    "Arachnid Mesh",
+    16
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    77
+   ],
+   [
+    "Fire Arrow",
+    15
+   ],
+   [
+    "Offensive Auras",
+    9
+   ]
+  ]
+ },
+ "Assassin|blades_of_ice": {
+  "skill": "Blades of Ice",
+  "n80": 93,
+  "n90": 78,
+  "n95": 22,
+  "items": [
+   [
+    "Gheed's Fortune",
+    60
+   ],
+   [
+    "Bartuc's Cut-Throat",
+    55
+   ],
+   [
+    "Raven Frost",
+    37
+   ],
+   [
+    "Jade Talon",
+    35
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    35
+   ],
+   [
+    "Kira's Guardian",
+    33
+   ],
+   [
+    "Mara's Kaleidoscope",
+    27
+   ],
+   [
+    "Snowclash",
+    27
+   ],
+   [
+    "Wisp Projector",
+    26
+   ],
+   [
+    "Nightwing's Veil",
+    26
+   ],
+   [
+    "Whispering Mirage",
+    24
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    22
+   ],
+   [
+    "Natalya's Soul",
+    22
+   ],
+   [
+    "Natalya's Totem",
+    19
+   ],
+   [
+    "Natalya's Mark",
+    19
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    78
+   ],
+   [
+    "Fire Arrow",
+    13
+   ],
+   [
+    "Offensive Auras",
+    5
+   ]
+  ]
+ },
+ "Assassin|death_sentry": {
+  "skill": "Death Sentry",
+  "n80": 54,
+  "n90": 43,
+  "n95": 9,
+  "items": [
+   [
+    "Whispering Mirage",
+    67
+   ],
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Magefist",
+    49
+   ],
+   [
+    "Arachnid Mesh",
+    40
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    33
+   ],
+   [
+    "Harlequin Crest",
+    28
+   ],
+   [
+    "Mara's Kaleidoscope",
+    26
+   ],
+   [
+    "Raven Frost",
+    21
+   ],
+   [
+    "Steel Shade",
+    21
+   ],
+   [
+    "Shadow Dancer",
+    21
+   ],
+   [
+    "Natalya's Soul",
+    19
+   ],
+   [
+    "Wisp Projector",
+    19
+   ],
+   [
+    "Enigma",
+    16
+   ],
+   [
+    "Metalgrid",
+    14
+   ],
+   [
+    "Arkaine's Valor",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    86
+   ],
+   [
+    "Combat",
+    5
+   ],
+   [
+    "Fire Arrow",
+    5
+   ]
+  ]
+ },
+ "Assassin|fists_of_fire": {
+  "skill": "Fists of Fire",
+  "n80": 282,
+  "n90": 319,
+  "n95": 88,
+  "items": [
+   [
+    "Firelizard's Talons",
+    65
+   ],
+   [
+    "Gheed's Fortune",
+    55
+   ],
+   [
+    "Raven Frost",
+    45
+   ],
+   [
+    "Jade Talon",
+    44
+   ],
+   [
+    "Kira's Guardian",
+    40
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    36
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    29
+   ],
+   [
+    "Wisp Projector",
+    27
+   ],
+   [
+    "Mara's Kaleidoscope",
+    25
+   ],
+   [
+    "Arkaine's Valor",
+    22
+   ],
+   [
+    "Siggard's Staunch",
+    21
+   ],
+   [
+    "Steel Carapace",
+    20
+   ],
+   [
+    "Bartuc's Cut-Throat",
+    19
+   ],
+   [
+    "Crown of Ages",
+    18
+   ],
+   [
+    "Shadow Dancer",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    80
+   ],
+   [
+    "Offensive Auras",
+    7
+   ],
+   [
+    "Fire Arrow",
+    6
+   ]
+  ]
+ },
+ "Barbarian|war_cry": {
+  "skill": "War Cry",
+  "n80": 203,
+  "n90": 153,
+  "n95": 25,
+  "items": [
+   [
+    "Arachnid Mesh",
+    61
+   ],
+   [
+    "Enigma",
+    56
+   ],
+   [
+    "Gheed's Fortune",
+    50
+   ],
+   [
+    "Brimstone Rain",
+    24
+   ],
+   [
+    "Ondal's Wisdom",
+    23
+   ],
+   [
+    "Wildspeaker",
+    22
+   ],
+   [
+    "Constricting Loop",
+    22
+   ],
+   [
+    "Naj's Puzzler",
+    19
+   ],
+   [
+    "The Grandfather",
+    17
+   ],
+   [
+    "Dracul's Grasp",
+    16
+   ],
+   [
+    "Blade of Ali Baba",
+    16
+   ],
+   [
+    "The Stone of Jordan",
+    15
+   ],
+   [
+    "Heart of the Oak",
+    15
+   ],
+   [
+    "Marrowwalk",
+    14
+   ],
+   [
+    "Trang-Oul's Claws",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    56
+   ],
+   [
+    "Fire Arrow",
+    16
+   ],
+   [
+    "Lightning Spells",
+    16
+   ]
+  ]
+ },
+ "Barbarian|find_item": {
+  "skill": "Find Item",
+  "n80": 200,
+  "n90": 65,
+  "n95": 12,
+  "items": [
+   [
+    "Gheed's Fortune",
+    88
+   ],
+   [
+    "Chance Guards",
+    86
+   ],
+   [
+    "Dwarf Star",
+    78
+   ],
+   [
+    "Blade of Ali Baba",
+    68
+   ],
+   [
+    "Naj's Puzzler",
+    63
+   ],
+   [
+    "Wealth",
+    62
+   ],
+   [
+    "Goldwrap",
+    58
+   ],
+   [
+    "Immortal King's Will",
+    43
+   ],
+   [
+    "Infernostride",
+    40
+   ],
+   [
+    "Crown of Thieves",
+    34
+   ],
+   [
+    "The Patriarch",
+    12
+   ],
+   [
+    "Goldskin",
+    12
+   ],
+   [
+    "Mara's Kaleidoscope",
+    9
+   ],
+   [
+    "Raven Frost",
+    9
+   ],
+   [
+    "War Traveler",
+    6
+   ]
+  ],
+  "mercs": [
+   [
+    "Offensive Auras",
+    40
+   ],
+   [
+    "Might Merc",
+    32
+   ],
+   [
+    "Defensive Auras",
+    20
+   ]
+  ]
+ },
+ "Barbarian|whirlwind": {
+  "skill": "Whirlwind",
+  "n80": 2666,
+  "n90": 4548,
+  "n95": 1102,
+  "items": [
+   [
+    "Gheed's Fortune",
+    71
+   ],
+   [
+    "Gore Rider",
+    60
+   ],
+   [
+    "Raven Frost",
+    53
+   ],
+   [
+    "Highlord's Wrath",
+    50
+   ],
+   [
+    "Steelrend",
+    41
+   ],
+   [
+    "Halaberd's Reign",
+    29
+   ],
+   [
+    "Wisp Projector",
+    25
+   ],
+   [
+    "Fortitude",
+    24
+   ],
+   [
+    "Nosferatu's Coil",
+    23
+   ],
+   [
+    "Siggard's Staunch",
+    19
+   ],
+   [
+    "Wraithskin",
+    19
+   ],
+   [
+    "Soul Drainer",
+    18
+   ],
+   [
+    "String of Ears",
+    16
+   ],
+   [
+    "Immortal King's Detail",
+    15
+   ],
+   [
+    "Immortal King's Pillar",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    54
+   ],
+   [
+    "Might Merc",
+    22
+   ],
+   [
+    "Offensive Auras",
+    11
+   ]
+  ]
+ },
+ "Barbarian|double_throw": {
+  "skill": "Double Throw",
+  "n80": 371,
+  "n90": 500,
+  "n95": 146,
+  "items": [
+   [
+    "Gheed's Fortune",
+    59
+   ],
+   [
+    "Gore Rider",
+    51
+   ],
+   [
+    "Nosferatu's Coil",
+    46
+   ],
+   [
+    "Raven Frost",
+    44
+   ],
+   [
+    "Highlord's Wrath",
+    44
+   ],
+   [
+    "Fortitude",
+    28
+   ],
+   [
+    "Lacerator",
+    25
+   ],
+   [
+    "Soul Drainer",
+    23
+   ],
+   [
+    "Wisp Projector",
+    21
+   ],
+   [
+    "Atma's Scarab",
+    20
+   ],
+   [
+    "Veil of Steel",
+    19
+   ],
+   [
+    "War Traveler",
+    19
+   ],
+   [
+    "Steelrend",
+    17
+   ],
+   [
+    "Laying of Hands",
+    15
+   ],
+   [
+    "Raekor's Virtue",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    42
+   ],
+   [
+    "Might Merc",
+    40
+   ],
+   [
+    "Defensive Auras",
+    6
+   ]
+  ]
+ },
+ "Barbarian|frenzy": {
+  "skill": "Frenzy",
+  "n80": 532,
+  "n90": 701,
+  "n95": 203,
+  "items": [
+   [
+    "Gheed's Fortune",
+    59
+   ],
+   [
+    "Gore Rider",
+    53
+   ],
+   [
+    "Raven Frost",
+    44
+   ],
+   [
+    "Highlord's Wrath",
+    42
+   ],
+   [
+    "Nosferatu's Coil",
+    38
+   ],
+   [
+    "Fortitude",
+    26
+   ],
+   [
+    "Soul Drainer",
+    22
+   ],
+   [
+    "Wisp Projector",
+    22
+   ],
+   [
+    "Steelrend",
+    20
+   ],
+   [
+    "Atma's Scarab",
+    17
+   ],
+   [
+    "Lacerator",
+    16
+   ],
+   [
+    "Veil of Steel",
+    15
+   ],
+   [
+    "War Traveler",
+    15
+   ],
+   [
+    "Arreat's Face",
+    14
+   ],
+   [
+    "Laying of Hands",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    43
+   ],
+   [
+    "Might Merc",
+    34
+   ],
+   [
+    "Offensive Auras",
+    8
+   ]
+  ]
+ },
+ "Barbarian|split_throw": {
+  "skill": null
+ },
+ "Amazon|lightning_fury": {
+  "skill": "Lightning Fury",
+  "n80": 738,
+  "n90": 500,
+  "n95": 115,
+  "items": [
+   [
+    "Thunderstroke",
+    75
+   ],
+   [
+    "Griffon's Eye",
+    69
+   ],
+   [
+    "Thundergod's Vigor",
+    61
+   ],
+   [
+    "Gheed's Fortune",
+    52
+   ],
+   [
+    "Spirit Ward",
+    42
+   ],
+   [
+    "Raven Frost",
+    37
+   ],
+   [
+    "The Cat's Eye",
+    32
+   ],
+   [
+    "Treads of Cthon",
+    30
+   ],
+   [
+    "Razortail",
+    19
+   ],
+   [
+    "Guardian Angel",
+    18
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    17
+   ],
+   [
+    "Enigma",
+    17
+   ],
+   [
+    "Stormshield",
+    17
+   ],
+   [
+    "Arkaine's Valor",
+    14
+   ],
+   [
+    "Highlord's Wrath",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    80
+   ],
+   [
+    "Fire Arrow",
+    6
+   ],
+   [
+    "Offensive Auras",
+    5
+   ]
+  ]
+ },
+ "Amazon|lightning_strike": {
+  "skill": "Lightning Strike",
+  "n80": 102,
+  "n90": 47,
+  "n95": 13,
+  "items": [
+   [
+    "Thundergod's Vigor",
+    74
+   ],
+   [
+    "Thunderstroke",
+    66
+   ],
+   [
+    "Griffon's Eye",
+    64
+   ],
+   [
+    "Gheed's Fortune",
+    53
+   ],
+   [
+    "Stormshield",
+    40
+   ],
+   [
+    "Raven Frost",
+    40
+   ],
+   [
+    "Spirit Ward",
+    23
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    21
+   ],
+   [
+    "Arkaine's Valor",
+    17
+   ],
+   [
+    "Highlord's Wrath",
+    15
+   ],
+   [
+    "Mara's Kaleidoscope",
+    11
+   ],
+   [
+    "The Stone of Jordan",
+    11
+   ],
+   [
+    "Enigma",
+    11
+   ],
+   [
+    "Gerke's Sanctuary",
+    11
+   ],
+   [
+    "Guardian Angel",
+    11
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    77
+   ],
+   [
+    "Fire Arrow",
+    6
+   ],
+   [
+    "Offensive Auras",
+    4
+   ]
+  ]
+ },
+ "Amazon|plague_javelin": {
+  "skill": "Plague Javelin",
+  "n80": 100,
+  "n90": 77,
+  "n95": 15,
+  "items": [
+   [
+    "Andariel's Visage",
+    81
+   ],
+   [
+    "Gargoyle's Bite",
+    70
+   ],
+   [
+    "Razortail",
+    68
+   ],
+   [
+    "Bramble",
+    68
+   ],
+   [
+    "Treads of Cthon",
+    57
+   ],
+   [
+    "Spirit Ward",
+    49
+   ],
+   [
+    "Carrion Wind",
+    48
+   ],
+   [
+    "Gheed's Fortune",
+    45
+   ],
+   [
+    "Raven Frost",
+    31
+   ],
+   [
+    "Mara's Kaleidoscope",
+    26
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    16
+   ],
+   [
+    "Radament's Sphere",
+    14
+   ],
+   [
+    "Stormshield",
+    14
+   ],
+   [
+    "Spirit",
+    10
+   ],
+   [
+    "Steelclash",
+    9
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    65
+   ],
+   [
+    "Cold Arrow",
+    14
+   ],
+   [
+    "Defensive Auras",
+    8
+   ]
+  ]
+ },
+ "Amazon|cold_arrow": {
+  "skill": "Cold Arrow",
+  "n80": 283,
+  "n90": 239,
+  "n95": 54,
+  "items": [
+   [
+    "Nightwing's Veil",
+    72
+   ],
+   [
+    "Snowclash",
+    72
+   ],
+   [
+    "Frozen Sorrow",
+    71
+   ],
+   [
+    "Gheed's Fortune",
+    57
+   ],
+   [
+    "Pus Spitter",
+    49
+   ],
+   [
+    "Ice",
+    32
+   ],
+   [
+    "Merman's Sprocket",
+    31
+   ],
+   [
+    "Wisp Projector",
+    28
+   ],
+   [
+    "Mara's Kaleidoscope",
+    26
+   ],
+   [
+    "Silks of the Victor",
+    24
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    23
+   ],
+   [
+    "Treads of Cthon",
+    23
+   ],
+   [
+    "Arkaine's Valor",
+    18
+   ],
+   [
+    "Raven Frost",
+    14
+   ],
+   [
+    "Crescent Moon",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    54
+   ],
+   [
+    "Defensive Auras",
+    26
+   ],
+   [
+    "Offensive Auras",
+    5
+   ]
+  ]
+ },
+ "Amazon|fire_arrow": {
+  "skill": "Fire Arrow",
+  "n80": 145,
+  "n90": 138,
+  "n95": 26,
+  "items": [
+   [
+    "Blood Raven's Charge",
+    67
+   ],
+   [
+    "Kira's Guardian",
+    62
+   ],
+   [
+    "Basilisk's Quill",
+    59
+   ],
+   [
+    "Razortail",
+    52
+   ],
+   [
+    "Gheed's Fortune",
+    51
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    29
+   ],
+   [
+    "Guardian Angel",
+    22
+   ],
+   [
+    "Wisp Projector",
+    22
+   ],
+   [
+    "Mara's Kaleidoscope",
+    16
+   ],
+   [
+    "Raven Frost",
+    15
+   ],
+   [
+    "The Stone of Jordan",
+    14
+   ],
+   [
+    "Arkaine's Valor",
+    14
+   ],
+   [
+    "Arachnid Mesh",
+    13
+   ],
+   [
+    "Hustle",
+    12
+   ],
+   [
+    "Silkweave",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    63
+   ],
+   [
+    "Defensive Auras",
+    14
+   ],
+   [
+    "Cold Spells",
+    5
+   ]
+  ]
+ },
+ "Amazon|exploding_arrow": {
+  "skill": "Exploding Arrow",
+  "n80": 75,
+  "n90": 42,
+  "n95": 8,
+  "items": [
+   [
+    "Kira's Guardian",
+    52
+   ],
+   [
+    "Razortail",
+    52
+   ],
+   [
+    "Gheed's Fortune",
+    48
+   ],
+   [
+    "Basilisk's Quill",
+    33
+   ],
+   [
+    "Hustle",
+    24
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    24
+   ],
+   [
+    "Raven Frost",
+    21
+   ],
+   [
+    "Blood Raven's Charge",
+    19
+   ],
+   [
+    "Phoenix",
+    19
+   ],
+   [
+    "Arkaine's Valor",
+    17
+   ],
+   [
+    "The Rising Sun",
+    14
+   ],
+   [
+    "Treads of Cthon",
+    14
+   ],
+   [
+    "Hellrack",
+    14
+   ],
+   [
+    "Merman's Sprocket",
+    12
+   ],
+   [
+    "The Stone of Jordan",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    48
+   ],
+   [
+    "Defensive Auras",
+    19
+   ],
+   [
+    "Cold Spells",
+    17
+   ]
+  ]
+ },
+ "Amazon|jab": {
+  "skill": "Jab",
+  "n80": 376,
+  "n90": 378,
+  "n95": 85,
+  "items": [
+   [
+    "Stoneraven",
+    42
+   ],
+   [
+    "Raven Frost",
+    39
+   ],
+   [
+    "Gheed's Fortune",
+    31
+   ],
+   [
+    "Waterwalk",
+    25
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    24
+   ],
+   [
+    "Andariel's Visage",
+    23
+   ],
+   [
+    "String of Ears",
+    20
+   ],
+   [
+    "Vampire Gaze",
+    20
+   ],
+   [
+    "Nature's Peace",
+    18
+   ],
+   [
+    "Zerae's Resolve",
+    18
+   ],
+   [
+    "Gore Rider",
+    18
+   ],
+   [
+    "Highlord's Wrath",
+    15
+   ],
+   [
+    "Soul Drainer",
+    13
+   ],
+   [
+    "The Gladiator's Bane",
+    13
+   ],
+   [
+    "Wisp Projector",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    52
+   ],
+   [
+    "Might Merc",
+    17
+   ],
+   [
+    "Defensive Auras",
+    16
+   ]
+  ]
+ },
+ "Amazon|multiple_shot": {
+  "skill": "Multiple Shot",
+  "n80": 401,
+  "n90": 562,
+  "n95": 159,
+  "items": [
+   [
+    "Gheed's Fortune",
+    60
+   ],
+   [
+    "War Traveler",
+    49
+   ],
+   [
+    "Windforce",
+    45
+   ],
+   [
+    "Razortail",
+    44
+   ],
+   [
+    "Fortitude",
+    42
+   ],
+   [
+    "Raven Frost",
+    38
+   ],
+   [
+    "Giant Skull",
+    38
+   ],
+   [
+    "Doom's Finger",
+    33
+   ],
+   [
+    "Nosferatu's Coil",
+    31
+   ],
+   [
+    "Highlord's Wrath",
+    31
+   ],
+   [
+    "Wisp Projector",
+    30
+   ],
+   [
+    "Veil of Steel",
+    29
+   ],
+   [
+    "Soul Drainer",
+    28
+   ],
+   [
+    "Laying of Hands",
+    25
+   ],
+   [
+    "Atma's Scarab",
+    25
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    70
+   ],
+   [
+    "Might Merc",
+    16
+   ],
+   [
+    "Offensive Auras",
+    1
+   ]
+  ]
+ },
+ "Amazon|strafe": {
+  "skill": "Strafe",
+  "n80": 1189,
+  "n90": 1120,
+  "n95": 262,
+  "items": [
+   [
+    "Gheed's Fortune",
+    63
+   ],
+   [
+    "Razortail",
+    45
+   ],
+   [
+    "Atma's Scarab",
+    44
+   ],
+   [
+    "Raven Frost",
+    39
+   ],
+   [
+    "Fortitude",
+    36
+   ],
+   [
+    "War Traveler",
+    35
+   ],
+   [
+    "Demon Machine",
+    31
+   ],
+   [
+    "Giant Skull",
+    31
+   ],
+   [
+    "Valkyrie Wing",
+    24
+   ],
+   [
+    "Soul Drainer",
+    21
+   ],
+   [
+    "Laying of Hands",
+    17
+   ],
+   [
+    "Wisp Projector",
+    17
+   ],
+   [
+    "Gore Rider",
+    16
+   ],
+   [
+    "Windforce",
+    15
+   ],
+   [
+    "Doom's Finger",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    67
+   ],
+   [
+    "Might Merc",
+    14
+   ],
+   [
+    "Cold Arrow",
+    3
+   ]
+  ]
+ },
+ "Amazon|decoy": {
+  "skill": "Decoy",
+  "n80": 863,
+  "n90": 508,
+  "n95": 110,
+  "items": [
+   [
+    "Gheed's Fortune",
+    60
+   ],
+   [
+    "Valkyrie Wing",
+    39
+   ],
+   [
+    "Atma's Scarab",
+    31
+   ],
+   [
+    "Raven Frost",
+    30
+   ],
+   [
+    "Ebonbane",
+    29
+   ],
+   [
+    "Razortail",
+    28
+   ],
+   [
+    "War Traveler",
+    23
+   ],
+   [
+    "Arachnid Mesh",
+    23
+   ],
+   [
+    "Fortitude",
+    21
+   ],
+   [
+    "Doom's Finger",
+    18
+   ],
+   [
+    "Basilisk's Quill",
+    18
+   ],
+   [
+    "Wisp Projector",
+    16
+   ],
+   [
+    "Peace",
+    16
+   ],
+   [
+    "Naj's Puzzler",
+    15
+   ],
+   [
+    "Demon Machine",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    63
+   ],
+   [
+    "Might Merc",
+    15
+   ],
+   [
+    "Cold Arrow",
+    6
+   ]
+  ]
+ },
+ "Necromancer|poison_nova": {
+  "skill": "Poison Nova",
+  "n80": 575,
+  "n90": 420,
+  "n95": 74,
+  "items": [
+   [
+    "Trang-Oul's Claws",
+    85
+   ],
+   [
+    "Death's Web",
+    78
+   ],
+   [
+    "Trang-Oul's Wing",
+    76
+   ],
+   [
+    "Trang-Oul's Girth",
+    75
+   ],
+   [
+    "Trang-Oul's Scales",
+    55
+   ],
+   [
+    "Trang-Oul's Guise",
+    53
+   ],
+   [
+    "Gheed's Fortune",
+    37
+   ],
+   [
+    "Wisp Projector",
+    21
+   ],
+   [
+    "The Stone of Jordan",
+    19
+   ],
+   [
+    "Steel Carapace",
+    17
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    15
+   ],
+   [
+    "Andariel's Visage",
+    13
+   ],
+   [
+    "Constricting Loop",
+    12
+   ],
+   [
+    "Mara's Kaleidoscope",
+    11
+   ],
+   [
+    "War Traveler",
+    8
+   ]
+  ],
+  "mercs": [
+   [
+    "Cold Spells",
+    53
+   ],
+   [
+    "Lightning Spells",
+    25
+   ],
+   [
+    "Defensive Auras",
+    10
+   ]
+  ]
+ },
+ "Necromancer|poison_strike": {
+  "skill": "Poison Strike",
+  "n80": 1010,
+  "n90": 736,
+  "n95": 122,
+  "items": [
+   [
+    "Trang-Oul's Claws",
+    84
+   ],
+   [
+    "Trang-Oul's Girth",
+    50
+   ],
+   [
+    "Trang-Oul's Wing",
+    49
+   ],
+   [
+    "Death's Web",
+    45
+   ],
+   [
+    "Gheed's Fortune",
+    44
+   ],
+   [
+    "Andariel's Visage",
+    38
+   ],
+   [
+    "Trang-Oul's Scales",
+    37
+   ],
+   [
+    "Trang-Oul's Guise",
+    35
+   ],
+   [
+    "Martyrdom",
+    33
+   ],
+   [
+    "Plague",
+    25
+   ],
+   [
+    "Innocence",
+    23
+   ],
+   [
+    "Arachnid Mesh",
+    23
+   ],
+   [
+    "Wisp Projector",
+    19
+   ],
+   [
+    "Mara's Kaleidoscope",
+    16
+   ],
+   [
+    "The Stone of Jordan",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Cold Spells",
+    54
+   ],
+   [
+    "Lightning Spells",
+    18
+   ],
+   [
+    "Defensive Auras",
+    9
+   ]
+  ]
+ },
+ "Necromancer|corpse_explosion": {
+  "skill": "Corpse Explosion",
+  "n80": 105,
+  "n90": 62,
+  "n95": 14,
+  "items": [
+   [
+    "Arachnid Mesh",
+    73
+   ],
+   [
+    "Magefist",
+    65
+   ],
+   [
+    "Gheed's Fortune",
+    53
+   ],
+   [
+    "Harlequin Crest",
+    32
+   ],
+   [
+    "Kira's Guardian",
+    31
+   ],
+   [
+    "Darkforce Spawn",
+    21
+   ],
+   [
+    "Skin of the Vipermagi",
+    21
+   ],
+   [
+    "Mara's Kaleidoscope",
+    19
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    19
+   ],
+   [
+    "Ormus' Robes",
+    19
+   ],
+   [
+    "Trang-Oul's Claws",
+    19
+   ],
+   [
+    "Wisp Projector",
+    16
+   ],
+   [
+    "Death's Web",
+    16
+   ],
+   [
+    "Skull Collector",
+    16
+   ],
+   [
+    "Constricting Loop",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    34
+   ],
+   [
+    "Fire Arrow",
+    27
+   ],
+   [
+    "Cold Arrow",
+    11
+   ]
+  ]
+ },
+ "Necromancer|raise_skeletal_mage": {
+  "skill": "Raise Skeletal Mage",
+  "n80": 969,
+  "n90": 662,
+  "n95": 100,
+  "items": [
+   [
+    "Marrowwalk",
+    59
+   ],
+   [
+    "Harlequin Crest",
+    59
+   ],
+   [
+    "Gravepalm",
+    58
+   ],
+   [
+    "Trang-Oul's Scales",
+    57
+   ],
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Arachnid Mesh",
+    56
+   ],
+   [
+    "Nethercrux",
+    34
+   ],
+   [
+    "Sacred Totem",
+    28
+   ],
+   [
+    "Wisp Projector",
+    28
+   ],
+   [
+    "Grim's Burning Dead",
+    26
+   ],
+   [
+    "Arm of King Leoric",
+    25
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    23
+   ],
+   [
+    "Mara's Kaleidoscope",
+    23
+   ],
+   [
+    "Trang-Oul's Claws",
+    22
+   ],
+   [
+    "The Stone of Jordan",
+    21
+   ]
+  ],
+  "mercs": [
+   [
+    "Lightning Spells",
+    31
+   ],
+   [
+    "Fire Arrow",
+    27
+   ],
+   [
+    "Cold Spells",
+    10
+   ]
+  ]
+ },
+ "Necromancer|fire_golem": {
+  "skill": "Fire Golem",
+  "n80": 353,
+  "n90": 157,
+  "n95": 19,
+  "items": [
+   [
+    "Trang-Oul's Scales",
+    56
+   ],
+   [
+    "Arachnid Mesh",
+    51
+   ],
+   [
+    "Gheed's Fortune",
+    45
+   ],
+   [
+    "Harlequin Crest",
+    43
+   ],
+   [
+    "Gravepalm",
+    39
+   ],
+   [
+    "Dominion",
+    37
+   ],
+   [
+    "Phoenix",
+    24
+   ],
+   [
+    "Trang-Oul's Claws",
+    24
+   ],
+   [
+    "Mara's Kaleidoscope",
+    24
+   ],
+   [
+    "The Stone of Jordan",
+    22
+   ],
+   [
+    "Wisp Projector",
+    20
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    19
+   ],
+   [
+    "Trang-Oul's Girth",
+    15
+   ],
+   [
+    "Trang-Oul's Guise",
+    13
+   ],
+   [
+    "Magefist",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    46
+   ],
+   [
+    "Fire Arrow",
+    18
+   ],
+   [
+    "Might Merc",
+    11
+   ]
+  ]
+ },
+ "Necromancer|raise_skeleton_archer": {
+  "skill": "Raise Skeleton Archer",
+  "n80": 586,
+  "n90": 490,
+  "n95": 86,
+  "items": [
+   [
+    "Marrowwalk",
+    59
+   ],
+   [
+    "Arachnid Mesh",
+    59
+   ],
+   [
+    "Gravepalm",
+    58
+   ],
+   [
+    "Harlequin Crest",
+    58
+   ],
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Trang-Oul's Scales",
+    53
+   ],
+   [
+    "Arm of King Leoric",
+    41
+   ],
+   [
+    "Wisp Projector",
+    34
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    26
+   ],
+   [
+    "Mara's Kaleidoscope",
+    24
+   ],
+   [
+    "Trang-Oul's Claws",
+    20
+   ],
+   [
+    "Grim's Burning Dead",
+    19
+   ],
+   [
+    "The Stone of Jordan",
+    19
+   ],
+   [
+    "Sacred Totem",
+    18
+   ],
+   [
+    "Nethercrux",
+    16
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    30
+   ],
+   [
+    "Lightning Spells",
+    23
+   ],
+   [
+    "Might Merc",
+    13
+   ]
+  ]
+ },
+ "Necromancer|dark_pact": {
+  "skill": "Dark Pact",
+  "n80": 69,
+  "n90": 51,
+  "n95": 9,
+  "items": [
+   [
+    "Trang-Oul's Claws",
+    88
+   ],
+   [
+    "Darkforce Spawn",
+    75
+   ],
+   [
+    "Blackhand Key",
+    69
+   ],
+   [
+    "Arachnid Mesh",
+    67
+   ],
+   [
+    "Harlequin Crest",
+    41
+   ],
+   [
+    "Gheed's Fortune",
+    31
+   ],
+   [
+    "Enigma",
+    31
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    22
+   ],
+   [
+    "Skin of the Vipermagi",
+    20
+   ],
+   [
+    "The Stone of Jordan",
+    18
+   ],
+   [
+    "Wisp Projector",
+    14
+   ],
+   [
+    "Silkweave",
+    12
+   ],
+   [
+    "Mara's Kaleidoscope",
+    10
+   ],
+   [
+    "Constricting Loop",
+    10
+   ],
+   [
+    "Que-Hegan's Wisdom",
+    10
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    39
+   ],
+   [
+    "Cold Arrow",
+    18
+   ],
+   [
+    "Fire Arrow",
+    16
+   ]
+  ]
+ },
+ "Necromancer|teeth": {
+  "skill": "Teeth",
+  "n80": 313,
+  "n90": 167,
+  "n95": 15,
+  "items": [
+   [
+    "Boneshade",
+    73
+   ],
+   [
+    "Arachnid Mesh",
+    64
+   ],
+   [
+    "Trang-Oul's Claws",
+    54
+   ],
+   [
+    "Gheed's Fortune",
+    53
+   ],
+   [
+    "Skin of the Vipermagi",
+    31
+   ],
+   [
+    "Harlequin Crest",
+    29
+   ],
+   [
+    "Darkforce Spawn",
+    26
+   ],
+   [
+    "The Stone of Jordan",
+    22
+   ],
+   [
+    "Mara's Kaleidoscope",
+    18
+   ],
+   [
+    "Trang-Oul's Girth",
+    17
+   ],
+   [
+    "Trang-Oul's Scales",
+    16
+   ],
+   [
+    "Que-Hegan's Wisdom",
+    16
+   ],
+   [
+    "Trang-Oul's Guise",
+    15
+   ],
+   [
+    "Boneflame",
+    15
+   ],
+   [
+    "Trang-Oul's Wing",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Cold Arrow",
+    44
+   ],
+   [
+    "Defensive Auras",
+    31
+   ],
+   [
+    "Lightning Spells",
+    9
+   ]
+  ]
+ },
+ "Necromancer|blood_golem": {
+  "skill": "Blood Golem",
+  "n80": 761,
+  "n90": 279,
+  "n95": 29,
+  "items": [
+   [
+    "Harlequin Crest",
+    53
+   ],
+   [
+    "Trang-Oul's Scales",
+    45
+   ],
+   [
+    "Gheed's Fortune",
+    42
+   ],
+   [
+    "Arachnid Mesh",
+    39
+   ],
+   [
+    "Gravepalm",
+    33
+   ],
+   [
+    "Trang-Oul's Claws",
+    28
+   ],
+   [
+    "Dominion",
+    25
+   ],
+   [
+    "Wisp Projector",
+    19
+   ],
+   [
+    "Trang-Oul's Girth",
+    18
+   ],
+   [
+    "Nagelring",
+    18
+   ],
+   [
+    "Mara's Kaleidoscope",
+    17
+   ],
+   [
+    "The Stone of Jordan",
+    15
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    14
+   ],
+   [
+    "Trang-Oul's Wing",
+    13
+   ],
+   [
+    "Kalan's Legacy",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    25
+   ],
+   [
+    "Defensive Auras",
+    19
+   ],
+   [
+    "Might Merc",
+    15
+   ]
+  ]
+ },
+ "Paladin|blessed_hammer": {
+  "skill": "Blessed Hammer",
+  "n80": 76,
+  "n90": 30,
+  "n95": 4,
+  "items": [
+   [
+    "Arachnid Mesh",
+    63
+   ],
+   [
+    "Akarat's Devotion",
+    57
+   ],
+   [
+    "Ephemeral",
+    47
+   ],
+   [
+    "Herald of Zakarum",
+    43
+   ],
+   [
+    "Trang-Oul's Claws",
+    43
+   ],
+   [
+    "Gheed's Fortune",
+    40
+   ],
+   [
+    "Enigma",
+    37
+   ],
+   [
+    "Harlequin Crest",
+    33
+   ],
+   [
+    "Spirit",
+    30
+   ],
+   [
+    "Heart of the Oak",
+    27
+   ],
+   [
+    "Occultist",
+    23
+   ],
+   [
+    "Mara's Kaleidoscope",
+    17
+   ],
+   [
+    "Griswold's Heart",
+    17
+   ],
+   [
+    "Magefist",
+    13
+   ],
+   [
+    "Constricting Loop",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    67
+   ],
+   [
+    "Cold Arrow",
+    17
+   ],
+   [
+    "Cold Spells",
+    7
+   ]
+  ]
+ },
+ "Paladin|vengeance": {
+  "skill": "Vengeance",
+  "n80": 707,
+  "n90": 413,
+  "n95": 63,
+  "items": [
+   [
+    "Kira's Guardian",
+    69
+   ],
+   [
+    "Thundergod's Vigor",
+    55
+   ],
+   [
+    "Gheed's Fortune",
+    54
+   ],
+   [
+    "Highlord's Wrath",
+    54
+   ],
+   [
+    "Dragonscale",
+    53
+   ],
+   [
+    "Lightsabre",
+    51
+   ],
+   [
+    "Raven Frost",
+    44
+   ],
+   [
+    "Merman's Sprocket",
+    41
+   ],
+   [
+    "Dracul's Grasp",
+    40
+   ],
+   [
+    "The Stone of Jordan",
+    35
+   ],
+   [
+    "Herald of Zakarum",
+    33
+   ],
+   [
+    "Corpsemourn",
+    29
+   ],
+   [
+    "Lava Gout",
+    18
+   ],
+   [
+    "Infernostride",
+    17
+   ],
+   [
+    "Alma Negra",
+    16
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    51
+   ],
+   [
+    "Fire Arrow",
+    19
+   ],
+   [
+    "Might Merc",
+    9
+   ]
+  ]
+ },
+ "Paladin|sacrifice": {
+  "skill": "Sacrifice",
+  "n80": 823,
+  "n90": 723,
+  "n95": 134,
+  "items": [
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Raven Frost",
+    53
+   ],
+   [
+    "Alma Negra",
+    49
+   ],
+   [
+    "Herald of Zakarum",
+    42
+   ],
+   [
+    "Schaefer's Hammer",
+    34
+   ],
+   [
+    "Highlord's Wrath",
+    34
+   ],
+   [
+    "Gore Rider",
+    34
+   ],
+   [
+    "Dracul's Grasp",
+    32
+   ],
+   [
+    "Veil of Steel",
+    31
+   ],
+   [
+    "String of Ears",
+    31
+   ],
+   [
+    "Fortitude",
+    27
+   ],
+   [
+    "Death Cleaver",
+    26
+   ],
+   [
+    "Soul Drainer",
+    23
+   ],
+   [
+    "War Traveler",
+    23
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    21
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    46
+   ],
+   [
+    "Might Merc",
+    25
+   ],
+   [
+    "Offensive Auras",
+    13
+   ]
+  ]
+ },
+ "Paladin|charge": {
+  "skill": "Charge",
+  "n80": 94,
+  "n90": 70,
+  "n95": 16,
+  "items": [
+   [
+    "Doombringer",
+    36
+   ],
+   [
+    "Raven Frost",
+    31
+   ],
+   [
+    "Gore Rider",
+    29
+   ],
+   [
+    "Gheed's Fortune",
+    27
+   ],
+   [
+    "Highlord's Wrath",
+    26
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    21
+   ],
+   [
+    "Herald of Zakarum",
+    19
+   ],
+   [
+    "Waterwalk",
+    19
+   ],
+   [
+    "Alma Negra",
+    19
+   ],
+   [
+    "Vampire Gaze",
+    16
+   ],
+   [
+    "Laying of Hands",
+    16
+   ],
+   [
+    "Nature's Peace",
+    16
+   ],
+   [
+    "String of Ears",
+    14
+   ],
+   [
+    "The Gladiator's Bane",
+    13
+   ],
+   [
+    "Andariel's Visage",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Offensive Auras",
+    23
+   ],
+   [
+    "Defensive Auras",
+    23
+   ],
+   [
+    "Fire Arrow",
+    23
+   ]
+  ]
+ },
+ "Paladin|holy_shock": {
+  "skill": "Holy Shock",
+  "n80": 1168,
+  "n90": 1185,
+  "n95": 275,
+  "items": [
+   [
+    "Dracul's Grasp",
+    69
+   ],
+   [
+    "Thundergod's Vigor",
+    64
+   ],
+   [
+    "Gheed's Fortune",
+    56
+   ],
+   [
+    "Griffon's Eye",
+    52
+   ],
+   [
+    "Raven Frost",
+    48
+   ],
+   [
+    "Lightsabre",
+    44
+   ],
+   [
+    "Azurewrath",
+    39
+   ],
+   [
+    "Highlord's Wrath",
+    36
+   ],
+   [
+    "Alma Negra",
+    35
+   ],
+   [
+    "Herald of Zakarum",
+    34
+   ],
+   [
+    "Skywarden",
+    31
+   ],
+   [
+    "Guardian Angel",
+    25
+   ],
+   [
+    "Mara's Kaleidoscope",
+    23
+   ],
+   [
+    "Merman's Sprocket",
+    23
+   ],
+   [
+    "Kira's Guardian",
+    23
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    60
+   ],
+   [
+    "Offensive Auras",
+    20
+   ],
+   [
+    "Lightning Spells",
+    8
+   ]
+  ]
+ },
+ "Paladin|zeal": {
+  "skill": "Zeal",
+  "n80": 507,
+  "n90": 446,
+  "n95": 88,
+  "items": [
+   [
+    "Gheed's Fortune",
+    52
+   ],
+   [
+    "Raven Frost",
+    50
+   ],
+   [
+    "Gore Rider",
+    44
+   ],
+   [
+    "Herald of Zakarum",
+    43
+   ],
+   [
+    "Alma Negra",
+    42
+   ],
+   [
+    "Death Cleaver",
+    37
+   ],
+   [
+    "Highlord's Wrath",
+    34
+   ],
+   [
+    "String of Ears",
+    29
+   ],
+   [
+    "Dracul's Grasp",
+    29
+   ],
+   [
+    "Veil of Steel",
+    27
+   ],
+   [
+    "Schaefer's Hammer",
+    26
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    24
+   ],
+   [
+    "Wraithskin",
+    23
+   ],
+   [
+    "Fortitude",
+    21
+   ],
+   [
+    "Soul Drainer",
+    18
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    40
+   ],
+   [
+    "Might Merc",
+    29
+   ],
+   [
+    "Offensive Auras",
+    14
+   ]
+  ]
+ },
+ "Paladin|sanctuary": {
+  "skill": "Sanctuary",
+  "n80": 146,
+  "n90": 93,
+  "n95": 11,
+  "items": [
+   [
+    "Gheed's Fortune",
+    45
+   ],
+   [
+    "Dracul's Grasp",
+    43
+   ],
+   [
+    "Skywarden",
+    38
+   ],
+   [
+    "Raven Frost",
+    35
+   ],
+   [
+    "Azurewrath",
+    34
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    28
+   ],
+   [
+    "Herald of Zakarum",
+    26
+   ],
+   [
+    "Harlequin Crest",
+    23
+   ],
+   [
+    "The Redeemer",
+    22
+   ],
+   [
+    "Arachnid Mesh",
+    19
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    18
+   ],
+   [
+    "Griswold's Heart",
+    16
+   ],
+   [
+    "Mara's Kaleidoscope",
+    15
+   ],
+   [
+    "Alma Negra",
+    14
+   ],
+   [
+    "Principle",
+    13
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    34
+   ],
+   [
+    "Fire Arrow",
+    19
+   ],
+   [
+    "Lightning Spells",
+    13
+   ]
+  ]
+ },
+ "Paladin|holy_fire": {
+  "skill": "Holy Fire",
+  "n80": 378,
+  "n90": 272,
+  "n95": 50,
+  "items": [
+   [
+    "Kira's Guardian",
+    67
+   ],
+   [
+    "Gheed's Fortune",
+    54
+   ],
+   [
+    "Dragonscale",
+    53
+   ],
+   [
+    "Highlord's Wrath",
+    50
+   ],
+   [
+    "Thundergod's Vigor",
+    50
+   ],
+   [
+    "Lightsabre",
+    45
+   ],
+   [
+    "Merman's Sprocket",
+    38
+   ],
+   [
+    "Raven Frost",
+    36
+   ],
+   [
+    "Dracul's Grasp",
+    35
+   ],
+   [
+    "The Stone of Jordan",
+    33
+   ],
+   [
+    "Corpsemourn",
+    30
+   ],
+   [
+    "Herald of Zakarum",
+    29
+   ],
+   [
+    "Lava Gout",
+    20
+   ],
+   [
+    "Infernostride",
+    18
+   ],
+   [
+    "Alma Negra",
+    18
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    49
+   ],
+   [
+    "Fire Arrow",
+    21
+   ],
+   [
+    "Might Merc",
+    8
+   ]
+  ]
+ },
+ "Paladin|multiple_shot": {
+  "skill": null
+ },
+ "Sorceress|thunder_storm": {
+  "skill": "Thunder Storm",
+  "n80": 73,
+  "n90": 114,
+  "n95": 33,
+  "items": [
+   [
+    "Griffon's Eye",
+    71
+   ],
+   [
+    "Infinity",
+    45
+   ],
+   [
+    "Thundergod's Vigor",
+    45
+   ],
+   [
+    "Gheed's Fortune",
+    43
+   ],
+   [
+    "Occultist",
+    32
+   ],
+   [
+    "Silkweave",
+    32
+   ],
+   [
+    "The Stone of Jordan",
+    31
+   ],
+   [
+    "Constricting Loop",
+    30
+   ],
+   [
+    "Skyfall",
+    19
+   ],
+   [
+    "Atma's Wail",
+    18
+   ],
+   [
+    "Arachnid Mesh",
+    18
+   ],
+   [
+    "Mara's Kaleidoscope",
+    16
+   ],
+   [
+    "Que-Hegan's Wisdom",
+    15
+   ],
+   [
+    "Dracul's Grasp",
+    13
+   ],
+   [
+    "Metalgrid",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    59
+   ],
+   [
+    "Lightning Spells",
+    37
+   ],
+   [
+    "Offensive Auras",
+    3
+   ]
+  ]
+ },
+ "Amazon|split_throw": {
+  "skill": null
+ },
+ "Druid|twister": {
+  "skill": "Twister",
+  "n80": 155,
+  "n90": 79,
+  "n95": 10,
+  "items": [
+   [
+    "Gheed's Fortune",
+    54
+   ],
+   [
+    "Arachnid Mesh",
+    48
+   ],
+   [
+    "Horizon's Tornado",
+    39
+   ],
+   [
+    "Skin of the Vipermagi",
+    29
+   ],
+   [
+    "Fenris",
+    29
+   ],
+   [
+    "Twilight's Reflection",
+    25
+   ],
+   [
+    "Trang-Oul's Claws",
+    24
+   ],
+   [
+    "Mara's Kaleidoscope",
+    20
+   ],
+   [
+    "Aldur's Deception",
+    19
+   ],
+   [
+    "Gerke's Sanctuary",
+    19
+   ],
+   [
+    "Aldur's Advance",
+    18
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    18
+   ],
+   [
+    "Magefist",
+    18
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    16
+   ],
+   [
+    "Merman's Sprocket",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    47
+   ],
+   [
+    "Defensive Auras",
+    35
+   ],
+   [
+    "Lightning Spells",
+    8
+   ]
+  ]
+ },
+ "Sorceress|fire_wall": {
+  "skill": "Fire Wall",
+  "n80": 65,
+  "n90": 21,
+  "n95": 5,
+  "items": [
+   [
+    "Magefist",
+    76
+   ],
+   [
+    "Arachnid Mesh",
+    43
+   ],
+   [
+    "Harlequin Crest",
+    33
+   ],
+   [
+    "Gheed's Fortune",
+    29
+   ],
+   [
+    "Kira's Guardian",
+    24
+   ],
+   [
+    "Tal Rasha's Adjudication",
+    19
+   ],
+   [
+    "The Stone of Jordan",
+    19
+   ],
+   [
+    "Brimstone Rain",
+    19
+   ],
+   [
+    "Ormus' Robes",
+    14
+   ],
+   [
+    "Embersworn",
+    14
+   ],
+   [
+    "Mang Song's Lesson",
+    14
+   ],
+   [
+    "Merman's Sprocket",
+    14
+   ],
+   [
+    "Constricting Loop",
+    14
+   ],
+   [
+    "Waterwalk",
+    14
+   ],
+   [
+    "Wisp Projector",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    62
+   ],
+   [
+    "Cold Arrow",
+    14
+   ],
+   [
+    "Might Merc",
+    14
+   ]
+  ]
+ },
+ "Assassin|mind_blast": {
+  "skill": "Mind Blast",
+  "n80": 376,
+  "n90": 353,
+  "n95": 83,
+  "items": [
+   [
+    "Whispering Mirage",
+    86
+   ],
+   [
+    "Shadow Dancer",
+    79
+   ],
+   [
+    "Arachnid Mesh",
+    70
+   ],
+   [
+    "Gheed's Fortune",
+    52
+   ],
+   [
+    "Enigma",
+    48
+   ],
+   [
+    "Occultist",
+    32
+   ],
+   [
+    "Trang-Oul's Claws",
+    25
+   ],
+   [
+    "Harlequin Crest",
+    22
+   ],
+   [
+    "Constricting Loop",
+    22
+   ],
+   [
+    "Magefist",
+    20
+   ],
+   [
+    "Shadow Killer",
+    16
+   ],
+   [
+    "Natalya's Shadow",
+    15
+   ],
+   [
+    "Skin of the Vipermagi",
+    14
+   ],
+   [
+    "Mara's Kaleidoscope",
+    11
+   ],
+   [
+    "Raven Frost",
+    11
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    51
+   ],
+   [
+    "Defensive Auras",
+    25
+   ],
+   [
+    "Physical Arrow",
+    8
+   ]
+  ]
+ },
+ "Amazon|valkyrie": {
+  "skill": "Valkyrie",
+  "n80": 1392,
+  "n90": 1128,
+  "n95": 258,
+  "items": [
+   [
+    "Gheed's Fortune",
+    62
+   ],
+   [
+    "Razortail",
+    34
+   ],
+   [
+    "Raven Frost",
+    34
+   ],
+   [
+    "Atma's Scarab",
+    30
+   ],
+   [
+    "Fortitude",
+    28
+   ],
+   [
+    "War Traveler",
+    27
+   ],
+   [
+    "Valkyrie Wing",
+    26
+   ],
+   [
+    "Giant Skull",
+    20
+   ],
+   [
+    "Wisp Projector",
+    18
+   ],
+   [
+    "Doom's Finger",
+    17
+   ],
+   [
+    "Windforce",
+    16
+   ],
+   [
+    "Ebonbane",
+    16
+   ],
+   [
+    "Laying of Hands",
+    15
+   ],
+   [
+    "Nosferatu's Coil",
+    15
+   ],
+   [
+    "Demon Machine",
+    14
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    61
+   ],
+   [
+    "Might Merc",
+    14
+   ],
+   [
+    "Defensive Auras",
+    7
+   ]
+  ]
+ },
+ "Amazon|magic_arrow": {
+  "skill": "Magic Arrow",
+  "n80": 675,
+  "n90": 559,
+  "n95": 113,
+  "items": [
+   [
+    "Gheed's Fortune",
+    55
+   ],
+   [
+    "Basilisk's Quill",
+    32
+   ],
+   [
+    "Frozen Sorrow",
+    30
+   ],
+   [
+    "Nightwing's Veil",
+    30
+   ],
+   [
+    "Snowclash",
+    30
+   ],
+   [
+    "Wisp Projector",
+    24
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    24
+   ],
+   [
+    "Merman's Sprocket",
+    23
+   ],
+   [
+    "Raven Frost",
+    23
+   ],
+   [
+    "Pus Spitter",
+    22
+   ],
+   [
+    "Razortail",
+    21
+   ],
+   [
+    "Kira's Guardian",
+    20
+   ],
+   [
+    "Mara's Kaleidoscope",
+    19
+   ],
+   [
+    "Blood Raven's Charge",
+    18
+   ],
+   [
+    "Arachnid Mesh",
+    15
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    56
+   ],
+   [
+    "Defensive Auras",
+    18
+   ],
+   [
+    "Cold Spells",
+    6
+   ]
+  ]
+ },
+ "Necromancer|clay_golem": {
+  "skill": "Clay Golem",
+  "n80": 972,
+  "n90": 292,
+  "n95": 26,
+  "items": [
+   [
+    "Harlequin Crest",
+    54
+   ],
+   [
+    "Trang-Oul's Scales",
+    48
+   ],
+   [
+    "Gheed's Fortune",
+    47
+   ],
+   [
+    "Arachnid Mesh",
+    43
+   ],
+   [
+    "Gravepalm",
+    36
+   ],
+   [
+    "Dominion",
+    29
+   ],
+   [
+    "Trang-Oul's Claws",
+    24
+   ],
+   [
+    "Mara's Kaleidoscope",
+    20
+   ],
+   [
+    "Wisp Projector",
+    17
+   ],
+   [
+    "Bul-Kathos' Wedding Band",
+    16
+   ],
+   [
+    "Nagelring",
+    16
+   ],
+   [
+    "Trang-Oul's Girth",
+    16
+   ],
+   [
+    "The Stone of Jordan",
+    15
+   ],
+   [
+    "Phoenix",
+    13
+   ],
+   [
+    "Boneflame",
+    12
+   ]
+  ],
+  "mercs": [
+   [
+    "Fire Arrow",
+    25
+   ],
+   [
+    "Defensive Auras",
+    25
+   ],
+   [
+    "Might Merc",
+    14
+   ]
+  ]
+ },
+ "Paladin|holy_bolt": {
+  "skill": "Holy Bolt",
+  "n80": 897,
+  "n90": 261,
+  "n95": 23,
+  "items": [
+   [
+    "Gheed's Fortune",
+    53
+   ],
+   [
+    "Arachnid Mesh",
+    50
+   ],
+   [
+    "Griswold's Heart",
+    32
+   ],
+   [
+    "Herald of Zakarum",
+    31
+   ],
+   [
+    "Ephemeral",
+    28
+   ],
+   [
+    "Griswold's Valor",
+    26
+   ],
+   [
+    "Heart of the Oak",
+    25
+   ],
+   [
+    "Griswold's Honor",
+    24
+   ],
+   [
+    "Griswold's Redemption",
+    24
+   ],
+   [
+    "Magefist",
+    23
+   ],
+   [
+    "Spirit",
+    21
+   ],
+   [
+    "Hand of Blessed Light",
+    21
+   ],
+   [
+    "Harlequin Crest",
+    20
+   ],
+   [
+    "Trang-Oul's Claws",
+    20
+   ],
+   [
+    "Occultist",
+    19
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    62
+   ],
+   [
+    "Cold Arrow",
+    10
+   ],
+   [
+    "Might Merc",
+    9
+   ]
+  ]
+ },
+ "Paladin|smite": {
+  "skill": "Smite",
+  "n80": 72,
+  "n90": 34,
+  "n95": 2,
+  "items": [
+   [
+    "Astreon's Iron Ward",
+    56
+   ],
+   [
+    "Herald of Zakarum",
+    50
+   ],
+   [
+    "Steelrend",
+    32
+   ],
+   [
+    "Gore Rider",
+    32
+   ],
+   [
+    "Siggard's Staunch",
+    29
+   ],
+   [
+    "Goblin Toe",
+    29
+   ],
+   [
+    "Dracul's Grasp",
+    29
+   ],
+   [
+    "Raven Frost",
+    26
+   ],
+   [
+    "Gheed's Fortune",
+    24
+   ],
+   [
+    "Bul-Kathos' Death Band",
+    24
+   ],
+   [
+    "Verdungo's Hearty Cord",
+    24
+   ],
+   [
+    "Crown of Ages",
+    21
+   ],
+   [
+    "Wisp Projector",
+    21
+   ],
+   [
+    "Ephemeral",
+    21
+   ],
+   [
+    "Harlequin Crest",
+    21
+   ]
+  ],
+  "mercs": [
+   [
+    "Defensive Auras",
+    38
+   ],
+   [
+    "Might Merc",
+    26
+   ],
+   [
+    "Offensive Auras",
+    9
+   ]
+  ]
+ }
+}

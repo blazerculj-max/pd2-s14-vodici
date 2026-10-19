@@ -1,0 +1,320 @@
+<section id="pot">
+  <div class="sec-head">
+    <div class="eyebrow">Pot skozi sezono</div>
+    <h2>Trije koraki</h2>
+  </div>
+  <div class="route">
+    <div class="step">
+      <div class="lvl">Level 1–80</div>
+      <h3>Leveling kot summoner</h3>
+      <p>Peti tankajo, Ravens in volkovi delajo škodo brez dobre opreme. Najvarnejša pot skozi Normal, Nightmare in Hell.</p>
+    </div>
+    <div class="step">
+      <div class="lvl">Level ~80–85</div>
+      <h3>Respec v Poison Creeper</h3>
+      <p>Ko imaš +skills helm, skupaj +6–8 skillov in vsaj 30 % FCR. Oprema s +Summoning Skills ostane uporabna.</p>
+    </div>
+    <div class="step">
+      <div class="lvl">Level 85+</div>
+      <h3>Endgame</h3>
+      <p>Creeper za corrupted zone, mape T1–T3 in bosse. Ali ostani summoner, če ti je MF pomembnejši od hitrosti.</p>
+    </div>
+  </div>
+</section>
+
+<section id="leveling">
+  <div class="sec-head">
+    <div class="eyebrow">Level 1–80</div>
+    <h2>Leveling kot summoner</h2>
+    <p>Hard točke v skillu so omejene z levelom: skill z zahtevanim levelom 30 ima lahko 20 točk šele na levelu 49.</p>
+  </div>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Level</th><th>Kam gredo točke</th><th>Zakaj</th></tr></thead>
+      <tbody>
+        <tr><td class="l">1–11</td><td>Summon Ravens; na levelu 6 še 1 v Heart of Wolverine</td><td>Vsak raven udari 5-krat, od S13 dela 100 % cold škodo</td></tr>
+        <tr><td class="l">12–17</td><td>Summon Spirit Wolf (glavna prioriteta)</td><td>Do 6 volkov, tankajo in sinergirajo Ravens. Po želji Poison Creeper 1 in Carrion Vine 1 za zdravljenje</td></tr>
+        <tr><td class="l">~18</td><td>Arctic Blast 1, Cyclone Armor 1, Gust 1</td><td>Gust je druidov skok s cooldownom; Cyclone Armor absorbira elementalno škodo</td></tr>
+        <tr><td class="l">24</td><td>Summon Dire Wolf 1</td><td>Predpogoj za Grizzly</td></tr>
+        <tr><td class="l">30–49</td><td>Summon Grizzly do 20</td><td>Pri 20 hard točkah dobiš drugega medveda</td></tr>
+        <tr><td class="l">50+</td><td>Spirit Wolf → Ravens → Heart of Wolverine → Dire Wolf</td><td>Top summonerji imajo na levelu 90+ vseh pet na 20</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="cols">
+    <div class="panel">
+      <h3>Stati</h3>
+      <dl class="kv">
+        <dt>Strength</dt><dd>Toliko, kot zahteva oprema</dd>
+        <dt>Dexterity</dt><dd>Le če hočeš max block s ščitom</dd>
+        <dt>Vitality</dt><dd>Vse ostalo</dd>
+        <dt>Energy</dt><dd>Nič</dd>
+      </dl>
+    </div>
+    <div class="panel">
+      <h3>Kje levelati</h3>
+      <ul>
+        <li>Normal in Nightmare: questi in act bossi. Den of Evil, Radament in Izual dajo skupaj 12 skill točk čez tri težavnosti.</li>
+        <li>Hell: Chaos Sanctuary in Baal.</li>
+        <li>Po Baalovem questu v Hellu: corrupted zone (level 85, nova vsakih 15 minut, tracker na pd2.tools) in 3 mape T1 od Anye.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Respec</h3>
+      <ul>
+        <li>Akara: enkrat na težavnost.</li>
+        <li>Token of Absolution: 4 essence iz Nightmare ali Hell bossov (Andariel ali Duriel, Mephisto, Diablo, Baal).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="respec">
+  <div class="sec-head">
+    <div class="eyebrow">Končna razporeditev točk</div>
+    <h2>Respec in končni build</h2>
+    <p>Respecaj, ko imaš Aldur's Stony Gaze ali drug +skills helm, skupaj +6–8 skillov, vsaj 30 % FCR (raje 46 %) in polne rese v Hellu.</p>
+  </div>
+  <div class="toggle-row">
+    <div class="toggle" role="group" aria-label="Izberi build">
+      <button type="button" id="path-creeper" data-path="creeper" aria-pressed="true">Poison Creeper</button>
+      <button type="button" id="path-summoner" data-path="summoner" aria-pressed="false">Summoner</button>
+    </div>
+    <span class="muted" style="font-size:0.92rem">Izbira velja tudi za fazo 3 opreme in za merca.</span>
+  </div>
+
+  <div class="cols" data-only="creeper">
+    <div class="panel">
+      <h3>Poison Creeper</h3>
+      <div class="alloc">
+        <div class="arow"><span class="name">Poison Creeper</span><span class="bar"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Carrion Vine</span><span class="bar syn"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Solar Creeper</span><span class="bar syn"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Rabies</span><span class="bar syn"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Gust</span><span class="bar"><i style="width:25%"></i></span><span class="pts">rest</span></div>
+        <div class="arow"><span class="name">11 predpogojev</span><span class="bar one"><i style="width:5%"></i></span><span class="pts">1×11</span></div>
+      </div>
+      <p class="math">Level L = (L − 1) + 12 točk iz questov. Level 85 → 96 točk: build porabi 92 (z 1 točko v Gust), ostale 4 gredo še v Gust. Top igralci imajo v Gustu ~13.</p>
+    </div>
+    <div class="panel">
+      <h3>Vrstni red po respecu</h3>
+      <ul>
+        <li>Poison Creeper do 20 (glavni skill)</li>
+        <li>Carrion Vine do 20 (zdravi), nato Solar Creeper do 20 (mana)</li>
+        <li>Rabies do 20: tretja sinergija, vsaka da Creeperju +14 % na točko</li>
+        <li>Po 1 točka: Werewolf, Feral Rage, Ravens, Heart of Wolverine, Spirit Wolf, Dire Wolf, Grizzly, Oak Sage, Spirit of Barbs, Arctic Blast, Cyclone Armor</li>
+        <li>Vse ostalo v Gust (cooldown pade do 0,52 s)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cols" data-only="summoner" hidden>
+    <div class="panel">
+      <h3>Summoner (ostaneš)</h3>
+      <div class="alloc">
+        <div class="arow"><span class="name">Summon Grizzly</span><span class="bar"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Summon Spirit Wolf</span><span class="bar"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Summon Ravens</span><span class="bar"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Heart of Wolverine</span><span class="bar syn"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Summon Dire Wolf</span><span class="bar syn"><i style="width:100%"></i></span><span class="pts">20</span></div>
+        <div class="arow"><span class="name">Gust</span><span class="bar"><i style="width:10%"></i></span><span class="pts">2+</span></div>
+        <div class="arow"><span class="name">5 predpogojev</span><span class="bar one"><i style="width:5%"></i></span><span class="pts">1×5</span></div>
+      </div>
+      <p class="math">Skupaj 107 točk → vse na mestu pri levelu 96. Predpogoji: Arctic Blast, Cyclone Armor, Poison Creeper, Carrion Vine, Solar Creeper.</p>
+    </div>
+    <div class="panel">
+      <h3>Prioritete</h3>
+      <ul>
+        <li>Grizzly, Spirit Wolf in Ravens so obvezni (90 % top summonerjev jih ima na 20).</li>
+        <li>Heart of Wolverine (61 %) in Dire Wolf (42 %) pridejo zadnji.</li>
+        <li>Carrion Vine na 1 točki: zdravljenje iz trupel brez dodatnih stroškov.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="oprema">
+  <div class="sec-head">
+    <div class="eyebrow">Gear progress</div>
+    <h2>Oprema po fazah</h2>
+    <p>Faza 2 in 3 temeljita na tem, kar so top druidi v S13 dejansko nosili 1.–10. dan in na koncu sezone. Odkljukaj, kar že imaš; kljukice ostanejo v tem brskalniku.</p>
+  </div>
+  <div class="legend">
+    <span class="q-u">Unique</span><span class="q-s">Set</span><span class="q-r">Runeword</span><span class="q-y">Rare</span><span class="q-m">Magic</span>
+  </div>
+
+  <div class="phase" data-phase="1">
+    <div class="phase-head"><h3>Faza 1 · leveling (level 20–60)</h3><span class="count"></span></div>
+    <div class="gear">
+      <div class="g"><span class="slot">Orožje</span><label><input type="checkbox" id="p1-spirit"><span><span class="item q-r">Spirit</span><span class="runes">Tal · Thul · Ort · Amn</span></span></label><span class="why">Na staffu +2 vse skille, na meču +1; 25–35 % FCR</span><span class="req">lvl 25</span></div>
+      <div class="g"><span class="slot">Ščit</span><label><input type="checkbox" id="p1-pledge"><span><span class="item q-r">Ancients' Pledge</span><span class="runes">Ral · Ort · Tal</span></span></label><span class="why">Visoki resi za Nightmare in Hell</span><span class="req">lvl 21</span></div>
+      <div class="g alt"><span class="slot"></span><label><input type="checkbox" id="p1-rhyme"><span><span class="item q-r">Rhyme</span><span class="runes">Shael · Eth</span></span></label><span class="why">Cannot Be Frozen, resi +25, 25 % MF</span><span class="req">lvl 29</span></div>
+      <div class="g"><span class="slot">Helm</span><label><input type="checkbox" id="p1-lore"><span><span class="item q-r">Lore</span><span class="runes">Ort · Sol</span></span></label><span class="why">+1 vse skille</span><span class="req">lvl 27</span></div>
+      <div class="g alt"><span class="slot"></span><label><input type="checkbox" id="p1-pelt"><span><span class="item q-m">Druid pelt</span></span></label><span class="why">Pelti lahko imajo +3 na posamezne druid skille, poceni od vendorjev</span><span class="req">—</span></div>
+      <div class="g"><span class="slot">Oklep</span><label><input type="checkbox" id="p1-stealth"><span><span class="item q-r">Stealth</span><span class="runes">Tal · Eth</span></span></label><span class="why">20 % FCR, 20 % FHR</span><span class="req">lvl 17</span></div>
+      <div class="g alt"><span class="slot"></span><label><input type="checkbox" id="p1-smoke"><span><span class="item q-r">Smoke</span><span class="runes">Nef · Lum</span></span></label><span class="why">Vsi resi +30–50 za Hell</span><span class="req">lvl 37</span></div>
+      <div class="g"><span class="slot">Rokavice</span><label><input type="checkbox" id="p1-chance"><span><span class="item q-u">Chance Guards</span></span></label><span class="why">25–40 % MF, 200 % zlata</span><span class="req">lvl 15</span></div>
+      <div class="g"><span class="slot">Škornji</span><label><input type="checkbox" id="p1-rite"><span><span class="item q-s">Rite of Passage</span></span></label><span class="why">30 % FRW, Cannot Be Frozen</span><span class="req">lvl 29</span></div>
+      <div class="g"><span class="slot">Nakit</span><label><input type="checkbox" id="p1-jewel"><span><span class="item q-m">Amulet in prstani</span></span></label><span class="why">+druid skills, FCR, resi; Nagelring za MF</span><span class="req">—</span></div>
+    </div>
+  </div>
+
+  <div class="phase" data-phase="2">
+    <div class="phase-head"><h3>Faza 2 · prvi teden (level 75–90)</h3><span class="count"></span></div>
+    <div class="gear">
+      <div class="g"><span class="slot">Helm</span><label><input type="checkbox" id="p2-aldurhelm"><span><span class="item q-s">Aldur's Stony Gaze</span></span></label><span class="why">+1–2 Summoning, +1–2 druid skills, 25 % FHR, 17 % mana regen. Najpogostejši helm pri obeh buildih</span><span class="req">lvl 36</span></div>
+      <div class="g alt" data-only="summoner" hidden><span class="slot"></span><label><input type="checkbox" id="p2-fenris"><span><span class="item q-u">Fenris</span></span></label><span class="why">+2 Spirit Wolves, +2 Spirit Wolf, +2 Heart of Wolverine</span><span class="req">lvl 40</span></div>
+      <div class="g alt" data-only="summoner" hidden><span class="slot"></span><label><input type="checkbox" id="p2-denmother"><span><span class="item q-u">Denmother</span></span></label><span class="why">+2 medveda, 20 % FCR, +2 druid skills. Izgubiš pa vse volkove</span><span class="req">lvl 58</span></div>
+      <div class="g alt" data-only="creeper"><span class="slot"></span><label><input type="checkbox" id="p2-quetz"><span><span class="item q-u">Quetzalcoatl</span></span></label><span class="why">Gust cooldown −2 s, 10 % FCR, +1–2 druid skills</span><span class="req">lvl 29</span></div>
+      <div class="g"><span class="slot">Oklep</span><label><input type="checkbox" id="p2-ga"><span><span class="item q-u">Guardian Angel</span></span></label><span class="why">+1–2 vse skille, +4–6 % max resi, block</span><span class="req">lvl 45</span></div>
+      <div class="g alt"><span class="slot"></span><label><input type="checkbox" id="p2-aldurchest"><span><span class="item q-s">Aldur's Deception</span></span></label><span class="why">+1–2 Elemental in Shape Shifting, Lightning res, del seta</span><span class="req">lvl 76</span></div>
+      <div class="g"><span class="slot">Orožje</span><label><input type="checkbox" id="p2-hoto"><span><span class="item q-r">Heart of the Oak</span><span class="runes">Ko · Vex · Pul · Thul</span></span></label><span class="why">+3 vse skille, 30 % FCR, vsi resi +20–30. Staff ali tipped mace</span><span class="req">lvl 55</span></div>
+      <div class="g alt" data-only="summoner" hidden><span class="slot"></span><label><input type="checkbox" id="p2-athena"><span><span class="item q-u">Athena's Wrath</span></span></label><span class="why">+3–4 Spirit Wolves, +2 Summoning, +1–3 druid skills. Dvoročno</span><span class="req">lvl 42</span></div>
+      <div class="g"><span class="slot">Ščit</span><label><input type="checkbox" id="p2-spiritward"><span><span class="item q-u">Spirit Ward</span></span></label><span class="why">+2 skille naključnega razreda (rabiš druid roll), block, vsi resi +20–30</span><span class="req">lvl 68</span></div>
+      <div class="g"><span class="slot">Pas</span><label><input type="checkbox" id="p2-mesh"><span><span class="item q-u">Arachnid Mesh</span></span></label><span class="why">+1 vse skille, 10 % FCR</span><span class="req">lvl 80</span></div>
+      <div class="g"><span class="slot">Rokavice</span><label><input type="checkbox" id="p2-titan"><span><span class="item q-u">Titan's Grip</span></span></label><span class="why">Block, Half Freeze Duration, Lightning res</span><span class="req">lvl 42</span></div>
+      <div class="g"><span class="slot">Škornji</span><label><input type="checkbox" id="p2-aldurboots"><span><span class="item q-s">Aldur's Advance</span></span></label><span class="why">40 % FRW, +50 life, Fire res</span><span class="req">lvl 45</span></div>
+      <div class="g"><span class="slot">Prstani</span><label><input type="checkbox" id="p2-bk"><span><span class="item q-u">Bul-Kathos' Wedding Band</span></span></label><span class="why">+1 vse skille, life leech, life</span><span class="req">lvl 58</span></div>
+      <div class="g"><span class="slot">Switch</span><label><input type="checkbox" id="p2-cta"><span><span class="item q-r">Call to Arms</span><span class="runes">Amn · Ral · Mal · Ist · Ohm</span></span></label><span class="why">Battle Orders pred bojem. Zraven Lidless Wall (+1 vse skille)</span><span class="req">—</span></div>
+    </div>
+  </div>
+
+  <div class="phase" data-phase="3">
+    <div class="phase-head"><h3>Faza 3 · endgame <span data-only="creeper">(Poison Creeper)</span><span data-only="summoner" hidden>(Summoner)</span></h3><span class="count"></span></div>
+
+    <div class="gear" data-only="creeper">
+      <div class="g"><span class="slot">Orožje</span><label><input type="checkbox" id="p3c-plague"><span><span class="item q-r">Plague</span><span class="runes">Cham · Fal · Um (3 socketi)</span></span></label><span class="why">+1–2 vse skille, 20 % FCR, Lower Resist ob udarcu nate, Poison Nova proci. Njegov −23 % poison res Creeperju ne pomaga</span><span class="req">lvl 67</span></div>
+      <div class="g alt"><span class="slot"></span><label><input type="checkbox" id="p3c-bearer"><span><span class="item q-u">Plague Bearer</span></span></label><span class="why">+4–5 Rabies. V S14: 8 % Poison Nova level 20</span><span class="req">lvl 41</span></div>
+      <div class="g"><span class="slot">Helm</span><label><input type="checkbox" id="p3c-keeper"><span><span class="item q-u">Spirit Keeper</span></span></label><span class="why">+2 druid skills, dodaten spirit (Heart of Wolverine in Oak Sage hkrati). Aldur's Stony Gaze ostaja dobra izbira</span><span class="req">lvl 67</span></div>
+      <div class="g"><span class="slot">Ščit</span><label><input type="checkbox" id="p3c-ward"><span><span class="item q-u">Spirit Ward</span></span></label><span class="why">Druid roll +2, block, resi</span><span class="req">lvl 68</span></div>
+      <div class="g"><span class="slot">Oklep</span><label><input type="checkbox" id="p3c-ga"><span><span class="item q-u">Guardian Angel</span></span></label><span class="why">Ali rare oklep s S14 affixi (+2 class skills, 30 % FCR)</span><span class="req">lvl 45</span></div>
+      <div class="g"><span class="slot">Rokavice</span><label><input type="checkbox" id="p3c-occ"><span><span class="item q-u">Occultist</span></span></label><span class="why">20 % FCR, +25–35 % max mana. Za MF ostani na Chance Guards</span><span class="req">lvl 70</span></div>
+      <div class="g"><span class="slot">Pas</span><label><input type="checkbox" id="p3c-mesh"><span><span class="item q-u">Arachnid Mesh</span></span></label><span class="why">+1 vse skille, FCR</span><span class="req">lvl 80</span></div>
+      <div class="g"><span class="slot">Škornji</span><label><input type="checkbox" id="p3c-boots"><span><span class="item q-y">Rare škornji</span></span></label><span class="why">S14 rare-only: 40 % FRW + resi. Do takrat Aldur's Advance</span><span class="req">—</span></div>
+      <div class="g"><span class="slot">Prstani</span><label><input type="checkbox" id="p3c-rings"><span><span class="item q-u">SoJ + BK</span></span></label><span class="why">The Stone of Jordan in Bul-Kathos' Wedding Band: +1 vse skille vsak</span><span class="req">—</span></div>
+      <div class="g"><span class="slot">Amulet</span><label><input type="checkbox" id="p3c-ammy"><span><span class="item q-m">+3 druid skills</span></span></label><span class="why">Magic amulet; najpogostejša izbira pri top druidih</span><span class="req">—</span></div>
+      <div class="g"><span class="slot">Charmi</span><label><input type="checkbox" id="p3c-charms"><span><span class="item q-m">+1 Summoning Skills GC</span></span></label><span class="why">Creeper je v Summoning drevesu. Zraven Gheed's Fortune za MF</span><span class="req">—</span></div>
+    </div>
+
+    <div class="gear" data-only="summoner" hidden>
+      <div class="g"><span class="slot">Set</span><label><input type="checkbox" id="p3s-aldur"><span><span class="item q-s">Aldur's Watchtower (polni set)</span></span></label><span class="why">Stony Gaze, Deception, Rhythm, Advance: +3 druid skills, vsi resi +50, 50 % MF (3 kosi), +350 % ED, FCR</span><span class="req">lvl 76</span></div>
+      <div class="g alt"><span class="slot">Helm</span><label><input type="checkbox" id="p3s-helm"><span><span class="item q-u">Denmother, Fenris ali Spirit Keeper</span></span></label><span class="why">Če ne nosiš polnega seta: več medvedov, več volkov ali dodaten spirit</span><span class="req">—</span></div>
+      <div class="g"><span class="slot">Ščit</span><label><input type="checkbox" id="p3s-ward"><span><span class="item q-u">Spirit Ward</span></span></label><span class="why">Druid roll +2, block, resi</span><span class="req">lvl 68</span></div>
+      <div class="g"><span class="slot">Rokavice</span><label><input type="checkbox" id="p3s-chance"><span><span class="item q-u">Chance Guards</span></span></label><span class="why">MF; summonerji jih nosijo do konca</span><span class="req">lvl 15</span></div>
+      <div class="g"><span class="slot">Pas</span><label><input type="checkbox" id="p3s-mesh"><span><span class="item q-u">Arachnid Mesh</span></span></label><span class="why">+1 vse skille, FCR</span><span class="req">lvl 80</span></div>
+      <div class="g"><span class="slot">Prstani</span><label><input type="checkbox" id="p3s-rings"><span><span class="item q-u">BK + SoJ</span></span></label><span class="why">Ali Nagelring za več MF</span><span class="req">—</span></div>
+      <div class="g"><span class="slot">Amulet</span><label><input type="checkbox" id="p3s-ammy"><span><span class="item q-m">+3 druid skills</span></span></label><span class="why">Magic amulet</span><span class="req">—</span></div>
+      <div class="g"><span class="slot">Charmi</span><label><input type="checkbox" id="p3s-charms"><span><span class="item q-u">Gheed's Fortune</span></span></label><span class="why">20–40 % MF, 80–160 % zlata; nosi ga ~56 % top summonerjev</span><span class="req">—</span></div>
+    </div>
+  </div>
+
+  <div class="note"><b>S14 rari:</b> novi rare-only affixi dajo +2 class skills (helm, oklep, ščit), 30 % FCR (oklep, ščit), 20 % FCR (rokavice, pas, amulet) in 40 % FRW (škornji). Dober rare lahko zamenja unique, zato rarov ne prodajaj na slepo.</div>
+</section>
+
+<section id="merc">
+  <div class="sec-head">
+    <div class="eyebrow">Mercenary</div>
+    <h2>Merc</h2>
+    <p>Merc podeduje tvoj MF. Nosi lahko helm, oklep, rokavice, škornje, pas ter lok ali samostrel.</p>
+  </div>
+  <div class="cols">
+    <div class="panel">
+      <h3>Act 1 Fire Rogue (Vigor)</h3>
+      <p>Vigor aura te pospeši, druid pa nima teleporta. V S13 ga je imelo 42–58 % top druidov. Velja za leveling in oba builda.</p>
+    </div>
+    <div class="panel" data-only="creeper">
+      <h3>Creeper endgame</h3>
+      <p><span class="q-u"><b>Pus Spitter</b></span> (samostrel, lvl 36): 28 % možnost za Lower Resist level 35 ob zadetku. Ta zlomi poison imune, ki jih Creeper sam ne more. V S14 ima +2 vse skille (prej +2–3), proc ostane enak.</p>
+      <p class="muted">Ostalo iz S13 podatkov: String of Ears, Andariel's Visage, Dracul's Grasp, Innocence.</p>
+    </div>
+    <div class="panel" data-only="summoner" hidden>
+      <h3>Summoner endgame</h3>
+      <p><span class="q-u"><b>Templar's Might</b></span> (lvl 74): Might aura okrepi fizično škodo petov. V S14 dobi +40–50 Strength in Vitality.</p>
+      <p class="muted">Ostalo iz S13 podatkov: Andariel's Visage, String of Ears, Witchwild String, Laying of Hands, Giant Skull.</p>
+    </div>
+  </div>
+</section>
+
+<section id="breakpointi">
+  <div class="sec-head">
+    <div class="eyebrow">Druid v človeški obliki</div>
+    <h2>Breakpointi</h2>
+    <p>Poudarjene vrednosti so cilji. Vmesni odstotki ne naredijo nič, štejejo le pragovi.</p>
+  </div>
+  <div class="bp">
+    <div class="bp-row">
+      <div class="lab"><b>FCR</b><span class="muted">creeper: 46 → 68 · summoner: 30 je dovolj</span></div>
+      <div class="chips"><span class="chip">0</span><span class="chip">4</span><span class="chip">10</span><span class="chip">19</span><span class="chip t">30</span><span class="chip t">46</span><span class="chip t">68</span><span class="chip">99</span><span class="chip">163</span></div>
+    </div>
+    <div class="bp-row">
+      <div class="lab"><b>FHR · enoročno swing orožje</b><span class="muted">club, mace, meč</span></div>
+      <div class="chips"><span class="chip">0</span><span class="chip">3</span><span class="chip">7</span><span class="chip">13</span><span class="chip">19</span><span class="chip t">29</span><span class="chip t">42</span><span class="chip">63</span><span class="chip">99</span><span class="chip">174</span></div>
+    </div>
+    <div class="bp-row">
+      <div class="lab"><b>FHR · staff in ostalo</b></div>
+      <div class="chips"><span class="chip">0</span><span class="chip">5</span><span class="chip">10</span><span class="chip">16</span><span class="chip t">26</span><span class="chip t">39</span><span class="chip">56</span><span class="chip">86</span><span class="chip">152</span></div>
+    </div>
+    <div class="bp-row">
+      <div class="lab"><b>FBR</b><span class="muted">samo če nosiš ščit za block</span></div>
+      <div class="chips"><span class="chip">0</span><span class="chip">6</span><span class="chip">13</span><span class="chip">20</span><span class="chip t">32</span><span class="chip t">52</span><span class="chip">86</span><span class="chip">174</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="mehanike">
+  <div class="sec-head">
+    <div class="eyebrow">Iz wikija</div>
+    <h2>Mehanike, ki štejejo</h2>
+  </div>
+  <div class="facts-list">
+    <div class="panel">
+      <h3>Poison Creeper</h3>
+      <ul>
+        <li>Zniža poison res za −5 % do največ −40 %. Proti imunim deluje s polovico, zato zlomi le imune do 119 %.</li>
+        <li>Ne dobi bonusa od +% Poison Skill Damage niti od −% Enemy Poison Resistance na opremi. Raste samo s +skilli in sinergijami.</li>
+        <li>Carrion Vine, Solar Creeper in Rabies dajo vsak +14 % na hard točko: pri 20/20/20 je to +840 %.</li>
+        <li class="mono" style="font-size:0.88rem">Škoda v 4 s: L20 62 · L30 309 · L40 778 · L50 1246</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Summoni</h3>
+      <ul>
+        <li>Ravens: vsak udari 5-krat, do 15 hkrati, +8 % na točko od Spirit Wolf, Dire Wolf in Grizzly.</li>
+        <li>Grizzly: drugi medved pri 20 hard točkah. Denmother doda 2, a vzame volkove.</li>
+        <li>Spirit Wolves: do 6; Fenris doda 2, Athena's Wrath 3–4.</li>
+        <li>Stalni peti ostanejo med igrami (razen ravnov).</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Gibanje in strup</h3>
+      <ul>
+        <li>Gust cooldown: <span class="mono">L1 6,32 s · L20 2,52 s · L30+ 0,52 s</span>. Quetzalcoatl odšteje še 2 s.</li>
+        <li>Strup iz različnih virov (ti, merc, summon) se ne prepisuje. Creeper in Rabies se seštevata.</li>
+        <li>V partyju imajo pošasti +70 % HP na vsakega dodatnega igralca.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="s14">
+  <div class="sec-head">
+    <div class="eyebrow">Season 14 Alliance · začetek 23. 10. 2026</div>
+    <h2>S14 spremembe za druida</h2>
+    <p>Iz okvirnih (beta) patch notes. Statistike novih runewordov Madness, Finesse, Deception in Jealousy še niso znane.</p>
+  </div>
+  <div class="s14">
+    <ul>
+      <li><span class="tag buff">Buff</span><span>Druid dobi +3 mane na level in +3 na točko energije (prej +2).</span></li>
+      <li><span class="tag buff">Buff</span><span>Peti ti sledijo na večji razdalji.</span></li>
+      <li><span class="tag buff">Buff</span><span>Dire Wolves: 5 % physical pierce, +1 % na vsak drugi level, do 20 %.</span></li>
+      <li><span class="tag buff">Popravek</span><span>Strup in krvavenje iz različnih virov se ne prepisujeta več.</span></li>
+      <li><span class="tag buff">Buff</span><span>Plague Bearer: Poison Nova proc 8 % level 20 (prej 5 % level 14).</span></li>
+      <li><span class="tag buff">Buff</span><span>Templar's Might: +40–50 Strength in Vitality (prej +20–30).</span></li>
+      <li><span class="tag nerf">Nerf</span><span>Pus Spitter: +2 vse skille (prej +2–3). Lower Resist proc ostane enak.</span></li>
+      <li><span class="tag info">Itemi</span><span>Novi rare-only affixi (+2 class skills, 30 % in 20 % FCR, 40 % FRW) pridejo med beto. Mape višjih tierov dajo več dobrih affixov.</span></li>
+      <li><span class="tag info">Mape</span><span>Poisoned Well (T1), Descent from Mount Arreat (T2) in Dark Temple (T2) so prvo sezono brez imunih. Sanatorium gre v T1.</span></li>
+      <li><span class="tag info">Korupcije</span><span>Oklep: +20 % FCR (tier 3). Škornji, rokavice in pas dobijo Half Freeze Duration namesto Replenish Life.</span></li>
+      <li><span class="tag info">Stash</span><span>Zavihek za uniquee in sete, Discovery (self-found zbirka z auro za nagrado), 25 milijonov zlata v shared stashu. Portal shrinov ni več.</span></li>
+    </ul>
+  </div>
+</section>

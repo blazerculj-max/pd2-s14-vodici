@@ -1,0 +1,73 @@
+<script>
+(function () {
+  var KEY = 'druid-s14-v1';
+  var state = { path: 'creeper', checks: {} };
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY) || 'null');
+    if (saved && typeof saved === 'object') {
+      if (saved.path === 'creeper' || saved.path === 'summoner') state.path = saved.path;
+      if (saved.checks && typeof saved.checks === 'object') state.checks = saved.checks;
+    }
+  } catch (e) {}
+
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.g input[type="checkbox"]'));
+
+  function visible(el) {
+    while (el && el !== document.body) {
+      if (el.hidden) return false;
+      el = el.parentElement;
+    }
+    return true;
+  }
+
+  function updateCounts() {
+    document.querySelectorAll('.phase').forEach(function (phase) {
+      var own = Array.prototype.slice.call(phase.querySelectorAll('.g input[type="checkbox"]')).filter(visible);
+      var done = own.filter(function (b) { return b.checked; }).length;
+      var c = phase.querySelector('.count');
+      c.textContent = done + ' / ' + own.length + ' kosov';
+      c.classList.toggle('done', own.length > 0 && done === own.length);
+    });
+  }
+
+  function applyPath() {
+    document.querySelectorAll('[data-only]').forEach(function (el) {
+      el.hidden = el.getAttribute('data-only') !== state.path;
+    });
+    document.querySelectorAll('.toggle button').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-path') === state.path));
+    });
+    updateCounts();
+  }
+
+  boxes.forEach(function (b) {
+    b.checked = !!state.checks[b.id];
+    b.addEventListener('change', function () {
+      if (b.checked) state.checks[b.id] = true; else delete state.checks[b.id];
+      save();
+      updateCounts();
+    });
+  });
+
+  document.querySelectorAll('.toggle button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      state.path = b.getAttribute('data-path');
+      save();
+      applyPath();
+    });
+  });
+
+  document.getElementById('reset-checks').addEventListener('click', function () {
+    state.checks = {};
+    boxes.forEach(function (b) { b.checked = false; });
+    save();
+    updateCounts();
+  });
+
+  applyPath();
+})();
+</script>

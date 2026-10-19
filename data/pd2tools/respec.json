@@ -1,0 +1,2327 @@
+{
+ "Sorceress|nova": {
+  "early": 6,
+  "same": 1,
+  "day95": 11.2,
+  "firstSkills": [
+   [
+    "Lightning Mastery",
+    3
+   ],
+   [
+    "Charged Bolt",
+    3
+   ],
+   [
+    "Lightning",
+    2
+   ],
+   [
+    "Chain Lightning",
+    2
+   ],
+   [
+    "Cold Mastery",
+    2
+   ],
+   [
+    "Ice Bolt",
+    2
+   ]
+  ]
+ },
+ "Sorceress|frozen_orb": {
+  "early": 13,
+  "same": 5,
+  "day95": 15.6,
+  "firstSkills": [
+   [
+    "Cold Mastery",
+    7
+   ],
+   [
+    "Ice Bolt",
+    7
+   ],
+   [
+    "Frost Nova",
+    5
+   ],
+   [
+    "Frozen Orb",
+    5
+   ],
+   [
+    "Charged Bolt",
+    3
+   ],
+   [
+    "Lightning",
+    3
+   ]
+  ]
+ },
+ "Sorceress|charged_bolt": {
+  "early": 8,
+  "same": 5,
+  "day95": 8.1,
+  "firstSkills": [
+   [
+    "Lightning Mastery",
+    5
+   ],
+   [
+    "Charged Bolt",
+    5
+   ],
+   [
+    "Lightning",
+    4
+   ],
+   [
+    "Chain Lightning",
+    4
+   ],
+   [
+    "Inferno",
+    2
+   ],
+   [
+    "Fire Ball",
+    2
+   ]
+  ]
+ },
+ "Sorceress|chain_lightning": {
+  "early": 9,
+  "same": 6,
+  "day95": 15.6,
+  "firstSkills": [
+   [
+    "Lightning Mastery",
+    6
+   ],
+   [
+    "Lightning",
+    6
+   ],
+   [
+    "Chain Lightning",
+    6
+   ],
+   [
+    "Charged Bolt",
+    5
+   ],
+   [
+    "Inferno",
+    2
+   ],
+   [
+    "Blaze",
+    2
+   ]
+  ]
+ },
+ "Sorceress|frost_nova": {
+  "early": 13,
+  "same": 5,
+  "day95": 15.6,
+  "firstSkills": [
+   [
+    "Cold Mastery",
+    7
+   ],
+   [
+    "Ice Bolt",
+    7
+   ],
+   [
+    "Frost Nova",
+    5
+   ],
+   [
+    "Frozen Orb",
+    5
+   ],
+   [
+    "Charged Bolt",
+    3
+   ],
+   [
+    "Lightning",
+    3
+   ]
+  ]
+ },
+ "Sorceress|ice_barrage": {
+  "early": 7,
+  "same": 1,
+  "day95": 20.1,
+  "firstSkills": [
+   [
+    "Ice Bolt",
+    4
+   ],
+   [
+    "Cold Mastery",
+    4
+   ],
+   [
+    "Frost Nova",
+    2
+   ],
+   [
+    "Frozen Orb",
+    2
+   ],
+   [
+    "Lightning Mastery",
+    2
+   ],
+   [
+    "Charged Bolt",
+    2
+   ]
+  ]
+ },
+ "Sorceress|blizzard": {
+  "early": 10,
+  "same": 4,
+  "day95": 21.4,
+  "firstSkills": [
+   [
+    "Ice Bolt",
+    5
+   ],
+   [
+    "Cold Mastery",
+    5
+   ],
+   [
+    "Blizzard",
+    4
+   ],
+   [
+    "Ice Blast",
+    4
+   ],
+   [
+    "Inferno",
+    4
+   ],
+   [
+    "Blaze",
+    4
+   ]
+  ]
+ },
+ "Sorceress|combustion": {
+  "early": 6,
+  "same": 2,
+  "day95": 9.6,
+  "firstSkills": [
+   [
+    "Fire Mastery",
+    5
+   ],
+   [
+    "Fire Bolt",
+    3
+   ],
+   [
+    "Fire Ball",
+    3
+   ],
+   [
+    "Combustion",
+    2
+   ],
+   [
+    "Teleport",
+    2
+   ],
+   [
+    "Blaze",
+    2
+   ]
+  ]
+ },
+ "Sorceress|meteor": {
+  "early": 7,
+  "same": 5,
+  "day95": 25.8,
+  "firstSkills": [
+   [
+    "Meteor",
+    5
+   ],
+   [
+    "Blaze",
+    5
+   ],
+   [
+    "Inferno",
+    4
+   ],
+   [
+    "Fire Mastery",
+    3
+   ],
+   [
+    "Fire Ball",
+    3
+   ],
+   [
+    "Charged Bolt",
+    1
+   ]
+  ]
+ },
+ "Sorceress|hydra": {
+  "early": 11,
+  "same": 6,
+  "day95": 12.7,
+  "firstSkills": [
+   [
+    "Fire Mastery",
+    6
+   ],
+   [
+    "Hydra",
+    6
+   ],
+   [
+    "Lesser Hydra",
+    6
+   ],
+   [
+    "Fire Bolt",
+    5
+   ],
+   [
+    "Cold Mastery",
+    3
+   ],
+   [
+    "Lightning",
+    2
+   ]
+  ]
+ },
+ "Sorceress|enchant_fire": {
+  "early": 13,
+  "same": 2,
+  "day95": 18.3,
+  "firstSkills": [
+   [
+    "Fire Mastery",
+    6
+   ],
+   [
+    "Meteor",
+    5
+   ],
+   [
+    "Blaze",
+    4
+   ],
+   [
+    "Cold Mastery",
+    4
+   ],
+   [
+    "Inferno",
+    4
+   ],
+   [
+    "Cold Enchant",
+    3
+   ]
+  ]
+ },
+ "Sorceress|inferno": {
+  "early": 6,
+  "same": 4,
+  "day95": 26.1,
+  "firstSkills": [
+   [
+    "Meteor",
+    4
+   ],
+   [
+    "Inferno",
+    4
+   ],
+   [
+    "Blaze",
+    4
+   ],
+   [
+    "Fire Mastery",
+    2
+   ],
+   [
+    "Fire Ball",
+    2
+   ],
+   [
+    "Charged Bolt",
+    1
+   ]
+  ]
+ },
+ "Druid|arctic_blast": {
+  "early": 13,
+  "same": 7,
+  "day95": 11.9,
+  "firstSkills": [
+   [
+    "Arctic Blast",
+    7
+   ],
+   [
+    "Hurricane",
+    7
+   ],
+   [
+    "Tornado",
+    6
+   ],
+   [
+    "Cyclone Armor",
+    5
+   ],
+   [
+    "Raven",
+    4
+   ],
+   [
+    "Summon Spirit Wolf",
+    4
+   ]
+  ]
+ },
+ "Druid|tornado": {
+  "early": 14,
+  "same": 7,
+  "day95": 11.9,
+  "firstSkills": [
+   [
+    "Arctic Blast",
+    8
+   ],
+   [
+    "Hurricane",
+    8
+   ],
+   [
+    "Tornado",
+    7
+   ],
+   [
+    "Cyclone Armor",
+    5
+   ],
+   [
+    "Raven",
+    4
+   ],
+   [
+    "Summon Spirit Wolf",
+    4
+   ]
+  ]
+ },
+ "Druid|shock_wave": {
+  "early": 8,
+  "same": 3,
+  "day95": 28.1,
+  "firstSkills": [
+   [
+    "Summon Grizzly",
+    5
+   ],
+   [
+    "Summon Spirit Wolf",
+    4
+   ],
+   [
+    "Werebear",
+    3
+   ],
+   [
+    "Twister",
+    3
+   ],
+   [
+    "Shock Wave",
+    3
+   ],
+   [
+    "Raven",
+    3
+   ]
+  ]
+ },
+ "Druid|armageddon": {
+  "early": 8,
+  "same": 2,
+  "day95": 8.1,
+  "firstSkills": [
+   [
+    "Summon Spirit Wolf",
+    5
+   ],
+   [
+    "Summon Grizzly",
+    5
+   ],
+   [
+    "Heart of Wolverine",
+    4
+   ],
+   [
+    "Raven",
+    3
+   ],
+   [
+    "Molten Boulder",
+    2
+   ],
+   [
+    "Fissure",
+    2
+   ]
+  ]
+ },
+ "Druid|volcano": {
+  "early": 7,
+  "same": 2,
+  "day95": 7.4,
+  "firstSkills": [
+   [
+    "Summon Grizzly",
+    4
+   ],
+   [
+    "Heart of Wolverine",
+    4
+   ],
+   [
+    "Summon Spirit Wolf",
+    4
+   ],
+   [
+    "Raven",
+    2
+   ],
+   [
+    "Molten Boulder",
+    2
+   ],
+   [
+    "Fissure",
+    2
+   ]
+  ]
+ },
+ "Druid|fire_claws": {
+  "early": 4,
+  "same": 0,
+  "day95": 24.5,
+  "firstSkills": [
+   [
+    "Raven",
+    3
+   ],
+   [
+    "Summon Spirit Wolf",
+    3
+   ],
+   [
+    "Summon Grizzly",
+    3
+   ],
+   [
+    "Heart of Wolverine",
+    1
+   ],
+   [
+    "Rabies",
+    1
+   ],
+   [
+    "Lycanthropy",
+    1
+   ]
+  ]
+ },
+ "Druid|rabies": {
+  "early": 4,
+  "same": 1,
+  "day95": 14.5,
+  "firstSkills": [
+   [
+    "Raven",
+    2
+   ],
+   [
+    "Summon Grizzly",
+    2
+   ],
+   [
+    "Summon Spirit Wolf",
+    2
+   ],
+   [
+    "Poison Creeper",
+    2
+   ],
+   [
+    "Carrion Vine",
+    2
+   ],
+   [
+    "Solar Creeper",
+    2
+   ]
+  ]
+ },
+ "Druid|fury": {
+  "early": 9,
+  "same": 4,
+  "day95": 17.8,
+  "firstSkills": [
+   [
+    "Lycanthropy",
+    5
+   ],
+   [
+    "Feral Rage",
+    5
+   ],
+   [
+    "Summon Grizzly",
+    4
+   ],
+   [
+    "Heart of Wolverine",
+    4
+   ],
+   [
+    "Fury",
+    4
+   ],
+   [
+    "Raven",
+    3
+   ]
+  ]
+ },
+ "Druid|summon_grizzly": {
+  "early": 9,
+  "same": 8,
+  "day95": 14.7,
+  "firstSkills": [
+   [
+    "Summon Grizzly",
+    8
+   ],
+   [
+    "Raven",
+    7
+   ],
+   [
+    "Summon Spirit Wolf",
+    6
+   ],
+   [
+    "Heart of Wolverine",
+    5
+   ],
+   [
+    "Summon Dire Wolf",
+    2
+   ],
+   [
+    "Poison Creeper",
+    1
+   ]
+  ]
+ },
+ "Druid|poison_creeper": {
+  "early": 5,
+  "same": 3,
+  "day95": 14.5,
+  "firstSkills": [
+   [
+    "Raven",
+    3
+   ],
+   [
+    "Poison Creeper",
+    3
+   ],
+   [
+    "Summon Spirit Wolf",
+    3
+   ],
+   [
+    "Summon Grizzly",
+    3
+   ],
+   [
+    "Carrion Vine",
+    2
+   ],
+   [
+    "Solar Creeper",
+    2
+   ]
+  ]
+ },
+ "Assassin|chain_lightning_sentry": {
+  "early": 10,
+  "same": 9,
+  "day95": 13.5,
+  "firstSkills": [
+   [
+    "Charged Bolt Sentry",
+    9
+   ],
+   [
+    "Lightning Sentry",
+    9
+   ],
+   [
+    "Chain Lightning Sentry",
+    9
+   ],
+   [
+    "Fire Blast",
+    8
+   ],
+   [
+    "Shadow Warrior",
+    1
+   ],
+   [
+    "Claw Mastery",
+    1
+   ]
+  ]
+ },
+ "Assassin|wake_of_fire": {
+  "early": 8,
+  "same": 5,
+  "day95": 10.3,
+  "firstSkills": [
+   [
+    "Fire Blast",
+    6
+   ],
+   [
+    "Wake of Inferno",
+    6
+   ],
+   [
+    "Wake of Fire",
+    5
+   ],
+   [
+    "Shadow Warrior",
+    3
+   ],
+   [
+    "Burst of Speed",
+    3
+   ],
+   [
+    "Psychic Hammer",
+    2
+   ]
+  ]
+ },
+ "Assassin|cobra_strike": {
+  "early": 9,
+  "same": 4,
+  "day95": 10.0,
+  "firstSkills": [
+   [
+    "Shadow Warrior",
+    5
+   ],
+   [
+    "Cobra Strike",
+    4
+   ],
+   [
+    "Venom",
+    4
+   ],
+   [
+    "Blade Sentinel",
+    3
+   ],
+   [
+    "Burst of Speed",
+    3
+   ],
+   [
+    "Fire Blast",
+    3
+   ]
+  ]
+ },
+ "Assassin|phoenix_strike": {
+  "early": 6,
+  "same": 2,
+  "day95": 9.7,
+  "firstSkills": [
+   [
+    "Fists of Fire",
+    3
+   ],
+   [
+    "Blade Sentinel",
+    2
+   ],
+   [
+    "Phoenix Strike",
+    2
+   ],
+   [
+    "Blades of Ice",
+    2
+   ],
+   [
+    "Claws of Thunder",
+    2
+   ],
+   [
+    "Burst of Speed",
+    1
+   ]
+  ]
+ },
+ "Assassin|dragon_tail": {
+  "early": 12,
+  "same": 0,
+  "day95": 10.3,
+  "firstSkills": [
+   [
+    "Fire Blast",
+    7
+   ],
+   [
+    "Charged Bolt Sentry",
+    7
+   ],
+   [
+    "Lightning Sentry",
+    7
+   ],
+   [
+    "Chain Lightning Sentry",
+    7
+   ],
+   [
+    "Psychic Hammer",
+    3
+   ],
+   [
+    "Cloak of Shadows",
+    3
+   ]
+  ]
+ },
+ "Assassin|blade_fury": {
+  "early": 12,
+  "same": 2,
+  "day95": 12.7,
+  "firstSkills": [
+   [
+    "Fire Blast",
+    8
+   ],
+   [
+    "Lightning Sentry",
+    5
+   ],
+   [
+    "Wake of Fire",
+    4
+   ],
+   [
+    "Wake of Inferno",
+    4
+   ],
+   [
+    "Chain Lightning Sentry",
+    4
+   ],
+   [
+    "Shadow Warrior",
+    3
+   ]
+  ]
+ },
+ "Assassin|blade_sentinel": {
+  "early": 14,
+  "same": 3,
+  "day95": 12.7,
+  "firstSkills": [
+   [
+    "Fire Blast",
+    8
+   ],
+   [
+    "Lightning Sentry",
+    6
+   ],
+   [
+    "Shadow Warrior",
+    5
+   ],
+   [
+    "Chain Lightning Sentry",
+    5
+   ],
+   [
+    "Charged Bolt Sentry",
+    4
+   ],
+   [
+    "Blade Sentinel",
+    3
+   ]
+  ]
+ },
+ "Assassin|shadow_warrior": {
+  "early": 10,
+  "same": 6,
+  "day95": 7.1,
+  "firstSkills": [
+   [
+    "Shadow Warrior",
+    6
+   ],
+   [
+    "Fire Blast",
+    4
+   ],
+   [
+    "Cobra Strike",
+    3
+   ],
+   [
+    "Venom",
+    3
+   ],
+   [
+    "Wake of Inferno",
+    2
+   ],
+   [
+    "Psychic Hammer",
+    2
+   ]
+  ]
+ },
+ "Assassin|claws_of_thunder": {
+  "early": 6,
+  "same": 2,
+  "day95": 11.5,
+  "firstSkills": [
+   [
+    "Fists of Fire",
+    3
+   ],
+   [
+    "Blade Sentinel",
+    2
+   ],
+   [
+    "Phoenix Strike",
+    2
+   ],
+   [
+    "Blades of Ice",
+    2
+   ],
+   [
+    "Claws of Thunder",
+    2
+   ],
+   [
+    "Weapon Block",
+    2
+   ]
+  ]
+ },
+ "Assassin|blades_of_ice": {
+  "early": 7,
+  "same": 1,
+  "day95": 11.5,
+  "firstSkills": [
+   [
+    "Cobra Strike",
+    3
+   ],
+   [
+    "Venom",
+    3
+   ],
+   [
+    "Claw Mastery",
+    3
+   ],
+   [
+    "Shadow Warrior",
+    2
+   ],
+   [
+    "Charged Bolt Sentry",
+    2
+   ],
+   [
+    "Lightning Sentry",
+    2
+   ]
+  ]
+ },
+ "Assassin|death_sentry": {
+  "early": 10,
+  "same": 2,
+  "day95": 24.1,
+  "firstSkills": [
+   [
+    "Fire Blast",
+    7
+   ],
+   [
+    "Lightning Sentry",
+    5
+   ],
+   [
+    "Chain Lightning Sentry",
+    5
+   ],
+   [
+    "Shadow Warrior",
+    4
+   ],
+   [
+    "Charged Bolt Sentry",
+    4
+   ],
+   [
+    "Tiger Strike",
+    2
+   ]
+  ]
+ },
+ "Assassin|fists_of_fire": {
+  "early": 9,
+  "same": 3,
+  "day95": 10.3,
+  "firstSkills": [
+   [
+    "Fire Blast",
+    4
+   ],
+   [
+    "Fists of Fire",
+    3
+   ],
+   [
+    "Tiger Strike",
+    3
+   ],
+   [
+    "Dragon Flight",
+    3
+   ],
+   [
+    "Charged Bolt Sentry",
+    3
+   ],
+   [
+    "Lightning Sentry",
+    3
+   ]
+  ]
+ },
+ "Barbarian|war_cry": {
+  "early": 10,
+  "same": 6,
+  "day95": 11.7,
+  "firstSkills": [
+   [
+    "Battle Command",
+    9
+   ],
+   [
+    "Battle Cry",
+    7
+   ],
+   [
+    "Howl",
+    6
+   ],
+   [
+    "War Cry",
+    6
+   ],
+   [
+    "Whirlwind",
+    3
+   ],
+   [
+    "Battle Orders",
+    2
+   ]
+  ]
+ },
+ "Barbarian|find_item": {
+  "early": 7,
+  "same": 0,
+  "day95": 19.9,
+  "firstSkills": [
+   [
+    "Whirlwind",
+    7
+   ],
+   [
+    "Two Hand Mastery",
+    7
+   ],
+   [
+    "Battle Orders",
+    3
+   ],
+   [
+    "Increased Speed",
+    2
+   ],
+   [
+    "Battle Command",
+    2
+   ],
+   [
+    "Natural Resistance",
+    1
+   ]
+  ]
+ },
+ "Barbarian|whirlwind": {
+  "early": 8,
+  "same": 8,
+  "day95": 11.9,
+  "firstSkills": [
+   [
+    "Whirlwind",
+    8
+   ],
+   [
+    "Two Hand Mastery",
+    6
+   ],
+   [
+    "Battle Command",
+    6
+   ],
+   [
+    "Iron Skin",
+    2
+   ],
+   [
+    "Deep Wounds",
+    2
+   ],
+   [
+    "One Hand Mastery",
+    2
+   ]
+  ]
+ },
+ "Barbarian|double_throw": {
+  "early": 10,
+  "same": 5,
+  "day95": 16.0,
+  "firstSkills": [
+   [
+    "Throwing Mastery",
+    5
+   ],
+   [
+    "Double Throw",
+    5
+   ],
+   [
+    "Battle Command",
+    4
+   ],
+   [
+    "Frenzy",
+    4
+   ],
+   [
+    "Double Swing",
+    2
+   ],
+   [
+    "Deep Wounds",
+    2
+   ]
+  ]
+ },
+ "Barbarian|frenzy": {
+  "early": 9,
+  "same": 2,
+  "day95": 16.8,
+  "firstSkills": [
+   [
+    "Battle Command",
+    5
+   ],
+   [
+    "Whirlwind",
+    3
+   ],
+   [
+    "Throwing Mastery",
+    3
+   ],
+   [
+    "Double Throw",
+    3
+   ],
+   [
+    "Battle Orders",
+    2
+   ],
+   [
+    "Two Hand Mastery",
+    2
+   ]
+  ]
+ },
+ "Amazon|lightning_fury": {
+  "early": 9,
+  "same": 5,
+  "day95": 10.3,
+  "firstSkills": [
+   [
+    "Power Strike",
+    6
+   ],
+   [
+    "Lightning Fury",
+    5
+   ],
+   [
+    "Lightning Bolt",
+    4
+   ],
+   [
+    "Pierce",
+    4
+   ],
+   [
+    "Strafe",
+    2
+   ],
+   [
+    "Decoy",
+    2
+   ]
+  ]
+ },
+ "Amazon|lightning_strike": {
+  "early": 7,
+  "same": 1,
+  "day95": 19.6,
+  "firstSkills": [
+   [
+    "Valkyrie",
+    5
+   ],
+   [
+    "Power Strike",
+    4
+   ],
+   [
+    "Decoy",
+    3
+   ],
+   [
+    "Penetrate",
+    2
+   ],
+   [
+    "Strafe",
+    2
+   ],
+   [
+    "Lightning Bolt",
+    2
+   ]
+  ]
+ },
+ "Amazon|plague_javelin": {
+  "early": 14,
+  "same": 5,
+  "day95": 28.4,
+  "firstSkills": [
+   [
+    "Valkyrie",
+    9
+   ],
+   [
+    "Poison Javelin",
+    5
+   ],
+   [
+    "Plague Javelin",
+    5
+   ],
+   [
+    "Javelin and Spear Mastery",
+    5
+   ],
+   [
+    "Decoy",
+    5
+   ],
+   [
+    "Penetrate",
+    4
+   ]
+  ]
+ },
+ "Amazon|cold_arrow": {
+  "early": 4,
+  "same": 2,
+  "day95": 37.5,
+  "firstSkills": [
+   [
+    "Cold Arrow",
+    2
+   ],
+   [
+    "Ice Arrow",
+    2
+   ],
+   [
+    "Pierce",
+    2
+   ],
+   [
+    "Decoy",
+    2
+   ],
+   [
+    "Valkyrie",
+    2
+   ],
+   [
+    "Strafe",
+    2
+   ]
+  ]
+ },
+ "Amazon|fire_arrow": {
+  "early": 9,
+  "same": 3,
+  "day95": 14.8,
+  "firstSkills": [
+   [
+    "Valkyrie",
+    5
+   ],
+   [
+    "Magic Arrow",
+    5
+   ],
+   [
+    "Decoy",
+    4
+   ],
+   [
+    "Strafe",
+    4
+   ],
+   [
+    "Penetrate",
+    3
+   ],
+   [
+    "Fire Arrow",
+    3
+   ]
+  ]
+ },
+ "Amazon|exploding_arrow": {
+  "early": 6,
+  "same": 2,
+  "day95": 22.3,
+  "firstSkills": [
+   [
+    "Magic Arrow",
+    4
+   ],
+   [
+    "Immolation Arrow",
+    4
+   ],
+   [
+    "Pierce",
+    3
+   ],
+   [
+    "Fire Arrow",
+    2
+   ],
+   [
+    "Valkyrie",
+    2
+   ],
+   [
+    "Power Strike",
+    2
+   ]
+  ]
+ },
+ "Amazon|jab": {
+  "early": 6,
+  "same": 3,
+  "day95": 10.5,
+  "firstSkills": [
+   [
+    "Penetrate",
+    6
+   ],
+   [
+    "Decoy",
+    4
+   ],
+   [
+    "Jab",
+    3
+   ],
+   [
+    "Fend",
+    3
+   ],
+   [
+    "Valkyrie",
+    3
+   ],
+   [
+    "Strafe",
+    3
+   ]
+  ]
+ },
+ "Amazon|multiple_shot": {
+  "early": 6,
+  "same": 0,
+  "day95": 11.6,
+  "firstSkills": [
+   [
+    "Valkyrie",
+    5
+   ],
+   [
+    "Strafe",
+    5
+   ],
+   [
+    "Penetrate",
+    4
+   ],
+   [
+    "Decoy",
+    4
+   ],
+   [
+    "Pierce",
+    1
+   ],
+   [
+    "Critical Strike",
+    1
+   ]
+  ]
+ },
+ "Amazon|strafe": {
+  "early": 7,
+  "same": 4,
+  "day95": 10.5,
+  "firstSkills": [
+   [
+    "Strafe",
+    4
+   ],
+   [
+    "Valkyrie",
+    4
+   ],
+   [
+    "Penetrate",
+    4
+   ],
+   [
+    "Decoy",
+    3
+   ],
+   [
+    "Power Strike",
+    2
+   ],
+   [
+    "Evade",
+    1
+   ]
+  ]
+ },
+ "Amazon|decoy": {
+  "early": 10,
+  "same": 7,
+  "day95": 22.5,
+  "firstSkills": [
+   [
+    "Decoy",
+    7
+   ],
+   [
+    "Strafe",
+    7
+   ],
+   [
+    "Valkyrie",
+    7
+   ],
+   [
+    "Penetrate",
+    6
+   ],
+   [
+    "Critical Strike",
+    2
+   ],
+   [
+    "Jab",
+    1
+   ]
+  ]
+ },
+ "Necromancer|poison_nova": {
+  "early": 11,
+  "same": 3,
+  "day95": 12.8,
+  "firstSkills": [
+   [
+    "Golem Mastery",
+    7
+   ],
+   [
+    "Poison Strike",
+    5
+   ],
+   [
+    "Desecrate",
+    5
+   ],
+   [
+    "Clay Golem",
+    4
+   ],
+   [
+    "Bone Armor",
+    4
+   ],
+   [
+    "Revive",
+    3
+   ]
+  ]
+ },
+ "Necromancer|poison_strike": {
+  "early": 11,
+  "same": 4,
+  "day95": 15.4,
+  "firstSkills": [
+   [
+    "Golem Mastery",
+    6
+   ],
+   [
+    "Bone Armor",
+    5
+   ],
+   [
+    "Poison Strike",
+    4
+   ],
+   [
+    "Desecrate",
+    4
+   ],
+   [
+    "Teeth",
+    3
+   ],
+   [
+    "Bone Spear",
+    3
+   ]
+  ]
+ },
+ "Necromancer|corpse_explosion": {
+  "early": 6,
+  "same": 1,
+  "day95": 8.5,
+  "firstSkills": [
+   [
+    "Golem Mastery",
+    3
+   ],
+   [
+    "Revive",
+    2
+   ],
+   [
+    "Raise Skeletal Mage",
+    2
+   ],
+   [
+    "Skeleton Mastery",
+    2
+   ],
+   [
+    "Fire Golem",
+    2
+   ],
+   [
+    "Clay Golem",
+    2
+   ]
+  ]
+ },
+ "Necromancer|raise_skeletal_mage": {
+  "early": 10,
+  "same": 5,
+  "day95": 12.9,
+  "firstSkills": [
+   [
+    "Golem Mastery",
+    6
+   ],
+   [
+    "Blood Golem",
+    5
+   ],
+   [
+    "Raise Skeletal Mage",
+    5
+   ],
+   [
+    "Skeleton Mastery",
+    5
+   ],
+   [
+    "Revive",
+    4
+   ],
+   [
+    "Clay Golem",
+    4
+   ]
+  ]
+ },
+ "Necromancer|fire_golem": {
+  "early": 10,
+  "same": 5,
+  "day95": 17.8,
+  "firstSkills": [
+   [
+    "Clay Golem",
+    7
+   ],
+   [
+    "Golem Mastery",
+    7
+   ],
+   [
+    "Blood Golem",
+    5
+   ],
+   [
+    "Fire Golem",
+    5
+   ],
+   [
+    "Skeleton Mastery",
+    3
+   ],
+   [
+    "Raise Skeletal Mage",
+    3
+   ]
+  ]
+ },
+ "Necromancer|raise_skeleton_archer": {
+  "early": 12,
+  "same": 4,
+  "day95": 19.5,
+  "firstSkills": [
+   [
+    "Golem Mastery",
+    7
+   ],
+   [
+    "Blood Golem",
+    6
+   ],
+   [
+    "Raise Skeletal Mage",
+    6
+   ],
+   [
+    "Skeleton Mastery",
+    6
+   ],
+   [
+    "Clay Golem",
+    5
+   ],
+   [
+    "Revive",
+    4
+   ]
+  ]
+ },
+ "Necromancer|dark_pact": {
+  "early": 8,
+  "same": 3,
+  "day95": 7.2,
+  "firstSkills": [
+   [
+    "Clay Golem",
+    4
+   ],
+   [
+    "Golem Mastery",
+    4
+   ],
+   [
+    "Blood Golem",
+    4
+   ],
+   [
+    "Curse Mastery",
+    4
+   ],
+   [
+    "Revive",
+    3
+   ],
+   [
+    "Decrepify",
+    3
+   ]
+  ]
+ },
+ "Necromancer|teeth": {
+  "early": 10,
+  "same": 5,
+  "day95": 19.9,
+  "firstSkills": [
+   [
+    "Bone Spear",
+    6
+   ],
+   [
+    "Bone Armor",
+    6
+   ],
+   [
+    "Bone Spirit",
+    5
+   ],
+   [
+    "Teeth",
+    5
+   ],
+   [
+    "Golem Mastery",
+    4
+   ],
+   [
+    "Clay Golem",
+    3
+   ]
+  ]
+ },
+ "Necromancer|blood_golem": {
+  "early": 5,
+  "same": 3,
+  "day95": 21.1,
+  "firstSkills": [
+   [
+    "Clay Golem",
+    3
+   ],
+   [
+    "Golem Mastery",
+    3
+   ],
+   [
+    "Blood Golem",
+    3
+   ],
+   [
+    "Fire Golem",
+    2
+   ],
+   [
+    "Raise Skeleton",
+    2
+   ],
+   [
+    "Skeleton Mastery",
+    2
+   ]
+  ]
+ },
+ "Paladin|blessed_hammer": {
+  "early": 10,
+  "same": 2,
+  "day95": 14.0,
+  "firstSkills": [
+   [
+    "Holy Bolt",
+    4
+   ],
+   [
+    "Fist of the Heavens",
+    4
+   ],
+   [
+    "Holy Nova",
+    4
+   ],
+   [
+    "Holy Light",
+    4
+   ],
+   [
+    "Blessed Aim",
+    4
+   ],
+   [
+    "Blessed Hammer",
+    2
+   ]
+  ]
+ },
+ "Paladin|vengeance": {
+  "early": 9,
+  "same": 6,
+  "day95": 12.9,
+  "firstSkills": [
+   [
+    "Vengeance",
+    6
+   ],
+   [
+    "Conviction",
+    6
+   ],
+   [
+    "Holy Fire",
+    5
+   ],
+   [
+    "Holy Shock",
+    4
+   ],
+   [
+    "Holy Freeze",
+    4
+   ],
+   [
+    "Holy Bolt",
+    2
+   ]
+  ]
+ },
+ "Paladin|sacrifice": {
+  "early": 10,
+  "same": 2,
+  "day95": 12.9,
+  "firstSkills": [
+   [
+    "Holy Bolt",
+    4
+   ],
+   [
+    "Holy Light",
+    4
+   ],
+   [
+    "Conviction",
+    4
+   ],
+   [
+    "Fist of the Heavens",
+    3
+   ],
+   [
+    "Holy Fire",
+    2
+   ],
+   [
+    "Vengeance",
+    2
+   ]
+  ]
+ },
+ "Paladin|charge": {
+  "early": 4,
+  "same": 0,
+  "day95": 12.2,
+  "firstSkills": [
+   [
+    "Holy Bolt",
+    2
+   ],
+   [
+    "Fist of the Heavens",
+    2
+   ],
+   [
+    "Holy Nova",
+    2
+   ],
+   [
+    "Holy Light",
+    2
+   ],
+   [
+    "Vengeance",
+    1
+   ],
+   [
+    "Holy Shock",
+    1
+   ]
+  ]
+ },
+ "Paladin|holy_shock": {
+  "early": 11,
+  "same": 3,
+  "day95": 7.7,
+  "firstSkills": [
+   [
+    "Holy Light",
+    8
+   ],
+   [
+    "Holy Bolt",
+    7
+   ],
+   [
+    "Fist of the Heavens",
+    7
+   ],
+   [
+    "Holy Nova",
+    7
+   ],
+   [
+    "Holy Shock",
+    3
+   ],
+   [
+    "Conviction",
+    2
+   ]
+  ]
+ },
+ "Paladin|zeal": {
+  "early": 9,
+  "same": 2,
+  "day95": 9.8,
+  "firstSkills": [
+   [
+    "Holy Bolt",
+    4
+   ],
+   [
+    "Conviction",
+    4
+   ],
+   [
+    "Fist of the Heavens",
+    3
+   ],
+   [
+    "Holy Light",
+    3
+   ],
+   [
+    "Holy Fire",
+    3
+   ],
+   [
+    "Vengeance",
+    3
+   ]
+  ]
+ },
+ "Paladin|sanctuary": {
+  "early": 5,
+  "same": 3,
+  "day95": 16.6,
+  "firstSkills": [
+   [
+    "Blessed Aim",
+    4
+   ],
+   [
+    "Sanctuary",
+    3
+   ],
+   [
+    "Might",
+    2
+   ],
+   [
+    "Blessed Hammer",
+    1
+   ],
+   [
+    "Concentration",
+    1
+   ],
+   [
+    "Vigor",
+    1
+   ]
+  ]
+ },
+ "Paladin|holy_fire": {
+  "early": 8,
+  "same": 5,
+  "day95": 12.9,
+  "firstSkills": [
+   [
+    "Holy Fire",
+    5
+   ],
+   [
+    "Vengeance",
+    5
+   ],
+   [
+    "Conviction",
+    5
+   ],
+   [
+    "Holy Shock",
+    3
+   ],
+   [
+    "Holy Freeze",
+    3
+   ],
+   [
+    "Holy Bolt",
+    2
+   ]
+  ]
+ },
+ "Sorceress|thunder_storm": {
+  "early": 9,
+  "same": 1,
+  "day95": 11.2,
+  "firstSkills": [
+   [
+    "Lightning Mastery",
+    6
+   ],
+   [
+    "Charged Bolt",
+    6
+   ],
+   [
+    "Lightning",
+    5
+   ],
+   [
+    "Chain Lightning",
+    5
+   ],
+   [
+    "Ice Bolt",
+    2
+   ],
+   [
+    "Cold Mastery",
+    2
+   ]
+  ]
+ },
+ "Druid|twister": {
+  "early": 12,
+  "same": 5,
+  "day95": 28.1,
+  "firstSkills": [
+   [
+    "Summon Spirit Wolf",
+    5
+   ],
+   [
+    "Summon Grizzly",
+    5
+   ],
+   [
+    "Twister",
+    5
+   ],
+   [
+    "Hurricane",
+    5
+   ],
+   [
+    "Summon Dire Wolf",
+    4
+   ],
+   [
+    "Raven",
+    4
+   ]
+  ]
+ },
+ "Sorceress|fire_wall": {
+  "early": 6,
+  "same": 2,
+  "day95": 18.7,
+  "firstSkills": [
+   [
+    "Inferno",
+    5
+   ],
+   [
+    "Meteor",
+    4
+   ],
+   [
+    "Blaze",
+    4
+   ],
+   [
+    "Fire Mastery",
+    3
+   ],
+   [
+    "Fire Ball",
+    2
+   ],
+   [
+    "Fire Wall",
+    2
+   ]
+  ]
+ },
+ "Assassin|mind_blast": {
+  "early": 5,
+  "same": 4,
+  "day95": 15.1,
+  "firstSkills": [
+   [
+    "Psychic Hammer",
+    4
+   ],
+   [
+    "Cloak of Shadows",
+    4
+   ],
+   [
+    "Mind Blast",
+    4
+   ],
+   [
+    "Shadow Warrior",
+    4
+   ],
+   [
+    "Claw Mastery",
+    1
+   ],
+   [
+    "Cobra Strike",
+    1
+   ]
+  ]
+ },
+ "Amazon|valkyrie": {
+  "early": 8,
+  "same": 5,
+  "day95": 12.1,
+  "firstSkills": [
+   [
+    "Strafe",
+    6
+   ],
+   [
+    "Valkyrie",
+    5
+   ],
+   [
+    "Penetrate",
+    5
+   ],
+   [
+    "Decoy",
+    4
+   ],
+   [
+    "Pierce",
+    2
+   ],
+   [
+    "Evade",
+    1
+   ]
+  ]
+ },
+ "Amazon|magic_arrow": {
+  "early": 6,
+  "same": 4,
+  "day95": 14.8,
+  "firstSkills": [
+   [
+    "Magic Arrow",
+    4
+   ],
+   [
+    "Pierce",
+    3
+   ],
+   [
+    "Valkyrie",
+    3
+   ],
+   [
+    "Cold Arrow",
+    2
+   ],
+   [
+    "Ice Arrow",
+    2
+   ],
+   [
+    "Decoy",
+    2
+   ]
+  ]
+ },
+ "Necromancer|clay_golem": {
+  "early": 8,
+  "same": 6,
+  "day95": 21.1,
+  "firstSkills": [
+   [
+    "Clay Golem",
+    6
+   ],
+   [
+    "Golem Mastery",
+    6
+   ],
+   [
+    "Blood Golem",
+    6
+   ],
+   [
+    "Fire Golem",
+    4
+   ],
+   [
+    "Iron Golem",
+    2
+   ],
+   [
+    "Raise Skeleton",
+    2
+   ]
+  ]
+ },
+ "Paladin|holy_bolt": {
+  "early": 14,
+  "same": 13,
+  "day95": 18.9,
+  "firstSkills": [
+   [
+    "Holy Bolt",
+    13
+   ],
+   [
+    "Fist of the Heavens",
+    12
+   ],
+   [
+    "Holy Nova",
+    12
+   ],
+   [
+    "Holy Light",
+    11
+   ],
+   [
+    "Conviction",
+    2
+   ],
+   [
+    "Sanctuary",
+    1
+   ]
+  ]
+ },
+ "Paladin|smite": {
+  "early": 7,
+  "same": 3,
+  "day95": 9.6,
+  "firstSkills": [
+   [
+    "Vengeance",
+    3
+   ],
+   [
+    "Conviction",
+    3
+   ],
+   [
+    "Holy Freeze",
+    3
+   ],
+   [
+    "Smite",
+    3
+   ],
+   [
+    "Holy Shield",
+    3
+   ],
+   [
+    "Holy Shock",
+    2
+   ]
+  ]
+ }
+}
