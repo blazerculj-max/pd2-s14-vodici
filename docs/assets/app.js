@@ -39,7 +39,7 @@
 
 
   // ---------- Tooltipi: statsi predmetov in sinergije skillov ----------
-  var tips = null, pending = null;
+  var tips = null, pending = [];
   var box = document.createElement('div');
   box.className = 'tt';
   box.id = 'tt';
@@ -50,13 +50,24 @@
 
   function loadTips(cb) {
     if (tips) return cb();
-    pending = cb;
+    pending.push(cb);
     if (loadTips.started) return;
     loadTips.started = true;
     fetch('assets/tips.json').then(function (r) { return r.json(); }).then(function (j) {
       tips = j;
-      if (pending) pending();
+      var cbs = pending;
+      pending = [];
+      cbs.forEach(function (f) { f(); });
     }).catch(function () { loadTips.started = false; });
+  }
+  // za wiki predmetov (assets/items.js)
+  window.PD2 = { tips: function (cb) { loadTips(function () { cb(tips); }); } };
+
+  // ali ima predmet svojo stran v wikiju predmetov
+  function wikiKey(key, html) {
+    if (/^(u|rw|cr|so|b):/.test(key)) return key;
+    if (/^p:/.test(key) && html.indexOf('tt-name q-u') >= 0) return key;
+    return null;
   }
 
   function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -103,6 +114,8 @@
   function show(el, pin) {
     loadTips(function () {
       if (!fill(el)) return;
+      var wk = pin && wikiKey(el.getAttribute('data-tip'), box.innerHTML);
+      if (wk) box.insertAdjacentHTML('beforeend', '<a class="tt-more" href="predmeti.html#k=' + encodeURIComponent(wk) + '">Odpri v wikiju predmetov →</a>');
       current = el;
       pinned = !!pin;
       box.classList.toggle('pinned', pinned);

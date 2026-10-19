@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Predmeti · PD2 S14 buildi</title>
+<meta name="description" content="Wiki predmetov za Project Diablo 2 S14: statsi, recepti in buildi, ki predmet uporabljajo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="img/skills/druid/Arctic Blast.png">
+<script src="assets/items.js" defer></script>
+</head>
+<body class="page-items">
+<div class="topbar"><div class="wrap"><a class="brand" href="index.html">PD2 <span>S14</span> buildi</a><nav aria-label="Strani"><a href="index.html">Razredi</a><a href="amazon.html">Amazon</a><a href="assassin.html">Assassin</a><a href="barbarian.html">Barbarian</a><a href="druid.html">Druid</a><a href="necromancer.html">Necromancer</a><a href="paladin.html">Paladin</a><a href="sorceress.html">Sorceress</a><a href="predmeti.html" aria-current="page">Predmeti</a><a href="druid-nacrt.html">Druid plan</a><a href="vodic.html">Vodič</a></nav></div></div>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Wiki predmetov · S14</div>
+<h1>Predmeti</h1>
+<p class="lead">Uniqui, seti, runewordi, crafti, rune, jeweli, charmi in baze. Pri vsakem so statsi z razponi, recept (rune, socketi, craft, nadgradnja) in buildi s te strani, ki ga nosijo, po fazah.</p>
+</div></header>
+<main class="wrap"><section>
+<form class="wfilters" role="search" onsubmit="return false">
+<label class="wsearch"><span class="sr-only">Iskanje</span><input type="search" id="wq" placeholder="Išči po imenu ali statsu: Shako, Enigma, Faster Cast Rate, Ber" autocomplete="off" spellcheck="false"></label>
+<div class="filters" role="group" aria-label="Vrsta predmeta"><button type="button" data-c="all" aria-pressed="true">Vse</button><button type="button" data-c="unique" aria-pressed="false">Unique</button><button type="button" data-c="set" aria-pressed="false">Set</button><button type="button" data-c="runeword" aria-pressed="false">Runeword</button><button type="button" data-c="craft" aria-pressed="false">Craft</button><button type="button" data-c="rune" aria-pressed="false">Rune</button><button type="button" data-c="gemjewel" aria-pressed="false">Jeweli in dragulji</button><button type="button" data-c="charm" aria-pressed="false">Charmi</button><button type="button" data-c="base" aria-pressed="false">Baze</button></div>
+<div class="wsel">
+<label>Slot<select id="wslot"><option value="">Vsi</option><option value="weapon">Orožje</option><option value="offhand">Druga roka</option><option value="helm">Helm</option><option value="armor">Oklep</option><option value="gloves">Rokavice</option><option value="belt">Pas</option><option value="boots">Škornji</option><option value="amulet">Amulet</option><option value="ring">Prstan</option><option value="charm">Charm</option><option value="socket">Socket</option></select></label>
+<label>Razred v buildih<select id="wcls"><option value="">Vsi</option><option value="amazon">Amazon</option><option value="assassin">Assassin</option><option value="barbarian">Barbarian</option><option value="druid">Druid</option><option value="necromancer">Necromancer</option><option value="paladin">Paladin</option><option value="sorceress">Sorceress</option></select></label>
+<label>Faza<select id="wph"><option value="">Vse</option><option value="s">Začetek in leveling</option><option value="m">Prvi teden</option><option value="e">Endgame</option></select></label>
+<label>Level do<input type="number" id="wreq" min="1" max="99" inputmode="numeric" placeholder="99"></label>
+<label>Razvrsti<select id="wsort"><option value="use">Največ buildov</option><option value="s13">S13 priljubljenost</option><option value="name">Ime</option><option value="req">Level naraščajoče</option><option value="reqd">Level padajoče</option></select></label>
+<label class="chk"><input type="checkbox" id="wused"> samo predmeti iz buildov</label>
+</div>
+</form>
+<div class="wcount" id="wcount" aria-live="polite">Nalagam predmete …</div>
+<div id="wlist" class="wlist"></div>
+<button type="button" id="wmore" class="wmore" hidden>Pokaži več</button>
+<noscript><p>Wiki predmetov potrebuje JavaScript.</p></noscript>
+<p class="muted note-s" style="margin-top:18px">Statsi so s PD2 wikija (stanje pred S14, razponi v oglatih oklepajih), novi S14 predmeti s Hiim planerja. Recepti za sockete, nadgradnje in rune so z wikija (Horadric Cube), crafti s Hiim planerja. »S13« je delež likov 90+ v S13, ki so predmet nosili (pd2.tools).</p>
+</section></main>
+<footer><div class="wrap credits">
+<span>Viri: <a href="https://hiimpd2.com/solo" target="_blank" rel="noopener">Hiim PD2</a> (S14 tier liste in planerji, stanje 2026-10-19), <a href="https://pd2.tools" target="_blank" rel="noopener">pd2.tools</a> (S13 statistika), <a href="https://wiki.projectdiablo2.com" target="_blank" rel="noopener">PD2 wiki</a> in S14 Alliance tentative patch notes.</span>
+<span>Slike predmetov in skillov so last Blizzard Entertainmenta (Diablo II), prevzete iz Hiim planerja. Neuradna stran skupnosti, brez povezave z Blizzardom ali ekipo Project Diablo 2.</span>
+</div></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

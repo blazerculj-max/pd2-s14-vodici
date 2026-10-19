@@ -4,7 +4,9 @@ Za vsak (razred, glavni skill) zabeleži število likov z 20 točkami v skillu n
 80-89, 90-99 in 95-99, najpogostejše iteme in merce. Z --respec pa še, ali so najhitrejši
 igralci imeli build že ob prvem posnetku (level 80-85, prvih 4,5 dneva sezone).
 
-Rezultat: data/pd2tools/stats.json (in respec.json)
+Poleg tega shrani še splošno uporabo predmetov (vsi liki 90-99) za wiki predmetov.
+
+Rezultat: data/pd2tools/stats.json, item_usage.json (in respec.json)
 """
 import datetime
 import json
@@ -141,8 +143,23 @@ def respec(force=False):
         print(key, cache[key]["same"], "/", cache[key]["early"], flush=True)
 
 
+def usage(force=False):
+    """Delež likov 90-99 (vsi razredi), ki nosijo posamezen predmet."""
+    path = os.path.join(OUT, "item_usage.json")
+    if os.path.exists(path) and not force:
+        return
+    params = {"gameMode": "softcore", "classes": "", "items": "", "mercTypes": "", "mercItems": "",
+              "minLevel": 90, "maxLevel": 99, "season": SEASON}
+    rows = curl_json(f"{API}/characters/stats/item-usage?" + urllib.parse.urlencode(params)) or []
+    out = {"total": rows[0]["totalSample"] if rows else 0,
+           "items": {x["item"]: round(x["pct"], 1) for x in rows}}
+    json.dump(out, open(path, "w"), indent=1)
+    print("item usage:", len(out["items"]), "predmetov,", out["total"], "likov")
+
+
 if __name__ == "__main__":
     if "--respec" in sys.argv:
         respec("--force" in sys.argv)
     else:
         stats("--force" in sys.argv)
+        usage("--force" in sys.argv)

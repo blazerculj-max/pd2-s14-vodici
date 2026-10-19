@@ -99,8 +99,10 @@ SIMPLE = {
     "howl": "Hit Causes Monster to Flee {v}%", "regen-stam": "Heal Stamina Plus {v}%",
     "fire-max": "+{v} to Maximum Fire Damage", "cold-max": "+{v} to Maximum Cold Damage", "ltng-max": "+{v} to Maximum Lightning Damage",
     "abs-cold": "+{v} Cold Absorb", "abs-fire": "+{v} Fire Absorb", "abs-ltng": "+{v} Lightning Absorb",
+    "reduce-ac": "-{v}% Target Defense", "block2": "+{v}% Faster Block Rate", "hp%": "Increase Maximum Life {v}%",
+    "mana%": "Increase Maximum Mana {v}%", "curse-res": "Curse Resistance +{v}%", "all-stats": "+{v} to All Attributes",
 }
-FLAG = {"half-freeze": "Half Freeze Duration", "nofreeze": "Cannot Be Frozen", "indestruct": "Indestructible",
+FLAG = {"knock": "Knockback", "half-freeze": "Half Freeze Duration", "nofreeze": "Cannot Be Frozen", "indestruct": "Indestructible",
         "ethereal": "Ethereal", "noheal": "Prevent Monster Heal", "ignore-ac": "Ignore Target's Defense"}
 PAIRS = {("fire-min", "fire-max"): "Adds {a}-{b} Fire Damage", ("cold-min", "cold-max"): "Adds {a}-{b} Cold Damage",
          ("ltng-min", "ltng-max"): "Adds {a}-{b} Lightning Damage", ("pois-min", "pois-max"): "Adds {a}-{b} Poison Damage",
@@ -374,7 +376,7 @@ def wiki_info(sec):
 
 # ---------- HTML ----------
 
-def tip_html(title, q, base=None, req=None, info=None, lines=(), extra=(), extra_title=None, runes=None):
+def tip_html(title, q, base=None, req=None, info=None, lines=(), extra=(), extra_title=None, runes=None, extra_cls="tt-set"):
     parts = [f'<div class="tt-name q-{q}">{e(title)}</div>']
     if base:
         parts.append(f'<div class="tt-base">{e(base)}</div>')
@@ -387,7 +389,7 @@ def tip_html(title, q, base=None, req=None, info=None, lines=(), extra=(), extra
     if lines:
         parts.append('<div class="tt-mods">' + "".join(f"<div>{e(l)}</div>" for l in lines) + "</div>")
     if extra:
-        parts.append(f'<div class="tt-set"><div class="tt-h">{e(extra_title or "")}</div>'
+        parts.append(f'<div class="{extra_cls}"><div class="tt-h">{e(extra_title or "")}</div>'
                      + "".join(f"<div>{e(l)}</div>" for l in extra) + "</div>")
     return "".join(parts)
 

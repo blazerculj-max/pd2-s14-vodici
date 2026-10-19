@@ -26,7 +26,8 @@ MAPS = {
 }
 SLOTS = ["weapon", "offhand", "helm", "armor", "gloves", "belt", "boots", "amulet", "ring1", "ring2",
          "swapWeapon", "swapOffhand"]
-GENERIC_IMG = {"amu": "items/amulet/Amulet_1.png", "rin": "items/ring/Ring_1.png"}
+GENERIC_IMG = {"amu": "items/amulet/Amulet_1.png", "rin": "items/ring/Ring_1.png",
+               "amul": "items/amulet/Amulet_1.png", "ring": "items/ring/Ring_1.png"}
 
 import hashlib
 import importlib.util
@@ -150,7 +151,7 @@ def resolve_item(g):
             s = SOCK.get(rid)
             runes.append({"name": s["name"].replace(" Rune", "") if s else rid, "img": img(s.get("image")) if s else None})
         bcode = g.get("base")
-        out.update(name=rw["name"], q="r", runes=runes, base=base_name(bcode), img=base_img(bcode))
+        out.update(name=rw["name"], q="r", runes=runes, base=base_name(bcode), img=base_img(bcode), bc=bcode)
         out["tip"] = tip_runeword(rw)
         for r, rid in zip(out["runes"], rw.get("runes", [])):
             r["tip"] = tip_socket(rid)
@@ -292,6 +293,360 @@ def planners_for(entry, cls):
     return out
 
 
+# ---------- recepti (wiki: Horadric cube, Hiim: crafti) ----------
+ITYPES = load("item-types")
+CRAFTS = load("crafts")
+RUNE_RANK = {s["id"]: int(s["code"][1:]) for s in SOCK.values() if s.get("kind") == "rune" and s.get("code")}
+CRAFT_TYPE = {"weapon": "weap", "swapWeapon": "weap", "offhand": "shld", "swapOffhand": "shld", "helm": "helm",
+              "armor": "tors", "gloves": "glov", "belt": "belt", "boots": "boot", "amulet": "amul",
+              "ring1": "ring", "ring2": "ring"}
+SOCKET_KIND_SL = {"weapon": "orožje", "shield": "ščit", "chest": "oklep", "helm": "čelada"}
+
+
+def type_is(t, target, depth=0):
+    if t == target:
+        return True
+    if depth > 8:
+        return False
+    return any(type_is(e, target, depth + 1) for e in (ITYPES.get(t) or {}).get("equiv") or [])
+
+
+def type_chain(t, acc=None):
+    acc = acc if acc is not None else []
+    if t and t not in acc:
+        acc.append(t)
+        for e in (ITYPES.get(t) or {}).get("equiv") or []:
+            type_chain(e, acc)
+    return acc
+
+
+def max_sockets(b):
+    ms = (ITYPES.get(b["type"]) or {}).get("maxSockets")
+    return min(b.get("sockets") or 0, ms[2]) if ms else (b.get("sockets") or 0)
+
+
+def socket_kind(code):
+    b = BASES.get(code)
+    if not b:
+        return None
+    if b["kind"] == "weapon":
+        return "weapon"
+    if type_is(b["type"], "shld"):
+        return "shield"
+    if type_is(b["type"], "helm"):
+        return "helm"
+    if b["type"] == "tors":
+        return "chest"
+    return None
+
+
+def cube_recipes():
+    path = os.path.join(ROOT, "data", "wiki", "Horadric_cube.txt")
+    txt = open(path).read() if os.path.exists(path) else ""
+    sock = {}
+    for m in re.finditer(r"\| ([\w' ]+ Rune \+ [\w' ]+ Rune \+ Perfect \w+) \+ Standard/Superior Regular ([\w/]+)\s*\n \| Adds (\d+)-(\d+) sockets", txt):
+        for kind in m.group(2).lower().split("/"):
+            sock[kind] = {"recipe": m.group(1).replace(" Rune", ""), "lo": int(m.group(3)), "hi": int(m.group(4))}
+    upgrade = {}
+    for m in re.finditer(r"\| ([\w' ]+ Rune \+ [\w' ]+ Rune \+ Perfect \w+) \+ (Normal|Exceptional) (Unique/Set|Rare/Crafted) ([\w/]+)\s*\n", txt):
+        for kind in m.group(4).lower().split("/"):
+            upgrade[(m.group(3).split("/")[0].lower(), kind, m.group(2).lower())] = m.group(1).replace(" Rune", "")
+    promote = {}
+    for m in re.finditer(r"\| (\d) (\w+) Runes \(#\d+\) \+ Key\s*\n \| 1 (\w+) Rune", txt):
+        promote[m.group(3)] = f"{m.group(1)}× {m.group(2)} + Key"
+    return sock, upgrade, promote
+
+
+SOCKET_RECIPE, UPGRADE_RECIPE, RUNE_PROMOTE = cube_recipes()
+
+
+def craft_for(name, slot):
+    """Craft preset (npr. »Caster Craft Gloves«) → recept iz crafts.json."""
+    m = re.match(r"(\w+) Craft", name or "")
+    itype = CRAFT_TYPE.get(slot)
+    if not m or not itype:
+        return None
+    for c in CRAFTS:
+        if c["category"].lower() == m.group(1).lower() and c["itemType"] == itype:
+            return c
+    return None
+
+
+def craft_tip(c):
+    key = f"cr:{c['id']}"
+    if key not in TIPS:
+        main, *alt = c.get("ingredients") or [[]]
+        extra = ["Kocka: " + " + ".join(main + [f"magic/rare {c['typeName'].lower()}"])]
+        extra += ["ali: " + " + ".join(a + [f"magic/rare {c['typeName'].lower()}"]) for a in alt]
+        extra.append(f"Ilvl craft = clvl/2 + ilvl/2 · do 4 dodatni affixi")
+        TIPS[key] = tips.tip_html(c["name"], "c", base=c["typeName"] + (" (brez circletov)" if "circ" in (c.get("excludeTypes") or []) else ""),
+                                  req=None, lines=tips.mods_text(c.get("mods") or []), extra=extra, extra_title="Recept",
+                                  extra_cls="tt-rec")
+    return key
+
+
+def base_tip(b):
+    key = f"b:{b['code']}"
+    if key not in TIPS:
+        info = []
+        if b.get("damage"):
+            info.append(f"Damage: {b['damage'][0]}-{b['damage'][1]}")
+        if b.get("defense"):
+            info.append(f"Defense: {b['defense'][0]}-{b['defense'][1]}")
+        if b.get("block"):
+            info.append(f"Block: {b['block']}%")
+        if b.get("reqStr"):
+            info.append(f"Required Strength: {b['reqStr']}")
+        if b.get("reqDex"):
+            info.append(f"Required Dexterity: {b['reqDex']}")
+        t = (ITYPES.get(b["type"]) or {}).get("name") or b["type"]
+        TIPS[key] = tips.tip_html(b["name"], "n", base=f"{t} · {b['tier']}", req=b.get("levelReq") or None, info=info,
+                                  lines=[f"Max socketov: {max_sockets(b)}"])
+    return key
+
+
+def rune_name(rid):
+    return (SOCK.get(rid) or {}).get("name", rid).replace(" Rune", "")
+
+
+def planner_recipes(p):
+    """Runewordi, crafti in rune enega planerja."""
+    rws, crafts, runes = [], [], {}
+
+    def add_rune(rid, why):
+        s = SOCK.get(rid)
+        if not s:
+            return
+        r = runes.setdefault(rid, {"name": rune_name(rid), "img": s.get("image"), "tip": tip_socket(rid), "n": 0,
+                                   "rank": RUNE_RANK.get(rid, 0), "for": []})
+        r["n"] += 1
+        if why.startswith(("socket:", "craft:")):
+            r["sn"] = r.get("sn", 0) + 1
+        if why not in r["for"]:
+            r["for"].append(why)
+
+    for owner, gear in (("", p["gear"]), ("merc", ((p.get("merc") or {}).get("gear") or {}))):
+        for slot, it in gear.items():
+            who = f"merc {slot}" if owner else slot
+            if it.get("tip", "").startswith("rw:"):
+                rw = RW.get(it["tip"][3:])
+                if rw:
+                    for rid in rw["runes"]:
+                        add_rune(rid, rw["name"])
+                    b = BASES.get(it.get("bc")) or {}
+                    kind = socket_kind(it.get("bc"))
+                    sr = SOCKET_RECIPE.get(kind)
+                    n = len(rw["runes"])
+                    rws.append({"name": rw["name"], "tip": it["tip"], "slot": who, "base": it.get("base"), "n": n,
+                                "eth": bool(it.get("eth")),
+                                "runes": [rune_name(r) for r in rw["runes"]],
+                                "larzuk": bool(b) and max_sockets(b) == n,
+                                "cube": f"{sr['recipe']} + {SOCKET_KIND_SL[kind]} (naključno {sr['lo']}–{min(sr['hi'], max_sockets(b) or sr['hi'])})" if sr and b else None})
+            for so in it.get("sockets") or []:
+                sid = (so.get("tip") or "")[3:]
+                if sid in RUNE_RANK:
+                    for _ in range(so["n"]):
+                        add_rune(sid, f"socket: {who}")
+            if it.get("q") == "c":
+                c = craft_for(it["name"], slot)
+                if c:
+                    main, *alt = c["ingredients"]
+                    for ing in main:
+                        rid = slug(ing).replace("-", "_")
+                        if rid in RUNE_RANK:
+                            add_rune(rid, f"craft: {it['name']}")
+                    crafts.append({"name": it["name"], "tip": craft_tip(c), "slot": who, "type": c["typeName"],
+                                   "ing": main, "alt": [a for alt_ in alt for a in alt_],
+                                   "eth": bool(c.get("ethereal")), "lvl": c.get("playerLevel")})
+    rl = sorted(runes.values(), key=lambda r: r["rank"])
+    for r in rl:
+        img(r["img"])
+    return {"runes": rl, "rw": rws, "crafts": crafts} if (rl or rws or crafts) else None
+
+
+def build_runes_total(b):
+    """Rune za vse faze builda: vsak runeword šteje enkrat (največ kosov v eni fazi), socketi in crafti prav tako."""
+    rw_need, sock_need = {}, {}
+    for p in b["planners"]:
+        rec = p.get("recipes")
+        if not rec:
+            continue
+        per = {}
+        for rw in rec["rw"]:
+            per[rw["tip"]] = per.get(rw["tip"], 0) + 1
+        for key, cnt in per.items():
+            rw_need[key] = max(rw_need.get(key, 0), cnt)
+        for r in rec["runes"]:
+            if r.get("sn"):
+                sock_need[r["tip"]] = max(sock_need.get(r["tip"], 0), r["sn"])
+    total = {}
+    for key, cnt in rw_need.items():
+        for rid in RW[key[3:]]["runes"]:
+            total[rid] = total.get(rid, 0) + cnt
+    for key, cnt in sock_need.items():
+        total[key[3:]] = total.get(key[3:], 0) + cnt
+    out = []
+    for rid, n in sorted(total.items(), key=lambda x: RUNE_RANK.get(x[0], 0)):
+        s = SOCK[rid]
+        out.append({"name": rune_name(rid), "img": s.get("image"), "tip": tip_socket(rid), "n": n, "rank": RUNE_RANK[rid]})
+    return out
+
+
+# ---------- wiki predmetov ----------
+SLOT_OF_TYPE = [("tors", "armor"), ("helm", "helm"), ("shld", "offhand"), ("glov", "gloves"), ("belt", "belt"),
+                ("boot", "boots"), ("amul", "amulet"), ("ring", "ring"), ("weap", "weapon"), ("misl", "offhand"),
+                ("pala", "offhand"), ("necr", "offhand"), ("sorc", "weapon"), ("assn", "weapon"), ("amaz", "weapon"),
+                ("drui", "helm"), ("barb", "helm")]
+CRAFT_IMG_BASE = {"helm": "hlm", "boot": "mbt", "glov": "vgl", "belt": "vbl", "shld": "kit", "tors": "brs",
+                  "weap": "lsd", "misl": "aqv"}
+
+
+def slots_for_types(types):
+    out = []
+    for t in types:
+        for target, slot in SLOT_OF_TYPE:
+            if type_is(t, target) and slot not in out:
+                out.append(slot)
+                break
+    return out
+
+
+def build_catalog(site):
+    """Vsi predmeti + kateri buildi jih uporabljajo → docs/assets/items.json."""
+    usage_path = os.path.join(PD2T, "item_usage.json")
+    s13 = json.load(open(usage_path))["items"] if os.path.exists(usage_path) else {}
+    s13 = {k.lower(): v for k, v in s13.items()}
+    builds, used = [], {}
+    rw_group = {}
+    for rw in RW.values():
+        rw_group[f"rw:{rw['id']}"] = "rw:" + slug(rw.get("runeword") or rw["id"]).replace("-", "_")
+
+    def mark(key, bi, role, phase, merc=False):
+        if not key:
+            return
+        key = rw_group.get(key, key)
+        rec = used.setdefault(key, {}).setdefault(bi, {"r": [], "p": ""})
+        role = ("merc " if merc else "") + role
+        if role not in rec["r"]:
+            rec["r"].append(role)
+        if phase[0] not in rec["p"]:
+            rec["p"] += phase[0]
+
+    for cl in site["classes"]:
+        for b in cl["builds"]:
+            bi = len(builds)
+            builds.append([cl["id"], b["id"], b["name"], b["tier"]])
+            for p in b["planners"]:
+                ph = p["phase"]
+                for merc, gear in ((False, p["gear"]), (True, (p.get("merc") or {}).get("gear") or {})):
+                    for slot, it in gear.items():
+                        mark(it.get("tip"), bi, slot, ph, merc)
+                        if it.get("bc"):
+                            mark(f"b:{it['bc']}", bi, f"baza: {it['name']}", ph, merc)
+                        for so in it.get("sockets") or []:
+                            mark(so.get("tip"), bi, f"socket: {slot}", ph, merc)
+                        for r in it.get("runes") or []:
+                            mark(r.get("tip"), bi, it["name"], ph, merc)
+                        if it.get("q") == "c":
+                            c = craft_for(it["name"], slot)
+                            if c:
+                                mark(f"cr:{c['id']}", bi, slot, ph, merc)
+                for c in p["charms"]:
+                    mark(c.get("tip"), bi, "charm", ph)
+
+    entries = []
+
+    def add(e):
+        e["u"] = [[bi, "".join(sorted(v["p"], key="sme".index)), v["r"]] for bi, v in sorted(used.get(e["k"], {}).items())]
+        pct = s13.get(e["n"].lower())
+        if pct:
+            e["s13"] = pct
+        entries.append({k: v for k, v in e.items() if v not in (None, [], "")})
+
+    tier_sl = {"normal": "normal", "exceptional": "exceptional", "elite": "elite"}
+    for it in UNIQ.values():
+        b = BASES.get(it.get("base")) or {}
+        e = {"k": f"u:{it['id']}", "n": it["name"], "q": "u" if it["kind"] == "unique" else "s",
+             "c": it["kind"], "s": ["ring" if it["slot"] == "ring" else it["slot"]], "b": it.get("baseName"),
+             "t": tier_sl.get(b.get("tier")), "r": it.get("reqLevel"), "i": img(it.get("image")), "tip": tip_unique(it),
+             "set": SET_OF.get(it["id"]), "cl": it.get("only")}
+        if b and b.get("tier") in ("normal", "exceptional") and b["kind"] in ("weapon", "armor"):
+            kind = "weapon" if b["kind"] == "weapon" else "armor"
+            rec = UPGRADE_RECIPE.get(("unique", kind, b["tier"]))
+            if rec:
+                e["up"] = f"{rec} → {'exceptional' if b['tier'] == 'normal' else 'elite'}"
+        add(e)
+
+    groups = {}
+    for rw in RW.values():
+        groups.setdefault(rw_group[f"rw:{rw['id']}"], []).append(rw)
+    for key, rws in groups.items():
+        rw = rws[0]
+        itypes, etypes = [], []
+        for v in rws:
+            for t in v.get("txt") or []:
+                itypes += [x for x in t.get("itypes") or [] if x not in itypes]
+                etypes += [x for x in t.get("etypes") or [] if x not in etypes]
+        req = max((SOCK.get(r) or {}).get("reqLevel") or 0 for r in rw["runes"])
+        name = re.sub(r" \(.*\)$", "", rw["name"]) if len(rws) > 1 else rw["name"]
+        base_img_path = next((b.get("image") for b in rw.get("bases") or [] if b.get("image")), None)
+        e = {"k": key, "n": name, "q": "r", "c": "runeword", "s": slots_for_types(itypes), "r": req,
+             "i": img(base_img_path), "tip": tip_runeword(rw), "ru": [rune_name(r) for r in rw["runes"]],
+             "ri": [img((SOCK.get(r) or {}).get("image")) for r in rw["runes"]],
+             "it": itypes, "et": etypes,
+             "b": " / ".join((ITYPES.get(t) or {}).get("name", t) for t in itypes),
+             "a": [f"rw:{v['id']}" for v in rws]}
+        if len(rws) > 1:
+            e["var"] = [[re.sub(r"^.*\((.*)\)$", r"\1", v["name"]), tip_runeword(v)] for v in rws]
+        add(e)
+
+    for c in CRAFTS:
+        main_, *alt = c.get("ingredients") or [[]]
+        add({"k": f"cr:{c['id']}", "n": c["name"], "q": "c", "c": "craft", "s": slots_for_types([c["itemType"]]) or ["weapon"],
+             "b": c["typeName"], "r": c.get("playerLevel"), "tip": craft_tip(c), "cat": c["category"],
+             "ing": main_, "alt": [a for x in alt for a in x],
+             "i": img(GENERIC_IMG.get(c["itemType"])) if c["itemType"] in ("amul", "ring")
+             else base_img(CRAFT_IMG_BASE.get(c["itemType"]))})
+
+    for so in SOCK.values():
+        kind = so.get("kind")
+        cat = {"rune": "rune", "gem": "gem", "jewel": "jewel", "facet": "jewel"}.get(kind)
+        if not cat:
+            continue
+        e = {"k": f"so:{so['id']}", "n": so["name"], "q": "r" if kind == "rune" else ("u" if kind == "facet" else "m"),
+             "c": cat, "s": ["socket"], "r": so.get("reqLevel"), "i": img(so.get("image")), "tip": tip_socket(so["id"])}
+        if kind == "rune":
+            e["rank"] = RUNE_RANK.get(so["id"])
+            e["up"] = RUNE_PROMOTE.get(so["name"].replace(" Rune", ""))
+        add(e)
+
+    for ch in CHARM.values():
+        if ch.get("rarity") != "unique":
+            continue
+        key = f"p:{ch['id']}"
+        if key not in TIPS:
+            TIPS[key] = tips.preset_tip(ch, "u")
+        add({"k": key, "n": ch["name"], "q": "u", "c": "charm", "s": ["charm"], "r": ch.get("reqLevel"),
+             "i": img(ch.get("image")), "tip": key, "b": (ch.get("size") or "").title() + " Charm"})
+
+    for b in BASES.values():
+        if b["kind"] not in ("weapon", "armor") or max_sockets(b) < 2:
+            continue
+        t = b["type"]
+        add({"k": f"b:{b['code']}", "n": b["name"], "q": "n", "c": "base", "s": slots_for_types([t]),
+             "b": (ITYPES.get(t) or {}).get("name", t), "t": b["tier"], "r": b.get("levelReq") or 0,
+             "i": base_img(b["code"]), "tip": base_tip(b), "ms": max_sockets(b), "ta": type_chain(t),
+             "sk": socket_kind(b["code"])})
+
+    sock = {k: {"recipe": v["recipe"], "lo": v["lo"], "hi": v["hi"]} for k, v in SOCKET_RECIPE.items()}
+    out = {"builds": builds, "items": entries, "socket": sock,
+           "classes": {c["id"]: c["name"] for c in site["classes"]}}
+    json.dump(out, open(os.path.join(ROOT, "docs", "assets", "items.json"), "w"), separators=(",", ":"), ensure_ascii=False)
+    n_used = sum(1 for e in entries if e.get("u"))
+    print(f"predmetov v wikiju: {len(entries)} (v buildih: {n_used}), socket receptov: {len(SOCKET_RECIPE)}, "
+          f"nadgradenj: {len(UPGRADE_RECIPE)}, rune promocij: {len(RUNE_PROMOTE)}")
+
+
 def tags_of(notes):
     m = re.search(r"Tags:\s*(.+)", notes or "")
     return [t.strip() for t in m.group(1).split(",")] if m else []
@@ -372,13 +727,20 @@ def main():
             ids.add(b["id"])
         site["classes"].append({"id": cls, "name": cname, "builds": builds, "others": others,
                                 "starters": [s["buildName"] for s in starters]})
+    for c in site["classes"]:
+        for b in c["builds"]:
+            for p in b["planners"]:
+                p["recipes"] = planner_recipes(p)
+            b["runes_total"] = build_runes_total(b)
     json.dump(site, open(os.path.join(ROOT, "data", "site.json"), "w"), indent=1)
-    json.dump(sorted(images), open(os.path.join(ROOT, "data", "images.json"), "w"), indent=1)
-    json.dump(sorted(need_bases), open(os.path.join(ROOT, "data", "base_codes.json"), "w"), indent=1)
     for it in UNIQ.values():
         tip_unique(it)
     for rw in RW.values():
         tip_runeword(rw)
+    os.makedirs(os.path.join(ROOT, "docs", "assets"), exist_ok=True)
+    build_catalog(site)
+    json.dump(sorted(images), open(os.path.join(ROOT, "data", "images.json"), "w"), indent=1)
+    json.dump(sorted(need_bases), open(os.path.join(ROOT, "data", "base_codes.json"), "w"), indent=1)
     for c in CHARM.values():
         if c.get("rarity") == "unique":
             key = f"p:{c['id']}"

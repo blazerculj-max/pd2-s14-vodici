@@ -134,6 +134,65 @@ def item_html(slot, it):
             f'{label}<span class="nm q-{q}">{name}</span>{sub}</div>')
 
 
+def plural(n, one, two, few, many):
+    """Slovenska dvojina in množina: 1 runa, 2 runi, 3 rune, 5 run (101 runa, 102 runi ...)."""
+    k = n % 100
+    word = one if k == 1 else two if k == 2 else few if k in (3, 4) else many
+    return f"{n} {word}"
+
+
+def slot_label(who):
+    merc = who.startswith("merc ")
+    slot = who[5:] if merc else who
+    lab = SLOT_LABEL.get(slot, slot)
+    return ("Merc · " + lab) if merc else lab
+
+
+def rune_chips(runes):
+    out = []
+    for r in runes:
+        why = ", ".join(r.get("for") or [])
+        cls = "rch hr" if r.get("rank", 0) >= 21 else "rch"
+        out.append(f'<span class="{cls}" data-tip="{e(r["tip"])}" tabindex="0"' + (f' title="{e(why)}"' if why else "") + '>'
+                   f'{img_tag(r.get("img"), alt=r["name"])}{e(r["name"])}' + (f' <b>×{r["n"]}</b>' if r["n"] > 1 else "") + "</span>")
+    return '<div class="rune-row">' + "".join(out) + "</div>"
+
+
+def recipes_html(rec):
+    if not rec:
+        return ""
+    n_runes = sum(r["n"] for r in rec["runes"])
+    head = []
+    if n_runes:
+        head.append(plural(n_runes, "runa", "runi", "rune", "run"))
+    if rec["rw"]:
+        head.append(plural(len(rec["rw"]), "runeword", "runeworda", "runewordi", "runewordov"))
+    if rec["crafts"]:
+        head.append(plural(len(rec["crafts"]), "craft", "crafta", "crafti", "craftov"))
+    rows = []
+    for rw in rec["rw"]:
+        base = f'{e(rw["base"] or "baza")}{" (eth)" if rw.get("eth") else ""}, {rw["n"]} os'
+        how = []
+        if rw.get("larzuk"):
+            how.append(f'Larzuk (A5 quest) na beli bazi da točno {rw["n"]} os')
+        if rw.get("cube"):
+            how.append("cube: " + e(rw["cube"]))
+        rows.append(f'<div class="rrow"><span><span class="nm q-r" data-tip="{e(rw["tip"])}" tabindex="0">{e(rw["name"])}</span>'
+                    f'<span class="sl">{e(slot_label(rw["slot"]))}</span></span>'
+                    f'<span class="runes-c">{" · ".join(e(x) for x in rw["runes"])}</span>'
+                    f'<span>Bela ali superior baza: {base}' + (f'<span class="muted">{" · ".join(how)}</span>' if how else "") + "</span></div>")
+    for c in rec["crafts"]:
+        alt = (f'<span class="muted">ali: {e(" + ".join(c["alt"]))} + baza (infuzije padajo od Treasure Fallen v mapah)</span>' if c.get("alt") else "")
+        rows.append(f'<div class="rrow"><span><span class="nm q-c" data-tip="{e(c["tip"])}" tabindex="0">{e(c["name"])}</span>'
+                    f'<span class="sl">{e(slot_label(c["slot"]))}</span></span>'
+                    f'<span class="runes-c">{e(" + ".join(c["ing"]))}</span>'
+                    f'<span>+ magic ali rare {e(c["type"].lower())}{"; eth baza da eth craft" if c.get("eth") else ""}{alt}</span></div>')
+    body = (rune_chips(rec["runes"]) if rec["runes"] else "") + ('<div class="rtable">' + "".join(rows) + "</div>" if rows else "")
+    return (f'<details class="recipes"><summary>Recepti in rune <span class="muted">· {", ".join(head)}</span></summary>'
+            f'<div class="rec-body">{body}<span class="muted note-s">Rune v cubu: 3 enake (od Pul naprej 2) + Key da naslednjo. '
+            f'Vse rune in baze: <a href="predmeti.html">wiki predmetov</a>.</span></div></details>')
+
+
 def planner_html(p):
     head = (f'<div class="planner-head"><span class="ph">{e(PHASE_LABEL[p["phase"]])}</span>'
             f'<b>{e(p.get("title") or p.get("label") or "")}</b>'
@@ -163,6 +222,7 @@ def planner_html(p):
     if m:
         mg = "".join(item_html(slot, it) for slot, it in m["gear"].items())
         out.append(f'<div class="merc"><h4>Merc: {e(m["name"])}</h4><div class="gearset">{mg}</div></div>')
+    out.append(recipes_html(p.get("recipes")))
     if p.get("url"):
         out.append(f'<div class="links"><a href="{e(p["url"])}" target="_blank" rel="noopener">Odpri v Hiim planerju</a>'
                    + (f' <a href="{e(p["video"])}" target="_blank" rel="noopener">Video</a>' if p.get("video") else "") + "</div>")
@@ -275,6 +335,11 @@ def build_html(b, cls):
     if cls["id"] == "druid" and b["id"] in DRUID_PLAN_BUILDS:
         body.append('<div class="note"><b>Naš druid plan:</b> leveling kot summoner, nato Poison Creeper ali Rabies. '
                     '<a href="druid-nacrt.html">Odpri druid plan</a>.</div>')
+    if b.get("runes_total"):
+        n = sum(r["n"] for r in b["runes_total"])
+        body.append(f'<div class="runes-total"><h4>Rune za ves build ({n})</h4>{rune_chips(b["runes_total"])}'
+                    '<span class="muted">Vse faze skupaj: vsak runeword šteje enkrat, zraven so rune za sockete in crafte. '
+                    'Recepti so pri vsakem planerju pod »Recepti in rune«.</span></div>')
     if b["planners"]:
         body.append("<div><h4>Planerji (Hiim)</h4>" + "".join(planner_html(p) for p in b["planners"]) + "</div>")
     else:
@@ -294,7 +359,7 @@ def build_html(b, cls):
 
 def page(title, body, current, desc, extra_head="", body_class=""):
     nav = [("index.html", "Razredi")] + [(f'{c["id"]}.html', c["name"]) for c in SITE["classes"]] + [
-        ("druid-nacrt.html", "Druid plan"), ("vodic.html", "Vodič")]
+        ("predmeti.html", "Predmeti"), ("druid-nacrt.html", "Druid plan"), ("vodic.html", "Vodič")]
     nav_html = "".join(f'<a href="{h}"{" aria-current=\"page\"" if h == current else ""}>{e(t)}</a>' for h, t in nav)
     return f"""<!doctype html>
 <html lang="sl">
@@ -348,6 +413,7 @@ def index_html():
 <section><div class="sec-head"><div class="eyebrow">Naši vodiči</div><h2>Kje začeti</h2></div>
 <div class="cols">
 <a class="class-card" href="druid-nacrt.html"><h3>Druid plan</h3><span class="muted">Leveling kot summoner, nato Poison Creeper ali Rabies. Točke po levelih, oprema v treh fazah, merc, breakpointi.</span></a>
+<a class="class-card" href="predmeti.html"><h3>Wiki predmetov</h3><span class="muted">Iskalnik po vseh uniquih, setih, runewordih, craftih, runah in bazah: statsi z razponi, recepti in kateri buildi jih nosijo.</span></a>
 <a class="class-card" href="vodic.html"><h3>Splošni vodič</h3><span class="muted">Kaj pobirati, budget runewordi, crafting, recepti v cubu, mape za začetnika in S14 spremembe.</span></a>
 <div class="class-card"><h3>PDF za tisk</h3><span class="muted">Druid plan in budget mapper vodič na A4, s kvadratki za kljukice.</span><span class="links"><a href="pdf/Druid-nacrt-S14.pdf">Druid plan (PDF)</a><a href="pdf/Budget-mapper-S14.pdf">Budget mapper (PDF)</a></span></div>
 <a class="class-card" href="assassin.html#b-chain-lightning-sentry"><h3>Za novinca</h3><span class="muted">Najlažji budget mapperji: lightning trapsin, Fire Blast trapsin, wind druid, skeleton necro in lightning sorc imajo naš podroben vodič.</span></a>
@@ -409,6 +475,48 @@ def guide_html():
                 "Loot, runewordi, crafting, recepti in mape za Project Diablo 2 S14.")
 
 
+def items_page_html():
+    cats = [("all", "Vse"), ("unique", "Unique"), ("set", "Set"), ("runeword", "Runeword"), ("craft", "Craft"),
+            ("rune", "Rune"), ("gemjewel", "Jeweli in dragulji"), ("charm", "Charmi"), ("base", "Baze")]
+    cbtn = "".join(f'<button type="button" data-c="{k}" aria-pressed="{str(k == "all").lower()}">{e(t)}</button>' for k, t in cats)
+    slots = [("", "Vsi"), ("weapon", "Orožje"), ("offhand", "Druga roka"), ("helm", "Helm"), ("armor", "Oklep"),
+             ("gloves", "Rokavice"), ("belt", "Pas"), ("boots", "Škornji"), ("amulet", "Amulet"), ("ring", "Prstan"),
+             ("charm", "Charm"), ("socket", "Socket")]
+    sopt = "".join(f'<option value="{k}">{e(t)}</option>' for k, t in slots)
+    copt = '<option value="">Vsi</option>' + "".join(f'<option value="{c["id"]}">{e(c["name"])}</option>' for c in SITE["classes"])
+    phopt = "".join(f'<option value="{k}">{e(t)}</option>' for k, t in [("", "Vse"), ("s", "Začetek in leveling"), ("m", "Prvi teden"), ("e", "Endgame")])
+    sorts = [("use", "Največ buildov"), ("s13", "S13 priljubljenost"), ("name", "Ime"), ("req", "Level naraščajoče"), ("reqd", "Level padajoče")]
+    sortopt = "".join(f'<option value="{k}">{e(t)}</option>' for k, t in sorts)
+    body = f"""
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Wiki predmetov · S14</div>
+<h1>Predmeti</h1>
+<p class="lead">Uniqui, seti, runewordi, crafti, rune, jeweli, charmi in baze. Pri vsakem so statsi z razponi, recept (rune, socketi, craft, nadgradnja) in buildi s te strani, ki ga nosijo, po fazah.</p>
+</div></header>
+<main class="wrap"><section>
+<form class="wfilters" role="search" onsubmit="return false">
+<label class="wsearch"><span class="sr-only">Iskanje</span><input type="search" id="wq" placeholder="Išči po imenu ali statsu: Shako, Enigma, Faster Cast Rate, Ber" autocomplete="off" spellcheck="false"></label>
+<div class="filters" role="group" aria-label="Vrsta predmeta">{cbtn}</div>
+<div class="wsel">
+<label>Slot<select id="wslot">{sopt}</select></label>
+<label>Razred v buildih<select id="wcls">{copt}</select></label>
+<label>Faza<select id="wph">{phopt}</select></label>
+<label>Level do<input type="number" id="wreq" min="1" max="99" inputmode="numeric" placeholder="99"></label>
+<label>Razvrsti<select id="wsort">{sortopt}</select></label>
+<label class="chk"><input type="checkbox" id="wused"> samo predmeti iz buildov</label>
+</div>
+</form>
+<div class="wcount" id="wcount" aria-live="polite">Nalagam predmete …</div>
+<div id="wlist" class="wlist"></div>
+<button type="button" id="wmore" class="wmore" hidden>Pokaži več</button>
+<noscript><p>Wiki predmetov potrebuje JavaScript.</p></noscript>
+<p class="muted note-s" style="margin-top:18px">Statsi so s PD2 wikija (stanje pred S14, razponi v oglatih oklepajih), novi S14 predmeti s Hiim planerja. Recepti za sockete, nadgradnje in rune so z wikija (Horadric Cube), crafti s Hiim planerja. »S13« je delež likov 90+ v S13, ki so predmet nosili (pd2.tools).</p>
+</section></main>"""
+    return page("Predmeti · PD2 S14 buildi", body, "predmeti.html",
+                "Wiki predmetov za Project Diablo 2 S14: statsi, recepti in buildi, ki predmet uporabljajo.",
+                extra_head='<script src="assets/items.js" defer></script>', body_class="page-items")
+
+
 def druid_plan_html():
     header = open(os.path.join(CONTENT, "druid-plan-header.html")).read()
     main = add_tips_to_fragment(open(os.path.join(CONTENT, "druid-plan-main.html")).read())
@@ -441,6 +549,7 @@ def main():
         open(os.path.join(DOCS, f"{c['id']}.html"), "w").write(class_html(c))
     open(os.path.join(DOCS, "vodic.html"), "w").write(guide_html())
     open(os.path.join(DOCS, "druid-nacrt.html"), "w").write(druid_plan_html())
+    open(os.path.join(DOCS, "predmeti.html"), "w").write(items_page_html())
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")
     sizes = {f: os.path.getsize(os.path.join(DOCS, f)) for f in os.listdir(DOCS) if f.endswith(".html")}
     print(sizes)
