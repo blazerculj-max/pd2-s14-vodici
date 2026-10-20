@@ -458,3 +458,16 @@ details.mapc.is-bad .fit { color: var(--bad); }
   .topbar nav::-webkit-scrollbar { display: none; }
   .topbar nav a { white-space: nowrap; }
 }
+
+/* ===== povzetki video vodičev ===== */
+.vids { display: grid; gap: 10px; }
+.vids > h4 { margin-bottom: 0; }
+.vid { border-left: 3px solid var(--accent); background: var(--surface-2); padding: 10px 14px; display: grid; gap: 8px; min-width: 0; }
+.vid-h { display: grid; gap: 2px; }
+.vid-h a { font-weight: 700; }
+.vid-meta { font-size: 0.86rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.vid .kv { font-size: 0.93rem; }
+.vid .kv dd { min-width: 0; }
+.vid ul.plain { font-size: 0.93rem; }
+.vid-vs { border-top: 1px dashed var(--line); padding-top: 8px; font-size: 0.93rem; display: grid; gap: 4px; }
+@media (max-width: 640px) { .vid .kv { grid-template-columns: minmax(0, 1fr); } .vid .kv dt { padding-top: 6px; } }

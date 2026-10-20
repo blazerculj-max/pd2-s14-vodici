@@ -1,0 +1,197 @@
+{
+  "_opis": "Povzetki video vodičev po buildih (razred/id builda). Napisani iz samodejnih angleških podnapisov YouTube, imena predmetov preverjena v katalogu. {{Ime}} postane predmet s tooltipom.",
+  "assassin/wake-of-fire": [
+    {
+      "url": "https://www.youtube.com/watch?v=7QNCOt1iQBk&t=1589s",
+      "title": "PD2 S13 Assassin Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-15",
+      "part": "26:29–36:27 · Endgame Wake of Fire (Hiimova povezava pri tem buildu)",
+      "skills": "Max Wake of Fire in sinergiji Fire Blast ter Wake of Inferno. Po 1 točka v Blade Shield (proc in leech) in Burst of Speed (IAS breakpoint dosežeš že z orožjem). Max Shadow Master, vse ostalo v Dragon Flight: vsaka točka skrajša cooldown.",
+      "stats": "Strength za opremo, Dexterity do maksimalnega blocka, ostalo Vitality.",
+      "gear": "{{Ghostflame}} (50 % IAS za breakpoint, mana leech, fire skill damage; najboljša korupcija +1 skill z 2 socketoma), {{Gerke's Sanctuary}} (resi in PDR), circlet s +3 traps in 20 % FCR, {{Mara's Kaleidoscope}}, {{Magefist}} (korupcija 10 % block), {{Bul-Kathos' Wedding Band}} in {{Wisp Projector}} (korupcije PDR %), {{Chains of Honor}} ali {{Enigma}}. Charmi: small charmi s FHR, 3 trap skillerji, torch, Annihilus.",
+      "merc": "{{Infinity}}, {{Flickering Flame}} (Resist Fire aura: resi in fire skill damage), {{Lava Gout}}, {{String of Ears}}, {{Marrowwalk}} (cannot be frozen), {{Heavenly Garb}}.",
+      "tips": [
+        "Z Dragon Flight skačeš od skupine do skupine in sproti polagaš pasti; ne čakaš, da pošasti umrejo.",
+        "Zelo vzdržljiv: s korupcijami do 40 % PDR, zato primeren tudi za hardcore.",
+        "T3 Pandemonium Citadel izkušen igralec preteče v manj kot 4 minutah, ostali v okoli 4:30.",
+        "Fire Blast je v S13 dobil dve dodatni bombi, kar močno poveča škodo na posamezno tarčo (bossi)."
+      ],
+      "vs_hiim": [
+        "Enako: Fire Blast, Wake of Fire in Wake of Inferno na 20; Ghostflame, Gerke's Sanctuary, Mara's Kaleidoscope, Bul-Kathos' Wedding Band, circlet s +3 traps; merc z Infinity, Flickering Flame, Marrowwalk in String of Ears.",
+        "Razlika: Hiim maxa Shadow Warrior (ne Shadow Master) in da le 6 točk v Dragon Flight; oklep Guardian Angel namesto Chains of Honor ali Enigme; rokavice M'avina's Icy Clutch namesto Magefist; merc je Act 2 Defiance s Hustle in Dracul's Grasp."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=901s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "15:01–18:30 · Budget map demo",
+      "tips": [
+        "Za zgodnje budget mapanje je lightning trapsin (Chain Lightning Sentry) boljši od Wake of Fire.",
+        "Wake of Fire postane res dober šele z Infinity na mercu, zato ima višjo vstopno ceno. Do takrat igraj lightning pasti in zbiraj charme."
+      ]
+    }
+  ],
+  "assassin/chain-lightning-sentry": [
+    {
+      "url": "https://www.youtube.com/watch?v=jVwGCjt_a_A",
+      "title": "PD2 S14 Assassin Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S14",
+      "date": "2026-10-16",
+      "part": "0:00–8:59 · Day 1 Chain Lightning Trap (video pri Hiimovem Day 1 planerju)",
+      "skills": "1 točka v Dragon Flight za mobilnost. Max Chain Lightning Sentry (glavni za Arcane), nato Lightning Sentry (posamezne tarče), nato Fire Blast (sinergija in škoda na lightning imune elite). Po 1 točka v Shadow Master in Burst of Speed, ostalo v Charged Bolt Sentry.",
+      "stats": "Strength za opremo, Dexterity po potrebi, ostalo Vitality.",
+      "gear": "Day 1: {{Spirit}}, {{Splendor}} (če dobiš Lum) ali {{Ancients' Pledge}} v drugi roki, {{Lore}} helm, {{Stealth}} ali oklep s +3 traps, claw-i s +3 traps iz trgovine, amulet in circlet s +3 traps. Rese na rokavicah, pasu in škornjih, na prstanih half freeze ali cannot be frozen.",
+      "merc": "Act 1 Vigor za hitrost.",
+      "tips": [
+        "Takoj po Hell kampanji farmaj Arcane Sanctuary: Summoner za Hate ključe, charmi, nizke rune in gemi za crafte. Ko ubiješ Summonerja, začni novo igro.",
+        "IAS na opremi pospeši polaganje pasti; zgodaj to ni pomembno.",
+        "Cilj začetka je Natalya's set, s katerim prestopiš v T1 in T2 mape (Blades of Ice).",
+        "Uporabljaj sledilnik corrupted zon in izberi tiste brez lightning imunih; dropajo tudi Worldstone Sharde."
+      ],
+      "vs_hiim": [
+        "Enako: Chain Lightning Sentry, Lightning Sentry, Charged Bolt Sentry in Fire Blast na 20 (v planerju za level 80); Act 1 Vigor merc; Lore, Stealth ali Smoke; amulet in diadem s +3 traps (Cunning); dva claw-a s +traps.",
+        "Razlika: video da po 1 točko v Dragon Flight in Shadow Master, Hiimova planerja ne; Hiim mercu da Purity ali Witherstring."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "0:00–6:30 leveling in Ubers · 15:01–18:30 budget mape · 23:41–24:50 trap delay",
+      "tips": [
+        "Leveling: v Normalu Blade Sentinel ali takoj Fire Blast do 20, od levela 24 Lightning Sentry. Pri levelu 75 pri Anyi v Nightmare kupi claw-e s +2 Lightning Sentry ali Chain Lightning Sentry.",
+        "Merc: Insight za mano, Purity za regen lifea ali Stormspire za škodo.",
+        "Ubers: Lightning Sentry na levelu 29 je dovolj, 33–35 je udobno. Na swap daj wand z Lower Resist, uporabi Fade; rese 150 cold, 125 lightning, 75 fire.",
+        "V mapah build zaživi okoli levela 45–47 Chain Lightning Sentry. Lightning large charmi so na začetku sezone poceni namesto skillerjev.",
+        "S14 trap delay (AI delay Lightning Sentry 15 → 13, Chain Lightning Sentry 15 → 14) po njegovih podatkih verjetno vpliva le na prvi strel pasti, zato je buff majhen."
+      ]
+    }
+  ],
+  "sorceress/charged-bolt": [
+    {
+      "url": "https://www.youtube.com/watch?v=1EOjY0AL8rI",
+      "title": "Pd2 S12 Closed Beta Mini Guide/Showcase – Charged Bolt",
+      "author": "JuxtAPoser",
+      "season": "S12 beta",
+      "date": "2025-12-12",
+      "part": "cel video (11 min). Novejšega vodiča za Charged Bolt nisem našel; v S14 se skill ni spremenil.",
+      "skills": "Max Charged Bolt, njegovi sinergiji Telekinesis in Lightning ter Lightning Mastery (80 točk). Preostalih ~25 točk: max Teleport (več škode) ali max Energy Shield (varnost). Po 1 točka v Warmth in Shiver Armor.",
+      "stats": "Strength za opremo (okoli 77), ostalo Vitality. Z Energy Shieldom vse v Energy.",
+      "gear": "Sam nosiš {{Infinity}} na bazi s +3 Charged Bolt (bonus še +Lightning Mastery, Teleport ali Energy Shield), {{Griffon's Eye}} ali {{Kira's Guardian}} z lightning faceti, {{Ormus' Robes}} (dodatni Charged Bolt, FCR) s faceti, {{Arachnid Mesh}} ali {{Thundergod's Vigor}}, rokavice s 30 % FCR (z Energy Shieldom {{Occultist}}), {{Silkweave}}, amulet +2 sorc z 10 % FCR ali blood amulet. Swap: Call to Arms. Charmi: skillerji, torch, Annihilus, all res small charmi.",
+      "merc": "Tank z {{Stormspire}}, {{Innocence}}, {{Ferocity}}, {{String of Ears}} in {{Dracul's Grasp}}.",
+      "tips": [
+        "Cilji: FCR breakpoint 200 %, 8–12 life po kill, 7–8 mane po kill.",
+        "Najprej pošlji Charged Bolte v sobo, šele nato teleportiraj noter. Ne pusti se obkoliti in pazi, da merc ostane živ.",
+        "Zelo močen na bossih. Avtor ga ima za malo šibkejšega od najboljših cold in fire buildov, a je bil med lightning buildi najhitrejši v T2 in T3."
+      ],
+      "vs_hiim": [
+        "Enako: Charged Bolt, Lightning, Telekinesis, Lightning Mastery in Teleport na 20; Infinity (cb), Griffon's Eye, Ormus' Robes, Thundergod's Vigor, Silkweave.",
+        "Razlika: Hiim ima Occultist in 8 točk v Energy Shield, dva Stone of Jordan in magic amulet z +lightning skilli in FCR. Hiimov planer nima merca."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=f5ueMPYH0yE",
+      "title": "Project Diablo 2 Season 14 – Sorc Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "0:21–9:10 · spremembe",
+      "tips": [
+        "Za Charged Bolt v S14 ni sprememb. Sorc dobi +1 mano na level in 1,25 lifea na level namesto 1.",
+        "Za budget lightning začetek je testiral Chain Lightning s Skyfallom, ki ne potrebuje Infinityja."
+      ]
+    }
+  ],
+  "necromancer/elemental-summoner-mage-skeles-ele-revives": [
+    {
+      "url": "https://www.youtube.com/watch?v=LKix0kGYqOE&t=2018s",
+      "title": "PD2 S13 Necro Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-21",
+      "part": "33:38–46:31 · Endgame Skeleton Mages (Hiimova povezava pri tem buildu)",
+      "skills": "1 Bone Armor, po želji 1 Desecrate (za Uber Tristram). Max Skeleton Mastery, Raise Skeletal Mage in Raise Skeleton Archer, nato max Golem Mastery. Blood Warp do cooldowna 0,4 s, ostalo v Lower Resist. Po želji 1 Revive.",
+      "stats": "Okoli 210 Strength za {{Steel Carapace}}, 0 Vitality, ostalo Energy (Bone Armor dobi +3 absorb na točko Energy).",
+      "gear": "{{Grim's Burning Dead}} (brez CTA na swapu, ker ob zamenjavi izgubiš 6 magov), {{Harlequin Crest}} z MF in all res jeweli, {{Steel Carapace}}, {{Gravepalm}} (+1 summoning), {{Wisp Projector}} in {{Bul-Kathos' Wedding Band}}, {{Marrowwalk}} ali {{War Traveler}}, {{Mara's Kaleidoscope}} ali rare amulet z ~25 all res. Charmi: Gheed's, summoning skillerji z lifeom, MF small charmi.",
+      "merc": "Lightning merc (Holy Shock aura, casta Static Field in Chain Lightning) z {{Griffon's Eye}}; z {{Beast}} (Fanaticism) magi napadajo hitreje. Iron Golem je narejen iz {{Infinity}} (Conviction).",
+      "tips": [
+        "MF build: z MF korupcijami do okoli 575 % MF, lahko igraš tudi fortified mape.",
+        "Skeletal Mage strelja kot napad, zato ga Fanaticism (Beast) pospeši: okoli 14 % več škode. Beast na levelu 8 je dovolj za drugi najboljši breakpoint.",
+        "Zelo varen in »lene« igre: z Blood Warp skačeš naprej, peti pobijajo sami."
+      ],
+      "vs_hiim": [
+        "Enako: Raise Skeletal Mage in Skeleton Mastery na 20, Lower Resist za imune; Grim's Burning Dead, Gravepalm, Marrowwalk, Wisp Projector; Infinity v buildu.",
+        "Razlika: Hiim S14 maxa Revive (elementalni revivi) in Lower Resist, Curse Mastery na 10, namesto Archerjev in Golem Mastery. Hiim nosi Harlequin Crest, Enigmo, Arachnid Mesh, blood craft amulet in SoJ; merc je Act 2 Defiance z Infinity, Flickering Flame, Shaftstop, Bloodfist in Siggard's Staunch."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MqnLXz8D2Dc&t=1441s",
+      "title": "Project Diablo 2 Season 14 – Necro Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-15",
+      "part": "24:01–25:00 · Mages",
+      "tips": [
+        "Magi v S14 niso dobili velikih sprememb, Lower Resist pa ima 9 % več piercea, kar pomaga pri zgodnjem mapanju.",
+        "Poceni build za prehod v mape, ko imaš nekaj valute. Pozno v beti so okrepili še Skeleton Archerje (ni testiral)."
+      ]
+    }
+  ],
+  "druid/cold-elemental-arctic-blast-hurricane": [
+    {
+      "url": "https://www.youtube.com/watch?v=MfDwrvvWcPY",
+      "title": "Pd2 S12 Closed Beta Mini Guide/Showcase – Arctic Blast",
+      "author": "JuxtAPoser",
+      "season": "S12 beta",
+      "date": "2025-12-19",
+      "part": "cel video (11 min). Hiim ima pri tem buildu le posnetek mape brez govora.",
+      "skills": "Max Arctic Blast in vse tri sinergije (Hurricane, Tornado, Cyclone Armor): 80 točk. 1 točka v Twister kot predpogoj. Gust do levela 29 brez Battle Orders (30 z njimi). Ostalo v Oak Sage ali po želji Summon Grizzly in trte.",
+      "stats": "Okoli 165 Strength in 109 Dexterity za opremo, ostalo Vitality.",
+      "gear": "Budget: {{Frostwind}} (Resist Cold aura, +Arctic Blast), {{Nightwing's Veil}}, {{Skin of the Vipermagi}}, {{Medusa's Gaze}}, {{Mara's Kaleidoscope}} ali brilliant ali blood craft amulet, {{Dracul's Grasp}} (life po kill) ali FCR rokavice, {{Silkweave}} ali MF ali res škornji, prstani za rese. Še ceneje: {{Spirit}} namesto Medusa's Gaze. Endgame: Frostwind s 4 cold faceti, Nightwing's Veil s faceti, {{Ormus' Robes}} s cold škodo. Swap: Call to Arms.",
+      "merc": "{{Infinity}}: po avtorju edini res drag kos in obvezen za ta build.",
+      "tips": [
+        "Arctic Blast je channel: med streljanjem stojiš na mestu. Hurricane prižgi, z Gustom se premikaj, nato drži Arctic Blast.",
+        "FCR 68 % je v redu, 99 % je boljše (FCR na rokavicah, prstanih ali amuletu).",
+        "Budget T1 mapa okoli 6 minut, T3 z dobro opremo 6–7 minut. Zelo varen, primeren za hardcore."
+      ],
+      "vs_hiim": [
+        "Enako: Arctic Blast, Hurricane, Tornado in Cyclone Armor na 20, Oak Sage ostanek; Frostwind, Medusa's Gaze, Nightwing's Veil, Dracul's Grasp, Call to Arms na swapu; Strength okoli 160.",
+        "Razlika: Hiim nosi Steel Carapace, Siggard's Staunch, Imp Shank, Chaos talisman, Constricting Ring in SoJ; merc je Act 3 Iron Wolf (Static Field) s Skyfall, Exile, Innocence, Flickering Flame, Occultist in Marrowwalk namesto Infinity."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jwRGD0cuTW8&t=871s",
+      "title": "Project Diablo 2 Season 14 – Druid Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-14",
+      "part": "14:31–18:30 · Wind Druid",
+      "tips": [
+        "V S14 je najbolj okrepljen Twister (wind druid s Twisterjem je pri Hiimu ločen build). Tornado in Hurricane sta okrepljena manj, avtor razlike ni opazil.",
+        "Vsak cast Twisterja (in Tornada) skrajša cooldown Gusta, zato se zelo hitro premikaš.",
+        "Za budget wind druida sta ključna nakupa Horizon's Tornado in Skin of the Vipermagi; merc z Amplify Damage (The Reaper's Toll) okrepi fizično škodo."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Jghc7QjUaak",
+      "title": "A Forgotten Skill That Actually Works in PD2 | Arctic Blast Druid",
+      "author": "looter",
+      "season": "S12",
+      "date": "2026-01-07",
+      "part": "cel video (30 min) · leveling od 1 do Hell Baala",
+      "tips": [
+        "Arctic Blast ima v PD2 tri sinergije in z levelom znižuje cold res, zato je že pri levelingu močan.",
+        "Za cold imune in cold enchanted pošasti uporabi Tornado (fizična škoda).",
+        "Med channelingom te udarci prekinejo, zato rabiš tanka spredaj: Act 2 Defiance merc ali Summon Grizzly. Cyclone Armor dobi dodatni absorb na točko Energy."
+      ]
+    }
+  ]
+}

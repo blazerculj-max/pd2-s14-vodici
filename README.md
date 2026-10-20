@@ -9,6 +9,7 @@ Neuradna stran z buildi za **Project Diablo 2, Season 14 (Alliance)**. Izbereš 
 - S13 statistiko s pd2.tools (koliko likov 90+, kaj nosijo),
 - tooltipi: statsi predmetov z razponi (aktualni PD2 wiki) in sinergije skillov (Hiim + wiki), ob premiku miške ali tapu,
 - recepti in rune pri vsakem planerju ter seznam run za ves build,
+- povzetki video vodičev »Iz videa« (skilli, oprema, merc, nasveti) s primerjavo s Hiim S14 planerjem (`content/videos.json`),
 - ostali buildi: Hiim Mid/Bad in neocenjeni, javni planerji iz Hiim galerije, S13 popularni skilli.
 
 Poleg tega:

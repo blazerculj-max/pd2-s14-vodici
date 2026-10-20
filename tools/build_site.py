@@ -309,6 +309,62 @@ def stats_html(st):
             f'<div class="top">{top}</div>' + (f'<span class="muted">Merc: {merc}</span>' if merc else "") + "</div>")
 
 
+_vp = os.path.join(CONTENT, "videos.json")
+VIDEOS = {k: v for k, v in json.load(open(_vp)).items() if not k.startswith("_")} if os.path.exists(_vp) else {}
+MISSING_VIDEO_ITEMS = set()
+
+
+def item_q(key):
+    """Kakovost predmeta (barva) iz kataloga predmetov po ključu tooltipa."""
+    if not key:
+        return None
+    for it in ITEMS.get("items", []):
+        if it["k"] == key or key in (it.get("a") or []):
+            return it["q"]
+    return None
+
+
+def vid_text(s):
+    """Besedilo povzetka: {{Ime}} postane predmet s tooltipom."""
+    out, pos = [], 0
+    for m in re.finditer(r"\{\{(.+?)\}\}", s or ""):
+        out.append(e(s[pos:m.start()]))
+        name = m.group(1)
+        key = tip_for_name(name)
+        if key:
+            out.append(f'<span class="item q-{item_q(key) or "u"}" data-tip="{e(key)}" tabindex="0">{e(name)}</span>')
+        else:
+            MISSING_VIDEO_ITEMS.add(name)
+            out.append(e(name))
+        pos = m.end()
+    out.append(e((s or "")[pos:]))
+    return "".join(out)
+
+
+def videos_html(cls, b):
+    vs = VIDEOS.get(f'{cls["id"]}/{b["id"]}')
+    if not vs:
+        return ""
+    cards = []
+    for v in vs:
+        season_cls = "t-starter" if v["season"].startswith("S14") else "t-brez-ocene"
+        rows = "".join(f"<dt>{lab}</dt><dd>{vid_text(v[k])}</dd>" for k, lab in
+                       (("skills", "Skilli"), ("stats", "Stati"), ("gear", "Oprema"), ("merc", "Merc")) if v.get(k))
+        tips = "".join(f"<li>{vid_text(t)}</li>" for t in v.get("tips") or [])
+        vs_h = ""
+        if v.get("vs_hiim"):
+            vs_h = ('<div class="vid-vs"><b>Primerjava s Hiim S14 planerjem</b><ul class="plain">'
+                    + "".join(f"<li>{vid_text(t)}</li>" for t in v["vs_hiim"]) + "</ul></div>")
+        cards.append(f'<article class="vid"><div class="vid-h"><a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v["title"])}</a>'
+                     f'<span class="vid-meta"><span class="badge {season_cls}">{e(v["season"])}</span> {e(v["author"])} · {e(v["date"])}</span>'
+                     f'<span class="muted note-s">{e(v["part"])}</span></div>'
+                     + (f'<dl class="kv">{rows}</dl>' if rows else "")
+                     + (f'<ul class="plain">{tips}</ul>' if tips else "") + vs_h + "</article>")
+    return ('<div class="vids"><h4>Iz videa</h4>' + "".join(cards)
+            + '<p class="muted note-s">Povzetki so narejeni iz samodejnih angleških podnapisov videov; imena predmetov so preverjena v katalogu. '
+              'Pri starejših sezonah preveri, ali se je kaj spremenilo (glej S14 dele in Hiim planer spodaj).</p></div>')
+
+
 def build_html(b, cls):
     main = b.get("main") or {}
     lev, mode = leveling_html(b, cls)
@@ -326,12 +382,17 @@ def build_html(b, cls):
     guide_file = OUR_GUIDES.get((cls["id"], b["id"]))
     if guide_file:
         badges.append('<span class="badge" style="color:var(--accent)">naš vodič</span>')
+    if VIDEOS.get(f'{cls["id"]}/{b["id"]}'):
+        badges.append('<span class="badge">video</span>')
     summary = (f'<summary>{img_tag(main.get("img"), "skico lg", main.get("name", ""))}'
                f'<span class="bn"><b>{e(b["name"])}</b><span class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</span></span>'
                f'<span class="badges">{"".join(badges)}</span></summary>')
     body = [ratings_html(b), f"<div><h4>Leveling</h4>{lev}</div>"]
     if guide_file:
         body.append('<div><h4>Naš vodič</h4>' + add_tips_to_fragment(open(os.path.join(CONTENT, "builds", guide_file)).read()) + "</div>")
+    vid = videos_html(cls, b)
+    if vid:
+        body.append(vid)
     if cls["id"] == "druid" and b["id"] in DRUID_PLAN_BUILDS:
         body.append('<div class="note"><b>Naš druid plan:</b> leveling kot summoner, nato Poison Creeper ali Rabies. '
                     '<a href="druid-nacrt.html">Odpri druid plan</a>.</div>')
@@ -419,7 +480,7 @@ def index_html():
 <a class="class-card" href="predmeti.html"><h3>Wiki predmetov</h3><span class="muted">Iskalnik po vseh uniquih, setih, runewordih, craftih, runah in bazah: statsi z razponi, recepti in kateri buildi jih nosijo.</span></a>
 <a class="class-card" href="vodic.html"><h3>Splošni vodič</h3><span class="muted">Kaj pobirati, budget runewordi, crafting, recepti v cubu, mape za začetnika in S14 spremembe.</span></a>
 <div class="class-card"><h3>PDF za tisk</h3><span class="muted">Druid plan in budget mapper vodič na A4, s kvadratki za kljukice.</span><span class="links"><a href="pdf/Druid-nacrt-S14.pdf">Druid plan (PDF)</a><a href="pdf/Budget-mapper-S14.pdf">Budget mapper (PDF)</a></span></div>
-<a class="class-card" href="assassin.html#b-chain-lightning-sentry"><h3>Za novinca</h3><span class="muted">Najlažji budget mapperji: lightning trapsin, Fire Blast trapsin, wind druid, skeleton necro in lightning sorc imajo naš podroben vodič.</span></a>
+<a class="class-card" href="assassin.html#b-chain-lightning-sentry"><h3>Za novinca</h3><span class="muted">Najlažji budget mapperji: lightning trapsin, Fire Blast trapsin, Arctic Blast druid, skeleton necro in lightning sorc imajo naš podroben vodič in povzetke video vodičev.</span></a>
 </div></section>
 <section><div class="sec-head"><div class="eyebrow">Legenda</div><h2>Kako brati ocene</h2></div>
 <div class="cols">
@@ -832,6 +893,8 @@ def main():
     open(os.path.join(DOCS, "mape.html"), "w").write(maps_page_html())
     open(os.path.join(DOCS, "crafting.html"), "w").write(crafting_page_html())
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")
+    if MISSING_VIDEO_ITEMS:
+        print("povzetki videov: predmeti brez tooltipa:", sorted(MISSING_VIDEO_ITEMS))
     sizes = {f: os.path.getsize(os.path.join(DOCS, f)) for f in os.listdir(DOCS) if f.endswith(".html")}
     print(sizes)
 
