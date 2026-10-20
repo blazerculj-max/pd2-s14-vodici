@@ -1,0 +1,10445 @@
+{
+ "maps": [
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Ancestral Trial",
+   "slug": "ancestral",
+   "inside": false,
+   "imm": [
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Preserved Dead"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Pit Lord"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Preserved Dead",
+     "res": [
+      20,
+      50,
+      120,
+      50,
+      50,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bone Warrior",
+     "res": [
+      0,
+      25,
+      50,
+      45,
+      45,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bone Mage",
+     "res": [
+      0,
+      25,
+      50,
+      25,
+      65,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Spider Magus",
+     "res": [
+      25,
+      0,
+      25,
+      30,
+      75,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Pit Lord",
+     "res": [
+      50,
+      0,
+      50,
+      120,
+      0,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Minion of Destruction",
+     "res": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Specter",
+     "res": [
+      50,
+      50,
+      75,
+      35,
+      50,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 4,
+   "demon": 2,
+   "note": "",
+   "best": [
+    {
+     "cls": "necromancer",
+     "id": "poison-nova",
+     "name": "Poison Nova",
+     "tier": "Top",
+     "time": 162,
+     "season": 13
+    },
+    {
+     "cls": "necromancer",
+     "id": "teeth-bonespear",
+     "name": "Teeth / Bonespear",
+     "tier": "Top",
+     "time": 263,
+     "season": 13
+    },
+    {
+     "cls": "paladin",
+     "id": "sanctuary-sacrifice",
+     "name": "Sanctuary Sacrifice",
+     "tier": "Good",
+     "time": 273,
+     "season": 13
+    },
+    {
+     "cls": "assassin",
+     "id": "phoenix-strike",
+     "name": "Phoenix Strike",
+     "tier": "Good",
+     "time": 275,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Fall of Caldeum",
+   "slug": "caldeum",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Hell Swarm"
+     ]
+    },
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Heirophant"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Flying Scimitar"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Zombie",
+     "res": [
+      0,
+      0,
+      50,
+      25,
+      75,
+      45
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Huntress",
+     "res": [
+      20,
+      25,
+      75,
+      35,
+      65,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flying Scimitar",
+     "res": [
+      25,
+      25,
+      50,
+      120,
+      0,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Slinger",
+     "res": [
+      0,
+      25,
+      75,
+      45,
+      65,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hell Swarm",
+     "res": [
+      115,
+      0,
+      25,
+      70,
+      25,
+      80
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Heirophant",
+     "res": [
+      15,
+      105,
+      25,
+      33,
+      75,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 0,
+   "note": "",
+   "best": [
+    {
+     "cls": "necromancer",
+     "id": "dark-pact",
+     "name": "Dark Pact",
+     "tier": "Good",
+     "time": 192,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Lost Temple",
+   "slug": "losttemple",
+   "inside": false,
+   "imm": [
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Gloombat"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Gloombat"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Enslaved",
+     "res": [
+      25,
+      15,
+      50,
+      50,
+      25,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blood Wing",
+     "res": [
+      25,
+      25,
+      15,
+      40,
+      25,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Gloombat",
+     "res": [
+      10,
+      105,
+      50,
+      50,
+      120,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Unraveler",
+     "res": [
+      35,
+      50,
+      35,
+      20,
+      50,
+      80
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      0,
+      25,
+      75,
+      80,
+      50,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Gorebelly",
+     "res": [
+      55,
+      0,
+      50,
+      75,
+      65,
+      30
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Poison Spinner",
+     "res": [
+      50,
+      0,
+      75,
+      35,
+      25,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 2,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Phlegethon",
+   "slug": "phlegethon",
+   "inside": false,
+   "imm": [
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Siege Beast"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Unholy Corpse"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Hell Spawn",
+     "res": [
+      30,
+      0,
+      50,
+      75,
+      50,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Hell Cat",
+     "res": [
+      15,
+      25,
+      25,
+      50,
+      75,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Fallen",
+     "res": [
+      15,
+      25,
+      50,
+      25,
+      40,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Hell Slinger",
+     "res": [
+      10,
+      25,
+      25,
+      50,
+      25,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Siege Beast",
+     "res": [
+      50,
+      0,
+      120,
+      33,
+      50,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Moon Lord",
+     "res": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Council Member",
+     "res": [
+      30,
+      0,
+      75,
+      80,
+      45,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Unholy Corpse",
+     "res": [
+      50,
+      50,
+      25,
+      25,
+      75,
+      120
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Fallen Shaman",
+     "res": [
+      15,
+      25,
+      75,
+      75,
+      45,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Fetish",
+     "res": [
+      25,
+      25,
+      50,
+      50,
+      50,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 5,
+   "note": "",
+   "best": [
+    {
+     "cls": "sorceress",
+     "id": "multishot-enchantress",
+     "name": "Multishot Enchantress",
+     "tier": "Good",
+     "time": 260,
+     "season": 12
+    },
+    {
+     "cls": "paladin",
+     "id": "physical-sacrifice",
+     "name": "Physical Sacrifice",
+     "tier": "Top",
+     "time": 422,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Poisoned Well",
+   "slug": "poisonedwell",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Moon Clan",
+     "res": [
+      60,
+      30,
+      50,
+      50,
+      75,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Devilkin",
+     "res": [
+      25,
+      30,
+      75,
+      50,
+      70,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Sand Maggot Young",
+     "res": [
+      10,
+      15,
+      40,
+      75,
+      35,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Foul Crow Nest",
+     "res": [
+      10,
+      0,
+      55,
+      65,
+      35,
+      40
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Foul Crow",
+     "res": [
+      10,
+      35,
+      75,
+      50,
+      30,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dune Beast",
+     "res": [
+      40,
+      25,
+      40,
+      25,
+      75,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Devilkin Shaman",
+     "res": [
+      25,
+      50,
+      75,
+      50,
+      30,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Bog Creature",
+     "res": [
+      40,
+      55,
+      50,
+      75,
+      60,
+      70
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Razor Spine",
+     "res": [
+      50,
+      25,
+      40,
+      50,
+      75,
+      55
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 0,
+   "demon": 3,
+   "note": "Nova v S14: prvo sezono brez imunitet.",
+   "best": []
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Ruins of Viz-Jun",
+   "slug": "ruinsofvizjun",
+   "inside": true,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Thorned Hulk"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Dark Ranger"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Black Lancer",
+     "res": [
+      0,
+      35,
+      25,
+      75,
+      75,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Moon Clan",
+     "res": [
+      50,
+      35,
+      60,
+      25,
+      50,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dark Ranger",
+     "res": [
+      15,
+      20,
+      25,
+      25,
+      120,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Disfigured",
+     "res": [
+      25,
+      0,
+      50,
+      50,
+      25,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Heirophant",
+     "res": [
+      10,
+      33,
+      50,
+      50,
+      75,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hollow One",
+     "res": [
+      33,
+      50,
+      45,
+      45,
+      55,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Spider Magus",
+     "res": [
+      50,
+      0,
+      50,
+      50,
+      20,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Thorned Hulk",
+     "res": [
+      115,
+      0,
+      0,
+      75,
+      45,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Tree Lurker",
+     "res": [
+      25,
+      25,
+      50,
+      75,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Sucker",
+     "res": [
+      0,
+      50,
+      75,
+      45,
+      25,
+      80
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Fetish Shaman",
+     "res": [
+      25,
+      25,
+      75,
+      45,
+      45,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 5,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Sanatorium",
+   "slug": "sanatorium",
+   "inside": true,
+   "imm": [
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Vile Lancer"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Vile Lancer"
+     ]
+    }
+   ],
+   "extra": [
+    "poison"
+   ],
+   "monsters": [
+    {
+     "name": "Vile Hunter",
+     "res": [
+      20,
+      15,
+      35,
+      45,
+      65,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Vile Archer",
+     "res": [
+      15,
+      15,
+      75,
+      25,
+      40,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Vile Lancer",
+     "res": [
+      45,
+      105,
+      45,
+      120,
+      40,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Death Slasher",
+     "res": [
+      33,
+      25,
+      50,
+      25,
+      65,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Gloam",
+     "res": [
+      60,
+      0,
+      25,
+      75,
+      25,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Ghoul Lord",
+     "res": [
+      30,
+      35,
+      45,
+      50,
+      75,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Lord",
+     "res": [
+      0,
+      25,
+      75,
+      50,
+      40,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 3,
+   "note": "V S14 premaknjena v T1, manj Soulov.",
+   "best": []
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Shadows of Westmarch",
+   "slug": "westmarch",
+   "inside": false,
+   "imm": [
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Succubus"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Overseer"
+     ]
+    }
+   ],
+   "extra": [
+    "poison"
+   ],
+   "monsters": [
+    {
+     "name": "Fire Boar",
+     "res": [
+      25,
+      0,
+      65,
+      70,
+      25,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Moon Clan",
+     "res": [
+      50,
+      25,
+      50,
+      45,
+      85,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Zombie",
+     "res": [
+      50,
+      50,
+      50,
+      65,
+      50,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Slinger",
+     "res": [
+      10,
+      0,
+      25,
+      25,
+      75,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Siege Beast",
+     "res": [
+      50,
+      20,
+      25,
+      75,
+      25,
+      40
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Overseer",
+     "res": [
+      20,
+      25,
+      120,
+      20,
+      40,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Succubus",
+     "res": [
+      0,
+      105,
+      50,
+      50,
+      50,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 3,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Tomb of Zoltun Kulle",
+   "slug": "zoltun",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Scarab"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Pain Worm"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Scarab",
+     "res": [
+      115,
+      25,
+      25,
+      75,
+      50,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Pain Worm",
+     "res": [
+      0,
+      50,
+      50,
+      50,
+      75,
+      120
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Razor Spine",
+     "res": [
+      25,
+      0,
+      75,
+      35,
+      50,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned Mage",
+     "res": [
+      25,
+      50,
+      25,
+      75,
+      45,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dune Beast",
+     "res": [
+      0,
+      25,
+      35,
+      50,
+      75,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dark Familiar",
+     "res": [
+      15,
+      25,
+      75,
+      50,
+      25,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Arach",
+     "res": [
+      50,
+      25,
+      75,
+      0,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Minion of Destruction",
+     "res": [
+      0,
+      0,
+      50,
+      75,
+      30,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 2,
+   "note": "",
+   "best": [
+    {
+     "cls": "amazon",
+     "id": "lightning-fury",
+     "name": "Lightning Fury",
+     "tier": "Top",
+     "time": 172,
+     "season": 13
+    }
+   ]
+  },
+  {
+   "tier": "Tier 1",
+   "zone": 87,
+   "name": "Torajan Jungle",
+   "slug": "torajanjungle",
+   "inside": false,
+   "imm": [
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Crusher"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Tree Lurker"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Foul Crow",
+     "res": [
+      0,
+      0,
+      50,
+      25,
+      45,
+      70
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Tree Lurker",
+     "res": [
+      0,
+      25,
+      50,
+      50,
+      0,
+      120
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Quill Rat",
+     "res": [
+      25,
+      0,
+      75,
+      45,
+      50,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Brawler",
+     "res": [
+      35,
+      50,
+      50,
+      50,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Crusher",
+     "res": [
+      50,
+      25,
+      35,
+      35,
+      120,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dune Beast",
+     "res": [
+      35,
+      25,
+      45,
+      75,
+      45,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Beetle",
+     "res": [
+      50,
+      25,
+      25,
+      75,
+      75,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Council Member",
+     "res": [
+      25,
+      40,
+      75,
+      50,
+      35,
+      33
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 0,
+   "demon": 1,
+   "note": "",
+   "best": [
+    {
+     "cls": "necromancer",
+     "id": "corpse-explosion",
+     "name": "Corpse Explosion",
+     "tier": "Good",
+     "time": 253,
+     "season": 12
+    },
+    {
+     "cls": "druid",
+     "id": "fire-elemental",
+     "name": "Fire Elemental",
+     "tier": "Top",
+     "time": 285,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Ashen Plains",
+   "slug": "ashen",
+   "inside": false,
+   "imm": [
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Death Berserker"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 130,
+     "mon": [
+      "Flayer"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Doom Ape",
+     "res": [
+      0,
+      25,
+      50,
+      75,
+      50,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Thrasher",
+     "res": [
+      25,
+      0,
+      0,
+      40,
+      25,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Saber Cat",
+     "res": [
+      50,
+      25,
+      50,
+      50,
+      65,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Black Raptor",
+     "res": [
+      0,
+      45,
+      65,
+      50,
+      45,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      45,
+      15,
+      75,
+      33,
+      130,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Spear Cat",
+     "res": [
+      10,
+      15,
+      25,
+      75,
+      65,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Berserker",
+     "res": [
+      50,
+      50,
+      120,
+      25,
+      30,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Burning Soul",
+     "res": [
+      40,
+      25,
+      45,
+      50,
+      40,
+      60
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Canyon of Sescheron",
+   "slug": "canyon",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Serpent Magus"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Cliff Lurker"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Frozen Abyss",
+     "res": [
+      0,
+      25,
+      0,
+      25,
+      80,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Cliff Lurker",
+     "res": [
+      25,
+      15,
+      120,
+      75,
+      40,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Doom Knight",
+     "res": [
+      50,
+      25,
+      80,
+      65,
+      20,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Oblivion Knight",
+     "res": [
+      0,
+      25,
+      60,
+      75,
+      75,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Serpent Magus",
+     "res": [
+      115,
+      55,
+      45,
+      50,
+      35,
+      60
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Overlord",
+     "res": [
+      0,
+      0,
+      33,
+      20,
+      60,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Soul Killer",
+     "res": [
+      0,
+      25,
+      55,
+      50,
+      45,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Soul Killer",
+     "res": [
+      50,
+      25,
+      45,
+      40,
+      45,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 3,
+   "note": "",
+   "best": [
+    {
+     "cls": "assassin",
+     "id": "chain-lightning-sentry",
+     "name": "Chain Lightning Sentry",
+     "tier": "Good",
+     "time": 330,
+     "season": 13
+    },
+    {
+     "cls": "assassin",
+     "id": "claws-of-thunder",
+     "name": "Claws of Thunder",
+     "tier": "Good",
+     "time": 400,
+     "season": 13
+    },
+    {
+     "cls": "necromancer",
+     "id": "poison-strike",
+     "name": "Poison Strike",
+     "tier": "Top",
+     "time": 420,
+     "season": 13
+    }
+   ]
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Dark Temple",
+   "slug": "darktemple",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Zakarumite",
+     "res": [
+      10,
+      20,
+      60,
+      50,
+      65,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flying Scimitar",
+     "res": [
+      25,
+      20,
+      55,
+      75,
+      30,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Desert Wing",
+     "res": [
+      15,
+      45,
+      35,
+      20,
+      30,
+      55
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Crush Beast",
+     "res": [
+      50,
+      20,
+      75,
+      50,
+      75,
+      35
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Strangler",
+     "res": [
+      50,
+      20,
+      15,
+      75,
+      30,
+      55
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Demon Rascal",
+     "res": [
+      0,
+      45,
+      70,
+      45,
+      65,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Council Member",
+     "res": [
+      50,
+      20,
+      75,
+      50,
+      65,
+      65
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Oblivion Knight",
+     "res": [
+      35,
+      45,
+      45,
+      75,
+      75,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 2,
+   "note": "Nova v S14: prvo sezono brez imunitet.",
+   "best": []
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Descent from Mount Arreat",
+   "slug": "descent",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Burning Dead",
+     "res": [
+      30,
+      40,
+      65,
+      55,
+      15,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hell Spawn",
+     "res": [
+      30,
+      20,
+      75,
+      60,
+      55,
+      55
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Grotesque",
+     "res": [
+      60,
+      30,
+      35,
+      45,
+      75,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Balrog",
+     "res": [
+      45,
+      30,
+      75,
+      75,
+      65,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Burning Dead Mage",
+     "res": [
+      30,
+      55,
+      45,
+      45,
+      55,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Mage",
+     "res": [
+      30,
+      55,
+      45,
+      45,
+      55,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Burning Dead Mage",
+     "res": [
+      30,
+      55,
+      45,
+      45,
+      55,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Burning Dead Mage",
+     "res": [
+      30,
+      55,
+      45,
+      45,
+      55,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Sexton",
+     "res": [
+      10,
+      30,
+      75,
+      55,
+      75,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Stygian Harlot",
+     "res": [
+      10,
+      30,
+      45,
+      75,
+      75,
+      55
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 5,
+   "demon": 4,
+   "note": "Nova v S14: prvo sezono brez imunitet.",
+   "best": []
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Halls of Torture",
+   "slug": "hallsoftorture",
+   "inside": true,
+   "imm": [
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Zakarumite"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Returned Archer"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Tomb Creeper",
+     "res": [
+      30,
+      20,
+      50,
+      25,
+      20,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Zakarumite",
+     "res": [
+      10,
+      20,
+      65,
+      120,
+      45,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned Archer",
+     "res": [
+      30,
+      30,
+      50,
+      25,
+      120,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blunderbore",
+     "res": [
+      20,
+      10,
+      50,
+      50,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dark Lord",
+     "res": [
+      35,
+      30,
+      75,
+      45,
+      75,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Council Member",
+     "res": [
+      20,
+      25,
+      35,
+      75,
+      33,
+      85
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Corpulent",
+     "res": [
+      50,
+      35,
+      25,
+      50,
+      45,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 3,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Horazon's Memory",
+   "slug": "horazonsmemory",
+   "inside": true,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Frozen Abyss"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Flying Scimitar"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Flying Scimitar",
+     "res": [
+      25,
+      50,
+      50,
+      120,
+      75,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Zakarumite",
+     "res": [
+      10,
+      0,
+      25,
+      25,
+      35,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Menace Worm",
+     "res": [
+      0,
+      25,
+      75,
+      75,
+      50,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Cantor",
+     "res": [
+      10,
+      20,
+      45,
+      50,
+      50,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Oblivion Knight",
+     "res": [
+      33,
+      25,
+      75,
+      60,
+      25,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Frozen Abyss",
+     "res": [
+      115,
+      0,
+      35,
+      25,
+      75,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Frozen Scorch",
+     "res": [
+      25,
+      25,
+      15,
+      40,
+      75,
+      35
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Ghost",
+     "res": [
+      50,
+      50,
+      55,
+      65,
+      50,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Pandemonium Citadel",
+   "slug": "citadel",
+   "inside": false,
+   "imm": [
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Stygian Fury"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Dark Lord"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Prowling Dead",
+     "res": [
+      25,
+      15,
+      50,
+      50,
+      65,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      0,
+      25,
+      75,
+      50,
+      75,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Damned",
+     "res": [
+      25,
+      0,
+      25,
+      75,
+      0,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Stygian Fury",
+     "res": [
+      50,
+      105,
+      25,
+      50,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Temple Guard",
+     "res": [
+      25,
+      20,
+      50,
+      75,
+      25,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blood Bringer",
+     "res": [
+      50,
+      0,
+      75,
+      20,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dark Lord",
+     "res": [
+      0,
+      50,
+      50,
+      25,
+      120,
+      80
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 3,
+   "note": "",
+   "best": [
+    {
+     "cls": "paladin",
+     "id": "light-sacrifice",
+     "name": "Light Sacrifice",
+     "tier": "Top",
+     "time": 258,
+     "season": 13
+    },
+    {
+     "cls": "sorceress",
+     "id": "frozen-orb",
+     "name": "Frozen Orb",
+     "tier": "Top",
+     "time": 270,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Ruined Cistern",
+   "slug": "cistern",
+   "inside": false,
+   "imm": [
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Strangler"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Dried Corpse"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Gorebelly",
+     "res": [
+      0,
+      25,
+      30,
+      50,
+      60,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Salamander",
+     "res": [
+      25,
+      0,
+      55,
+      45,
+      75,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Vile Hunter",
+     "res": [
+      20,
+      20,
+      50,
+      33,
+      0,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dried Corpse",
+     "res": [
+      50,
+      35,
+      25,
+      50,
+      65,
+      120
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned Mage",
+     "res": [
+      35,
+      25,
+      40,
+      75,
+      50,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bog Creature",
+     "res": [
+      15,
+      35,
+      75,
+      45,
+      55,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Vile Archer",
+     "res": [
+      15,
+      0,
+      75,
+      25,
+      25,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Strangler",
+     "res": [
+      60,
+      105,
+      50,
+      75,
+      75,
+      45
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 3,
+   "demon": 3,
+   "note": "",
+   "best": [
+    {
+     "cls": "amazon",
+     "id": "multiple-shot",
+     "name": "Multiple Shot",
+     "tier": "Top",
+     "time": 390,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Sewers of Harrogath",
+   "slug": "sewers",
+   "inside": true,
+   "imm": [
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Fetish"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Sand Maggot"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Fetish",
+     "res": [
+      25,
+      15,
+      120,
+      45,
+      20,
+      80
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Enslaved",
+     "res": [
+      25,
+      35,
+      50,
+      35,
+      35,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Grotesque Wyrm",
+     "res": [
+      25,
+      50,
+      65,
+      75,
+      65,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      15,
+      25,
+      0,
+      75,
+      50,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Ghoul Lord",
+     "res": [
+      30,
+      25,
+      75,
+      25,
+      80,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Sand Maggot",
+     "res": [
+      66,
+      0,
+      33,
+      25,
+      75,
+      120
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Marauder",
+     "res": [
+      25,
+      15,
+      50,
+      75,
+      50,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blood Wing",
+     "res": [
+      10,
+      25,
+      50,
+      45,
+      25,
+      30
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 3,
+   "note": "",
+   "best": [
+    {
+     "cls": "assassin",
+     "id": "blade-sentinel-venom",
+     "name": "Blade Sentinel (Venom)",
+     "tier": "Top",
+     "time": 207,
+     "season": 12
+    },
+    {
+     "cls": "druid",
+     "id": "cold-elemental-arctic-blast-hurricane",
+     "name": "Cold Elemental (Arctic Blast/Hurricane)",
+     "tier": "Top",
+     "time": 210,
+     "season": 13
+    },
+    {
+     "cls": "amazon",
+     "id": "cold-arrow",
+     "name": "Cold Arrow",
+     "tier": "Good",
+     "time": 233,
+     "season": 12
+    },
+    {
+     "cls": "barbarian",
+     "id": "split-throw",
+     "name": "Split Throw",
+     "tier": "Good",
+     "time": 260,
+     "season": 13
+    }
+   ]
+  },
+  {
+   "tier": "Tier 2",
+   "zone": 88,
+   "name": "Throne of Insanity",
+   "slug": "throne",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Doom Caster"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Balrog",
+      "Swamp Dweller"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Flesh Hunter",
+     "res": [
+      25,
+      20,
+      65,
+      65,
+      75,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flesh Archer",
+     "res": [
+      15,
+      15,
+      40,
+      45,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flesh Lancer",
+     "res": [
+      15,
+      15,
+      40,
+      45,
+      50,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Demon Rascal",
+     "res": [
+      0,
+      50,
+      50,
+      55,
+      25,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Hell Whip",
+     "res": [
+      40,
+      25,
+      50,
+      75,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Balrog",
+     "res": [
+      20,
+      20,
+      75,
+      25,
+      45,
+      120
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Swamp Dweller",
+     "res": [
+      15,
+      0,
+      75,
+      25,
+      25,
+      120
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Doom Caster",
+     "res": [
+      115,
+      25,
+      25,
+      65,
+      75,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 6,
+   "note": "",
+   "best": [
+    {
+     "cls": "sorceress",
+     "id": "combustion",
+     "name": "Combustion",
+     "tier": "Good",
+     "time": 167,
+     "season": 13
+    },
+    {
+     "cls": "sorceress",
+     "id": "nova",
+     "name": "Nova",
+     "tier": "Top",
+     "time": 215,
+     "season": 13
+    },
+    {
+     "cls": "assassin",
+     "id": "wake-of-fire",
+     "name": "Wake of Fire",
+     "tier": "Top",
+     "time": 225,
+     "season": 13
+    },
+    {
+     "cls": "assassin",
+     "id": "blades-of-ice",
+     "name": "Blades of Ice",
+     "tier": "Top",
+     "time": 225,
+     "season": 12
+    },
+    {
+     "cls": "sorceress",
+     "id": "chain-lightning",
+     "name": "Chain Lightning",
+     "tier": "Good",
+     "time": 256,
+     "season": 12
+    },
+    {
+     "cls": "barbarian",
+     "id": "whirlwind-dual-wield",
+     "name": "Whirlwind (Dual Wield)",
+     "tier": "Good",
+     "time": 275,
+     "season": 12
+    },
+    {
+     "cls": "assassin",
+     "id": "cobra-sin",
+     "name": "Cobra Sin",
+     "tier": "Good",
+     "time": 285,
+     "season": 12
+    },
+    {
+     "cls": "amazon",
+     "id": "summon-zon",
+     "name": "Summon Zon",
+     "tier": "Good",
+     "time": 290,
+     "season": 12
+    },
+    {
+     "cls": "necromancer",
+     "id": "elemental-summoner-mage-skeles-ele-revives",
+     "name": "Elemental Summoner (Mage Skeles + Ele Revives)",
+     "tier": "Good",
+     "time": 300,
+     "season": 13
+    },
+    {
+     "cls": "assassin",
+     "id": "blade-fury",
+     "name": "Blade Fury",
+     "tier": "Good",
+     "time": 320,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Arreat Battlefield",
+   "slug": "arreatbattlefield",
+   "inside": true,
+   "imm": [
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Blood Wing"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Afflicted"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Carrion Bird"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Zombie",
+     "res": [
+      50,
+      30,
+      15,
+      20,
+      50,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Night Clan",
+     "res": [
+      50,
+      0,
+      50,
+      65,
+      25,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Spike Fiend",
+     "res": [
+      50,
+      20,
+      50,
+      50,
+      75,
+      40
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Afflicted",
+     "res": [
+      25,
+      35,
+      25,
+      120,
+      30,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Unholy Corpse",
+     "res": [
+      15,
+      30,
+      75,
+      33,
+      50,
+      65
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bramble Hulk",
+     "res": [
+      25,
+      0,
+      75,
+      50,
+      75,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Carrion Bird",
+     "res": [
+      0,
+      25,
+      35,
+      75,
+      50,
+      120
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blood Wing",
+     "res": [
+      0,
+      105,
+      75,
+      33,
+      45,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 2,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Bastion Keep",
+   "slug": "bastion",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Desert Wing"
+     ]
+    },
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Demon Steed"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Moon Clan"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Devilkin",
+     "res": [
+      15,
+      0,
+      50,
+      75,
+      40,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Moon Clan",
+     "res": [
+      25,
+      0,
+      50,
+      50,
+      120,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Giant Lamprey",
+     "res": [
+      0,
+      25,
+      33,
+      25,
+      35,
+      85
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Devilkin Shaman",
+     "res": [
+      15,
+      50,
+      75,
+      75,
+      25,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Demon Steed",
+     "res": [
+      50,
+      105,
+      25,
+      33,
+      50,
+      15
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Sand Raider",
+     "res": [
+      25,
+      25,
+      50,
+      50,
+      50,
+      33
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Desert Wing",
+     "res": [
+      115,
+      25,
+      75,
+      25,
+      75,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hell Temptress",
+     "res": [
+      0,
+      0,
+      50,
+      65,
+      50,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 0,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Blood Moon",
+   "slug": "bloodmoon",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Hell Bovine",
+     "res": [
+      50,
+      33,
+      65,
+      65,
+      65,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 0,
+   "demon": 0,
+   "note": "Samo Hell Bovine (kravji level) in Cow Queen: brez imunitet, odlično za fizične builde.",
+   "best": [
+    {
+     "cls": "druid",
+     "id": "rabies",
+     "name": "Rabies",
+     "tier": "Top",
+     "time": 780,
+     "season": 12
+    },
+    {
+     "cls": "paladin",
+     "id": "bow-paladin",
+     "name": "Bow Paladin",
+     "tier": "Brez ocene",
+     "time": 780,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Demon Road",
+   "slug": "demonroad",
+   "inside": true,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Hollow One"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Returned Mage"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Hollow One"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Specter",
+     "res": [
+      20,
+      30,
+      35,
+      45,
+      60,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Night Clan",
+     "res": [
+      25,
+      40,
+      50,
+      65,
+      75,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Returned Mage",
+     "res": [
+      30,
+      15,
+      120,
+      25,
+      40,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hell Temptress",
+     "res": [
+      0,
+      25,
+      75,
+      50,
+      50,
+      35
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Gorebelly",
+     "res": [
+      25,
+      25,
+      50,
+      65,
+      75,
+      20
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Tomb Viper",
+     "res": [
+      15,
+      20,
+      45,
+      35,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hollow One",
+     "res": [
+      115,
+      20,
+      40,
+      120,
+      20,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned",
+     "res": [
+      20,
+      25,
+      20,
+      30,
+      20,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 4,
+   "demon": 3,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Kehjistan Marketplace",
+   "slug": "marketplace",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 115,
+     "mon": [
+      "Ghoul Lord"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Ghoul Lord"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Invader",
+     "res": [
+      0,
+      0,
+      50,
+      65,
+      20,
+      30
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flying Scimitar",
+     "res": [
+      25,
+      35,
+      75,
+      50,
+      30,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Vile Hunter",
+     "res": [
+      20,
+      20,
+      45,
+      33,
+      75,
+      20
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Feeder",
+     "res": [
+      0,
+      10,
+      15,
+      75,
+      45,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Fire Tower",
+     "res": [
+      40,
+      50,
+      75,
+      50,
+      45,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Ghoul Lord",
+     "res": [
+      115,
+      40,
+      120,
+      35,
+      60,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Vile Archer",
+     "res": [
+      15,
+      15,
+      35,
+      75,
+      75,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Unraveler",
+     "res": [
+      33,
+      40,
+      35,
+      20,
+      50,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 2,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Kyovoshad",
+   "slug": "kyovoshad",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Apparition",
+     "res": [
+      25,
+      50,
+      30,
+      55,
+      75,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Defiled Warrior",
+     "res": [
+      50,
+      50,
+      45,
+      40,
+      50,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Zakarumite",
+     "res": [
+      10,
+      0,
+      75,
+      65,
+      50,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Night Lord",
+     "res": [
+      0,
+      33,
+      35,
+      75,
+      45,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Grotesque",
+     "res": [
+      66,
+      20,
+      75,
+      55,
+      75,
+      55
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Grotesque Wyrm",
+     "res": [
+      25,
+      25,
+      60,
+      55,
+      75,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Death Berserker",
+     "res": [
+      25,
+      0,
+      50,
+      25,
+      25,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned Mage",
+     "res": [
+      35,
+      25,
+      70,
+      75,
+      45,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 3,
+   "demon": 2,
+   "note": "Brez imunitet.",
+   "best": [
+    {
+     "cls": "amazon",
+     "id": "fire-arrow",
+     "name": "Fire Arrow",
+     "tier": "Top",
+     "time": 284,
+     "season": 13
+    },
+    {
+     "cls": "amazon",
+     "id": "strafe-demon-machine",
+     "name": "Strafe (Demon Machine)",
+     "tier": "Top",
+     "time": 300,
+     "season": 13
+    },
+    {
+     "cls": "amazon",
+     "id": "plague-javelin",
+     "name": "Plague Javelin",
+     "tier": "Good",
+     "time": 330,
+     "season": 13
+    }
+   ]
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "River of Blood",
+   "slug": "riverblood",
+   "inside": false,
+   "imm": [
+    {
+     "el": "magic",
+     "res": 105,
+     "mon": [
+      "Flesh Spawner"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Death Mauler"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Skeleton Archer"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Doom Knight",
+     "res": [
+      33,
+      0,
+      75,
+      20,
+      25,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flesh Spawner",
+     "res": [
+      66,
+      105,
+      45,
+      25,
+      65,
+      20
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Zealot",
+     "res": [
+      10,
+      0,
+      25,
+      80,
+      35,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Oblivion Knight",
+     "res": [
+      33,
+      25,
+      50,
+      60,
+      75,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Mauler",
+     "res": [
+      33,
+      0,
+      50,
+      120,
+      50,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Skeleton Archer",
+     "res": [
+      40,
+      50,
+      33,
+      40,
+      33,
+      120
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Minion of Destruction",
+     "res": [
+      0,
+      25,
+      75,
+      33,
+      65,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Corpulent",
+     "res": [
+      25,
+      20,
+      25,
+      45,
+      50,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Council Member",
+     "res": [
+      15,
+      35,
+      75,
+      80,
+      50,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 3,
+   "demon": 4,
+   "note": "",
+   "best": [
+    {
+     "cls": "necromancer",
+     "id": "fire-golems",
+     "name": "Fire Golems",
+     "tier": "Good",
+     "time": 180,
+     "season": 12
+    },
+    {
+     "cls": "barbarian",
+     "id": "whirlwind-2-h",
+     "name": "Whirlwind (2-H)",
+     "tier": "Top",
+     "time": 213,
+     "season": 13
+    },
+    {
+     "cls": "assassin",
+     "id": "fists-of-fire",
+     "name": "Fists of Fire",
+     "tier": "Good",
+     "time": 224,
+     "season": 13
+    },
+    {
+     "cls": "paladin",
+     "id": "holy-fire-sacrifice",
+     "name": "Holy Fire Sacrifice",
+     "tier": "Top",
+     "time": 237,
+     "season": 13
+    },
+    {
+     "cls": "barbarian",
+     "id": "warcry",
+     "name": "Warcry",
+     "tier": "Top",
+     "time": 260,
+     "season": 13
+    },
+    {
+     "cls": "barbarian",
+     "id": "double-throw",
+     "name": "Double Throw",
+     "tier": "Top",
+     "time": 275,
+     "season": 13
+    },
+    {
+     "cls": "druid",
+     "id": "wolf-fury",
+     "name": "Wolf - Fury",
+     "tier": "Good",
+     "time": 380,
+     "season": 13
+    }
+   ]
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Royal Crypts",
+   "slug": "royalcrypts",
+   "inside": false,
+   "imm": [
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Gloombat"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Dune Beast"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Bone Warrior",
+     "res": [
+      25,
+      25,
+      30,
+      35,
+      65,
+      65
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Scarab",
+     "res": [
+      20,
+      0,
+      40,
+      80,
+      50,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Gloombat",
+     "res": [
+      50,
+      25,
+      120,
+      50,
+      25,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bone Archer",
+     "res": [
+      35,
+      45,
+      30,
+      20,
+      45,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Afflicted",
+     "res": [
+      0,
+      30,
+      55,
+      75,
+      65,
+      40
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dune Beast",
+     "res": [
+      25,
+      0,
+      60,
+      45,
+      120,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Claw Viper",
+     "res": [
+      40,
+      45,
+      45,
+      25,
+      50,
+      40
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flying Scimitar",
+     "res": [
+      25,
+      20,
+      50,
+      75,
+      20,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 3",
+   "zone": 89,
+   "name": "Skovos Stronghold",
+   "slug": "skovos",
+   "inside": true,
+   "imm": [
+    {
+     "el": "cold",
+     "res": 120,
+     "mon": [
+      "Vile Archer"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 120,
+     "mon": [
+      "Dried Corpse"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Vile Hunter",
+     "res": [
+      30,
+      20,
+      30,
+      45,
+      40,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Vile Archer",
+     "res": [
+      20,
+      40,
+      45,
+      55,
+      120,
+      35
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Vile Lancer",
+     "res": [
+      25,
+      15,
+      65,
+      40,
+      50,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Death Slasher",
+     "res": [
+      45,
+      35,
+      75,
+      50,
+      65,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Afflicted",
+     "res": [
+      25,
+      0,
+      50,
+      55,
+      40,
+      15
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dried Corpse",
+     "res": [
+      55,
+      40,
+      75,
+      30,
+      45,
+      120
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bramble Hulk",
+     "res": [
+      0,
+      25,
+      15,
+      75,
+      35,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 4",
+   "zone": 92,
+   "name": "Plains of Torment",
+   "slug": "plainsoftorment",
+   "inside": true,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 120,
+     "mon": [
+      "Blood Bringer",
+      "Huntress",
+      "Misshapen",
+      "Spear Cat"
+     ]
+    },
+    {
+     "el": "magic",
+     "res": 145,
+     "mon": [
+      "Blunderbore"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 145,
+     "mon": [
+      "Death Lord",
+      "Misshapen",
+      "Shrieking Terror",
+      "Unholy Corpse"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 145,
+     "mon": [
+      "Huntress",
+      "Putrid Defiler",
+      "Shrieking Terror",
+      "Spear Cat",
+      "Succubus"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 145,
+     "mon": [
+      "Blunderbore",
+      "Huntress",
+      "Night Lord",
+      "Unholy Corpse"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 145,
+     "mon": [
+      "Night Lord",
+      "Putrid Defiler",
+      "Spear Cat",
+      "Succubus"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Unholy Corpse",
+     "res": [
+      50,
+      25,
+      145,
+      60,
+      145,
+      0
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Huntress",
+     "res": [
+      120,
+      0,
+      20,
+      145,
+      145,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Lord",
+     "res": [
+      25,
+      33,
+      145,
+      50,
+      0,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Succubus",
+     "res": [
+      0,
+      0,
+      50,
+      145,
+      0,
+      145
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Misshapen",
+     "res": [
+      120,
+      25,
+      145,
+      0,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Blood Bringer",
+     "res": [
+      120,
+      50,
+      50,
+      50,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Night Lord",
+     "res": [
+      35,
+      0,
+      33,
+      25,
+      145,
+      145
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Putrid Defiler",
+     "res": [
+      80,
+      0,
+      50,
+      145,
+      50,
+      100
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Undead Soul Killer",
+     "res": [
+      33,
+      50,
+      75,
+      0,
+      33,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Shrieking Terror",
+     "res": [
+      15,
+      25,
+      145,
+      145,
+      50,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blunderbore",
+     "res": [
+      55,
+      145,
+      25,
+      50,
+      145,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Spear Cat",
+     "res": [
+      120,
+      0,
+      20,
+      145,
+      50,
+      145
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 3,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Tier 4",
+   "zone": 92,
+   "name": "Sanctuary of Sin",
+   "slug": "sanctuaryofsin",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 120,
+     "mon": [
+      "Blood Bringer",
+      "Huntress",
+      "Misshapen",
+      "Spear Cat"
+     ]
+    },
+    {
+     "el": "magic",
+     "res": 145,
+     "mon": [
+      "Blunderbore"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 145,
+     "mon": [
+      "Death Lord",
+      "Misshapen",
+      "Shrieking Terror",
+      "Unholy Corpse"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 145,
+     "mon": [
+      "Huntress",
+      "Putrid Defiler",
+      "Shrieking Terror",
+      "Spear Cat",
+      "Succubus"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 145,
+     "mon": [
+      "Blunderbore",
+      "Huntress",
+      "Night Lord",
+      "Unholy Corpse"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 145,
+     "mon": [
+      "Night Lord",
+      "Putrid Defiler",
+      "Spear Cat",
+      "Succubus"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Unholy Corpse",
+     "res": [
+      50,
+      25,
+      145,
+      60,
+      145,
+      0
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Huntress",
+     "res": [
+      120,
+      0,
+      20,
+      145,
+      145,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Lord",
+     "res": [
+      25,
+      33,
+      145,
+      50,
+      0,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Succubus",
+     "res": [
+      0,
+      0,
+      50,
+      145,
+      0,
+      145
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Misshapen",
+     "res": [
+      120,
+      25,
+      145,
+      0,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Blood Bringer",
+     "res": [
+      120,
+      50,
+      50,
+      50,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Night Lord",
+     "res": [
+      35,
+      0,
+      33,
+      25,
+      145,
+      145
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Putrid Defiler",
+     "res": [
+      80,
+      0,
+      50,
+      145,
+      50,
+      100
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Undead Soul Killer",
+     "res": [
+      33,
+      50,
+      75,
+      0,
+      33,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Shrieking Terror",
+     "res": [
+      15,
+      25,
+      145,
+      145,
+      50,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blunderbore",
+     "res": [
+      55,
+      145,
+      25,
+      50,
+      145,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Spear Cat",
+     "res": [
+      120,
+      0,
+      20,
+      145,
+      50,
+      145
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 3,
+   "demon": 4,
+   "note": "",
+   "best": [
+    {
+     "cls": "paladin",
+     "id": "vengeance-1h",
+     "name": "Vengeance 1H",
+     "tier": "Decent",
+     "time": 2100,
+     "season": 12
+    }
+   ]
+  },
+  {
+   "tier": "Tier 4",
+   "zone": 92,
+   "name": "Steppes of Daken-Shar",
+   "slug": "steppesdakenshar",
+   "inside": false,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 120,
+     "mon": [
+      "Blood Bringer",
+      "Huntress",
+      "Misshapen",
+      "Spear Cat"
+     ]
+    },
+    {
+     "el": "magic",
+     "res": 145,
+     "mon": [
+      "Blunderbore"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 145,
+     "mon": [
+      "Death Lord",
+      "Misshapen",
+      "Shrieking Terror",
+      "Unholy Corpse"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 145,
+     "mon": [
+      "Huntress",
+      "Putrid Defiler",
+      "Shrieking Terror",
+      "Spear Cat",
+      "Succubus"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 145,
+     "mon": [
+      "Blunderbore",
+      "Huntress",
+      "Night Lord",
+      "Unholy Corpse"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 145,
+     "mon": [
+      "Night Lord",
+      "Putrid Defiler",
+      "Spear Cat",
+      "Succubus"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Unholy Corpse",
+     "res": [
+      50,
+      25,
+      145,
+      60,
+      145,
+      0
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Huntress",
+     "res": [
+      120,
+      0,
+      20,
+      145,
+      145,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Lord",
+     "res": [
+      25,
+      33,
+      145,
+      50,
+      0,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Succubus",
+     "res": [
+      0,
+      0,
+      50,
+      145,
+      0,
+      145
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Misshapen",
+     "res": [
+      120,
+      25,
+      145,
+      0,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Blood Bringer",
+     "res": [
+      120,
+      50,
+      50,
+      50,
+      50,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Night Lord",
+     "res": [
+      35,
+      0,
+      33,
+      25,
+      145,
+      145
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Putrid Defiler",
+     "res": [
+      80,
+      0,
+      50,
+      145,
+      50,
+      100
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Undead Soul Killer",
+     "res": [
+      33,
+      50,
+      75,
+      0,
+      33,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Shrieking Terror",
+     "res": [
+      15,
+      25,
+      145,
+      145,
+      50,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blunderbore",
+     "res": [
+      55,
+      145,
+      25,
+      50,
+      145,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Spear Cat",
+     "res": [
+      120,
+      0,
+      20,
+      145,
+      50,
+      145
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 3,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 89,
+   "name": "City of Ureh",
+   "slug": "cityofureh",
+   "inside": false,
+   "imm": [
+    {
+     "el": "light",
+     "res": 100,
+     "mon": [
+      "Disciple of Rathma"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Bramble Hulk",
+     "res": [
+      0,
+      20,
+      0,
+      65,
+      35,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned",
+     "res": [
+      40,
+      50,
+      85,
+      0,
+      20,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Guardian",
+     "res": [
+      15,
+      20,
+      50,
+      75,
+      80,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bog Creature",
+     "res": [
+      65,
+      0,
+      65,
+      50,
+      50,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hell Temptress",
+     "res": [
+      15,
+      20,
+      75,
+      40,
+      55,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Disciple of Rathma",
+     "res": [
+      15,
+      0,
+      20,
+      100,
+      50,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Priest of Rathma",
+     "res": [
+      10,
+      0,
+      25,
+      50,
+      75,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned Archer",
+     "res": [
+      40,
+      0,
+      33,
+      0,
+      33,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 3,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 89,
+   "name": "City of Ureh - Nemyr Monastery",
+   "slug": "cityofureh",
+   "inside": false,
+   "imm": [
+    {
+     "el": "light",
+     "res": 100,
+     "mon": [
+      "Disciple of Rathma"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Disciple of Rathma",
+     "res": [
+      15,
+      0,
+      20,
+      100,
+      50,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Priest of Rathma",
+     "res": [
+      10,
+      0,
+      25,
+      50,
+      75,
+      20
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 0,
+   "demon": 0,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 88,
+   "name": "Djinns Domain",
+   "slug": "djinnsdomain",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Dark Hunter",
+     "res": [
+      20,
+      20,
+      50,
+      50,
+      75,
+      45
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dark Spearwoman",
+     "res": [
+      45,
+      33,
+      35,
+      75,
+      45,
+      55
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Demon Imp",
+     "res": [
+      0,
+      25,
+      75,
+      25,
+      25,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Invader",
+     "res": [
+      25,
+      0,
+      65,
+      50,
+      50,
+      35
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Strangler",
+     "res": [
+      55,
+      0,
+      45,
+      75,
+      35,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Stygian Fury",
+     "res": [
+      25,
+      25,
+      25,
+      60,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Pit Viper",
+     "res": [
+      0,
+      0,
+      75,
+      20,
+      50,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dung Soldier",
+     "res": [
+      50,
+      0,
+      50,
+      65,
+      35,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Specter",
+     "res": [
+      0,
+      50,
+      25,
+      20,
+      70,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flying Scimitar",
+     "res": [
+      25,
+      50,
+      50,
+      75,
+      75,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 88,
+   "name": "Djinns Domain - Red",
+   "slug": "djinnsdomain",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Blood Lord",
+     "res": [
+      0,
+      35,
+      65,
+      35,
+      33,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dark Lord",
+     "res": [
+      40,
+      0,
+      35,
+      75,
+      75,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Demon Rascal",
+     "res": [
+      0,
+      25,
+      75,
+      75,
+      30,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flame Spider",
+     "res": [
+      50,
+      0,
+      75,
+      25,
+      45,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Council Member",
+     "res": [
+      50,
+      25,
+      65,
+      75,
+      30,
+      30
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flesh Hunter",
+     "res": [
+      35,
+      20,
+      45,
+      45,
+      55,
+      55
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Salamander",
+     "res": [
+      20,
+      0,
+      35,
+      65,
+      65,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Specter",
+     "res": [
+      0,
+      50,
+      25,
+      20,
+      70,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flesh Archer",
+     "res": [
+      15,
+      20,
+      45,
+      45,
+      55,
+      55
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flesh Lancer",
+     "res": [
+      35,
+      20,
+      45,
+      45,
+      55,
+      55
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 5,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 88,
+   "name": "Djinns Domain - Boss",
+   "slug": "djinnsdomain",
+   "inside": true,
+   "imm": [
+    {
+     "el": "phys",
+     "res": 100,
+     "mon": [
+      "Wraith"
+     ]
+    },
+    {
+     "el": "fire",
+     "res": 110,
+     "mon": [
+      "Demon Imp",
+      "Invader"
+     ]
+    },
+    {
+     "el": "light",
+     "res": 120,
+     "mon": [
+      "Dark Spearwoman",
+      "Dung Soldier",
+      "Flying Scimitar",
+      "Strangler",
+      "Stygian Harlot"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 145,
+     "mon": [
+      "Dark Hunter",
+      "Pit Viper"
+     ]
+    },
+    {
+     "el": "poison",
+     "res": 110,
+     "mon": [
+      "Pit Viper"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Dark Hunter",
+     "res": [
+      20,
+      20,
+      33,
+      33,
+      100,
+      20
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dark Spearwoman",
+     "res": [
+      45,
+      0,
+      25,
+      100,
+      25,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Demon Imp",
+     "res": [
+      0,
+      25,
+      100,
+      25,
+      33,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Invader",
+     "res": [
+      25,
+      0,
+      110,
+      50,
+      0,
+      33
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Strangler",
+     "res": [
+      50,
+      0,
+      0,
+      100,
+      0,
+      0
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Stygian Harlot",
+     "res": [
+      10,
+      0,
+      66,
+      100,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Pit Viper",
+     "res": [
+      70,
+      0,
+      70,
+      25,
+      145,
+      110
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Dung Soldier",
+     "res": [
+      50,
+      0,
+      0,
+      100,
+      0,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Wraith",
+     "res": [
+      100,
+      50,
+      0,
+      0,
+      60,
+      75
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flying Scimitar",
+     "res": [
+      25,
+      50,
+      50,
+      120,
+      75,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 88,
+   "name": "Fallen Gardens",
+   "slug": "fallengardens",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Thrasher",
+     "res": [
+      25,
+      0,
+      0,
+      40,
+      50,
+      80
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Blood Wing",
+     "res": [
+      0,
+      25,
+      50,
+      33,
+      0,
+      45
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bog Creature",
+     "res": [
+      50,
+      0,
+      45,
+      50,
+      45,
+      35
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Demon Sprite",
+     "res": [
+      65,
+      35,
+      70,
+      65,
+      40,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Prowling Dead",
+     "res": [
+      0,
+      0,
+      45,
+      50,
+      65,
+      60
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Strangler",
+     "res": [
+      60,
+      80,
+      60,
+      25,
+      75,
+      45
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 2,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 88,
+   "name": "Fallen Gardens - Diamond Gate",
+   "slug": "fallengardens",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [],
+   "undead": 0,
+   "demon": 0,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 89,
+   "name": "Imperial Palace",
+   "slug": "imperialpalace",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Minion of Destruction",
+     "res": [
+      10,
+      10,
+      60,
+      60,
+      60,
+      60
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      20,
+      0,
+      35,
+      65,
+      45,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      20,
+      0,
+      40,
+      20,
+      65,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Succubus",
+     "res": [
+      0,
+      20,
+      65,
+      50,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Decayed",
+     "res": [
+      0,
+      20,
+      50,
+      35,
+      25,
+      65
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Strangler",
+     "res": [
+      10,
+      10,
+      45,
+      45,
+      45,
+      45
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 89,
+   "name": "Imperial Palace - Boss",
+   "slug": "imperialpalace",
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Minion of Destruction",
+     "res": [
+      10,
+      10,
+      60,
+      60,
+      60,
+      60
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      20,
+      0,
+      35,
+      65,
+      45,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      20,
+      0,
+      40,
+      20,
+      65,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Succubus",
+     "res": [
+      0,
+      20,
+      65,
+      50,
+      50,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Decayed",
+     "res": [
+      0,
+      20,
+      50,
+      35,
+      25,
+      65
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 4,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 87,
+   "name": "Na-Krul's Abyss",
+   "slug": null,
+   "inside": true,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Devil Kin Brute",
+     "res": [
+      15,
+      0,
+      65,
+      50,
+      40,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Satyr Lord",
+     "res": [
+      50,
+      0,
+      40,
+      25,
+      65,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Hellbat",
+     "res": [
+      10,
+      25,
+      55,
+      20,
+      10,
+      60
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Reaper",
+     "res": [
+      25,
+      20,
+      75,
+      75,
+      50,
+      35
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Crypt Demon",
+     "res": [
+      50,
+      35,
+      25,
+      75,
+      75,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flesh Thing",
+     "res": [
+      35,
+      20,
+      30,
+      50,
+      25,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Lich",
+     "res": [
+      35,
+      50,
+      40,
+      25,
+      85,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Skullwing",
+     "res": [
+      0,
+      20,
+      66,
+      80,
+      50,
+      30
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 5,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 89,
+   "name": "Outer Void",
+   "slug": "outervoid",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Nightmare",
+     "res": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Dream Eater",
+     "res": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Abhorrent",
+     "res": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Void Knight",
+     "res": [
+      50,
+      50,
+      75,
+      75,
+      50,
+      20
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Voidling",
+     "res": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 88,
+   "name": "Stygian Caverns",
+   "slug": "stygiancaverns",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Horror",
+     "res": [
+      30,
+      50,
+      30,
+      50,
+      60,
+      65
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Grotesque",
+     "res": [
+      55,
+      20,
+      30,
+      50,
+      25,
+      65
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Consumed Ice Boar",
+     "res": [
+      25,
+      0,
+      30,
+      15,
+      50,
+      15
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Demon Sprite",
+     "res": [
+      40,
+      35,
+      70,
+      65,
+      40,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Death Mauler",
+     "res": [
+      30,
+      0,
+      65,
+      50,
+      65,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 2,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 88,
+   "name": "Stygian Caverns - Fortress",
+   "slug": "stygiancaverns",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Doom Knight",
+     "res": [
+      30,
+      25,
+      60,
+      20,
+      20,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Corpse Spitter",
+     "res": [
+      30,
+      0,
+      25,
+      55,
+      20,
+      75
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Rot Walker",
+     "res": [
+      50,
+      20,
+      40,
+      30,
+      65,
+      40
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Oblivion Knight",
+     "res": [
+      35,
+      25,
+      60,
+      60,
+      55,
+      45
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Moon Lord",
+     "res": [
+      25,
+      0,
+      65,
+      55,
+      30,
+      0
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Horror",
+     "res": [
+      30,
+      50,
+      30,
+      50,
+      60,
+      65
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 4,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 87,
+   "name": "Zhar's Sanctum",
+   "slug": "zharssanctum",
+   "inside": false,
+   "imm": [
+    {
+     "el": "fire",
+     "res": 120,
+     "mon": [
+      "Death Berserker"
+     ]
+    },
+    {
+     "el": "cold",
+     "res": 130,
+     "mon": [
+      "Flayer"
+     ]
+    }
+   ],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Doom Ape",
+     "res": [
+      0,
+      25,
+      50,
+      75,
+      50,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Thrasher",
+     "res": [
+      25,
+      0,
+      0,
+      40,
+      25,
+      75
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Saber Cat",
+     "res": [
+      50,
+      25,
+      50,
+      50,
+      65,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Black Raptor",
+     "res": [
+      0,
+      45,
+      65,
+      50,
+      45,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Flayer",
+     "res": [
+      45,
+      15,
+      75,
+      33,
+      130,
+      50
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Spear Cat",
+     "res": [
+      10,
+      15,
+      25,
+      75,
+      65,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Death Berserker",
+     "res": [
+      50,
+      50,
+      120,
+      25,
+      30,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Burning Soul",
+     "res": [
+      40,
+      25,
+      45,
+      50,
+      40,
+      60
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 1,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 87,
+   "name": "Zhar's Sanctum - Rivers",
+   "slug": "zharssanctum",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Huntress",
+     "res": [
+      40,
+      0,
+      65,
+      25,
+      50,
+      80
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hell Swarm",
+     "res": [
+      60,
+      25,
+      50,
+      80,
+      0,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Heirophant",
+     "res": [
+      0,
+      35,
+      80,
+      25,
+      75,
+      25
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Spear Cat",
+     "res": [
+      40,
+      0,
+      25,
+      50,
+      40,
+      80
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Urdar",
+     "res": [
+      35,
+      20,
+      30,
+      75,
+      80,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 0,
+   "demon": 1,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 87,
+   "name": "Zhar's Sanctum - Ice",
+   "slug": "zharssanctum",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Carver Shaman",
+     "res": [
+      15,
+      30,
+      80,
+      50,
+      55,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Night Lord",
+     "res": [
+      35,
+      40,
+      40,
+      25,
+      85,
+      65
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Carver",
+     "res": [
+      15,
+      30,
+      85,
+      65,
+      45,
+      25
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    },
+    {
+     "name": "Reanimated Horde",
+     "res": [
+      50,
+      0,
+      0,
+      75,
+      60,
+      80
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Crush Beast",
+     "res": [
+      50,
+      0,
+      50,
+      45,
+      20,
+      50
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 2,
+   "note": "",
+   "best": []
+  },
+  {
+   "tier": "Unique Maps",
+   "zone": 87,
+   "name": "Zhar's Sanctum - Kurast",
+   "slug": "zharssanctum",
+   "inside": false,
+   "imm": [],
+   "extra": [],
+   "monsters": [
+    {
+     "name": "Jungle Hunter",
+     "res": [
+      30,
+      0,
+      25,
+      85,
+      45,
+      95
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Returned",
+     "res": [
+      40,
+      50,
+      85,
+      0,
+      20,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Guardian",
+     "res": [
+      15,
+      20,
+      0,
+      75,
+      80,
+      50
+     ],
+     "u": true,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Bog Creature",
+     "res": [
+      65,
+      0,
+      65,
+      50,
+      50,
+      65
+     ],
+     "u": false,
+     "d": false,
+     "boss": false
+    },
+    {
+     "name": "Hell Temptress",
+     "res": [
+      15,
+      20,
+      75,
+      40,
+      55,
+      0
+     ],
+     "u": false,
+     "d": true,
+     "boss": false
+    }
+   ],
+   "undead": 2,
+   "demon": 1,
+   "note": "",
+   "best": []
+  }
+ ],
+ "map_tables": {
+  "orbs": [
+   {
+    "name": "Horadrim Orb",
+    "with": "Rare Map, Perfect Gem, Rune",
+    "effect": "rerolls rare map"
+   },
+   {
+    "name": "Infused Horadrim Orb",
+    "with": "Rare Map",
+    "effect": ""
+   },
+   {
+    "name": "Angelic Orb",
+    "with": "Magic Map, Perfect Gem, Rune",
+    "effect": "upgrades map (magic -> rare)"
+   },
+   {
+    "name": "Infused Angelic Orb",
+    "with": "Magic Map",
+    "effect": ""
+   },
+   {
+    "name": "Zakarum Orb",
+    "with": "Regular Map, Jewel, Rune",
+    "effect": "upgrades map (regular -> rare)"
+   },
+   {
+    "name": "Infused Zakarum Orb",
+    "with": "Regular Map",
+    "effect": ""
+   },
+   {
+    "name": "Arcane Orb",
+    "with": "Regular/Magic Map, Jewel",
+    "effect": "reroll map (regular -> magic)"
+   },
+   {
+    "name": "Infused Arcane Orb",
+    "with": "Regular/Magic Map",
+    "effect": ""
+   },
+   {
+    "name": "Orb of Destruction",
+    "with": "Magic/Rare Map",
+    "effect": "downgrades map (to regular)"
+   },
+   {
+    "name": "Orb of Fortification",
+    "with": "Magic/Rare/Unique Map",
+    "effect": "halves number of map monsters and doubles loot/experience gained from them - these fortified monsters have doubled life and deal 20% extra damage (does not affect event monsters), players gain 30% movement velocity"
+   },
+   {
+    "name": "Cartographer's Orb",
+    "with": "3 T1/T2 Maps of same tier",
+    "effect": "combines 3 maps into one of a higher tier"
+   },
+   {
+    "name": "Worldstone Shard",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "adds a corruption modifier"
+   },
+   {
+    "name": "Horadrim Scarab",
+    "with": "T3 Map",
+    "effect": "turns a T3 map into a random rare dungeon"
+   },
+   {
+    "name": "Catalyst Shard",
+    "with": "Magic/Rare Map",
+    "effect": "adds \"Area contains a random event\""
+   },
+   {
+    "name": "Standard of Heroes",
+    "with": "Magic/Rare/Unique Map/Dungeon",
+    "effect": "adds heroic bonuses: +10% Experience, +20% Monster Density, +20% Magic and Gold Find"
+   },
+   {
+    "name": "Corrupted Amazon's Ear",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "+25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have 25% Increased Velocity, Monsters have +50% Increased Cast and Attack Speed, Monsters have +200% Increased Health"
+   },
+   {
+    "name": "Corrupted Assassin's Ear",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "+25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have +120% Faster Hit Recovery, Monsters have +10% Deadly Strike, Monsters have +200% Increased Health"
+   },
+   {
+    "name": "Corrupted Barbarian's Ear",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "+25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have +25% enhanced Physical Damage, Monsters have +20% Chance of Crushing Blow, Monsters have +200% Increased Health"
+   },
+   {
+    "name": "Corrupted Druid's Ear",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "+25% Monster Rarity, Monsters have +75% chance to drop extra items, Players have -5% to all Maximum Resistances, Monsters have +25% of Physical Damage as extra Fire Damage, Monsters have +200% Increased Health"
+   },
+   {
+    "name": "Corrupted Necromancer's Ear",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "+25% Monster Rarity, Monsters have +75% chance to drop extra items, Players have -100 Drain Life, Monsters have +50% of Physical Damage as extra Poison Damage over 5 seconds, Monsters have +200% Increased Health"
+   },
+   {
+    "name": "Corrupted Paladin's Ear",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "+25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have +50% to Attack Rating, Players have -5% Physical Damage Reduction, Monsters have +200% Increased Health"
+   },
+   {
+    "name": "Corrupted Sorceress's Ear",
+    "with": "Magic/Rare Map/Dungeon",
+    "effect": "+25% Monster Rarity, Monsters have +75% chance to drop extra items, Players have -25% to All Resistances, Monsters have +50% of Physical Damage as extra Lightning Damage, Monsters have +200% Increased Health"
+   }
+  ],
+  "infuse": [
+   {
+    "in": "Horadrim Orb + Perfect Gem + Rune",
+    "out": "Infused Horadrim Orb"
+   },
+   {
+    "in": "Angelic Orb + Perfect Skull + Rune",
+    "out": "Infused Angelic Orb"
+   },
+   {
+    "in": "Zakarum Orb + Jewel + Rune",
+    "out": "Infused Zakarum Orb"
+   },
+   {
+    "in": "Arcane Orb + Jewel",
+    "out": "Infused Arcane Orb"
+   },
+   {
+    "in": "3 Maps of same tier (any rarity)",
+    "out": "Random map of same tier (regular)"
+   },
+   {
+    "in": "3 Dungeons",
+    "out": "Random dungeon (rare)"
+   }
+  ],
+  "affixes": [
+   {
+    "name": "Cracking",
+    "ps": "S",
+    "attr": "Players have -X% Enhanced Defense",
+    "range": "20-30 / 30-40 / 40-50",
+    "exp": "",
+    "density": "13-18 / 15-18 / 18-20",
+    "mf": "15-20 / 30-35 / 45-50",
+    "note": ""
+   },
+   {
+    "name": "Fumbling",
+    "ps": "S",
+    "attr": "Players have -X% Chance to Block",
+    "range": "10-20 / 20-30 / 30-40",
+    "exp": "",
+    "density": "13-18 / 18-23 / 23-25",
+    "mf": "15-20 / 30-35 / 45-50",
+    "note": ""
+   },
+   {
+    "name": "Imbalance",
+    "ps": "S",
+    "attr": "Players have -X% Faster Hit Recovery",
+    "range": "10-20 / 20-30 / 30-40",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "15-20 / 20-25 / 25-30",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Hindrance",
+    "ps": "S",
+    "attr": "Players have -X% to All Resistances",
+    "range": "10-15 / 15-20 / 20-25",
+    "exp": "4-5 / 5-6 / 6-7",
+    "density": "",
+    "mf": "15-20 / 30-35 / 50-55",
+    "note": ""
+   },
+   {
+    "name": "Unhealthy",
+    "ps": "P",
+    "attr": "Players have -X Drain Life",
+    "range": "30-40 / 50-60 / 70-80",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Warding",
+    "ps": "S",
+    "attr": "Monsters have X% Curse Duration Reduction",
+    "range": "20-40 / 40-60 / 60-80",
+    "exp": "5-6 / 6-7 / 7-8",
+    "density": "",
+    "mf": "20-25 / 35-40 / 50-55",
+    "note": "T1-T3 maps only"
+   },
+   {
+    "name": "Leech",
+    "ps": "S",
+    "attr": "Monsters have X% Increased Maximum Life / Monsters have X% Life Stolen per Hit",
+    "range": "10-15 / 15-20 / 20-25",
+    "exp": "5-6 / 6-7 / 7-8",
+    "density": "13-15 / 15-20 / 18-20",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Health",
+    "ps": "S",
+    "attr": "Monsters have X% Increased Maximum Life",
+    "range": "5-15 / 15-25 / 25-35",
+    "exp": "6-8 / 8-10 / 10-12",
+    "density": "15-20 / 20-25 / 25-30",
+    "mf": "",
+    "note": "½ frequency"
+   },
+   {
+    "name": "Large",
+    "ps": "P",
+    "attr": "Monsters have X% Increased Maximum Life",
+    "range": "5-15 / 15-25 / 25-35",
+    "exp": "6-8 / 8-10 / 10-12",
+    "density": "15-20 / 20-25 / 25-30",
+    "mf": "",
+    "note": "½ frequency"
+   },
+   {
+    "name": "Fast",
+    "ps": "P",
+    "attr": "Monsters have +X% Increased Cast and Attack Speed",
+    "range": "40-60 / 60-80 / 80-100",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "15-20 / 20-25 / 25-30",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Swiftness",
+    "ps": "S",
+    "attr": "Monsters have X% increased Velocity",
+    "range": "20-30 / 30-40 / 40-50",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "15-20 / 20-25 / 25-30",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Protection",
+    "ps": "S",
+    "attr": "Monsters take X Reduced Physical Damage",
+    "range": "100-200 / 300-400 / 500-600",
+    "exp": "",
+    "density": "13-15 / 15-18 / 18-23",
+    "mf": "15-20 / 30-35 / 45-50",
+    "note": ""
+   },
+   {
+    "name": "Resilience",
+    "ps": "S",
+    "attr": "Monsters have +X% Faster Hit Recovery",
+    "range": "40-60 / 60-80 / 80-100",
+    "exp": "",
+    "density": "15-20 / 20-25 / 25-30",
+    "mf": "10-15 / 25-30 / 40-45",
+    "note": ""
+   },
+   {
+    "name": "Silver",
+    "ps": "P",
+    "attr": "Monsters have +X% Attack Rating and Chance to Pierce",
+    "range": "30-50 / 50-70 / 70-90",
+    "exp": "",
+    "density": "8-10 / 15-18 / 18-20",
+    "mf": "15-20 / 30-35 / 45-50",
+    "note": ""
+   },
+   {
+    "name": "Crushing",
+    "ps": "P",
+    "attr": "Monsters have X% Chance of Crushing Blow",
+    "range": "15-25 / 25-35 / 35-45",
+    "exp": "",
+    "density": "8-10 / 15-18 / 18-20",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Bloody",
+    "ps": "P",
+    "attr": "Monsters have X% Chance of Open Wounds",
+    "range": "5-10 / 10-15 / 15-20",
+    "exp": "4-5 / 5-6 / 6-7",
+    "density": "",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Strong",
+    "ps": "P",
+    "attr": "Monsters have +X% Enhanced Physical Damage",
+    "range": "10-15 / 15-20 / 20-25",
+    "exp": "4-5 / 5-6 / 6-7",
+    "density": "",
+    "mf": "10-15 / 25-30 / 40-45",
+    "note": ""
+   },
+   {
+    "name": "Sturdiness",
+    "ps": "S",
+    "attr": "Monsters have +X% Enhanced Defense",
+    "range": "50-100 / 100-150 / 150-200",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "",
+    "mf": "10-15 / 25-30 / 40-45",
+    "note": ""
+   },
+   {
+    "name": "Regeneration",
+    "ps": "S",
+    "attr": "Monsters have +X Replenish Life",
+    "range": "1024-1560 / 1560-2048 / 2048-2560",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "",
+    "mf": "20-25 / 35-40 / 50-55",
+    "note": ""
+   },
+   {
+    "name": "Flaming",
+    "ps": "P",
+    "attr": "Monsters have +X% to Fire Skill Damage",
+    "range": "5-10 / 10-15 / 15-20",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "13-18 / 18-23 / 23-25",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Hibernal",
+    "ps": "P",
+    "attr": "Monsters have +X% to Cold Skill Damage",
+    "range": "5-10 / 10-15 / 15-20",
+    "exp": "",
+    "density": "13-15 / 15-18 / 18-20",
+    "mf": "15-20 / 25-30 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Static",
+    "ps": "P",
+    "attr": "Monsters have +X% to Lightning Skill Damage",
+    "range": "5-10 / 10-15 / 15-20",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "13-20 / 18-23 / 23-25",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Toxic",
+    "ps": "P",
+    "attr": "Monsters have +X% to Poison Skill Damage",
+    "range": "5-10 / 10-15 / 15-20",
+    "exp": "",
+    "density": "15-20 / 20-25 / 25-30",
+    "mf": "5-10 / 15-20 / 25-30",
+    "note": ""
+   },
+   {
+    "name": "Smoking",
+    "ps": "P",
+    "attr": "Monsters have +X% of Physical Damage as Extra Fire Damage",
+    "range": "60-80 / 70-90 / 80-100",
+    "exp": "",
+    "density": "13-15 / 15-18 / 18-20",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Chilling",
+    "ps": "P",
+    "attr": "Monsters have +X% of Physical Damage as Extra Cold Damage",
+    "range": "60-80 / 70-90 / 80-100",
+    "exp": "",
+    "density": "13-15 / 15-18 / 18-20",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Sparking",
+    "ps": "P",
+    "attr": "Monsters have +X% of Physical Damage as Extra Lightning Damage",
+    "range": "60-80 / 70-90 / 80-100",
+    "exp": "",
+    "density": "13-15 / 15-18 / 18-20",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Poisonous",
+    "ps": "P",
+    "attr": "Monsters have +X% of Physical Damage as Extra Poison Damage over 5 seconds",
+    "range": "123-163 / 143-184 / 163-205",
+    "exp": "",
+    "density": "13-15 / 15-18 / 18-20",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Runic",
+    "ps": "P",
+    "attr": "Monsters have +X% of Physical Damage as Extra Magic Damage",
+    "range": "8-10 / 10-12 / 12-14",
+    "exp": "",
+    "density": "13-15 / 15-18 / 18-20",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Crimson",
+    "ps": "S",
+    "attr": "Monsters have X% Fire Absorb",
+    "range": "4-6 / 6-8 / 8-10",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "13-18 / 18-23 / 23-25",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Azure",
+    "ps": "S",
+    "attr": "Monsters have X% Cold Absorb",
+    "range": "4-6 / 6-8 / 8-10",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "13-18 / 18-23 / 18-25",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Opal",
+    "ps": "S",
+    "attr": "Monsters have X% Lightning Absorb",
+    "range": "4-6 / 6-8 / 8-10",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "13-18 / 18-23 / 20-25",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Tangerine",
+    "ps": "S",
+    "attr": "Monsters have X% Magic Absorb",
+    "range": "4-6 / 6-8 / 8-10",
+    "exp": "3-4 / 4-5 / 5-6",
+    "density": "13-18 / 18-23 / 20-25",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Splashing",
+    "ps": "P",
+    "attr": "Monsters Melee Attacks Deal Splash Damage",
+    "range": "",
+    "exp": "",
+    "density": "8-13 / 18-23 / 23-25",
+    "mf": "5-10 / 20-25 / 35-40",
+    "note": ""
+   },
+   {
+    "name": "Stygian",
+    "ps": "P",
+    "attr": "Map contains Stygian Dolls",
+    "range": "",
+    "exp": "",
+    "density": "25-30",
+    "mf": "40-45",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Lustful",
+    "ps": "P",
+    "attr": "Map contains Succubus Witches",
+    "range": "",
+    "exp": "",
+    "density": "25-30",
+    "mf": "45-50",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Vampiric",
+    "ps": "P",
+    "attr": "Map contains Vampire Lords",
+    "range": "",
+    "exp": "",
+    "density": "18-20",
+    "mf": "15-20",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Bovine",
+    "ps": "P",
+    "attr": "Map contains Hell Bovines",
+    "range": "",
+    "exp": "",
+    "density": "25-30",
+    "mf": "15-20",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Reanimated",
+    "ps": "P",
+    "attr": "Map contains Reanimated Horde",
+    "range": "",
+    "exp": "",
+    "density": "25-30",
+    "mf": "35-40",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Ghastly",
+    "ps": "P",
+    "attr": "Map contains Ghosts",
+    "range": "",
+    "exp": "",
+    "density": "18-20",
+    "mf": "15-20",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Souless",
+    "ps": "P",
+    "attr": "Map contains Burning Souls",
+    "range": "",
+    "exp": "",
+    "density": "25-30",
+    "mf": "40-50",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Shamanic",
+    "ps": "P",
+    "attr": "Map contains Fetishes",
+    "range": "",
+    "exp": "",
+    "density": "20-25",
+    "mf": "15-20",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Shrieking",
+    "ps": "P",
+    "attr": "Map contains Shrieking Terrors",
+    "range": "",
+    "exp": "",
+    "density": "25-30",
+    "mf": "20-30",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Smith",
+    "ps": "S",
+    "attr": "Monsters have X% chance to drop additional weapons",
+    "range": "1, 2, 3",
+    "exp": "",
+    "density": "",
+    "mf": "",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Armorer",
+    "ps": "S",
+    "attr": "Monsters have X% chance to drop additional armor",
+    "range": "1, 2, 3",
+    "exp": "",
+    "density": "",
+    "mf": "",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Crafter",
+    "ps": "S",
+    "attr": "Monsters have X% chance to drop additional jewelry & charms",
+    "range": "1, 2, 3",
+    "exp": "",
+    "density": "",
+    "mf": "",
+    "note": "¼ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Champion's",
+    "ps": "P",
+    "attr": "Monster Rarity +X%",
+    "range": "30-40 / 40-50 / 50-60",
+    "exp": "",
+    "density": "",
+    "mf": "",
+    "note": ""
+   },
+   {
+    "name": "Duplicated",
+    "ps": "P",
+    "attr": "Map Contains an additional Boss",
+    "range": "",
+    "exp": "",
+    "density": "",
+    "mf": "",
+    "note": "½ frequency, T1-T3 maps only"
+   },
+   {
+    "name": "Adventurer",
+    "ps": "S",
+    "attr": "+1 to Area Level",
+    "range": "",
+    "exp": "",
+    "density": "",
+    "mf": "",
+    "note": "½ frequency"
+   }
+  ],
+  "corruptions": {
+   "head": [
+    "Corruption Modifiers",
+    "Range",
+    "Exp",
+    "Density",
+    "Rarity",
+    "MF/GF"
+   ],
+   "rows": [
+    [
+     "Monsters have X% Deadly Strike",
+     "5-10 / 10-15 / 15-20",
+     "4-6 / 6-8 / 8-10",
+     "30-40 / 40-50 / 50-60",
+     "",
+     ""
+    ],
+    [
+     "Monsters have X% Increased Maximum Life / Monsters have Cannot Be Frozen",
+     "5-15 / 15-25 / 25-35",
+     "6-8 / 8-10 / 10-12",
+     "30-40 / 40-50 / 50-60",
+     "",
+     ""
+    ],
+    [
+     "Players have -X% Attack and Cast Speed",
+     "5-15 / 15-25 / 25-35",
+     "",
+     "30-40 / 40-50 / 50-60",
+     "10-15 / 15-20 / 20-25",
+     ""
+    ],
+    [
+     "Players have -X% to Physical Damage Reduction",
+     "5-10 / 10-15 / 15-20",
+     "",
+     "30-40 / 40-50 / 50-60",
+     "10-15 / 15-20 / 20-25",
+     ""
+    ],
+    [
+     "Players have -X% to Max Resistances",
+     "2-3 / 3-4 / 4-5",
+     "",
+     "30-40 / 40-50 / 50-60",
+     "10-15 / 15-20 / 20-25",
+     ""
+    ],
+    [
+     "Players have X% Attack and Cast Speed / Players have X% to Velocity",
+     "20-30 / 30-40 / 40-50",
+     "",
+     "",
+     "10-15 / 15-20 / 20-25",
+     ""
+    ],
+    [
+     "Area gains Magic And Gold Find",
+     "",
+     "",
+     "10-15 / 15-20 / 20-25",
+     "50 / 75 / 100"
+    ],
+    [
+     "Area gains Monster Density",
+     "",
+     "60-80 / 80-100 / 100-120",
+     "",
+     ""
+    ],
+    [
+     "Area gains +1 Zone Level",
+     "",
+     "15-20 / 20-25 / 25-30",
+     "",
+     ""
+    ],
+    [
+     "Area gains Monster Rarity",
+     "",
+     "",
+     "30-40 / 40-50 / 50-60",
+     ""
+    ],
+    [
+     "Monsters have 1% chance to drop additional jewelry & charms",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ },
+ "crafts": {
+  "Hitpower": [
+   {
+    "id": "hitpower-helm",
+    "type": "Helm",
+    "itype": "helm",
+    "ing": [
+     "Jewel",
+     "Ith Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "[10-15]% Chance to Pierce",
+     "+[100-150] to Attack Rating"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-boots",
+    "type": "Boots",
+    "itype": "boot",
+    "ing": [
+     "Jewel",
+     "Ral Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "+[10-20]% Faster Hit Recovery",
+     "+[60-120] Defense vs. Melee"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-gloves",
+    "type": "Gloves",
+    "itype": "glov",
+    "ing": [
+     "Jewel",
+     "Ort Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "-[10-20]% Target Defense",
+     "Knockback"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-belt",
+    "type": "Belt",
+    "itype": "belt",
+    "ing": [
+     "Jewel",
+     "Tal Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "+[10-20]% Faster Hit Recovery",
+     "+10% Faster Block Rate"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-shield",
+    "type": "Any Shield",
+    "itype": "shld",
+    "ing": [
+     "Jewel",
+     "Eth Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "+[20-30]% Faster Block Rate",
+     "[10-20]% Increased Chance of Blocking"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-quiver",
+    "type": "Missile",
+    "itype": "misl",
+    "ing": [
+     "Jewel",
+     "Eth Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "8% Chance to cast level 4 Frost Nova when Struck",
+     "-[10-20]% Target Defense",
+     "Knockback"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-body",
+    "type": "Armor",
+    "itype": "tors",
+    "ing": [
+     "Jewel",
+     "Nef Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "8% Chance to cast level 4 Frost Nova when Struck",
+     "+[75-100]% Enhanced Defense",
+     "+[30-40]% Faster Hit Recovery"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-amulet",
+    "type": "Amulet",
+    "itype": "amul",
+    "ing": [
+     "Jewel",
+     "Thul Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "+[100-150] to Attack Rating",
+     "[10-15]% Chance to Pierce"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-ring",
+    "type": "Ring",
+    "itype": "ring",
+    "ing": [
+     "Jewel",
+     "Amn Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "+[2-4] to Maximum Damage",
+     "+[5-10] to Dexterity"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "hitpower-weapon",
+    "type": "Weapon",
+    "itype": "weap",
+    "ing": [
+     "Jewel",
+     "Tir Rune",
+     "Perfect Sapphire"
+    ],
+    "alt": [
+     "Hitpower Craft Infusion"
+    ],
+    "mods": [
+     "5% Chance to cast level 4 Frost Nova when Struck",
+     "-[10-20]% Target Defense",
+     "+[50-80]% Enhanced Damage"
+    ],
+    "eth": true,
+    "lvl": 50
+   }
+  ],
+  "Blood": [
+   {
+    "id": "blood-helm",
+    "type": "Helm",
+    "itype": "helm",
+    "ing": [
+     "Jewel",
+     "Ral Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[2-4]% Life Stolen per Hit",
+     "+[10-20] to Life",
+     "[10-15]% Chance of Crushing Blow"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "blood-boots",
+    "type": "Boots",
+    "itype": "boot",
+    "ing": [
+     "Jewel",
+     "Eth Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[2-4]% Life Stolen per Hit",
+     "+[10-20] to Life",
+     "[5-10]% Chance of Open Wounds"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "blood-gloves",
+    "type": "Gloves",
+    "itype": "glov",
+    "ing": [
+     "Jewel",
+     "Nef Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[2-4]% Life Stolen per Hit",
+     "+[10-20] to Life",
+     "[5-10]% Chance of Crushing Blow"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "blood-belt",
+    "type": "Belt",
+    "itype": "belt",
+    "ing": [
+     "Jewel",
+     "Tal Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Life Stolen per Hit",
+     "+[10-20] to Life",
+     "[10-20]% Chance of Open Wounds"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "blood-shield",
+    "type": "Any Shield",
+    "itype": "shld",
+    "ing": [
+     "Jewel",
+     "Ith Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Life Stolen per Hit",
+     "Increase Maximum Life [5-7]%",
+     "[10-20]% Increased Chance of Blocking"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "blood-quiver",
+    "type": "Missile",
+    "itype": "misl",
+    "ing": [
+     "Jewel",
+     "Ith Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Life Stolen per Hit",
+     "+[10-20] to Life",
+     "[10-20]% Chance of Crushing Blow"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "blood-body",
+    "type": "Armor",
+    "itype": "tors",
+    "ing": [
+     "Jewel",
+     "Thul Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "+[30-50]% Enhanced Defense",
+     "Increase Maximum Life [5-7]%",
+     "+[4-6] Life after each Kill"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "blood-amulet",
+    "type": "Amulet",
+    "itype": "amul",
+    "ing": [
+     "Jewel",
+     "Amn Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "+[3-6] Life after each Kill",
+     "+[10-20] to Life",
+     "+10% Faster Run/Walk"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "blood-ring",
+    "type": "Ring",
+    "itype": "ring",
+    "ing": [
+     "Jewel",
+     "Sol Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[2-3]% Life Stolen per Hit",
+     "+[10-20] to Life",
+     "+[5-10] to Strength"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "blood-weapon",
+    "type": "Weapon",
+    "itype": "weap",
+    "ing": [
+     "Jewel",
+     "Ort Rune",
+     "Perfect Ruby"
+    ],
+    "alt": [
+     "Blood Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Life Stolen per Hit",
+     "+[10-20] to Life",
+     "+[50-80]% Enhanced Damage"
+    ],
+    "eth": true,
+    "lvl": 50
+   }
+  ],
+  "Caster": [
+   {
+    "id": "caster-helm",
+    "type": "Helm",
+    "itype": "helm",
+    "ing": [
+     "Jewel",
+     "Nef Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "+10% Faster Cast Rate",
+     "+[10-20] to Energy",
+     "Regenerate Mana [5-10]%"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "caster-boots",
+    "type": "Boots",
+    "itype": "boot",
+    "ing": [
+     "Jewel",
+     "Thul Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "Regenerate Mana [4-10]%",
+     "+[10-20] to Mana",
+     "Increase Maximum Mana [10-15]%"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "caster-gloves",
+    "type": "Gloves",
+    "itype": "glov",
+    "ing": [
+     "Jewel",
+     "Ort Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "+[5-10]% Faster Cast Rate",
+     "+[10-20] to Mana",
+     "+[1-3] to Mana after each Kill"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "caster-belt",
+    "type": "Belt",
+    "itype": "belt",
+    "ing": [
+     "Jewel",
+     "Ith Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "Regenerate Mana [4-10]%",
+     "+[10-20] to Mana",
+     "+10% Faster Cast Rate"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "caster-shield",
+    "type": "Any Shield",
+    "itype": "shld",
+    "ing": [
+     "Jewel",
+     "Eth Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "+10% Faster Cast Rate",
+     "Increase Maximum Mana [20-30]%",
+     "[10-20]% Increased Chance of Blocking"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "caster-quiver",
+    "type": "Missile",
+    "itype": "misl",
+    "ing": [
+     "Jewel",
+     "Eth Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "+10% Faster Cast Rate",
+     "+[10-20] to Mana",
+     "+[2-4] to Mana after each Kill"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "caster-body",
+    "type": "Armor",
+    "itype": "tors",
+    "ing": [
+     "Jewel",
+     "Tal Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "+[10-15]% Faster Cast Rate",
+     "+[15-25] to Energy",
+     "+[3-6] to Mana after each Kill"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "caster-amulet",
+    "type": "Amulet",
+    "itype": "amul",
+    "ing": [
+     "Jewel",
+     "Ral Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "Regenerate Mana [4-10]%",
+     "+[10-20] to Mana",
+     "+[5-10]% Faster Cast Rate"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "caster-ring",
+    "type": "Ring",
+    "itype": "ring",
+    "ing": [
+     "Jewel",
+     "Amn Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "+[1-2] to Mana after each Kill",
+     "+[10-20] to Mana",
+     "+[5-10] to Energy"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "caster-weapon",
+    "type": "Weapon",
+    "itype": "weap",
+    "ing": [
+     "Jewel",
+     "Tir Rune",
+     "Perfect Amethyst"
+    ],
+    "alt": [
+     "Caster Craft Infusion"
+    ],
+    "mods": [
+     "+1 to All Skills",
+     "+[10-20] to Mana",
+     "+[10-20]% Faster Cast Rate"
+    ],
+    "eth": true,
+    "lvl": 50
+   }
+  ],
+  "Safety": [
+   {
+    "id": "safety-helm",
+    "type": "Helm",
+    "itype": "helm",
+    "ing": [
+     "Jewel",
+     "Ith Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [4-6]%",
+     "Lightning Resist +[10-20]%",
+     "+[30-60]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "safety-boots",
+    "type": "Boots",
+    "itype": "boot",
+    "ing": [
+     "Jewel",
+     "Ort Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [2-5]",
+     "Magic Damage Taken Reduced by [2-5]",
+     "Fire Resist +[10-20]%",
+     "+[20-60]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "safety-gloves",
+    "type": "Gloves",
+    "itype": "glov",
+    "ing": [
+     "Jewel",
+     "Ral Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [2-5]",
+     "Magic Damage Taken Reduced by [2-5]",
+     "Cold Resist +[10-20]%",
+     "+[20-60]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "safety-belt",
+    "type": "Belt",
+    "itype": "belt",
+    "ing": [
+     "Jewel",
+     "Tal Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [2-5]",
+     "Magic Damage Taken Reduced by [2-5]",
+     "Poison Resist +[10-20]%",
+     "+[20-60]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "safety-shield",
+    "type": "Any Shield",
+    "itype": "shld",
+    "ing": [
+     "Jewel",
+     "Nef Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [4-6]%",
+     "+[50-75]% Enhanced Defense",
+     "+[100-150] Defense vs. Melee"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "safety-quiver",
+    "type": "Missile",
+    "itype": "misl",
+    "ing": [
+     "Jewel",
+     "Nef Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "+10% Faster Run/Walk",
+     "Magic Damage Taken Reduced by [4-7]",
+     "Physical Damage Taken Reduced by [4-7]"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "safety-body",
+    "type": "Armor",
+    "itype": "tors",
+    "ing": [
+     "Jewel",
+     "Eth Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [4-6]%",
+     "+[100-150] Defense vs. Melee",
+     "+[50-75]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "safety-amulet",
+    "type": "Amulet",
+    "itype": "amul",
+    "ing": [
+     "Jewel",
+     "Thul Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [4-7]",
+     "Magic Damage Taken Reduced by [4-7]",
+     "10% Increased Chance of Blocking"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "safety-ring",
+    "type": "Ring",
+    "itype": "ring",
+    "ing": [
+     "Jewel",
+     "Amn Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [2-5]",
+     "Magic Damage Taken Reduced by [2-5]",
+     "+[5-10] to Vitality"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "safety-weapon",
+    "type": "Weapon",
+    "itype": "weap",
+    "ing": [
+     "Jewel",
+     "Sol Rune",
+     "Perfect Emerald"
+    ],
+    "alt": [
+     "Safety Craft Infusion"
+    ],
+    "mods": [
+     "Physical Damage Taken Reduced by [2-5]",
+     "Magic Damage Taken Reduced by [2-5]",
+     "+[50-80]% Enhanced Damage",
+     "Knockback"
+    ],
+    "eth": true,
+    "lvl": 50
+   }
+  ],
+  "Vampiric": [
+   {
+    "id": "vampiric-helm",
+    "type": "Helm",
+    "itype": "helm",
+    "ing": [
+     "Jewel",
+     "Lum Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[2-4]% Mana Stolen per Hit",
+     "[10-15]% Deadly Strike",
+     "Replenish Life +[10-20]"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-boots",
+    "type": "Boots",
+    "itype": "boot",
+    "ing": [
+     "Jewel",
+     "El Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[2-4]% Mana Stolen per Hit",
+     "Poison Length Reduced by [15-25]%",
+     "Replenish Life +[10-20]"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-gloves",
+    "type": "Gloves",
+    "itype": "glov",
+    "ing": [
+     "Jewel",
+     "Io Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[2-4]% Mana Stolen per Hit",
+     "[5-10]% Deadly Strike",
+     "Replenish Life +[10-20]"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-belt",
+    "type": "Belt",
+    "itype": "belt",
+    "ing": [
+     "Jewel",
+     "Eld Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Mana Stolen per Hit",
+     "Poison Length Reduced by [15-25]%",
+     "Replenish Life +[10-20]"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-shield",
+    "type": "Any Shield",
+    "itype": "shld",
+    "ing": [
+     "Jewel",
+     "Sol Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Mana Stolen per Hit",
+     "Poison Length Reduced by [30-50]%",
+     "[10-20]% Increased Chance of Blocking"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-quiver",
+    "type": "Missile",
+    "itype": "misl",
+    "ing": [
+     "Jewel",
+     "Sol Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Mana Stolen per Hit",
+     "Poison Length Reduced by [30-50]%",
+     "Replenish Life +[15-25]"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-body",
+    "type": "Armor",
+    "itype": "tors",
+    "ing": [
+     "Jewel",
+     "Tir Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Mana Stolen per Hit",
+     "Poison Length Reduced by [30-50]%",
+     "+[30-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-amulet",
+    "type": "Amulet",
+    "itype": "amul",
+    "ing": [
+     "Jewel",
+     "Dol Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Mana Stolen per Hit",
+     "Curse Resistance +[15-25]%",
+     "Replenish Life +[20-30]"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-ring",
+    "type": "Ring",
+    "itype": "ring",
+    "ing": [
+     "Jewel",
+     "Hel Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[2-3]% Mana Stolen per Hit",
+     "Poison Length Reduced by [15-25]%",
+     "+[2-4] to Minimum Damage"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "vampiric-weapon",
+    "type": "Weapon",
+    "itype": "weap",
+    "ing": [
+     "Jewel",
+     "Shael Rune",
+     "Perfect Skull"
+    ],
+    "alt": [
+     "Vampiric Craft Infusion"
+    ],
+    "mods": [
+     "[3-6]% Mana Stolen per Hit",
+     "Replenish Life +[5-10]",
+     "+[100-140]% Damage to Undead",
+     "+[100-140]% Damage to Demons"
+    ],
+    "eth": true,
+    "lvl": 50
+   }
+  ],
+  "Bountiful": [
+   {
+    "id": "bountiful-helm",
+    "type": "Helm",
+    "itype": "helm",
+    "ing": [
+     "Jewel",
+     "Tir Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[15-25]% Better Chance of Getting Magic Items",
+     "[25-40]% Extra Gold from Monsters",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-boots",
+    "type": "Boots",
+    "itype": "boot",
+    "ing": [
+     "Jewel",
+     "Io Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[10-20]% Better Chance of Getting Magic Items",
+     "[20-30]% Extra Gold from Monsters",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-gloves",
+    "type": "Gloves",
+    "itype": "glov",
+    "ing": [
+     "Jewel",
+     "Hel Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[10-20]% Better Chance of Getting Magic Items",
+     "[20-30]% Extra Gold from Monsters",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-belt",
+    "type": "Belt",
+    "itype": "belt",
+    "ing": [
+     "Jewel",
+     "El Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[15-25]% Better Chance of Getting Magic Items",
+     "[25-40]% Extra Gold from Monsters",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-shield",
+    "type": "Any Shield",
+    "itype": "shld",
+    "ing": [
+     "Jewel",
+     "Dol Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[20-30]% Better Chance of Getting Magic Items",
+     "[30-50]% Extra Gold from Monsters",
+     "[10-20]% Increased Chance of Blocking"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-quiver",
+    "type": "Missile",
+    "itype": "misl",
+    "ing": [
+     "Jewel",
+     "Dol Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[15-25]% Better Chance of Getting Magic Items",
+     "[25-40]% Extra Gold from Monsters",
+     "+[5-10] to Vitality"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-body",
+    "type": "Armor",
+    "itype": "tors",
+    "ing": [
+     "Jewel",
+     "Eld Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[20-30]% Better Chance of Getting Magic Items",
+     "[30-50]% Extra Gold from Monsters",
+     "+[30-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-amulet",
+    "type": "Amulet",
+    "itype": "amul",
+    "ing": [
+     "Jewel",
+     "Ko Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[20-30]% Better Chance of Getting Magic Items",
+     "[30-50]% Extra Gold from Monsters",
+     "+[10-20] to Vitality"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-ring",
+    "type": "Ring",
+    "itype": "ring",
+    "ing": [
+     "Jewel",
+     "Lum Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[10-20]% Better Chance of Getting Magic Items",
+     "[20-30]% Extra Gold from Monsters",
+     "+[5-10] to Vitality"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "bountiful-weapon",
+    "type": "Weapon",
+    "itype": "weap",
+    "ing": [
+     "Jewel",
+     "Shael Rune",
+     "Perfect Topaz"
+    ],
+    "alt": [
+     "Bountiful Craft Infusion"
+    ],
+    "mods": [
+     "[15-25]% Better Chance of Getting Magic Items",
+     "[25-40]% Extra Gold from Monsters",
+     "+1 to All Skills"
+    ],
+    "eth": true,
+    "lvl": 50
+   }
+  ],
+  "Brilliant": [
+   {
+    "id": "brilliant-helm",
+    "type": "Helm",
+    "itype": "helm",
+    "ing": [
+     "Jewel",
+     "Eld Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "Half Freeze Duration",
+     "+[5-10]% Increased Attack Speed",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-boots",
+    "type": "Boots",
+    "itype": "boot",
+    "ing": [
+     "Jewel",
+     "Ko Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "Half Freeze Duration",
+     "+[5-10]% Faster Run/Walk",
+     "+[100-150] Defense vs. Missile"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-gloves",
+    "type": "Gloves",
+    "itype": "glov",
+    "ing": [
+     "Jewel",
+     "Shael Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "+[5-10]% Increased Attack Speed",
+     "[10-20]% Bonus to Attack Rating",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-belt",
+    "type": "Belt",
+    "itype": "belt",
+    "ing": [
+     "Jewel",
+     "Io Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "Half Freeze Duration",
+     "+[5-10]% Increased Attack Speed",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-shield",
+    "type": "Any Shield",
+    "itype": "shld",
+    "ing": [
+     "Jewel",
+     "Ort Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "Half Freeze Duration",
+     "All Resistances +[5-10]",
+     "[10-20]% Increased Chance of Blocking"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-quiver",
+    "type": "Missile",
+    "itype": "misl",
+    "ing": [
+     "Jewel",
+     "Ort Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "+[100-150] Defense vs. Missile",
+     "+10% Faster Hit Recovery",
+     "All Resistances +[5-10]"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-body",
+    "type": "Armor",
+    "itype": "tors",
+    "ing": [
+     "Jewel",
+     "El Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "[10-20]% Increased Chance of Blocking",
+     "All Resistances +[5-10]",
+     "+[25-50]% Enhanced Defense"
+    ],
+    "eth": true,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-amulet",
+    "type": "Amulet",
+    "itype": "amul",
+    "ing": [
+     "Jewel",
+     "Tal Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "+[4-8] to All Attributes",
+     "All Resistances +[5-10]",
+     "+[100-150] Defense vs. Missile"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-ring",
+    "type": "Ring",
+    "itype": "ring",
+    "ing": [
+     "Jewel",
+     "Hel Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "Half Freeze Duration",
+     "All Resistances +[3-5]",
+     "+[50-100] Defense vs. Missile"
+    ],
+    "eth": false,
+    "lvl": 50
+   },
+   {
+    "id": "brilliant-weapon",
+    "type": "Weapon",
+    "itype": "weap",
+    "ing": [
+     "Jewel",
+     "Sol Rune",
+     "Perfect Diamond"
+    ],
+    "alt": [
+     "Brilliant Craft Infusion"
+    ],
+    "mods": [
+     "+[20-40]% Enhanced Damage",
+     "+20% Increased Attack Speed",
+     "+[50-100] to Attack Rating"
+    ],
+    "eth": true,
+    "lvl": 50
+   }
+  ]
+ },
+ "craft_affixes": {
+  "amul": {
+   "label": "Amulet",
+   "rows": [
+    {
+     "what": "+2 razredni skilli",
+     "first": {
+      "alvl": 36,
+      "name": "Maiden's",
+      "text": "+1 to Amazon Skill Levels"
+     },
+     "best": {
+      "alvl": 90,
+      "name": "Witch-hunter's",
+      "text": "+2 to Assassin Skill Levels"
+     }
+    },
+    {
+     "what": "+ drevo skillov",
+     "first": {
+      "alvl": 20,
+      "name": "Fletcher's",
+      "text": "+1 to Bow and Crossbow Skills (Amazon Only)"
+     },
+     "best": {
+      "alvl": 40,
+      "name": "Sensei's",
+      "text": "+2 to Martial Arts (Assassin Only)"
+     }
+    },
+    {
+     "what": "FCR",
+     "first": {
+      "alvl": 5,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     },
+     "best": {
+      "alvl": 5,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     }
+    },
+    {
+     "what": "Vsi resi",
+     "first": {
+      "alvl": 8,
+      "name": "Shimmering",
+      "text": "All Resistances +[3-7]"
+     },
+     "best": {
+      "alvl": 42,
+      "name": "Prismatic",
+      "text": "All Resistances +[16-20]"
+     }
+    },
+    {
+     "what": "Življenje",
+     "first": {
+      "alvl": 1,
+      "name": "of the Jackal",
+      "text": "+[1-5] to Life"
+     },
+     "best": {
+      "alvl": 30,
+      "name": "of the Colosuss",
+      "text": "+[41-60] to Life"
+     }
+    },
+    {
+     "what": "Moč",
+     "first": {
+      "alvl": 1,
+      "name": "of Strength",
+      "text": "+[1-2] to Strength"
+     },
+     "best": {
+      "alvl": 71,
+      "name": "of Atlus",
+      "text": "+[21-30] to Strength"
+     }
+    },
+    {
+     "what": "Spretnost",
+     "first": {
+      "alvl": 1,
+      "name": "of Dexterity",
+      "text": "+[1-2] to Dexterity"
+     },
+     "best": {
+      "alvl": 72,
+      "name": "of Nirvana",
+      "text": "+[21-30] to Dexterity"
+     }
+    },
+    {
+     "what": "Life leech",
+     "first": {
+      "alvl": 24,
+      "name": "of the Leech",
+      "text": "[2-3]% Life Stolen per Hit"
+     },
+     "best": {
+      "alvl": 75,
+      "name": "of the Lamprey",
+      "text": "6% Life Stolen per Hit"
+     }
+    },
+    {
+     "what": "Magic Find",
+     "first": {
+      "alvl": 5,
+      "name": "Felicitous",
+      "text": "[5-10]% Better Chance of Getting Magic Items"
+     },
+     "best": {
+      "alvl": 16,
+      "name": "of Fortune",
+      "text": "[16-25]% Better Chance of Getting Magic Items"
+     }
+    }
+   ]
+  },
+  "ring": {
+   "label": "Prstan",
+   "rows": [
+    {
+     "what": "FCR",
+     "first": {
+      "alvl": 5,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     },
+     "best": {
+      "alvl": 5,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     }
+    },
+    {
+     "what": "Vsi resi",
+     "first": {
+      "alvl": 45,
+      "name": "Shimmering",
+      "text": "All Resistances +[3-7]"
+     },
+     "best": {
+      "alvl": 56,
+      "name": "Rainbow",
+      "text": "All Resistances +[8-11]"
+     }
+    },
+    {
+     "what": "Življenje",
+     "first": {
+      "alvl": 8,
+      "name": "of the Jackal",
+      "text": "+[1-5] to Life"
+     },
+     "best": {
+      "alvl": 68,
+      "name": "of the Mammoth",
+      "text": "+[31-40] to Life"
+     }
+    },
+    {
+     "what": "Moč",
+     "first": {
+      "alvl": 1,
+      "name": "of Strength",
+      "text": "+1 to Strength"
+     },
+     "best": {
+      "alvl": 74,
+      "name": "of the Titan",
+      "text": "+[16-20] to Strength"
+     }
+    },
+    {
+     "what": "Spretnost",
+     "first": {
+      "alvl": 1,
+      "name": "of Dexterity",
+      "text": "+1 to Dexterity"
+     },
+     "best": {
+      "alvl": 56,
+      "name": "of Precision",
+      "text": "+[10-15] to Dexterity"
+     }
+    },
+    {
+     "what": "Life leech",
+     "first": {
+      "alvl": 14,
+      "name": "of the Leech",
+      "text": "[3-4]% Life Stolen per Hit"
+     },
+     "best": {
+      "alvl": 77,
+      "name": "of the Lamprey",
+      "text": "[7-8]% Life Stolen per Hit"
+     }
+    },
+    {
+     "what": "Magic Find",
+     "first": {
+      "alvl": 5,
+      "name": "Felicitous",
+      "text": "[5-10]% Better Chance of Getting Magic Items"
+     },
+     "best": {
+      "alvl": 42,
+      "name": "of Fortune",
+      "text": "[16-25]% Better Chance of Getting Magic Items"
+     }
+    }
+   ]
+  },
+  "glov": {
+   "label": "Rokavice",
+   "rows": [
+    {
+     "what": "+ drevo skillov",
+     "first": {
+      "alvl": 20,
+      "name": "Fletcher's",
+      "text": "+1 to Bow and Crossbow Skills (Amazon Only)"
+     },
+     "best": {
+      "alvl": 40,
+      "name": "Sensei's",
+      "text": "+2 to Martial Arts (Assassin Only)"
+     }
+    },
+    {
+     "what": "FCR",
+     "first": {
+      "alvl": 25,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     },
+     "best": {
+      "alvl": 25,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     }
+    },
+    {
+     "what": "IAS",
+     "first": {
+      "alvl": 20,
+      "name": "of Readiness",
+      "text": "+10% Increased Attack Speed"
+     },
+     "best": {
+      "alvl": 43,
+      "name": "of Alacrity",
+      "text": "+20% Increased Attack Speed"
+     }
+    },
+    {
+     "what": "Moč",
+     "first": {
+      "alvl": 1,
+      "name": "of Strength",
+      "text": "+1 to Strength"
+     },
+     "best": {
+      "alvl": 59,
+      "name": "of the Giant",
+      "text": "+[10-15] to Strength"
+     }
+    },
+    {
+     "what": "Spretnost",
+     "first": {
+      "alvl": 1,
+      "name": "of Dexterity",
+      "text": "+1 to Dexterity"
+     },
+     "best": {
+      "alvl": 56,
+      "name": "of Precision",
+      "text": "+[10-15] to Dexterity"
+     }
+    },
+    {
+     "what": "Life leech",
+     "first": {
+      "alvl": 34,
+      "name": "of the Leech",
+      "text": "3% Life Stolen per Hit"
+     },
+     "best": {
+      "alvl": 34,
+      "name": "of the Leech",
+      "text": "3% Life Stolen per Hit"
+     }
+    },
+    {
+     "what": "Crushing Blow",
+     "first": {
+      "alvl": 28,
+      "name": "Shattering",
+      "text": "[4-7]% Chance of Crushing Blow"
+     },
+     "best": {
+      "alvl": 38,
+      "name": "Sundering",
+      "text": "[7-10]% Chance of Crushing Blow"
+     }
+    },
+    {
+     "what": "Deadly Strike",
+     "first": {
+      "alvl": 28,
+      "name": "Rending",
+      "text": "[4-7]% Deadly Strike"
+     },
+     "best": {
+      "alvl": 38,
+      "name": "Ruthless",
+      "text": "[7-10]% Deadly Strike"
+     }
+    },
+    {
+     "what": "Enhanced Damage",
+     "first": {
+      "alvl": 21,
+      "name": "Jagged",
+      "text": "+[10-20]% Enhanced Damage"
+     },
+     "best": {
+      "alvl": 55,
+      "name": "Empowering",
+      "text": "+[40-60]% Enhanced Damage"
+     }
+    },
+    {
+     "what": "Magic Find",
+     "first": {
+      "alvl": 12,
+      "name": "of Chance",
+      "text": "[5-15]% Better Chance of Getting Magic Items"
+     },
+     "best": {
+      "alvl": 16,
+      "name": "of Fortune",
+      "text": "[16-25]% Better Chance of Getting Magic Items"
+     }
+    }
+   ]
+  },
+  "belt": {
+   "label": "Pas",
+   "rows": [
+    {
+     "what": "FCR",
+     "first": {
+      "alvl": 25,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     },
+     "best": {
+      "alvl": 25,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     }
+    },
+    {
+     "what": "FHR",
+     "first": {
+      "alvl": 5,
+      "name": "of Balance",
+      "text": "+10% Faster Hit Recovery"
+     },
+     "best": {
+      "alvl": 18,
+      "name": "of Stability",
+      "text": "+24% Faster Hit Recovery"
+     }
+    },
+    {
+     "what": "Max res",
+     "first": {
+      "alvl": 60,
+      "name": "Heatwarded",
+      "text": "+[2-3]% to Maximum Fire Resist"
+     },
+     "best": {
+      "alvl": 60,
+      "name": "Frostwarded",
+      "text": "+[2-3]% to Maximum Cold Resist"
+     }
+    },
+    {
+     "what": "Življenje",
+     "first": {
+      "alvl": 1,
+      "name": "of the Jackal",
+      "text": "+[1-5] to Life"
+     },
+     "best": {
+      "alvl": 50,
+      "name": "of the Whale",
+      "text": "+[81-100] to Life"
+     }
+    },
+    {
+     "what": "Moč",
+     "first": {
+      "alvl": 1,
+      "name": "of Strength",
+      "text": "+[1-2] to Strength"
+     },
+     "best": {
+      "alvl": 71,
+      "name": "of Atlus",
+      "text": "+[21-30] to Strength"
+     }
+    },
+    {
+     "what": "PDR %",
+     "first": {
+      "alvl": 65,
+      "name": "of Defending",
+      "text": "Physical Damage Taken Reduced by [5-10]%"
+     },
+     "best": {
+      "alvl": 65,
+      "name": "of Defending",
+      "text": "Physical Damage Taken Reduced by [5-10]%"
+     }
+    }
+   ]
+  },
+  "boot": {
+   "label": "Škornji",
+   "rows": [
+    {
+     "what": "FHR",
+     "first": {
+      "alvl": 5,
+      "name": "of Balance",
+      "text": "+10% Faster Hit Recovery"
+     },
+     "best": {
+      "alvl": 5,
+      "name": "of Balance",
+      "text": "+10% Faster Hit Recovery"
+     }
+    },
+    {
+     "what": "FRW",
+     "first": {
+      "alvl": 12,
+      "name": "of Pacing",
+      "text": "+10% Faster Run/Walk"
+     },
+     "best": {
+      "alvl": 65,
+      "name": "of Traveling",
+      "text": "+30% Faster Run/Walk; [80-90]% Slower Stamina Drain"
+     }
+    },
+    {
+     "what": "Spretnost",
+     "first": {
+      "alvl": 1,
+      "name": "of Dexterity",
+      "text": "+1 to Dexterity"
+     },
+     "best": {
+      "alvl": 60,
+      "name": "of Precision",
+      "text": "+[10-15] to Dexterity"
+     }
+    },
+    {
+     "what": "Magic Find",
+     "first": {
+      "alvl": 12,
+      "name": "of Chance",
+      "text": "[5-15]% Better Chance of Getting Magic Items"
+     },
+     "best": {
+      "alvl": 16,
+      "name": "of Fortune",
+      "text": "[16-25]% Better Chance of Getting Magic Items"
+     }
+    }
+   ]
+  },
+  "helm": {
+   "label": "Helm",
+   "rows": [
+    {
+     "what": "+2 razredni skilli",
+     "first": {
+      "alvl": 36,
+      "name": "Maiden's",
+      "text": "+1 to Amazon Skill Levels"
+     },
+     "best": {
+      "alvl": 36,
+      "name": "Magekiller's",
+      "text": "+1 to Assassin Skill Levels"
+     }
+    },
+    {
+     "what": "+ drevo skillov",
+     "first": {
+      "alvl": 20,
+      "name": "Expert's",
+      "text": "+1 to Combat Skills (Barbarian Only)"
+     },
+     "best": {
+      "alvl": 40,
+      "name": "Psychic",
+      "text": "+2 to Shadow Disciplines (Assassin Only)"
+     }
+    },
+    {
+     "what": "FHR",
+     "first": {
+      "alvl": 5,
+      "name": "of Balance",
+      "text": "+10% Faster Hit Recovery"
+     },
+     "best": {
+      "alvl": 18,
+      "name": "of Stability",
+      "text": "+24% Faster Hit Recovery"
+     }
+    },
+    {
+     "what": "Vsi resi",
+     "first": {
+      "alvl": 8,
+      "name": "Shimmering",
+      "text": "All Resistances +[3-7]"
+     },
+     "best": {
+      "alvl": 50,
+      "name": "Chromatic",
+      "text": "All Resistances +[21-30]"
+     }
+    },
+    {
+     "what": "Življenje",
+     "first": {
+      "alvl": 8,
+      "name": "of the Jackal",
+      "text": "+[1-5] to Life"
+     },
+     "best": {
+      "alvl": 68,
+      "name": "of the Mammoth",
+      "text": "+[31-40] to Life"
+     }
+    },
+    {
+     "what": "Moč",
+     "first": {
+      "alvl": 1,
+      "name": "of Strength",
+      "text": "+[1-2] to Strength"
+     },
+     "best": {
+      "alvl": 71,
+      "name": "of Atlus",
+      "text": "+[21-30] to Strength"
+     }
+    },
+    {
+     "what": "Spretnost",
+     "first": {
+      "alvl": 1,
+      "name": "of Dexterity",
+      "text": "+[1-2] to Dexterity"
+     },
+     "best": {
+      "alvl": 72,
+      "name": "of Nirvana",
+      "text": "+[21-30] to Dexterity"
+     }
+    },
+    {
+     "what": "Life leech",
+     "first": {
+      "alvl": 14,
+      "name": "of the Leech",
+      "text": "[3-4]% Life Stolen per Hit"
+     },
+     "best": {
+      "alvl": 47,
+      "name": "of the Locust",
+      "text": "[5-6]% Life Stolen per Hit"
+     }
+    },
+    {
+     "what": "Crushing Blow",
+     "first": {
+      "alvl": 18,
+      "name": "Cracking",
+      "text": "[5-10]% Chance of Crushing Blow"
+     },
+     "best": {
+      "alvl": 38,
+      "name": "Sundering",
+      "text": "[15-20]% Chance of Crushing Blow"
+     }
+    },
+    {
+     "what": "Deadly Strike",
+     "first": {
+      "alvl": 18,
+      "name": "Relentless",
+      "text": "[5-10]% Deadly Strike"
+     },
+     "best": {
+      "alvl": 38,
+      "name": "Ruthless",
+      "text": "[15-20]% Deadly Strike"
+     }
+    },
+    {
+     "what": "Enhanced Damage",
+     "first": {
+      "alvl": 21,
+      "name": "Jagged",
+      "text": "+[10-20]% Enhanced Damage"
+     },
+     "best": {
+      "alvl": 55,
+      "name": "Empowering",
+      "text": "+[40-60]% Enhanced Damage"
+     }
+    },
+    {
+     "what": "PDR %",
+     "first": {
+      "alvl": 65,
+      "name": "of Defending",
+      "text": "Physical Damage Taken Reduced by [5-10]%"
+     },
+     "best": {
+      "alvl": 65,
+      "name": "of Protecting",
+      "text": "Physical Damage Taken Reduced by [10-15]%"
+     }
+    },
+    {
+     "what": "Magic Find",
+     "first": {
+      "alvl": 5,
+      "name": "Felicitous",
+      "text": "[5-10]% Better Chance of Getting Magic Items"
+     },
+     "best": {
+      "alvl": 16,
+      "name": "of Fortune",
+      "text": "[16-25]% Better Chance of Getting Magic Items"
+     }
+    }
+   ]
+  },
+  "tors": {
+   "label": "Oklep",
+   "rows": [
+    {
+     "what": "+2 razredni skilli",
+     "first": {
+      "alvl": 36,
+      "name": "Maiden's",
+      "text": "+1 to Amazon Skill Levels"
+     },
+     "best": {
+      "alvl": 36,
+      "name": "Magekiller's",
+      "text": "+1 to Assassin Skill Levels"
+     }
+    },
+    {
+     "what": "FCR",
+     "first": {
+      "alvl": 17,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     },
+     "best": {
+      "alvl": 25,
+      "name": "of the Magus",
+      "text": "+20% Faster Cast Rate"
+     }
+    },
+    {
+     "what": "FHR",
+     "first": {
+      "alvl": 5,
+      "name": "of Balance",
+      "text": "+10% Faster Hit Recovery"
+     },
+     "best": {
+      "alvl": 18,
+      "name": "of Stability",
+      "text": "+24% Faster Hit Recovery"
+     }
+    },
+    {
+     "what": "Vsi resi",
+     "first": {
+      "alvl": 6,
+      "name": "Shimmering",
+      "text": "All Resistances +[3-7]"
+     },
+     "best": {
+      "alvl": 50,
+      "name": "Chromatic",
+      "text": "All Resistances +[21-30]"
+     }
+    },
+    {
+     "what": "Življenje",
+     "first": {
+      "alvl": 1,
+      "name": "of the Jackal",
+      "text": "+[1-5] to Life"
+     },
+     "best": {
+      "alvl": 50,
+      "name": "of the Whale",
+      "text": "+[81-100] to Life"
+     }
+    },
+    {
+     "what": "Moč",
+     "first": {
+      "alvl": 12,
+      "name": "of Strength",
+      "text": "+[1-2] to Strength"
+     },
+     "best": {
+      "alvl": 74,
+      "name": "of the Titan",
+      "text": "+[16-20] to Strength"
+     }
+    },
+    {
+     "what": "Spretnost",
+     "first": {
+      "alvl": 13,
+      "name": "of Dexterity",
+      "text": "+[2-3] to Dexterity"
+     },
+     "best": {
+      "alvl": 72,
+      "name": "of Nirvana",
+      "text": "+[21-30] to Dexterity"
+     }
+    },
+    {
+     "what": "Enhanced Damage",
+     "first": {
+      "alvl": 25,
+      "name": "Supporting",
+      "text": "+[10-20]% Enhanced Damage"
+     },
+     "best": {
+      "alvl": 85,
+      "name": "Rampaging",
+      "text": "+[160-200]% Enhanced Damage"
+     }
+    },
+    {
+     "what": "PDR %",
+     "first": {
+      "alvl": 45,
+      "name": "of Defending",
+      "text": "Physical Damage Taken Reduced by [8-14]%"
+     },
+     "best": {
+      "alvl": 85,
+      "name": "of Guardianship",
+      "text": "Physical Damage Taken Reduced by [20-25]%"
+     }
+    }
+   ]
+  },
+  "shld": {
+   "label": "Ščit",
+   "rows": [
+    {
+     "what": "+2 razredni skilli",
+     "first": {
+      "alvl": 35,
+      "name": "Monk's",
+      "text": "+1 to Paladin Skill Levels"
+     },
+     "best": {
+      "alvl": 65,
+      "name": "Priest's",
+      "text": "+2 to Paladin Skill Levels"
+     }
+    },
+    {
+     "what": "+ drevo skillov",
+     "first": {
+      "alvl": 20,
+      "name": "Lion Branded",
+      "text": "+1 to Combat Skills (Paladin Only)"
+     },
+     "best": {
+      "alvl": 40,
+      "name": "Warder's",
+      "text": "+2 to Defensive Auras (Paladin Only)"
+     }
+    },
+    {
+     "what": "FCR",
+     "first": {
+      "alvl": 17,
+      "name": "of the Apprentice",
+      "text": "+10% Faster Cast Rate"
+     },
+     "best": {
+      "alvl": 25,
+      "name": "of the Magus",
+      "text": "+20% Faster Cast Rate"
+     }
+    },
+    {
+     "what": "FHR",
+     "first": {
+      "alvl": 5,
+      "name": "of Balance",
+      "text": "+10% Faster Hit Recovery"
+     },
+     "best": {
+      "alvl": 18,
+      "name": "of Stability",
+      "text": "+24% Faster Hit Recovery"
+     }
+    },
+    {
+     "what": "Vsi resi",
+     "first": {
+      "alvl": 6,
+      "name": "Shimmering",
+      "text": "All Resistances +[3-7]"
+     },
+     "best": {
+      "alvl": 50,
+      "name": "Chromatic",
+      "text": "All Resistances +[21-30]"
+     }
+    },
+    {
+     "what": "Max res",
+     "first": {
+      "alvl": 60,
+      "name": "Heatwarded",
+      "text": "+[2-3]% to Maximum Fire Resist"
+     },
+     "best": {
+      "alvl": 80,
+      "name": "Winterlord's",
+      "text": "+[3-5]% to Maximum Cold Resist"
+     }
+    },
+    {
+     "what": "Življenje",
+     "first": {
+      "alvl": 4,
+      "name": "of the Jackal",
+      "text": "+[1-5] to Life"
+     },
+     "best": {
+      "alvl": 75,
+      "name": "of the Colosuss",
+      "text": "+[41-60] to Life"
+     }
+    },
+    {
+     "what": "Moč",
+     "first": {
+      "alvl": 12,
+      "name": "of Strength",
+      "text": "+[1-2] to Strength"
+     },
+     "best": {
+      "alvl": 74,
+      "name": "of the Titan",
+      "text": "+[16-20] to Strength"
+     }
+    },
+    {
+     "what": "Spretnost",
+     "first": {
+      "alvl": 59,
+      "name": "of Perfection",
+      "text": "+[16-20] to Dexterity"
+     },
+     "best": {
+      "alvl": 72,
+      "name": "of Nirvana",
+      "text": "+[21-30] to Dexterity"
+     }
+    },
+    {
+     "what": "Enhanced Damage",
+     "first": {
+      "alvl": 25,
+      "name": "Supporting",
+      "text": "+[10-20]% Enhanced Damage"
+     },
+     "best": {
+      "alvl": 75,
+      "name": "Embattled",
+      "text": "+[120-160]% Enhanced Damage"
+     }
+    },
+    {
+     "what": "PDR %",
+     "first": {
+      "alvl": 45,
+      "name": "of Defending",
+      "text": "Physical Damage Taken Reduced by [8-14]%"
+     },
+     "best": {
+      "alvl": 85,
+      "name": "of Guardianship",
+      "text": "Physical Damage Taken Reduced by [20-25]%"
+     }
+    }
+   ]
+  }
+ },
+ "corruptions": [
+  {
+   "slot": "Weapon",
+   "head": [
+    "Low-Rarity (50% chance)",
+    "Mid-Rarity (30% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[40-80]% Enhanced Damage",
+     "+20% Faster Cast Rate",
+     "+1 to All Skills"
+    ],
+    [
+     "+[150-250] to Attack Rating",
+     "+[30-40]% Increased Attack Speed",
+     "+30% Increased Attack Speed / [20-30]% Chance of Crushing Blow"
+    ],
+    [
+     "+[100-150]% Enhanced Damage to Demons / +200 to Attack Rating against Demons",
+     "+[40-60]% Enhanced Damage / 5% Life Stolen per Hit",
+     "+[80-120]% Enhanced Damage / +20% Increased Attack Speed"
+    ],
+    [
+     "+[100-150]% Enhanced Damage to Undead / +200 to Attack Rating against Undead",
+     "-[40-60] Target Defense per Hit",
+     "+[80-120]% Enhanced Damage / +250 to Attack Rating"
+    ],
+    [
+     "+10% Faster Cast Rate",
+     "[20-30]% Chance of Crushing Blow",
+     "+[50-70]% Enhanced Damage / 25% Deadly Strike"
+    ],
+    [
+     "+[3-6] Life after each Hit",
+     "[20-30]% Deadly Strike",
+     "+[60-80]% Enhanced Damage / Ignores Target's Defense"
+    ],
+    [
+     "+[3-6] Life after each Kill",
+     "-[7-10]% to Enemy Fire Resistance",
+     "+10% Faster Cast Rate / +5% to Fire Skill Damage"
+    ],
+    [
+     "+[3-5] to Mana after each Kill",
+     "-[7-10]% to Enemy Cold Resistance",
+     "+10% Faster Cast Rate / +5% to Cold Skill Damage"
+    ],
+    [
+     "[20-30]% Better Chance of Getting Magic Items",
+     "-[7-10]% to Enemy Lightning Resistance",
+     "+10% Faster Cast Rate / +5% to Lightning Skill Damage"
+    ],
+    [
+     "Requirements -[25-50]%",
+     "-[7-10]% to Enemy Poison Resistance",
+     "+10% Faster Cast Rate / +5% to Poison Skill Damage"
+    ]
+   ]
+  },
+  {
+   "slot": "Shield",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[20-30]% Faster Hit Recovery",
+     "Repairs durability (S14) / +[50-80]% Enhanced Defense",
+     "+1 to All Skills"
+    ],
+    [
+     "+20% Faster Block Rate",
+     "+10% Faster Cast Rate",
+     "+[15-25]% Curse Resistance (S14)"
+    ],
+    [
+     "[20-30]% Better Chance of Getting Magic Items",
+     "+10% Faster Block Rate / [10-20]% Increased Chance of Blocking",
+     "All Resistances +[20-25]"
+    ],
+    [
+     "+[30-40] Life",
+     "Increase Maximum Life [4-6]%",
+     "Physical Damage Taken Reduced by [6-8]%"
+    ],
+    [
+     "Fire Resist +[35-40]%",
+     "Physical Damage Taken Reduced by [6-10]",
+     "+[4-5]% to Maximum Fire Resist / Fire Resist +[15-20]%"
+    ],
+    [
+     "Cold Resist +[35-40]%",
+     "Magic Damage Taken Reduced by [6-10]",
+     "+[4-5]% to Maximum Cold Resist / Cold Resist +[15-20]%"
+    ],
+    [
+     "Lightning Resist +[35-40]%",
+     "Attacker Takes Damage of [4-594] ([4-6] per Level)",
+     "+[4-5]% to Maximum Lightning Resist / Lightning Resist +[15-20]%"
+    ],
+    [
+     "Poison Resist +[35-40]%",
+     "Cannot Be Frozen",
+     "+[4-5]% to Maximum Poison Resist / Poison Resist +[15-20]%"
+    ]
+   ]
+  },
+  {
+   "slot": "Chest",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[20-30]% Faster Hit Recovery",
+     "Repairs durability (S14) / +[50-80]% Enhanced Defense",
+     "+1 to All Skills"
+    ],
+    [
+     "+[50-80]% Enhanced Defense",
+     "+[10-20]% Curse Resistance (S14)",
+     "+20% Faster Cast Rate (S14)"
+    ],
+    [
+     "[20-30]% Better Chance of Getting Magic Items",
+     "+20% Faster Run/Walk",
+     "All Resistances +[20-25]"
+    ],
+    [
+     "+[30-40] Mana",
+     "Increase Maximum Life [4-6]%",
+     "Physical Damage Taken Reduced by [6-8]%"
+    ],
+    [
+     "Fire Resist +[30-35]%",
+     "Physical Damage Taken Reduced by [6-10]",
+     "+[4-5]% to Maximum Fire Resist / Fire Resist +15%"
+    ],
+    [
+     "Cold Resist +[30-35]%",
+     "Magic Damage Taken Reduced by [6-10]",
+     "+[4-5]% to Maximum Cold Resist / Cold Resist +15%"
+    ],
+    [
+     "Lightning Resist +[30-35]%",
+     "Attacker Takes Damage of [4-594] ([4-6] per Level)",
+     "+[4-5]% to Maximum Lightning Resist / Lightning Resist +15%"
+    ],
+    [
+     "Poison Resist +[30-35]%",
+     "Cannot Be Frozen",
+     "+[4-5]% to Maximum Poison Resist / Poison Resist +15%"
+    ]
+   ]
+  },
+  {
+   "slot": "Helm",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[20-30]% Faster Hit Recovery",
+     "Repairs durability (S14) / +[50-80]% Enhanced Defense",
+     "+1 to All Skills"
+    ],
+    [
+     "+[50-80]% Enhanced Defense",
+     "+[150-250] to Attack Rating / +[2-4] to Light Radius",
+     "+[10-20]% Curse Resistance (S14)"
+    ],
+    [
+     "[20-30]% Better Chance of Getting Magic Items",
+     "[3-5]% Life Stolen per Hit",
+     "All Resistances +[15-20]"
+    ],
+    [
+     "Replenish Life +[20-30]",
+     "[3-5]% Mana Stolen per Hit",
+     "Physical Damage Taken Reduced by [4-6]%"
+    ],
+    [
+     "Fire Resist +[30-35]%",
+     "Increase Maximum Life [4-6]%",
+     "+[4-5]% to Maximum Fire Resist / Fire Resist +15%"
+    ],
+    [
+     "Cold Resist +[30-35]%",
+     "+[3-4] Life after each Kill",
+     "+[4-5]% to Maximum Cold Resist / Cold Resist +15%"
+    ],
+    [
+     "Lightning Resist +[30-35]%",
+     "+[3-4] to Mana after each Kill",
+     "+[4-5]% to Maximum Lightning Resist / Lightning Resist +15%"
+    ],
+    [
+     "Poison Resist +[30-35]%",
+     "Cannot Be Frozen",
+     "+[4-5]% to Maximum Poison Resist / Poison Resist +15%"
+    ]
+   ]
+  },
+  {
+   "slot": "Boots",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[50-80]% Enhanced Defense",
+     "Repairs durability (S14) / +[50-80]% Enhanced Defense",
+     "+15% Faster Run/Walk"
+    ],
+    [
+     "Regenerate Mana [10-15]%",
+     "+10% Faster Block Rate",
+     "20% Reduced Curse Duration"
+    ],
+    [
+     "[50-100]% Extra Gold from Monsters",
+     "+10% Faster Hit Recovery",
+     "Physical Damage Taken Reduced by [3-4]%"
+    ],
+    [
+     "[10-25]% Better Chance of Getting Magic Items",
+     "+[20-40] to Life",
+     "10% Increased Chance of Blocking"
+    ],
+    [
+     "Fire Resist +[15-20]%",
+     "All Resistances +[5-8]",
+     "+[2-3]% to Maximum Fire Resist / Fire Resist +10%"
+    ],
+    [
+     "Cold Resist +[15-20]%",
+     "+[2-3] Life after each Kill",
+     "+[2-3]% to Maximum Cold Resist / Cold Resist +10%"
+    ],
+    [
+     "Lightning Resist +[15-20]%",
+     "+[2-3] to Mana after each Kill",
+     "+[2-3]% to Maximum Lightning Resist / Lightning Resist +10%"
+    ],
+    [
+     "Poison Resist +[15-20]%",
+     "Half Freeze Duration (S14)",
+     "+[2-3]% to Maximum Poison Resist / Poison Resist +10%"
+    ]
+   ]
+  },
+  {
+   "slot": "Gloves",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[50-80]% Enhanced Defense",
+     "+[10-15]% Chance to Pierce",
+     "+10% Faster Cast Rate"
+    ],
+    [
+     "Regenerate Mana [20-30]%",
+     "+[10-20]% Faster Block Rate",
+     "+10% Increased Attack Speed"
+    ],
+    [
+     "[50-100]% Extra Gold from Monsters",
+     "+[100-150] to Attack Rating",
+     "10% Increased Chance of Blocking"
+    ],
+    [
+     "[10-25]% Better Chance of Getting Magic Items",
+     "[2-3]% Life Stolen per Hit",
+     "+[30-40]% Enhanced Damage"
+    ],
+    [
+     "Fire Resist +[10-15]%",
+     "[2-3]% Mana Stolen per Hit",
+     "-[15-25]% Target Defense"
+    ],
+    [
+     "Cold Resist +[10-15]%",
+     "+[3-6] to All Attributes",
+     "10% Deadly Strike"
+    ],
+    [
+     "Lightning Resist +[10-15]%",
+     "+[20-40] to Life",
+     "+[3-4] to Mana after each Kill"
+    ],
+    [
+     "Poison Resist +[10-15]%",
+     "Half Freeze Duration (S14)",
+     "All Resistances +[5-8]"
+    ]
+   ]
+  },
+  {
+   "slot": "Belt",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[7-10] to Strength",
+     "+[10-15]% Chance to Pierce",
+     "+10% Faster Cast Rate"
+    ],
+    [
+     "+[7-10] to Dexterity",
+     "+10% Faster Hit Recovery",
+     "+10% Increased Attack Speed"
+    ],
+    [
+     "+[7-10] to Vitality",
+     "+[3-6] to All Attributes",
+     "+10% Faster Run/Walk"
+    ],
+    [
+     "+[7-10] to Energy",
+     "Half Freeze Duration (S14)",
+     "20% Reduced Curse Duration"
+    ],
+    [
+     "Fire Resist +[10-15]%",
+     "+[100-150] to Attack Rating",
+     "10% Increased Chance of Blocking"
+    ],
+    [
+     "Cold Resist +[10-15]%",
+     "Attacker Takes Damage of [2-396] ([2-4] per Level)",
+     "+2% to ALL Maximum Resistances"
+    ],
+    [
+     "Lightning Resist +[10-15]%",
+     "[60-100]% Extra Gold from Monsters",
+     "All Resistances +[5-8]"
+    ],
+    [
+     "Poison Resist +[10-15]%",
+     "[20-30]% Better Chance of Getting Magic Items",
+     "Physical Damage Taken Reduced by [3-4]%"
+    ]
+   ]
+  },
+  {
+   "slot": "Ring",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[7-10] to Strength",
+     "+[100-150] to Attack Rating",
+     "+10% Faster Cast Rate"
+    ],
+    [
+     "+[7-10] to Dexterity",
+     "+[2-3] Life after each Kill",
+     "+10% Faster Run/Walk"
+    ],
+    [
+     "+[7-10] to Vitality",
+     "+[2-3] to Mana after each Kill",
+     "10% Reduced Curse Duration"
+    ],
+    [
+     "+[7-10] to Energy",
+     "Physical Damage Taken Reduced by [4-6]",
+     "[3-4]% Mana Stolen per Hit"
+    ],
+    [
+     "Fire Resist +[10-15]%",
+     "Magic Damage Taken Reduced by [4-6]",
+     "[3-4]% Life Stolen per Hit"
+    ],
+    [
+     "Cold Resist +[10-15]%",
+     "+[30-40] to Life",
+     "+[4-6] to All Attributes"
+    ],
+    [
+     "Lightning Resist +[10-15]%",
+     "[40-80]% Extra Gold from Monsters",
+     "All Resistances +[4-6]"
+    ],
+    [
+     "Poison Resist +[10-15]%",
+     "[15-20]% Better Chance of Getting Magic Items",
+     "Physical Damage Taken Reduced by 3%"
+    ]
+   ]
+  },
+  {
+   "slot": "Amulet",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+[6-12] to Strength",
+     "+[10-20]% Chance to Pierce",
+     "+1 to All Skills"
+    ],
+    [
+     "+[6-12] to Dexterity",
+     "+10% Faster Hit Recovery",
+     "+10% Faster Cast Rate"
+    ],
+    [
+     "+[6-12] to Vitality",
+     "10% Increased Chance of Blocking",
+     "+10% Faster Run/Walk"
+    ],
+    [
+     "+[6-12] to Energy",
+     "+[2-3] Life after each Kill",
+     "+10% Curse Resistance"
+    ],
+    [
+     "Fire Resist +[15-20]%",
+     "+[2-3] to Mana after each Kill",
+     "+[30-40]% Enhanced Damage"
+    ],
+    [
+     "Cold Resist +[15-20]%",
+     "+[6-8] to All Attributes",
+     "Cannot Be Frozen"
+    ],
+    [
+     "Lightning Resist +[15-20]%",
+     "[60-100]% Extra Gold from Monsters",
+     "+2% to ALL Maximum Resistances"
+    ],
+    [
+     "Poison Resist +[15-20]%",
+     "[20-30]% Better Chance of Getting Magic Items",
+     "All Resistances +[7-10]"
+    ]
+   ]
+  },
+  {
+   "slot": "Quiver",
+   "head": [
+    "Low-Rarity (48% chance)",
+    "Mid-Rarity (32% chance)",
+    "High-Rarity (20% chance)"
+   ],
+   "rows": [
+    [
+     "+20% Faster Hit Recovery",
+     "+10% Faster Run/Walk",
+     "+1 to All Skills"
+    ],
+    [
+     "+[30-40] to Life",
+     "+[10-15]% Chance to Pierce",
+     "+10% Increased Attack Speed"
+    ],
+    [
+     "[50-100]% Extra Gold from Monsters",
+     "-[5-10]% to Enemy Fire Resistance",
+     "+10% Curse Resistance"
+    ],
+    [
+     "[10-25]% Better Chance of Getting Magic Items",
+     "-[5-10]% to Enemy Cold Resistance",
+     "+[30-40]% Enhanced Damage"
+    ],
+    [
+     "Fire Resist +[10-20]%",
+     "-[10-20]% Target Defense",
+     "+[10-15] to Minimum Damage"
+    ],
+    [
+     "Cold Resist +[10-20]%",
+     "+[50-100] to Attack Rating",
+     "+[10-15] to Maximum Damage"
+    ],
+    [
+     "Lightning Resist +[10-20]%",
+     "[2-4]% Mana Stolen per Hit",
+     "Ignore Target's Defense"
+    ],
+    [
+     "Poison Resist +[10-20]%",
+     "[2-4]% Life Stolen per Hit",
+     "All Resistances +[5-10]"
+    ]
+   ]
+  }
+ ]
+}

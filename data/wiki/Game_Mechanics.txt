@@ -1,0 +1,1202 @@
+
+## Contents
+1 Numbers (Rounding)
+2 Melee Splash
+2.1 Splash Radius
+2.2 Melee splash and ranged weapons
+3 Dual Wielding
+3.1 Attack Speed
+3.2 Local and Global Affixes
+4 Critical Damage
+5 Life and Mana Steal
+5.1 Leech Reductions
+5.2 Leech Formula
+6 Crushing Blow
+6.1 Player Count Scaling
+6.2 Crushing Blow Efficiency
+7 Open Wounds
+8 Curse Duration / Resistance
+9 Resistances
+10 Reducing Resistances
+10.1 Breaking Immunes
+10.2 Effectiveness vs Immunes
+10.3 Effectiveness vs Negative Resistance
+10.4 Poison Length Reduced
+11 Item drop mechanics
+11.1 Item drop Basics
+11.2 What's different in PD2?
+11.3 How does PD2 compare to LoD?
+11.4 Key drop rates
+12 Distance
+13 Movement Speed
+## Numbers (Rounding)[edit]
+The Diablo 2 engine operates primarily on integer math. To maintain synchronization and performance on late 1990s-era computers, the game rounds down most calculations to keep computational and memory overhead low.
+If a value is calculated using integer math, the game rounds down (truncates) the result at every step of a calculation.
+Values that are Rounded:
+"Instant" Damage
+Physical Attacks and Spells, Instant Elemental Attacks and Spells excluding Poison damage, Percent-Based Damage (Static Field and Crushing Blow)
+Player Stats (Strength/Dex/Vitality/Energy)
+Player and Monster Resistances
+Equipment Affixes
+Per-level affixes are stored as fractions and rounded down after multiplication
+Gold
+Experience
+Defense and Attack Rating
+Chance to Hit and Block
+Life and Mana Leech
+Animation Frames (See Breakpoints for more information)
+Values that are not Rounded:
+The game tracks these values in 256ths (sub-integer precision via bit-shifting).
+"Per-Frame" Damage
+Poison Damage, Open Wounds, Burning Ground, Shock Web, Channeled Skills (Inferno, Arctic Blast, and Wake of Inferno)
+Life, Mana, and Stamina (Stored as 256x the visible value)
+Mana Costs
+Mana and Life Regeneration
+Player Speed (Velocity)
+Projectile Speed
+Many values and attributes that are not rounded are displayed as rounded values in the Game UI, especially the character screen (Damage) and skill descriptions (Mana Cost). UI information has no direct connection to the actual game logic.
+## Melee Splash[edit]
+Melee splash is an instant AoE, with no Next Hit Delay, that damages all enemies 360° around the target. The main target does not take splash damage. 
+An attack's splash damage is rolled once and applied according to each enemy's resistances, but effects that have a chance of applying (Crushing Blow, Open Wounds) are rolled individually for each enemy hit in melee splash.
+These are included in the splash:
+Skill damage
+Normal attack damage (the values you see when you select the basic attack as your skill)
+Elemental and physical damage from charms and gear
+Critical Strike and Deadly Strike (still only applies to the physical damage)
+Life and Mana leech (reduced by 1/2, and still only applies to the physical portion of the attack)
+Crushing Blow
+Open Wounds
+These are not included in the splash:
+Missile damage (such as the Nova portion of Power Strike)
+Stun
+Knockback
+Any other on-hit effects
+Melee Splash Example
+ | 
+Lightning Strike for 1-10000 lightning damage and 1-10000 chain lightning damage
+Normal attack damage of 1000-5000 (900-4900 of that is physical)
+The total splash damage would be 1001-15000 damage. 
+And if they crit then the splash damage would be 1451-17450. 
+The 1-10000 damage from the Chain Lightning is not applied.
+## Splash Radius[edit]
+Base Splash Radius
+ | Splash Distance (Tiles)
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | Radius (yards)
+ | 1.33
+ | 2
+ | 2.66
+ | 3.33
+ | 4
+ | 4.66
+ | 5.33
+ | 6
+ | 6.66
+ | Creatures/Items
+ | Ravens
+ | Skeletons
+Wolves
+ | Normal Weapons
+Fire Golem
+ | Exceptional Weapons
+Elite Weapons
+Grizzlies
+Clay/Blood/Iron Golems
+"Splashing" Map Affix 
+ | 
+ | 
+ | 
+ | 
+ | 
+Every +20% "Increased Melee Splash Radius" will increase the distance of the relevant splash effect by 1 Tile. Incremental amounts smaller than units of +20% have no effect.
+There is no upper limit of Splash Radius.
+## Melee splash and ranged weapons[edit]
+There are a few gloves (The Hand of Broc, Bloodfist, and Steelrend) that have melee splash on them and they can be used to give ranged weapons, like bows and crossbows, melee splash.
+This allows shapeshifters to use a ranged weapon in place of a melee weapon, while still gaining the benefits of melee splash. The specific base Splash Radius will match the Item Tier of the Weapon, not the gloves (e.g., Hand of Broc with a Demon Crossbow will have a 5-tile splash, whereas Steelrend with a Short Bow will have a 4-tile splash).
+This does not mean that ranged attacks (i.e. shooting with a bow) will have splash damage. Melee splash is always limited to melee attacks.
+## Dual Wielding[edit]
+There are two extra important mechanics that apply when dual wielding: attack speed and item affix application when attacking.
+## Attack Speed[edit]
+Project Diablo 2 uses the "fastest" weapon base to calculate all Attack Speeds when dual wielding. This is a formalization of the Lord of Destruction "WSM bug" as an official mechanic.
+The "fastest" weapon is determined by the formula (IAS - WSM), which will pick the true fastest weapon most of the time, but there are edge cases where a slower weapon will override a faster one.
+Example: A Barbarian wearing a 45% IAS Glaive (20 WSM) and a 0% IAS Balanced Knife (-20 WSM) will attack using the speed of the Glaive (45 - 20 = 25) instead of the Knife (0 + 20 = 20), even though the Glaive results in slower attacks (7.5 fpa vs. 7 fpa for Double Throw)
+This applies to all attacks when dual-wielding, even if the attack only uses one weapon - a fast weapon can be equipped as an offhand to bypass the speed of a slow attacking weapon.
+## Local and Global Affixes[edit]
+When two weapons are equipped, only one weapon attacks at a time. The Diablo 2 engine only allows some weapon affixes to apply to all weapons when attacking, and the rest only apply to a weapon's own attacks.
+This only applies to Attacks when dual wielding. Non-Attack skills, even physical ones such as Mind Blast, will benefit from all affixes on both weapons.
+This also only applies to affixes on equipped weapons; all affixes on non-weapons always apply to all attacks.
+The following are "Local" affixes, meaning they only apply to the weapon they belong to when attacking with it:
+% Attack Rating
++ Attack Rating
+Chance to Cast Effects
++ Fire, Lightning, Cold, Poison, and Magic Damage
+% Crushing Blow & Crushing Blow Efficiency
+% Enhanced Damage
++ Minimum/Maximum Damage
++ Damage
+% Damage to Demons/Undead
+% Deadly Strike & Critical Strike
+% Maximum Deadly Strike
+Freezes Target, Hit Blinds Target, Hit Causes Monster to Flee
+-% Target Defense & Ignore Target's Defense
+-X Monster Defense per Hit
+% Increased Attack Speed
+Knockback
+% Life/Mana Steal
+% Open Wounds
+% Piercing Attack
+Prevent Monster Heal
+Slain Monsters Rest in Peace
+% Slows Target
+-% to Enemy Physical Resistance
+Affixes without 100% confirmation on global/local status
+% Critical/Deadly Strike Multiplier (probably local)
+The following are "Global" affixes, meaning they apply to all attacks when equipped, even if it is from a different weapon:
++% to (Element) Skill Damage
+-% to Enemy (Non-Physical Element) Resistance
++ Open Wounds Damage
++ Skills
++ Attributes
++ to Life/Mana
++% Maximum Life/Mana
+Replenish Life
+% Regenerate Mana
++ to Life/Mana After Each Kill
+% Damage Taken Goes to Mana
+Attacker Takes Damage
+% Extra Gold From Monsters
+% Better Chance of Getting Magic Items
+% Increased Chance of Blocking
+% Faster Hit Recovery / Block Rate / Cast Rate / Run/Walk
++ Defense
++% Enhanced Defense
++ Magic/Physical Damage Reduction (Flat and %)
++% Resistances
++% Maximum Resistances
++ Absorb (Flat and %)
+Poison Length Reduced by %
+Half Freeze Duration / Cannot Be Frozen
+## Critical Damage[edit]
+Critical damage has been balanced to improve itemization by making the power of Deadly Strike more comparable to other item stats.
+There are 2 different sources of critical damage:
+Deadly Strike: Items (Various) and Skills (Blessed Aim, Spirit of Barbs)
+Critical Strike: Items (The Gladiator's Bane, Insight) and Skills (One Handed Mastery, Throwing Mastery, Claw and Dagger Mastery, Critical Strike, Joust)
+Critical damage only affects the physical damage portion of an attack. 
+Both Critical Strike and Deadly Strike cannot occur on the same attack. Critical Strike is always checked before Deadly Strike in the calculation order so Deadly Strike can never trigger if Critical Strike triggered.
+ | Crit Damage Type
+ | Default Maximum Chance
+ | Default Damage Multiplier
+ | Critical Strike
+ | 75%
+ | 200% (2x)
+ | Deadly Strike
+ | 75%
+ | 150% (1.5x)
+The Maximum % of Deadly Stike can be improved with items (e.g.: Wraithskin, Headstriker), but no item or skill currently exists to improve the Maximum % of Critical Strike.
+The Damage Multiplier of both types of Critical Damage can be improved with various items (e.g.: Death Cleaver, Wraithskin) and skills (Javelin and Spear Mastery). 
+These are additive with the default multiplier for that type of critical damage, so +25% Deadly Strike Multiplier will make Deadly Strikes deal 1.75x damage. 
+With Critical strike and deadly strike having different multipliers, an average damage multiplier is useful to consider in addition to the traditional Total Crit Chance. 
+The following 4 numbers can be seen in the advanced stats, with eDC being calculated: 
+CC = Critical Strike Chance
+CM = Critical Strike Multiplier
+DC = Deadly Strike Chance
+DM = Deadly Strike Multiplier
+eDC = Effective Deadly Strike Chance = DC * (1 - CC)
+Total Crit Chance: 1 - ((1 - DC) * (1 - CC))
+Average Damage Multiplier = (CC * CM) + (DC * (1 - CC) * DM) + (1 - CC - DC * (1 - CC)) OR
+Average Damage Multiplier = (CC * CM) + (eDC * DM) + (1 - CC - eDC) 
+The three summed items are the contribution of Critical Strike, Deadly Strike, and normal damage, in that order.
+Critical Damage Examples
+ | 
+As an example, consider an Amazon with:
+60% CC from Critical Strike
++30% CM from Javelin and Spear Mastery
+10% DC from gear
++0% DM
+Total Crit Chance: 1 - ((1 - 0.1) * (1 - 0.6)) = 64%
+Average Damage Multiplier: (0.6 * 2.3) + (0.1 * (1 - 0.6) * 1.5) + (1 - 0.6 - 0.1 * (1 - 0.6)) = 1.38 + 0.06 + 0.36 = 1.80.
+So the average attack from this character will deal 80% more than their attack that doesn't crit.
+Another example, a barbarian with:
+30% CC from One Handed Mastery
++0% CM
+85% DC from gear
++75% DM from Death Cleaver and Wraithskin
+Total Crit Chance: 1 - ((1 - 0.85) * (1 - 0.3)) = 89.5%
+Average Damage Multiplier: (0.3 * 2) + (0.85 * (1 - 0.3) * 2.25 + (1 - 0.3 - 0.85 * (1 - 0.3)) = 0.6 + 1.339 + 0.105 = 2.044
+A few more sample calculations: 
+ | Critical Damage
+ | No Crit
+ | Full DS
+ | Amazon
+ | Zon + DS
+ | PokeZon
+ | PokeZon
++ DS
+ | Barb/Sin
++ DS
+ | Death Cleaver
++Wraithskin
+ | Barb
+DC+Wraith
+ | Crit Chance
+ | 0%
+ | 0%
+ | 70%
+ | 70%
+ | 70%
+ | 70%
+ | 30%
+ | 0%
+ | 30%
+ | Crit Multiplier
+ | 2.0
+ | 2.0
+ | 2.0
+ | 2.0
+ | 2.4
+ | 2.4
+ | 2.0
+ | 2.0
+ | 2.0
+ | Deadly Chance
+ | 0%
+ | 75%
+ | 0%
+ | 75%
+ | 0%
+ | 75%
+ | 75%
+ | 85%
+ | 85%
+ | Deadly Multiplier
+ | 1.5
+ | 1.5
+ | 1.5
+ | 1.5
+ | 1.5
+ | 1.5
+ | 1.5
+ | 2.25
+ | 2.25
+ | Average Damage Multiplier
+ | 1.000
+ | 1.375
+ | 1.700
+ | 1.813
+ | 1.980
+ | 2.093
+ | 1.563
+ | 2.063
+ | 2.044
+## Life and Mana Steal[edit]
+## Leech Reductions[edit]
+Attack leech reduction
+Melee Splash: 1/2 [Life/Mana]
+Ranged Attacks: 1/2 [Life/Mana]
+Skill leech reduction
+Blade Shield: 1/2 [Life/Mana]
+Blade Fury: 3/4 [Life/Mana]
+Leap Attack: 1/3 [Life]
+Difficulty leech reduction
+Normal: N/A
+Nightmare: 1/2 [Life/Mana]
+Hell: 1/3 [Life/Mana]
+Zone leech reduction
+PvP maps: set leech to 0% [Life/Mana]
+Drain Effectiveness leech reduction
+This is a specific set modifier on Bosses and other monster types.
+For example, Skeletons and many other Undead monsters have a Drain Effectiveness of 0, making them unable to be leeched from.
+For Drain effectiveness of many key Bosses in Project Diablo 2, see: Monsters.
+If not listed on the above page, it is probably unchanged from LoD. LoD Drain Effectiveness numbers can be found elsewhere, such as The Amazon Basin.
+## Leech Formula[edit]
+ leeched life or mana
+ =
+ ⌊
+ ⌊
+ ⌊
+ leech
+ ⋅
+ attack reduction
+ ⋅
+ skill reduction
+ ⌋
+ ⋅
+ 64
+ ⋅
+ difficulty reduction
+ ⌋
+ ⋅
+ physical damage
+ ⋅
+ drain effectiveness
+ ÷
+ 64
+ ÷
+ 100
+ ⌋
+ {\displaystyle {\displaystyle \color {Tan}{\text{leeched life or mana}}=\lfloor \lfloor \lfloor {\text{leech}}\cdot {\text{attack reduction}}\cdot {\text{skill reduction}}\rfloor \cdot 64\cdot {\text{difficulty reduction}}\rfloor \cdot {\text{physical damage}}\cdot {\text{drain effectiveness}}\div 64\div 100\rfloor }}
+Note: Bracketed values are rounded down
+Leech Formula Examples
+ | 
+As an example, consider a Barbarian with 7% Life leech, using Leap Attack (5k damage) against The Cow Queen:
+ ⌊
+ ⌊
+ ⌊
+ 7
+ ⋅
+ 1
+ 2
+ ⋅
+ 1
+ 3
+ ⌋
+ ⋅
+ 64
+ ⋅
+ 1
+ 3
+ ⌋
+ ⋅
+ 5000
+ ⋅
+ 0.2
+ ÷
+ 64
+ ÷
+ 100
+ ⌋
+ ⌊
+ ⌊
+ 1
+ ⋅
+ 64
+ ⋅
+ 1
+ 3
+ ⌋
+ ⋅
+ 5000
+ ⋅
+ 0.2
+ ÷
+ 64
+ ÷
+ 100
+ ⌋
+ ⌊
+ 21
+ ⋅
+ 5000
+ ⋅
+ 0.2
+ ÷
+ 64
+ ÷
+ 100
+ ⌋
+ =
+ 3
+  hp leeched
+ {\displaystyle {\displaystyle \color {Tan}{\begin{aligned}&\lfloor \lfloor \lfloor 7\cdot {\frac {1}{2}}\cdot {\frac {1}{3}}\rfloor \cdot 64\cdot {\frac {1}{3}}\rfloor \cdot 5000\cdot 0.2\div 64\div 100\rfloor \\&\lfloor \lfloor 1\cdot 64\cdot {\frac {1}{3}}\rfloor \cdot 5000\cdot 0.2\div 64\div 100\rfloor \\&\lfloor 21\cdot 5000\cdot 0.2\div 64\div 100\rfloor =3{\text{ hp leeched}}\end{aligned}}}}
+Another example, consider a Paladin with 9% Life leech, using Zeal (3k damage) against a Death Beatle:
+ ⌊
+ ⌊
+ ⌊
+ 9
+ ⋅
+ 1
+ 2
+ ⌋
+ ⋅
+ 64
+ ⋅
+ 1
+ 3
+ ⌋
+ ⋅
+ 3000
+ ⋅
+ 0.5
+ ÷
+ 64
+ ÷
+ 100
+ ⌋
+ ⌊
+ ⌊
+ 4
+ ⋅
+ 64
+ ⋅
+ 1
+ 3
+ ⌋
+ ⋅
+ 3000
+ ⋅
+ 0.5
+ ÷
+ 64
+ ÷
+ 100
+ ⌋
+ ⌊
+ 85
+ ⋅
+ 3000
+ ⋅
+ 0.5
+ ÷
+ 64
+ ÷
+ 100
+ ⌋
+ =
+ 19
+  hp leeched
+ {\displaystyle {\displaystyle \color {Tan}{\begin{aligned}&\lfloor \lfloor \lfloor 9\cdot {\frac {1}{2}}\rfloor \cdot 64\cdot {\frac {1}{3}}\rfloor \cdot 3000\cdot 0.5\div 64\div 100\rfloor \\&\lfloor \lfloor 4\cdot 64\cdot {\frac {1}{3}}\rfloor \cdot 3000\cdot 0.5\div 64\div 100\rfloor \\&\lfloor 85\cdot 3000\cdot 0.5\div 64\div 100\rfloor =19{\text{ hp leeched}}\end{aligned}}}}
+## Crushing Blow[edit]
+Crushing Blow reduces a target's life by a fraction of their current life. Attacks can have up to 100% chance to cause a Crushing Blow. Crushing Blow is Physical Damage, and will be reduced by Physical Damage Resistance (only %-based PDR, not flat PDR).
+Crushing Blow's default life reduction was reduced from 1/4 to 1/8 of current life in Project Diablo 2.
+When calculating Crushing Blow Damage, first a divisor is chosen based on monster type:
+Monster Type Crushing Blow divisors
+ | Type
+ | Divisor (PD2)
+ | Divisor (LoD)
+ | Most Enemies
+ | 8
+ | 4
+ | Superuniques
+ | 8
+ | 8
+ | Prime Evils*
+ | 80*
+ | 8
+ | Map Bosses
+ | 30
+ | N/A
+ | Players and Mercenaries
+ | 10
+ | 10
+After a divisor is chosen based on monster type, it is multiplied based on type of damage:
+Crushing Blow Damage Type Penalty
+ | Type
+ | Multiplier (PD2)
+ | Multiplier (LoD)
+ | Melee
+ | 1
+ | 1
+ | Ranged
+ | 1.5
+ | 2
+This results in the following damage:
+Crushing Blow Damage
+ | Target
+ | Melee
+(PD2)
+ | Ranged
+(PD2)
+ | Melee
+(LoD)
+ | Ranged
+(LoD)
+ | Most Enemies
+ | 1/8
+ | 1/12
+ | 1/4
+ | 1/8
+ | Superuniques
+ | 1/8
+ | 1/12
+ | 1/8
+ | 1/16
+ | Prime Evils*
+ | 1/80*
+ | 1/120*
+ | 1/8
+ | 1/16
+ | Map Bosses
+ | 1/30
+ | 1/45
+ | N/A
+ | N/A
+ | Players and Mercenaries
+ | 1/10
+ | 1/15
+ | 1/10
+ | 1/20
+"Most Enemies" applies to Normal, Minion, Champion, and Unique monsters.
+Prime Evils are affected by additional diminishing returns as they take damage: 
+ CBDamage
+ =
+ 1
+ (
+ 8
+ +
+ missing hp
+ %
+ )
+ ⋅
+ 10
+ {\displaystyle {\displaystyle \color {Tan}{\text{CBDamage}}={\frac {1}{(8+{\text{missing hp}}\%)\ \cdot 10}}}}
+. Prime Evils does not include Map Bosses in this context.
+The full order of calculation for Crushing Blow is (Monster Type divisor -> Player Count scaling -> Damage type Modifier -> Crushing Blow Efficiency -> (convert fraction into HP damage) -> Physical Resistance)
+## Player Count Scaling[edit]
+Crushing blow has an additional reduction of effectiveness in party games (or simulated ones in Single Player). Player Count Scaling does not apply to Players and Mercenaries.
+The formula is as follows: 
+ CBDamage
+ =
+ 1
+ d
+ i
+ v
+ i
+ s
+ o
+ r
+ +
+ (
+ pCount
+ ⋅
+ 70
+ 50
+ )
+  or 
+ 1
+ d
+ i
+ v
+ i
+ s
+ o
+ r
+ +
+ (
+ 1.4
+ ⋅
+ pCount
+ )
+ {\displaystyle {\displaystyle \color {Tan}{\text{CBDamage}}={\frac {1}{divisor+\left({\frac {{\text{pCount}}\cdot 70}{50}}\right)}}{\text{ or }}{\frac {1}{divisor+(1.4\cdot {\text{pCount}})}}}}
+This results in the following (shown for melee normal enemies with no other modifiers):
+ | Player Count
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | Damage (Current Life)
+ | 
+ 1
+ 8
+ {\displaystyle {\displaystyle \color {tan}{\frac {1}{8}}}}
+ or 12.5%
+ | 
+ 5
+ 54
+ {\displaystyle {\displaystyle \color {Tan}{\frac {5}{54}}}}
+ or 9.26%
+ | 
+ 5
+ 61
+ {\displaystyle {\displaystyle \color {Tan}{\frac {5}{61}}}}
+ or 8.20%
+ | 
+ 5
+ 68
+ {\displaystyle {\displaystyle \color {Tan}{\frac {5}{68}}}}
+ or 7.35%
+ | 
+ 1
+ 15
+ {\displaystyle {\displaystyle \color {Tan}{\frac {1}{15}}}}
+ or 6.67%
+ | 
+ 5
+ 82
+ {\displaystyle {\displaystyle \color {Tan}{\frac {5}{82}}}}
+or 6.10%
+ | 
+ 5
+ 89
+ {\displaystyle {\displaystyle \color {Tan}{\frac {5}{89}}}}
+ or 5.62%
+ | 
+ 5
+ 96
+ {\displaystyle {\displaystyle \color {Tan}{\frac {5}{96}}}}
+ or 5.21%
+## Crushing Blow Efficiency[edit]
+Crushing Blow Efficiency is a new affix in Project Diablo 2 that increases the percentage of current life that Crushing Blow reduces. 
+The formula is as follows:
+ CBDamage
+ =
+ 1
+ +
+ C
+ B
+ E
+ 100
+ d
+ i
+ v
+ i
+ s
+ o
+ r
+ {\displaystyle {\displaystyle \color {tan}{\text{CBDamage}}={\frac {1+{\frac {CBE}{100}}}{divisor}}}}
+This results in the following: (shown for melee normal enemies with no other modifiers)
+ | Crushing Blow Efficiency %
+ | 0
+ | 10
+ | 25
+ | 50
+ | 100
+ | Damage (Current Life)
+ | 
+ 1
+ 8
+ {\displaystyle {\displaystyle \color {tan}{\frac {1}{8}}}}
+ or 12.5%
+ | 
+ 1.1
+ 8
+ {\displaystyle {\displaystyle \color {tan}{\frac {1.1}{8}}}}
+ or 13.75%
+ | 
+ 1.25
+ 8
+ {\displaystyle {\displaystyle \color {tan}{\frac {1.25}{8}}}}
+ or 15.625%
+ | 
+ 1.5
+ 8
+ {\displaystyle {\displaystyle \color {tan}{\frac {1.5}{8}}}}
+ or 18.75%
+ | 
+ 2
+ 8
+ {\displaystyle {\displaystyle \color {tan}{\frac {2}{8}}}}
+ or 25%
+## Open Wounds[edit]
+Open Wounds deals physical damage over time
+The damage depends on the level of the character who applies it (shown below for all levels)
+The damage is now affected by "+X Open Wounds Damage per Second" which is a new attribute that often accompanies "X% Chance of Open Wounds"
+The damage is now affected by Physical Damage Reduction (e.g. Battle Cry, Amplify Damage, Defiance, etc)
+The damage is not affected by other damage modifiers
+Open Wounds is now also applied by "Attacker Takes Damage of X" as well as attacks
+Open Wounds now lasts 5 seconds (was 8 seconds) and now stacks up to 3 times per target
+Open Wounds now has a ¼ penalty against mercenaries and pets
+Open Wounds no longer has a ½ penalty against stronger enemies (champions, uniques, super uniques, bosses, prime evils)
+Open Wounds Damage per Second
+ | Character Level
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | Damage per Second
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 19
+ | 21
+ | 23
+ | 25
+ | 26
+ | 28
+ | 30
+ | 32
+ | 33
+ | 
+ | Character Level
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | 31
+ | 32
+ | 33
+ | 34
+ | 35
+ | 36
+ | 37
+ | 38
+ | 39
+ | 40
+ | 41
+ | 42
+ | 43
+ | 44
+ | 45
+ | 46
+ | 47
+ | 48
+ | 49
+ | 50
+ | Damage per Second
+ | 35
+ | 37
+ | 39
+ | 40
+ | 42
+ | 45
+ | 47
+ | 50
+ | 53
+ | 55
+ | 58
+ | 61
+ | 63
+ | 66
+ | 68
+ | 71
+ | 74
+ | 76
+ | 79
+ | 82
+ | 85
+ | 89
+ | 92
+ | 96
+ | 99
+ | 
+ | Character Level
+ | 51
+ | 52
+ | 53
+ | 54
+ | 55
+ | 56
+ | 57
+ | 58
+ | 59
+ | 60
+ | 61
+ | 62
+ | 63
+ | 64
+ | 65
+ | 66
+ | 67
+ | 68
+ | 69
+ | 70
+ | 71
+ | 72
+ | 73
+ | 74
+ | 75
+ | Damage per Second
+ | 103
+ | 106
+ | 110
+ | 113
+ | 117
+ | 120
+ | 124
+ | 127
+ | 131
+ | 134
+ | 139
+ | 143
+ | 148
+ | 152
+ | 156
+ | 161
+ | 165
+ | 170
+ | 174
+ | 178
+ | 183
+ | 187
+ | 191
+ | 196
+ | 200
+ | 
+ | Character Level
+ | 76
+ | 77
+ | 78
+ | 79
+ | 80
+ | 81
+ | 82
+ | 83
+ | 84
+ | 85
+ | 86
+ | 87
+ | 88
+ | 89
+ | 90
+ | 91
+ | 92
+ | 93
+ | 94
+ | 95
+ | 96
+ | 97
+ | 98
+ | 99
+ | 
+ | Damage per Second
+ | 205
+ | 209
+ | 213
+ | 218
+ | 222
+ | 227
+ | 231
+ | 235
+ | 240
+ | 244
+ | 249
+ | 253
+ | 257
+ | 262
+ | 266
+ | 271
+ | 275
+ | 279
+ | 284
+ | 288
+ | 293
+ | 297
+ | 301
+ | 306
+ | 
+Also see: Vanilla Info about Open Wounds, Deep Wounds
+## Curse Duration / Resistance[edit]
+"Reduced Curse Duration" and "Curse Resistance" are new stats which reduce the duration/effect of curses against you by x%. They both cap at 75%.
+Skills and Items related to Curse Duration / Resistance:
+Skills related to Curse Duration / Resistance: Cleansing, Fade, Lesser Fade
+"Reduced Curse Duration" Item-Sources: Crown of Ages (50%), Odium (40%), Occultist (25-35%), Purity (30%), Twilight's Reflection (20-30%),
+"Curse Resistance" Weapon-Sources: Rune Master, Executioner's Justice & Wraith Flight (20%), The Gavel of Pain & Bonehew (10-20%)
+"Curse Resistance" Non-Weapon-Sources: Wraithskin (40-50%), Templar's Might, Twilight's Reflection, Head Hunter's Glory & Martyrdom (20-30%), Raekor's Virtue (25%), Leviathan, Shadow Dancer & Gloom (20%), Spirit Shroud, Moser's Blessed Circle & Saracen's Chance (10%), Overlord's Helm (-20%)
+## Resistances[edit]
+Players' Resistances (Fire/Cold/Lightning/Poison) cap at 90% (down from 95% in Lord of Destruction). The normal cap is still 75% but equipped items can increase it up to 90%.
+## Reducing Resistances[edit]
+Resistances are now reduced at 1/2 effectiveness (was 1/5 effectiveness) when those resistances are above 99% (immunes) or below 0%.
+This effectiveness penalty only applies to effects caused by players and pets. Negative resistances caused by monsters (e.g. Conviction, Amplify Damage) are always applied at full effectiveness.
+## Breaking Immunes[edit]
+These effects "reduce" or "lower" enemy resistances and will break immunities. They all apply an effect to the enemy which persists and reduces their resistance while it is active, which allows all players to benefit:
+Sanctuary (Magic)
+Battle Cry (Physical)
+Amplify Damage (Physical)
+Decrepify (Physical)
+Poison Creeper (Poison)
+Lower Resist (Fire/Cold/Lightning/Poison)
+Conviction (Fire/Cold/Lightning)
+Inferno (Fire)
+Arctic Blast (Cold)
+Static Field (Lightning)
+Throwing Potions (Fire/Cold/Lightning/Poison)
+These effects "penetrate" or "pierce" enemy resistances and will not break immunities. They are calculated on each individual attack or spell, and only benefit the character who uses them:
+Cold Mastery
+Fire Mastery
+Penetrate
+Berserk
+Poison Strike
+-% to Enemy Resistance from items (e.g. Kira's Guardian, Rainbow Facet, Famine, Death's Web, many others)
+## Effectiveness vs Immunes[edit]
+The above Skills that "reduce" resistances are the only effects capable of breaking an immunity. 
+However, they function at only 1/2 effectiveness against any enemy with 100% or more resistance. 
+All of these effects are applied simultaneously; even if one skill would be strong enough to break the immunity on its own, every active reduction skill is still halved.
+When calculating the final reduction, the game halves the skill value and rounds down to the nearest whole number before subtracting it from the enemy's resistance.
+As an example, an enemy with 110% Fire Resistance and Level 11 Lower Resist (-21%):
+21 / 2 = 10.5  [Apply the 1/2 penalty]
+10.5 → 10  [Round down to the nearest whole integer]
+110 - 10 = 100  [Final resistance; the immunity is not broken]
+If multiple skills are used, each is halved and rounded individually before being subtracted from the total:
+Skill A (-21%): 21 / 2 = 10.5 → 10
+Skill B (-31%): 31 / 2 = 15.5 → 15
+110 - 10 - 15 = 85  [Final resistance; immunity is broken]
+Effects which "penetrate" resistances rather than "reduce" them (e.g. Rainbow Facet, Cold Mastery, or other -% Resistance on gear) only function after an immunity has been broken. If the calculation above brings an enemy to 99% or lower, these penetration effects then apply at full 100% effectiveness.
+## Effectiveness vs Negative Resistance[edit]
+When taking an enemy below 0% resistance, the effectiveness penalty only applies to whatever portion becomes negative. Everything applies at full effectiveness and then afterward, if the enemy's resistance is negative, it gets halved.
+As an example let's take an enemy with 25% cold resistance, and apply Lower Resist and Conviction from before as well as an extra "-12% to Enemy Cold Resistance":
+25 - 30 = -5  [Lower Resist]
+-5 - 30 = -35  [Conviction]
+-35 - 12 = -47  [-Enemy Resist]
+-47 / 2 = -23  [apply the 1/2 penalty to get the final enemy cold resist]
+Resists can be reduced as low as -100%
+## Poison Length Reduced[edit]
+Poison Length Reduced (PLR) shortens poison duration without reducing its damage per second. A skill that deals 1000 damage over 2 seconds, against an enemy that has 50% plr will deal the same damage-per-second, over a shorter amount of time, in this case dealing 500 damage over 1 second. Attacker -% Enemy Poison Resistance reduces both the target's poison resistance and PLR, increasing damage and duration. Like resistance below 0%, the effect of -enemy poison resistance below 0% is applied at half effectiveness: for example, -50% effective PLR increases poison duration by 25%. Poison duration is calculated in game frames (25 frames per second), with fractions discarded.
+Most monsters in Project Diablo 2 have no poison length reduced, with some notable exceptions. For example, Ubers have the poison length reduced stat, and the Ancients in Act 5 can spawn with items that give them poison length reduced.
+## Item drop mechanics[edit]
+## Item drop Basics[edit]
+Lets look at a high-level example of how the drop process works.
+Mephisto is killed! What does the game do to determine your reward?
+calculates the number of items to drop (max 6)
+selects item types
+selects item qualities
+selects certain unique or set items (when applicable)
+selects item properties (when applicable)
+The number of players only affects item #1, the number of potential drops. It has no effect on the quality of the items that drop (this is where magic find comes into play). Now the question is, how does the number of players affect how many items drop?
+Any time you do something that drops loot (opening a chest, killing a monster, etc.) the game selects from a list of treasure classes (TC) that will decide what kind of items will drop. Each TC has a list of items (or other TCs) that can drop, as well as a probability that that given item will drop. There is also a number of "picks" for each TC that decides how many potential items can drop. The last piece of the puzzle is "NoDrop", which is a probability that a pick will drop no items. NoDrop is the only parameter that player count affects.
+There's a lot that goes into how the new NoDrop value is calculated when more players join the game, but the short version is: the higher the player count, the lower the NoDrop chance (potentially reaching 0 with enough players). 
+There are some TCs that start with NoDrop at 0. These are not affected by player count, since 0 is the lowest possible value.
+## What's different in PD2?[edit]
+The baseline drop rate in PD2 is roughly equivalent to vanilla's p5/5 (5 partied players in a game) for solo play, and scales up per player until it's slightly above the equivalent of vanilla's p8/8 when there is a full game of 8 players. This means that overall NoDrop for all TCs is significantly lower, and it becomes easier to reach a NoDrop of 0 with fewer players.
+You still get loot increases from more players like vanilla, but the difference between a solo player and a group of 8 is overall much smaller.
+Rune TCs are also the same as in vanilla, so rune drop rates are the same. Miniscule differences may exist in some cases due to new valuable items such as Larzuk's Puzzlebox being able to drop.
+## How does PD2 compare to LoD?[edit]
+It's hard to directly compare the two since there are hundreds of TCs, and PD2 has even more than LoD (mostly because of maps). But we can compare a TC from LoD to a TC from PD2 and see how the NoDrop chance has changed.
+Let's look at the TCs called Swarm 2 (H), a worst case scenario, and Act 2 (H) H2H A, a common case used by many monsters. In these examples, the first number is the amount of players in the game and the second number is the amount of players in the party. So p3/2 means 3 players in the game but only 2 in your party. If you used the /players 8 command in single player that would be equivalent to p8/1.
+Chance for NoDrop to be selected by the "pick" (i.e. the chance that no item drops):
+ | Treasure Class
+ | LoD
+ | PD2
+ | Swarm 2 (H)
+ | 
+p1/1, p2/1 = 83.33%
+p2/2, p3/1, p3/2, p4/1 = 69.14%
+p3/3, p4/2, p4/3, p5/1, p5/2, p6/1 = 57.63%
+p4/4, p5/3, p5/4, p6/2, p6/3, p7/1, p7/2, p8/1 = 47.92%
+p5/5, p6/4, p6/5, p7/3, p7/4, p8/2, p8/3 = 39.02%
+p6/6, p7/5, p7/6, p8/4, p8/5 = 32.43%
+p7/7, p8/6, p8/7 = 26.47%
+p8/8 = 21.88%
+ | 
+p1/1, p2/1 = 40.85%
+p2/2, p3/1, p3/2, p4/1 = 16.64%
+p3/3, p4/2, p4/3, p5/1, p5/2, p6/1 = 6.68%
+p4/4, p5/3, p5/4, p6/2, p6/3, p7/1, p7/2, p8/1 = 2.75%
+p5/5, p6/4, p6/5, p7/3, p7/4, p8/2, p8/3 = 0.99%
+p6/6, p7/5, p7/6, p8/4, p8/5 = 0.33%
+p7/7, p8/6, p8/7 = 0.17%
+p8/8 = 0%
+ | Act 2 (H) H2H A
+ | 
+p1/1, p2/1 = 62.50%
+p2/2, p3/1, p3/2, p4/1 = 38.78%
+p3/3, p4/2, p4/3, p5/1, p5/2, p6/1 = 24.05%
+p4/4, p5/3, p5/4, p6/2, p6/3, p7/1, p7/2, p8/1 = 14.29%
+p5/5, p6/4, p6/5, p7/3, p7/4, p8/2, p8/3 = 9.09%
+p6/6, p7/5, p7/6, p8/4, p8/5 = 4.76%
+p7/7, p8/6, p8/7 = 3.23%
+p8/8 = 1.64%
+ | 
+p1/1, p2/1 = 9.52%
+p2/2, p3/1, p3/2, p4/1 = 0.88%
+p3/3, p4/2, p4/3, p5/1, p5/2, p6/1 = 0%
+p4/4, p5/3, p5/4, p6/2, p6/3, p7/1, p7/2, p8/1 = 0%
+p5/5, p6/4, p6/5, p7/3, p7/4, p8/2, p8/3 = 0%
+p6/6, p7/5, p7/6, p8/4, p8/5 = 0%
+p7/7, p8/6, p8/7 = 0%
+p8/8 = 0%
+## Key drop rates[edit]
+ | Players
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | Blood Raven
+ | 12.127%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | Countess
+ | 7.350%
+ | 6.274%
+ | 5.906%
+ | 5.906%
+ | 5.906%
+ | 5.906%
+ | 5.906%
+ | 5.906%
+ | Bloodwitch
+ | 12.127%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | Summoner
+ | 13.541%
+ | 13.595%
+ | 13.595%
+ | 13.595%
+ | 13.595%
+ | 13.595%
+ | 13.595%
+ | 13.595%
+ | Izual
+ | 12.127%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | 12.161%
+ | Nihlathak
+ | 12.618%
+ | 12.645%
+ | 12.645%
+ | 12.645%
+ | 12.645%
+ | 12.645%
+ | 12.645%
+ | 12.645%
+ | 
+ | Countess (LoD)
+ | 7.353%
+ | 9.434%
+ | 10.000%
+ | 10.204%
+ | 10.204%
+ | 10.204%
+ | 10.204%
+ | 10.204%
+ | Summoner (LoD)
+ | 8.929%
+ | 12.195%
+ | 13.158%
+ | 13.514%
+ | 13.514%
+ | 13.514%
+ | 13.514%
+ | 13.514%
+ | Nihlathak (LoD)
+ | 8.197%
+ | 10.870%
+ | 11.628%
+ | 11.905%
+ | 11.905%
+ | 11.905%
+ | 11.905%
+ | 11.905%
+## Distance[edit]
+In the Diablo 2 engine, all distances (such as spell radii, aura ranges, and melee splash) are calculated using an internal coordinate system based on a grid of "tiles".
+However, in-game tooltips and skill descriptions always display these distances in "yards". Yards always have a specific conversion rate to game tiles of 2:3. 
+In other words, multiply the Yards by 1.5 to know the actual tile distance of an effect.
+The table below outlines the conversions from internal game tiles to yards:
+ | Tiles
+ | 1
+ | 2
+ | 3
+ | 4
+ | 5
+ | 6
+ | 7
+ | 8
+ | 9
+ | 10
+ | 11
+ | 12
+ | 13
+ | 14
+ | 15
+ | 16
+ | 17
+ | 18
+ | 19
+ | 20
+ | 21
+ | 22
+ | 23
+ | 24
+ | 25
+ | 26
+ | 27
+ | 28
+ | 29
+ | 30
+ | Yards
+ | 0.66
+ | 1.33
+ | 2
+ | 2.66
+ | 3.33
+ | 4
+ | 4.66
+ | 5.33
+ | 6
+ | 6.66
+ | 7.33
+ | 8
+ | 8.66
+ | 9.33
+ | 10
+ | 10.66
+ | 11.33
+ | 12
+ | 12.66
+ | 13.33
+ | 14
+ | 14.66
+ | 15.33
+ | 16
+ | 16.66
+ | 17.33
+ | 18
+ | 18.66
+ | 19.33
+ | 20
+Approximate distances to screen edges from player (PD2 expanded widescreen resolution, 1068x600)
+Top: 18 Yards
+Bottom: 15 Yards
+Left and Right: 16.33 Yards
+Top Corners: 23 Yards
+Bottom Corners: 20 Yards
+Visual Representations of distance
+LoD (4:3): https://www.theamazonbasin.com/wiki/index.php/Radius
+D2R (16:9): https://maxroll.gg/d2/resources/run-walk-mechanics
+## Movement Speed[edit]
+For more information on Movement Speed, see: Faster Run/Walk Thresholds

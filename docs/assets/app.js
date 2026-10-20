@@ -1,5 +1,9 @@
 (function () {
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  // na telefonu je meni ena vrstica z drsenjem: pokaži trenutno stran
+  var nav = document.querySelector('.topbar nav');
+  var here = nav && nav.querySelector('[aria-current]');
+  if (here && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = Math.max(0, here.offsetLeft - nav.offsetLeft - 16);
   // Odpri build iz povezave (#b-<id>)
   function openFromHash() {
     var id = location.hash.slice(1);

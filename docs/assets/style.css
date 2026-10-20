@@ -408,3 +408,53 @@ details.wi > summary::-webkit-details-marker { display: none; }
 ul.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 3px; font-size: 0.92rem; }
 .wcls ul { margin: 2px 0 8px; padding: 0; list-style: none; display: grid; gap: 3px; font-size: 0.92rem; }
 .wmore { font: inherit; margin-top: 10px; padding: 8px 14px; background: var(--surface); color: var(--fg); border: 1px solid var(--line); cursor: pointer; }
+
+/* ===== mape in crafting ===== */
+:root { --el-phys: #c9c3b4; --el-magic: #e3a34d; --el-fire: #f0744a; --el-light: #f2d24b; --el-cold: #6fb6ff; --el-poison: #6fd06a; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --el-phys: #5d5a4d; --el-magic: #9a5a00; --el-fire: #b5361a; --el-light: #806400; --el-cold: #1f5fb0; --el-poison: #2a7a25; } }
+:root[data-theme="light"] { --el-phys: #5d5a4d; --el-magic: #9a5a00; --el-fire: #b5361a; --el-light: #806400; --el-cold: #1f5fb0; --el-poison: #2a7a25; }
+.el-phys { color: var(--el-phys); } .el-magic { color: var(--el-magic); } .el-fire { color: var(--el-fire); }
+.el-light { color: var(--el-light); } .el-cold { color: var(--el-cold); } .el-poison { color: var(--el-poison); }
+.el { display: inline-block; font-family: var(--font-mono); font-size: 0.74rem; padding: 2px 7px; border: 1px solid currentColor; white-space: nowrap; }
+.el-none { color: var(--good); }
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+table.tbl { min-width: 0; font-size: 0.92rem; }
+table.tbl th, table.tbl td { padding: 7px 10px; }
+table.tbl tr:last-child td { border-bottom: 0; }
+table.tbl.mon { min-width: 560px; font-variant-numeric: tabular-nums; }
+table.tbl.mon td:nth-child(n+3), table.tbl.mon th:nth-child(n+3) { text-align: right; font-family: var(--font-mono); font-size: 0.84rem; }
+table.tbl.mon td.imm { color: var(--bad); font-weight: 500; }
+table.tbl.mon td.hi { color: var(--warn); }
+.sub-h { margin: 18px 0 8px; font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+.chk { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+.tier-block { margin-top: 18px; display: grid; gap: 6px; }
+.tier-block h3 { font-size: 1.1rem; margin-bottom: 4px; }
+details.mapc { background: var(--surface); border: 1px solid var(--line); }
+details.mapc[open] { border-color: var(--accent); }
+details.mapc > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px 12px; align-items: center; padding: 9px 12px; }
+details.mapc > summary::-webkit-details-marker { display: none; }
+details.mapc .mn { display: grid; gap: 2px; min-width: 0; }
+details.mapc .meta { font-size: 0.84rem; color: var(--muted); }
+details.mapc .els { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+details.mapc .fit { font-family: var(--font-mono); font-size: 0.78rem; min-width: 1ch; }
+details.mapc.is-ok .fit { color: var(--good); }
+details.mapc.is-bad { opacity: 0.6; }
+details.mapc.is-bad .fit { color: var(--bad); }
+.mapb { border-top: 1px solid var(--line); padding: 10px 12px 12px; display: grid; gap: 8px; }
+@media (max-width: 640px) {
+  details.mapc > summary { grid-template-columns: minmax(0, 1fr) auto; }
+  details.mapc .els { grid-column: 1 / -1; justify-content: flex-start; }
+}
+.filters button.el-phys, .filters button.el-magic, .filters button.el-fire, .filters button.el-light, .filters button.el-cold, .filters button.el-poison { color: inherit; }
+.filters button[data-el]:not([data-el=""]) { border-left: 3px solid currentColor; }
+.filters button.el-phys { border-left-color: var(--el-phys); } .filters button.el-magic { border-left-color: var(--el-magic); }
+.filters button.el-fire { border-left-color: var(--el-fire); } .filters button.el-light { border-left-color: var(--el-light); }
+.filters button.el-cold { border-left-color: var(--el-cold); } .filters button.el-poison { border-left-color: var(--el-poison); }
+.extra-builds { margin-top: 28px; }
+.extra-builds table.tbl td:first-child { white-space: nowrap; }
+@media (max-width: 640px) { .extra-builds table.tbl td:first-child { white-space: normal; } }
+@media (max-width: 640px) {
+  .topbar nav { flex-wrap: nowrap; overflow-x: auto; width: 100%; padding-bottom: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .topbar nav::-webkit-scrollbar { display: none; }
+  .topbar nav a { white-space: nowrap; }
+}

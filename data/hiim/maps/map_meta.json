@@ -1,0 +1,971 @@
+[
+ {
+  "slug": "ancestral",
+  "name": "Ancestral Trial",
+  "tier": 1,
+  "elems": {
+   "fire": 120,
+   "light": 120
+  },
+  "images": [
+   {
+    "src": "/maps/ancestral/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/ancestral/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/ancestral/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1445
+ },
+ {
+  "slug": "caldeum",
+  "name": "Fall of Caldeum",
+  "tier": 1,
+  "elems": {
+   "phys": 115,
+   "magic": 105,
+   "light": 120
+  },
+  "images": [
+   {
+    "src": "/maps/caldeum/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/caldeum/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/caldeum/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 928
+ },
+ {
+  "slug": "losttemple",
+  "name": "Lost Temple",
+  "tier": 1,
+  "elems": {
+   "magic": 105,
+   "cold": 120
+  },
+  "images": [
+   {
+    "src": "/maps/losttemple/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/losttemple/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/losttemple/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 989
+ },
+ {
+  "slug": "phlegethon",
+  "name": "Phlegethon",
+  "tier": 1,
+  "elems": {
+   "fire": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/phlegethon/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/phlegethon/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/phlegethon/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1662
+ },
+ {
+  "slug": "poisonedwell",
+  "name": "Poisoned Well",
+  "tier": 1,
+  "elems": {},
+  "images": [],
+  "itemDropCount": null
+ },
+ {
+  "slug": "ruinsofvizjun",
+  "name": "Ruins of Viz-Jun",
+  "tier": 1,
+  "elems": {
+   "phys": 115,
+   "cold": 120
+  },
+  "images": [
+   {
+    "src": "/maps/ruinsofvizjun/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/ruinsofvizjun/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/ruinsofvizjun/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1483
+ },
+ {
+  "slug": "sanatorium",
+  "name": "Sanatorium",
+  "tier": 1,
+  "elems": {
+   "magic": 105,
+   "light": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/sanatorium/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/sanatorium/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/sanatorium/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1143
+ },
+ {
+  "slug": "westmarch",
+  "name": "Shadows of Westmarch",
+  "tier": 1,
+  "elems": {
+   "magic": 105,
+   "fire": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/westmarch/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/westmarch/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/westmarch/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1126
+ },
+ {
+  "slug": "zoltun",
+  "name": "Tomb of Zoltun Kulle",
+  "tier": 1,
+  "elems": {
+   "phys": 115,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/zoltun/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/zoltun/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/zoltun/3.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/zoltun/4.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1422
+ },
+ {
+  "slug": "torajanjungle",
+  "name": "Torajan Jungle",
+  "tier": 1,
+  "elems": {
+   "cold": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/torajanjungle/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/torajanjungle/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/torajanjungle/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1623
+ },
+ {
+  "slug": "ashen",
+  "name": "Ashen Plains",
+  "tier": 2,
+  "elems": {
+   "fire": 120,
+   "cold": 130
+  },
+  "images": [
+   {
+    "src": "/maps/ashen/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/ashen/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/ashen/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1390
+ },
+ {
+  "slug": "canyon",
+  "name": "Canyon of Sescheron",
+  "tier": 2,
+  "elems": {
+   "phys": 115,
+   "fire": 120
+  },
+  "images": [
+   {
+    "src": "/maps/canyon/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/canyon/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/canyon/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1745
+ },
+ {
+  "slug": "darktemple",
+  "name": "Dark Temple",
+  "tier": 2,
+  "elems": {},
+  "images": [],
+  "itemDropCount": null
+ },
+ {
+  "slug": "descent",
+  "name": "Descent from Mount Arreat",
+  "tier": 2,
+  "elems": {},
+  "images": [],
+  "itemDropCount": null
+ },
+ {
+  "slug": "hallsoftorture",
+  "name": "Halls of Torture",
+  "tier": 2,
+  "elems": {
+   "light": 120,
+   "cold": 120
+  },
+  "images": [
+   {
+    "src": "/maps/hallsoftorture/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/hallsoftorture/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/hallsoftorture/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1492
+ },
+ {
+  "slug": "horazonsmemory",
+  "name": "Horazon's Memory",
+  "tier": 2,
+  "elems": {
+   "phys": 115,
+   "light": 120
+  },
+  "images": [
+   {
+    "src": "/maps/horazonsmemory/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/horazonsmemory/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1407
+ },
+ {
+  "slug": "citadel",
+  "name": "Pandemonium Citadel",
+  "tier": 2,
+  "elems": {
+   "magic": 105,
+   "cold": 120
+  },
+  "images": [
+   {
+    "src": "/maps/citadel/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/citadel/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/citadel/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 977
+ },
+ {
+  "slug": "cistern",
+  "name": "Ruined Cistern",
+  "tier": 2,
+  "elems": {
+   "magic": 105,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/cistern/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/cistern/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/cistern/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1038
+ },
+ {
+  "slug": "sewers",
+  "name": "Sewers of Harrogath",
+  "tier": 2,
+  "elems": {
+   "fire": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/sewers/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/sewers/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/sewers/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1175
+ },
+ {
+  "slug": "throne",
+  "name": "Throne of Insanity",
+  "tier": 2,
+  "elems": {
+   "phys": 115,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/throne/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/throne/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/throne/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1263
+ },
+ {
+  "slug": "arreatbattlefield",
+  "name": "Arreat Battlefield",
+  "tier": 3,
+  "elems": {
+   "magic": 105,
+   "light": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/arreatbattlefield/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/arreatbattlefield/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1280
+ },
+ {
+  "slug": "bastion",
+  "name": "Bastion Keep",
+  "tier": 3,
+  "elems": {
+   "phys": 115,
+   "magic": 105,
+   "cold": 120
+  },
+  "images": [
+   {
+    "src": "/maps/bastion/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/bastion/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/bastion/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1274
+ },
+ {
+  "slug": "bloodmoon",
+  "name": "Blood Moon",
+  "tier": 3,
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/bloodmoon/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/bloodmoon/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/bloodmoon/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1593
+ },
+ {
+  "slug": "demonroad",
+  "name": "Demon Road",
+  "tier": 3,
+  "elems": {
+   "phys": 115,
+   "fire": 120,
+   "light": 120
+  },
+  "images": [
+   {
+    "src": "/maps/demonroad/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/demonroad/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/demonroad/3.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/demonroad/4.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1226
+ },
+ {
+  "slug": "marketplace",
+  "name": "Kehjistan Marketplace",
+  "tier": 3,
+  "elems": {
+   "phys": 115,
+   "fire": 120
+  },
+  "images": [
+   {
+    "src": "/maps/marketplace/1.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1367
+ },
+ {
+  "slug": "riverblood",
+  "name": "River of Blood",
+  "tier": 3,
+  "elems": {
+   "magic": 105,
+   "light": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/riverblood/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/riverblood/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/riverblood/3.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/riverblood/4.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1258
+ },
+ {
+  "slug": "royalcrypts",
+  "name": "Royal Crypts",
+  "tier": 3,
+  "elems": {
+   "fire": 120,
+   "cold": 120
+  },
+  "images": [
+   {
+    "src": "/maps/royalcrypts/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/royalcrypts/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/royalcrypts/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": 1205
+ },
+ {
+  "slug": "kyovoshad",
+  "name": "Kyovoshad",
+  "tier": 3,
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/kyovoshad/1.webp",
+    "width": 800,
+    "height": 499
+   },
+   {
+    "src": "/maps/kyovoshad/2.webp",
+    "width": 800,
+    "height": 499
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "skovos",
+  "name": "Skovos Stronghold",
+  "tier": 3,
+  "elems": {
+   "cold": 120,
+   "poison": 120
+  },
+  "images": [
+   {
+    "src": "/maps/skovos/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/skovos/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "plainsoftorment",
+  "name": "Plains of Torment",
+  "tier": 4,
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/plainsoftorment/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/plainsoftorment/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/plainsoftorment/3.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/plainsoftorment/4.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "sanctuaryofsin",
+  "name": "Sanctuary of Sin",
+  "tier": 4,
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/sanctuaryofsin/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/sanctuaryofsin/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/sanctuaryofsin/3.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/sanctuaryofsin/4.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "steppesdakenshar",
+  "name": "Steppes of Daken-Shar",
+  "tier": 4,
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/steppesdakenshar/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/steppesdakenshar/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "cityofureh",
+  "name": "City of Ureh",
+  "tier": null,
+  "unique": "Socketed",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/cityofureh/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/cityofureh/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "djinnsdomain",
+  "name": "Djinn's Domain",
+  "tier": null,
+  "unique": "Loot",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/djinnsdomain/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/djinnsdomain/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/djinnsdomain/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "fallengardens",
+  "name": "Fallen Gardens",
+  "tier": null,
+  "unique": "Jewel",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/fallengardens/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/fallengardens/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "imperialpalace",
+  "name": "Imperial Palace",
+  "tier": null,
+  "unique": "P-Box",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/imperialpalace/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/imperialpalace/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "nakrulabyss",
+  "name": "Na-Krul Abyss",
+  "tier": null,
+  "unique": "Eth Items",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/nakrulabyss/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/nakrulabyss/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "outervoid",
+  "name": "Outer Void",
+  "tier": null,
+  "unique": "Boss Mats",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/outervoid/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/outervoid/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/outervoid/3.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "stygiancaverns",
+  "name": "Stygian Caverns",
+  "tier": null,
+  "unique": "Corrupted",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/stygiancaverns/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/stygiancaverns/2.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ },
+ {
+  "slug": "zharssanctum",
+  "name": "Zhar's Sanctum",
+  "tier": null,
+  "unique": "Charms",
+  "elems": {},
+  "images": [
+   {
+    "src": "/maps/zharssanctum/1.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/zharssanctum/2.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/zharssanctum/3.webp",
+    "width": 2498,
+    "height": 1558
+   },
+   {
+    "src": "/maps/zharssanctum/4.webp",
+    "width": 2498,
+    "height": 1558
+   }
+  ],
+  "itemDropCount": null
+ }
+]

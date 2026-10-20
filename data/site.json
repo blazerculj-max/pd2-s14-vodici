@@ -16024,11 +16024,26 @@
    "others": [
     {
      "name": "Lightning Arrow (Crankleshot)",
-     "tier": "Bad"
+     "tier": "Bad",
+     "src": "hiim"
     },
     {
      "name": "Magic Arrow",
-     "tier": "Mid"
+     "tier": "Mid",
+     "src": "hiim"
+    },
+    {
+     "name": "Multishot Zon Xbow (AJ Leveling)",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/J3vB2Wz",
+     "author": "Magical",
+     "opens": 21,
+     "n": 1,
+     "skills": [
+      "Power Strike"
+     ],
+     "tags": []
     }
    ],
    "starters": [
@@ -32066,7 +32081,20 @@
      "runes_total": []
     }
    ],
-   "others": [],
+   "others": [
+    {
+     "name": "Pure Shadow Master Summoner",
+     "tier": "brez ocene",
+     "src": "hiim"
+    },
+    {
+     "name": "Shadow Master",
+     "tier": "S13",
+     "src": "s13",
+     "pct": 10.4,
+     "total": 1917
+    }
+   ],
    "starters": [
     "Mind Blast",
     "Blade Sentinel",
@@ -38298,16 +38326,736 @@
        "rank": 31
       }
      ]
+    },
+    {
+     "id": "wolf-barb",
+     "name": "Wolf Barb",
+     "tier": "Brez ocene",
+     "sort": 6640,
+     "main": {
+      "id": "werewolf",
+      "name": "Werewolf",
+      "req": null,
+      "img": null
+     },
+     "clear": null,
+     "starter": null,
+     "boss": {
+      "lucion": {
+       "t0": null,
+       "t2": "Moderate",
+       "name": "Wolf Barb"
+      },
+      "rathma": {
+       "t0": null,
+       "t2": "Hard",
+       "name": "Wolf Barb"
+      }
+     },
+     "group": [],
+     "stats": null,
+     "respec": null,
+     "planners": [
+      {
+       "label": "Planner",
+       "title": "Wolf Barb",
+       "level": 95,
+       "stats": {
+        "str": 167,
+        "dex": 21,
+        "vit": 297,
+        "ene": 0
+       },
+       "skills": [
+        {
+         "id": "battle_command",
+         "name": "Battle Command",
+         "req": 30,
+         "img": "skills/barbarian/Battle Command.png",
+         "syn": [],
+         "tip": "sk:barbarian:battle_command",
+         "pts": 20
+        },
+        {
+         "id": "battle_orders",
+         "name": "Battle Orders",
+         "req": 24,
+         "img": "skills/barbarian/Battle Orders.png",
+         "syn": [],
+         "tip": "sk:barbarian:battle_orders",
+         "pts": 20
+        },
+        {
+         "id": "iron_skin",
+         "name": "Iron Skin",
+         "req": 18,
+         "img": "skills/barbarian/Iron Skin.png",
+         "syn": [],
+         "tip": "sk:barbarian:iron_skin",
+         "pts": 20
+        },
+        {
+         "id": "two_hand_mastery",
+         "name": "Two Hand Mastery",
+         "req": 6,
+         "img": "skills/barbarian/Two Hand Mastery.png",
+         "syn": [],
+         "tip": "sk:barbarian:two_hand_mastery",
+         "pts": 20
+        },
+        {
+         "id": "grim_ward",
+         "name": "Grim Ward",
+         "req": 24,
+         "img": "skills/barbarian/Grim Ward.png",
+         "syn": [],
+         "tip": "sk:barbarian:grim_ward",
+         "pts": 17
+        },
+        {
+         "id": "battle_cry",
+         "name": "Battle Cry",
+         "req": 30,
+         "img": "skills/barbarian/Battle Cry.png",
+         "syn": [],
+         "tip": "sk:barbarian:battle_cry",
+         "pts": 1
+        },
+        {
+         "id": "combat_reflexes",
+         "name": "Combat Reflexes",
+         "req": 12,
+         "img": "skills/barbarian/Combat Reflexes.png",
+         "syn": [],
+         "tip": "sk:barbarian:combat_reflexes",
+         "pts": 1
+        },
+        {
+         "id": "deep_wounds",
+         "name": "Deep Wounds",
+         "req": 30,
+         "img": "skills/barbarian/Deep Wounds.png",
+         "syn": [
+          "Grim Ward"
+         ],
+         "tip": "sk:barbarian:deep_wounds",
+         "pts": 1
+        },
+        {
+         "id": "howl",
+         "name": "Howl",
+         "req": 1,
+         "img": "skills/barbarian/Howl.png",
+         "syn": [],
+         "tip": "sk:barbarian:howl",
+         "pts": 1
+        },
+        {
+         "id": "increased_speed",
+         "name": "Increased Speed",
+         "req": 24,
+         "img": "skills/barbarian/Increased Speed.png",
+         "syn": [],
+         "tip": "sk:barbarian:increased_speed",
+         "pts": 1
+        },
+        {
+         "id": "natural_resistance",
+         "name": "Natural Resistance",
+         "req": 30,
+         "img": "skills/barbarian/Natural Resistance.png",
+         "syn": [],
+         "tip": "sk:barbarian:natural_resistance",
+         "pts": 1
+        },
+        {
+         "id": "shout",
+         "name": "Shout",
+         "req": 6,
+         "img": "skills/barbarian/Shout.png",
+         "syn": [],
+         "tip": "sk:barbarian:shout",
+         "pts": 1
+        },
+        {
+         "id": "taunt",
+         "name": "Taunt",
+         "req": 18,
+         "img": "skills/barbarian/Taunt.png",
+         "syn": [],
+         "tip": "sk:barbarian:taunt",
+         "pts": 1
+        },
+        {
+         "id": "war_cry",
+         "name": "War Cry",
+         "req": 6,
+         "img": "skills/barbarian/War Cry.png",
+         "syn": [
+          "Howl",
+          "Battle Cry",
+          "Taunt",
+          "Shout",
+          "Battle Command",
+          "Battle Orders"
+         ],
+         "tip": "sk:barbarian:war_cry",
+         "pts": 1
+        }
+       ],
+       "gear": {
+        "weapon": {
+         "eth": false,
+         "name": "Odium",
+         "q": "u",
+         "img": "items/weapon/sword/special/Odium.png",
+         "req": 80,
+         "base": "Colossus Sword",
+         "tip": "u:odium"
+        },
+        "helm": {
+         "eth": false,
+         "name": "Wolfhowl",
+         "q": "u",
+         "img": "items/helm/special/Wolfhowl.png",
+         "req": 79,
+         "base": "Fury Visor",
+         "tip": "u:wolfhowl"
+        },
+        "armor": {
+         "eth": false,
+         "name": "Fortitude",
+         "q": "r",
+         "runes": [
+          {
+           "name": "El",
+           "img": "items/socketables/rune/El_Rune.png",
+           "tip": "so:el_rune"
+          },
+          {
+           "name": "Sol",
+           "img": "items/socketables/rune/Sol_Rune.png",
+           "tip": "so:sol_rune"
+          },
+          {
+           "name": "Dol",
+           "img": "items/socketables/rune/Dol_Rune.png",
+           "tip": "so:dol_rune"
+          },
+          {
+           "name": "Lo",
+           "img": "items/socketables/rune/Lo_Rune.png",
+           "tip": "so:lo_rune"
+          }
+         ],
+         "base": "Sacred Armor",
+         "img": "items/armor/Ancient_Armor.png",
+         "bc": "uar",
+         "tip": "rw:fortitude"
+        },
+        "gloves": {
+         "eth": false,
+         "name": "Steelrend",
+         "q": "u",
+         "img": "items/gloves/special/Steelrend.png",
+         "req": 70,
+         "base": "Ogre Gauntlets",
+         "tip": "u:steelrend"
+        },
+        "belt": {
+         "eth": false,
+         "name": "String of Ears",
+         "q": "u",
+         "img": "items/belt/special/String_of_Ears.png",
+         "req": 29,
+         "base": "Demonhide Sash",
+         "tip": "u:string_of_ears"
+        },
+        "boots": {
+         "eth": false,
+         "name": "Gore Rider",
+         "q": "u",
+         "img": "items/boots/special/Gore_Rider.png",
+         "req": 47,
+         "base": "War Boots",
+         "tip": "u:gore_rider"
+        },
+        "amulet": {
+         "eth": false,
+         "name": "Metalgrid",
+         "q": "u",
+         "img": "items/amulet/Amulet_1.png",
+         "req": 81,
+         "base": null,
+         "tip": "u:metalgrid"
+        },
+        "ring1": {
+         "eth": false,
+         "corr": "Mana Leech",
+         "name": "Raven Frost",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 45,
+         "base": null,
+         "tip": "u:raven_frost"
+        },
+        "ring2": {
+         "eth": false,
+         "name": "Wisp Projector",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 76,
+         "base": null,
+         "tip": "u:wisp_projector"
+        },
+        "swapOffhand": {
+         "eth": false,
+         "name": "Demon Limb",
+         "q": "u",
+         "img": "items/weapon/mace/special/Demon_Limb.png",
+         "req": 63,
+         "base": "Tyrant Club",
+         "tip": "u:demon_limb"
+        }
+       },
+       "merc": {
+        "type": "rogue_scout_meditation",
+        "name": "Rogue Scout (Meditation)",
+        "aura": "Meditation",
+        "gear": {
+         "helm": {
+          "eth": false,
+          "name": "Andariel's Visage",
+          "q": "u",
+          "img": "items/helm/special/Andariel's_Visage.png",
+          "req": 83,
+          "base": "Demonhead",
+          "tip": "u:andariels_visage"
+         },
+         "armor": {
+          "eth": false,
+          "name": "Templar's Might",
+          "q": "u",
+          "img": "items/armor/special/Templar's_Might.png",
+          "req": 74,
+          "base": "Sacred Armor",
+          "tip": "u:templars_might"
+         },
+         "gloves": {
+          "eth": false,
+          "name": "Lava Gout",
+          "q": "u",
+          "img": "items/gloves/special/Lava_Gout.png",
+          "req": 42,
+          "base": "Battle Gauntlets",
+          "tip": "u:lava_gout"
+         },
+         "boots": {
+          "eth": false,
+          "name": "Marrowwalk",
+          "q": "u",
+          "img": "items/boots/special/Marrowwalk.png",
+          "req": 66,
+          "base": "Boneweave Boots",
+          "tip": "u:marrowwalk"
+         },
+         "belt": {
+          "eth": false,
+          "name": "String of Ears",
+          "q": "u",
+          "img": "items/belt/special/String_of_Ears.png",
+          "req": 29,
+          "base": "Demonhide Sash",
+          "tip": "u:string_of_ears"
+         },
+         "weapon": {
+          "eth": false,
+          "name": "Mist",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Cham",
+            "img": "items/socketables/rune/Cham_Rune.png",
+            "tip": "so:cham_rune"
+           },
+           {
+            "name": "Shael",
+            "img": "items/socketables/rune/Shael_Rune.png",
+            "tip": "so:shael_rune"
+           },
+           {
+            "name": "Gul",
+            "img": "items/socketables/rune/Gul_Rune.png",
+            "tip": "so:gul_rune"
+           },
+           {
+            "name": "Thul",
+            "img": "items/socketables/rune/Thul_Rune.png",
+            "tip": "so:thul_rune"
+           },
+           {
+            "name": "Ith",
+            "img": "items/socketables/rune/Ith_Rune.png",
+            "tip": "so:ith_rune"
+           }
+          ],
+          "base": "Colossus Crossbow",
+          "img": "items/weapon/crossbow/Heavy_Crossbow.png",
+          "bc": "6hx",
+          "tip": "rw:mist"
+         },
+         "offhand": {
+          "eth": false,
+          "name": "Abyssal Ward",
+          "q": "u",
+          "img": "items/offhand/Bolts.png",
+          "req": 60,
+          "base": "War Bolts",
+          "tip": "u:abyssal_ward"
+         }
+        }
+       },
+       "charms": [
+        {
+         "eth": false,
+         "name": "Annihilus",
+         "q": "u",
+         "img": "items/charms/charm1u.png",
+         "req": 70,
+         "base": null,
+         "tip": "p:annihilus"
+        },
+        {
+         "eth": false,
+         "name": "Hellfire Torch",
+         "q": "u",
+         "img": "items/charms/charm2u.png",
+         "req": 75,
+         "base": null,
+         "tip": "p:hellfire_torch"
+        }
+       ],
+       "phase": "end",
+       "progression": [],
+       "id": "Nfiidfc",
+       "url": "https://hiimpd2.com/b/Nfiidfc",
+       "author": "Hiim",
+       "video": "",
+       "recipes": {
+        "runes": [
+         {
+          "name": "El",
+          "img": "items/socketables/rune/El_Rune.png",
+          "tip": "so:el_rune",
+          "n": 1,
+          "rank": 1,
+          "for": [
+           "Fortitude"
+          ]
+         },
+         {
+          "name": "Ith",
+          "img": "items/socketables/rune/Ith_Rune.png",
+          "tip": "so:ith_rune",
+          "n": 1,
+          "rank": 6,
+          "for": [
+           "Mist"
+          ]
+         },
+         {
+          "name": "Thul",
+          "img": "items/socketables/rune/Thul_Rune.png",
+          "tip": "so:thul_rune",
+          "n": 1,
+          "rank": 10,
+          "for": [
+           "Mist"
+          ]
+         },
+         {
+          "name": "Sol",
+          "img": "items/socketables/rune/Sol_Rune.png",
+          "tip": "so:sol_rune",
+          "n": 1,
+          "rank": 12,
+          "for": [
+           "Fortitude"
+          ]
+         },
+         {
+          "name": "Shael",
+          "img": "items/socketables/rune/Shael_Rune.png",
+          "tip": "so:shael_rune",
+          "n": 1,
+          "rank": 13,
+          "for": [
+           "Mist"
+          ]
+         },
+         {
+          "name": "Dol",
+          "img": "items/socketables/rune/Dol_Rune.png",
+          "tip": "so:dol_rune",
+          "n": 1,
+          "rank": 14,
+          "for": [
+           "Fortitude"
+          ]
+         },
+         {
+          "name": "Gul",
+          "img": "items/socketables/rune/Gul_Rune.png",
+          "tip": "so:gul_rune",
+          "n": 1,
+          "rank": 25,
+          "for": [
+           "Mist"
+          ]
+         },
+         {
+          "name": "Lo",
+          "img": "items/socketables/rune/Lo_Rune.png",
+          "tip": "so:lo_rune",
+          "n": 1,
+          "rank": 28,
+          "for": [
+           "Fortitude"
+          ]
+         },
+         {
+          "name": "Cham",
+          "img": "items/socketables/rune/Cham_Rune.png",
+          "tip": "so:cham_rune",
+          "n": 1,
+          "rank": 32,
+          "for": [
+           "Mist"
+          ]
+         }
+        ],
+        "rw": [
+         {
+          "name": "Fortitude",
+          "tip": "rw:fortitude",
+          "slot": "armor",
+          "base": "Sacred Armor",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "El",
+           "Sol",
+           "Dol",
+           "Lo"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20134)"
+         },
+         {
+          "name": "Mist",
+          "tip": "rw:mist",
+          "slot": "merc weapon",
+          "base": "Colossus Crossbow",
+          "n": 5,
+          "eth": false,
+          "runes": [
+           "Cham",
+           "Shael",
+           "Gul",
+           "Thul",
+           "Ith"
+          ],
+          "larzuk": false,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20136)"
+         }
+        ],
+        "crafts": []
+       }
+      }
+     ],
+     "links": [],
+     "notes": "",
+     "runes_total": [
+      {
+       "name": "El",
+       "img": "items/socketables/rune/El_Rune.png",
+       "tip": "so:el_rune",
+       "n": 1,
+       "rank": 1
+      },
+      {
+       "name": "Ith",
+       "img": "items/socketables/rune/Ith_Rune.png",
+       "tip": "so:ith_rune",
+       "n": 1,
+       "rank": 6
+      },
+      {
+       "name": "Thul",
+       "img": "items/socketables/rune/Thul_Rune.png",
+       "tip": "so:thul_rune",
+       "n": 1,
+       "rank": 10
+      },
+      {
+       "name": "Sol",
+       "img": "items/socketables/rune/Sol_Rune.png",
+       "tip": "so:sol_rune",
+       "n": 1,
+       "rank": 12
+      },
+      {
+       "name": "Shael",
+       "img": "items/socketables/rune/Shael_Rune.png",
+       "tip": "so:shael_rune",
+       "n": 1,
+       "rank": 13
+      },
+      {
+       "name": "Dol",
+       "img": "items/socketables/rune/Dol_Rune.png",
+       "tip": "so:dol_rune",
+       "n": 1,
+       "rank": 14
+      },
+      {
+       "name": "Gul",
+       "img": "items/socketables/rune/Gul_Rune.png",
+       "tip": "so:gul_rune",
+       "n": 1,
+       "rank": 25
+      },
+      {
+       "name": "Lo",
+       "img": "items/socketables/rune/Lo_Rune.png",
+       "tip": "so:lo_rune",
+       "n": 1,
+       "rank": 28
+      },
+      {
+       "name": "Cham",
+       "img": "items/socketables/rune/Cham_Rune.png",
+       "tip": "so:cham_rune",
+       "n": 1,
+       "rank": 32
+      }
+     ]
     }
    ],
    "others": [
     {
      "name": "Fire Whirlwind (2x Flamebellow)",
-     "tier": "Mid"
+     "tier": "Mid",
+     "src": "hiim"
     },
     {
      "name": "Leap Attack (Physical)",
-     "tier": "Mid"
+     "tier": "Mid",
+     "src": "hiim"
+    },
+    {
+     "name": "Static Leap Attack 1H + Big Shouts",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/v7DCumd",
+     "author": "Hiim",
+     "opens": 306,
+     "n": 3,
+     "skills": [
+      "Battle Command",
+      "Battle Orders",
+      "Iron Skin",
+      "Leap Attack",
+      "One Hand Mastery"
+     ],
+     "tags": [
+      "hc",
+      "group"
+     ]
+    },
+    {
+     "name": "Grimward + Big Shouts",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/RwVXSaP",
+     "author": "Hiim",
+     "opens": 169,
+     "n": 2,
+     "skills": [
+      "Battle Command",
+      "Battle Cry",
+      "Battle Orders",
+      "Grim Ward",
+      "Iron Skin"
+     ],
+     "tags": [
+      "hc",
+      "group"
+     ]
+    },
+    {
+     "name": "Berserk",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/ZWoMm2S",
+     "author": "Hiim",
+     "opens": 94,
+     "n": 1,
+     "skills": [
+      "Berserk",
+      "Combat Reflexes",
+      "One Hand Mastery",
+      "Taunt"
+     ],
+     "tags": []
+    },
+    {
+     "name": "Leap Attack",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/sx3p6SS",
+     "author": "Hiim",
+     "opens": 58,
+     "n": 1,
+     "skills": [
+      "Bash",
+      "Battle Command",
+      "Leap",
+      "Leap Attack"
+     ],
+     "tags": []
+    },
+    {
+     "name": "OW Multiple Shot Barbarian",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/SghFLFX",
+     "author": "Wuslwiz",
+     "opens": 48,
+     "n": 1,
+     "skills": [
+      "Battle Command",
+      "Battle Cry",
+      "Combat Reflexes",
+      "Deep Wounds",
+      "Grim Ward"
+     ],
+     "tags": []
+    },
+    {
+     "name": "Leap Attack (Ele Proc)",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/WdFyslt",
+     "author": "Hiim",
+     "opens": 31,
+     "n": 1,
+     "skills": [
+      "Bash",
+      "Leap",
+      "Leap Attack"
+     ],
+     "tags": []
     }
    ],
    "starters": [
@@ -54901,9 +55649,798 @@
        "rank": 33
       }
      ]
+    },
+    {
+     "id": "fissure",
+     "name": "Fissure",
+     "tier": "Brez ocene",
+     "sort": 7166,
+     "main": {
+      "id": "fissure",
+      "name": "Fissure",
+      "req": 12,
+      "img": "skills/druid/Fissure.png",
+      "syn": [
+       "Firestorm",
+       "Molten Boulder"
+      ],
+      "tip": "sk:druid:fissure"
+     },
+     "clear": null,
+     "starter": null,
+     "boss": {},
+     "group": [],
+     "stats": null,
+     "respec": null,
+     "planners": [
+      {
+       "label": "Day 1",
+       "title": "Druid S14 - Fissure - Starter",
+       "level": 75,
+       "stats": {
+        "str": 22,
+        "dex": 0,
+        "vit": 363,
+        "ene": 0
+       },
+       "skills": [
+        {
+         "id": "firestorm",
+         "name": "Firestorm",
+         "req": 1,
+         "img": "skills/druid/Firestorm.png",
+         "syn": [
+          "Molten Boulder",
+          "Fissure"
+         ],
+         "tip": "sk:druid:firestorm",
+         "pts": 20
+        },
+        {
+         "id": "fissure",
+         "name": "Fissure",
+         "req": 12,
+         "img": "skills/druid/Fissure.png",
+         "syn": [
+          "Firestorm",
+          "Molten Boulder"
+         ],
+         "tip": "sk:druid:fissure",
+         "pts": 20
+        },
+        {
+         "id": "molten_boulder",
+         "name": "Molten Boulder",
+         "req": 6,
+         "img": "skills/druid/Molten Boulder.png",
+         "syn": [
+          "Fissure",
+          "Volcano",
+          "Armageddon"
+         ],
+         "tip": "sk:druid:molten_boulder",
+         "pts": 20
+        },
+        {
+         "id": "arctic_blast",
+         "name": "Arctic Blast",
+         "req": 1,
+         "img": "skills/druid/Arctic Blast.png",
+         "syn": [
+          "Hurricane",
+          "Tornado",
+          "Cyclone Armor"
+         ],
+         "tip": "sk:druid:arctic_blast",
+         "pts": 14
+        },
+        {
+         "id": "gust",
+         "name": "Gust",
+         "req": 18,
+         "img": "skills/druid/Gust.png",
+         "syn": [],
+         "tip": "sk:druid:gust",
+         "pts": 5
+        },
+        {
+         "id": "carrion_vine",
+         "name": "Carrion Vine",
+         "req": 12,
+         "img": "skills/druid/Carrion Vine.png",
+         "syn": [
+          "Oak Sage",
+          "Solar Creeper"
+         ],
+         "tip": "sk:druid:carrion_vine",
+         "pts": 1
+        },
+        {
+         "id": "cyclone_armor",
+         "name": "Cyclone Armor",
+         "req": 6,
+         "img": "skills/druid/Cyclone Armor.png",
+         "syn": [
+          "Twister",
+          "Tornado"
+         ],
+         "tip": "sk:druid:cyclone_armor",
+         "pts": 1
+        },
+        {
+         "id": "heart_of_wolverine",
+         "name": "Heart of Wolverine",
+         "req": 6,
+         "img": "skills/druid/Heart of Wolverine.png",
+         "syn": [],
+         "tip": "sk:druid:heart_of_wolverine",
+         "pts": 1
+        },
+        {
+         "id": "oak_sage",
+         "name": "Oak Sage",
+         "req": 30,
+         "img": "skills/druid/Oak Sage.png",
+         "syn": [
+          "Carrion Vine",
+          "Solar Creeper"
+         ],
+         "tip": "sk:druid:oak_sage",
+         "pts": 1
+        },
+        {
+         "id": "poison_creeper",
+         "name": "Poison Creeper",
+         "req": 1,
+         "img": "skills/druid/Poison Creeper.png",
+         "syn": [
+          "Carrion Vine",
+          "Solar Creeper",
+          "Rabies"
+         ],
+         "tip": "sk:druid:poison_creeper",
+         "pts": 1
+        },
+        {
+         "id": "solar_creeper",
+         "name": "Solar Creeper",
+         "req": 24,
+         "img": "skills/druid/Solar Creeper.png",
+         "syn": [
+          "Oak Sage",
+          "Carrion Vine"
+         ],
+         "tip": "sk:druid:solar_creeper",
+         "pts": 1
+        },
+        {
+         "id": "spirit_of_barbs",
+         "name": "Spirit of Barbs",
+         "req": 18,
+         "img": "skills/druid/Spirit of Barbs.png",
+         "syn": [
+          "Carrion Vine"
+         ],
+         "tip": "sk:druid:spirit_of_barbs",
+         "pts": 1
+        }
+       ],
+       "gear": {
+        "weapon": {
+         "eth": false,
+         "name": "Neophyte",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Thul",
+           "img": "items/socketables/rune/Thul_Rune.png",
+           "tip": "so:thul_rune"
+          },
+          {
+           "name": "Tir",
+           "img": "items/socketables/rune/Tir_Rune.png",
+           "tip": "so:tir_rune"
+          }
+         ],
+         "base": "Club",
+         "img": "items/weapon/mace/Club.png",
+         "bc": "clb",
+         "tip": "rw:neophyte"
+        },
+        "offhand": {
+         "eth": false,
+         "name": "Splendor",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Eth",
+           "img": "items/socketables/rune/Eth_Rune.png",
+           "tip": "so:eth_rune"
+          },
+          {
+           "name": "Lum",
+           "img": "items/socketables/rune/Lum_Rune.png",
+           "tip": "so:lum_rune"
+          }
+         ],
+         "base": "Small Shield",
+         "img": "items/offhand/Small_Shield.png",
+         "bc": "sml",
+         "tip": "rw:splendor"
+        },
+        "helm": {
+         "eth": false,
+         "name": "Lore",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Ort",
+           "img": "items/socketables/rune/Ort_Rune.png",
+           "tip": "so:ort_rune"
+          },
+          {
+           "name": "Sol",
+           "img": "items/socketables/rune/Sol_Rune.png",
+           "tip": "so:sol_rune"
+          }
+         ],
+         "base": "Wolf Head",
+         "img": "items/helm/Wolf_Head.png",
+         "bc": "dr1",
+         "tip": "rw:lore"
+        },
+        "armor": {
+         "eth": false,
+         "name": "Stealth",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Tal",
+           "img": "items/socketables/rune/Tal_Rune.png",
+           "tip": "so:tal_rune"
+          },
+          {
+           "name": "Eth",
+           "img": "items/socketables/rune/Eth_Rune.png",
+           "tip": "so:eth_rune"
+          }
+         ],
+         "base": "Quilted Armor",
+         "img": "items/armor/Quilted_Armor.png",
+         "bc": "qui",
+         "tip": "rw:stealth"
+        },
+        "gloves": {
+         "eth": false,
+         "name": "Caster Craft Gloves",
+         "q": "c",
+         "img": "items/gloves/Leather_Gloves.png",
+         "req": 10,
+         "base": "Leather Gloves",
+         "tip": "p:caster_craft_gloves"
+        },
+        "belt": {
+         "eth": false,
+         "name": "Caster Craft Belt",
+         "q": "c",
+         "img": "items/belt/Sash.png",
+         "req": 10,
+         "base": "Sash",
+         "tip": "p:caster_craft_belt"
+        },
+        "boots": {
+         "eth": false,
+         "name": "Grim tread",
+         "q": "c",
+         "base": "Leather Boots",
+         "img": null,
+         "tip": "c:954548147cbc"
+        },
+        "amulet": {
+         "eth": false,
+         "name": "Communal Amulet",
+         "q": "m",
+         "img": "items/amulet/Amulet_1.png",
+         "req": 3,
+         "base": null,
+         "tip": "p:communal_amulet"
+        },
+        "ring1": {
+         "eth": false,
+         "name": "Grim eye",
+         "q": "c",
+         "base": null,
+         "img": "items/ring/Ring_1.png",
+         "tip": "c:7d022327ccad"
+        },
+        "ring2": {
+         "eth": false,
+         "name": "Chaos finger",
+         "q": "c",
+         "base": null,
+         "img": "items/ring/Ring_1.png",
+         "tip": "c:f1829f5a852f"
+        }
+       },
+       "merc": {
+        "type": "ascendant_amplify_damage",
+        "name": "Ascendant (Amplify Damage)",
+        "aura": "Amplify Damage",
+        "gear": {
+         "helm": {
+          "eth": false,
+          "name": "Bitter casque",
+          "q": "c",
+          "base": "Helm",
+          "img": "items/helm/Helm.png",
+          "tip": "c:aaa276582324"
+         },
+         "armor": {
+          "eth": false,
+          "name": "Death suit",
+          "q": "c",
+          "base": "Breast Plate",
+          "img": "items/armor/Breast_Plate.png",
+          "tip": "c:8300b13e1dc9"
+         },
+         "gloves": {
+          "eth": false,
+          "name": "Grim fist",
+          "q": "c",
+          "base": "Heavy Gloves",
+          "img": "items/gloves/Heavy_Gloves.png",
+          "tip": "c:ee6f9081d600"
+         },
+         "boots": {
+          "eth": false,
+          "name": "Glyph greave",
+          "q": "c",
+          "base": "Chain Boots",
+          "img": "items/boots/Chain_Boots.png",
+          "tip": "c:1ddb83df13e9"
+         },
+         "belt": {
+          "eth": false,
+          "name": "GhoulRI cord",
+          "q": "c",
+          "base": "Girdle(H)",
+          "img": null,
+          "tip": "c:b859ce578436"
+         },
+         "weapon": {
+          "eth": false,
+          "name": "Infinity",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Ber",
+            "img": "items/socketables/rune/Ber_Rune.png",
+            "tip": "so:ber_rune"
+           },
+           {
+            "name": "Mal",
+            "img": "items/socketables/rune/Mal_Rune.png",
+            "tip": "so:mal_rune"
+           },
+           {
+            "name": "Ber",
+            "img": "items/socketables/rune/Ber_Rune.png",
+            "tip": "so:ber_rune"
+           },
+           {
+            "name": "Ist",
+            "img": "items/socketables/rune/Ist_Rune.png",
+            "tip": "so:ist_rune"
+           }
+          ],
+          "base": "Gnarled Staff",
+          "img": "items/weapon/staff/Gnarled_Staff.png",
+          "bc": "cst",
+          "tip": "rw:infinity"
+         }
+        }
+       },
+       "charms": [],
+       "phase": "start",
+       "progression": [],
+       "id": "W5ovhzx",
+       "url": "https://hiimpd2.com/b/W5ovhzx",
+       "author": "philanthropy777",
+       "video": "https://youtu.be/sjEKDbvzhEw?si=2NTBKp-831sAubIh&t=358",
+       "recipes": {
+        "runes": [
+         {
+          "name": "Tir",
+          "img": "items/socketables/rune/Tir_Rune.png",
+          "tip": "so:tir_rune",
+          "n": 1,
+          "rank": 3,
+          "for": [
+           "Neophyte"
+          ]
+         },
+         {
+          "name": "Eth",
+          "img": "items/socketables/rune/Eth_Rune.png",
+          "tip": "so:eth_rune",
+          "n": 2,
+          "rank": 5,
+          "for": [
+           "Splendor",
+           "Stealth"
+          ]
+         },
+         {
+          "name": "Ith",
+          "img": "items/socketables/rune/Ith_Rune.png",
+          "tip": "so:ith_rune",
+          "n": 1,
+          "rank": 6,
+          "for": [
+           "craft: Caster Craft Belt"
+          ],
+          "sn": 1
+         },
+         {
+          "name": "Tal",
+          "img": "items/socketables/rune/Tal_Rune.png",
+          "tip": "so:tal_rune",
+          "n": 1,
+          "rank": 7,
+          "for": [
+           "Stealth"
+          ]
+         },
+         {
+          "name": "Ort",
+          "img": "items/socketables/rune/Ort_Rune.png",
+          "tip": "so:ort_rune",
+          "n": 2,
+          "rank": 9,
+          "for": [
+           "Lore",
+           "craft: Caster Craft Gloves"
+          ],
+          "sn": 1
+         },
+         {
+          "name": "Thul",
+          "img": "items/socketables/rune/Thul_Rune.png",
+          "tip": "so:thul_rune",
+          "n": 1,
+          "rank": 10,
+          "for": [
+           "Neophyte"
+          ]
+         },
+         {
+          "name": "Sol",
+          "img": "items/socketables/rune/Sol_Rune.png",
+          "tip": "so:sol_rune",
+          "n": 1,
+          "rank": 12,
+          "for": [
+           "Lore"
+          ]
+         },
+         {
+          "name": "Lum",
+          "img": "items/socketables/rune/Lum_Rune.png",
+          "tip": "so:lum_rune",
+          "n": 1,
+          "rank": 17,
+          "for": [
+           "Splendor"
+          ]
+         },
+         {
+          "name": "Mal",
+          "img": "items/socketables/rune/Mal_Rune.png",
+          "tip": "so:mal_rune",
+          "n": 1,
+          "rank": 23,
+          "for": [
+           "Infinity"
+          ]
+         },
+         {
+          "name": "Ist",
+          "img": "items/socketables/rune/Ist_Rune.png",
+          "tip": "so:ist_rune",
+          "n": 1,
+          "rank": 24,
+          "for": [
+           "Infinity"
+          ]
+         },
+         {
+          "name": "Ber",
+          "img": "items/socketables/rune/Ber_Rune.png",
+          "tip": "so:ber_rune",
+          "n": 2,
+          "rank": 30,
+          "for": [
+           "Infinity"
+          ]
+         }
+        ],
+        "rw": [
+         {
+          "name": "Neophyte",
+          "tip": "rw:neophyte",
+          "slot": "weapon",
+          "base": "Club",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Thul",
+           "Tir"
+          ],
+          "larzuk": true,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20132)"
+         },
+         {
+          "name": "Splendor",
+          "tip": "rw:splendor",
+          "slot": "offhand",
+          "base": "Small Shield",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Eth",
+           "Lum"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Amn + Perfect Ruby + \u0161\u010dit (naklju\u010dno 1\u20132)"
+         },
+         {
+          "name": "Lore",
+          "tip": "rw:lore",
+          "slot": "helm",
+          "base": "Wolf Head",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Ort",
+           "Sol"
+          ],
+          "larzuk": false,
+          "cube": "Ral + Thul + Perfect Sapphire + \u010delada (naklju\u010dno 1\u20133)"
+         },
+         {
+          "name": "Stealth",
+          "tip": "rw:stealth",
+          "slot": "armor",
+          "base": "Quilted Armor",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Eth"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20132)"
+         },
+         {
+          "name": "Infinity",
+          "tip": "rw:infinity",
+          "slot": "merc weapon",
+          "base": "Gnarled Staff",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Ber",
+           "Mal",
+           "Ber",
+           "Ist"
+          ],
+          "larzuk": true,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20134)"
+         }
+        ],
+        "crafts": [
+         {
+          "name": "Caster Craft Gloves",
+          "tip": "cr:caster-gloves",
+          "slot": "gloves",
+          "type": "Gloves",
+          "ing": [
+           "Jewel",
+           "Ort Rune",
+           "Perfect Amethyst"
+          ],
+          "alt": [
+           "Caster Craft Infusion"
+          ],
+          "eth": true,
+          "lvl": 50
+         },
+         {
+          "name": "Caster Craft Belt",
+          "tip": "cr:caster-belt",
+          "slot": "belt",
+          "type": "Belt",
+          "ing": [
+           "Jewel",
+           "Ith Rune",
+           "Perfect Amethyst"
+          ],
+          "alt": [
+           "Caster Craft Infusion"
+          ],
+          "eth": true,
+          "lvl": 50
+         }
+        ]
+       }
+      }
+     ],
+     "links": [],
+     "notes": "Tags: Hell Cow",
+     "runes_total": [
+      {
+       "name": "Tir",
+       "img": "items/socketables/rune/Tir_Rune.png",
+       "tip": "so:tir_rune",
+       "n": 1,
+       "rank": 3
+      },
+      {
+       "name": "Eth",
+       "img": "items/socketables/rune/Eth_Rune.png",
+       "tip": "so:eth_rune",
+       "n": 2,
+       "rank": 5
+      },
+      {
+       "name": "Ith",
+       "img": "items/socketables/rune/Ith_Rune.png",
+       "tip": "so:ith_rune",
+       "n": 1,
+       "rank": 6
+      },
+      {
+       "name": "Tal",
+       "img": "items/socketables/rune/Tal_Rune.png",
+       "tip": "so:tal_rune",
+       "n": 1,
+       "rank": 7
+      },
+      {
+       "name": "Ort",
+       "img": "items/socketables/rune/Ort_Rune.png",
+       "tip": "so:ort_rune",
+       "n": 2,
+       "rank": 9
+      },
+      {
+       "name": "Thul",
+       "img": "items/socketables/rune/Thul_Rune.png",
+       "tip": "so:thul_rune",
+       "n": 1,
+       "rank": 10
+      },
+      {
+       "name": "Sol",
+       "img": "items/socketables/rune/Sol_Rune.png",
+       "tip": "so:sol_rune",
+       "n": 1,
+       "rank": 12
+      },
+      {
+       "name": "Lum",
+       "img": "items/socketables/rune/Lum_Rune.png",
+       "tip": "so:lum_rune",
+       "n": 1,
+       "rank": 17
+      },
+      {
+       "name": "Mal",
+       "img": "items/socketables/rune/Mal_Rune.png",
+       "tip": "so:mal_rune",
+       "n": 1,
+       "rank": 23
+      },
+      {
+       "name": "Ist",
+       "img": "items/socketables/rune/Ist_Rune.png",
+       "tip": "so:ist_rune",
+       "n": 1,
+       "rank": 24
+      },
+      {
+       "name": "Ber",
+       "img": "items/socketables/rune/Ber_Rune.png",
+       "tip": "so:ber_rune",
+       "n": 2,
+       "rank": 30
+      }
+     ]
     }
    ],
-   "others": [],
+   "others": [
+    {
+     "name": "Maul",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/wQ9okR4",
+     "author": "Hiim",
+     "opens": 185,
+     "n": 1,
+     "skills": [
+      "Heart of Wolverine",
+      "Lycanthropy",
+      "Maul",
+      "Werebear"
+     ],
+     "tags": []
+    },
+    {
+     "name": "Bleed Multishot proc build",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/PQH4sgY",
+     "author": "Bleed Multishot bear",
+     "opens": 84,
+     "n": 1,
+     "skills": [
+      "Heart of Wolverine",
+      "Hunger",
+      "Lycanthropy",
+      "Maul",
+      "Werebear"
+     ],
+     "tags": []
+    },
+    {
+     "name": "Ravens and Wolves - Early Game Gear",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/KNTvLPH",
+     "author": "TDL",
+     "opens": 44,
+     "n": 3,
+     "skills": [
+      "Heart of Wolverine",
+      "Raven",
+      "Summon Dire Wolf",
+      "Summon Spirit Wolf"
+     ],
+     "tags": []
+    },
+    {
+     "name": "HC early maul maps",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/BsILJ7w",
+     "author": "Orrc",
+     "opens": 25,
+     "n": 1,
+     "skills": [
+      "Hunger",
+      "Lycanthropy",
+      "Maul",
+      "Werebear"
+     ],
+     "tags": [
+      "hc"
+     ]
+    },
+    {
+     "name": "Maul",
+     "tier": "S13",
+     "src": "s13",
+     "pct": 13.9,
+     "total": 1499
+    },
+    {
+     "name": "Hunger",
+     "tier": "S13",
+     "src": "s13",
+     "pct": 5.1,
+     "total": 1499
+    }
+   ],
    "starters": [
     "Summons",
     "Bear - Shockwave",
@@ -67026,7 +68563,27 @@
    "others": [
     {
      "name": "Pure Revive (Eternity + Sacred Totem)",
-     "tier": "Bad"
+     "tier": "Bad",
+     "src": "hiim"
+    },
+    {
+     "name": "Only Phys Curses",
+     "tier": "skupnost",
+     "src": "gallery",
+     "url": "https://hiimpd2.com/b/tzJYCmH",
+     "author": "Hiim",
+     "opens": 96,
+     "n": 1,
+     "skills": [
+      "Amplify Damage",
+      "Curse Mastery",
+      "Golem Mastery",
+      "Life Tap",
+      "Weaken"
+     ],
+     "tags": [
+      "group"
+     ]
     }
    ],
    "starters": [
@@ -81864,24 +83421,3633 @@
      "links": [],
      "notes": "",
      "runes_total": []
+    },
+    {
+     "id": "blessed-hammer-procs",
+     "name": "Blessed Hammer Procs",
+     "tier": "Brez ocene",
+     "sort": 7110,
+     "main": {
+      "id": "blessed_hammer",
+      "name": "Blessed Hammer",
+      "req": 18,
+      "img": "skills/paladin/Blessed Hammer.png",
+      "syn": [
+       "Blessed Aim",
+       "Vigor"
+      ],
+      "tip": "sk:paladin:blessed_hammer"
+     },
+     "clear": null,
+     "starter": {
+      "name": "Hammerdin",
+      "tags": [
+       "Chaos",
+       "Early Map"
+      ]
+     },
+     "boss": {},
+     "group": [],
+     "stats": {
+      "skill": "Blessed Hammer",
+      "n80": 76,
+      "n90": 30,
+      "n95": 4,
+      "items": [
+       [
+        "Arachnid Mesh",
+        63
+       ],
+       [
+        "Akarat's Devotion",
+        57
+       ],
+       [
+        "Ephemeral",
+        47
+       ],
+       [
+        "Herald of Zakarum",
+        43
+       ],
+       [
+        "Trang-Oul's Claws",
+        43
+       ],
+       [
+        "Gheed's Fortune",
+        40
+       ],
+       [
+        "Enigma",
+        37
+       ],
+       [
+        "Harlequin Crest",
+        33
+       ],
+       [
+        "Spirit",
+        30
+       ],
+       [
+        "Heart of the Oak",
+        27
+       ],
+       [
+        "Occultist",
+        23
+       ],
+       [
+        "Mara's Kaleidoscope",
+        17
+       ],
+       [
+        "Griswold's Heart",
+        17
+       ],
+       [
+        "Magefist",
+        13
+       ],
+       [
+        "Constricting Loop",
+        13
+       ]
+      ],
+      "mercs": [
+       [
+        "Defensive Auras",
+        67
+       ],
+       [
+        "Cold Arrow",
+        17
+       ],
+       [
+        "Cold Spells",
+        7
+       ]
+      ]
+     },
+     "respec": {
+      "early": 10,
+      "same": 2,
+      "day95": 14.0,
+      "firstSkills": [
+       [
+        "Holy Bolt",
+        4
+       ],
+       [
+        "Fist of the Heavens",
+        4
+       ],
+       [
+        "Holy Nova",
+        4
+       ],
+       [
+        "Holy Light",
+        4
+       ],
+       [
+        "Blessed Aim",
+        4
+       ],
+       [
+        "Blessed Hammer",
+        2
+       ]
+      ]
+     },
+     "planners": [
+      {
+       "label": "Heart of the Oak variant {Auto-Generated}",
+       "title": "Blessed Hammer Procs",
+       "level": 93,
+       "stats": {
+        "str": 0,
+        "dex": 0,
+        "vit": 0,
+        "ene": 0
+       },
+       "skills": [
+        {
+         "id": "blessed_aim",
+         "name": "Blessed Aim",
+         "req": 12,
+         "img": "skills/paladin/Blessed Aim.png",
+         "syn": [],
+         "tip": "sk:paladin:blessed_aim",
+         "pts": 20
+        },
+        {
+         "id": "blessed_hammer",
+         "name": "Blessed Hammer",
+         "req": 18,
+         "img": "skills/paladin/Blessed Hammer.png",
+         "syn": [
+          "Blessed Aim",
+          "Vigor"
+         ],
+         "tip": "sk:paladin:blessed_hammer",
+         "pts": 20
+        },
+        {
+         "id": "concentration",
+         "name": "Concentration",
+         "req": 18,
+         "img": "skills/paladin/Concentration.png",
+         "syn": [],
+         "tip": "sk:paladin:concentration",
+         "pts": 20
+        },
+        {
+         "id": "vigor",
+         "name": "Vigor",
+         "req": 18,
+         "img": "skills/paladin/Vigor.png",
+         "syn": [],
+         "tip": "sk:paladin:vigor",
+         "pts": 20
+        },
+        {
+         "id": "joust",
+         "name": "Joust",
+         "req": 24,
+         "img": "skills/paladin/Joust.png",
+         "syn": [],
+         "tip": "sk:paladin:joust",
+         "pts": 12
+        },
+        {
+         "id": "charge",
+         "name": "Charge",
+         "req": 12,
+         "img": "skills/paladin/Charge.png",
+         "syn": [
+          "Vigor",
+          "Might"
+         ],
+         "tip": "sk:paladin:charge",
+         "pts": 1
+        },
+        {
+         "id": "defiance",
+         "name": "Defiance",
+         "req": 6,
+         "img": "skills/paladin/Defiance.png",
+         "syn": [],
+         "tip": "sk:paladin:defiance",
+         "pts": 1
+        },
+        {
+         "id": "holy_bolt",
+         "name": "Holy Bolt",
+         "req": 1,
+         "img": "skills/paladin/Holy Bolt.png",
+         "syn": [
+          "Holy Light",
+          "Fist of the Heavens",
+          "Holy Nova",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_bolt",
+         "pts": 1
+        },
+        {
+         "id": "holy_light",
+         "name": "Holy Light",
+         "req": 12,
+         "img": "skills/paladin/Holy Light.png",
+         "syn": [
+          "Holy Bolt",
+          "Fist of the Heavens",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_light",
+         "pts": 1
+        },
+        {
+         "id": "holy_shield",
+         "name": "Holy Shield",
+         "req": 18,
+         "img": "skills/paladin/Holy Shield.png",
+         "syn": [
+          "Smite",
+          "Defiance",
+          "Defiance"
+         ],
+         "tip": "sk:paladin:holy_shield",
+         "pts": 1
+        },
+        {
+         "id": "might",
+         "name": "Might",
+         "req": 1,
+         "img": "skills/paladin/Might.png",
+         "syn": [],
+         "tip": "sk:paladin:might",
+         "pts": 1
+        },
+        {
+         "id": "prayer",
+         "name": "Prayer",
+         "req": 1,
+         "img": "skills/paladin/Prayer.png",
+         "syn": [],
+         "tip": "sk:paladin:prayer",
+         "pts": 1
+        },
+        {
+         "id": "redemption",
+         "name": "Redemption",
+         "req": 30,
+         "img": "skills/paladin/Redemption.png",
+         "syn": [],
+         "tip": "sk:paladin:redemption",
+         "pts": 1
+        },
+        {
+         "id": "sacrifice",
+         "name": "Sacrifice",
+         "req": 6,
+         "img": "skills/paladin/Sacrifice.png",
+         "syn": [
+          "Redemption",
+          "Fanaticism"
+         ],
+         "tip": "sk:paladin:sacrifice",
+         "pts": 1
+        },
+        {
+         "id": "smite",
+         "name": "Smite",
+         "req": 1,
+         "img": "skills/paladin/Smite.png",
+         "syn": [],
+         "tip": "sk:paladin:smite",
+         "pts": 1
+        },
+        {
+         "id": "vengeance",
+         "name": "Vengeance",
+         "req": 18,
+         "img": "skills/paladin/Vengeance.png",
+         "syn": [
+          "Holy Fire",
+          "Holy Freeze",
+          "Holy Shock",
+          "Conviction"
+         ],
+         "tip": "sk:paladin:vengeance",
+         "pts": 1
+        },
+        {
+         "id": "zeal",
+         "name": "Zeal",
+         "req": 1,
+         "img": "skills/paladin/Zeal.png",
+         "syn": [
+          "Sacrifice"
+         ],
+         "tip": "sk:paladin:zeal",
+         "pts": 1
+        }
+       ],
+       "gear": {
+        "weapon": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Akarat's Devotion",
+         "q": "u",
+         "img": "items/weapon/scepter/special/Akarat's_Devotion.png",
+         "req": 74,
+         "base": "Seraph Rod",
+         "tip": "u:akarats_devotion"
+        },
+        "offhand": {
+         "eth": false,
+         "corr": "All Skills",
+         "name": "Herald of Zakarum",
+         "q": "u",
+         "img": "items/offhand/special/Herald_of_Zakarum.png",
+         "req": 42,
+         "base": "Gilded Shield",
+         "tip": "u:herald_of_zakarum"
+        },
+        "helm": {
+         "eth": false,
+         "corr": "Skill",
+         "name": "2/20 Circlet Paladin",
+         "q": "y",
+         "img": "items/helm/Diadem.png",
+         "req": 20,
+         "base": "Diadem",
+         "tip": "p:2_20_circlet_paladin"
+        },
+        "armor": {
+         "eth": false,
+         "name": "Enigma",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Jah",
+           "img": "items/socketables/rune/Jah_Rune.png",
+           "tip": "so:jah_rune"
+          },
+          {
+           "name": "Ith",
+           "img": "items/socketables/rune/Ith_Rune.png",
+           "tip": "so:ith_rune"
+          },
+          {
+           "name": "Ber",
+           "img": "items/socketables/rune/Ber_Rune.png",
+           "tip": "so:ber_rune"
+          }
+         ],
+         "base": "Kraken Shell",
+         "img": "items/armor/Field_Plate.png",
+         "bc": "uld",
+         "tip": "rw:enigma"
+        },
+        "gloves": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Trang-Oul's Claws",
+         "q": "s",
+         "img": "items/gloves/special/Trang-Oul's_Claws.png",
+         "req": 45,
+         "base": "Heavy Bracers",
+         "tip": "u:trang_ouls_claws"
+        },
+        "belt": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Arachnid Mesh",
+         "q": "u",
+         "img": "items/belt/special/Arachnid_Mesh.png",
+         "req": 80,
+         "base": "Spiderweb Sash",
+         "tip": "u:arachnid_mesh"
+        },
+        "boots": {
+         "eth": false,
+         "corr": "Mana per kill",
+         "name": "Imp Shank",
+         "q": "y",
+         "img": "items/boots/Chain_Boots.png",
+         "req": 30,
+         "base": "Mesh Boots",
+         "tip": "p:imp_shank"
+        },
+        "amulet": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Blood Craft - Paladin",
+         "q": "c",
+         "img": "items/amulet/Amulet_1.png",
+         "req": 20,
+         "base": null,
+         "tip": "p:blood_craft_paladin"
+        },
+        "ring1": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Bul Katho's Wedding Band",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 58,
+         "base": null,
+         "tip": "u:bul_kathos_wedding_band"
+        },
+        "ring2": {
+         "eth": false,
+         "corr": "Life per kill",
+         "name": "Wisp Projector",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 76,
+         "base": null,
+         "tip": "u:wisp_projector"
+        },
+        "swapWeapon": {
+         "eth": false,
+         "name": "Call to Arms",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Amn",
+           "img": "items/socketables/rune/Amn_Rune.png",
+           "tip": "so:amn_rune"
+          },
+          {
+           "name": "Ral",
+           "img": "items/socketables/rune/Ral_Rune.png",
+           "tip": "so:ral_rune"
+          },
+          {
+           "name": "Mal",
+           "img": "items/socketables/rune/Mal_Rune.png",
+           "tip": "so:mal_rune"
+          },
+          {
+           "name": "Ist",
+           "img": "items/socketables/rune/Ist_Rune.png",
+           "tip": "so:ist_rune"
+          },
+          {
+           "name": "Ohm",
+           "img": "items/socketables/rune/Ohm_Rune.png",
+           "tip": "so:ohm_rune"
+          }
+         ],
+         "base": "Crystal Sword",
+         "img": "items/weapon/sword/Crystal_Sword.png",
+         "bc": "crs",
+         "tip": "rw:call_to_arms"
+        },
+        "swapOffhand": {
+         "eth": false,
+         "name": "Herald of Zakarum",
+         "q": "u",
+         "img": "items/offhand/special/Herald_of_Zakarum.png",
+         "req": 42,
+         "base": "Gilded Shield",
+         "tip": "u:herald_of_zakarum"
+        }
+       },
+       "merc": {
+        "type": "iron_wolf_static_field",
+        "name": "Iron Wolf (Static Field)",
+        "aura": "Static Field",
+        "gear": {
+         "helm": {
+          "eth": false,
+          "name": "Griffon's Eye",
+          "q": "u",
+          "img": "items/helm/special/Griffon's_Eye.png",
+          "req": 76,
+          "base": "Diadem",
+          "tip": "u:griffons_eye"
+         },
+         "armor": {
+          "eth": false,
+          "name": "Innocence",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Gul",
+            "img": "items/socketables/rune/Gul_Rune.png",
+            "tip": "so:gul_rune"
+           },
+           {
+            "name": "Lem",
+            "img": "items/socketables/rune/Lem_Rune.png",
+            "tip": "so:lem_rune"
+           },
+           {
+            "name": "Zod",
+            "img": "items/socketables/rune/Zod_Rune.png",
+            "tip": "so:zod_rune"
+           },
+           {
+            "name": "Hel",
+            "img": "items/socketables/rune/Hel_Rune.png",
+            "tip": "so:hel_rune"
+           }
+          ],
+          "base": "Archon Plate",
+          "img": "items/armor/Light_Plate.png",
+          "bc": "utp",
+          "tip": "rw:innocence"
+         },
+         "weapon": {
+          "eth": false,
+          "name": "Azurewrath",
+          "q": "u",
+          "img": "items/weapon/sword/special/Azurewrath.png",
+          "req": 85,
+          "base": "Phase Blade",
+          "tip": "u:azurewrath"
+         },
+         "offhand": {
+          "eth": false,
+          "name": "Exile",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Vex",
+            "img": "items/socketables/rune/Vex_Rune.png",
+            "tip": "so:vex_rune"
+           },
+           {
+            "name": "Ohm",
+            "img": "items/socketables/rune/Ohm_Rune.png",
+            "tip": "so:ohm_rune"
+           },
+           {
+            "name": "Ist",
+            "img": "items/socketables/rune/Ist_Rune.png",
+            "tip": "so:ist_rune"
+           },
+           {
+            "name": "Dol",
+            "img": "items/socketables/rune/Dol_Rune.png",
+            "tip": "so:dol_rune"
+           }
+          ],
+          "base": "Vortex Shield",
+          "img": "items/offhand/Crown_Shield.png",
+          "bc": "paf",
+          "tip": "rw:exile"
+         },
+         "gloves": {
+          "eth": false,
+          "name": "Trang-Oul's Claws",
+          "q": "s",
+          "img": "items/gloves/special/Trang-Oul's_Claws.png",
+          "req": 45,
+          "base": "Heavy Bracers",
+          "tip": "u:trang_ouls_claws"
+         },
+         "boots": {
+          "eth": false,
+          "name": "Marrowwalk",
+          "q": "u",
+          "img": "items/boots/special/Marrowwalk.png",
+          "req": 66,
+          "base": "Boneweave Boots",
+          "tip": "u:marrowwalk"
+         },
+         "belt": {
+          "eth": false,
+          "name": "Arachnid Mesh",
+          "q": "u",
+          "img": "items/belt/special/Arachnid_Mesh.png",
+          "req": 80,
+          "base": "Spiderweb Sash",
+          "tip": "u:arachnid_mesh"
+         }
+        }
+       },
+       "charms": [
+        {
+         "eth": false,
+         "name": "Hellfire Torch",
+         "q": "u",
+         "img": "items/charms/charm2u.png",
+         "req": 75,
+         "base": null,
+         "tip": "p:hellfire_torch"
+        },
+        {
+         "eth": false,
+         "name": "Annihilus",
+         "q": "u",
+         "img": "items/charms/charm1u.png",
+         "req": 70,
+         "base": null,
+         "tip": "p:annihilus"
+        }
+       ],
+       "phase": "end",
+       "progression": [],
+       "id": "akVyJTf",
+       "url": "https://hiimpd2.com/b/akVyJTf",
+       "author": "Hiim",
+       "video": "",
+       "recipes": {
+        "runes": [
+         {
+          "name": "Ith",
+          "img": "items/socketables/rune/Ith_Rune.png",
+          "tip": "so:ith_rune",
+          "n": 1,
+          "rank": 6,
+          "for": [
+           "Enigma"
+          ]
+         },
+         {
+          "name": "Ral",
+          "img": "items/socketables/rune/Ral_Rune.png",
+          "tip": "so:ral_rune",
+          "n": 1,
+          "rank": 8,
+          "for": [
+           "Call to Arms"
+          ]
+         },
+         {
+          "name": "Amn",
+          "img": "items/socketables/rune/Amn_Rune.png",
+          "tip": "so:amn_rune",
+          "n": 2,
+          "rank": 11,
+          "for": [
+           "craft: Blood Craft - Paladin",
+           "Call to Arms"
+          ],
+          "sn": 1
+         },
+         {
+          "name": "Dol",
+          "img": "items/socketables/rune/Dol_Rune.png",
+          "tip": "so:dol_rune",
+          "n": 1,
+          "rank": 14,
+          "for": [
+           "Exile"
+          ]
+         },
+         {
+          "name": "Hel",
+          "img": "items/socketables/rune/Hel_Rune.png",
+          "tip": "so:hel_rune",
+          "n": 1,
+          "rank": 15,
+          "for": [
+           "Innocence"
+          ]
+         },
+         {
+          "name": "Lem",
+          "img": "items/socketables/rune/Lem_Rune.png",
+          "tip": "so:lem_rune",
+          "n": 1,
+          "rank": 20,
+          "for": [
+           "Innocence"
+          ]
+         },
+         {
+          "name": "Mal",
+          "img": "items/socketables/rune/Mal_Rune.png",
+          "tip": "so:mal_rune",
+          "n": 1,
+          "rank": 23,
+          "for": [
+           "Call to Arms"
+          ]
+         },
+         {
+          "name": "Ist",
+          "img": "items/socketables/rune/Ist_Rune.png",
+          "tip": "so:ist_rune",
+          "n": 2,
+          "rank": 24,
+          "for": [
+           "Call to Arms",
+           "Exile"
+          ]
+         },
+         {
+          "name": "Gul",
+          "img": "items/socketables/rune/Gul_Rune.png",
+          "tip": "so:gul_rune",
+          "n": 1,
+          "rank": 25,
+          "for": [
+           "Innocence"
+          ]
+         },
+         {
+          "name": "Vex",
+          "img": "items/socketables/rune/Vex_Rune.png",
+          "tip": "so:vex_rune",
+          "n": 1,
+          "rank": 26,
+          "for": [
+           "Exile"
+          ]
+         },
+         {
+          "name": "Ohm",
+          "img": "items/socketables/rune/Ohm_Rune.png",
+          "tip": "so:ohm_rune",
+          "n": 2,
+          "rank": 27,
+          "for": [
+           "Call to Arms",
+           "Exile"
+          ]
+         },
+         {
+          "name": "Ber",
+          "img": "items/socketables/rune/Ber_Rune.png",
+          "tip": "so:ber_rune",
+          "n": 1,
+          "rank": 30,
+          "for": [
+           "Enigma"
+          ]
+         },
+         {
+          "name": "Jah",
+          "img": "items/socketables/rune/Jah_Rune.png",
+          "tip": "so:jah_rune",
+          "n": 1,
+          "rank": 31,
+          "for": [
+           "Enigma"
+          ]
+         },
+         {
+          "name": "Zod",
+          "img": "items/socketables/rune/Zod_Rune.png",
+          "tip": "so:zod_rune",
+          "n": 1,
+          "rank": 33,
+          "for": [
+           "Innocence"
+          ]
+         }
+        ],
+        "rw": [
+         {
+          "name": "Enigma",
+          "tip": "rw:enigma",
+          "slot": "armor",
+          "base": "Kraken Shell",
+          "n": 3,
+          "eth": false,
+          "runes": [
+           "Jah",
+           "Ith",
+           "Ber"
+          ],
+          "larzuk": false,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20134)"
+         },
+         {
+          "name": "Call to Arms",
+          "tip": "rw:call_to_arms",
+          "slot": "swapWeapon",
+          "base": "Crystal Sword",
+          "n": 5,
+          "eth": false,
+          "runes": [
+           "Amn",
+           "Ral",
+           "Mal",
+           "Ist",
+           "Ohm"
+          ],
+          "larzuk": false,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20136)"
+         },
+         {
+          "name": "Innocence",
+          "tip": "rw:innocence",
+          "slot": "merc armor",
+          "base": "Archon Plate",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Gul",
+           "Lem",
+           "Zod",
+           "Hel"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20134)"
+         },
+         {
+          "name": "Exile",
+          "tip": "rw:exile",
+          "slot": "merc offhand",
+          "base": "Vortex Shield",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Vex",
+           "Ohm",
+           "Ist",
+           "Dol"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Amn + Perfect Ruby + \u0161\u010dit (naklju\u010dno 1\u20134)"
+         }
+        ],
+        "crafts": [
+         {
+          "name": "Blood Craft - Paladin",
+          "tip": "cr:blood-amulet",
+          "slot": "amulet",
+          "type": "Amulet",
+          "ing": [
+           "Jewel",
+           "Amn Rune",
+           "Perfect Ruby"
+          ],
+          "alt": [
+           "Blood Craft Infusion"
+          ],
+          "eth": false,
+          "lvl": 50
+         }
+        ]
+       }
+      },
+      {
+       "label": "Planner",
+       "title": "Paladin \u2014 Hammerdin (S14) STARTER GAME",
+       "level": 75,
+       "stats": {
+        "str": 12,
+        "dex": 149,
+        "vit": 224,
+        "ene": 0
+       },
+       "skills": [
+        {
+         "id": "blessed_hammer",
+         "name": "Blessed Hammer",
+         "req": 18,
+         "img": "skills/paladin/Blessed Hammer.png",
+         "syn": [
+          "Blessed Aim",
+          "Vigor"
+         ],
+         "tip": "sk:paladin:blessed_hammer",
+         "pts": 20
+        },
+        {
+         "id": "vigor",
+         "name": "Vigor",
+         "req": 18,
+         "img": "skills/paladin/Vigor.png",
+         "syn": [],
+         "tip": "sk:paladin:vigor",
+         "pts": 20
+        },
+        {
+         "id": "concentration",
+         "name": "Concentration",
+         "req": 18,
+         "img": "skills/paladin/Concentration.png",
+         "syn": [],
+         "tip": "sk:paladin:concentration",
+         "pts": 19
+        },
+        {
+         "id": "blessed_aim",
+         "name": "Blessed Aim",
+         "req": 12,
+         "img": "skills/paladin/Blessed Aim.png",
+         "syn": [],
+         "tip": "sk:paladin:blessed_aim",
+         "pts": 15
+        },
+        {
+         "id": "charge",
+         "name": "Charge",
+         "req": 12,
+         "img": "skills/paladin/Charge.png",
+         "syn": [
+          "Vigor",
+          "Might"
+         ],
+         "tip": "sk:paladin:charge",
+         "pts": 1
+        },
+        {
+         "id": "defiance",
+         "name": "Defiance",
+         "req": 6,
+         "img": "skills/paladin/Defiance.png",
+         "syn": [],
+         "tip": "sk:paladin:defiance",
+         "pts": 1
+        },
+        {
+         "id": "holy_bolt",
+         "name": "Holy Bolt",
+         "req": 1,
+         "img": "skills/paladin/Holy Bolt.png",
+         "syn": [
+          "Holy Light",
+          "Fist of the Heavens",
+          "Holy Nova",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_bolt",
+         "pts": 1
+        },
+        {
+         "id": "holy_light",
+         "name": "Holy Light",
+         "req": 12,
+         "img": "skills/paladin/Holy Light.png",
+         "syn": [
+          "Holy Bolt",
+          "Fist of the Heavens",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_light",
+         "pts": 1
+        },
+        {
+         "id": "holy_shield",
+         "name": "Holy Shield",
+         "req": 18,
+         "img": "skills/paladin/Holy Shield.png",
+         "syn": [
+          "Smite",
+          "Defiance",
+          "Defiance"
+         ],
+         "tip": "sk:paladin:holy_shield",
+         "pts": 1
+        },
+        {
+         "id": "joust",
+         "name": "Joust",
+         "req": 24,
+         "img": "skills/paladin/Joust.png",
+         "syn": [],
+         "tip": "sk:paladin:joust",
+         "pts": 1
+        },
+        {
+         "id": "might",
+         "name": "Might",
+         "req": 1,
+         "img": "skills/paladin/Might.png",
+         "syn": [],
+         "tip": "sk:paladin:might",
+         "pts": 1
+        },
+        {
+         "id": "prayer",
+         "name": "Prayer",
+         "req": 1,
+         "img": "skills/paladin/Prayer.png",
+         "syn": [],
+         "tip": "sk:paladin:prayer",
+         "pts": 1
+        },
+        {
+         "id": "sacrifice",
+         "name": "Sacrifice",
+         "req": 6,
+         "img": "skills/paladin/Sacrifice.png",
+         "syn": [
+          "Redemption",
+          "Fanaticism"
+         ],
+         "tip": "sk:paladin:sacrifice",
+         "pts": 1
+        },
+        {
+         "id": "smite",
+         "name": "Smite",
+         "req": 1,
+         "img": "skills/paladin/Smite.png",
+         "syn": [],
+         "tip": "sk:paladin:smite",
+         "pts": 1
+        },
+        {
+         "id": "vengeance",
+         "name": "Vengeance",
+         "req": 18,
+         "img": "skills/paladin/Vengeance.png",
+         "syn": [
+          "Holy Fire",
+          "Holy Freeze",
+          "Holy Shock",
+          "Conviction"
+         ],
+         "tip": "sk:paladin:vengeance",
+         "pts": 1
+        },
+        {
+         "id": "zeal",
+         "name": "Zeal",
+         "req": 1,
+         "img": "skills/paladin/Zeal.png",
+         "syn": [
+          "Sacrifice"
+         ],
+         "tip": "sk:paladin:zeal",
+         "pts": 1
+        }
+       ],
+       "gear": {
+        "weapon": {
+         "eth": false,
+         "name": "Spirit",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Tal",
+           "img": "items/socketables/rune/Tal_Rune.png",
+           "tip": "so:tal_rune"
+          },
+          {
+           "name": "Thul",
+           "img": "items/socketables/rune/Thul_Rune.png",
+           "tip": "so:thul_rune"
+          },
+          {
+           "name": "Ort",
+           "img": "items/socketables/rune/Ort_Rune.png",
+           "tip": "so:ort_rune"
+          },
+          {
+           "name": "Amn",
+           "img": "items/socketables/rune/Amn_Rune.png",
+           "tip": "so:amn_rune"
+          }
+         ],
+         "base": "Crystal Sword",
+         "img": "items/weapon/sword/Crystal_Sword.png",
+         "bc": "crs",
+         "tip": "rw:spirit"
+        },
+        "offhand": {
+         "eth": false,
+         "name": "Spirit",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Tal",
+           "img": "items/socketables/rune/Tal_Rune.png",
+           "tip": "so:tal_rune"
+          },
+          {
+           "name": "Thul",
+           "img": "items/socketables/rune/Thul_Rune.png",
+           "tip": "so:thul_rune"
+          },
+          {
+           "name": "Ort",
+           "img": "items/socketables/rune/Ort_Rune.png",
+           "tip": "so:ort_rune"
+          },
+          {
+           "name": "Amn",
+           "img": "items/socketables/rune/Amn_Rune.png",
+           "tip": "so:amn_rune"
+          }
+         ],
+         "base": "Heraldic Shield",
+         "img": "items/offhand/Heraldic_Shield.png",
+         "bc": "pa3",
+         "tip": "rw:spirit"
+        },
+        "helm": {
+         "eth": false,
+         "name": "Lore",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Ort",
+           "img": "items/socketables/rune/Ort_Rune.png",
+           "tip": "so:ort_rune"
+          },
+          {
+           "name": "Sol",
+           "img": "items/socketables/rune/Sol_Rune.png",
+           "tip": "so:sol_rune"
+          }
+         ],
+         "base": "Cap/hat",
+         "img": null,
+         "bc": "cap",
+         "tip": "rw:lore"
+        },
+        "armor": {
+         "eth": false,
+         "name": "Stealth",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Tal",
+           "img": "items/socketables/rune/Tal_Rune.png",
+           "tip": "so:tal_rune"
+          },
+          {
+           "name": "Eth",
+           "img": "items/socketables/rune/Eth_Rune.png",
+           "tip": "so:eth_rune"
+          }
+         ],
+         "base": "Quilted Armor",
+         "img": "items/armor/Quilted_Armor.png",
+         "bc": "qui",
+         "tip": "rw:stealth"
+        },
+        "gloves": {
+         "eth": false,
+         "name": "Caster Craft Gloves",
+         "q": "c",
+         "img": "items/gloves/Leather_Gloves.png",
+         "req": 10,
+         "base": "Leather Gloves",
+         "tip": "p:caster_craft_gloves"
+        },
+        "belt": {
+         "eth": false,
+         "name": "Caster Craft Belt",
+         "q": "c",
+         "img": "items/belt/Sash.png",
+         "req": 10,
+         "base": "Sash",
+         "tip": "p:caster_craft_belt"
+        },
+        "boots": {
+         "eth": false,
+         "name": "Grim tread",
+         "q": "c",
+         "base": "Leather Boots",
+         "img": null,
+         "tip": "c:954548147cbc"
+        },
+        "amulet": {
+         "eth": false,
+         "name": "Rose Branded Amulet",
+         "q": "m",
+         "img": "items/amulet/Amulet_1.png",
+         "req": 3,
+         "base": null,
+         "tip": "p:rose_branded_amulet"
+        },
+        "ring1": {
+         "eth": false,
+         "name": "Grim eye",
+         "q": "c",
+         "base": null,
+         "img": "items/ring/Ring_1.png",
+         "tip": "c:7d022327ccad"
+        },
+        "ring2": {
+         "eth": false,
+         "name": "Chaos finger",
+         "q": "c",
+         "base": null,
+         "img": "items/ring/Ring_1.png",
+         "tip": "c:f1829f5a852f"
+        }
+       },
+       "merc": {
+        "type": "desert_guard_defiance",
+        "name": "Desert Guard (Defiance)",
+        "aura": "Defiance",
+        "gear": {
+         "weapon": {
+          "eth": false,
+          "name": "Insight",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Ral",
+            "img": "items/socketables/rune/Ral_Rune.png",
+            "tip": "so:ral_rune"
+           },
+           {
+            "name": "Tir",
+            "img": "items/socketables/rune/Tir_Rune.png",
+            "tip": "so:tir_rune"
+           },
+           {
+            "name": "Tal",
+            "img": "items/socketables/rune/Tal_Rune.png",
+            "tip": "so:tal_rune"
+           },
+           {
+            "name": "Sol",
+            "img": "items/socketables/rune/Sol_Rune.png",
+            "tip": "so:sol_rune"
+           }
+          ],
+          "base": "Trident",
+          "img": "items/weapon/spear/Trident.png",
+          "bc": "tri",
+          "tip": "rw:insight"
+         },
+         "helm": {
+          "eth": false,
+          "name": "Bitter casque",
+          "q": "c",
+          "base": "Helm",
+          "img": "items/helm/Helm.png",
+          "tip": "c:aaa276582324"
+         },
+         "armor": {
+          "eth": false,
+          "name": "Death suit",
+          "q": "c",
+          "base": "Breast Plate",
+          "img": "items/armor/Breast_Plate.png",
+          "tip": "c:8300b13e1dc9"
+         },
+         "gloves": {
+          "eth": false,
+          "name": "Grim fist",
+          "q": "c",
+          "base": "Heavy Gloves",
+          "img": "items/gloves/Heavy_Gloves.png",
+          "tip": "c:ee6f9081d600"
+         },
+         "boots": {
+          "eth": false,
+          "name": "Glyph greave",
+          "q": "c",
+          "base": "Chain Boots",
+          "img": "items/boots/Chain_Boots.png",
+          "tip": "c:1ddb83df13e9"
+         },
+         "belt": {
+          "eth": false,
+          "name": "GhoulRI cord",
+          "q": "c",
+          "base": "Girdle(H)",
+          "img": null,
+          "tip": "c:b859ce578436"
+         }
+        }
+       },
+       "charms": [],
+       "phase": "start",
+       "progression": [],
+       "id": "HuJlExO",
+       "url": "https://hiimpd2.com/b/HuJlExO",
+       "author": "philanthropy777",
+       "video": "https://youtu.be/7egBfrFA-HI?si=ML9wQN_BSwf7qeTN",
+       "recipes": {
+        "runes": [
+         {
+          "name": "Tir",
+          "img": "items/socketables/rune/Tir_Rune.png",
+          "tip": "so:tir_rune",
+          "n": 1,
+          "rank": 3,
+          "for": [
+           "Insight"
+          ]
+         },
+         {
+          "name": "Eth",
+          "img": "items/socketables/rune/Eth_Rune.png",
+          "tip": "so:eth_rune",
+          "n": 1,
+          "rank": 5,
+          "for": [
+           "Stealth"
+          ]
+         },
+         {
+          "name": "Ith",
+          "img": "items/socketables/rune/Ith_Rune.png",
+          "tip": "so:ith_rune",
+          "n": 1,
+          "rank": 6,
+          "for": [
+           "craft: Caster Craft Belt"
+          ],
+          "sn": 1
+         },
+         {
+          "name": "Tal",
+          "img": "items/socketables/rune/Tal_Rune.png",
+          "tip": "so:tal_rune",
+          "n": 4,
+          "rank": 7,
+          "for": [
+           "Spirit",
+           "Stealth",
+           "Insight"
+          ]
+         },
+         {
+          "name": "Ral",
+          "img": "items/socketables/rune/Ral_Rune.png",
+          "tip": "so:ral_rune",
+          "n": 1,
+          "rank": 8,
+          "for": [
+           "Insight"
+          ]
+         },
+         {
+          "name": "Ort",
+          "img": "items/socketables/rune/Ort_Rune.png",
+          "tip": "so:ort_rune",
+          "n": 4,
+          "rank": 9,
+          "for": [
+           "Spirit",
+           "Lore",
+           "craft: Caster Craft Gloves"
+          ],
+          "sn": 1
+         },
+         {
+          "name": "Thul",
+          "img": "items/socketables/rune/Thul_Rune.png",
+          "tip": "so:thul_rune",
+          "n": 2,
+          "rank": 10,
+          "for": [
+           "Spirit"
+          ]
+         },
+         {
+          "name": "Amn",
+          "img": "items/socketables/rune/Amn_Rune.png",
+          "tip": "so:amn_rune",
+          "n": 2,
+          "rank": 11,
+          "for": [
+           "Spirit"
+          ]
+         },
+         {
+          "name": "Sol",
+          "img": "items/socketables/rune/Sol_Rune.png",
+          "tip": "so:sol_rune",
+          "n": 2,
+          "rank": 12,
+          "for": [
+           "Lore",
+           "Insight"
+          ]
+         }
+        ],
+        "rw": [
+         {
+          "name": "Spirit",
+          "tip": "rw:spirit",
+          "slot": "weapon",
+          "base": "Crystal Sword",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Thul",
+           "Ort",
+           "Amn"
+          ],
+          "larzuk": false,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20136)"
+         },
+         {
+          "name": "Spirit",
+          "tip": "rw:spirit",
+          "slot": "offhand",
+          "base": "Heraldic Shield",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Thul",
+           "Ort",
+           "Amn"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Amn + Perfect Ruby + \u0161\u010dit (naklju\u010dno 1\u20134)"
+         },
+         {
+          "name": "Lore",
+          "tip": "rw:lore",
+          "slot": "helm",
+          "base": "Cap/hat",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Ort",
+           "Sol"
+          ],
+          "larzuk": true,
+          "cube": "Ral + Thul + Perfect Sapphire + \u010delada (naklju\u010dno 1\u20132)"
+         },
+         {
+          "name": "Stealth",
+          "tip": "rw:stealth",
+          "slot": "armor",
+          "base": "Quilted Armor",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Eth"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20132)"
+         },
+         {
+          "name": "Insight",
+          "tip": "rw:insight",
+          "slot": "merc weapon",
+          "base": "Trident",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Ral",
+           "Tir",
+           "Tal",
+           "Sol"
+          ],
+          "larzuk": true,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20134)"
+         }
+        ],
+        "crafts": [
+         {
+          "name": "Caster Craft Gloves",
+          "tip": "cr:caster-gloves",
+          "slot": "gloves",
+          "type": "Gloves",
+          "ing": [
+           "Jewel",
+           "Ort Rune",
+           "Perfect Amethyst"
+          ],
+          "alt": [
+           "Caster Craft Infusion"
+          ],
+          "eth": true,
+          "lvl": 50
+         },
+         {
+          "name": "Caster Craft Belt",
+          "tip": "cr:caster-belt",
+          "slot": "belt",
+          "type": "Belt",
+          "ing": [
+           "Jewel",
+           "Ith Rune",
+           "Perfect Amethyst"
+          ],
+          "alt": [
+           "Caster Craft Infusion"
+          ],
+          "eth": true,
+          "lvl": 50
+         }
+        ]
+       }
+      },
+      {
+       "label": "Starter",
+       "title": "Starter",
+       "level": 78,
+       "stats": {
+        "str": 0,
+        "dex": 0,
+        "vit": 0,
+        "ene": 0
+       },
+       "skills": [
+        {
+         "id": "blessed_aim",
+         "name": "Blessed Aim",
+         "req": 12,
+         "img": "skills/paladin/Blessed Aim.png",
+         "syn": [],
+         "tip": "sk:paladin:blessed_aim",
+         "pts": 20
+        },
+        {
+         "id": "blessed_hammer",
+         "name": "Blessed Hammer",
+         "req": 18,
+         "img": "skills/paladin/Blessed Hammer.png",
+         "syn": [
+          "Blessed Aim",
+          "Vigor"
+         ],
+         "tip": "sk:paladin:blessed_hammer",
+         "pts": 20
+        },
+        {
+         "id": "concentration",
+         "name": "Concentration",
+         "req": 18,
+         "img": "skills/paladin/Concentration.png",
+         "syn": [],
+         "tip": "sk:paladin:concentration",
+         "pts": 20
+        },
+        {
+         "id": "vigor",
+         "name": "Vigor",
+         "req": 18,
+         "img": "skills/paladin/Vigor.png",
+         "syn": [],
+         "tip": "sk:paladin:vigor",
+         "pts": 20
+        },
+        {
+         "id": "charge",
+         "name": "Charge",
+         "req": 12,
+         "img": "skills/paladin/Charge.png",
+         "syn": [
+          "Vigor",
+          "Might"
+         ],
+         "tip": "sk:paladin:charge",
+         "pts": 1
+        },
+        {
+         "id": "defiance",
+         "name": "Defiance",
+         "req": 6,
+         "img": "skills/paladin/Defiance.png",
+         "syn": [],
+         "tip": "sk:paladin:defiance",
+         "pts": 1
+        },
+        {
+         "id": "holy_bolt",
+         "name": "Holy Bolt",
+         "req": 1,
+         "img": "skills/paladin/Holy Bolt.png",
+         "syn": [
+          "Holy Light",
+          "Fist of the Heavens",
+          "Holy Nova",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_bolt",
+         "pts": 1
+        },
+        {
+         "id": "holy_light",
+         "name": "Holy Light",
+         "req": 12,
+         "img": "skills/paladin/Holy Light.png",
+         "syn": [
+          "Holy Bolt",
+          "Fist of the Heavens",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_light",
+         "pts": 1
+        },
+        {
+         "id": "holy_shield",
+         "name": "Holy Shield",
+         "req": 18,
+         "img": "skills/paladin/Holy Shield.png",
+         "syn": [
+          "Smite",
+          "Defiance",
+          "Defiance"
+         ],
+         "tip": "sk:paladin:holy_shield",
+         "pts": 1
+        },
+        {
+         "id": "might",
+         "name": "Might",
+         "req": 1,
+         "img": "skills/paladin/Might.png",
+         "syn": [],
+         "tip": "sk:paladin:might",
+         "pts": 1
+        },
+        {
+         "id": "prayer",
+         "name": "Prayer",
+         "req": 1,
+         "img": "skills/paladin/Prayer.png",
+         "syn": [],
+         "tip": "sk:paladin:prayer",
+         "pts": 1
+        },
+        {
+         "id": "redemption",
+         "name": "Redemption",
+         "req": 30,
+         "img": "skills/paladin/Redemption.png",
+         "syn": [],
+         "tip": "sk:paladin:redemption",
+         "pts": 1
+        },
+        {
+         "id": "smite",
+         "name": "Smite",
+         "req": 1,
+         "img": "skills/paladin/Smite.png",
+         "syn": [],
+         "tip": "sk:paladin:smite",
+         "pts": 1
+        }
+       ],
+       "gear": {
+        "weapon": {
+         "eth": false,
+         "name": "Spirit",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Tal",
+           "img": "items/socketables/rune/Tal_Rune.png",
+           "tip": "so:tal_rune"
+          },
+          {
+           "name": "Thul",
+           "img": "items/socketables/rune/Thul_Rune.png",
+           "tip": "so:thul_rune"
+          },
+          {
+           "name": "Ort",
+           "img": "items/socketables/rune/Ort_Rune.png",
+           "tip": "so:ort_rune"
+          },
+          {
+           "name": "Amn",
+           "img": "items/socketables/rune/Amn_Rune.png",
+           "tip": "so:amn_rune"
+          }
+         ],
+         "base": "Crystal Sword",
+         "img": "items/weapon/sword/Crystal_Sword.png",
+         "bc": "crs",
+         "tip": "rw:spirit"
+        },
+        "offhand": {
+         "eth": false,
+         "name": "Spirit",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Tal",
+           "img": "items/socketables/rune/Tal_Rune.png",
+           "tip": "so:tal_rune"
+          },
+          {
+           "name": "Thul",
+           "img": "items/socketables/rune/Thul_Rune.png",
+           "tip": "so:thul_rune"
+          },
+          {
+           "name": "Ort",
+           "img": "items/socketables/rune/Ort_Rune.png",
+           "tip": "so:ort_rune"
+          },
+          {
+           "name": "Amn",
+           "img": "items/socketables/rune/Amn_Rune.png",
+           "tip": "so:amn_rune"
+          }
+         ],
+         "base": "Rondache",
+         "img": "items/offhand/Rondache.png",
+         "bc": "pa2",
+         "tip": "rw:spirit"
+        },
+        "helm": {
+         "eth": false,
+         "name": "Lore",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Ort",
+           "img": "items/socketables/rune/Ort_Rune.png",
+           "tip": "so:ort_rune"
+          },
+          {
+           "name": "Sol",
+           "img": "items/socketables/rune/Sol_Rune.png",
+           "tip": "so:sol_rune"
+          }
+         ],
+         "base": "Bone Helm",
+         "img": "items/helm/Bone_Helm.png",
+         "bc": "bhm",
+         "tip": "rw:lore"
+        },
+        "armor": {
+         "eth": false,
+         "name": "Stealth",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Tal",
+           "img": "items/socketables/rune/Tal_Rune.png",
+           "tip": "so:tal_rune"
+          },
+          {
+           "name": "Eth",
+           "img": "items/socketables/rune/Eth_Rune.png",
+           "tip": "so:eth_rune"
+          }
+         ],
+         "base": "Light Plate",
+         "img": "items/armor/Light_Plate.png",
+         "bc": "ltp",
+         "tip": "rw:stealth"
+        },
+        "amulet": {
+         "eth": false,
+         "name": "Rose Branded Amulet",
+         "q": "m",
+         "img": "items/amulet/Amulet_1.png",
+         "req": 3,
+         "base": null,
+         "tip": "p:rose_branded_amulet"
+        }
+       },
+       "merc": {
+        "type": "ascendant_sanctuary",
+        "name": "Ascendant (Sanctuary)",
+        "aura": "Sanctuary",
+        "gear": {
+         "helm": {
+          "eth": false,
+          "name": "Lore",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Ort",
+            "img": "items/socketables/rune/Ort_Rune.png",
+            "tip": "so:ort_rune"
+           },
+           {
+            "name": "Sol",
+            "img": "items/socketables/rune/Sol_Rune.png",
+            "tip": "so:sol_rune"
+           }
+          ],
+          "base": "Bone Helm",
+          "img": "items/helm/Bone_Helm.png",
+          "bc": "bhm",
+          "tip": "rw:lore"
+         },
+         "armor": {
+          "eth": false,
+          "name": "Stealth",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Tal",
+            "img": "items/socketables/rune/Tal_Rune.png",
+            "tip": "so:tal_rune"
+           },
+           {
+            "name": "Eth",
+            "img": "items/socketables/rune/Eth_Rune.png",
+            "tip": "so:eth_rune"
+           }
+          ],
+          "base": "Light Plate",
+          "img": "items/armor/Light_Plate.png",
+          "bc": "ltp",
+          "tip": "rw:stealth"
+         },
+         "weapon": {
+          "eth": false,
+          "name": "Insight",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Ral",
+            "img": "items/socketables/rune/Ral_Rune.png",
+            "tip": "so:ral_rune"
+           },
+           {
+            "name": "Tir",
+            "img": "items/socketables/rune/Tir_Rune.png",
+            "tip": "so:tir_rune"
+           },
+           {
+            "name": "Tal",
+            "img": "items/socketables/rune/Tal_Rune.png",
+            "tip": "so:tal_rune"
+           },
+           {
+            "name": "Sol",
+            "img": "items/socketables/rune/Sol_Rune.png",
+            "tip": "so:sol_rune"
+           }
+          ],
+          "base": "Archon Staff",
+          "img": "items/weapon/staff/War_Staff.png",
+          "bc": "6ws",
+          "tip": "rw:insight"
+         }
+        }
+       },
+       "charms": [],
+       "phase": "start",
+       "progression": [],
+       "id": "XJ18hj7-strtr1",
+       "url": "https://hiimpd2.com/b/XJ18hj7",
+       "author": "LUNA",
+       "recipes": {
+        "runes": [
+         {
+          "name": "Tir",
+          "img": "items/socketables/rune/Tir_Rune.png",
+          "tip": "so:tir_rune",
+          "n": 1,
+          "rank": 3,
+          "for": [
+           "Insight"
+          ]
+         },
+         {
+          "name": "Eth",
+          "img": "items/socketables/rune/Eth_Rune.png",
+          "tip": "so:eth_rune",
+          "n": 2,
+          "rank": 5,
+          "for": [
+           "Stealth"
+          ]
+         },
+         {
+          "name": "Tal",
+          "img": "items/socketables/rune/Tal_Rune.png",
+          "tip": "so:tal_rune",
+          "n": 5,
+          "rank": 7,
+          "for": [
+           "Spirit",
+           "Stealth",
+           "Insight"
+          ]
+         },
+         {
+          "name": "Ral",
+          "img": "items/socketables/rune/Ral_Rune.png",
+          "tip": "so:ral_rune",
+          "n": 1,
+          "rank": 8,
+          "for": [
+           "Insight"
+          ]
+         },
+         {
+          "name": "Ort",
+          "img": "items/socketables/rune/Ort_Rune.png",
+          "tip": "so:ort_rune",
+          "n": 4,
+          "rank": 9,
+          "for": [
+           "Spirit",
+           "Lore"
+          ]
+         },
+         {
+          "name": "Thul",
+          "img": "items/socketables/rune/Thul_Rune.png",
+          "tip": "so:thul_rune",
+          "n": 2,
+          "rank": 10,
+          "for": [
+           "Spirit"
+          ]
+         },
+         {
+          "name": "Amn",
+          "img": "items/socketables/rune/Amn_Rune.png",
+          "tip": "so:amn_rune",
+          "n": 2,
+          "rank": 11,
+          "for": [
+           "Spirit"
+          ]
+         },
+         {
+          "name": "Sol",
+          "img": "items/socketables/rune/Sol_Rune.png",
+          "tip": "so:sol_rune",
+          "n": 3,
+          "rank": 12,
+          "for": [
+           "Lore",
+           "Insight"
+          ]
+         }
+        ],
+        "rw": [
+         {
+          "name": "Spirit",
+          "tip": "rw:spirit",
+          "slot": "weapon",
+          "base": "Crystal Sword",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Thul",
+           "Ort",
+           "Amn"
+          ],
+          "larzuk": false,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20136)"
+         },
+         {
+          "name": "Spirit",
+          "tip": "rw:spirit",
+          "slot": "offhand",
+          "base": "Rondache",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Thul",
+           "Ort",
+           "Amn"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Amn + Perfect Ruby + \u0161\u010dit (naklju\u010dno 1\u20134)"
+         },
+         {
+          "name": "Lore",
+          "tip": "rw:lore",
+          "slot": "helm",
+          "base": "Bone Helm",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Ort",
+           "Sol"
+          ],
+          "larzuk": true,
+          "cube": "Ral + Thul + Perfect Sapphire + \u010delada (naklju\u010dno 1\u20132)"
+         },
+         {
+          "name": "Stealth",
+          "tip": "rw:stealth",
+          "slot": "armor",
+          "base": "Light Plate",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Eth"
+          ],
+          "larzuk": false,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20133)"
+         },
+         {
+          "name": "Lore",
+          "tip": "rw:lore",
+          "slot": "merc helm",
+          "base": "Bone Helm",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Ort",
+           "Sol"
+          ],
+          "larzuk": true,
+          "cube": "Ral + Thul + Perfect Sapphire + \u010delada (naklju\u010dno 1\u20132)"
+         },
+         {
+          "name": "Stealth",
+          "tip": "rw:stealth",
+          "slot": "merc armor",
+          "base": "Light Plate",
+          "n": 2,
+          "eth": false,
+          "runes": [
+           "Tal",
+           "Eth"
+          ],
+          "larzuk": false,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20133)"
+         },
+         {
+          "name": "Insight",
+          "tip": "rw:insight",
+          "slot": "merc weapon",
+          "base": "Archon Staff",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Ral",
+           "Tir",
+           "Tal",
+           "Sol"
+          ],
+          "larzuk": false,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20136)"
+         }
+        ],
+        "crafts": []
+       }
+      },
+      {
+       "label": "End-game",
+       "title": "End-game",
+       "level": null,
+       "stats": null,
+       "skills": [],
+       "gear": {},
+       "merc": null,
+       "charms": [],
+       "phase": "end",
+       "progression": [],
+       "id": "XJ18hj7-endgm1",
+       "url": "https://hiimpd2.com/b/XJ18hj7",
+       "author": "LUNA",
+       "recipes": null
+      },
+      {
+       "label": "Planner",
+       "title": "Hammerdin",
+       "level": 99,
+       "stats": {
+        "str": 0,
+        "dex": 0,
+        "vit": 0,
+        "ene": 0
+       },
+       "skills": [
+        {
+         "id": "blessed_aim",
+         "name": "Blessed Aim",
+         "req": 12,
+         "img": "skills/paladin/Blessed Aim.png",
+         "syn": [],
+         "tip": "sk:paladin:blessed_aim",
+         "pts": 20
+        },
+        {
+         "id": "blessed_hammer",
+         "name": "Blessed Hammer",
+         "req": 18,
+         "img": "skills/paladin/Blessed Hammer.png",
+         "syn": [
+          "Blessed Aim",
+          "Vigor"
+         ],
+         "tip": "sk:paladin:blessed_hammer",
+         "pts": 20
+        },
+        {
+         "id": "concentration",
+         "name": "Concentration",
+         "req": 18,
+         "img": "skills/paladin/Concentration.png",
+         "syn": [],
+         "tip": "sk:paladin:concentration",
+         "pts": 20
+        },
+        {
+         "id": "joust",
+         "name": "Joust",
+         "req": 24,
+         "img": "skills/paladin/Joust.png",
+         "syn": [],
+         "tip": "sk:paladin:joust",
+         "pts": 20
+        },
+        {
+         "id": "vigor",
+         "name": "Vigor",
+         "req": 18,
+         "img": "skills/paladin/Vigor.png",
+         "syn": [],
+         "tip": "sk:paladin:vigor",
+         "pts": 20
+        },
+        {
+         "id": "charge",
+         "name": "Charge",
+         "req": 12,
+         "img": "skills/paladin/Charge.png",
+         "syn": [
+          "Vigor",
+          "Might"
+         ],
+         "tip": "sk:paladin:charge",
+         "pts": 1
+        },
+        {
+         "id": "defiance",
+         "name": "Defiance",
+         "req": 6,
+         "img": "skills/paladin/Defiance.png",
+         "syn": [],
+         "tip": "sk:paladin:defiance",
+         "pts": 1
+        },
+        {
+         "id": "holy_bolt",
+         "name": "Holy Bolt",
+         "req": 1,
+         "img": "skills/paladin/Holy Bolt.png",
+         "syn": [
+          "Holy Light",
+          "Fist of the Heavens",
+          "Holy Nova",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_bolt",
+         "pts": 1
+        },
+        {
+         "id": "holy_light",
+         "name": "Holy Light",
+         "req": 12,
+         "img": "skills/paladin/Holy Light.png",
+         "syn": [
+          "Holy Bolt",
+          "Fist of the Heavens",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_light",
+         "pts": 1
+        },
+        {
+         "id": "might",
+         "name": "Might",
+         "req": 1,
+         "img": "skills/paladin/Might.png",
+         "syn": [],
+         "tip": "sk:paladin:might",
+         "pts": 1
+        },
+        {
+         "id": "prayer",
+         "name": "Prayer",
+         "req": 1,
+         "img": "skills/paladin/Prayer.png",
+         "syn": [],
+         "tip": "sk:paladin:prayer",
+         "pts": 1
+        },
+        {
+         "id": "sacrifice",
+         "name": "Sacrifice",
+         "req": 6,
+         "img": "skills/paladin/Sacrifice.png",
+         "syn": [
+          "Redemption",
+          "Fanaticism"
+         ],
+         "tip": "sk:paladin:sacrifice",
+         "pts": 1
+        },
+        {
+         "id": "smite",
+         "name": "Smite",
+         "req": 1,
+         "img": "skills/paladin/Smite.png",
+         "syn": [],
+         "tip": "sk:paladin:smite",
+         "pts": 1
+        },
+        {
+         "id": "vengeance",
+         "name": "Vengeance",
+         "req": 18,
+         "img": "skills/paladin/Vengeance.png",
+         "syn": [
+          "Holy Fire",
+          "Holy Freeze",
+          "Holy Shock",
+          "Conviction"
+         ],
+         "tip": "sk:paladin:vengeance",
+         "pts": 1
+        },
+        {
+         "id": "zeal",
+         "name": "Zeal",
+         "req": 1,
+         "img": "skills/paladin/Zeal.png",
+         "syn": [
+          "Sacrifice"
+         ],
+         "tip": "sk:paladin:zeal",
+         "pts": 1
+        }
+       ],
+       "gear": {
+        "weapon": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Akarat's Devotion",
+         "q": "u",
+         "img": "items/weapon/scepter/special/Akarat's_Devotion.png",
+         "req": 74,
+         "base": "Seraph Rod",
+         "tip": "u:akarats_devotion"
+        },
+        "offhand": {
+         "eth": false,
+         "corr": "All Skills",
+         "name": "Herald of Zakarum",
+         "q": "u",
+         "img": "items/offhand/special/Herald_of_Zakarum.png",
+         "req": 42,
+         "base": "Gilded Shield",
+         "tip": "u:herald_of_zakarum"
+        },
+        "helm": {
+         "eth": false,
+         "corr": "Skill",
+         "name": "2/20 Circlet Paladin",
+         "q": "y",
+         "img": "items/helm/Diadem.png",
+         "req": 20,
+         "base": "Diadem",
+         "tip": "p:2_20_circlet_paladin"
+        },
+        "armor": {
+         "eth": false,
+         "name": "Enigma",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Jah",
+           "img": "items/socketables/rune/Jah_Rune.png",
+           "tip": "so:jah_rune"
+          },
+          {
+           "name": "Ith",
+           "img": "items/socketables/rune/Ith_Rune.png",
+           "tip": "so:ith_rune"
+          },
+          {
+           "name": "Ber",
+           "img": "items/socketables/rune/Ber_Rune.png",
+           "tip": "so:ber_rune"
+          }
+         ],
+         "base": "Archon Plate",
+         "img": "items/armor/Light_Plate.png",
+         "bc": "utp",
+         "tip": "rw:enigma"
+        },
+        "gloves": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Occultist",
+         "q": "u",
+         "img": "items/gloves/special/Occultist.png",
+         "req": 70,
+         "base": "Crusader Gauntlets",
+         "tip": "u:occultist"
+        },
+        "belt": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "Arachnid Mesh",
+         "q": "u",
+         "img": "items/belt/special/Arachnid_Mesh.png",
+         "req": 80,
+         "base": "Spiderweb Sash",
+         "tip": "u:arachnid_mesh"
+        },
+        "boots": {
+         "eth": false,
+         "corr": "Faster Run Walk",
+         "name": "Imp Shank",
+         "q": "y",
+         "img": "items/boots/Chain_Boots.png",
+         "req": 30,
+         "base": "Mesh Boots",
+         "tip": "p:imp_shank"
+        },
+        "amulet": {
+         "eth": false,
+         "corr": "All Skills",
+         "name": "Blood Craft - Paladin",
+         "q": "c",
+         "img": "items/amulet/Amulet_1.png",
+         "req": 20,
+         "base": null,
+         "tip": "p:blood_craft_paladin"
+        },
+        "ring1": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "The Stone of Jordan",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 29,
+         "base": null,
+         "tip": "u:the_stone_of_jordan"
+        },
+        "ring2": {
+         "eth": false,
+         "corr": "Faster Cast Rate",
+         "name": "The Stone of Jordan",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 29,
+         "base": null,
+         "tip": "u:the_stone_of_jordan"
+        }
+       },
+       "merc": {
+        "type": "iron_wolf_static_field",
+        "name": "Iron Wolf (Static Field)",
+        "aura": "Static Field",
+        "gear": {
+         "helm": {
+          "eth": false,
+          "name": "Griffon's Eye",
+          "q": "u",
+          "img": "items/helm/special/Griffon's_Eye.png",
+          "req": 76,
+          "base": "Diadem",
+          "tip": "u:griffons_eye"
+         },
+         "armor": {
+          "eth": false,
+          "name": "Dark Abyss",
+          "q": "u",
+          "img": "items/armor/special/Dark_Abyss.png",
+          "req": 85,
+          "base": "Lacquered Plate",
+          "tip": "u:dark_abyss"
+         },
+         "weapon": {
+          "eth": false,
+          "name": "Doom",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Hel",
+            "img": "items/socketables/rune/Hel_Rune.png",
+            "tip": "so:hel_rune"
+           },
+           {
+            "name": "Ohm",
+            "img": "items/socketables/rune/Ohm_Rune.png",
+            "tip": "so:ohm_rune"
+           },
+           {
+            "name": "Um",
+            "img": "items/socketables/rune/Um_Rune.png",
+            "tip": "so:um_rune"
+           },
+           {
+            "name": "Lo",
+            "img": "items/socketables/rune/Lo_Rune.png",
+            "tip": "so:lo_rune"
+           },
+           {
+            "name": "Cham",
+            "img": "items/socketables/rune/Cham_Rune.png",
+            "tip": "so:cham_rune"
+           }
+          ],
+          "base": "Phase Blade",
+          "img": "items/weapon/sword/Crystal_Sword.png",
+          "bc": "7cr",
+          "tip": "rw:doom"
+         },
+         "offhand": {
+          "eth": false,
+          "name": "Exile",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Vex",
+            "img": "items/socketables/rune/Vex_Rune.png",
+            "tip": "so:vex_rune"
+           },
+           {
+            "name": "Ohm",
+            "img": "items/socketables/rune/Ohm_Rune.png",
+            "tip": "so:ohm_rune"
+           },
+           {
+            "name": "Ist",
+            "img": "items/socketables/rune/Ist_Rune.png",
+            "tip": "so:ist_rune"
+           },
+           {
+            "name": "Dol",
+            "img": "items/socketables/rune/Dol_Rune.png",
+            "tip": "so:dol_rune"
+           }
+          ],
+          "base": "Vortex Shield",
+          "img": "items/offhand/Crown_Shield.png",
+          "bc": "paf",
+          "tip": "rw:exile"
+         },
+         "gloves": {
+          "eth": false,
+          "name": "Occultist",
+          "q": "u",
+          "img": "items/gloves/special/Occultist.png",
+          "req": 70,
+          "base": "Crusader Gauntlets",
+          "tip": "u:occultist"
+         },
+         "boots": {
+          "eth": false,
+          "name": "Imp Shank",
+          "q": "y",
+          "img": "items/boots/Chain_Boots.png",
+          "req": 30,
+          "base": "Mesh Boots",
+          "tip": "p:imp_shank"
+         },
+         "belt": {
+          "eth": false,
+          "name": "Siggard's Staunch",
+          "q": "u",
+          "img": "items/belt/special/Siggard's_Staunch.png",
+          "req": 72,
+          "base": "Colossus Girdle",
+          "tip": "u:siggards_staunch"
+         }
+        }
+       },
+       "charms": [
+        {
+         "eth": false,
+         "name": "Hellfire Torch",
+         "q": "u",
+         "img": "items/charms/charm2u.png",
+         "req": 75,
+         "base": null,
+         "tip": "p:hellfire_torch"
+        },
+        {
+         "eth": false,
+         "name": "Annihilus +2",
+         "q": "u",
+         "img": "items/charms/charm1u-2.png",
+         "req": 70,
+         "base": null,
+         "tip": "p:annihilus_2"
+        }
+       ],
+       "phase": "end",
+       "progression": [],
+       "id": "XJ18hj7",
+       "url": "https://hiimpd2.com/b/XJ18hj7",
+       "author": "LUNA",
+       "video": "",
+       "recipes": {
+        "runes": [
+         {
+          "name": "Ith",
+          "img": "items/socketables/rune/Ith_Rune.png",
+          "tip": "so:ith_rune",
+          "n": 1,
+          "rank": 6,
+          "for": [
+           "Enigma"
+          ]
+         },
+         {
+          "name": "Amn",
+          "img": "items/socketables/rune/Amn_Rune.png",
+          "tip": "so:amn_rune",
+          "n": 1,
+          "rank": 11,
+          "for": [
+           "craft: Blood Craft - Paladin"
+          ],
+          "sn": 1
+         },
+         {
+          "name": "Dol",
+          "img": "items/socketables/rune/Dol_Rune.png",
+          "tip": "so:dol_rune",
+          "n": 1,
+          "rank": 14,
+          "for": [
+           "Exile"
+          ]
+         },
+         {
+          "name": "Hel",
+          "img": "items/socketables/rune/Hel_Rune.png",
+          "tip": "so:hel_rune",
+          "n": 1,
+          "rank": 15,
+          "for": [
+           "Doom"
+          ]
+         },
+         {
+          "name": "Um",
+          "img": "items/socketables/rune/Um_Rune.png",
+          "tip": "so:um_rune",
+          "n": 1,
+          "rank": 22,
+          "for": [
+           "Doom"
+          ]
+         },
+         {
+          "name": "Ist",
+          "img": "items/socketables/rune/Ist_Rune.png",
+          "tip": "so:ist_rune",
+          "n": 1,
+          "rank": 24,
+          "for": [
+           "Exile"
+          ]
+         },
+         {
+          "name": "Vex",
+          "img": "items/socketables/rune/Vex_Rune.png",
+          "tip": "so:vex_rune",
+          "n": 1,
+          "rank": 26,
+          "for": [
+           "Exile"
+          ]
+         },
+         {
+          "name": "Ohm",
+          "img": "items/socketables/rune/Ohm_Rune.png",
+          "tip": "so:ohm_rune",
+          "n": 2,
+          "rank": 27,
+          "for": [
+           "Doom",
+           "Exile"
+          ]
+         },
+         {
+          "name": "Lo",
+          "img": "items/socketables/rune/Lo_Rune.png",
+          "tip": "so:lo_rune",
+          "n": 1,
+          "rank": 28,
+          "for": [
+           "Doom"
+          ]
+         },
+         {
+          "name": "Ber",
+          "img": "items/socketables/rune/Ber_Rune.png",
+          "tip": "so:ber_rune",
+          "n": 1,
+          "rank": 30,
+          "for": [
+           "Enigma"
+          ]
+         },
+         {
+          "name": "Jah",
+          "img": "items/socketables/rune/Jah_Rune.png",
+          "tip": "so:jah_rune",
+          "n": 1,
+          "rank": 31,
+          "for": [
+           "Enigma"
+          ]
+         },
+         {
+          "name": "Cham",
+          "img": "items/socketables/rune/Cham_Rune.png",
+          "tip": "so:cham_rune",
+          "n": 1,
+          "rank": 32,
+          "for": [
+           "Doom"
+          ]
+         }
+        ],
+        "rw": [
+         {
+          "name": "Enigma",
+          "tip": "rw:enigma",
+          "slot": "armor",
+          "base": "Archon Plate",
+          "n": 3,
+          "eth": false,
+          "runes": [
+           "Jah",
+           "Ith",
+           "Ber"
+          ],
+          "larzuk": false,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20134)"
+         },
+         {
+          "name": "Doom",
+          "tip": "rw:doom",
+          "slot": "merc weapon",
+          "base": "Phase Blade",
+          "n": 5,
+          "eth": false,
+          "runes": [
+           "Hel",
+           "Ohm",
+           "Um",
+           "Lo",
+           "Cham"
+          ],
+          "larzuk": false,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20136)"
+         },
+         {
+          "name": "Exile",
+          "tip": "rw:exile",
+          "slot": "merc offhand",
+          "base": "Vortex Shield",
+          "n": 4,
+          "eth": false,
+          "runes": [
+           "Vex",
+           "Ohm",
+           "Ist",
+           "Dol"
+          ],
+          "larzuk": true,
+          "cube": "Tal + Amn + Perfect Ruby + \u0161\u010dit (naklju\u010dno 1\u20134)"
+         }
+        ],
+        "crafts": [
+         {
+          "name": "Blood Craft - Paladin",
+          "tip": "cr:blood-amulet",
+          "slot": "amulet",
+          "type": "Amulet",
+          "ing": [
+           "Jewel",
+           "Amn Rune",
+           "Perfect Ruby"
+          ],
+          "alt": [
+           "Blood Craft Infusion"
+          ],
+          "eth": false,
+          "lvl": 50
+         }
+        ]
+       }
+      }
+     ],
+     "links": [],
+     "notes": "",
+     "runes_total": [
+      {
+       "name": "Tir",
+       "img": "items/socketables/rune/Tir_Rune.png",
+       "tip": "so:tir_rune",
+       "n": 1,
+       "rank": 3
+      },
+      {
+       "name": "Eth",
+       "img": "items/socketables/rune/Eth_Rune.png",
+       "tip": "so:eth_rune",
+       "n": 2,
+       "rank": 5
+      },
+      {
+       "name": "Ith",
+       "img": "items/socketables/rune/Ith_Rune.png",
+       "tip": "so:ith_rune",
+       "n": 2,
+       "rank": 6
+      },
+      {
+       "name": "Tal",
+       "img": "items/socketables/rune/Tal_Rune.png",
+       "tip": "so:tal_rune",
+       "n": 5,
+       "rank": 7
+      },
+      {
+       "name": "Ral",
+       "img": "items/socketables/rune/Ral_Rune.png",
+       "tip": "so:ral_rune",
+       "n": 2,
+       "rank": 8
+      },
+      {
+       "name": "Ort",
+       "img": "items/socketables/rune/Ort_Rune.png",
+       "tip": "so:ort_rune",
+       "n": 5,
+       "rank": 9
+      },
+      {
+       "name": "Thul",
+       "img": "items/socketables/rune/Thul_Rune.png",
+       "tip": "so:thul_rune",
+       "n": 2,
+       "rank": 10
+      },
+      {
+       "name": "Amn",
+       "img": "items/socketables/rune/Amn_Rune.png",
+       "tip": "so:amn_rune",
+       "n": 4,
+       "rank": 11
+      },
+      {
+       "name": "Sol",
+       "img": "items/socketables/rune/Sol_Rune.png",
+       "tip": "so:sol_rune",
+       "n": 3,
+       "rank": 12
+      },
+      {
+       "name": "Dol",
+       "img": "items/socketables/rune/Dol_Rune.png",
+       "tip": "so:dol_rune",
+       "n": 1,
+       "rank": 14
+      },
+      {
+       "name": "Hel",
+       "img": "items/socketables/rune/Hel_Rune.png",
+       "tip": "so:hel_rune",
+       "n": 2,
+       "rank": 15
+      },
+      {
+       "name": "Lem",
+       "img": "items/socketables/rune/Lem_Rune.png",
+       "tip": "so:lem_rune",
+       "n": 1,
+       "rank": 20
+      },
+      {
+       "name": "Um",
+       "img": "items/socketables/rune/Um_Rune.png",
+       "tip": "so:um_rune",
+       "n": 1,
+       "rank": 22
+      },
+      {
+       "name": "Mal",
+       "img": "items/socketables/rune/Mal_Rune.png",
+       "tip": "so:mal_rune",
+       "n": 1,
+       "rank": 23
+      },
+      {
+       "name": "Ist",
+       "img": "items/socketables/rune/Ist_Rune.png",
+       "tip": "so:ist_rune",
+       "n": 2,
+       "rank": 24
+      },
+      {
+       "name": "Gul",
+       "img": "items/socketables/rune/Gul_Rune.png",
+       "tip": "so:gul_rune",
+       "n": 1,
+       "rank": 25
+      },
+      {
+       "name": "Vex",
+       "img": "items/socketables/rune/Vex_Rune.png",
+       "tip": "so:vex_rune",
+       "n": 1,
+       "rank": 26
+      },
+      {
+       "name": "Ohm",
+       "img": "items/socketables/rune/Ohm_Rune.png",
+       "tip": "so:ohm_rune",
+       "n": 3,
+       "rank": 27
+      },
+      {
+       "name": "Lo",
+       "img": "items/socketables/rune/Lo_Rune.png",
+       "tip": "so:lo_rune",
+       "n": 1,
+       "rank": 28
+      },
+      {
+       "name": "Ber",
+       "img": "items/socketables/rune/Ber_Rune.png",
+       "tip": "so:ber_rune",
+       "n": 1,
+       "rank": 30
+      },
+      {
+       "name": "Jah",
+       "img": "items/socketables/rune/Jah_Rune.png",
+       "tip": "so:jah_rune",
+       "n": 1,
+       "rank": 31
+      },
+      {
+       "name": "Cham",
+       "img": "items/socketables/rune/Cham_Rune.png",
+       "tip": "so:cham_rune",
+       "n": 1,
+       "rank": 32
+      },
+      {
+       "name": "Zod",
+       "img": "items/socketables/rune/Zod_Rune.png",
+       "tip": "so:zod_rune",
+       "n": 1,
+       "rank": 33
+      }
+     ]
+    },
+    {
+     "id": "bow-paladin",
+     "name": "Bow Paladin",
+     "tier": "Brez ocene",
+     "sort": 7160,
+     "main": null,
+     "clear": {
+      "map": "Blood Moon",
+      "time": 780,
+      "season": 12,
+      "player": "varyk",
+      "video": "https://www.youtube.com/watch?v=x7I4FWEZo5s"
+     },
+     "starter": null,
+     "boss": {},
+     "group": [],
+     "stats": null,
+     "respec": null,
+     "planners": [
+      {
+       "label": "Planner",
+       "title": "Bow Paladin",
+       "level": 95,
+       "stats": {
+        "str": 46,
+        "dex": 0,
+        "vit": 439,
+        "ene": 0
+       },
+       "skills": [
+        {
+         "id": "blessed_aim",
+         "name": "Blessed Aim",
+         "req": 12,
+         "img": "skills/paladin/Blessed Aim.png",
+         "syn": [],
+         "tip": "sk:paladin:blessed_aim",
+         "pts": 20
+        },
+        {
+         "id": "fist_of_the_heavens",
+         "name": "Fist of the Heavens",
+         "req": 24,
+         "img": "skills/paladin/Fist of the Heavens.png",
+         "syn": [
+          "Holy Bolt",
+          "Holy Light",
+          "Holy Nova"
+         ],
+         "tip": "sk:paladin:fist_of_the_heavens",
+         "pts": 20
+        },
+        {
+         "id": "holy_light",
+         "name": "Holy Light",
+         "req": 12,
+         "img": "skills/paladin/Holy Light.png",
+         "syn": [
+          "Holy Bolt",
+          "Fist of the Heavens",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_light",
+         "pts": 20
+        },
+        {
+         "id": "holy_nova",
+         "name": "Holy Nova",
+         "req": 30,
+         "img": "skills/paladin/Holy Nova.png",
+         "syn": [
+          "Prayer",
+          "Holy Light",
+          "Holy Bolt",
+          "Fist of the Heavens"
+         ],
+         "tip": "sk:paladin:holy_nova",
+         "pts": 20
+        },
+        {
+         "id": "salvation",
+         "name": "Salvation",
+         "req": 30,
+         "img": "skills/paladin/Salvation.png",
+         "syn": [],
+         "tip": "sk:paladin:salvation",
+         "pts": 6
+        },
+        {
+         "id": "joust",
+         "name": "Joust",
+         "req": 24,
+         "img": "skills/paladin/Joust.png",
+         "syn": [],
+         "tip": "sk:paladin:joust",
+         "pts": 3
+        },
+        {
+         "id": "blessed_hammer",
+         "name": "Blessed Hammer",
+         "req": 18,
+         "img": "skills/paladin/Blessed Hammer.png",
+         "syn": [
+          "Blessed Aim",
+          "Vigor"
+         ],
+         "tip": "sk:paladin:blessed_hammer",
+         "pts": 1
+        },
+        {
+         "id": "charge",
+         "name": "Charge",
+         "req": 12,
+         "img": "skills/paladin/Charge.png",
+         "syn": [
+          "Vigor",
+          "Might"
+         ],
+         "tip": "sk:paladin:charge",
+         "pts": 1
+        },
+        {
+         "id": "defiance",
+         "name": "Defiance",
+         "req": 6,
+         "img": "skills/paladin/Defiance.png",
+         "syn": [],
+         "tip": "sk:paladin:defiance",
+         "pts": 1
+        },
+        {
+         "id": "holy_bolt",
+         "name": "Holy Bolt",
+         "req": 1,
+         "img": "skills/paladin/Holy Bolt.png",
+         "syn": [
+          "Holy Light",
+          "Fist of the Heavens",
+          "Holy Nova",
+          "Prayer"
+         ],
+         "tip": "sk:paladin:holy_bolt",
+         "pts": 1
+        },
+        {
+         "id": "holy_fire",
+         "name": "Holy Fire",
+         "req": 6,
+         "img": "skills/paladin/Holy Fire.png",
+         "syn": [
+          "Resist Fire",
+          "Salvation",
+          "Blessed Aim"
+         ],
+         "tip": "sk:paladin:holy_fire",
+         "pts": 1
+        },
+        {
+         "id": "holy_freeze",
+         "name": "Holy Freeze",
+         "req": 18,
+         "img": "skills/paladin/Holy Freeze.png",
+         "syn": [
+          "Resist Cold",
+          "Salvation",
+          "Blessed Aim"
+         ],
+         "tip": "sk:paladin:holy_freeze",
+         "pts": 1
+        },
+        {
+         "id": "holy_shield",
+         "name": "Holy Shield",
+         "req": 18,
+         "img": "skills/paladin/Holy Shield.png",
+         "syn": [
+          "Smite",
+          "Defiance",
+          "Defiance"
+         ],
+         "tip": "sk:paladin:holy_shield",
+         "pts": 1
+        },
+        {
+         "id": "holy_sword",
+         "name": "Holy Sword",
+         "req": 24,
+         "img": "skills/paladin/Holy Sword.png",
+         "syn": [],
+         "tip": "sk:paladin:holy_sword",
+         "pts": 1
+        },
+        {
+         "id": "might",
+         "name": "Might",
+         "req": 1,
+         "img": "skills/paladin/Might.png",
+         "syn": [],
+         "tip": "sk:paladin:might",
+         "pts": 1
+        },
+        {
+         "id": "prayer",
+         "name": "Prayer",
+         "req": 1,
+         "img": "skills/paladin/Prayer.png",
+         "syn": [],
+         "tip": "sk:paladin:prayer",
+         "pts": 1
+        },
+        {
+         "id": "sacrifice",
+         "name": "Sacrifice",
+         "req": 6,
+         "img": "skills/paladin/Sacrifice.png",
+         "syn": [
+          "Redemption",
+          "Fanaticism"
+         ],
+         "tip": "sk:paladin:sacrifice",
+         "pts": 1
+        },
+        {
+         "id": "sanctuary",
+         "name": "Sanctuary",
+         "req": 24,
+         "img": "skills/paladin/Sanctuary.png",
+         "syn": [
+          "Might",
+          "Blessed Aim",
+          "Holy Sword"
+         ],
+         "tip": "sk:paladin:sanctuary",
+         "pts": 1
+        },
+        {
+         "id": "smite",
+         "name": "Smite",
+         "req": 1,
+         "img": "skills/paladin/Smite.png",
+         "syn": [],
+         "tip": "sk:paladin:smite",
+         "pts": 1
+        },
+        {
+         "id": "thorns",
+         "name": "Thorns",
+         "req": 6,
+         "img": "skills/paladin/Thorns.png",
+         "syn": [
+          "Might",
+          "Defiance"
+         ],
+         "tip": "sk:paladin:thorns",
+         "pts": 1
+        },
+        {
+         "id": "vengeance",
+         "name": "Vengeance",
+         "req": 18,
+         "img": "skills/paladin/Vengeance.png",
+         "syn": [
+          "Holy Fire",
+          "Holy Freeze",
+          "Holy Shock",
+          "Conviction"
+         ],
+         "tip": "sk:paladin:vengeance",
+         "pts": 1
+        },
+        {
+         "id": "vigor",
+         "name": "Vigor",
+         "req": 18,
+         "img": "skills/paladin/Vigor.png",
+         "syn": [],
+         "tip": "sk:paladin:vigor",
+         "pts": 1
+        },
+        {
+         "id": "zeal",
+         "name": "Zeal",
+         "req": 1,
+         "img": "skills/paladin/Zeal.png",
+         "syn": [
+          "Sacrifice"
+         ],
+         "tip": "sk:paladin:zeal",
+         "pts": 1
+        }
+       ],
+       "gear": {
+        "weapon": {
+         "eth": false,
+         "name": "Endlesshail",
+         "q": "u",
+         "img": "items/weapon/bow/special/Endlesshail.png",
+         "req": 36,
+         "base": "Double Bow",
+         "tip": "u:endlesshail"
+        },
+        "offhand": {
+         "eth": false,
+         "name": "Aetherwing",
+         "q": "u",
+         "img": "items/offhand/Arrows.png",
+         "req": 55,
+         "base": "Razor Arrows",
+         "tip": "u:aetherwing"
+        },
+        "helm": {
+         "eth": false,
+         "name": "Giant Skull",
+         "q": "u",
+         "img": "items/helm/special/Giant_Skull.png",
+         "req": 65,
+         "base": "Bone Visage",
+         "tip": "u:giant_skull"
+        },
+        "armor": {
+         "eth": false,
+         "name": "Principle",
+         "q": "r",
+         "runes": [
+          {
+           "name": "Ral",
+           "img": "items/socketables/rune/Ral_Rune.png",
+           "tip": "so:ral_rune"
+          },
+          {
+           "name": "Gul",
+           "img": "items/socketables/rune/Gul_Rune.png",
+           "tip": "so:gul_rune"
+          },
+          {
+           "name": "Eld",
+           "img": "items/socketables/rune/Eld_Rune.png",
+           "tip": "so:eld_rune"
+          }
+         ],
+         "base": "Archon Plate",
+         "img": "items/armor/Light_Plate.png",
+         "bc": "utp",
+         "tip": "rw:principle"
+        },
+        "gloves": {
+         "eth": false,
+         "name": "Laying of Hands",
+         "q": "s",
+         "img": "items/gloves/special/Laying_of_Hands.png",
+         "req": 63,
+         "base": "Bramble Mitts",
+         "tip": "u:laying_of_hands"
+        },
+        "belt": {
+         "eth": false,
+         "name": "Razortail",
+         "q": "u",
+         "img": "items/belt/special/Razortail.png",
+         "req": 32,
+         "base": "Sharkskin Belt",
+         "tip": "u:razortail"
+        },
+        "boots": {
+         "eth": false,
+         "name": "Treads of Cthon",
+         "q": "u",
+         "img": "items/boots/special/Treads_of_Cthon.png",
+         "req": 15,
+         "base": "Chain Boots",
+         "tip": "u:treads_of_cthon"
+        },
+        "amulet": {
+         "eth": false,
+         "name": "The Cat's Eye",
+         "q": "u",
+         "img": "items/amulet/Amulet_1.png",
+         "req": 50,
+         "base": null,
+         "tip": "u:the_cats_eye"
+        },
+        "ring1": {
+         "eth": false,
+         "name": "Carrion Wind",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 60,
+         "base": null,
+         "tip": "u:carrion_wind"
+        },
+        "ring2": {
+         "eth": false,
+         "name": "Raven Frost",
+         "q": "u",
+         "img": "items/ring/Ring_1.png",
+         "req": 45,
+         "base": null,
+         "tip": "u:raven_frost"
+        },
+        "swapWeapon": {
+         "eth": false,
+         "name": "Widowmaker",
+         "q": "u",
+         "img": "items/weapon/bow/special/Widowmaker.png",
+         "req": 65,
+         "base": "Ward Bow",
+         "tip": "u:widowmaker"
+        },
+        "swapOffhand": {
+         "eth": false,
+         "name": "Aetherwing",
+         "q": "u",
+         "img": "items/offhand/Arrows.png",
+         "req": 55,
+         "base": "Razor Arrows",
+         "tip": "u:aetherwing"
+        }
+       },
+       "merc": {
+        "type": "desert_guard_defiance",
+        "name": "Desert Guard (Defiance)",
+        "aura": "Defiance",
+        "gear": {
+         "weapon": {
+          "eth": false,
+          "name": "Asylum",
+          "q": "r",
+          "runes": [
+           {
+            "name": "Gul",
+            "img": "items/socketables/rune/Gul_Rune.png",
+            "tip": "so:gul_rune"
+           },
+           {
+            "name": "Cham",
+            "img": "items/socketables/rune/Cham_Rune.png",
+            "tip": "so:cham_rune"
+           },
+           {
+            "name": "Hel",
+            "img": "items/socketables/rune/Hel_Rune.png",
+            "tip": "so:hel_rune"
+           },
+           {
+            "name": "Jah",
+            "img": "items/socketables/rune/Jah_Rune.png",
+            "tip": "so:jah_rune"
+           },
+           {
+            "name": "Dol",
+            "img": "items/socketables/rune/Dol_Rune.png",
+            "tip": "so:dol_rune"
+           },
+           {
+            "name": "Um",
+            "img": "items/socketables/rune/Um_Rune.png",
+            "tip": "so:um_rune"
+           }
+          ],
+          "base": "War Pike",
+          "img": "items/weapon/spear/Pike.png",
+          "bc": "7p7",
+          "tip": "rw:asylum"
+         },
+         "helm": {
+          "eth": false,
+          "name": "Andariel's Visage",
+          "q": "u",
+          "img": "items/helm/special/Andariel's_Visage.png",
+          "req": 83,
+          "base": "Demonhead",
+          "tip": "u:andariels_visage"
+         },
+         "armor": {
+          "eth": false,
+          "name": "Heavenly Garb",
+          "q": "u",
+          "img": "items/armor/special/Heavenly_Garb.png",
+          "req": 29,
+          "base": "Light Plate",
+          "tip": "u:heavenly_garb"
+         },
+         "gloves": {
+          "eth": false,
+          "name": "Laying of Hands",
+          "q": "s",
+          "img": "items/gloves/special/Laying_of_Hands.png",
+          "req": 63,
+          "base": "Bramble Mitts",
+          "tip": "u:laying_of_hands"
+         },
+         "boots": {
+          "eth": false,
+          "name": "Rite of Passage",
+          "q": "s",
+          "img": "items/boots/special/Rite_of_Passage.png",
+          "req": 29,
+          "base": "Demonhide Boots",
+          "tip": "u:rite_of_passage"
+         },
+         "belt": {
+          "eth": false,
+          "name": "String of Ears",
+          "q": "u",
+          "img": "items/belt/special/String_of_Ears.png",
+          "req": 29,
+          "base": "Demonhide Sash",
+          "tip": "u:string_of_ears"
+         }
+        }
+       },
+       "charms": [
+        {
+         "eth": false,
+         "name": "Hellfire Torch",
+         "q": "u",
+         "img": "items/charms/charm2u.png",
+         "req": 75,
+         "base": null,
+         "tip": "p:hellfire_torch"
+        },
+        {
+         "eth": false,
+         "name": "Annihilus",
+         "q": "u",
+         "img": "items/charms/charm1u.png",
+         "req": 70,
+         "base": null,
+         "tip": "p:annihilus"
+        }
+       ],
+       "phase": "end",
+       "progression": [],
+       "id": "gOqXK25",
+       "url": "https://hiimpd2.com/b/gOqXK25",
+       "author": "Hiim",
+       "video": "",
+       "recipes": {
+        "runes": [
+         {
+          "name": "Eld",
+          "img": "items/socketables/rune/Eld_Rune.png",
+          "tip": "so:eld_rune",
+          "n": 1,
+          "rank": 2,
+          "for": [
+           "Principle"
+          ]
+         },
+         {
+          "name": "Ral",
+          "img": "items/socketables/rune/Ral_Rune.png",
+          "tip": "so:ral_rune",
+          "n": 1,
+          "rank": 8,
+          "for": [
+           "Principle"
+          ]
+         },
+         {
+          "name": "Dol",
+          "img": "items/socketables/rune/Dol_Rune.png",
+          "tip": "so:dol_rune",
+          "n": 1,
+          "rank": 14,
+          "for": [
+           "Asylum"
+          ]
+         },
+         {
+          "name": "Hel",
+          "img": "items/socketables/rune/Hel_Rune.png",
+          "tip": "so:hel_rune",
+          "n": 1,
+          "rank": 15,
+          "for": [
+           "Asylum"
+          ]
+         },
+         {
+          "name": "Um",
+          "img": "items/socketables/rune/Um_Rune.png",
+          "tip": "so:um_rune",
+          "n": 1,
+          "rank": 22,
+          "for": [
+           "Asylum"
+          ]
+         },
+         {
+          "name": "Gul",
+          "img": "items/socketables/rune/Gul_Rune.png",
+          "tip": "so:gul_rune",
+          "n": 2,
+          "rank": 25,
+          "for": [
+           "Principle",
+           "Asylum"
+          ]
+         },
+         {
+          "name": "Jah",
+          "img": "items/socketables/rune/Jah_Rune.png",
+          "tip": "so:jah_rune",
+          "n": 1,
+          "rank": 31,
+          "for": [
+           "Asylum"
+          ]
+         },
+         {
+          "name": "Cham",
+          "img": "items/socketables/rune/Cham_Rune.png",
+          "tip": "so:cham_rune",
+          "n": 1,
+          "rank": 32,
+          "for": [
+           "Asylum"
+          ]
+         }
+        ],
+        "rw": [
+         {
+          "name": "Principle",
+          "tip": "rw:principle",
+          "slot": "armor",
+          "base": "Archon Plate",
+          "n": 3,
+          "eth": false,
+          "runes": [
+           "Ral",
+           "Gul",
+           "Eld"
+          ],
+          "larzuk": false,
+          "cube": "Tal + Thul + Perfect Topaz + oklep (naklju\u010dno 1\u20134)"
+         },
+         {
+          "name": "Asylum",
+          "tip": "rw:asylum",
+          "slot": "merc weapon",
+          "base": "War Pike",
+          "n": 6,
+          "eth": false,
+          "runes": [
+           "Gul",
+           "Cham",
+           "Hel",
+           "Jah",
+           "Dol",
+           "Um"
+          ],
+          "larzuk": true,
+          "cube": "Ral + Amn + Perfect Amethyst + oro\u017eje (naklju\u010dno 1\u20136)"
+         }
+        ],
+        "crafts": []
+       }
+      }
+     ],
+     "links": [],
+     "notes": "",
+     "runes_total": [
+      {
+       "name": "Eld",
+       "img": "items/socketables/rune/Eld_Rune.png",
+       "tip": "so:eld_rune",
+       "n": 1,
+       "rank": 2
+      },
+      {
+       "name": "Ral",
+       "img": "items/socketables/rune/Ral_Rune.png",
+       "tip": "so:ral_rune",
+       "n": 1,
+       "rank": 8
+      },
+      {
+       "name": "Dol",
+       "img": "items/socketables/rune/Dol_Rune.png",
+       "tip": "so:dol_rune",
+       "n": 1,
+       "rank": 14
+      },
+      {
+       "name": "Hel",
+       "img": "items/socketables/rune/Hel_Rune.png",
+       "tip": "so:hel_rune",
+       "n": 1,
+       "rank": 15
+      },
+      {
+       "name": "Um",
+       "img": "items/socketables/rune/Um_Rune.png",
+       "tip": "so:um_rune",
+       "n": 1,
+       "rank": 22
+      },
+      {
+       "name": "Gul",
+       "img": "items/socketables/rune/Gul_Rune.png",
+       "tip": "so:gul_rune",
+       "n": 2,
+       "rank": 25
+      },
+      {
+       "name": "Jah",
+       "img": "items/socketables/rune/Jah_Rune.png",
+       "tip": "so:jah_rune",
+       "n": 1,
+       "rank": 31
+      },
+      {
+       "name": "Cham",
+       "img": "items/socketables/rune/Cham_Rune.png",
+       "tip": "so:cham_rune",
+       "n": 1,
+       "rank": 32
+      }
+     ]
     }
    ],
    "others": [
     {
      "name": "Holy Bolt / FOH",
-     "tier": "Mid"
+     "tier": "Mid",
+     "src": "hiim"
     },
     {
      "name": "Holy Freeze Sacrifice",
-     "tier": "Mid"
+     "tier": "Mid",
+     "src": "hiim"
+    },
+    {
+     "name": "Ele Zeal",
+     "tier": "brez ocene",
+     "src": "hiim"
     },
     {
      "name": "Smite",
-     "tier": "Mid"
+     "tier": "Mid",
+     "src": "hiim"
+    },
+    {
+     "name": "Sanctuary Zeal",
+     "tier": "brez ocene",
+     "src": "hiim"
+    },
+    {
+     "name": "Ele Beardin",
+     "tier": "brez ocene",
+     "src": "hiim"
     },
     {
      "name": "Thorns",
-     "tier": "Bad"
+     "tier": "Bad",
+     "src": "hiim"
     }
    ],
    "starters": [
@@ -98819,8 +103985,24 @@
    ],
    "others": [
     {
+     "name": "Fire Bear",
+     "tier": "brez ocene",
+     "src": "hiim"
+    },
+    {
+     "name": "Lightning Bear",
+     "tier": "brez ocene",
+     "src": "hiim"
+    },
+    {
      "name": "Endless Hail",
-     "tier": "Mid"
+     "tier": "Mid",
+     "src": "hiim"
+    },
+    {
+     "name": "Zeal",
+     "tier": "brez ocene",
+     "src": "hiim"
     }
    ],
    "starters": [

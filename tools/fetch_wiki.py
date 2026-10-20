@@ -9,8 +9,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "wiki")
 API = "https://wiki.projectdiablo2.com/w/api.php"
 PAGES = [f"All_{c}_Skills" for c in ["Amazon", "Assassin", "Barbarian", "Druid", "Necromancer", "Paladin", "Sorceress"]]
-PAGES += ["Horadric_cube"]
-ITEM_PAGES = ["All_Unique_Weapons", "All_Unique_Non-Weapons", "All_Set_Items", "All_Runewords", "Charms", "Class_Weapons"]
+PAGES += ["Horadric_cube", "Game_Mechanics", "Crafting", "Maps"]
+ITEM_PAGES = ["All_Unique_Weapons", "All_Unique_Non-Weapons", "All_Set_Items", "All_Runewords", "Charms", "Class_Weapons",
+              "Maps", "Corruption"]
 
 
 class Text(HTMLParser):

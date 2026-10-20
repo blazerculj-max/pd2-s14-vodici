@@ -9,4 +9,5 @@ python3 -I tools/fetch_pd2tools.py --respec
 python3 -I tools/build_data.py
 python3 -I tools/fetch_images.py
 python3 -I tools/build_data.py
+python3 -I tools/build_guides.py
 python3 -I tools/build_site.py

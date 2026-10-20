@@ -353,7 +353,7 @@ def cube_recipes():
             upgrade[(m.group(3).split("/")[0].lower(), kind, m.group(2).lower())] = m.group(1).replace(" Rune", "")
     promote = {}
     for m in re.finditer(r"\| (\d) (\w+) Runes \(#\d+\) \+ Key\s*\n \| 1 (\w+) Rune", txt):
-        promote[m.group(3)] = f"{m.group(1)}× {m.group(2)} + Key"
+        promote[m.group(3)] = f"{m.group(1)}× {m.group(2)}"  # S14: za recepte s stacki ključ ni več potreben
     return sock, upgrade, promote
 
 
@@ -647,6 +647,79 @@ def build_catalog(site):
           f"nadgradenj: {len(UPGRADE_RECIPE)}, rune promocij: {len(RUNE_PROMOTE)}")
 
 
+# ---------- ostali buildi: galerija skupnosti in S13 ----------
+GALLERY_PATH = os.path.join(HIIM, "gallery", "builds_s14.json")
+GALLERY = json.load(open(GALLERY_PATH)) if os.path.exists(GALLERY_PATH) else []
+_su = os.path.join(PD2T, "skill_usage.json")
+SKILL_USAGE = json.load(open(_su)) if os.path.exists(_su) else {}
+
+
+def _norm_name(n):
+    return re.sub(r"[^a-z0-9]+", " ", (n or "").lower()).strip()
+
+
+def extra_builds(cls, cname, builds):
+    """Buildi, ki jih ni na Hiim listah kot viable: galerija skupnosti (S14) in S13 popularni skilli."""
+    import difflib
+    out = []
+    mains = {b["main"]["id"] for b in builds if b.get("main")}
+    names = [_norm_name(b["name"]) for b in builds]
+    low_mains = set()
+    for b in builds:
+        end = next((p for p in reversed(b["planners"]) if p["skills"]), None)
+        if end and b.get("main"):
+            pts = next((x["pts"] for x in end["skills"] if x["id"] == b["main"]["id"]), 0)
+            if pts < 20:
+                low_mains.add(b["main"]["id"])
+    clusters = {}
+    for g in GALLERY:
+        if g.get("className") != cls or g.get("hidden"):
+            continue
+        nm = g.get("name") or ""
+        if re.search(r"(?i)speedrun|untitled|\(copy\)", nm):
+            continue
+        sk = (g.get("build") or {}).get("skills") or {}
+        maxed = {k for k, v in sk.items() if v >= 20}
+        if maxed & mains or any(sk.get(m) for m in low_mains):
+            continue
+        if difflib.get_close_matches(_norm_name(nm), names, n=1, cutoff=0.75):
+            continue
+        key = tuple(sorted(maxed))
+        clusters.setdefault(key, []).append(g)
+    rows = []
+    for key, gs in clusters.items():
+        gs.sort(key=lambda g: -(g.get("opens") or 0))
+        opens = sum(g.get("opens") or 0 for g in gs)
+        if opens < 20:
+            continue
+        top = gs[0]
+        sk_names = [skill_info(cls, k)["name"] for k in key if (cls, k) in SKILLS]
+        rows.append({"name": top["name"], "tier": "skupnost", "src": "gallery", "url": f"https://hiimpd2.com/b/{top['buildId']}",
+                     "author": top.get("ownerDisplayName"), "opens": opens, "n": len(gs), "skills": sk_names,
+                     "tags": top.get("tags") or []})
+    rows.sort(key=lambda r: -r["opens"])
+    out += rows[:6]
+    # S13: napadalni ali summon skilli na 20 pri likih 90+, ki jih ni med našimi buildi
+    usage = (SKILL_USAGE.get(cname) or {}).get("skills") or {}
+    covered = set()
+    for b in builds:
+        if b.get("main"):
+            covered.add(b["main"]["name"])
+        if (b.get("stats") or {}).get("skill"):
+            covered.add(b["stats"]["skill"])
+        for p in b["planners"]:
+            covered.update(x["name"] for x in p["skills"] if x["pts"] >= 20)  # sinergije in pomožni skilli
+    by_name = {s["name"]: s for (c, _), s in SKILLS.items() if c == cls}
+    for name, pct in usage.items():
+        s = by_name.get(name)
+        if pct < 5 or name in covered or not s:
+            continue
+        if s.get("bindable") == 2 or (s.get("description") or "").startswith("Summon"):
+            out.append({"name": name, "tier": "S13", "src": "s13", "pct": pct,
+                        "total": SKILL_USAGE[cname]["total"]})
+    return out
+
+
 def tags_of(notes):
     m = re.search(r"Tags:\s*(.+)", notes or "")
     return [t.strip() for t in m.group(1).split(",")] if m else []
@@ -678,9 +751,11 @@ def main():
         used_starters = set()
         for e in entries:
             tier = e.get("tier")
-            if tier not in VIABLE and e["buildName"] != "Pure Poison Creeper":
-                if tier:
-                    others.append({"name": e["buildName"], "tier": tier})
+            # brez ocene: Hiim jih še ni ocenil (večinoma novi S14 buildi); vzamemo jih, če imajo planer
+            unrated_with_planner = not tier and (e.get("buildId") or any(
+                l.get("kind") == "planner" and l.get("buildId") for l in e.get("links") or []))
+            if tier not in VIABLE and not unrated_with_planner:
+                others.append({"name": e["buildName"], "tier": tier or "brez ocene", "src": "hiim"})
                 continue
             main_skill = e.get("mainSkill")
             st = starter_by_skill.get(main_skill)
@@ -720,6 +795,7 @@ def main():
                 "links": [l for l in (st.get("links") or []) if l.get("kind") != "planner"], "notes": "",
             })
         builds.sort(key=lambda b: b["sort"])
+        others += extra_builds(cls, cname, builds)
         ids = set()
         for b in builds:
             while b["id"] in ids:

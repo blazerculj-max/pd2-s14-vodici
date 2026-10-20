@@ -1,0 +1,1293 @@
+
+This page lists crafting recipes and their changes in PD2 relative to the vanilla game.
+## Contents
+1 General Info
+2 Changes in PD2
+3 Crafting Comparison Chart
+4 Blood Items
+5 Caster Items
+6 Hitpower Items
+7 Safety Items
+8 Vampiric Items
+9 Bountiful Items
+10 Brilliant Items
+## General Info[edit]
+Crafting an item creates a new rare-like item of the same type as the equipment item used in the recipe. Except for 'ethereal ', affixes from the ingredient equipment item are not transferred to the crafted item.
+Crafted Items get predetermined affixes as listed in the tables below, and up to 4 additional Affixes. Although the predetermined affixes listed on this page may not seem impressive, the Affixes can result in some powerful end game items.
+The affixes they can get depends on their alvl, which depends on their Item Level (ilvl). The ilvl of a crafted item is determined by the character's character level (clvl) and the ilvl of the ingredient equipment item used in the recipe. Bracketed values inside the formula are rounded down.
+ crafted ilvl
+ =
+ ⌊
+ c
+ l
+ v
+ l
+ 2
+ ⌋
+ +
+ ⌊
+ i
+ l
+ v
+ l
+ 2
+ ⌋
+ {\displaystyle {\displaystyle \color {tan}{\text{crafted ilvl}}=\lfloor {\frac {clvl}{2}}\rfloor +\lfloor {\frac {ilvl}{2}}\rfloor }}
+The amount of additional affixes depends on the ilvl of the crafted item.
+Max 3 Prefixes or 3 Suffixes
+ | Item Level (ilvl)
+ | 1 Affix
+ | 2 Affixes
+ | 3 Affixes
+ | 4 Affixes
+ | 1-30
+ | 40%
+ | 20%
+ | 20%
+ | 20%
+ | 31-50
+ | -
+ | 60%
+ | 20%
+ | 20%
+ | 51-70
+ | -
+ | -
+ | 80%
+ | 20%
+ | 71+
+ | -
+ | -
+ | -
+ | 100%
+Note that merchants sell magic items that have an ilvl of clvl+4 and gambled items have an ilvl between clvl-5 and clvl+4. As an example of when this is useful, consider that a level 88 character can gamble an ilvl 92 amulet and use it to craft an ilvl 90 amulet, which is the minimum ilvl needed for a chance to get +2 class skills as an additional affix.
+## Changes in PD2[edit]
+Crafting recipes are no longer limited to specific item bases (such as Helm/Casque/Armet for Blood Helms)
+Circlets are the exception, and cannot be crafted with
+Using an ethereal item to craft will cause the resulting item to be ethereal
+Crafted items no longer have higher level requirements than their rare equivalents (was +10 with an additional +3 per affix, up to +22)
+Crafted items can now be upgraded (same recipes as upgrading rares)
+Rare items can now be used in crafting recipes
+The predetermined affixes for many crafts have been adjusted
+New crafting recipes have been added which correspond to the remaining gems (topaz, diamond, skull)
+New "craft infusion" items provide an alternative method of crafting equipment (they drop from Treasure Fallen in maps)
+Arrows and bolts getting crafting recipes (same as shields)
+Normal quality quivers have qlvl 1
+Exceptional quality quivers have qlvl 25
+Elite quality quivers have qlvl 45
+## Crafting Comparison Chart[edit]
+The recipe for each craft requires a jewel and a magic/rare base item as well as the runes/gems shown below. Alternatively, craft infusions can be used.
+Many affixes in this table are abbreviated to save horizontal space.
+ | Type
+ | Blood
+ | Caster
+ | Hitpower
+ | Safety
+ | Vampiric
+ | Bountiful
+ | Brilliant
+ | Amulet 
+ | Amn + P.Ruby 
+ +10% Faster Run/Walk 
+ +[3-6] Life after each Kill 
+ +[10-20] to Life
+ | Ral + P.Amethyst 
+ +[5-10]% Faster Cast Rate 
+ Regenerate Mana [4-10]% 
+ +[10-20] to Mana
+ | Thul + P.Sapphire 
+ +[150-250] to Attack Rating 
+ +[10-20]% Faster Hit Recovery 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Thul + P.Emerald 
+ +10% Block Chance 
+ Magic Damage Reduced by [4-7] 
+ Physical Damage Reduced by [4-7]
+ | Dol + P.Skull 
+ [15-25]% Curse Duration Reduction 
+ [3-6]% Mana Stolen per Hit 
+ Replenish Life +[20-30]
+ | Ko + P.Topaz 
+ +[10-20] to Vitality 
+ +[20-30]% Magic Find 
+ +[1-3] to Light Radius
+ | Tal + P.Diamond 
+ +[100-150] Defense vs. Missile 
+ +[4-8] to All Attributes 
+ All Resistances +[5-10]
+ | Ring 
+ | Sol + P.Ruby 
+ +[5-10] to Strength 
+ [2-3]% Life Stolen per Hit 
+ +[10-20] to Life
+ | Amn + P.Amethyst 
+ +[5-10] to Energy 
+ +[1-2] Mana after each Kill 
+ +[10-20] to Mana
+ | Amn + P.Sapphire 
+ +[5-10] to Dexterity 
+ +[2-4] to Maximum Damage 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Amn + P.Emerald 
+ +[5-10] to Vitality 
+ Magic Damage Reduced by [2-5] 
+ Physical Damage Reduced by [2-5]
+ | Hel + P.Skull 
+ [15-25]% Poison Length Reduction 
+ [2-3]% Mana Stolen per Hit 
+ +[2-4] to Minimum Damage
+ | Lum + P.Topaz 
+ +[5-10] to Vitality 
+ +[10-20]% Magic Find 
+ +[1-3] to Light Radius
+ | Hel + P.Diamond 
+ +[50-100] Defense vs. Missile 
+ All Resistances +[3-5] 
+ Half Freeze Duration
+ | Belt 
+ | Tal + P.Ruby 
+ [10-20]% Open Wounds 
+ [3-6]% Life Stolen per Hit 
+ +[10-20] to Life
+ | Ith + P.Amethyst 
+ +10% Faster Cast Rate 
+ Regenerate Mana [4-10]% 
+ +[10-20] to Mana
+ | Tal + P.Sapphire 
+ +10% Faster Block Rate 
+ +[10-20]% Faster Hit Recovery 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Tal + P.Emerald 
+ +[10-30]% Enhanced Defense 
+ Poison Resist +[10-20]% 
+ Magic Damage Reduced by [2-5] 
+ Physical Damage Reduced by [2-5]
+ | Eld + P.Skull 
+ [15-25]% Poison Length Reduction 
+ [3-6]% Mana Stolen per Hit 
+ Replenish Life +[10-20]
+ | El + P.Topaz 
+ +[25-50]% Enhanced Defense 
+ +[20-30]% Magic Find 
+ +[1-3] to Light Radius
+ | Io + P.Diamond 
+ +[5-10]% Increased Attack Speed 
+ +[25-50]% Enhanced Defense 
+ Half Freeze Duration
+ | Gloves 
+ | Nef + P.Ruby 
+ [5-10]% Crushing Blow 
+ [2-4]% Life Stolen per Hit 
+ +[10-20] to Life
+ | Ort + P.Amethyst 
+ +[5-10]% Faster Cast Rate 
+ +[1-3] Mana after each Kill 
+ +[10-20] to Mana
+ | Ort + P.Sapphire 
+ Knockback 
+ -[10-20]% Target Defense 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Ral + P.Emerald 
+ +[10-30]% Enhanced Defense 
+ Cold Resist +[10-20]% 
+ Magic Damage Reduced by [2-5] 
+ Physical Damage Reduced by [2-5]
+ | Io + P.Skull 
+ [5-10]% Deadly Strike 
+ [2-4]% Mana Stolen per Hit 
+ Replenish Life +[10-20]
+ | Hel + P.Topaz 
+ +[25-50]% Enhanced Defense 
+ +[15-25]% Magic Find 
+ +[1-3] to Light Radius
+ | Shael + P.Diamond 
+ +[5-10]% Increased Attack Speed 
+ [10-20]% Bonus Attack Rating 
+ +[25-50]% Enhanced Defense
+ | Boots 
+ | Eth + P.Ruby 
+ [5-10]% Open Wounds 
+ [2-4]% Life Stolen per Hit 
+ +[10-20] to Life
+ | Thul + P.Amethyst 
+ Increase Maximum Mana [10-15]% 
+ Regenerate Mana [4-10]% 
+ +[10-20] to Mana
+ | Ral + P.Sapphire 
+ +[60-120] Defense vs. Melee 
+ +[10-20]% Faster Hit Recovery 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Ort + P.Emerald 
+ +[20-60]% Enhanced Defense 
+ Fire Resist +[10-20]% 
+ Magic Damage Reduced by [2-5] 
+ Physical Damage Reduced by [2-5]
+ | El + P.Skull 
+ [15-25]% Poison Length Reduction 
+ [2-4]% Mana Stolen per Hit 
+ Replenish Life +[10-20]
+ | Io + P.Topaz 
+ +[25-50]% Enhanced Defense 
+ +[15-25]% Magic Find 
+ +[1-3] to Light Radius
+ | Ko + P.Diamond 
+ +[5-10]% Faster Run/Walk 
+ +[100-150] Defense vs. Missile 
+ Half Freeze Duration
+ | Helm 
+ | Ral + P.Ruby 
+ [10-15]% Crushing Blow 
+ [2-4]% Life Stolen per Hit 
+ +[10-20] to Life
+ | Nef + P.Amethyst 
+ 10% Faster Cast Rate 
+ Regenerate Mana [5-10]% 
+ +[10-20] to Energy
+ | Ith + P.Sapphire 
+ +[100-200] to Attack Rating 
+ +[10-20]% Faster Hit Recovery 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Ith + P.Emerald 
+ +[30-60]% Enhanced Defense 
+ +[100-150] Defense vs. Missile 
+ Physical Damage Reduced by [4-6]%
+ | Lum + P.Skull 
+ [10-15]% Deadly Strike 
+ [2-4]% Mana Stolen per Hit 
+ Replenish Life +[10-15]
+ | Tir + P.Topaz 
+ +[25-50]% Enhanced Defense 
+ +[20-30]% Magic Find 
+ +[1-3] to Light Radius
+ | Eld + P.Diamond 
+ +[5-10]% Increased Attack Speed 
+ +[25-50]% Enhanced Defense 
+ Half Freeze Duration
+ | Chest 
+ | Thul + P.Ruby 
+ +[4-6] Life after each Kill 
+ +[30-50]% Enhanced Defense 
+ +[5-8]% to Maximum Life
+ | Tal + P.Amethyst 
+ +[10-15]% Faster Cast Rate 
+ +[3-6] Mana after each Kill 
+ +[15-25] to Energy
+ | Nef + P.Sapphire 
+ +[75-100]% Enhanced Defense 
+ +[30-40]% Faster Hit Recovery 
+ 8% CtC Level 4 Frost Nova when Struck
+ | Eth + P.Emerald 
+ +[50-75]% Enhanced Defense 
+ +[100-150] Defense vs. Melee 
+ Physical Damage Reduced by [4-6]%
+ | Tir + P.Skull 
+ [4-6]% Mana Stolen per Hit 
+ +[30-50]% Enchanced Defence 
+ [30-50]% Poison Length Reduction
+ | Eld + P.Topaz 
+ +[30-50]% Enhanced Defense 
+ +[20-30]% Magic Find 
+ +[30-50]% Gold Find
+ | El + P.Diamond 
+ +[10-20]% Block Chance 
+ +[25-50]% Enhanced Defense 
+ All Resistances +[5-10]
+ | Quiver 
+ | Ith + P.Ruby 
+ +[10-20]% Crushing Blow 
+ +[10-20] Life
+ [3-6]% Life Stolen per Hit
+ | Eth + P.Amethyst 
+ +10% Faster Cast Rate 
+ +[10-20] to Mana
+ +[2-4] Mana After Each Kill
+ | Eth + P.Sapphire 
+ Knockback
+-[10-20]% Target Defense 
+ 8% CtC Level 4 Frost Nova When Struck
+ | Nef + P.Emerald 
+ Magic Damage Reduced by [4-7] 
+ Physical Damage Reduced by [4-7] 
+ +10% Faster Run/Walk
+ | Sol + P.Skull 
+ +[3-6]% Mana Stolen per Hit 
+ [30-50]% Poison Length Reduction 
+ Replenish Life +[15-25]
+ | Dol + P.Topaz 
+ +[5-10] Vitality 
+ +[15-25]% Magic Find 
+ [20-30]% Gold Find
+ | Ort + P.Diamond 
+ All Resistances +[5-10] 
+ +[100-150] Defense vs. Missile 
+ +10% Faster Hit Recovery
+ | Shield 
+ | Ith + P.Ruby 
+ +[10-20]% Block Chance 
+ [3-6]% Life Stolen per Hit 
+ +[5-8]% to Maximum Life
+ | Eth + P.Amethyst 
+ +[10-20]% Block Chance 
+ 10% Faster Cast Rate 
+ +[20-30]% to Maximum Mana
+ | Eth + P.Sapphire 
+ +[10-20]% Block Chance 
+ +[20-30]% Faster Block Rate 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Nef + P.Emerald 
+ +[50-75]% Enhanced Defense 
+ +[100-150] Defense vs. Melee 
+ Physical Damage Reduced by [4-6]%
+ | Sol + P.Skull 
+ +[10-20]% Block Chance 
+ [3-6]% Mana Stolen per Hit 
+ [30-50]% Poison Length Reduction
+ | Dol + P.Topaz 
+ +[10-20]% Block Chance 
+ +[20-30]% Magic Find 
+ [30-50]% Gold Find
+ | Ort + P.Diamond 
+ +[10-20]% Block Chance 
+ All Resistances +[5-10] 
+ Half Freeze Duration
+ | Weapon 
+ | Ort + P.Ruby 
+ +[50-80]% Enhanced Damage 
+ [3-6]% Life Stolen per Hit 
+ +[10-20] to Life
+ | Tir + P.Amethyst 
+ +1 to All Skills 
+ +[10-20]% Faster Cast Rate 
+ +[10-20] to Mana
+ | Tir + P.Sapphire 
+ +[50-80]% Enhanced Damage 
+ -[10-20]% Target Defense 
+ 5% CtC Level 4 Frost Nova when Struck
+ | Sol + P.Emerald 
+ +[50-80]% Enhanced Damage 
+ Knockback 
+ Magic Damage Reduced by [2-5] 
+ Physical Damage Reduced by [2-5]
+ | Shael + P.Skull 
+ [100-140]% Damage to Demons 
+ [100-140]% Damage to Undead 
+ [3-6]% Mana Stolen per Hit 
+ Replenish Life +[10-15]
+ | Shael + P.Topaz 
+ +1 to All Skills 
+ +[20-30]% Magic Find 
+ +[1-3] to Light Radius
+ | Sol + P.Diamond 
++20% Increased Attack Speed 
+ +[20-40]% Enhanced Damage 
+ +[50-100] to Attack Rating
+ | Any
+ | Blood Craft Infusion
+ | Caster Craft Infusion
+ | Hitpower Craft Infusion
+ | Safety Craft Infusion
+ | Vampiric Craft Infusion
+ | Bountiful Craft Infusion
+ | Brilliant Craft Infusion
+ | Type
+ | Blood
+ | Caster
+ | Hitpower
+ | Safety
+ | Vampiric
+ | Bountiful
+ | Brilliant
+## Blood Items[edit]
+Blood Amulet
+ | Recipe
+ | Magic Amulet
+ | Any Jewel
+ | Perfect Ruby
+ | Amn Rune (#11)
+ | Before
+ | After
+ | +[5-10]% Faster Run/Walk
+ | +10% Faster Run/Walk
+ | [1-4]% Life Stolen per Hit
+ | +[3-6] Life after each Kill
+ | +[10-20] to Life
+ | +[10-20] to Life
+Blood Ring
+ | Recipe
+ | Magic Ring
+ | Any Jewel
+ | Perfect Ruby
+ | Sol Rune (#12)
+ | Before
+ | After
+ | +[1-5] to Strength
+ | +[5-10] to Strength
+ | [1-3]% Life Stolen per Hit
+ | [2-3]% Life Stolen per Hit
+ | +[10-20] to Life
+ | +[10-20] to Life
+Blood Belt
+ | Recipe
+ | Magic Belt
+ | Any Jewel
+ | Perfect Ruby
+ | Tal Rune (#7)
+ | Before
+ | After
+ | [5-10]% Chance of Open Wounds
+ | [10-20]% Chance of Open Wounds
+ | [1-3]% Life Stolen per Hit
+ | [3-6]% Life Stolen per Hit
+ | +[10-20] to Life
+ | +[10-20] to Life
+Used to require Belt, Mesh Belt, or Mithril Coil
+Blood Gloves
+ | Recipe
+ | Magic Gloves
+ | Any Jewel
+ | Perfect Ruby
+ | Nef Rune (#4)
+ | Before
+ | After
+ | [5-10]% Chance of Crushing Blow
+ | [5-10]% Chance of Crushing Blow
+ | [1-3]% Life Stolen per Hit
+ | [2-4]% Life Stolen per Hit
+ | +[10-20] to Life
+ | +[10-20] to Life
+Used to require Heavy Gloves, Sharkskin Gloves, or Vampirebone Gloves
+Blood Boots
+ | Recipe
+ | Magic Boots
+ | Any Jewel
+ | Perfect Ruby
+ | Eth Rune (#5)
+ | Before
+ | After
+ | Replenish Life +[5-10]
+ | [5-10]% Chance of Open Wounds
+ | [1-3]% Life Stolen per Hit
+ | [2-4]% Life Stolen per Hit
+ | +[10-20] to Life
+ | +[10-20] to Life
+Used to require Light Plated Boots, Battle Boots, or Mirrored Boots
+Blood Helm
+ | Recipe
+ | Magic Helm
+ | Any Jewel
+ | Perfect Ruby
+ | Ral Rune (#8)
+ | Before
+ | After
+ | [5-10]% Deadly Strike
+ | [10-15]% Chance of Crushing Blow
+ | [1-4]% Life Stolen per Hit
+ | [2-4]% Life Stolen per Hit
+ | +[10-20] to Life
+ | +[10-20] to Life
+Used to require Helm, Casque, or Armet
+Blood Chest
+ | Recipe
+ | Magic Chest
+ | Any Jewel
+ | Perfect Ruby
+ | Thul Rune (#10)
+ | Before
+ | After
+ | +[1-3] Life after each Demon Kill
+ | +[4-6] Life after each Kill
+ | [1-3]% Life Stolen per Hit
+ | +[30-50]% Enhanced Defense
+ | +[10-20] to Life
+ | +[5-8]% to Maximum Life 
+Used to require Plate Mail, Templar Coat, or Hellforge Plate
+Blood Quiver
+ | Recipe
+ | Magic Quiver
+ | Any Jewel
+ | Perfect Ruby
+ | Ith Rune (#6)
+ | New
+ | +[10-20]% Crushing Blow
+ | +[10-20] Life
+ | [3-6]% Life Stolen per Hit 
+Blood Shield
+ | Recipe
+ | Magic Shield
+ | Any Jewel
+ | Perfect Ruby
+ | Ith Rune (#6)
+ | Before
+ | After
+ | Attacker Takes Damage of [4-7]
+ | [10-20]% Increased Chance of Blocking
+ | [1-4]% Life Stolen per Hit
+ | [3-6]% Life Stolen per Hit
+ | +[10-20] to Life
+ | +[5-8]% to Maximum Life
+Used to require Spiked Shield, Barbed Shield, or Blade Barrier
+Blood Weapon
+ | Recipe
+ | Magic Weapon
+ | Any Jewel
+ | Perfect Ruby
+ | Ort Rune (#9)
+ | Before
+ | After
+ | +[35-60]% Enhanced Damage
+ | +[50-80]% Enhanced Damage
+ | [1-4]% Life Stolen per Hit
+ | [3-6]% Life Stolen per Hit
+ | +[10-20] to Life
+ | +[10-20] to Life
+Used to require an axe
+## Caster Items[edit]
+Caster Amulet
+ | Recipe
+ | Magic Amulet
+ | Any Jewel
+ | Perfect Amethyst
+ | Ral Rune (#8)
+ | Before
+ | After
+ | +[5-10]% Faster Cast Rate
+ | +[5-10]% Faster Cast Rate
+ | Regenerate Mana [4-10]%
+ | Regenerate Mana [4-10]%
+ | +[10-20] to Mana
+ | +[10-20] to Mana
+Caster Ring
+ | Recipe
+ | Magic Ring
+ | Any Jewel
+ | Perfect Amethyst
+ | Amn Rune (#11)
+ | Before
+ | After
+ | +[1-5] to Energy
+ | +[5-10] to Energy
+ | Regenerate Mana [4-10]%
+ | +[1-2] to Mana after each Kill
+ | +[10-20] to Mana
+ | +[10-20] to Mana
+Caster Belt
+ | Recipe
+ | Magic Belt
+ | Any Jewel
+ | Perfect Amethyst
+ | Ith Rune (#6)
+ | Before
+ | After
+ | +[5-10]% Faster Cast Rate
+ | +10% Faster Cast Rate
+ | Regenerate Mana [4-10]%
+ | Regenerate Mana [4-10]%
+ | +[10-20] to Mana
+ | +[10-20] to Mana
+Used to require Light Belt, Sharkskin Belt, or Vampirefang Belt
+Caster Gloves
+ | Recipe
+ | Magic Gloves
+ | Any Jewel
+ | Perfect Amethyst
+ | Ort Rune (#9)
+ | Before
+ | After
+ | +[1-3] to Mana after each Kill
+ | +[1-3] to Mana after each Kill
+ | Regenerate Mana [4-10]%
+ | +[5-10]% Faster Cast Rate
+ | +[10-20] to Mana
+ | +[10-20] to Mana
+Used to require Leather Gloves, Demonhide Gloves, or Bramble Mitts
+Caster Boots
+ | Recipe
+ | Magic Boots
+ | Any Jewel
+ | Perfect Amethyst
+ | Thul Rune (#10)
+ | Before
+ | After
+ | Increase Maximum Mana [2-5]%
+ | Increase Maximum Mana [10-15]%
+ | Regenerate Mana [4-10]%
+ | Regenerate Mana [4-10]%
+ | +[10-20] to Mana
+ | +[10-20] to Mana
+Used to require Boots, Demonhide Boots, or Wyrmhide Boots
+Caster Helm
+ | Recipe
+ | Magic Helm
+ | Any Jewel
+ | Perfect Amethyst
+ | Nef Rune (#4)
+ | Before
+ | After
+ | [1-4]% Mana Stolen per Hit
+ | +10% Faster Cast Rate
+ | Regenerate Mana [4-10]%
+ | Regenerate Mana [5-10]%
+ | +[10-20] to Mana
+ | +[10-20] to Energy
+Used to require Mask, Death Mask, or Demonhead
+Caster Chest
+ | Recipe
+ | Magic Chest
+ | Any Jewel
+ | Perfect Amethyst
+ | Tal Rune (#7)
+ | Before
+ | After
+ | +[1-3] to Mana after each Kill
+ | +[3-6] to Mana after each Kill
+ | Regenerate Mana [4-12]%
+ | +[10-15]% Faster Cast Rate
+ | +[10-20] to Mana
+ | +[15-25] to Energy
+Used to require Light Plate, Mage Plate, or Archon Plate
+Caster Quiver
+ | Recipe
+ | Magic Quiver
+ | Any Jewel
+ | Perfect Amethyst
+ | Eth Rune (#5)
+ | New
+ | +10% Faster Cast Rate
+ | +[10-20] Mana
+ | +[2-4] to Mana After Each Kill
+Caster Shield
+ | Recipe
+ | Magic Shield
+ | Any Jewel
+ | Perfect Amethyst
+ | Eth Rune (#5)
+ | Before
+ | After
+ | [5-10]% Increased Chance of Blocking
+ | [10-20]% Increased Chance of Blocking
+ | Regenerate Mana [4-10]%
+ | +10% Faster Cast Rate
+ | +[10-20] to Mana
+ | +[20-30]% to Maximum Mana
+Used to require Small Shield, Round Shield, or Luna
+Caster Weapon
+ | Recipe
+ | Magic Weapon
+ | Any Jewel
+ | Perfect Amethyst
+ | Tir Rune (#3)
+ | Before
+ | After
+ | [1-4]% Mana Stolen per Hit
+ | +1 to All Skills
+ | Regenerate Mana [4-10]%
+ | +[10-20]% Faster Cast Rate
+ | +[10-20] to Mana
+ | +[10-20] to Mana
+Used to require a rod (staff, scepter, wand)
+## Hitpower Items[edit]
+Hitpower Amulet
+ | Recipe
+ | Magic Amulet
+ | Any Jewel
+ | Perfect Sapphire
+ | Thul Rune (#10)
+ | Before
+ | After
+ | Hit Causes Monster to Flee [5-15]%
+ | +[150-250] to Attack Rating
+ | Attacker Takes Damage of [3-10]
+ | +[10-20]% Faster Hit Recovery
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Hitpower Ring
+ | Recipe
+ | Magic Ring
+ | Any Jewel
+ | Perfect Sapphire
+ | Amn Rune (#11)
+ | Before
+ | After
+ | +[1-5] to Dexterity
+ | +[5-10] to Dexterity
+ | Attacker Takes Damage of [3-6]
+ | +[2-4] to Maximum Damage
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Hitpower Belt
+ | Recipe
+ | Magic Belt
+ | Any Jewel
+ | Perfect Sapphire
+ | Tal Rune (#7)
+ | Before
+ | After
+ | [5-10]% Damage Taken Gained as Mana when Hit
+ | +10% Faster Block Rate
+ | Attacker Takes Damage of [3-7]
+ | +[10-20]% Faster Hit Recovery
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Used to require Heavy Belt, Battle Belt, or Troll Belt
+Hitpower Gloves
+ | Recipe
+ | Magic Gloves
+ | Any Jewel
+ | Perfect Sapphire
+ | Ort Rune (#9)
+ | Before
+ | After
+ | Knockback
+ | Knockback
+ | Attacker Takes Damage of [3-7]
+ | -[10-20]% Target Defense
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Used to require Chain Gloves, Heavy Bracers, or Vambraces
+Hitpower Boots
+ | Recipe
+ | Magic Boots
+ | Any Jewel
+ | Perfect Sapphire
+ | Ral Rune (#8)
+ | Before
+ | After
+ | +[25-50] Defense vs. Melee
+ | +[60-120] Defense vs. Melee
+ | Attacker Takes Damage of [3-7]
+ | +[10-20]% Faster Hit Recovery
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Used to require Chain Boots, Mesh Boots, or Boneweave Boots
+Hitpower Helm
+ | Recipe
+ | Magic Helm
+ | Any Jewel
+ | Perfect Sapphire
+ | Ith Rune (#6)
+ | Before
+ | After
+ | +[25-50]% Defense vs. Missile
+ | +[100-200] to Attack Rating
+ | Attacker Takes Damage of [3-7]
+ | +[10-20]% Faster Hit Recovery
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Used to require Full Helm, Basinet, or Giant Conch
+Hitpower Chest
+ | Recipe
+ | Magic Chest
+ | Any Jewel
+ | Perfect Sapphire
+ | Nef Rune (#4)
+ | Before
+ | After
+ | +[10-20]% Faster Hit Recovery
+ | +[30-40]% Faster Hit Recovery
+ | Attacker Takes Damage of [3-10]
+ | +[75-100]% Enhanced Defense
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 8% Chance to Cast Level 4 Frost Nova when Struck
+Used to require Field Plate, Sharktooth Armor, or Kraken Shell
+Hitpower Quiver
+ | Recipe
+ | Magic Quiver
+ | Any Jewel
+ | Perfect Sapphire
+ | Eth Rune (#5)
+ | New
+ | Knockback
+ | -[10-20]% Target Defense
+ | 8% Chance to Cast Level 4 Frost Nova When Struck
+Hitpower Shield
+ | Recipe
+ | Magic Shield
+ | Any Jewel
+ | Perfect Sapphire
+ | Eth Rune (#5)
+ | Before
+ | After
+ | [5-10]% Increased Chance of Blocking
+ | [10-20]% Increased Chance of Blocking
+ | Attacker Takes Damage of [3-10]
+ | +[20-30]% Faster Block Rate
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Used to require Gothic Shield, Ancient Shield, or Ward
+Hitpower Weapon
+ | Recipe
+ | Magic Weapon
+ | Any Jewel
+ | Perfect Sapphire
+ | Tir Rune (#3)
+ | Before
+ | After
+ | +[35-60]% Enhanced Damage
+ | +[50-80]% Enhanced Damage
+ | Attacker Takes Damage of [3-7]
+ | -[10-20]% Target Defense
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+ | 5% Chance to Cast Level 4 Frost Nova when Struck
+Used to require a blunt weapon (mace, staff, scepter, wand)
+## Safety Items[edit]
+Safety Amulet
+ | Recipe
+ | Magic Amulet
+ | Any Jewel
+ | Perfect Emerald
+ | Thul Rune (#10)
+ | Before
+ | After
+ | [1-10]% Increased Chance of Blocking
+ | 10% Increased Chance of Blocking
+ | Magic Damage Taken Reduced by [1-2]
+ | Magic Damage Taken Reduced by [4-7]
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [4-7]
+Safety Ring
+ | Recipe
+ | Magic Ring
+ | Any Jewel
+ | Perfect Emerald
+ | Amn Rune (#11)
+ | Before
+ | After
+ | +[1-5] to Vitality
+ | +[5-10] to Vitality
+ | Magic Damage Taken Reduced by [1-2]
+ | Magic Damage Taken Reduced by [2-5]
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [2-5]
+Safety Belt
+ | Recipe
+ | Magic Belt
+ | Any Jewel
+ | Perfect Emerald
+ | Tal Rune (#7)
+ | Before
+ | After
+ | +[10-30]% Enhanced Defense
+ | +[10-30]% Enhanced Defense
+ | Poison Resist +[5-10]%
+ | Poison Resist +[10-20]%
+ | Magic Damage Taken Reduced by [1-2]
+ | Magic Damage Taken Reduced by [2-5]
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [2-5]
+Used to require Sash, Demonhide Sash, or Spiderweb Sash
+Safety Gloves
+ | Recipe
+ | Magic Gloves
+ | Any Jewel
+ | Perfect Emerald
+ | Ral Rune (#8)
+ | Before
+ | After
+ | +[10-30]% Enhanced Defense
+ | +[10-30]% Enhanced Defense
+ | Cold Resist +[5-10]%
+ | Cold Resist +[10-20]%
+ | Magic Damage Taken Reduced by [1-2]
+ | Magic Damage Taken Reduced by [2-5]
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [2-5]
+Used to require Gauntlets, War Gauntlets, or Ogre Gauntlets
+Safety Boots
+ | Recipe
+ | Magic Boots
+ | Any Jewel
+ | Perfect Emerald
+ | Ort Rune (#9)
+ | Before
+ | After
+ | +[10-30]% Enhanced Defense
+ | +[20-60]% Enhanced Defense
+ | Fire Resist +[5-10]%
+ | Fire Resist +[10-20]%
+ | Magic Damage Taken Reduced by [1-2]
+ | Magic Damage Taken Reduced by [2-5]
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [2-5]
+Used to require Greaves, War Boots, or Myrmidon Greaves
+Safety Helm
+ | Recipe
+ | Magic Helm
+ | Any Jewel
+ | Perfect Emerald
+ | Ith Rune (#6)
+ | Before
+ | After
+ | +[10-30]% Enhanced Defense
+ | +[30-60]% Enhanced Defense
+ | Lightning Resist +[5-10]%
+ | +[100-150] Defense vs. Missile
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [4-6]%
+ | Magic Damage Taken Reduced by [1-2]
+ | Removed
+Used to require Crown, Grand Crown, or Corona
+Safety Chest
+ | Recipe
+ | Magic Chest
+ | Any Jewel
+ | Perfect Emerald
+ | Eth Rune (#5)
+ | Before
+ | After
+ | +[10-30]% Enhanced Defense
+ | +[50-75]% Enhanced Defense
+ | Half Freeze Duration
+ | +[100-150] Defense vs. Melee
+ | Physical Damage Taken Reduced by [3-9]
+ | Physical Damage Taken Reduced by [4-6]%
+ | Magic Damage Taken Reduced by [2-5]
+ | Removed
+Used to require Breast Plate, Cuirass, or Great Hauberk
+Safety Quiver
+ | Recipe
+ | Magic Quiver
+ | Any Jewel
+ | Perfect Emerald
+ | Nef Rune (#4)
+ | New
+ | Magic Damage Taken Reduced by [4-7]
+ | Physical Damage Taken Reduced by [4-7]
+ | +10% Faster Run/Walk
+Safety Shield
+ | Recipe
+ | Magic Shield
+ | Any Jewel
+ | Perfect Emerald
+ | Nef Rune (#4)
+ | Before
+ | After
+ | +[10-30]% Enhanced Defense
+ | +[50-75]% Enhanced Defense
+ | Magic Resistance +[5-10]%
+ | +[100-150] Defense vs. Melee
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [4-6]%
+ | Magic Damage Taken Reduced by [1-2]
+ | Removed
+Used to require Kite Shield, Dragon Shield, or Monarch
+Safety Weapon
+ | Recipe
+ | Magic Weapon
+ | Any Jewel
+ | Perfect Emerald
+ | Sol Rune (#12)
+ | Before
+ | After
+ | +[5-10]% Enhanced Defense
+ | +[50-80]% Enhanced Damage
+ | Magic Damage Taken Reduced by [1-2]
+ | Magic Damage Taken Reduced by [2-5]
+ | Physical Damage Taken Reduced by [1-4]
+ | Physical Damage Taken Reduced by [2-5]
+ | 
+ | Knockback
+Used to require a spear
+## Vampiric Items[edit]
+Vampiric Amulet
+ | Recipe
+ | Magic Amulet
+ | Any Jewel
+ | Perfect Skull
+ | Dol Rune (#14)
+ | New
+ | [15-25]% Curse Duration Reduction
+ | [3-6]% Mana Stolen per Hit
+ | Replenish Life +[20-30]
+Vampiric Ring
+ | Recipe
+ | Magic Ring
+ | Any Jewel
+ | Perfect Skull
+ | Hel Rune (#15)
+ | New
+ | [15-25]% Poison Length Reduction
+ | [2-3]% Mana Stolen per Hit
+ | +[2-4] to Minimum Damage
+Vampiric Belt
+ | Recipe
+ | Magic Belt
+ | Any Jewel
+ | Perfect Skull
+ | Eld Rune (#2)
+ | New
+ | [15-25]% Poison Length Reduction
+ | [3-6]% Mana Stolen per Hit
+ | Replenish Life +[10-20]
+Vampiric Gloves
+ | Recipe
+ | Magic Gloves
+ | Any Jewel
+ | Perfect Skull
+ | Io Rune (#16)
+ | New
+ | [5-10]% Deadly Strike
+ | [2-4]% Mana Stolen per Hit
+ | Replenish Life +[10-20]
+Vampiric Boots
+ | Recipe
+ | Magic Boots
+ | Any Jewel
+ | Perfect Skull
+ | El Rune (#1)
+ | New
+ | [15-25]% Poison Length Reduction
+ | [2-4]% Mana Stolen per Hit
+ | Replenish Life +[10-20]
+Vampiric Helm
+ | Recipe
+ | Magic Helm
+ | Any Jewel
+ | Perfect Skull
+ | Lum Rune (#17)
+ | New
+ | [10-15]% Deadly Strike
+ | [2-4]% Mana Stolen per Hit
+ | Replenish Life +[10-15]
+Vampiric Chest
+ | Recipe
+ | Magic Chest
+ | Any Jewel
+ | Perfect Skull
+ | Tir Rune (#3)
+ | New
+ | [4-6]% Mana Stolen per Hit
+ | +[30-50]% Enhanced Defense
+ | [30-50]% Poison Length Reduction
+Vampiric Quiver
+ | Recipe
+ | Magic Quiver
+ | Any Jewel
+ | Perfect Skull
+ | Sol Rune (#12)
+ | New
+ | +[3-6]% Mana Stolen per Hit
+ | [30-50]% Poison Length Reduction
+ | Replenish Life +[15-25]
+Vampiric Shield
+ | Recipe
+ | Magic Shield
+ | Any Jewel
+ | Perfect Skull
+ | Sol Rune (#12)
+ | New
+ | [10-20]% Increased Chance of Blocking
+ | [3-6]% Mana Stolen per Hit
+ | [30-50]% Poison Length Reduction
+Vampiric Weapon
+ | Recipe
+ | Magic Weapon
+ | Any Jewel
+ | Perfect Skull
+ | Shael Rune (#13)
+ | New
+ | +[100-140]% Damge to Demons
+ | +[100-140]% Damage to Undead
+ | [3-6]% Mana Stolen per Hit
+ | Replenish Life +[10-15]
+## Bountiful Items[edit]
+Bountiful Amulet
+ | Recipe
+ | Magic Amulet
+ | Any Jewel
+ | Perfect Topaz
+ | Ko Rune (#18)
+ | New
+ | +[10-20] Vitality
+ | [20-30]% Better Chance of Getting Magic Items
+ | +[1-3] to Light Radius
+Bountiful Ring
+ | Recipe
+ | Magic Ring
+ | Any Jewel
+ | Perfect Topaz
+ | Lum Rune (#17)
+ | New
+ | +[5-10] Vitality
+ | [10-20]% Better Chance of Getting Magic Items
+ | +[1-3] to Light Radius
+Bountiful Belt
+ | Recipe
+ | Magic Belt
+ | Any Jewel
+ | Perfect Topaz
+ | El Rune (#1)
+ | New
+ | +[25-50]% Enhanced Defense
+ | [20-30]% Better Chance of Getting Magic Items
+ | +[1-3] to Light Radius
+Bountiful Gloves
+ | Recipe
+ | Magic Gloves
+ | Any Jewel
+ | Perfect Topaz
+ | Hel Rune (#15)
+ | New
+ | +[25-50]% Enhanced Defense
+ | [15-25]% Better Chance of Getting Magic Items
+ | +[1-3] to Light Radius
+Bountiful Boots
+ | Recipe
+ | Magic Boots
+ | Any Jewel
+ | Perfect Topaz
+ | Io Rune (#16)
+ | New
+ | +[25-50]% Enhanced Defense
+ | [15-25]% Better Chance of Getting Magic Items
+ | +[1-3] to Light Radius
+Bountiful Helm
+ | Recipe
+ | Magic Helm
+ | Any Jewel
+ | Perfect Topaz
+ | Tir Rune (#3)
+ | New
+ | +[25-50]% Enhanced Defense
+ | [20-30]% Better Chance of Getting Magic Items
+ | +[1-3] to Light Radius
+Bountiful Chest
+ | Recipe
+ | Magic Chest
+ | Any Jewel
+ | Perfect Topaz
+ | Eld Rune (#2)
+ | New
+ | +[30-50]% Enhanced Defense
+ | +[20-30]% Better Chance of Getting Magic Items
+ | +[30-50]% Extra Gold From Monsters
+Bountiful Quiver
+ | Recipe
+ | Magic Quiver
+ | Any Jewel
+ | Perfect Topaz
+ | Dol Rune (#14)
+ | New
+ | +[5-10] to Vitality
+ | +[15-25]% Better Chance of Getting Magic Items
+ | +[20-30]% Extra Gold From Monsters
+Bountiful Shield
+ | Recipe
+ | Magic Shield
+ | Any Jewel
+ | Perfect Topaz
+ | Dol Rune (#14)
+ | New
+ | [10-20]% Increased Chance of Blocking
+ | +[20-30]% Better Chance of Getting Magic Items
+ | +[30-50]% Extra Gold From Monsters
+Bountiful Weapon
+ | Recipe
+ | Magic Weapon
+ | Any Jewel
+ | Perfect Topaz
+ | Shael Rune (#13)
+ | New
+ | +1 to All Skills
+ | [20-30]% Better Chance of Getting Magic Items
+ | +[1-3] to Light Radius
+## Brilliant Items[edit]
+Brilliant Amulet
+ | Recipe
+ | Magic Amulet
+ | Any Jewel
+ | Perfect Diamond
+ | Tal Rune (#7)
+ | New
+ | +[100-150] Defense vs. Missile
+ | +[4-8] to All Attributes
+ | All Resistances +[5-10]
+Brilliant Ring
+ | Recipe
+ | Magic Ring
+ | Any Jewel
+ | Perfect Diamond
+ | Hel Rune (#15)
+ | New
+ | +[50-100] Defense vs. Missile
+ | All Resistances +[3-5]
+ | Half Freeze Duration
+Brilliant Belt
+ | Recipe
+ | Magic Belt
+ | Any Jewel
+ | Perfect Diamond
+ | Io Rune (#16)
+ | New
+ | +[5-10]% Increased Attack Speed
+ | +[25-50]% Enhanced Defense
+ | Half Freeze Duration
+Brilliant Gloves
+ | Recipe
+ | Magic Gloves
+ | Any Jewel
+ | Perfect Diamond
+ | Shael Rune (#13)
+ | New
+ | +[5-10]% Increased Attack Speed
+ | [10-20]% Bonus to Attack Rating
+ | +[25-50]% Enhanced Defense
+Brilliant Boots
+ | Recipe
+ | Magic Boots
+ | Any Jewel
+ | Perfect Diamond
+ | Ko Rune (#18)
+ | New
+ | +[5-10]% Faster Run/Walk
+ | +[100-150] Defense vs. Missile
+ | Half Freeze Duration
+Brilliant Helm
+ | Recipe
+ | Magic Helm
+ | Any Jewel
+ | Perfect Diamond
+ | Eld Rune (#2)
+ | New
+ | +[5-10]% Increased Attack Speed
+ | +[25-50]% Enhanced Defense
+ | Half Freeze Duration
+Brilliant Chest
+ | Recipe
+ | Magic Chest
+ | Any Jewel
+ | Perfect Diamond
+ | El Rune (#1)
+ | New
+ | [10-20]% Increased Chance of Blocking
+ | +[25-50]% Enhanced Defense
+ | All Resistances +[5-10]
+Brilliant Quiver
+ | Recipe
+ | Magic Quiver
+ | Any Jewel
+ | Perfect Diamond
+ | Ort Rune (#9)
+ | New
+ | All Resistances +[5-10]
+ | +[100-150] Defense vs. Missile
+ | +10% Faster Hit Recovery 
+Brilliant Shield
+ | Recipe
+ | Magic Shield
+ | Any Jewel
+ | Perfect Diamond
+ | Ort Rune (#9)
+ | New
+ | [10-20]% Increased Chance of Blocking
+ | All Resistances +[5-10]
+ | Half Freeze Duration
+Brilliant Weapon
+ | Recipe
+ | Magic Weapon
+ | Any Jewel
+ | Perfect Diamond
+ | Sol Rune (#12)
+ | New
+ | +20% Increased Attack Speed
+ | +[20-40]% Enhanced Damage
+ | +[50-100] to Attack Rating

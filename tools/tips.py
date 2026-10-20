@@ -129,6 +129,8 @@ def mods_text(mods):
             continue
         v = val(m)
         param = m.get("param")
+        if isinstance(param, str) and param.isdigit():
+            param = int(param)
         if code in SIMPLE:
             out.append(SIMPLE[code].format(v=v).replace("+-", "-"))
         elif code in FLAG:

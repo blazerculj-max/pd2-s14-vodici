@@ -1,0 +1,5272 @@
+
+Maps are items that allow access to new endgame zones (which are also referred to as maps) with higher zone levels than the vanilla game. For a list of high level zones outside of maps, see Zones.
+Maps are comparable to vanilla endgame zones, making both new and old zones viable for farming.
+Dungeons (tier 4 maps) are very difficult group-based zones that offer more challenge for those interested.
+## Contents
+1 General Info
+1.1 Map Events
+1.2 Modification
+1.3 Affixes
+1.4 Immunes
+2 Individual Maps
+2.1 Tier 1
+2.1.1 Torajan Jungle
+2.1.2 Tomb of Zoltun Kulle
+2.1.3 Shadows of Westmarch
+2.1.4 Phlegethon
+2.1.5 Lost Temple
+2.1.6 Ancestral Trial
+2.1.7 Fall of Caldeum
+2.1.8 Ruins of Viz-Jun
+2.2 Tier 2
+2.2.1 Throne of Insanity
+2.2.2 Sewers of Harrogath
+2.2.3 Sanatorium
+2.2.4 Ruined Cistern
+2.2.5 Pandemonium Citadel
+2.2.6 Horazon's Memory
+2.2.7 Halls of Torture
+2.2.8 Canyon of Sescheron
+2.2.9 Ashen Plains
+2.3 Tier 3
+2.3.1 Blood Moon
+2.3.2 Kehjistan Marketplace
+2.3.3 Kyovoshad
+2.3.4 Arreat Battlefield
+2.3.5 Bastion Keep
+2.3.6 Demon Road
+2.3.7 River of Blood
+2.3.8 Royal Crypts
+2.3.9 Skovos Stronghold
+2.4 Tier 4 (Dungeons)
+2.4.1 Plains of Torment
+2.4.2 Sanctuary of Sin
+2.4.3 Steppes of Daken-Shar
+2.5 Unique Maps
+2.5.1 City of Ureh
+2.5.2 Djinn's Domain
+2.5.3 Fallen Gardens
+2.5.4 Imperial Palace
+2.5.5 Na-Krul's Abyss
+2.5.6 Outer Void
+2.5.7 Warlord of Blood
+2.5.8 Zhar's Sanctum
+## General Info[edit]
+Tier 1 maps can rarely be found in Hell and Act 5 Nightmare. Maps are more commonly found from within map zones themselves, with each tier having a chance to drop higher tiered maps. Anya also rewards characters with a regular T1 map in Hell.
+To open a map, right click it from your inventory in Harrogath (Hell difficulty) with a level 80+ character who has defeated Hell Ancients. Only 1 map (or uber zone) may be opened per game.
+## Map Events[edit]
+Map zones have a chance for special enemies or objects to appear somewhere randomly within them, each with different effects. An event message is displayed when getting close enough to those special enemies/objects. The chance is 33% for rare maps, 22% for magic maps, and 11% for regular maps.
+Darkness itself wanders these lands...
+A Dark Wanderer appears and transforms into a random boss or super unique monster that has increased damage/health and drops extra Worldstone Shards when killed. Up to 3 dark wanderers may appear per map event.
+Evil beckons you from the Void...
+The Shadow of Mendeln appears and summons waves of undead, with later waves having many champion/elite enemies - they have a chance to drop Splinter of the Void.
+An alternate dimension radiates dark energy...
+Horazon appears and creates a portal to a new map zone when defeated. The new map will be the same tier or 1 tier higher (up to T3) than the current map and will have the same map modifiers. The new map sunders monster resistances to 0. The new map won't have additional events. Horazon also drops 6 maps on death, and has 10% chance to drop a unique map.
+A shrieking, mischievious laughter pierces your ears...
+A Treasure Fallen appears and flees from attacks, dropping some of their treasures each time they take significant damage. They can drop gems, runes (up to Zod), maps, map orbs, and crafting infusions. Up to 3 treasure fallen may appear per map event.
+A faint humming keeps the darkness at bay...
+A Spire of Darkness appears and plunges the zone into darkness when clicked - shadow enemies spawn in unexplored areas and have a chance to drop uber keys. The spire will appear relatively close to the entrance. The number of keys drop has no minimum and is capped at a maximum of 6 per map event, and the duration of the event is inversely correlated with how much of the map has been explored.
+You hear coins being counted nearby...
+Gheed appears and sells 5 unidentified unique items for 1 million gold each. The items may transform into their exceptional or elite versions when purchased.
+A mysterious altar vibrates with potential...
+An Altar of the Catalyst appears and spawns a boss monster nearby when clicked - defeating the monster will allow the altar to be used to create up to 3 Catalyst Shards.
+You feel a corrupted presence watching you, as if you're being hunted..."
+Powerful versions of player characters will invade the map through Black portals (Up to 3 portals / 5 invaders per map). Each invader will drop a full set of rare items (One item per equipment slot) and a special Ear that can be used to add special modifiers to maps.
+## Modification[edit]
+Maps can be modified with several items via the Horadric Cube. The orbs can be purchased from Anya in Hell, Horadrim Scarab is an uncommon drop from map bosses, Catalyst Shard drops from a map event, and Standard of Heroes drops from Uber Ancients with each additional ancient beyond the first having a chance to drop more. Maps can also be corrupted with Worldstone Shards, which may drop anywhere.
+Any Runes/Gems listed below have to be in their stackable form for the recipes to work.
+ | Icon
+ | Item
+ | Additional Ingredients
+ | Effect
+ | 
+ | Horadrim Orb
+ | Rare Map, Perfect Gem, Rune
+ | rerolls rare map
+ | 
+ | Infused Horadrim Orb
+ | Rare Map
+ | 
+ | Angelic Orb
+ | Magic Map, Perfect Gem, Rune
+ | upgrades map (magic -> rare)
+ | 
+ | Infused Angelic Orb
+ | Magic Map
+ | 
+ | Zakarum Orb
+ | Regular Map, Jewel, Rune
+ | upgrades map (regular -> rare)
+ | 
+ | Infused Zakarum Orb
+ | Regular Map
+ | 
+ | Arcane Orb
+ | Regular/Magic Map, Jewel
+ | reroll map (regular -> magic)
+ | 
+ | Infused Arcane Orb
+ | Regular/Magic Map
+ | 
+ | Orb of Destruction
+ | Magic/Rare Map
+ | downgrades map (to regular)
+ | 
+ | Orb of Fortification
+ | Magic/Rare/Unique Map
+ | halves number of map monsters and doubles loot/experience gained from them - these fortified monsters have doubled life and deal 20% extra damage (does not affect event monsters), players gain 30% movement velocity
+ | 
+ | Cartographer's Orb
+ | 3 T1/T2 Maps of same tier
+ | combines 3 maps into one of a higher tier
+ | 
+ | Worldstone Shard
+ | Magic/Rare Map/Dungeon
+ | adds a corruption modifier
+ | 
+ | Horadrim Scarab
+ | T3 Map
+ | turns a T3 map into a random rare dungeon
+ | 
+ | Catalyst Shard
+ | Magic/Rare Map
+ | adds "Area contains a random event"
+ | 
+ | Standard of Heroes
+ | Magic/Rare/Unique Map/Dungeon
+ | adds heroic bonuses: +10% Experience, +20% Monster Density, +20% Magic and Gold Find
+ | 
+ | Corrupted Amazon's Ear
+ | Magic/Rare Map/Dungeon
+ | +25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have 25% Increased Velocity, Monsters have +50% Increased Cast and Attack Speed, Monsters have +200% Increased Health
+ | 
+ | Corrupted Assassin's Ear
+ | Magic/Rare Map/Dungeon
+ | +25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have +120% Faster Hit Recovery, Monsters have +10% Deadly Strike, Monsters have +200% Increased Health
+ | 
+ | Corrupted Barbarian's Ear
+ | Magic/Rare Map/Dungeon
+ | +25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have +25% enhanced Physical Damage, Monsters have +20% Chance of Crushing Blow, Monsters have +200% Increased Health
+ | 
+ | Corrupted Druid's Ear
+ | Magic/Rare Map/Dungeon
+ | +25% Monster Rarity, Monsters have +75% chance to drop extra items, Players have -5% to all Maximum Resistances, Monsters have +25% of Physical Damage as extra Fire Damage, Monsters have +200% Increased Health
+ | 
+ | Corrupted Necromancer's Ear
+ | Magic/Rare Map/Dungeon
+ | +25% Monster Rarity, Monsters have +75% chance to drop extra items, Players have -100 Drain Life, Monsters have +50% of Physical Damage as extra Poison Damage over 5 seconds, Monsters have +200% Increased Health
+ | 
+ | Corrupted Paladin's Ear
+ | Magic/Rare Map/Dungeon
+ | +25% Monster Rarity, Monsters have +75% chance to drop extra items, Monsters have +50% to Attack Rating, Players have -5% Physical Damage Reduction, Monsters have +200% Increased Health
+ | 
+ | Corrupted Sorceress's Ear
+ | Magic/Rare Map/Dungeon
+ | +25% Monster Rarity, Monsters have +75% chance to drop extra items, Players have -25% to All Resistances, Monsters have +50% of Physical Damage as extra Lightning Damage, Monsters have +200% Increased Health
+The Cartographer's Orb recipe is currently bugged and sometimes doesn't work correctly with T1 maps
+ | Ingredients
+ | Result
+ | Horadrim Orb + Perfect Gem + Rune
+ | Infused Horadrim Orb
+ | Angelic Orb + Perfect Skull + Rune
+ | Infused Angelic Orb
+ | Zakarum Orb + Jewel + Rune
+ | Infused Zakarum Orb
+ | Arcane Orb + Jewel
+ | Infused Arcane Orb
+ | 3 Maps of same tier (any rarity)
+ | Random map of same tier (regular)
+ | 3 Dungeons
+ | Random dungeon (rare)
+## Affixes[edit]
+Map affixes affect bonus experience, monster density, and magic/gold find.
+Most affixes have 3 tiers of attribute ranges. T1 maps can only roll the first range, while T2 maps can roll the first or second range, and T3 maps can roll the second or third range. This means higher tier maps can have greater monster density and provide more experience and magic/gold find.
+Average rare map values
+T1: +71% density, +14% experience, +50% extra magic/gold
+T2: +78% density, +16% experience, +75% extra magic/gold
+T3: +85% density, +18% experience, +100% extra magic/gold
+Maximum values of each type without modifications (a single map cannot get more than one of these at a time)
+T1: +130% density, +38% experience, +170% extra magic/gold
+T2: +155% density, +46% experience, +240% extra magic/gold
+T3: +180% density, +54% experience, +320% extra magic/gold
+Dungeon attribute ranges always use the T3 ranges, and some affixes will not spawn for dungeons.
+List of Map Affixes
+ | Affix
+ | P/S
+ | Attributes
+ | X Range
+ | Exp
+ | Density
+ | MF/GF
+ | Notes
+ | Cracking
+ | S
+ | Players have -X% Enhanced Defense
+ | 20-30
+30-40
+40-50
+ | 
+ | 13-18
+15-18
+18-20
+ | 15-20
+30-35
+45-50
+ | 
+ | Fumbling
+ | S
+ | Players have -X% Chance to Block
+ | 10-20
+20-30
+30-40
+ | 
+ | 13-18
+18-23
+23-25
+ | 15-20
+30-35
+45-50
+ | 
+ | Imbalance
+ | S
+ | Players have -X% Faster Hit Recovery
+ | 10-20
+20-30
+30-40
+ | 3-4
+4-5
+5-6
+ | 15-20
+20-25
+25-30
+ | 
+ | 
+ | Hindrance
+ | S
+ | Players have -X% to All Resistances
+ | 10-15
+15-20
+20-25
+ | 4-5
+5-6
+6-7
+ | 
+ | 15-20
+30-35
+50-55
+ | 
+ | Unhealthy
+ | P
+ | Players have -X Drain Life
+ | 30-40
+50-60
+70-80
+ | 3-4
+4-5
+5-6
+ | 
+ | 5-10
+20-25
+35-40
+ | 
+ | Warding
+ | S
+ | Monsters have X% Curse Duration Reduction
+ | 20-40
+40-60
+60-80
+ | 5-6
+6-7
+7-8
+ | 
+ | 20-25
+35-40
+50-55
+ | T1-T3 maps only
+ | Leech
+ | S
+ | Monsters have X% Increased Maximum Life
+Monsters have X% Life Stolen per Hit
+ | 10-15
+15-20
+20-25
+ | 5-6
+6-7
+7-8
+ | 13-15
+15-20
+18-20
+ | 
+ | 
+ | Health
+ | S
+ | Monsters have X% Increased Maximum Life
+ | 5-15
+15-25
+25-35
+ | 6-8
+8-10
+10-12
+ | 15-20
+20-25
+25-30
+ | 
+ | ½ frequency
+ | Large
+ | P
+ | Monsters have X% Increased Maximum Life
+ | 5-15
+15-25
+25-35
+ | 6-8
+8-10
+10-12
+ | 15-20
+20-25
+25-30
+ | 
+ | ½ frequency
+ | Fast
+ | P
+ | Monsters have +X% Increased Cast and Attack Speed
+ | 40-60
+60-80
+80-100
+ | 3-4
+4-5
+5-6
+ | 15-20
+20-25
+25-30
+ | 
+ | 
+ | Swiftness
+ | S
+ | Monsters have X% increased Velocity
+ | 20-30
+30-40
+40-50
+ | 3-4
+4-5
+5-6
+ | 15-20
+20-25
+25-30
+ | 
+ | 
+ | Protection
+ | S
+ | Monsters take X Reduced Physical Damage
+ | 100-200
+300-400
+500-600
+ | 
+ | 13-15
+15-18
+18-23
+ | 15-20
+30-35
+45-50
+ | 
+ | Resilience
+ | S
+ | Monsters have +X% Faster Hit Recovery
+ | 40-60
+60-80
+80-100
+ | 
+ | 15-20
+20-25
+25-30
+ | 10-15
+25-30
+40-45
+ | 
+ | Silver
+ | P
+ | Monsters have +X% Attack Rating and Chance to Pierce
+ | 30-50
+50-70
+70-90
+ | 
+ | 8-10
+15-18
+18-20
+ | 15-20
+30-35
+45-50
+ | 
+ | Crushing
+ | P
+ | Monsters have X% Chance of Crushing Blow
+ | 15-25
+25-35
+35-45
+ | 
+ | 8-10
+15-18
+18-20
+ | 5-10
+20-25
+35-40
+ | 
+ | Bloody
+ | P
+ | Monsters have X% Chance of Open Wounds
+ | 5-10
+10-15
+15-20
+ | 4-5
+5-6
+6-7
+ | 
+ | 5-10
+20-25
+35-40
+ | 
+ | Strong
+ | P
+ | Monsters have +X% Enhanced Physical Damage
+ | 10-15
+15-20
+20-25
+ | 4-5
+5-6
+6-7
+ | 
+ | 10-15
+25-30
+40-45
+ | 
+ | Sturdiness
+ | S
+ | Monsters have +X% Enhanced Defense
+ | 50-100
+100-150
+150-200
+ | 3-4
+4-5
+5-6
+ | 
+ | 10-15
+25-30
+40-45
+ | 
+ | Regeneration
+ | S
+ | Monsters have +X Replenish Life
+ | 1024-1560
+1560-2048
+2048-2560
+ | 3-4
+4-5
+5-6
+ | 
+ | 20-25
+35-40
+50-55
+ | 
+ | Flaming
+ | P
+ | Monsters have +X% to Fire Skill Damage
+ | 5-10
+10-15
+15-20
+ | 3-4
+4-5
+5-6
+ | 13-18
+18-23
+23-25
+ | 
+ | 
+ | Hibernal
+ | P
+ | Monsters have +X% to Cold Skill Damage
+ | 5-10
+10-15
+15-20
+ | 
+ | 13-15
+15-18
+18-20
+ | 15-20
+25-30
+35-40
+ | 
+ | Static
+ | P
+ | Monsters have +X% to Lightning Skill Damage
+ | 5-10
+10-15
+15-20
+ | 3-4
+4-5
+5-6
+ | 13-20
+18-23
+23-25
+ | 
+ | 
+ | Toxic
+ | P
+ | Monsters have +X% to Poison Skill Damage
+ | 5-10
+10-15
+15-20
+ | 
+ | 15-20
+20-25
+25-30
+ | 5-10
+15-20
+25-30
+ | 
+ | Smoking
+ | P
+ | Monsters have +X% of Physical Damage as Extra Fire Damage
+ | 60-80
+70-90
+80-100
+ | 
+ | 13-15
+15-18
+18-20
+ | 5-10
+20-25
+35-40
+ | 
+ | Chilling
+ | P
+ | Monsters have +X% of Physical Damage as Extra Cold Damage
+ | 60-80
+70-90
+80-100
+ | 
+ | 13-15
+15-18
+18-20
+ | 5-10
+20-25
+35-40
+ | 
+ | Sparking
+ | P
+ | Monsters have +X% of Physical Damage as Extra Lightning Damage
+ | 60-80
+70-90
+80-100
+ | 
+ | 13-15
+15-18
+18-20
+ | 5-10
+20-25
+35-40
+ | 
+ | Poisonous
+ | P
+ | Monsters have +X% of Physical Damage as Extra Poison Damage over 5 seconds
+ | 123-163
+143-184
+163-205
+ | 
+ | 13-15
+15-18
+18-20
+ | 5-10
+20-25
+35-40
+ | 
+ | Runic
+ | P
+ | Monsters have +X% of Physical Damage as Extra Magic Damage
+ | 8-10
+10-12
+12-14
+ | 
+ | 13-15
+15-18
+18-20
+ | 5-10
+20-25
+35-40
+ | 
+ | Crimson
+ | S
+ | Monsters have X% Fire Absorb
+ | 4-6
+6-8
+8-10
+ | 3-4
+4-5
+5-6
+ | 13-18
+18-23
+23-25
+ | 
+ | 
+ | Azure
+ | S
+ | Monsters have X% Cold Absorb
+ | 4-6
+6-8
+8-10
+ | 3-4
+4-5
+5-6
+ | 13-18
+18-23
+18-25
+ | 
+ | 
+ | Opal
+ | S
+ | Monsters have X% Lightning Absorb
+ | 4-6
+6-8
+8-10
+ | 3-4
+4-5
+5-6
+ | 13-18
+18-23
+20-25
+ | 
+ | 
+ | Tangerine
+ | S
+ | Monsters have X% Magic Absorb
+ | 4-6
+6-8
+8-10
+ | 3-4
+4-5
+5-6
+ | 13-18
+18-23
+20-25
+ | 
+ | 
+ | Splashing
+ | P
+ | Monsters Melee Attacks Deal Splash Damage
+ | 
+ | 
+ | 8-13
+18-23
+23-25
+ | 5-10
+20-25
+35-40
+ | 
+ | Stygian
+ | P
+ | Map contains Stygian Dolls
+ | 
+ | 
+ | 25-30
+ | 40-45
+ | ½ frequency, T1-T3 maps only
+ | Lustful
+ | P
+ | Map contains Succubus Witches
+ | 
+ | 
+ | 25-30
+ | 45-50
+ | ½ frequency, T1-T3 maps only
+ | Vampiric
+ | P
+ | Map contains Vampire Lords
+ | 
+ | 
+ | 18-20
+ | 15-20
+ | ½ frequency, T1-T3 maps only
+ | Bovine
+ | P
+ | Map contains Hell Bovines
+ | 
+ | 
+ | 25-30
+ | 15-20
+ | ½ frequency, T1-T3 maps only
+ | Reanimated
+ | P
+ | Map contains Reanimated Horde
+ | 
+ | 
+ | 25-30
+ | 35-40
+ | ½ frequency, T1-T3 maps only
+ | Ghastly
+ | P
+ | Map contains Ghosts
+ | 
+ | 
+ | 18-20
+ | 15-20
+ | ½ frequency, T1-T3 maps only
+ | Souless
+ | P
+ | Map contains Burning Souls
+ | 
+ | 
+ | 25-30
+ | 40-50
+ | ½ frequency, T1-T3 maps only
+ | Shamanic
+ | P
+ | Map contains Fetishes
+ | 
+ | 
+ | 20-25
+ | 15-20
+ | ½ frequency, T1-T3 maps only
+ | Shrieking
+ | P
+ | Map contains Shrieking Terrors
+ | 
+ | 
+ | 25-30
+ | 20-30
+ | ½ frequency, T1-T3 maps only
+ | Smith
+ | S
+ | Monsters have X% chance to drop additional weapons
+ | 1, 2, 3
+ | 
+ | 
+ | 
+ | ½ frequency, T1-T3 maps only
+ | Armorer
+ | S
+ | Monsters have X% chance to drop additional armor
+ | 1, 2, 3
+ | 
+ | 
+ | 
+ | ½ frequency, T1-T3 maps only
+ | Crafter
+ | S
+ | Monsters have X% chance to drop additional jewelry & charms
+ | 1, 2, 3
+ | 
+ | 
+ | 
+ | ¼ frequency, T1-T3 maps only
+ | Champion's
+ | P
+ | Monster Rarity +X%
+ | 30-40
+40-50
+50-60
+ | 
+ | 
+ | 
+ | 
+ | Duplicated
+ | P
+ | Map Contains an additional Boss
+ | 
+ | 
+ | 
+ | 
+ | ½ frequency, T1-T3 maps only
+ | Adventurer
+ | S
+ | +1 to Area Level
+ | 
+ | 
+ | 
+ | 
+ | ½ frequency
+In-game attribute ranges for maps are often incorrect since there are so many affixes with the same three attributes and ranges only show the widest range for any given attribute, rather than the range for specific affixes on the item - this is especially apparent when multiple affixes add the same attributes.
+Many affixes have different names for each tier of attribute ranges, but only the first name is shown here for better legibility.
+Resistances of Monsters Added by Affixes
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Stygian Doll
+ | 33
+ | 
+ | 25
+ | 
+ | 33
+ | 80
+ | Undead
+ | 33
+ | Hell Temptress
+ | 
+ | 
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 75
+ | Dark Lord
+ | 75
+ | 
+ | 33
+ | 33
+ | 75
+ | 50
+ | Undead
+ | 75
+ | Hell Bovine
+ | 50
+ | 33
+ | 50
+ | 50
+ | 50
+ | 33
+ | 
+ | 66
+ | Reanimated Horde
+ | 50
+ | 50
+ | 75
+ | 0
+ | 
+ | 80
+ | Undead
+ | 66
+ | Specter
+ | 50
+ | 50
+ | 50
+ | 65
+ | 50
+ | 50
+ | Undead
+ | 33
+ | Burning Soul
+ | 
+ | 25
+ | 
+ | 80
+ | 50
+ | 75
+ | Undead
+ | 0
+ | Fetish
+ | 25
+ | 25
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 100
+ | Shrieking Terror
+ | 35
+ | 25
+ | 25
+ | 40
+ | 80
+ | 25
+ | 
+ | 75
+ | Minion of Destruction
+ | 50
+ | 
+ | 75
+ | 33
+ | 50
+ | 95
+ | Demon
+ | 50
+Unique maps use some of the above affixes but also have special attributes which are unique to them. All the affixes for each unique map are listed in their own sections below.
+## Immunes[edit]
+Unique maps don't have any inherently immune monsters. Dungeons, on the other hand, all have at least one monster with 140 resistance to each damage type. Other maps are listed below.
+The Undead/Demons-columns represent the number of different monster packs per map (excluding the map boss).
+ | Tier
+ | Map
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | T1
+ | Ancestral Trial
+ | 
+ | 
+ | 120
+ | 120
+ | 
+ | 
+ | T1
+ | Fall of Caldeum
+ | 115
+ | 105
+ | 
+ | 120
+ | 
+ | 
+ | T1
+ | Lost Temple
+ | 
+ | 105
+ | 
+ | 
+ | 120
+ | 
+ | T1
+ | Phlegethon
+ | 
+ | 
+ | 120
+ | 
+ | 
+ | 120
+ | T1
+ | Shadows of Westmarch
+ | 
+ | 105
+ | 120
+ | 
+ | 
+ | 
+ | T1
+ | Tomb of Zoltun Kulle
+ | 115
+ | 
+ | 
+ | 
+ | 
+ | 120
+ | T1
+ | Torajan Jungle
+ | *
+ | *
+ | *
+ | *
+ | 120*
+ | 120
+ | T1
+ | Ruins of Viz-Jun
+ | 115
+ | 
+ | 
+ | 100
+ | 120
+ | 
+ | T2
+ | Ashen Plains
+ | 
+ | 
+ | 120
+ | 
+ | 130
+ | 
+ | T2
+ | Canyon of Sescheron
+ | 115
+ | 
+ | 120
+ | 
+ | 
+ | 
+ | T2
+ | Halls of Torture
+ | 
+ | 
+ | 
+ | 120
+ | 120
+ | 
+ | T2
+ | Horazon's Memory
+ | 115
+ | 
+ | 
+ | 120*
+ | 
+ | *
+ | T2
+ | Pandemonium Citadel
+ | 
+ | 105
+ | 
+ | 
+ | 120
+ | 
+ | T2
+ | Ruined Cistern
+ | 
+ | 105
+ | 
+ | 
+ | 
+ | 120
+ | T2
+ | Sanatorium
+ | 
+ | 105
+ | 
+ | 120
+ | 
+ | 
+ | T2
+ | Sewers of Harrogath
+ | 
+ | 
+ | 120
+ | 
+ | 
+ | 120
+ | T2
+ | Throne of Insanity
+ | 115
+ | 
+ | 
+ | 
+ | 
+ | 120
+ | T3
+ | Arreat Battlefield
+ | 
+ | 105
+ | 
+ | 120
+ | 
+ | 120
+ | T3
+ | Bastion Keep
+ | 115
+ | 105
+ | 
+ | 
+ | 120
+ | 
+ | T3
+ | Blood Moon
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | T3
+ | Demon Road
+ | 115
+ | 
+ | 120
+ | 120
+ | 
+ | 
+ | T3
+ | Kehjistan Marketplace
+ | 115
+ | 
+ | 120
+ | 
+ | 
+ | 
+ | T3
+ | Kyovashad
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | T3
+ | River Of Blood
+ | 
+ | 105
+ | 
+ | 120
+ | 
+ | 120
+ | T3
+ | Royal Crypts
+ | 
+ | 
+ | 120
+ | 
+ | 120
+ | 
+ | T3
+ | Skovos Stronghold
+ | 
+ | 
+ | 
+ | 
+ | 120
+ | 120
+* Contains additional monsters with this immunity which drop nothing or do not spawn naturally
+## Individual Maps[edit]
+For each map, monsters are listed with their resistances, type, and drain effectiveness. Drain effectiveness is the percentage applied to life and mana returned by "% Life Stolen per Hit" and "% Mana Stolen per Hit".
+Map bosses are treated as prime evils.
+## Tier 1[edit]
+Tier 1 map zones have a zone level of 87
+## Torajan Jungle[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Dune Beast
+ | 35
+ | 25
+ | 45
+ | 75
+ | 45
+ | 25
+ | 
+ | 100
+ | Crusher
+ | 50
+ | 25
+ | 35
+ | 35
+ | 120
+ | 50
+ | 
+ | 100
+ | Council Member
+ | 25
+ | 40
+ | 75
+ | 50
+ | 35
+ | 33
+ | Demon
+ | 66
+ | Death Brawler
+ | 35
+ | 50
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 75
+ | Foul Crow
+ | 
+ | 
+ | 50
+ | 25
+ | 45
+ | 70
+ | 
+ | 100
+ | Quill Rat
+ | 25
+ | 
+ | 75
+ | 45
+ | 50
+ | 45
+ | 
+ | 100
+ | Tree Lurker
+ | 
+ | 25
+ | 50
+ | 50
+ | 
+ | 120
+ | 
+ | 75
+ | Death Beetle
+ | 50
+ | 25
+ | 25
+ | 75
+ | 75
+ | 
+ | 
+ | 50
+ | Blood Maggot Young
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 50
+ | Blood Maggot Egg
+ | 180
+ | 180
+ | 180
+ | 180
+ | 180
+ | 
+ | 
+ | 33
+ | The Great Worm
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+Blood Maggot Young monsters are minions of The Great Worm
+## Tomb of Zoltun Kulle[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Arach
+ | 50
+ | 25
+ | 75
+ | 
+ | 50
+ | 50
+ | 
+ | 50
+ | Minion of Destruction*
+ | 
+ | 
+ | 50
+ | 75
+ | 30
+ | 75
+ | Demon
+ | 50
+ | Dune Beast
+ | 
+ | 25
+ | 35
+ | 50
+ | 75
+ | 50
+ | 
+ | 100
+ | Dark Familiar
+ | 15
+ | 25
+ | 75
+ | 50
+ | 25
+ | 25
+ | 
+ | 75
+ | Pain Worm
+ | 
+ | 50
+ | 50
+ | 50
+ | 75
+ | 120
+ | Demon
+ | 75
+ | Razor Spine
+ | 25
+ | 
+ | 75
+ | 35
+ | 50
+ | 25
+ | 
+ | 100
+ | Scarab
+ | 115
+ | 25
+ | 25
+ | 75
+ | 50
+ | 25
+ | 
+ | 50
+ | Returned Mage
+ | 25
+ | 50
+ | 25
+ | 75
+ | 45
+ | 75
+ | Undead
+ | 0
+ | Toadflax the Tainted
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+## Shadows of Westmarch[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Moon Clan
+ | 50
+ | 25
+ | 50
+ | 45
+ | 85
+ | 25
+ | Demon
+ | 80
+ | Fire Boar
+ | 25
+ | 
+ | 65
+ | 70
+ | 25
+ | 65
+ | 
+ | 75
+ | Overseer
+ | 20
+ | 25
+ | 120
+ | 20
+ | 40
+ | 40
+ | Demon
+ | 100
+ | Siege Beast
+ | 50
+ | 20
+ | 25
+ | 75
+ | 25
+ | 40
+ | 
+ | 100
+ | Slinger
+ | 10
+ | 
+ | 25
+ | 25
+ | 75
+ | 25
+ | 
+ | 100
+ | Succubus
+ | 
+ | 105
+ | 50
+ | 50
+ | 50
+ | 75
+ | Demon
+ | 75
+ | Zombie
+ | 50
+ | 50
+ | 50
+ | 65
+ | 50
+ | 75
+ | Undead
+ | 50
+ | Urzael Harbringer of Death
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+## Phlegethon[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Moon Lord
+ | 50
+ | 50
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 75
+ | Council Member
+ | 30
+ | 
+ | 75
+ | 80
+ | 45
+ | 40
+ | Demon
+ | 66
+ | Fallen
+ | 15
+ | 25
+ | 50
+ | 25
+ | 40
+ | 50
+ | Demon
+ | 75
+ | Fallen Shaman
+ | 15
+ | 25
+ | 75
+ | 75
+ | 45
+ | 50
+ | Demon
+ | 66
+ | Fetish
+ | 25
+ | 25
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 100
+ | Demon Imp
+ | 25
+ | 25
+ | 75
+ | 25
+ | 35
+ | 75
+ | Demon
+ | 100
+ | Hell Spawn
+ | 30
+ | 
+ | 50
+ | 75
+ | 50
+ | 75
+ | Demon
+ | 75
+ | Hell Cat
+ | 15
+ | 25
+ | 25
+ | 50
+ | 75
+ | 25
+ | 
+ | 100
+ | Unholy Corpse
+ | 50
+ | 50
+ | 25
+ | 25
+ | 75
+ | 120
+ | Undead
+ | 66
+ | Siege Beast
+ | 50
+ | 
+ | 120
+ | 33
+ | 50
+ | 25
+ | 
+ | 100
+ | Hell Slinger
+ | 10
+ | 25
+ | 25
+ | 50
+ | 25
+ | 50
+ | 
+ | 100
+ | Lieutenant of Sin
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+## Lost Temple[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Poison Spinner
+ | 50
+ | 
+ | 75
+ | 35
+ | 25
+ | 75
+ | 
+ | 50
+ | Gloombat
+ | 10
+ | 105
+ | 50
+ | 50
+ | 120
+ | 
+ | 
+ | 75
+ | Gorebelly
+ | 55
+ | 
+ | 50
+ | 75
+ | 65
+ | 30
+ | Demon
+ | 100
+ | Flayer
+ | 
+ | 25
+ | 75
+ | 80
+ | 50
+ | 75
+ | Demon
+ | 100
+ | Enslaved
+ | 25
+ | 15
+ | 50
+ | 50
+ | 25
+ | 65
+ | 
+ | 75
+ | Blood Wing
+ | 25
+ | 25
+ | 15
+ | 40
+ | 25
+ | 45
+ | 
+ | 50
+ | Unraveler
+ | 35
+ | 50
+ | 35
+ | 20
+ | 50
+ | 80
+ | Undead
+ | 33
+ | Khalim's Corrupted Body
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 75
+ | Demon
+ | 20
+## Ancestral Trial[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Spider Magus
+ | 25
+ | 
+ | 25
+ | 30
+ | 75
+ | 75
+ | 
+ | 50
+ | Minion of Destruction*
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | Demon
+ | 50
+ | Pit Lord
+ | 50
+ | 
+ | 50
+ | 120
+ | 
+ | 25
+ | Demon
+ | 66
+ | Preserved Dead
+ | 20
+ | 50
+ | 120
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 33
+ | Bone Warrior
+ | 
+ | 25
+ | 50
+ | 45
+ | 45
+ | 50
+ | Undead
+ | 0
+ | Bone Mage
+ | 
+ | 25
+ | 50
+ | 25
+ | 65
+ | 50
+ | Undead
+ | 0
+ | Specter
+ | 50
+ | 50
+ | 75
+ | 35
+ | 50
+ | 75
+ | Undead
+ | 33
+ | Nathkill The Numb
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+* Minions of Destruction can spawn from the "Evil Urns" at low chance.
+## Fall of Caldeum[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Heirophant
+ | 15
+ | 105
+ | 25
+ | 33
+ | 75
+ | 25
+ | 
+ | 100
+ | Flying Scimitar
+ | 25
+ | 25
+ | 50
+ | 120
+ | 
+ | 75
+ | 
+ | 0
+ | Huntress
+ | 20
+ | 25
+ | 75
+ | 35
+ | 65
+ | 50
+ | 
+ | 100
+ | Slinger
+ | 
+ | 25
+ | 75
+ | 45
+ | 65
+ | 25
+ | 
+ | 100
+ | Hell Swarm
+ | 115
+ | 
+ | 25
+ | 70
+ | 25
+ | 80
+ | 
+ | 0
+ | Zombie
+ | 
+ | 
+ | 50
+ | 25
+ | 75
+ | 45
+ | Undead
+ | 50
+ | Waheed The Traitor
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 75
+ | 
+ | 20
+## Ruins of Viz-Jun[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Spider Magus
+ | 50
+ | 
+ | 50
+ | 50
+ | 20
+ | 75
+ | 
+ | 50
+ | Disfigured
+ | 25
+ | 
+ | 50
+ | 50
+ | 25
+ | 50
+ | Demon
+ | 75
+ | Heirophant
+ | 10
+ | 33
+ | 50
+ | 50
+ | 75
+ | 20
+ | 
+ | 100
+ | Dark Ranger
+ | 15
+ | 20
+ | 25
+ | 25
+ | 120
+ | 25
+ | Demon
+ | 100
+ | Black Lancer
+ | 
+ | 35
+ | 25
+ | 75
+ | 75
+ | 25
+ | Demon
+ | 100
+ | Fetish
+ | 
+ | 
+ | 33
+ | 100
+ | 33
+ | 50
+ | Demon
+ | 100
+ | Fetish
+ | 
+ | 25
+ | 75
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 100
+ | Fetish
+ | 
+ | 
+ | 
+ | 100
+ | 
+ | 50
+ | Demon
+ | 100
+ | Fetish
+ | 
+ | 25
+ | 75
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 100
+ | Fetish Shaman
+ | 25
+ | 25
+ | 75
+ | 45
+ | 45
+ | 50
+ | Demon
+ | 100
+ | Moon Clan
+ | 50
+ | 35
+ | 60
+ | 25
+ | 50
+ | 50
+ | Demon
+ | 80
+ | Sucker
+ | 
+ | 50
+ | 75
+ | 45
+ | 25
+ | 80
+ | 
+ | 50
+ | Tree Lurker
+ | 25
+ | 25
+ | 50
+ | 75
+ | 50
+ | 50
+ | 
+ | 75
+ | Returned
+ | 33
+ | 25
+ | 25
+ | 35
+ | 75
+ | 75
+ | Undead
+ | 0
+ | Thorned Hulk
+ | 115
+ | 
+ | 
+ | 75
+ | 45
+ | 75
+ | 
+ | 75
+ | Burning Dead Archer
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 0
+ | Burning Dead
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 0
+ | Hollow One
+ | 33
+ | 50
+ | 45
+ | 45
+ | 55
+ | 50
+ | Undead
+ | 33
+ | Zealot
+ | 10
+ | 
+ | 25
+ | 80
+ | 35
+ | 20
+ | 
+ | 100
+ | Karvarousku the Cartographer
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 20
+Burning Dead & Burning Dead Archer monsters are minions of Karvarousku
+## Tier 2[edit]
+Tier 2 map zones have a zone level of 88
+## Throne of Insanity[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Flesh Hunter
+ | 25
+ | 20
+ | 65
+ | 65
+ | 75
+ | 40
+ | Demon
+ | 100
+ | Flesh Archer
+ | 15
+ | 15
+ | 40
+ | 45
+ | 50
+ | 25
+ | Demon
+ | 100
+ | Flesh Lancer
+ | 15
+ | 15
+ | 40
+ | 45
+ | 50
+ | 40
+ | Demon
+ | 100
+ | Doom Caster
+ | 115
+ | 25
+ | 25
+ | 65
+ | 75
+ | 75
+ | Undead
+ | 33
+ | Swamp Dweller
+ | 15
+ | 
+ | 75
+ | 25
+ | 25
+ | 120
+ | 
+ | 75
+ | Demon Rascal
+ | 
+ | 50
+ | 50
+ | 55
+ | 25
+ | 50
+ | Demon
+ | 100
+ | Balrog
+ | 20
+ | 20
+ | 75
+ | 25
+ | 45
+ | 120
+ | Demon
+ | 66
+ | Hell Spawn
+ | 35
+ | 25
+ | 50
+ | 50
+ | 45
+ | 75
+ | Demon
+ | 75
+ | Hell Whip
+ | 40
+ | 25
+ | 50
+ | 75
+ | 50
+ | 25
+ | Demon
+ | 100
+ | Indio The Insane
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 20
+## Sewers of Harrogath[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Fetish
+ | 25
+ | 15
+ | 120
+ | 45
+ | 20
+ | 80
+ | Demon
+ | 100
+ | Flayer
+ | 15
+ | 25
+ | 
+ | 75
+ | 50
+ | 45
+ | Demon
+ | 100
+ | Sand Maggot Young
+ | 20
+ | 20
+ | 20
+ | 20
+ | 20
+ | 80
+ | 
+ | 50
+ | Sand Maggot Egg
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 33
+ | Enslaved
+ | 25
+ | 35
+ | 50
+ | 35
+ | 35
+ | 20
+ | 
+ | 75
+ | Blood Wing
+ | 10
+ | 25
+ | 50
+ | 45
+ | 25
+ | 30
+ | 
+ | 50
+ | Sand Maggot
+ | 66
+ | 
+ | 33
+ | 25
+ | 75
+ | 120
+ | 
+ | 50
+ | Marauder
+ | 25
+ | 15
+ | 50
+ | 75
+ | 50
+ | 45
+ | 
+ | 66
+ | Ghoul Lord
+ | 30
+ | 25
+ | 75
+ | 25
+ | 80
+ | 50
+ | Undead
+ | 75
+ | Grotesque Wyrm
+ | 25
+ | 50
+ | 65
+ | 75
+ | 65
+ | 50
+ | Demon
+ | 50
+ | The Mad Philosopher
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 33
+ | Demon
+ | 20
+## Sanatorium[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Death Lord
+ | 
+ | 25
+ | 75
+ | 50
+ | 40
+ | 50
+ | 
+ | 75
+ | Vile Hunter
+ | 20
+ | 15
+ | 35
+ | 45
+ | 65
+ | 45
+ | Demon
+ | 100
+ | Vile Archer
+ | 15
+ | 15
+ | 75
+ | 25
+ | 40
+ | 40
+ | Demon
+ | 100
+ | Vile Lancer
+ | 45
+ | 105
+ | 45
+ | 120
+ | 40
+ | 45
+ | Demon
+ | 100
+ | Death Slasher
+ | 33
+ | 25
+ | 50
+ | 25
+ | 65
+ | 25
+ | 
+ | 75
+ | Ghoul Lord
+ | 30
+ | 35
+ | 45
+ | 50
+ | 75
+ | 75
+ | Undead
+ | 75
+ | Gloam
+ | 60
+ | 
+ | 25
+ | 75
+ | 25
+ | 75
+ | Undead
+ | 0
+ | The Guardian
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 20
+## Ruined Cistern[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Gorebelly
+ | 
+ | 25
+ | 30
+ | 50
+ | 60
+ | 45
+ | Demon
+ | 100
+ | Salamander
+ | 25
+ | 
+ | 55
+ | 45
+ | 75
+ | 65
+ | 
+ | 50
+ | Vile Hunter
+ | 20
+ | 20
+ | 50
+ | 33
+ | 
+ | 25
+ | Demon
+ | 100
+ | Vile Archer
+ | 15
+ | 
+ | 75
+ | 25
+ | 25
+ | 25
+ | Demon
+ | 100
+ | Strangler
+ | 60
+ | 105
+ | 50
+ | 75
+ | 75
+ | 45
+ | Undead
+ | 33
+ | Bog Creature
+ | 15
+ | 35
+ | 75
+ | 45
+ | 55
+ | 50
+ | 
+ | 75
+ | Dried Corpse
+ | 50
+ | 35
+ | 25
+ | 50
+ | 65
+ | 120
+ | Undead
+ | 33
+ | Returned Mage
+ | 35
+ | 25
+ | 40
+ | 75
+ | 50
+ | 75
+ | Undead
+ | 0
+ | Ancient Cistern Hydra*
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 75
+ | Ancient Cistern Hydra*
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+The fire Hydra head is considered the boss and drops loot accordingly - the poison Hydra heads are considered its minions
+## Pandemonium Citadel[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Temple Guard
+ | 25
+ | 20
+ | 50
+ | 75
+ | 25
+ | 45
+ | 
+ | 100
+ | Damned
+ | 25
+ | 
+ | 25
+ | 75
+ | 
+ | 25
+ | Demon
+ | 75
+ | Flayer
+ | 
+ | 25
+ | 75
+ | 50
+ | 75
+ | 50
+ | Demon
+ | 100
+ | Prowling Dead
+ | 25
+ | 15
+ | 50
+ | 50
+ | 65
+ | 75
+ | Undead
+ | 66
+ | Blood Bringer
+ | 50
+ | 
+ | 75
+ | 20
+ | 50
+ | 50
+ | 
+ | 100
+ | Stygian Fury
+ | 50
+ | 105
+ | 25
+ | 50
+ | 50
+ | 25
+ | Demon
+ | 75
+ | Dark Lord
+ | 
+ | 50
+ | 50
+ | 25
+ | 120
+ | 80
+ | Undead
+ | 75
+ | Dark Commander Alma
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 75
+ | Demon
+ | 20
+## Horazon's Memory[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Cantor
+ | 10
+ | 20
+ | 45
+ | 50
+ | 50
+ | 45
+ | 
+ | 100
+ | Doom Knight
+ | 33
+ | 25
+ | 75
+ | 40
+ | 25
+ | 65
+ | Undead
+ | 33
+ | Oblivion Knight
+ | 33
+ | 25
+ | 75
+ | 60
+ | 25
+ | 75
+ | Undead
+ | 33
+ | Flying Scimitar
+ | 25
+ | 50
+ | 50
+ | 120
+ | 75
+ | 75
+ | 
+ | 0
+ | Frozen Scorch
+ | 25
+ | 25
+ | 15
+ | 40
+ | 75
+ | 35
+ | 
+ | 75
+ | Lightning Spire
+ | 
+ | 90
+ | 90
+ | 100
+ | 
+ | 1000
+ | 
+ | 0
+ | Menace Worm
+ | 
+ | 25
+ | 75
+ | 75
+ | 50
+ | 50
+ | Demon
+ | 75
+ | Frozen Abyss
+ | 115
+ | 
+ | 35
+ | 25
+ | 75
+ | 25
+ | 
+ | 100
+ | Ghost
+ | 50
+ | 50
+ | 55
+ | 65
+ | 50
+ | 50
+ | Undead
+ | 33
+ | Zakarumite
+ | 10
+ | 
+ | 25
+ | 25
+ | 35
+ | 20
+ | 
+ | 100
+ | Deathmaiden Madinsane
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+## Halls of Torture[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Blunderbore
+ | 20
+ | 10
+ | 50
+ | 50
+ | 50
+ | 25
+ | Demon
+ | 100
+ | Council Member
+ | 20
+ | 25
+ | 35
+ | 75
+ | 33
+ | 85
+ | Demon
+ | 66
+ | Corpulent
+ | 50
+ | 35
+ | 25
+ | 50
+ | 45
+ | 50
+ | Demon
+ | 75
+ | Tomb Creeper
+ | 30
+ | 20
+ | 50
+ | 25
+ | 20
+ | 45
+ | 
+ | 75
+ | Returned Archer
+ | 30
+ | 30
+ | 50
+ | 25
+ | 120
+ | 75
+ | Undead
+ | 0
+ | Dark Lord
+ | 35
+ | 30
+ | 75
+ | 45
+ | 75
+ | 50
+ | Undead
+ | 75
+ | Zakarumite
+ | 10
+ | 20
+ | 65
+ | 120
+ | 45
+ | 20
+ | 
+ | 100
+ | Gimli the Summoned One
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+## Canyon of Sescheron[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Serpent Magus
+ | 115
+ | 55
+ | 45
+ | 50
+ | 35
+ | 60
+ | 
+ | 50
+ | Doom Knight
+ | 50
+ | 25
+ | 80
+ | 65
+ | 20
+ | 50
+ | Undead
+ | 33
+ | Oblivion Knight
+ | 
+ | 25
+ | 60
+ | 75
+ | 75
+ | 75
+ | Undead
+ | 33
+ | Soul Killer
+ | 
+ | 25
+ | 55
+ | 50
+ | 45
+ | 50
+ | Demon
+ | 100
+ | Soul Killer
+ | 50
+ | 25
+ | 45
+ | 40
+ | 45
+ | 75
+ | Demon
+ | 100
+ | Overlord
+ | 
+ | 
+ | 33
+ | 20
+ | 60
+ | 25
+ | Demon
+ | 100
+ | Cliff Lurker
+ | 25
+ | 15
+ | 120
+ | 75
+ | 40
+ | 25
+ | 
+ | 75
+ | Frozen Abyss
+ | 
+ | 25
+ | 
+ | 25
+ | 80
+ | 50
+ | 
+ | 100
+ | Shattered Soul
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 75
+ | 
+ | 0
+## Ashen Plains[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Doom Ape
+ | 
+ | 25
+ | 50
+ | 75
+ | 50
+ | 25
+ | 
+ | 100
+ | Death Berserker
+ | 50
+ | 50
+ | 120
+ | 25
+ | 30
+ | 50
+ | 
+ | 75
+ | Flayer
+ | 45
+ | 15
+ | 75
+ | 33
+ | 130
+ | 50
+ | Demon
+ | 100
+ | Black Raptor
+ | 
+ | 45
+ | 65
+ | 50
+ | 45
+ | 65
+ | 
+ | 100
+ | Saber Cat
+ | 50
+ | 25
+ | 50
+ | 50
+ | 65
+ | 50
+ | 
+ | 100
+ | Spear Cat
+ | 10
+ | 15
+ | 25
+ | 75
+ | 65
+ | 25
+ | 
+ | 100
+ | Thrasher
+ | 25
+ | 
+ | 
+ | 40
+ | 25
+ | 75
+ | 
+ | 75
+ | Burning Soul
+ | 40
+ | 25
+ | 45
+ | 50
+ | 40
+ | 60
+ | Undead
+ | 0
+ | Borq the Consumed
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 0
+## Tier 3[edit]
+Tier 3 map zones have a zone level of 89
+## Blood Moon[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Hell Bovine
+ | 50
+ | 33
+ | 65
+ | 65
+ | 65
+ | 65
+ | 
+ | 66
+ | The Cow Queen
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+Hell Bovines are the only non-boss monster type unless others are added via affixes
+## Kehjistan Marketplace[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Vile Hunter
+ | 20
+ | 20
+ | 45
+ | 33
+ | 75
+ | 20
+ | Demon
+ | 100
+ | Vile Archer
+ | 15
+ | 15
+ | 35
+ | 75
+ | 75
+ | 25
+ | Demon
+ | 100
+ | Fire Tower
+ | 40
+ | 50
+ | 75
+ | 50
+ | 45
+ | 75
+ | 
+ | 0
+ | Flying Scimitar
+ | 25
+ | 35
+ | 75
+ | 50
+ | 30
+ | 75
+ | 
+ | 0
+ | Feeder
+ | 
+ | 10
+ | 15
+ | 75
+ | 45
+ | 75
+ | 
+ | 50
+ | Invader
+ | 
+ | 
+ | 50
+ | 65
+ | 20
+ | 30
+ | 
+ | 66
+ | Unraveler
+ | 33
+ | 40
+ | 35
+ | 20
+ | 50
+ | 50
+ | Undead
+ | 33
+ | Ghoul Lord
+ | 115
+ | 40
+ | 120
+ | 35
+ | 60
+ | 50
+ | Undead
+ | 75
+ | Devilkin Slave
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 75
+ | Demon
+ | 50
+ | Overlord Aerlynn
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 75
+ | Demon
+ | 20
+Devilkin Slaves are minions of Aerlynn
+## Kyovoshad[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Night Lord
+ | 
+ | 33
+ | 35
+ | 75
+ | 45
+ | 45
+ | 
+ | 75
+ | Death Berserker
+ | 25
+ | 
+ | 50
+ | 25
+ | 25
+ | 75
+ | 
+ | 75
+ | Defiled Warrior
+ | 50
+ | 50
+ | 45
+ | 40
+ | 50
+ | 75
+ | Undead
+ | 66
+ | Returned Mage
+ | 35
+ | 25
+ | 70
+ | 75
+ | 45
+ | 75
+ | Undead
+ | 0
+ | Grotesque Wyrm
+ | 25
+ | 25
+ | 60
+ | 55
+ | 75
+ | 25
+ | Demon
+ | 50
+ | Grotesque
+ | 66
+ | 20
+ | 75
+ | 55
+ | 75
+ | 55
+ | Demon
+ | 50
+ | Apparition
+ | 25
+ | 50
+ | 30
+ | 55
+ | 75
+ | 75
+ | Undead
+ | 33
+ | Zakarumite
+ | 10
+ | 
+ | 75
+ | 65
+ | 50
+ | 20
+ | 
+ | 100
+ | Tainted Spawn
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 0
+ | The Tainted Hive
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 0
+## Arreat Battlefield[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Afflicted
+ | 25
+ | 35
+ | 25
+ | 120
+ | 30
+ | 25
+ | Demon
+ | 75
+ | Night Clan
+ | 50
+ | 
+ | 50
+ | 65
+ | 25
+ | 25
+ | Demon
+ | 80
+ | Blood Wing
+ | 
+ | 105
+ | 75
+ | 33
+ | 45
+ | 50
+ | 
+ | 50
+ | Spike Fiend
+ | 50
+ | 20
+ | 50
+ | 50
+ | 75
+ | 40
+ | 
+ | 100
+ | Unholy Corpse
+ | 15
+ | 30
+ | 75
+ | 33
+ | 50
+ | 65
+ | Undead
+ | 66
+ | Bramble Hulk
+ | 25
+ | 
+ | 75
+ | 50
+ | 75
+ | 45
+ | 
+ | 75
+ | Carrion Bird
+ | 
+ | 25
+ | 35
+ | 75
+ | 50
+ | 120
+ | 
+ | 100
+ | Zombie
+ | 50
+ | 30
+ | 15
+ | 20
+ | 50
+ | 75
+ | Undead
+ | 50
+ | Armorsmith of Equality*
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 
+ | Demon
+ | 20
+## Bastion Keep[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Desert Wing
+ | 115
+ | 25
+ | 75
+ | 25
+ | 75
+ | 25
+ | 
+ | 75
+ | Devilkin
+ | 15
+ | 
+ | 50
+ | 75
+ | 40
+ | 50
+ | Demon
+ | 75
+ | Devilkin Shaman
+ | 15
+ | 50
+ | 75
+ | 75
+ | 25
+ | 75
+ | Demon
+ | 66
+ | Moon Clan
+ | 25
+ | 
+ | 50
+ | 50
+ | 120
+ | 45
+ | Demon
+ | 80
+ | Demon Sprite
+ | 
+ | 25
+ | 80
+ | 25
+ | 33
+ | 
+ | Demon
+ | 100
+ | Giant Lamprey Young
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 80
+ | 
+ | 50
+ | Giant Lamprey Egg
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 33
+ | Giant Lamprey
+ | 
+ | 25
+ | 33
+ | 25
+ | 35
+ | 85
+ | 
+ | 50
+ | Sand Raider
+ | 25
+ | 25
+ | 50
+ | 50
+ | 50
+ | 33
+ | 
+ | 66
+ | Demon Steed
+ | 50
+ | 105
+ | 25
+ | 33
+ | 50
+ | 15
+ | 
+ | 100
+ | Hell Temptress
+ | 
+ | 
+ | 50
+ | 65
+ | 50
+ | 75
+ | Demon
+ | 75
+ | Johnathan The Damned
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 0
+## Demon Road[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Gorebelly
+ | 25
+ | 25
+ | 50
+ | 65
+ | 75
+ | 20
+ | Demon
+ | 100
+ | Tomb Viper
+ | 15
+ | 20
+ | 45
+ | 35
+ | 50
+ | 50
+ | 
+ | 50
+ | Night Clan
+ | 25
+ | 40
+ | 50
+ | 65
+ | 75
+ | 25
+ | Demon
+ | 80
+ | Pain Worm
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 75
+ | Returned
+ | 20
+ | 25
+ | 20
+ | 30
+ | 20
+ | 75
+ | Undead
+ | 0
+ | Returned Mage
+ | 30
+ | 15
+ | 120
+ | 25
+ | 40
+ | 75
+ | Undead
+ | 0
+ | Hell Temptress
+ | 
+ | 25
+ | 75
+ | 50
+ | 50
+ | 35
+ | Demon
+ | 75
+ | Hollow One
+ | 115
+ | 20
+ | 40
+ | 120
+ | 20
+ | 50
+ | Undead
+ | 33
+ | Specter
+ | 20
+ | 30
+ | 35
+ | 45
+ | 60
+ | 75
+ | Undead
+ | 33
+ | Thonos the Many-Limbed
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+## River of Blood[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Minion of Destruction*
+ | 
+ | 25
+ | 75
+ | 33
+ | 65
+ | 75
+ | Demon
+ | 50
+ | Council Member
+ | 15
+ | 35
+ | 75
+ | 80
+ | 50
+ | 40
+ | Demon
+ | 66
+ | Death Mauler
+ | 33
+ | 
+ | 50
+ | 120
+ | 50
+ | 20
+ | 
+ | 75
+ | Doom Knight
+ | 33
+ | 
+ | 75
+ | 20
+ | 25
+ | 50
+ | Undead
+ | 33
+ | Oblivion Knight
+ | 33
+ | 25
+ | 50
+ | 60
+ | 75
+ | 75
+ | Undead
+ | 33
+ | Corpulent
+ | 25
+ | 20
+ | 25
+ | 45
+ | 50
+ | 75
+ | Demon
+ | 75
+ | Skeleton Archer
+ | 40
+ | 50
+ | 33
+ | 40
+ | 33
+ | 120
+ | Undead
+ | 0
+ | Flesh Beast
+ | 25
+ | 
+ | 
+ | 
+ | 140
+ | 
+ | Demon
+ | 50
+ | Flesh Spawner
+ | 66
+ | 105
+ | 45
+ | 25
+ | 65
+ | 20
+ | Demon
+ | 50
+ | Zealot
+ | 10
+ | 
+ | 25
+ | 80
+ | 35
+ | 20
+ | 
+ | 100
+ | Blood Golem*
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 20
+ | Avunaos the Rotten*
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 20
+ | Belial Lord of Lies*
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+Blood Golems are minions of Avunaos
+## Royal Crypts[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Dune Beast
+ | 25
+ | 
+ | 60
+ | 45
+ | 120
+ | 25
+ | 
+ | 100
+ | Gloombat
+ | 50
+ | 25
+ | 120
+ | 50
+ | 25
+ | 50
+ | 
+ | 75
+ | Afflicted
+ | 
+ | 30
+ | 55
+ | 75
+ | 65
+ | 40
+ | Demon
+ | 75
+ | Claw Viper
+ | 40
+ | 45
+ | 45
+ | 25
+ | 50
+ | 40
+ | 
+ | 50
+ | Flying Scimitar
+ | 25
+ | 20
+ | 50
+ | 75
+ | 20
+ | 75
+ | 
+ | 0
+ | Scarab
+ | 20
+ | 
+ | 40
+ | 80
+ | 50
+ | 25
+ | 
+ | 50
+ | Bone Archer
+ | 35
+ | 45
+ | 30
+ | 20
+ | 45
+ | 75
+ | Undead
+ | 0
+ | Bone Warrior
+ | 25
+ | 25
+ | 30
+ | 35
+ | 65
+ | 65
+ | Undead
+ | 0
+ | King Leoric
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 20
+## Skovos Stronghold[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Afflicted
+ | 25
+ | 
+ | 50
+ | 55
+ | 40
+ | 15
+ | Demon
+ | 75
+ | Vile Hunter
+ | 30
+ | 20
+ | 30
+ | 45
+ | 40
+ | 45
+ | Demon
+ | 100
+ | Vile Archer
+ | 20
+ | 40
+ | 45
+ | 55
+ | 120
+ | 35
+ | Demon
+ | 100
+ | Vile Lancer
+ | 25
+ | 15
+ | 65
+ | 40
+ | 50
+ | 45
+ | Demon
+ | 100
+ | Death Slasher
+ | 45
+ | 35
+ | 75
+ | 50
+ | 65
+ | 65
+ | 
+ | 75
+ | Dried Corpse
+ | 55
+ | 40
+ | 75
+ | 30
+ | 45
+ | 120
+ | Undead
+ | 33
+ | Bramble Hulk
+ | 
+ | 25
+ | 15
+ | 75
+ | 35
+ | 65
+ | 
+ | 75
+ | Faithful
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 100
+ | Incarnation of Akarat
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 20
+## Tier 4 (Dungeons)[edit]
+Dungeons have a zone level of 92.
+Dungeon monsters grant 200% more experience, have 75% curse-length reduction, and are treated as prime evils.
+Blood Bringers move slowly and deal "lethal damage" - beware!
+The final dungeon bosses each have a ~1/6 chance to drop a Horadrim Scarab. They drop approximately 3x the loot of map bosses. Accessing the second boss of each dungeon requires defeating the first boss beforehand.
+## Plains of Torment[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Shrieking Terror
+ | 15
+ | 25
+ | 145
+ | 145
+ | 50
+ | 
+ | 
+ | 75
+ | Misshapen
+ | 120
+ | 25
+ | 145
+ | 
+ | 50
+ | 25
+ | Demon
+ | 75
+ | Death Lord
+ | 25
+ | 33
+ | 145
+ | 50
+ | 
+ | 75
+ | 
+ | 75
+ | Blunderbore
+ | 55
+ | 145
+ | 25
+ | 50
+ | 145
+ | 
+ | Demon
+ | 100
+ | Undead Soul Killer
+ | 33
+ | 50
+ | 75
+ | 
+ | 33
+ | 75
+ | Undead
+ | 33
+ | Huntress
+ | 120
+ | 
+ | 20
+ | 145
+ | 145
+ | 75
+ | 
+ | 100
+ | Putrid Defiler
+ | 80
+ | 
+ | 50
+ | 145
+ | 50
+ | 100
+ | Demon
+ | 75
+ | Unholy Corpse
+ | 50
+ | 25
+ | 145
+ | 60
+ | 145
+ | 
+ | Undead
+ | 66
+ | Blood Bringer
+ | 120
+ | 50
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 100
+ | Spear Cat
+ | 120
+ | 
+ | 20
+ | 145
+ | 50
+ | 145
+ | 
+ | 100
+ | Succubus
+ | 
+ | 
+ | 50
+ | 145
+ | 
+ | 145
+ | Demon
+ | 75
+ | Night Lord
+ | 35
+ | 
+ | 33
+ | 25
+ | 145
+ | 145
+ | Undead
+ | 75
+ | Madness
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | Undead
+ | 20
+ | Hysteria
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 0
+ | Canight The Corrupted
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | Undead
+ | 20
+ | Gargoyle Trap
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 75
+ | 
+ | 0
+ | The Synthetic One
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | Undead
+ | 20
+Canight the Corrupted is in a separate zone within the dungeon called the Pit of Despair
+Madness & Hysteria are minions of Canight and are immune until Canight has been defeated
+## Sanctuary of Sin[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Shrieking Terror
+ | 15
+ | 25
+ | 145
+ | 145
+ | 50
+ | 
+ | 
+ | 75
+ | Misshapen
+ | 120
+ | 25
+ | 145
+ | 
+ | 50
+ | 25
+ | Demon
+ | 75
+ | Death Lord
+ | 25
+ | 33
+ | 145
+ | 50
+ | 
+ | 75
+ | 
+ | 75
+ | Blunderbore
+ | 55
+ | 145
+ | 25
+ | 50
+ | 145
+ | 
+ | Demon
+ | 100
+ | Undead Soul Killer
+ | 33
+ | 50
+ | 75
+ | 
+ | 33
+ | 75
+ | Undead
+ | 33
+ | Huntress
+ | 120
+ | 
+ | 20
+ | 145
+ | 145
+ | 75
+ | 
+ | 100
+ | Putrid Defiler
+ | 80
+ | 
+ | 50
+ | 145
+ | 50
+ | 100
+ | Demon
+ | 75
+ | Unholy Corpse
+ | 50
+ | 25
+ | 145
+ | 60
+ | 145
+ | 
+ | Undead
+ | 66
+ | Blood Bringer
+ | 120
+ | 50
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 100
+ | Spear Cat
+ | 120
+ | 
+ | 20
+ | 145
+ | 50
+ | 145
+ | 
+ | 100
+ | Succubus
+ | 
+ | 
+ | 50
+ | 145
+ | 
+ | 145
+ | Demon
+ | 75
+ | Night Lord
+ | 35
+ | 
+ | 33
+ | 25
+ | 145
+ | 145
+ | Undead
+ | 75
+ | Elmegaard the Unholy
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | Demon
+ | 20
+ | Stygian Horde
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | Demon
+ | 20
+ | The Stygian Beast
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | Demon
+ | 20
+The Stygian Beast is in a separate zone within the dungeon called the Black Abyss
+Stygian Horde monsters are minions of The Stygian Beast
+## Steppes of Daken-Shar[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Shrieking Terror
+ | 15
+ | 25
+ | 145
+ | 145
+ | 50
+ | 
+ | 
+ | 75
+ | Misshapen
+ | 120
+ | 25
+ | 145
+ | 
+ | 50
+ | 25
+ | Demon
+ | 75
+ | Death Lord
+ | 25
+ | 33
+ | 145
+ | 50
+ | 
+ | 75
+ | 
+ | 75
+ | Blunderbore
+ | 55
+ | 145
+ | 25
+ | 50
+ | 145
+ | 
+ | Demon
+ | 100
+ | Undead Soul Killer
+ | 33
+ | 50
+ | 75
+ | 
+ | 33
+ | 75
+ | Undead
+ | 33
+ | Huntress
+ | 120
+ | 
+ | 20
+ | 145
+ | 145
+ | 75
+ | 
+ | 100
+ | Putrid Defiler
+ | 80
+ | 
+ | 50
+ | 145
+ | 50
+ | 100
+ | Demon
+ | 75
+ | Unholy Corpse
+ | 50
+ | 25
+ | 145
+ | 60
+ | 145
+ | 
+ | Undead
+ | 66
+ | Blood Bringer
+ | 120
+ | 50
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 100
+ | Spear Cat
+ | 120
+ | 
+ | 20
+ | 145
+ | 50
+ | 145
+ | 
+ | 100
+ | Succubus
+ | 
+ | 
+ | 50
+ | 145
+ | 
+ | 145
+ | Demon
+ | 75
+ | Night Lord
+ | 35
+ | 
+ | 33
+ | 25
+ | 145
+ | 145
+ | Undead
+ | 75
+ | Anburian Slayer
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+ | Skullsplitter Cyrus
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | 
+ | 20
+ | Naz the Cursed King
+ | 50
+ | 50
+ | 90
+ | 90
+ | 90
+ | 90
+ | 
+ | 20
+## Unique Maps[edit]
+No monsters within unique maps are inherently immune to any damage types.
+Unique maps cannot be corrupted, nor use a Catalyst Shard, you can only use a Standard of Heroes or orb of Fortification on them.
+## City of Ureh[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Priest of Rathma
+ | 10
+ | 
+ | 25
+ | 50
+ | 75
+ | 20
+ | 
+ | 100
+ | Bog Creature
+ | 65
+ | 
+ | 65
+ | 50
+ | 50
+ | 65
+ | 
+ | 75
+ | Returned Archer
+ | 40
+ | 
+ | 33
+ | 
+ | 33
+ | 75
+ | Undead
+ | 0
+ | Returned
+ | 40
+ | 50
+ | 85
+ | 
+ | 20
+ | 50
+ | Undead
+ | 0
+ | Hell Temptress
+ | 15
+ | 20
+ | 75
+ | 40
+ | 55
+ | 
+ | Demon
+ | 75
+ | Bramble Hulk
+ | 
+ | 20
+ | 
+ | 65
+ | 35
+ | 65
+ | 
+ | 75
+ | Guardian
+ | 15
+ | 20
+ | 50
+ | 75
+ | 80
+ | 50
+ | Undead
+ | 33
+ | Disciple of Rathma
+ | 15
+ | 
+ | 20
+ | 100
+ | 50
+ | 
+ | 
+ | 100
+ | Gregus Mazi
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 0
+ | Zayl the Merciful
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 0
+This is a tier 3 map so it has a zone level of 89 like other tier 3 maps.
+Unique Attributes:
+Map boss drops 3 socketed uniques.
+Monsters have +100% chance to drop socketed items
+Monsters have +[10-15]% chance to drop armors and weapons.
+Other Attributes:
+Monsters have +[40-50]% of Physical Damage as Extra Cold Damage
+Monsters have +[40-60]% Increased Cast and Attack Speed
+Monsters have +[80-100]% Faster Hit Recovery
+Monsters have +[15-25]% Life Stolen per Hit
+Monsters have +[10-20]% Chance of Open Wounds
+Monsters have +[15-25]% Increased Maximum Life
+## Djinn's Domain[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Flame Spider
+ | 50
+ | 
+ | 75
+ | 25
+ | 45
+ | 75
+ | 
+ | 50
+ | Blood Lord
+ | 
+ | 35
+ | 65
+ | 35
+ | 33
+ | 45
+ | 
+ | 75
+ | Salamander
+ | 20
+ | 
+ | 35
+ | 65
+ | 65
+ | 45
+ | 
+ | 50
+ | Flesh Hunter
+ | 35
+ | 20
+ | 45
+ | 45
+ | 55
+ | 55
+ | Demon
+ | 100
+ | Council Member
+ | 50
+ | 25
+ | 65
+ | 75
+ | 30
+ | 30
+ | Demon
+ | 66
+ | Flesh Archer
+ | 15
+ | 20
+ | 45
+ | 45
+ | 55
+ | 55
+ | Demon
+ | 100
+ | Flesh Lancer
+ | 35
+ | 20
+ | 45
+ | 45
+ | 55
+ | 55
+ | Demon
+ | 100
+ | Demon Rascal
+ | 
+ | 25
+ | 75
+ | 75
+ | 30
+ | 25
+ | Demon
+ | 100
+ | Dark Lord
+ | 40
+ | 
+ | 35
+ | 75
+ | 75
+ | 50
+ | Undead
+ | 75
+ | Specter
+ | 
+ | 50
+ | 25
+ | 20
+ | 70
+ | 75
+ | Undead
+ | 33
+ | Pit Viper
+ | 
+ | 
+ | 75
+ | 20
+ | 50
+ | 75
+ | 
+ | 50
+ | Dark Hunter
+ | 20
+ | 20
+ | 50
+ | 50
+ | 75
+ | 45
+ | Demon
+ | 100
+ | Dark Spearwoman
+ | 45
+ | 33
+ | 35
+ | 75
+ | 45
+ | 55
+ | Demon
+ | 100
+ | Strangler
+ | 55
+ | 
+ | 45
+ | 75
+ | 35
+ | 50
+ | Undead
+ | 33
+ | Flying Scimitar
+ | 25
+ | 50
+ | 50
+ | 75
+ | 75
+ | 75
+ | 
+ | 0
+ | Demon Imp
+ | 
+ | 25
+ | 75
+ | 25
+ | 25
+ | 25
+ | Demon
+ | 100
+ | Invader
+ | 25
+ | 
+ | 65
+ | 50
+ | 50
+ | 35
+ | 
+ | 66
+ | Dung Soldier
+ | 50
+ | 
+ | 
+ | 100
+ | 
+ | 
+ | 
+ | 50
+ | Dung Soldier
+ | 50
+ | 
+ | 50
+ | 65
+ | 35
+ | 50
+ | 
+ | 50
+ | Stygian Fury
+ | 25
+ | 25
+ | 25
+ | 60
+ | 50
+ | 25
+ | Demon
+ | 75
+ | Pit Viper
+ | 70
+ | 
+ | 70
+ | 25
+ | 145
+ | 110
+ | 
+ | 50
+ | Dark Hunter
+ | 20
+ | 20
+ | 33
+ | 33
+ | 100
+ | 20
+ | Demon
+ | 100
+ | Dark Spearwoman
+ | 45
+ | 
+ | 25
+ | 100
+ | 25
+ | 25
+ | Demon
+ | 100
+ | Strangler
+ | 50
+ | 
+ | 
+ | 100
+ | 
+ | 
+ | Undead
+ | 33
+ | Flying Scimitar
+ | 25
+ | 50
+ | 50
+ | 120
+ | 75
+ | 75
+ | 
+ | 0
+ | Demon Imp
+ | 
+ | 25
+ | 100
+ | 25
+ | 33
+ | 
+ | Demon
+ | 100
+ | Invader
+ | 25
+ | 
+ | 110
+ | 50
+ | 
+ | 33
+ | 
+ | 66
+ | Stygian Harlot
+ | 10
+ | 
+ | 66
+ | 100
+ | 50
+ | 25
+ | Demon
+ | 75
+ | Wraith
+ | 100
+ | 50
+ | 
+ | 
+ | 60
+ | 75
+ | Undead
+ | 33
+ | Siren of the Forgotten Vault
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 0
+ | Ancient Scimitar
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 0
+ | Djinn of a Thousand Blades
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Undead
+ | 0
+This is a tier 2 map so it has a zone level of 88 like other tier 2 maps.
+Unique Attributes:
+Map Boss drops a treasure explosion
+Monsters have +50% chance of dropping extra items
+Other Attributes:
+Monsters have +[40-50]% of Physical damage as extra Lightning Damage
+Players have -[5-10]% chance to Block
+Players have -50% Enhanced Defense
+Monsters have [20-30]% life stolen per hit
+Monsters have [20-30]% Increased Maximum life
+## Fallen Gardens[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Bog Creature
+ | 50
+ | 
+ | 45
+ | 50
+ | 45
+ | 35
+ | Demon
+ | 66
+ | Strangler
+ | 60
+ | 80
+ | 60
+ | 25
+ | 75
+ | 45
+ | Undead
+ | 33
+ | Demon Sprite
+ | 65
+ | 35
+ | 70
+ | 65
+ | 40
+ | 
+ | Demon
+ | 100
+ | Blood Wing
+ | 
+ | 25
+ | 50
+ | 33
+ | 
+ | 45
+ | 
+ | 50
+ | Prowling Dead
+ | 
+ | 
+ | 45
+ | 50
+ | 65
+ | 60
+ | Undead
+ | 66
+ | Thrasher
+ | 25
+ | 
+ | 
+ | 40
+ | 50
+ | 80
+ | 
+ | 75
+ | Rakanoth
+ | 50
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+ | Shadow Vermin
+ | 30
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 0
+ | Iskatu
+ | 30
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 20
+This is a tier 2 map so it has a zone level of 88 like other tier 2 maps.
+Unique Attributes:
+Map Boss drops a Rainbow Facet
+Monsters have +2% chance of dropping Additional Jewels
+Other Attributes:
+Monsters have +[50-100]% of Physical Damage as Extra Lightning Damage
+Monsters have [10-20]% Deadly Strike
+Monsters have [10-30]% Increased Maximum Life
+Monsters have +[50-100] Replenish Life
+## Imperial Palace[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Minion of Destruction
+ | 10
+ | 10
+ | 60
+ | 60
+ | 60
+ | 60
+ | Demon
+ | 50
+ | Warped One
+ | 25
+ | 75
+ | 75
+ | 75
+ | 75
+ | 75
+ | Demon
+ | 75
+ | Flayer
+ | 20
+ | 
+ | 35
+ | 65
+ | 45
+ | 50
+ | Demon
+ | 100
+ | Flayer
+ | 20
+ | 
+ | 40
+ | 20
+ | 65
+ | 50
+ | Demon
+ | 100
+ | Strangler
+ | 10
+ | 10
+ | 45
+ | 45
+ | 45
+ | 45
+ | Undead
+ | 33
+ | Decayed
+ | 
+ | 20
+ | 50
+ | 35
+ | 25
+ | 65
+ | Undead
+ | 33
+ | Succubus
+ | 
+ | 20
+ | 65
+ | 50
+ | 50
+ | 25
+ | Demon
+ | 75
+ | Writhing Deceiver
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 35
+ | Kamyr the Usurper
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+ | Imperial Advisor
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+ | Imperial Assassin
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 20
+This is a tier 3 map but has +1 Area Level so it has a zone level of 90.
+Unique Attributes:
++1 to Area Level
+Map Boss will always drop a Larzuk’s Puzzlebox
+Map Mini Boss will always drop a Larzuk’s Puzzlepiece
+Other Attributes:
+Monsters have +[10-15]% of Physical Damage as Extra Magic Damage
+Map Contains Fetishes
+Monsters have [4-6]% Chance of Deadly Strike
+Monsters have [15-25]% Increased Maximum Life
+Monsters have 50% Curse Duration Reduction
+## Na-Krul's Abyss[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Hellbat
+ | 10
+ | 25
+ | 55
+ | 20
+ | 10
+ | 60
+ | 
+ | 75
+ | Crypt Demon
+ | 50
+ | 35
+ | 25
+ | 75
+ | 75
+ | 50
+ | 
+ | 100
+ | Devil Kin Brute
+ | 15
+ | 
+ | 65
+ | 50
+ | 40
+ | 75
+ | Demon
+ | 75
+ | Satyr Lord
+ | 50
+ | 
+ | 40
+ | 25
+ | 65
+ | 25
+ | Demon
+ | 80
+ | Reaper
+ | 25
+ | 20
+ | 75
+ | 75
+ | 50
+ | 35
+ | Demon
+ | 66
+ | Flesh Thing
+ | 35
+ | 20
+ | 30
+ | 50
+ | 25
+ | 75
+ | Demon
+ | 75
+ | Skullwing
+ | 
+ | 20
+ | 66
+ | 80
+ | 50
+ | 30
+ | Demon
+ | 75
+ | Lich
+ | 35
+ | 50
+ | 40
+ | 25
+ | 85
+ | 50
+ | Undead
+ | 75
+ | Na-Krul
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 0
+This is a tier 1 map so it has a zone level of 87 like other tier 1 maps.
+Unique Attributes:
+Map Boss drops 3 Ethereal Unique items
+Monsters have +100% chance of dropping ethereal items
+Other Attributes:
+Monsters have +[8-12]% chance of dropping additional weapons
+Monsters have +[8-12]% chance of dropping additional armor
+Monsters have +[30-40]% of physical damage as extra fire damage
+Players have -[20-30]% faster hit recovery
+Monsters have +[15-25]% chance of open wounds
+Monsters have +[30-40]% increased maximum life
+Monsters have +[30-40]% curse duration reduction
+## Outer Void[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Nightmare
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | Demon
+ | 66
+ | Abhorrent
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 
+ | 75
+ | Void Knight
+ | 50
+ | 50
+ | 75
+ | 75
+ | 50
+ | 20
+ | Undead
+ | 0
+ | Voidling
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 
+ | 75
+ | Dream Eater*
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 
+ | 75
+ | Dream Eater
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 30
+ | 
+ | 75
+This is a tier 3 map so it has a zone level of 89 like other tier 3 maps.
+Unique Attributes:
+Three random Map Bosses will always drop one of the three materials at random
+ for Diablo Clone, Lucion, or Rathma
+Other Attributes:
+Monsters have +[X]% of Physical Damage as Extra Poison Damage over 5 Seconds
+Monsters have +[X]% of Physical Damage as Extra Cold Damage
+Players have -50% Enhanced Defense
+Players have +[40-60]% Attack and Cast Speed
+Monsters have +50% Attack Rating and Chance to Pierce
+Monsters have +[80-120] Replenish Life
+Players have +[40-60]% to Velocity
+## Warlord of Blood[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Death Mauler
+ | 30
+ | 
+ | 65
+ | 50
+ | 65
+ | 
+ | 
+ | 75
+ | Demon Sprite
+ | 40
+ | 35
+ | 70
+ | 65
+ | 40
+ | 50
+ | Demon
+ | 100
+ | Horror
+ | 30
+ | 50
+ | 30
+ | 50
+ | 60
+ | 65
+ | Undead
+ | 0
+ | Consumed Ice Boar
+ | 25
+ | 
+ | 30
+ | 15
+ | 50
+ | 15
+ | 
+ | 75
+ | Grotesque Wyrm
+ | 25
+ | 20
+ | 55
+ | 40
+ | 35
+ | 70
+ | Demon
+ | 50
+ | Grotesque
+ | 55
+ | 20
+ | 30
+ | 50
+ | 25
+ | 65
+ | Demon
+ | 50
+ | Moon Lord
+ | 25
+ | 
+ | 65
+ | 55
+ | 30
+ | 
+ | 
+ | 75
+ | Doom Knight
+ | 30
+ | 25
+ | 60
+ | 20
+ | 20
+ | 50
+ | Undead
+ | 33
+ | Oblivion Knight
+ | 35
+ | 25
+ | 60
+ | 60
+ | 55
+ | 45
+ | Undead
+ | 33
+ | Rot Walker
+ | 50
+ | 20
+ | 40
+ | 30
+ | 65
+ | 40
+ | Undead
+ | 66
+ | Corpse Spitter
+ | 30
+ | 
+ | 25
+ | 55
+ | 20
+ | 75
+ | Demon
+ | 75
+ | Onion the Accused
+ | 20
+ | 60
+ | 40
+ | 80
+ | 80
+ | 40
+ | Demon
+ | 75
+ | Cory the Imp
+ | 50
+ | 30
+ | 80
+ | 40
+ | 40
+ | 80
+ | Demon
+ | 66
+ | Warlord of Blood
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 0
+This map is also referred to as "Stygian Caverns".
+This is a tier 2 map so it has a zone level of 88 like other tier 2 maps.
+Unique Attributes:
+Map Boss drops 1-3 Corrupted Uniques
+Monsters have +100% chance of dropping Corrupted Items
+Other Attributes:
+Monsters have +[50-100]% of Physical Damage as Extra Fire Damage
+Players have -[5-10]% Chance to Block
+Monsters have [20-30]% Increased Velocity
+Monsters have [5-10]% Chance of Crushing Blow
+Monsters have [20-30]% Increased Maximum Life
+## Zhar's Sanctum[edit]
+ | Monster
+ | Phys
+ | Magic
+ | Fire
+ | Light
+ | Cold
+ | Poison
+ | Type
+ | Drain
+ | Jungle Hunter
+ | 30
+ | 
+ | 25
+ | 85
+ | 45
+ | 95
+ | 
+ | 100
+ | Bog Creature
+ | 65
+ | 
+ | 65
+ | 50
+ | 50
+ | 65
+ | 
+ | 75
+ | Returned
+ | 40
+ | 50
+ | 85
+ | 
+ | 20
+ | 50
+ | Undead
+ | 0
+ | Hell Temptress
+ | 15
+ | 20
+ | 75
+ | 40
+ | 55
+ | 
+ | Demon
+ | 75
+ | Guardian
+ | 15
+ | 20
+ | 
+ | 75
+ | 80
+ | 50
+ | Undead
+ | 33
+ | Urdar
+ | 35
+ | 20
+ | 30
+ | 75
+ | 80
+ | 
+ | Demon
+ | 100
+ | Heirophant
+ | 
+ | 35
+ | 80
+ | 25
+ | 75
+ | 25
+ | 
+ | 100
+ | Huntress
+ | 40
+ | 
+ | 65
+ | 25
+ | 50
+ | 80
+ | 
+ | 100
+ | Spear Cat
+ | 40
+ | 
+ | 25
+ | 50
+ | 40
+ | 80
+ | 
+ | 100
+ | Hell Swarm
+ | 60
+ | 25
+ | 50
+ | 80
+ | 
+ | 65
+ | 
+ | 0
+ | Carver
+ | 15
+ | 30
+ | 85
+ | 65
+ | 45
+ | 25
+ | Demon
+ | 75
+ | Carver Shaman
+ | 15
+ | 30
+ | 80
+ | 50
+ | 55
+ | 25
+ | Demon
+ | 66
+ | Reanimated Horde
+ | 50
+ | 
+ | 
+ | 75
+ | 60
+ | 80
+ | Undead
+ | 66
+ | Crush Beast
+ | 50
+ | 
+ | 50
+ | 45
+ | 20
+ | 50
+ | 
+ | 100
+ | Night Lord
+ | 35
+ | 40
+ | 40
+ | 25
+ | 85
+ | 65
+ | Undead
+ | 75
+ | Infernal Alien
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 100
+ | Efreet Sajber
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 100
+ | Ztaziz the Fragile
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | Demon
+ | 75
+ | Zhar The Mad
+ | 20
+ | 20
+ | 50
+ | 50
+ | 50
+ | 50
+ | 
+ | 0
+This is a tier 1 map, but has +2 to area level so it has a zone level of 89 like tier 3 maps.
+Unique Attributes:
++2 to Area Level
+Map Boss drops a Skill Charm
+Monsters have +[4-6]% chance of dropping Additional Charms
+Minibosses have a 50% chance of dropping a Skill Charm
+Other Attributes:
+Players have -[30-40] Drain Life
+Players have -10% to All Resistances
+Monsters have +[50-100]% of Physical Damage as Extra Poison Damage over 5 Seconds
+Players have -[20-30]% Faster Hit Recovery
+Monsters have [20-30]% Increased Maximum Life
+The entrance zone has portals to 3 other zones, with a random one chosen to have a portal that
+leads to Zhar the Mad.
+Heirophants deal exceptionally high cold damage - beware!
+Source of Information on this Page
+See PD2's text files for updated info when game changes are made. Map affixes are in MagicPrefix.txt and MagicSuffix.txt, and map monster info can be determined from Levels.txt and MonStats.txt. The files are best viewed in table format since they are tab-delineated, so they should be opened with Microsoft Excel (or similar programs) or their text should be copy/pasted into a spreadsheet. For convenience, many of the game's text files are also saved on Google Drive: D2 Text File Tables.
+If the files in these locations are not updated by others, you can extract them yourself from pd2data.mpq (found in Diablo II/ProjectD2) using an MPQ editor and D2 listfile - the text files will be in /data/global/excel.

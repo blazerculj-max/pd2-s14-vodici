@@ -207,7 +207,7 @@
         '<li class="muted">Ilvl crafta = clvl/2 + ilvl baze/2. Eth baza da eth craft. Predpisani affixi so v statsih, poleg pride do 4 naključnih.</li></ul></div>');
     }
     if (e.c === 'rune') {
-      if (e.up) side.push('<div><h4>Nadgradnja v cubu</h4><p>' + esc(e.up) + ' → 1× ' + esc(e.n.replace(' Rune', '')) + '</p></div>');
+      if (e.up) side.push('<div><h4>Nadgradnja v cubu</h4><p>' + esc(e.up) + ' → 1× ' + esc(e.n.replace(' Rune', '')) + '</p><p class="muted note-s">V S14 ključ ni več potreben.</p></div>');
       var nm = e.n.replace(' Rune', '');
       var rws = RWS.filter(function (r) { return r.ru.indexOf(nm) >= 0; });
       rws.sort(function (a, b) { return b.nb - a.nb || (a.r || 0) - (b.r || 0); });

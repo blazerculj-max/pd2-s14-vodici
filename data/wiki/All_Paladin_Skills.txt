@@ -8730,6 +8730,7 @@ Description: A deadly attack at the cost of life - slain monsters explode, deali
 Required Level: 6
 Required Skills: Zeal[1]
 Mana Cost: 0
+Damage to Self: 3% of maximum life
  | Level
  | 1
  | 2
@@ -8852,122 +8853,6 @@ Mana Cost: 0
  | 1890
  | 1920
  | 1950
- | Damage to Self %
- | 6
- | 5
- | 
-5
- | 4
- | 
-4
- | 3
- | 
-3
- | 2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
- | 
-2
  | Explosion Radius (yards)
  | 2.66
  | 
@@ -9143,8 +9028,9 @@ Mana Cost: 0
  | 932
  | 948
  | 964
-Sacrifice's Damage to Self is Physical Damage, and can be reduced by Physical Damage Reduction.
-Sacrifice's in-game skill description displays half the true Explosion Radius - the numbers above are the correct radii.
+The explosion uses 5% of the average base monster life, rather than 5% of that monster's fully modified maximum life.
+Critical strike and deadly strike do not apply to the Sacrifice hit or the overkill damage.
+Missing a strike can still incur the life cost.
 Sacrifice Receives Bonuses From:
 Redemption: +25% Damage per Level
 Fanaticism: +25% Damage per Level

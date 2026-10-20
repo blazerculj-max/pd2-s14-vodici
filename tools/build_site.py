@@ -189,7 +189,7 @@ def recipes_html(rec):
                     f'<span>+ magic ali rare {e(c["type"].lower())}{"; eth baza da eth craft" if c.get("eth") else ""}{alt}</span></div>')
     body = (rune_chips(rec["runes"]) if rec["runes"] else "") + ('<div class="rtable">' + "".join(rows) + "</div>" if rows else "")
     return (f'<details class="recipes"><summary>Recepti in rune <span class="muted">· {", ".join(head)}</span></summary>'
-            f'<div class="rec-body">{body}<span class="muted note-s">Rune v cubu: 3 enake (od Pul naprej 2) + Key da naslednjo. '
+            f'<div class="rec-body">{body}<span class="muted note-s">Rune v cubu: 3 enake (od Pul naprej 2) dajo naslednjo, v S14 brez ključa. '
             f'Vse rune in baze: <a href="predmeti.html">wiki predmetov</a>.</span></div></details>')
 
 
@@ -359,7 +359,8 @@ def build_html(b, cls):
 
 def page(title, body, current, desc, extra_head="", body_class=""):
     nav = [("index.html", "Razredi")] + [(f'{c["id"]}.html', c["name"]) for c in SITE["classes"]] + [
-        ("predmeti.html", "Predmeti"), ("druid-nacrt.html", "Druid plan"), ("vodic.html", "Vodič")]
+        ("predmeti.html", "Predmeti"), ("mape.html", "Mape"), ("crafting.html", "Crafting"),
+        ("druid-nacrt.html", "Druid plan"), ("vodic.html", "Vodič")]
     nav_html = "".join(f'<a href="{h}"{" aria-current=\"page\"" if h == current else ""}>{e(t)}</a>' for h, t in nav)
     return f"""<!doctype html>
 <html lang="sl">
@@ -413,6 +414,8 @@ def index_html():
 <section><div class="sec-head"><div class="eyebrow">Naši vodiči</div><h2>Kje začeti</h2></div>
 <div class="cols">
 <a class="class-card" href="druid-nacrt.html"><h3>Druid plan</h3><span class="muted">Leveling kot summoner, nato Poison Creeper ali Rabies. Točke po levelih, oprema v treh fazah, merc, breakpointi.</span></a>
+<a class="class-card" href="mape.html"><h3>Mape in imunitete</h3><span class="muted">Vse S14 mape s pošastmi in imunitetami, filter po tvojem elementu, najhitrejši buildi, orbi in map eventi.</span></a>
+<a class="class-card" href="crafting.html"><h3>Crafting vodič</h3><span class="muted">Kako item postane uporaben ali vreden: socketi, nadgradnje, korupcija, reroll, crafti in affixi z alvl.</span></a>
 <a class="class-card" href="predmeti.html"><h3>Wiki predmetov</h3><span class="muted">Iskalnik po vseh uniquih, setih, runewordih, craftih, runah in bazah: statsi z razponi, recepti in kateri buildi jih nosijo.</span></a>
 <a class="class-card" href="vodic.html"><h3>Splošni vodič</h3><span class="muted">Kaj pobirati, budget runewordi, crafting, recepti v cubu, mape za začetnika in S14 spremembe.</span></a>
 <div class="class-card"><h3>PDF za tisk</h3><span class="muted">Druid plan in budget mapper vodič na A4, s kvadratki za kljukice.</span><span class="links"><a href="pdf/Druid-nacrt-S14.pdf">Druid plan (PDF)</a><a href="pdf/Budget-mapper-S14.pdf">Budget mapper (PDF)</a></span></div>
@@ -429,12 +432,41 @@ def index_html():
                 "Vsi viable Project Diablo 2 S14 buildi po razredih: ocene, leveling, oprema, merc in bossing.")
 
 
+def others_html(c):
+    """Buildi zunaj glavnega seznama: Hiim Mid/Bad in neocenjeni, galerija skupnosti, S13 popularni."""
+    hiim = [o for o in c["others"] if o["src"] == "hiim"]
+    gal = [o for o in c["others"] if o["src"] == "gallery"]
+    s13 = [o for o in c["others"] if o["src"] == "s13"]
+    if not (hiim or gal or s13):
+        return ""
+    rows = []
+    for o in hiim:
+        note = ("Hiim ga še ni ocenil (pogosto nov S14 build) in nima planerja." if o["tier"] == "brez ocene"
+                else f'Hiim solo lista: {o["tier"]}. Igrljiv, a počasnejši od buildov zgoraj.')
+        rows.append(f'<tr><td>{e(o["name"])}</td><td><span class="badge">{e("Hiim " + o["tier"])}</span></td><td>{note}</td></tr>')
+    for o in gal:
+        tags = ", ".join(o.get("tags") or [])
+        sk = ", ".join(o.get("skills") or [])
+        rows.append(f'<tr><td><a href="{e(o["url"])}" target="_blank" rel="noopener">{e(o["name"])}</a></td>'
+                    f'<td><span class="badge">skupnost</span></td>'
+                    f'<td>Javni S14 planer v Hiim galeriji (avtor {e(o.get("author") or "?")}, {o["opens"]} ogledov'
+                    + (", skupaj " + plural(o["n"], "planer", "podobna planerja", "podobni planerji", "podobnih planerjev") if o.get("n", 1) > 1 else "") + ")."
+                    + (f" Skilli na 20: {e(sk)}." if sk else "") + (f" Oznake: {e(tags)}." if tags else "")
+                    + " Na Hiim tier listah ga ni.</td></tr>")
+    for o in s13:
+        rows.append(f'<tr><td>{e(o["name"])}</td><td><span class="badge">S13</span></td>'
+                    f'<td>V S13 je imelo ta skill na 20 {str(o["pct"]).replace(".", ",")} % likov 90+ tega razreda '
+                    f'(pd2.tools, {o["total"]} likov), na Hiim S14 listah pa ga ni.</td></tr>')
+    return (f'<section class="extra-builds"><div class="sec-head"><div class="eyebrow">Zunaj seznama</div>'
+            f'<h2>Ostali buildi</h2><p>Buildi, ki jih Hiim ne uvršča med viable, ali jih sploh ne ocenjuje, ter buildi '
+            f'iz drugih virov. Uporabni za ideje; za mapping so buildi zgoraj zanesljivejši.</p></div>'
+            f'<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Build</th><th>Vir</th><th>Opomba</th></tr></thead>'
+            f'<tbody>{"".join(rows)}</tbody></table></div></section>')
+
+
 def class_html(c):
     builds = "".join(build_html(b, c) for b in c["builds"])
-    others = ""
-    if c["others"]:
-        others = '<p class="others">Ostali na Hiim listi (Mid ali Bad): ' + ", ".join(
-            f'{e(o["name"])} ({e(o["tier"])})' for o in c["others"]) + ".</p>"
+    others = others_html(c)
     tiers = []
     for b in c["builds"]:
         if b["tier"] not in tiers:
@@ -517,6 +549,251 @@ def items_page_html():
                 extra_head='<script src="assets/items.js" defer></script>', body_class="page-items")
 
 
+EL_NAME = {"phys": "Physical", "magic": "Magic", "fire": "Fire", "light": "Lightning", "cold": "Cold", "poison": "Poison"}
+EL_ORDER = ["phys", "magic", "fire", "light", "cold", "poison"]
+
+
+def imm_badges(m):
+    out = []
+    for x in m["imm"]:
+        out.append(f'<span class="el el-{x["el"]}" title="{e(", ".join(x["mon"]))}">{EL_NAME[x["el"]]} {x["res"]}</span>')
+    if not out:
+        out.append('<span class="el el-none">brez imunitet</span>')
+    return "".join(out)
+
+
+def map_card(m):
+    rows = []
+    for mo in m["monsters"]:
+        typ = ", ".join(t for t, ok in (("undead", mo["u"]), ("demon", mo["d"]), ("boss", mo["boss"])) if ok)
+        cells = "".join(f'<td class="{"imm" if v >= 100 else "hi" if v >= 75 else ""}">{v}</td>' for v in mo["res"])
+        rows.append(f'<tr><td>{e(mo["name"])}</td><td class="muted">{e(typ)}</td>{cells}</tr>')
+    head = "".join(f'<th class="el-{k}">{EL_NAME[k][:4]}</th>' for k in EL_ORDER)
+    best = ""
+    if m["best"]:
+        best = ('<p class="note-s"><b>Najhitrejši Hiim buildi na tej mapi:</b> ' + ", ".join(
+            f'<a href="{b["cls"]}.html#b-{e(b["id"])}">{e(b["name"])}</a> <span class="muted">({fmt_time(b["time"])}, S{b["season"]})</span>'
+            for b in m["best"]) + "</p>")
+    extra = ""
+    if m["extra"]:
+        extra = (f'<p class="note-s muted">Hiimova tabela map navaja še: {e(", ".join(EL_NAME[x] for x in m["extra"]))} '
+                 '(v podatkih o pošastih tega nismo našli).</p>')
+    link = (f'<a href="https://hiimpd2.com/map-pathing#map={e(m["slug"])}&amp;size=Medium" target="_blank" rel="noopener">Postavitev in pot (Hiim)</a>'
+            if m.get("slug") else "")
+    els = " ".join(x["el"] for x in m["imm"])
+    meta = [f'zone level {m["zone"]}', "notranja" if m["inside"] else "zunanja"]
+    if m["undead"]:
+        meta.append(f'{m["undead"]} undead')
+    if m["demon"]:
+        meta.append(f'{m["demon"]} demon')
+    return (f'<details class="mapc" data-imm="{els}"><summary><span class="mn"><b>{e(m["name"])}</b>'
+            f'<span class="meta">{" · ".join(meta)}' + (f' · {len(m["best"])}× najhitrejša' if m["best"] else "") + '</span></span>'
+            f'<span class="els">{imm_badges(m)}</span><span class="fit" aria-hidden="true"></span></summary>'
+            f'<div class="mapb">' + (f'<p class="note-s">{e(m["note"])}</p>' if m["note"] else "") + best + extra +
+            f'<div class="tbl-wrap"><table class="tbl mon"><thead><tr><th>Pošast</th><th>Tip</th>{head}</tr></thead>'
+            f'<tbody>{"".join(rows)}</tbody></table></div><div class="links">{link}</div></div></details>')
+
+
+def maps_page_html():
+    g = GUIDES
+    tiers = []
+    for m in g["maps"]:
+        if m["tier"] not in tiers:
+            tiers.append(m["tier"])
+    sections = []
+    for t in tiers:
+        ms = [m for m in g["maps"] if m["tier"] == t]
+        zone = ms[0]["zone"]
+        intro = {"Tier 4": "Dungeoni: skupinska vsebina. Vsak ima pošasti s 145 % na vse elemente in 120 % physical.",
+                 "Unique Maps": "Wiki: unique mape nimajo stalnih imunitet. Spodaj so vse pošasti, ki jih Hiim navaja za posamezne dele mape (tudi bossove sobe)."}.get(t, "")
+        sections.append(f'<div class="tier-block"><h3>{e(t)} <span class="muted">· zone level {zone}</span></h3>'
+                        + (f'<p class="note-s">{intro}</p>' if intro else "") + "".join(map_card(m) for m in ms) + "</div>")
+    ebtn = '<button type="button" data-el="" aria-pressed="true">Vsi</button>' + "".join(
+        f'<button type="button" data-el="{k}" aria-pressed="false" class="el-{k}">{EL_NAME[k]}</button>' for k in EL_ORDER)
+    mt = g["map_tables"]
+    orbs = "".join(f'<tr><td>{e(o["name"])}</td><td>{e(o["with"])}</td><td>{e(o["effect"])}</td></tr>' for o in mt["orbs"])
+    inf = "".join(f'<tr><td>{e(o["in"])}</td><td>{e(o["out"])}</td></tr>' for o in mt["infuse"])
+    aff = "".join(f'<tr><td>{e(a["name"])}</td><td>{e(a["attr"])}</td><td>{e(a["range"])}</td><td>{e(a["exp"])}</td>'
+                  f'<td>{e(a["density"])}</td><td>{e(a["mf"])}</td><td class="muted">{e(a["note"])}</td></tr>' for a in mt["affixes"])
+    corr = mt.get("corruptions") or {}
+    corr_rows = "".join("<tr>" + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in corr.get("rows", []))
+    corr_head = "".join(f"<th>{e(h)}</th>" for h in corr.get("head", []))
+    body = f"""
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Endgame · S14</div>
+<h1>Mape</h1>
+<p class="lead">Vse S14 mape z imunitetami pošasti, najhitrejšimi buildi in postavitvijo. Izberi svoj element in takoj vidiš, katere mape so zate brez imunitet.</p>
+</div></header>
+<main class="wrap">
+<section><div class="sec-head"><div class="eyebrow">Začetek</div><h2>Kako začneš</h2></div>
+<div class="cols">
+<div class="panel"><h4>Pogoji</h4><p>Level 80+ in premagani Hell Ancients. Mapo odpreš z desnim klikom v Harrogathu (Hell). V eni igri lahko odpreš eno mapo. Prvo T1 mapo ti da Anya, nato mape padajo v mapah samih (višji tier redkeje).</p></div>
+<div class="panel"><h4>Tierji</h4><p>T1 (zone level 87), T2 (88), T3 (89) za solo. T4 so dungeoni za skupino. Unique mape padajo redko (v S14 +25 %). Višji tier pomeni več XP, gostote in MF na rare mapah.</p></div>
+<div class="panel"><h4>S14 novosti</h4><p>Nove mape Poisoned Well (T1), Descent from Mount Arreat in Dark Temple (T2) prvo sezono nimajo imunitet. Sanatorium je zdaj T1. Števec preostalih pošasti za mape in corrupted zone.</p></div>
+</div></section>
+
+<section><div class="sec-head"><div class="eyebrow">Imunitete</div><h2>Mape po imunitetah</h2>
+<p>Imuniteta pomeni 100 % ali več odpornosti. Klikni mapo za vse pošasti in njihove odpornosti. Podatki: Hiim Maps explorer (S14), preverjeni s PD2 wikijem.</p></div>
+<div class="filters" role="group" aria-label="Tvoj element"><span class="muted">Tvoj element:</span>{ebtn}</div>
+<label class="chk muted note-s"><input type="checkbox" id="hide-imm"> skrij mape z imuniteto na moj element</label>
+<p class="wcount" id="mcount" aria-live="polite"></p>
+{"".join(sections)}
+</section>
+
+<section><div class="sec-head"><div class="eyebrow">Mehanika</div><h2>Kako zlomiš imuniteto</h2>
+<p>V PD2 sunder charmi ne obstajajo. Imuniteto zlomijo samo učinki, ki odpornost znižajo na pošasti; »pierce« z opreme (-% to Enemy Resistance, Rainbow Facet, Cold Mastery) deluje šele, ko je imuniteta zlomljena.</p></div>
+<div class="cols">
+<div class="panel"><h4>Zlomijo imuniteto</h4><ul class="plain">
+<li><b>Fire, Cold, Lightning:</b> Conviction (Infinity na mercu), Lower Resist</li>
+<li><b>Fire:</b> Inferno · <b>Cold:</b> Arctic Blast · <b>Lightning:</b> Static Field</li>
+<li><b>Poison:</b> Lower Resist, Poison Creeper</li>
+<li><b>Physical:</b> Amplify Damage, Decrepify, Battle Cry</li>
+<li><b>Magic:</b> Sanctuary</li>
+<li>Throwing Potions (vsi elementi)</li></ul></div>
+<div class="panel"><h4>Pol učinka proti imunim</h4><p>Proti pošasti s 100 % ali več deluje vsak tak učinek s polovično močjo (zaokroženo navzdol). Primer: 120 % fire in Conviction -40 %: 120 − 20 = 100, še vedno imun. Dodaš Lower Resist -30 %: 100 − 15 = 85, imuniteta je zlomljena in šele zdaj začne delovati tvoj pierce z opreme.</p></div>
+<div class="panel"><h4>Kaj to pomeni zate</h4><p>Ena imuniteta na mapi ni nujno konec: preskočiš tisti paket ali ga ubije merc. Pri dveh elementih (npr. Fire + Cold sorc, Wind + Arctic druid) lahko vzameš skoraj vsako mapo. Horazonov portal v mapi odpre mapo, kjer imajo vse pošasti 0 % odpornosti.</p></div>
+</div></section>
+
+<section><div class="sec-head"><div class="eyebrow">Izbira mape</div><h2>Katero mapo vzeti</h2></div>
+<div class="cols">
+<div class="panel"><h4>Za začetnika</h4><p>Vzemi mape brez imunitete na tvoj element. Najprej T1, nato T2. Rare mape imajo več gostote, XP in MF, a tudi nevarne affixe. Če affix ubije tvoj build (npr. -resi pri nizkih resih), mapo zavrzi ali jo z Orb of Destruction vrni na regular.</p></div>
+<div class="panel"><h4>Za farmo</h4><p>Gostota (Density) in MF/GF sta glavna razloga za rare mapo. Map korupcija z Worldstone Shardom doda še en modifikator. Standard of Heroes (od Uber Ancients) da +10 % XP, +20 % gostote in +20 % MF.</p></div>
+<div class="panel"><h4>Najhitrejše mape</h4><p>Pri vsaki mapi je seznam buildov, ki imajo na njej svoj najhitrejši čas na Hiim tier listi. Največ jih ima Throne of Insanity, River of Blood, Sewers of Harrogath in Ancestral Trial.</p></div>
+</div>
+<details class="recipes" style="margin-top:14px"><summary>Vsi affixi map (wiki) <span class="muted">· učinek, razpon za T1 / T2 / T3, bonus XP, gostote in MF</span></summary>
+<div class="rec-body"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Affix</th><th>Učinek</th><th>X</th><th>XP %</th><th>Gostota %</th><th>MF/GF %</th><th></th></tr></thead><tbody>{aff}</tbody></table></div></div></details>
+</section>
+
+<section><div class="sec-head"><div class="eyebrow">Horadric Cube</div><h2>Orbi in nadgradnja map</h2>
+<p>Orbe kupiš pri Anyi (Hell). Infused orb ne potrebuje dodatnih sestavin, zato ga lahko pripraviš vnaprej.</p></div>
+<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Predmet</th><th>Z</th><th>Učinek</th></tr></thead><tbody>{orbs}</tbody></table></div>
+<h4 class="sub-h">Infuzije in menjava map</h4>
+<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Sestavine</th><th>Rezultat</th></tr></thead><tbody>{inf}</tbody></table></div>
+<details class="recipes" style="margin-top:14px"><summary>Korupcije map (Worldstone Shard + magic ali rare mapa)</summary>
+<div class="rec-body"><div class="tbl-wrap"><table class="tbl"><thead><tr>{corr_head}</tr></thead><tbody>{corr_rows}</tbody></table></div></div></details>
+</section>
+
+<section><div class="sec-head"><div class="eyebrow">Dogodki</div><h2>Map eventi</h2>
+<p>Možnost za event: 33 % na rare mapi, 22 % na magic, 11 % na regular.</p></div>
+<div class="cols">
+<div class="panel"><h4>Dark Wanderer</h4><p>Postane naključen boss z več življenja in škode. Dropa dodatne Worldstone Sharde (v S14 4–10).</p></div>
+<div class="panel"><h4>Shadow of Mendeln</h4><p>Valovi undead pošasti. V S14 vedno dropa Splinter of the Void.</p></div>
+<div class="panel"><h4>Horazon</h4><p>Po zmagi odpre portal v mapo istega ali višjega tiera z istimi modifikatorji, kjer imajo pošasti 0 % odpornosti. Dropa 6 map (10 % za unique).</p></div>
+<div class="panel"><h4>Treasure Fallen</h4><p>Bezi in ob udarcih spušča gem-e, rune do Zod, mape, orbe in Craft Infusion.</p></div>
+<div class="panel"><h4>Spire of Darkness</h4><p>Ob kliku zatemni mapo, senčne pošasti lahko dropajo uber ključe (do 6).</p></div>
+<div class="panel"><h4>Corrupted heroes</h4><p>Močne kopije igralcev: vsak dropa rare predmete in uho za modifikatorje map. S14: +100 % življenja, +55 % loota, uho poveča drop baz glede na razred.</p></div>
+</div></section>
+</main>"""
+    return page("Mape · PD2 S14 buildi", body, "mape.html",
+                "PD2 S14 mape: imunitete pošasti po mapah, najhitrejši buildi, orbi, affixi in korupcije map.",
+                extra_head='<script src="assets/maps.js" defer></script>', body_class="page-maps")
+
+
+CRAFT_TARGETS = [
+    ("Caster amulet", "Amulet + Jewel + Ral + Perfect Amethyst", "Fiksno 5–10 % FCR in mana. Cilj: +2 razredni skilli (alvl 90), resi, moč ali spretnost. Za alvl 90 rabiš ilvl 90: pri levelu 88 gamblaj amulet (ilvl do 92) in ga craftaj."),
+    ("Blood rokavice", "Rokavice + Jewel + Nef + Perfect Ruby", "Fiksno life leech, življenje, crushing blow. Cilj: 20 % IAS (alvl 43), +2 drevo skillov (amazon, assassin, barb), do 60 % ED (S14)."),
+    ("Caster pas", "Pas + Jewel + Ith + Perfect Amethyst", "Fiksno 10 % FCR. Cilj: FHR, življenje, moč, resi, v S14 še +2–3 % max res (alvl 60)."),
+    ("Brilliant ali Caster prstan", "Prstan + Jewel + Hel ali Amn + Perfect Diamond ali Amethyst", "Prstani nimajo stalnih velikih affixov: išči FCR 10 %, resi, življenje, leech. Prstan in amulet imata alvl = ilvl."),
+    ("Ščit (S14)", "Ščit + Jewel + runa + gem kategorije", "V S14 lahko craft ščit dobi +3–5 % max res (alvl 80), FCR 20 %, vse rese in +2 paladin skille na paladinovih ščitih."),
+    ("Bountiful (MF)", "Amulet + Ko ali prstan + Lum, + Perfect Topaz", "Za MF swap ali MF build. V S14 namesto light radiusa extra gold."),
+]
+
+
+def crafting_page_html():
+    g = GUIDES
+    cats = []
+    order = ["Caster", "Blood", "Brilliant", "Hitpower", "Safety", "Vampiric", "Bountiful"]
+    gem = {"Caster": "Perfect Amethyst", "Blood": "Perfect Ruby", "Brilliant": "Perfect Diamond", "Hitpower": "Perfect Sapphire",
+           "Safety": "Perfect Emerald", "Vampiric": "Perfect Skull", "Bountiful": "Perfect Topaz"}
+    what = {"Caster": "FCR, mana", "Blood": "life leech, življenje, CB/OW", "Brilliant": "IAS, resi, atributi",
+            "Hitpower": "AR, pierce, FHR", "Safety": "PDR, MDR, resi, obramba", "Vampiric": "mana leech, DS, PLR",
+            "Bountiful": "MF in gold"}
+    for cat in order:
+        rows = g["crafts"].get(cat) or []
+        trs = "".join(f'<tr><td>{e(r["type"])}</td><td class="runes-c">{e(r["ing"][1].replace(" Rune", "") if len(r["ing"]) > 1 else "")}</td>'
+                      f'<td>{"<br>".join(e(x) for x in r["mods"])}</td></tr>' for r in rows)
+        cats.append(f'<details class="recipes"><summary>{e(cat)} <span class="muted">· {e(gem[cat])} · {e(what[cat])}</span></summary>'
+                    f'<div class="rec-body"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Slot</th><th>Runa</th><th>Fiksni modi</th></tr></thead>'
+                    f'<tbody>{trs}</tbody></table></div></div></details>')
+    aff = []
+    for typ, v in g["craft_affixes"].items():
+        trs = []
+        for r in v["rows"]:
+            def fmt(x):
+                t = re.sub(r"to \w+ Skill Levels", "to [razred] Skill Levels", x["text"])
+                t = re.sub(r"to [A-Z][\w ]+ \(\w+ Only\)", "to [drevo] Skills", t)
+                return f'<b>{x["alvl"]}</b> · {e(t)}'
+            same = r["first"]["text"] == r["best"]["text"]
+            trs.append(f'<tr><td>{e(r["what"])}</td><td>{fmt(r["first"])}</td><td>{"" if same else fmt(r["best"])}</td></tr>')
+        aff.append(f'<details class="recipes"><summary>{e(v["label"])} <span class="muted">· {len(v["rows"])} vrst affixov</span></summary>'
+                   f'<div class="rec-body"><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Kaj</th><th>Najnižji alvl</th><th>Najboljši tier</th></tr></thead>'
+                   f'<tbody>{"".join(trs)}</tbody></table></div></div></details>')
+    corr = []
+    for c in g["corruptions"]:
+        head = "".join(f"<th>{e(h)}</th>" for h in c["head"])
+        trs = "".join("<tr>" + "".join(f'<td>{e(x)}</td>' for x in r) + "</tr>" for r in c["rows"])
+        corr.append(f'<details class="recipes"><summary>{e(c["slot"])}</summary><div class="rec-body"><div class="tbl-wrap"><table class="tbl">'
+                    f'<thead><tr>{head}</tr></thead><tbody>{trs}</tbody></table></div></div></details>')
+    used = []
+    for it in ITEMS.get("items", []):
+        if it.get("c") == "craft" and it.get("u"):
+            used.append((len(it["u"]), it["n"], it["k"]))
+    used.sort(reverse=True)
+    used_html = ", ".join(f'<a href="predmeti.html#k={e(k)}">{e(n)}</a> ({c})' for c, n, k in used)
+    targets = "".join(f'<tr><td><b>{e(n)}</b></td><td class="runes-c">{e(r)}</td><td>{e(t)}</td></tr>' for n, r, t in CRAFT_TARGETS)
+    body = f"""
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Horadric Cube · S14</div>
+<h1>Crafting in izboljšave</h1>
+<p class="lead">Kako iz navadnega predmeta narediš uporabnega ali vrednega: socketi, nadgradnje, korupcija, reroll in crafting. Recepti in affixi so iz S14 podatkov (Hiim), mehanike s PD2 wikija.</p>
+</div></header>
+<main class="wrap">
+<section><div class="sec-head"><div class="eyebrow">Pregled</div><h2>Kako predmet izboljšaš</h2></div>
+<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Kaj</th><th>Recept</th><th>Kdaj</th></tr></thead><tbody>
+<tr><td><b>Socketi</b></td><td>Larzuk (A5, 1. quest): bel item dobi maksimum socketov, magic 1–2, ostali 1. Cube na belem ali superior itemu: orožje Ral + Amn + P. Amethyst (1–6), oklep Tal + Thul + P. Topaz (1–4), helm Ral + Thul + P. Sapphire (1–3), ščit Tal + Amn + P. Ruby (1–4). Larzuk's Puzzlebox: 2–4 na dvoročnem, 1–2 drugje. Puzzlepiece enako, a ne na unique/set. Malus (pri Larzuku): +1 socket.</td><td>Baze za runeworde in socketi na uniquih brez socketov.</td></tr>
+<tr><td><b>Nadgradnja baze</b></td><td>Unique/set: normal → exceptional Ral + Sol + P. Emerald (orožje) ali Tal + Shael + P. Diamond (oklep); exceptional → elite Lum + Pul + P. Emerald ali Ko + Lem + P. Diamond. Rare/craft: Ort + Amn + P. Sapphire, Ral + Thul + P. Amethyst, Fal + Um + P. Sapphire, Ko + Pul + P. Amethyst.</td><td>Več obrambe ali škode, več socketov (npr. Vampire Gaze → Bone Visage za 3 sockete). Zahteve narastejo z bazo.</td></tr>
+<tr><td><b>Korupcija</b></td><td>Worldstone Shard + item. Bel item: 50 % socketi do maksimuma, 50 % naključen rare. Ostali, ki lahko dobijo sockete: 25 % socketi, 50 % modifikator, 25 % naključen rare. Brez socketov: 75 % modifikator, 25 % rare.</td><td>Na končnih uniquih. Korumpiraj pred Puzzleboxom. 25 % da item pokvariš.</td></tr>
+<tr><td><b>Reroll</b></td><td>Magic item + 3 perfect gemi (isti ilvl). Rare item + 3 Perfect Skulls (ilvl pade na clvl×0,4 + ilvl×0,4). Demonic Cube + unique/set: novi razponi statsov, socketi ostanejo.</td><td>Magic: grand charmi s +1 drevo skillov. Rare: prstani, diademi. Demonic Cube: slab roll dobrega uniqua.</td></tr>
+<tr><td><b>Imbue</b></td><td>Charsi (A1 quest Tools of the Trade) naredi bel item brez socketov v rare z ilvl = clvl + 4.</td><td>Prihrani do levela 71+: diadem ali razredni item (claw, orb, wand, pelt) z veliko več možnosti za +3 skille.</td></tr>
+<tr><td><b>Eth in kopija</b></td><td>Vial of Lightsong + item: postane ethereal. Lilith's Mirror + magic/rare/craft: kopija (obe označeni, brez nadaljnjih receptov).</td><td>Zelo redka; za končno opremo.</td></tr>
+</tbody></table></div>
+</section>
+
+<section><div class="sec-head"><div class="eyebrow">Crafting</div><h2>Kako deluje crafting</h2></div>
+<div class="cols">
+<div class="panel"><h4>Recept</h4><p>Magic ali rare baza + Jewel + runa + perfect gem kategorije. Namesto jewela, rune in gema lahko uporabiš Craft Infusion (dropa Treasure Fallen v mapah). Eth baza da eth craft. Rare predmete lahko uporabiš kot bazo, craft pa lahko kasneje nadgradiš (kot rare).</p></div>
+<div class="panel"><h4>Item level</h4><p>ilvl crafta = clvl/2 + ilvl baze/2 (navzdol). Affixi: ilvl 1–30 1–4, 31–50 2–4, 51–70 3–4, 71+ vedno 4 dodatni affixi. Trgovci prodajajo ilvl = clvl + 4, gamble da clvl − 5 do clvl + 4.</p></div>
+<div class="panel"><h4>Affix level (alvl)</h4><p>Pri amuletu in prstanu je alvl enak ilvl. Pri ostalih bazah je alvl nižji za polovico quality levela baze, zato za craft vzemi normal bazo (Leather Gloves, Sash, Boots, Cap) in ne elite.</p></div>
+</div>
+<h4 class="sub-h">Recepti po kategorijah (S14)</h4>
+{"".join(cats)}
+<p class="muted note-s">S14: Hitpower helm in amulet izgubita FHR in dobita pierce. Bountiful namesto light radiusa dobi extra gold. Blood oklep in ščit: max life 5–7 %. Za nadgradnjo run in gemov ključ ni več potreben.</p>
+</section>
+
+<section><div class="sec-head"><div class="eyebrow">Vrednost</div><h2>Kaj craft naredi vrednega</h2>
+<p>Fiksni modi so le osnova. Vrednost določijo 4 naključni affixi, za dobre pa rabiš dovolj visok alvl. Spodaj so za vsak slot affixi, ki jih craft lahko dobi, z najnižjim alvl in alvl najboljšega tiera (S14 affix tabele).</p></div>
+<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Craft</th><th>Recept</th><th>Kaj iskati</th></tr></thead><tbody>{targets}</tbody></table></div>
+<h4 class="sub-h">Affixi po slotu (alvl)</h4>
+{"".join(aff)}
+<p class="muted note-s">Nekateri najboljši affixi so v S14 samo na dropanih rare predmetih in jih craft ne more dobiti: +2 razredni skilli na helmu, oklepu in ščitu, 20 % FCR na amuletu, pasu in rokavicah (»of the Magus«), crushing in deadly strike 10–30 % na rokavicah in helmu. Crafti, ki jih nosijo naši buildi: {used_html}.</p>
+</section>
+
+<section><div class="sec-head"><div class="eyebrow">Worldstone Shard</div><h2>Korupcije po slotu</h2>
+<p>Možnosti za modifikator: nizka 48–50 %, srednja 30–32 %, visoka 20 %. S14: Indestructible zamenja popravljanje durabilityja, na čevljih, rokavicah in pasu Replenish Life zamenja Half Freeze Duration, na oklepu sta FCR in curse res zamenjala stopnjo.</p></div>
+{"".join(corr)}
+</section>
+
+<section><div class="sec-head"><div class="eyebrow">Loot</div><h2>Kaj pobirati za crafting</h2></div>
+<div class="cols">
+<div class="panel"><h4>Vedno</h4><p>Jewele (vsak magic jewel je sestavina), perfect geme ali flawless za nadgradnjo, rune do Lum, Worldstone Sharde, Puzzlebox in Puzzlepiece, Craft Infusion.</p></div>
+<div class="panel"><h4>Baze za craft</h4><p>Magic in rare amulete, prstane, rokavice, pase, škornje z visokim ilvl (iz map). Na visokem levelu gamblaj amulete in prstane pri Anyi ali Gheedu za ilvl 90+.</p></div>
+<div class="panel"><h4>Za prodajo</h4><p>Craft je vreden, ko ima vse 4 affixe za isto vlogo: npr. caster amulet +2 skilli, FCR, resi; blood rokavice 20 % IAS, +2 drevo, ED. Rare z enim odličnim in tremi slabimi affixi je reroll material.</p></div>
+</div></section>
+</main>"""
+    return page("Crafting · PD2 S14 buildi", body, "crafting.html",
+                "PD2 S14 crafting vodič: recepti, affixi z alvl, korupcije, socketi, reroll in nadgradnje.")
+
+
 def druid_plan_html():
     header = open(os.path.join(CONTENT, "druid-plan-header.html")).read()
     main = add_tips_to_fragment(open(os.path.join(CONTENT, "druid-plan-main.html")).read())
@@ -541,8 +818,10 @@ def druid_plan_html():
 
 
 def main():
-    global SITE
+    global SITE, GUIDES, ITEMS
     SITE = json.load(open(os.path.join(ROOT, "data", "site.json")))
+    GUIDES = json.load(open(os.path.join(ROOT, "data", "guides.json")))
+    ITEMS = json.load(open(os.path.join(DOCS, "assets", "items.json")))
     os.makedirs(DOCS, exist_ok=True)
     open(os.path.join(DOCS, "index.html"), "w").write(index_html())
     for c in SITE["classes"]:
@@ -550,6 +829,8 @@ def main():
     open(os.path.join(DOCS, "vodic.html"), "w").write(guide_html())
     open(os.path.join(DOCS, "druid-nacrt.html"), "w").write(druid_plan_html())
     open(os.path.join(DOCS, "predmeti.html"), "w").write(items_page_html())
+    open(os.path.join(DOCS, "mape.html"), "w").write(maps_page_html())
+    open(os.path.join(DOCS, "crafting.html"), "w").write(crafting_page_html())
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")
     sizes = {f: os.path.getsize(os.path.join(DOCS, f)) for f in os.listdir(DOCS) if f.endswith(".html")}
     print(sizes)
