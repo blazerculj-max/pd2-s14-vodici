@@ -243,6 +243,29 @@
       ]
     },
     {
+      "url": "https://www.youtube.com/watch?v=1c6-z71o2r8",
+      "title": "Drown In A Sea Of Arrows! Big Buffs! PD2 S14 Multi Amazon Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–22:43 · mini vodič in demo",
+      "skills": "Max Multiple Shot, Critical Strike, Penetrate (10 % physical pierce), Dodge in Evade; Pierce do 100 % (z opremo); po 1 točka v Strafe in Guided Arrow za single target. Valkyrie po želji namesto pasivov.",
+      "stats": "Strength za opremo, vse ostalo Dexterity (v softcoru), morebiten ostanek v Vitality.",
+      "gear": "{{Windforce}} s 6 socketi (ED, Cham za CBF; min damage jeweli so boljši od Ohm run), {{Wraithskin}} (ED, deadly strike multiplier, curse resistance), {{Giant Skull}} (ED, crushing blow, Strength, knockback; alternativa {{Veil of Steel}} ali {{Valkyrie Wing}}), {{Steelrend}} (crushing blow in učinkovitost; ali {{Soul Drainer}}), {{Atma's Scarab}} (Amplify Damage s sredinske puščice lomi fizične imune), {{Razortail}} (pierce, flat škoda), {{Gore Rider}} (deadly strike, crushing blow; ali {{War Traveler}}), {{Doom's Finger}}, {{Wisp Projector}} in prstan z min/max škodo in leechem, swap {{Call to Arms}} in {{Lidless Wall}}. Charmi: max damage ali FRW GC-ji, torch, Annihilus, IAS large charm. Alternativa: {{The Gladiator's Bane}} za dodaten critical strike.",
+      "merc": "Act 1 Vigor (hitrost) s {{Faith}} (Fanaticism za max IAS breakpoint), {{Abyssal Ward}} (resi), {{Templar's Might}} (Might aura), {{Crown of Ages}}, {{Marrowwalk}}, {{Lava Gout}}; merc je le nosilec aur in mora preživeti.",
+      "tips": [
+        "S14: več škode in puščic; vsaka puščica proži crushing blow in open wounds, knockback, freeze in Amplify Damage pa le sredinska.",
+        "Build je hibrid critical strike (dvojna škoda, najprej), deadly strike in crushing blow. Min škoda je pomembnejša od max, sploh v nižjih mapah.",
+        "Igraj s »stutter step«: korak, strel, korak; FRW je eden ključnih statov.",
+        "Ko Atma's proži Amplify Damage, fizični imuni padejo že z Multishotom; Guided Arrow za oddaljene posamezne cilje.",
+        "Po avtorju najbolj priljubljen A tier build: ni najhitrejši (omejena mobilnost), a zelo zanesljiv in enostaven za pobiranje plena."
+      ],
+      "vs_hiim": [
+        "Enako: Multiple Shot, Critical Strike, Penetrate in Evade na 20; Windforce, Doom's Finger, Razortail, Wisp Projector, CTA in Lidless; merc Act 1 Vigor s Faith, Templar's Might, Lava Gout in Marrowwalk.",
+        "Razlika: Hiim namesto Dodge maxa Pierce in nosi Veil of Steel, Tyrael's Might, Soul Drainer, War Traveler, Highlord's Wrath in BK; video Giant Skull, Wraithskin, Steelrend, Gore Rider in Atma's Scarab."
+      ]
+    },
+    {
       "url": "https://www.youtube.com/watch?v=DjFRDx5vlTE&t=151s",
       "title": "Project Diablo 2 Season 14 – Amazon Changes and Testing results",
       "author": "JuxtAPoser",
@@ -791,6 +814,29 @@
   ],
   "sorceress/frozen-orb": [
     {
+      "url": "https://www.youtube.com/watch?v=9ue-2pJDoAA",
+      "title": "Project Diablo 2 Season 14 – Frozen Orb Sorc Guide (Budget Friendly)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–18:34 · budget block različica in demo v mapi",
+      "skills": "Max Frozen Orb, sinergiji Ice Bolt in Frost Nova ter Cold Mastery (s predpogoji 83 točk). 1 Warmth (mana). Za block različico nekaj točk v Shiver Armor (hitrejši block, vsaj 48 % FBR), ostalo v Teleport (manjša kazen za škodo po teleportu). Energy Shield različica je tudi močna, a je avtor ne mara.",
+      "stats": "Strength za opremo, Dexterity za max block (s Shiver Armor), ostalo Vitality; life z BO okoli 1.000.",
+      "gear": "{{Death's Fathom}} (life po killu, +3 skills, 20 FCR, cold skill dmg; crafted orb ga težko prekosi), {{Kira's Guardian}} (poceni; half freeze, FHR, resi, cold pierce; kasneje {{Nightwing's Veil}} ali rare circlet), nadgrajen {{Atma's Wail}} (velika obramba, FHR, FCR, +skills, max mana), {{Taebaek's Glory}} (40 FCR, hiter block), {{Snowclash}} (+2 cold, half freeze), {{Frostburn}} (poceni cold pierce), {{Silkweave}} (max mana, mana po killu), {{Constricting Ring}} in rare prstan z 20 FCR, amulet s +3 cold in 10 FCR (ali blood craft z life po killu), jeweli z −requirements in life/mana po killu, cold skillerji, torch, Annihilus, swap {{Call to Arms}}. V beti 117 FCR in 60 FHR; cilj 200 FCR, 14–17 life in 8–10 mana po killu.",
+      "merc": "Merc s {{Purity}} (Prayer: regeneracija lifea), {{Rockstopper}}, {{Rockfleece}}, rokavice in škornji s half freeze (CBF), rare pas s PDR. Infinity ni potreben; za cold immune potrebuje merc boljše orožje.",
+      "tips": [
+        "Teleport zniža škodo (v videu z 2.400 na 1.500), zato manj teleportiraj in raje vrzi orb na mesto, kamor boš skočil.",
+        "Ključna sta položaj in ritem: na primer dva orba, teleport, en orb. Večino paketov očistiš z dvema ali tremi orbi.",
+        "Pri bossu poskusi v orbe ujeti še druge pošasti.",
+        "{{Ormus' Robes}} s Frozen Orb je zabaven in doda proce, a ni nujen kot pri Combustionu.",
+        "Mapa iz videa bi na tem budgetu trajala okoli 5–5,5 minute; z endgame opremo build zelo hitro čisti T3 mape. Igrati ga je mogoče varno od daleč, tudi na hardcore."
+      ],
+      "vs_hiim": [
+        "Enako: Frozen Orb, Ice Bolt, Frost Nova in Cold Mastery na 20, Teleport; Snowclash, Silkweave, Constricting Ring.",
+        "Razlika: Hiim je Vitality build brez ščita (Steel Carapace, Nightwing's Veil, Occultist, Stone of Jordan, CTA in Lidless), merc pa Act 3 Static Field s Skyfall; video je budget block različica s Taebaek's Glory in Atma's Wail."
+      ]
+    },
+    {
       "url": "https://www.youtube.com/watch?v=7AAuplKljvg&t=3568s",
       "title": "PD2 S13 Sorc Guide – Full Progression",
       "author": "philanthropy777",
@@ -879,7 +925,7 @@
       "part": "2:15–3:00 in 5:12–6:47 · Twister leveling in endgame",
       "tips": [
         "Twister je fizičen spell, zato v Hellu naletiš na malo imunitet; Act 4 Amplify Damage merc pomaga lomiti fizične imune.",
-        "V beti na Twister, Tornado in Shockwave delujeta Deadly Strike in Critical Strike: DS dajo Spirit of Barbs, Act 2 Blessed Aim merc ter {{Death Cleaver}}, Wraithskin in {{Lance Guard}}. Avtor je dosegel 90 % DS z 250 % multiplierjem in udobno čistil T3 ear mape.",
+        "V beti na Twister, Tornado in Shockwave delujeta Deadly Strike in Critical Strike: DS dajo Spirit of Barbs, Act 2 Blessed Aim merc ter {{Death Cleaver}}, {{Wraithskin}} in {{Lance Guard}}. Avtor je dosegel 90 % DS z 250 % multiplierjem in udobno čistil T3 ear mape.",
         "Pozor: philanthropy777 navaja, da bodo razvijalci DS na nekaterih fizičnih spellih morda izklopili."
       ]
     }
