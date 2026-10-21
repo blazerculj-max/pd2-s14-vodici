@@ -495,3 +495,37 @@ details.mapc.is-bad .fit { color: var(--bad); }
 .badge.rmiss { color: var(--warn); }
 .wstats { display: grid; gap: 10px; min-width: 0; }
 .note.rs14 { font-size: 0.92rem; padding: 8px 12px; }
+
+/* ===== tier liste ===== */
+.ttabs { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--line); margin-bottom: 14px; }
+.ttabs button { font: inherit; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: 0.02em; padding: 10px 16px; background: none; color: var(--muted); border: 0; border-bottom: 3px solid transparent; margin-bottom: -1px; cursor: pointer; }
+.ttabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+.tcls button, #bboss button, #blvl button { font-size: 0.86rem; padding: 4px 10px; }
+.tintro { color: var(--muted); font-size: 0.95rem; margin: 0 0 12px; max-width: 78ch; }
+.tsub { font-size: 1.1rem; margin: 24px 0 6px; }
+.tpanel > .tsub:first-child { margin-top: 4px; }
+.tierlist { display: grid; gap: 6px; }
+.trow { display: grid; grid-template-columns: 116px minmax(0, 1fr); background: var(--surface); border: 1px solid var(--line); min-width: 0; }
+.trow .tl { display: grid; align-content: center; justify-items: center; text-align: center; gap: 1px; padding: 10px 6px; background: var(--surface-2); border-left: 4px solid currentColor; }
+.trow .tl b { font-family: var(--font-display); font-size: 1.15rem; }
+.trow .tl span { font-size: 0.78rem; color: var(--muted); }
+.trow .tl .tcount { font-family: var(--font-mono); font-size: 0.72rem; }
+.bud-low { color: var(--good); } .bud-mid { color: var(--q-rare); } .bud-high { color: var(--warn); } .bud-hr { color: var(--b-trap); } .t-low { color: var(--muted); }
+.tcs { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px; align-content: flex-start; min-width: 0; }
+.tcs.tflat { padding: 0; }
+.trow.empty .tcs::before { content: "—"; color: var(--muted); }
+.tchip { display: inline-flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; background: var(--bg); border: 1px solid var(--line); color: var(--fg); text-decoration: none; min-width: 0; max-width: 100%; }
+a.tchip:hover, a.tchip:focus-visible { border-color: var(--accent); }
+span.tchip { padding-left: 10px; color: var(--muted); }
+.tchip[hidden] { display: none; }
+.tchip .skico { width: 28px; height: 28px; }
+.tchip .tn { display: grid; min-width: 0; line-height: 1.25; }
+.tchip .tn b { font-weight: 500; font-size: 0.95rem; }
+.tchip .tn .muted { font-size: 0.78rem; }
+.tchip .tm { font-family: var(--font-mono); font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); border: 1px solid currentColor; padding: 0 4px; }
+@media (max-width: 640px) {
+  .trow { grid-template-columns: minmax(0, 1fr); }
+  .trow .tl { display: flex; justify-content: flex-start; align-items: baseline; gap: 8px; padding: 6px 10px; text-align: left; }
+  .trow .tl .tcount { margin-left: auto; }
+  .ttabs button { padding: 8px 10px; font-size: 0.98rem; }
+}

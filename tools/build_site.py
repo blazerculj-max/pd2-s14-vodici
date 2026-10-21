@@ -431,7 +431,7 @@ def versioned(html_text):
 
 
 def page(title, body, current, desc, extra_head="", body_class=""):
-    nav = [("index.html", "Razredi")] + [(f'{c["id"]}.html', c["name"]) for c in SITE["classes"]] + [
+    nav = [("index.html", "Razredi"), ("tier-liste.html", "Tier liste")] + [(f'{c["id"]}.html', c["name"]) for c in SITE["classes"]] + [
         ("predmeti.html", "Predmeti"), ("runewordi.html", "Runewordi"), ("mape.html", "Mape"), ("crafting.html", "Crafting"),
         ("druid-nacrt.html", "Druid plan"), ("vodic.html", "Vodič")]
     nav_html = "".join(f'<a href="{h}"{" aria-current=\"page\"" if h == current else ""}>{e(t)}</a>' for h, t in nav)
@@ -490,6 +490,7 @@ def index_html():
 <a class="class-card" href="mape.html"><h3>Mape in imunitete</h3><span class="muted">Vse S14 mape s pošastmi in imunitetami, filter po tvojem elementu, najhitrejši buildi, orbi in map eventi.</span></a>
 <a class="class-card" href="crafting.html"><h3>Crafting vodič</h3><span class="muted">Kako item postane uporaben ali vreden: socketi, nadgradnje, korupcija, reroll, crafti in affixi z alvl.</span></a>
 <a class="class-card" href="predmeti.html"><h3>Wiki predmetov</h3><span class="muted">Iskalnik po vseh uniquih, setih, runewordih, craftih, runah in bazah: statsi z razponi, recepti in kateri buildi jih nosijo.</span></a>
+<a class="class-card" href="tier-liste.html"><h3>Tier liste</h3><span class="muted">Mapping, bossing (DClone, Rathma, Lucion), budget za začetek sezone in igra v skupini, z filtrom po razredu.</span></a>
 <a class="class-card" href="runewordi.html"><h3>Runewordi</h3><span class="muted">Vsi runewordi s filtri po bazi (orožje po vrstah, oklep, ščit, helm) in socketih. Vpiši rune, ki jih imaš, in poišči, kje se uporabijo ali kaj že lahko sestaviš.</span></a>
 <a class="class-card" href="vodic.html"><h3>Splošni vodič</h3><span class="muted">Kaj pobirati, budget runewordi, crafting, recepti v cubu, mape za začetnika in S14 spremembe.</span></a>
 <div class="class-card"><h3>PDF za tisk</h3><span class="muted">Druid plan in budget mapper vodič na A4, s kvadratki za kljukice.</span><span class="links"><a href="pdf/Druid-nacrt-S14.pdf">Druid plan (PDF)</a><a href="pdf/Budget-mapper-S14.pdf">Budget mapper (PDF)</a></span></div>
@@ -621,6 +622,206 @@ def items_page_html():
     return page("Predmeti · PD2 S14 buildi", body, "predmeti.html",
                 "Wiki predmetov za Project Diablo 2 S14: statsi, recepti in buildi, ki predmet uporabljajo.",
                 extra_head='<script src="assets/items.js" defer></script>', body_class="page-items")
+
+
+RUNE_NAMES = ["", "El", "Eld", "Tir", "Nef", "Eth", "Ith", "Tal", "Ral", "Ort", "Thul", "Amn", "Sol", "Shael", "Dol", "Hel", "Io",
+              "Lum", "Ko", "Fal", "Lem", "Pul", "Um", "Mal", "Ist", "Gul", "Vex", "Ohm", "Lo", "Sur", "Ber", "Jah", "Cham", "Zod"]
+STARTER_TAG = {"Chaos": "Chaos Sanctuary", "Early Map": "zgodnje mape", "Key Farming": "ključi", "Uber Tristram": "Uber Tristram",
+               "Travincal": "Travincal", "Arcane Sanctuary": "Arcane", "Arcane": "Arcane", "Corrupted Zones": "corrupted zone",
+               "Andariel": "Andariel"}
+BUDGET_ROWS = [("low", "Nizke rune", "do Dol", 0, 14), ("mid", "Srednje rune", "Hel–Mal", 15, 23),
+               ("high", "Višje rune", "Ist in višje", 24, 33)]
+
+
+def cheapest_planner(b):
+    """Začetni ali day 2–5 planer z najcenejšimi runami za lika: (rang najdražje rune lika, rang za merca, planer, št. unique/set kosov) ali None.
+    Runa šteje za merca, če jo rabijo samo runewordi z merčeve opreme."""
+    best = None
+    for pl in b.get("planners") or []:
+        if pl.get("phase") not in ("start", "mid") or not pl.get("gear"):
+            continue
+        if pl.get("phase") == "mid" and pl.get("label") in ("Planner", "Build Planner"):
+            continue  # Hiim ga je označil kot mid, a je to splošni (endgame) planer
+        merc = pl.get("merc") or pl["gear"].get("merc") or {}
+        merc_rw = {(it or {}).get("name") for it in (merc.get("gear") or {}).values()}
+        own, mrc = [0], [0]
+        for r in (pl.get("recipes") or {}).get("runes") or []:
+            (mrc if r.get("for") and all(f in merc_rw for f in r["for"]) else own).append(r["rank"])
+        uniq = sum(1 for k, it in pl["gear"].items() if k != "merc" and isinstance(it, dict) and it.get("q") in ("u", "s"))
+        cand = (max(own), max(mrc), pl, uniq)
+        if best is None or cand[0] < best[0]:
+            best = cand
+    return best
+
+
+def tier_chip(c, b, extra=""):
+    marks = []
+    if OUR_GUIDES.get((c["id"], b["id"])):
+        marks.append('<span class="tm" title="Naš vodič">vodič</span>')
+    if VIDEOS.get(f'{c["id"]}/{b["id"]}'):
+        marks.append('<span class="tm" title="Povzetek video vodiča">video</span>')
+    return (f'<a class="tchip" data-c="{c["id"]}" href="{c["id"]}.html#b-{e(b["id"])}">'
+            f'{img_tag(b["main"]["img"], "skico", b["main"]["name"]) if b.get("main") else ""}'
+            f'<span class="tn"><b>{e(b["name"])}</b><span class="muted">{e(c["name"])}{extra}</span></span>{"".join(marks)}</a>')
+
+
+def tier_rows(rows):
+    """rows: [(css razred, oznaka, podnapis, [html čipov])] → vrstice tier liste."""
+    out = []
+    for cls, label, sub, chips in rows:
+        inner = "".join(chips) or '<span class="muted tnone">—</span>'
+        sub_html = f"<span>{e(sub)}</span>" if sub else ""
+        out.append(f'<div class="trow"><div class="tl {cls}"><b>{e(label)}</b>{sub_html}'
+                   f'<span class="tcount">{len(chips)}</span></div><div class="tcs">{inner}</div></div>')
+    return '<div class="tierlist">' + "".join(out) + "</div>"
+
+
+def tiers_page_html():
+    builds = [(c, b) for c in SITE["classes"] for b in c["builds"]]
+    byname = {}
+    for c, b in builds:
+        for boss, v in (b.get("boss") or {}).items():
+            byname[(c["name"].lower(), boss, v.get("name"))] = (c, b)
+
+    # mapping (Hiim solo)
+    map_rows = []
+    for t, sub in [("Top", "najhitrejši mapperji"), ("Good", "zelo dobri"), ("Decent", "igrljivi, počasnejši"), ("Utility", "posebna vloga")]:
+        lst = sorted([(c, b) for c, b in builds if b["tier"] == t], key=lambda x: x[1].get("sort") or 0)
+        chips = [tier_chip(c, b, f' · {e(b["clear"]["map"])} {fmt_time(b["clear"]["time"])}' if b.get("clear") else "") for c, b in lst]
+        map_rows.append((tier_class(t), t, sub, chips))
+
+    # bossing (Hiim boss lista, vsi vnosi)
+    boss = json.load(open(os.path.join(ROOT, "data", "hiim", "tiers_boss.json")))["entries"]
+    boss = [x for x in boss if not x.get("hidden")]
+    boss_panels = []
+    for bk, bn in BOSS_NAME.items():
+        for lvl, key in (("t0", "tier"), ("t2", "t2Tier")):
+            rows = []
+            for t in ("Easy", "Moderate", "Hard"):
+                chips = []
+                for x in sorted([x for x in boss if x["boss"] == bk and x.get(key) == t], key=lambda x: x.get("sortOrder") or 0):
+                    other = x.get("t2Tier") if lvl == "t0" else x.get("tier")
+                    extra = f' · {"T2" if lvl == "t0" else "T0"}: {BOSS_LABEL.get(other, other)}' if other else ""
+                    hit = byname.get((x["className"].lower(), bk, x["buildName"]))
+                    if hit:
+                        chips.append(tier_chip(hit[0], hit[1], extra))
+                    else:
+                        chips.append(f'<span class="tchip" data-c="{e(x["className"].lower())}"><span class="tn"><b>{e(x["buildName"])}</b>'
+                                     f'<span class="muted">{e(x["className"])}{extra}</span></span></span>')
+                rows.append((f'b-{t.lower()}', BOSS_LABEL[t], "", chips))
+            boss_panels.append(f'<div class="bpanel" data-boss="{bk}" data-lvl="{lvl}"{"" if (bk, lvl) == ("dclone", "t0") else " hidden"}>{tier_rows(rows)}</div>')
+    bbtn = "".join(f'<button type="button" data-boss="{k}" aria-pressed="{str(k == "dclone").lower()}">{e(v)}</button>' for k, v in BOSS_NAME.items())
+    lbtn = ('<button type="button" data-lvl="t0" aria-pressed="true">T0 (osnovna)</button>'
+            '<button type="button" data-lvl="t2" aria-pressed="false">T2 (najtežja)</button>')
+
+    # budget: Hiim starter lista in cena run v najcenejšem začetnem planerju
+    starter_chips = []
+    for c, b in sorted([x for x in builds if x[1].get("starter")], key=lambda x: (x[1]["tier"] == "Starter", x[1].get("sort") or 0)):
+        tags = [STARTER_TAG.get(t) for t in b["starter"].get("tags") or [] if STARTER_TAG.get(t)]
+        starter_chips.append(tier_chip(c, b, f' · {e(", ".join(tags))}' if tags else ""))
+    budget_rows, endonly = [], []
+    for key, label, sub, lo, hi in BUDGET_ROWS:
+        chips = []
+        for c, b in builds:
+            cp = cheapest_planner(b)
+            if cp is None or not (lo <= cp[0] <= hi):
+                continue
+            rn = RUNE_NAMES[cp[0]] if cp[0] else "brez run"
+            merc = f", merc {RUNE_NAMES[cp[1]]}" if cp[1] > cp[0] else ""
+            uq = f", {cp[3]} unique/set" if cp[3] else ""
+            chips.append((cp[0], cp[3], tier_chip(c, b, f' · {e(rn)}{e(merc)}{e(uq)} ({e(cp[2].get("label") or "")})')))
+        chips.sort(key=lambda x: (x[0], x[1]))
+        if chips:
+            budget_rows.append((f"bud-{key}", label, sub, [x[2] for x in chips]))
+    for c, b in builds:
+        if b["tier"] in ("Top", "Good", "Decent") and cheapest_planner(b) is None:
+            endonly.append(tier_chip(c, b))
+    budget_vid = []
+    for c, b in sorted(builds, key=lambda x: (["Top", "Good", "Decent", "Starter"].index(x[1]["tier"]) if x[1]["tier"] in ("Top", "Good", "Decent", "Starter") else 9, x[1].get("sort") or 0)):
+        ents = [v for v in VIDEOS.get(f'{c["id"]}/{b["id"]}', [])
+                if re.search(r"budget|day 1|day 2", v.get("part", ""), re.I)
+                or (re.search(r"budget", v.get("title", ""), re.I) and not re.search(r"changes", v.get("title", ""), re.I))]
+        if ents:
+            authors = sorted({v["author"] for v in ents})
+            budget_vid.append(tier_chip(c, b, " · " + e(", ".join(authors))))
+
+    # skupine (Hiim group liste)
+    gby = {}
+    for c, b in builds:
+        for g in b.get("group") or []:
+            gby[(c["name"].lower(), g["list"], g.get("name"))] = (c, b)
+
+    def group_chip(x, gl):
+        hit = gby.get((x["className"].lower(), gl, x["buildName"]))
+        if hit:
+            return tier_chip(hit[0], hit[1])
+        return (f'<span class="tchip" data-c="{e(x["className"].lower())}"><span class="tn"><b>{e(x["buildName"])}</b>'
+                f'<span class="muted">{e(x["className"])}</span></span></span>')
+
+    group_html = []
+    for gl, gname in (("physical", "Fizične skupine"), ("elemental", "Elementne skupine"), ("generalist", "Splošni (generalist)")):
+        ents = [x for x in json.load(open(os.path.join(ROOT, "data", "hiim", f"tiers_group-{gl}.json")))["entries"] if not x.get("hidden")]
+        ents.sort(key=lambda x: x.get("sortOrder") or 0)
+        if gl == "generalist":
+            group_html.append(f'<h3 class="tsub">{gname}</h3><p class="tintro">Hiim jih ne razvršča po tierih: buildi, ki koristijo vsaki skupini (aure, curse, podpora).</p>'
+                              f'<div class="tcs tflat">{"".join(group_chip(x, gl) for x in ents)}</div>')
+            continue
+        rows = []
+        for t in ("Top", "Good", "Decent", "Mid", "Bad"):
+            rows.append((tier_class(t) if t in ("Top", "Good", "Decent") else "t-low", t, "",
+                         [group_chip(x, gl) for x in ents if x.get("tier") == t]))
+        group_html.append(f'<h3 class="tsub">{gname}</h3>{tier_rows(rows)}')
+
+    cbtn = '<button type="button" data-cls="" aria-pressed="true">Vsi razredi</button>' + "".join(
+        f'<button type="button" data-cls="{c["id"]}" aria-pressed="false">{e(c["name"])}</button>' for c in SITE["classes"])
+    tabs = [("mapping", "Mapping"), ("bossing", "Bossing"), ("budget", "Budget"), ("skupine", "Skupine")]
+    tbtn = "".join(f'<button type="button" role="tab" id="tab-{k}" aria-controls="p-{k}" aria-selected="{str(k == "mapping").lower()}">{e(t)}</button>' for k, t in tabs)
+    body = f"""
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Tier liste · S14</div>
+<h1>Tier liste</h1>
+<p class="lead">Vsi buildi na enem mestu: mapping, bossing (DClone, Rathma, Lucion), budget za začetek sezone in igra v skupini. Klikni build za vse podrobnosti na strani razreda.</p>
+</div></header>
+<main class="wrap"><section>
+<div class="ttabs" role="tablist" aria-label="Tier liste">{tbtn}</div>
+<div class="filters tcls" role="group" aria-label="Razred">{cbtn}</div>
+
+<div class="tpanel" id="p-mapping" role="tabpanel" aria-labelledby="tab-mapping">
+<p class="tintro">Hiim solo tier lista za S14: ocena izhaja iz najhitrejših čiščenj map. Pri buildu je najhitrejši zabeležen čas mape (večinoma S13).</p>
+{tier_rows(map_rows)}
+</div>
+
+<div class="tpanel" id="p-bossing" role="tabpanel" aria-labelledby="tab-bossing" hidden>
+<p class="tintro">Hiim bossing lista: kako lahko build ubije bossa. T0 je osnovna, T2 najtežja različica. Buildi brez povezave niso na Hiim mapping listi, zato zanje nimamo strani.</p>
+<div class="filters" role="group" aria-label="Boss" id="bboss">{bbtn}</div>
+<div class="filters" role="group" aria-label="Težavnost" id="blvl">{lbtn}</div>
+{"".join(boss_panels)}
+</div>
+
+<div class="tpanel" id="p-budget" role="tabpanel" aria-labelledby="tab-budget" hidden>
+<h3 class="tsub">Hiim starter lista</h3>
+<p class="tintro">Buildi, s katerimi Hiim priporoča začeti sezono s skromno opremo, in kaj z njimi farmaš.</p>
+<div class="tcs tflat">{"".join(starter_chips)}</div>
+<h3 class="tsub">Budget in day 1 video vodiči</h3>
+<p class="tintro">Buildi, pri katerih imamo povzetek video vodiča z budget, day 1 ali day 2–5 opremo. Povzetek je pri buildu pod »Iz videa«.</p>
+<div class="tcs tflat">{"".join(budget_vid)}</div>
+<h3 class="tsub">Najdražja runa v najcenejšem planerju</h3>
+<p class="tintro">Za vsak build vzamemo Hiimov začetni ali day 2–5 planer z najcenejšimi runami za lika in pokažemo najdražjo runo v njem (runewordi, socketi in crafti). Če merc v istem planerju rabi dražje rune (npr. Infinity), je to napisano posebej, prav tako število unique in set kosov na liku. Cene uniquov niso upoštevane, ker se tržne cene oblikujejo šele po začetku sezone.</p>
+{tier_rows(budget_rows)}
+<h3 class="tsub">Samo endgame planer</h3>
+<p class="tintro">Top, Good in Decent buildi, za katere Hiim nima začetnega planerja, zato cene po runah ne moremo oceniti.</p>
+<div class="tcs tflat">{"".join(endonly)}</div>
+</div>
+
+<div class="tpanel" id="p-skupine" role="tabpanel" aria-labelledby="tab-skupine" hidden>
+<p class="tintro">Hiim group tier liste za igro v skupini (do 8 igralcev). Fizične in elementne skupine imajo ločeni listi, ker si delijo aure in curse za svojo vrsto škode.</p>
+{"".join(group_html)}
+</div>
+<p class="muted note-s" style="margin-top:18px">Vir: <a href="https://hiimpd2.com/solo" target="_blank" rel="noopener">Hiim PD2</a> S14 tier liste (mapping, bossing, starter, group), stanje {SITE["updated"]}. Oznaki »vodič« in »video« pomenita naš vodič oziroma povzetek video vodiča pri buildu.</p>
+</section></main>"""
+    return page("Tier liste · PD2 S14 buildi", body, "tier-liste.html",
+                "PD2 S14 tier liste: mapping, bossing, budget in skupine po razredih.",
+                extra_head='<script src="assets/tiers.js" defer></script>')
 
 
 def runewords_page_html():
@@ -953,6 +1154,7 @@ def main():
     open(os.path.join(DOCS, "druid-nacrt.html"), "w").write(druid_plan_html())
     open(os.path.join(DOCS, "predmeti.html"), "w").write(items_page_html())
     open(os.path.join(DOCS, "runewordi.html"), "w").write(runewords_page_html())
+    open(os.path.join(DOCS, "tier-liste.html"), "w").write(tiers_page_html())
     open(os.path.join(DOCS, "mape.html"), "w").write(maps_page_html())
     open(os.path.join(DOCS, "crafting.html"), "w").write(crafting_page_html())
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")
