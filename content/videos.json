@@ -822,5 +822,854 @@
         "S14: Shiver Armor in Chilling Armor zdaj delata AoE škodo; Frost Nova je sinergija za Shiver Armor, Blizzard za Chilling Armor."
       ]
     }
+  ],
+  "druid/twister": [
+    {
+      "url": "https://www.youtube.com/watch?v=sjEKDbvzhEw",
+      "title": "PD2 S14 Druid Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S14",
+      "date": "2026-10-15",
+      "part": "0:00–5:56, 11:12–18:34 in 27:28–40:00 · Day 1, Day 2–5 in Endgame Twister (video pri Hiimovem planerju)",
+      "skills": "Day 1: po 1 točka v summoning drevo (Carrion Vine zdravi, Solar Creeper vrača mano, Oak Sage, 1 Summon Grizzly kot tank), 1 Gust, max Twister, Tornado, Hurricane in Arctic Blast. Day 2–5: vse sinergije Twisterja (Hurricane, Tornado, Arctic Blast), ostalo v Gust in Oak Sage; vedno prižgi Cyclone Armor. Endgame: max Twister s sinergijami, Gust do cooldowna 0,5 s, ostalo v Oak Sage.",
+      "stats": "Day 1: Strength za opremo, nič Dexterity, ostalo Vitality. Day 2–5 in endgame s ščitom: Dexterity do max blocka, ostalo Vitality.",
+      "gear": "Day 1: {{Neophyte}} (Thul + Tir: FCR, mana po killu, half freeze), {{Lore}} v druid pelt-u s +2/+3 Twister, {{Splendor}}, {{Stealth}}, caster craft pas in rokavice, en brilliant ring craft s half freeze (skupaj CBF), +3 elemental amulet; 99 FCR breakpoint. Day 2–5: set Heaven's Brethren ({{Dangoon's Teaching}}, {{Taebaek's Glory}}, {{Ondal's Almighty}}, {{Haemosu's Adamant}}) da CBF, +skille in 99 FCR breakpoint; blood craft rokavice (life po killu), {{Nightsmoke}} (nadgradi v exceptional za več napojev), resi na prstanih in škornjih. Endgame: {{Horizon's Tornado}} (FCR, 2 socketa), {{Twilight's Reflection}} (−10 % enemy physical res), {{Fenris}} (+2 skilla, −8 % enemy physical res), {{Soul Drainer}} s half freeze korupcijo, blood craft amulet, {{Wisp Projector}}, {{Constricting Ring}}, {{Siggard's Staunch}} (FCR), mirror oklep s FCR (alternativa {{Steel Carapace}} ali {{Skin of the Vipermagi}}), 163 FCR breakpoint, swap {{Call to Arms}} in {{Lidless Wall}}.",
+      "merc": "Day 1 in Day 2–5: Act 4 Ascendant (Amplify Damage, meče Bone Spear) z {{Insight}} in safety craft opremo; FCR na mercu do 125. Endgame: Act 3 Iron Wolf (Static Field) s {{Skyfall}} (po avtorju 30–40 % več škode kot {{Stormlash}}; korupcija lightning pierce), {{Griffon's Eye}}, {{Innocence}} (proži Decrepify), {{Arachnid Mesh}}, {{Occultist}}, {{Marrowwalk}}.",
+      "tips": [
+        "Twister je v S14 okrepljen: hitrejša animacija, hitrejši projektili in več škode.",
+        "Day 1 brez Neophyte in amuleta škoda pade s 4,7k na 2,5k, a Chaos Sanctuary gre še vedno; pri Diablu pazi na fire res.",
+        "Vsak Twister cast zmanjša cooldown Gusta za 0,5 s. Gust je omejen na 0,5 s, zadošča pa tudi 0,7 s.",
+        "V beti Deadly Strike deluje tudi s fizičnimi spelli (4× Lo v orožju = 80 % DS). Razvijalci so napovedali, da ga bodo pri nekaterih skillih, verjetno tudi pri Twisterju, izklopili. Hiimov planer »2H-Max DS« z {{Brimstone Rain}} je odvisen od tega.",
+        "Na bossih uporabljaj Tornado, ker je hitrejši za single target.",
+        "Okoli 2.100 lifea, max block in 24k obrambe: build je primeren tudi za hardcore."
+      ],
+      "vs_hiim": [
+        "Enako: vsi štirje Hiimovi planerji so avtorjevi in se ujemajo z videom: Neophyte, Lore, Splendor, Stealth, Heaven's Brethren, Nightsmoke, Horizon's Tornado, Twilight's Reflection, Fenris, Soul Drainer, Siggard's Staunch, Wisp Projector, Constricting Ring, CTA in Lidless; merc Ascendant (Amplify Damage), v endgameu Iron Wolf s Skyfall in Griffon's Eye.",
+        "Razlika: Hiimov drugi endgame planer (2H-Max DS) nosi Brimstone Rain, Steel Carapace in BK, merc pa je Act 1 Vigor z Vampire Gaze in Innocence."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xKJsqDc-cSE",
+      "title": "Project Diablo 2 Season 14 – WIN(D) Druid Guide! (Budget Mapper)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–27:56 · budget in non-budget različica",
+      "skills": "Nič v shape shifting drevo. 1 Spirit of Barbs (Deadly Strike v beti deluje na Twister; če ga popravijo, točko daj v Oak Sage). Max Arctic Blast, Twister, Tornado in Hurricane, ostalo v Gust (level 26–27 je dovolj, ker Twister skrajša cooldown Gusta). Non-budget: manj v Gust, 1 Summon Grizzly kot ščit, vines po želji, ostalo v Oak Sage.",
+      "stats": "Strength in Dexterity samo za opremo, ostalo Vitality. Non-budget: veliko Energy, da Cyclone Armor absorbira okoli 1.300 škode.",
+      "gear": "Budget: {{Horizon's Tornado}} (2 socketa, jeweli z life po killu), {{Skin of the Vipermagi}} (najdražji kos, okoli Mal rune), circlet in amulet s +3 elemental skills (po 2 Worldstone Sharda), {{Twilight's Reflection}} (−10 % enemy physical res; 2 perfect gema za rese), rare pas s FCR, FCR rokavice ({{Magefist}}, {{Trang-Oul's Claws}} ali rare), res škornji, prstana s half freeze (CBF); 99 FCR breakpoint. Non-budget: {{Fenris}} (+1 slam, −8 % enemy physical res; v S14 oslabljen) ali druid pelt z do +6 Twister, {{Steel Carapace}} (+1 slam) ali rare oklep s +2 druid skills, amulet +2 druid s FCR, rare pas s +skilli in FCR, {{Bul-Kathos' Wedding Band}} in {{Constricting Ring}}, {{Silkweave}} (MPK) ali rare škornji s half freeze, swap {{Call to Arms}} in {{Lidless Wall}}; na live strežniku cilj 163 FCR.",
+      "merc": "Budget: Act 2 Defiance z {{Reaper's Toll}} (Amplify Damage), {{Tal Rasha's Horadric Crest}}, {{Duriel's Shell}} (CBF), {{String of Ears}}. Non-budget: Act 3 Holy Shock s {{Stormlash}}, {{Exile}}, {{Innocence}} (Decrepify, lower physical res), {{Griffon's Eye}}, {{Marrowwalk}}, {{Dracul's Grasp}}.",
+      "tips": [
+        "Wind druida skoraj nihče ne igra, zato je oprema poceni; po avtorju eden boljših S14 starterjev.",
+        "Najprej farmaj Chaos Sanctuary (cel CS v 90 s do 2 min), nato kupi skillerje (5–10 Worldstone Shardov za osnovne) in pojdi v T1 mape.",
+        "Hurricane in Cyclone Armor te ščitita; build je varen tudi pri tele-stompu.",
+        "T3 mape gredo, ear mape so prepočasne in nerodne."
+      ],
+      "vs_hiim": [
+        "Enako: Twister, Tornado, Hurricane in Arctic Blast na 20, Gust in Oak Sage; Horizon's Tornado, Twilight's Reflection, Fenris, Steel Carapace, Constricting Ring, CTA in Lidless.",
+        "Razlika: Hiimovi planerji (philanthropy777) za start uporabljajo Neophyte in Act 4 Amplify Damage merca, endgame pa Act 3 Skyfall namesto Stormlasha in mirror oklep."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Q14JVcueuFI&t=136s",
+      "title": "My Top 3 Season Starters – Project Diablo 2 Season 14",
+      "author": "Sleepy Cat",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "2:15–3:00 in 5:12–6:47 · Twister leveling in endgame",
+      "tips": [
+        "Twister je fizičen spell, zato v Hellu naletiš na malo imunitet; Act 4 Amplify Damage merc pomaga lomiti fizične imune.",
+        "V beti na Twister, Tornado in Shockwave delujeta Deadly Strike in Critical Strike: DS dajo Spirit of Barbs, Act 2 Blessed Aim merc ter {{Death Cleaver}}, Wraithskin in {{Lance Guard}}. Avtor je dosegel 90 % DS z 250 % multiplierjem in udobno čistil T3 ear mape.",
+        "Pozor: philanthropy777 navaja, da bodo razvijalci DS na nekaterih fizičnih spellih morda izklopili."
+      ]
+    }
+  ],
+  "druid/wolf-fire-claws": [
+    {
+      "url": "https://www.youtube.com/watch?v=sjEKDbvzhEw&t=1114s",
+      "title": "PD2 S14 Druid Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S14",
+      "date": "2026-10-15",
+      "part": "18:34–27:28 in 40:01–50:47 · Day 2–5 (budget) in Endgame Hellslayer (video pri Hiimovem planerju)",
+      "skills": "Po 1 točka v Solar Creeper, Carrion Vine in Oak Sage; max Fire Claws ter sinergiji Molten Boulder in Armageddon; max Lycanthropy (life); ostalo v Oak Sage. Endgame še max Feral Rage (Werewolf, hitrejši tek).",
+      "stats": "Strength in Dexterity za opremo (endgame skoraj 100 % možnosti zadetka), ostalo Vitality.",
+      "gear": "Day 2–5: {{Demon's Arch}} (−enemy fire res; s Shael 50 % IAS), {{Jalal's Mane}}, {{Head Hunter's Glory}} (life po killu, resi; Ort za lightning res), {{Hustle}}, {{Dracul's Grasp}} (life po killu), {{String of Ears}} ali {{Verdungo's Hearty Cord}}, {{Infernostride}} (Blaze ob zadetku) ali res škornji, blood craft amulet, {{Raven Frost}} in {{Carrion Wind}}; prstan s half freeze za CBF, 5 skillerjev. Endgame: {{Hellslayer}} (IAS korupcija, 4× Shael za IAS breakpoint), {{Jalal's Mane}} s 3 socketi, blood craft amulet, {{Wisp Projector}} in {{Bul-Kathos' Wedding Band}}, {{Hellmouth}} (−10 % enemy fire res, half freeze korupcija), {{Siggard's Staunch}} (half freeze, skupaj CBF), {{Merman's Sprocket}} (FRW), {{Steel Carapace}}, shape shifting skillerji s FRW, swap {{Call to Arms}} in {{Lidless Wall}}.",
+      "merc": "Day 2–5: Act 1 Vigor s {{Purity}}. Endgame: Act 2 Defiance z {{Infinity}}, {{Flickering Flame}} (Resist Fire aura), {{Templar's Might}}, {{Dracul's Grasp}} (IAS korupcija), {{String of Ears}}, {{Marrowwalk}}.",
+      "tips": [
+        "Fire Claws je v S14 predelan: boljši AoE, manj single target škode. Avtor ga ima za zelo močnega.",
+        "Werebear je na 8 FPA, Werewolf na 10 FPA, a hitreje teče; za mape avtor izbere Werewolf s Feral Rage (30 s, osveži se ob zadetku), za bosse Werebear.",
+        "Armageddon je hibrid fizične in ognjene škode, zato ubije fire immune elite. Ob takem paketu tapkaj Fire Claws za leech, merc in Armageddon opravita ostalo.",
+        "Fire Claws daj na quick cast in drži tipko. Dokler resi niso polni, se izogibaj map affixom z dodatno fizično ali elementno škodo.",
+        "Prednost pred Rabies: ubije vse pred seboj, zato loot pobiraš sproti. Alternativa je Earthshifter proc različica (Rufu)."
+      ],
+      "vs_hiim": [
+        "Enako: oba Hiimova planerja sta avtorjeva: Demon's Arch, Head Hunter's Glory, Jalal's Mane, Hustle, Dracul's Grasp, String of Ears, Infernostride, Raven Frost, Carrion Wind; endgame Hellslayer, Steel Carapace, Hellmouth, Siggard's Staunch, Merman's Sprocket, Wisp in BK; merc Purity (Act 1 Vigor) in Infinity (Act 2 Defiance).",
+        "Razlika: Hiim nima ločenega planerja za Werebear ali Earthshifter različico."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Q14JVcueuFI&t=241s",
+      "title": "My Top 3 Season Starters – Project Diablo 2 Season 14",
+      "author": "Sleepy Cat",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "4:01–5:12 · predelani Fire Claws",
+      "tips": [
+        "Novi Fire Claws med napadom bruha valove ognja; ostal je tudi fizični del, zato s {{Hellslayer}} in mercem s fizično škodo ubiješ fire immune.",
+        "Max Lycanthropy, Werebear, {{Steel Carapace}} in {{Siggard's Staunch}} dajo 30–40k obrambe: zelo varno, samo držiš desni klik.",
+        "Earthshifter da Volcano proce, {{Hellmouth}} ognjene proce. Ni najhitrejši, a zelo udoben."
+      ]
+    }
+  ],
+  "necromancer/corpse-explosion": [
+    {
+      "url": "https://www.youtube.com/watch?v=4aY-3RPshgU&t=587s",
+      "title": "PD2 S14 Necro Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S14",
+      "date": "2026-10-17",
+      "part": "9:48–33:40 · Day 2–5 (budget) in Endgame Corpse Explosion (video pri Hiimovem planerju)",
+      "skills": "Max Amplify Damage (sinergija), Corpse Explosion, Desecrate in Revive (8 revivov kot mesni ščit); 1 Bone Armor; Golem Mastery 1 (endgame vsaj 5 trdih točk za dva golema: Blood Golem in Iron Golem); ostalo v Blood Warp (endgame okoli 29 točk za 0 cooldown z Battle Commandom).",
+      "stats": "Strength samo za opremo, Vitality do 1.000–1.200 lifea, ostalo Energy (skalira Bone Armor: budget 836 absorba, endgame okoli 1.650).",
+      "gear": "Budget: {{White}} (Dol + Io) v palici s +3 Corpse Explosion, {{Wormskull}}, necro glava s {{Rhyme}} (resi, CBF, MF), {{Skin of the Vipermagi}}, {{Magefist}} (+1 fire skills in flat škoda veljata za CE), {{Nightsmoke}} ali pas s FCR, triple res škornji, 2× {{Nagelring}} (MF in mana po killu, CE porabi veliko mane); 75 FCR breakpoint. Endgame: {{Skull Collector}} (50 mana po killu, nadgradnja v Archon Staff s 6 faceti, 3 % proc Bone Armor), {{Kira's Guardian}} (resi, −15 % enemy fire res; s 3 faceti −30 %), {{The Rising Sun}} (+2 fire skills, −8 % fire pierce), 2× {{Wisp Projector}} (LPK korupcija), {{Arachnid Mesh}}, {{Frostburn}} (−10 % enemy fire res, nižja Strength zahteva kot {{Hellmouth}}), {{Ormus' Robes}} (FCR, fire skill dmg, naključen sorc skill), škornji z resi, half freeze in MF (CBF), skupaj 12 fire facetov (85 % fire skill dmg, 93 pierce), swap {{Call to Arms}} in {{Lidless Wall}}. Alternativi: {{Corpsemourn}} (+3 CE) ali {{Steel Carapace}} s {{Siggard's Staunch}}.",
+      "merc": "Budget: Act 4 Ascendant (Amplify Damage). Endgame: Act 3 Iron Wolf (Static Field) s {{Skyfall}}, {{Flickering Flame}} (fire res in fire skill dmg), {{Innocence}} (Decrepify), {{Marrowwalk}} (PDR korupcija, CBF), {{Arachnid Mesh}} in {{Occultist}} s FCR korupcijo; Infinity ni potreben, piercea je dovolj.",
+      "tips": [
+        "Corpse Explosion je hibrid fizične in ognjene škode; endgame se osredotoči na ogenj.",
+        "Ritem: Desecrate, oživi 8 pošasti, Blood Warp v paket, Desecrate in veriga CE. Build zahteva veliko vaje; top igralci so precej hitrejši od avtorja.",
+        "Ear mape imajo v S14 100 % namesto 200 % lifea, zato CE tam dobro farma; z MF opremo doseže okoli 234 osnovnega MF.",
+        "PDR ne zmanjša škode, ki jo absorbira Bone Armor; velja šele, ko je Bone Armor prazen.",
+        "Iron Golem s {{Purity}} da Prayer auro (level 12) za močno regeneracijo; Infinity na golemu ni potreben.",
+        "Budget oprema (brez torcha) stane zelo malo; po avtorju sanjski zgodnji farmer."
+      ],
+      "vs_hiim": [
+        "Enako: Amplify Damage, Corpse Explosion, Desecrate in Revive na 20, preostanek v Blood Warp; za start White, Wormskull, Magefist, 2× Nagelring in Act 4 Amplify Damage merc; za endgame Kira's Guardian, Arachnid Mesh, 2× Wisp Projector, Ormus' Robes (alternativni planer) in Act 3 Iron Wolf.",
+        "Razlika: Hiim start nosi Splendor, Spirit Forge in Gloom's Trap; endgame uporablja Mang Song's Lesson ali Death's Web, Corpsemourn, Magefist in Act 2 merca z Infinity, video pa Skull Collector, The Rising Sun in Frostburn."
+      ]
+    }
+  ],
+  "necromancer/dark-pact": [
+    {
+      "url": "https://www.youtube.com/watch?v=2CEuwf36xI4",
+      "title": "The Madness of The New Dark Pact! PD2 S14 Dark Pact Necromancer Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–35:48 · mini vodič in demo",
+      "skills": "Max Dark Pact, Curse Mastery in Iron Maiden (16 % sinergiji; Curse Mastery omogoča 3 ali več curse hkrati, z {{Darkforce Spawn}} 4); ostalo v Decrepify (pri self-use Madness z Act 3 mercom raje Weaken); 1 Bone Armor; Blood Warp na 30 (brez cooldowna); 5 v Golem Mastery za dva golema: Blood Golem za life, Iron Golem iz {{Asylum}} da Sanctuary auro (ni nujen).",
+      "stats": "Strength za opremo, vse ostalo Energy (skalira Bone Armor, ki vpije fizično škodo).",
+      "gear": "Na vsakem kosu skilli, FCR in % magic damage: wand s +skilli in FCR (rare ali crafted je lahko boljši od {{Blackhand Key}}), {{Darkforce Spawn}} (+3 skills, 30 FCR, 5 % reanimate kot Oblivion Knight, ki meče curse), {{Trang-Oul's Claws}} (edine rokavice s +curses in FCR, CBF), 2× {{The Stone of Jordan}}, amulet s +3 curses, 2/20 circlet, oklep s +2 skilli in FCR, {{Marrowwalk}}, swap {{Call to Arms}} in {{Lidless Wall}}; nujno 125 FCR. Novi S14 jeweli s % magic damage; za solo so magic damage large charmi boljši od curse GC-jev. Necro torch in Annihilus.",
+      "merc": "Act 5 Barbarian z novim runewordom {{Madness}} (ob zadetku proži do 3 curse), {{Innocence}}, {{Raekor's Virtue}} (+1 curse), {{Dracul's Grasp}}, {{String of Ears}}, {{Tancred's Hobnails}}; Might ni potreben, ker je škoda magic. Alternativa: Madness nosiš sam, merc je Act 3 Static Field z {{Exile}} (Decrepify), {{Innocence}}, {{Griffon's Eye}} in {{Thundergod's Vigor}}; varneje, a precej manj škode.",
+      "tips": [
+        "Dark Pact razstreli pošasti z vsaj dvema curseoma, vsak dodaten curse pomnoži škodo. Madness na mercu jih navadno nanese takoj, zato le teleportiraš in castaš Dark Pact (kvečjemu še Decrepify).",
+        "Gostota je ključna: kravje mape so odlične, posamezni bossi slabi (Decrepify na bosse ne deluje). Bosse ubija Act 5 merc.",
+        "Negativni magic res da samo Sanctuary aura; +skilli in % magic damage so pomembnejši.",
+        "PDR šteje šele, ko Bone Armor pade; resi so pri necru večja skrb.",
+        "Self-use Madness je zanesljivejši, a izgubiš veliko škode in FCR; smiseln je šele s korupcijami za +skille."
+      ],
+      "vs_hiim": [
+        "Enako: Dark Pact, Curse Mastery in Iron Maiden na 20, Decrepify; Blackhand Key, Darkforce Spawn, Trang-Oul's Claws, Stone of Jordan, curse amulet in circlet; merc Act 5 Barbarian.",
+        "Razlika: Hiim maxa še Amplify Damage, nosi Enigmo in Arachnid Mesh, merc pa ima fizično opremo (Purgatory, Steelrend, Veil of Steel) brez Madness."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Q14JVcueuFI&t=1430s",
+      "title": "My Top 3 Season Starters – Project Diablo 2 Season 14",
+      "author": "Sleepy Cat",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "23:50–25:02 · Dark Pact",
+      "tips": [
+        "Dark Pact ima v S14 večji radij eksplozije; kot magic build ga močno okrepijo novi jeweli s % magic damage.",
+        "{{Madness}}, Gloom (+1 curse) in {{Raekor's Virtue}} (+1 curse) avtomatizirajo curse; na primer Act 5 merc z Madness, Raekor's in {{Innocence}}.",
+        "Single target je slab, bosse prepusti mercu."
+      ]
+    }
+  ],
+  "assassin/dragon-tail-fire-kick": [
+    {
+      "url": "https://www.youtube.com/watch?v=8P8jUV0KqJg",
+      "title": "The One Kick Woman! Fort & Ear'd Maps Beware! S14 PD2 Dragon Tail Assassin Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–28:32 · mini vodič in demo",
+      "skills": "Max Dragon Tail in Dragon Talon (sinergija; Dragon Talon je tudi močan single target in s fizično škodo ubija fire immune); Dragon Flight do cooldowna 1 s; 1 Blade Shield (leech); visoko Burst of Speed ali Fade; Shadow Master po želji kot tank.",
+      "stats": "Strength za opremo, nekaj Dexterity za attack rating, ostalo Vitality; vsaj 48 FHR.",
+      "gear": "Dragon Tail pretvori vso fizično škodo v ogenj, zato štejejo off-weapon ED, min/max škoda, crushing blow, deadly strike in −enemy fire res; ED na orožju ne šteje. Škoda brce pride iz škornjev, zato jih vedno nadgradi do konca. {{Astreon's Iron Ward}} (najboljši flat damage; alternativa {{Stalker's Cull}} ali {{The Redeemer}}) s fire faceti, {{Phoenix}} (BiS: Redemption za sustain, ED, −enemy fire res), {{Veil of Steel}} (ali {{Crown of Ages}}, {{Guardian Angel}}), {{Saracen's Chance}} ali amulet s +4/+5 martial arts, {{Steelrend}}, {{Siggard's Staunch}} (crushing blow, obramba) ali {{Nosferatu's Coil}}, nadgrajeni {{War Traveler}} ali {{Gore Rider}}, swap {{Call to Arms}} in {{Lidless Wall}}; assassin torch, martial arts GC-ji z lifeom in FHR.",
+      "merc": "Act 2 z {{Infinity}} (−enemy fire res; ali {{Pride}} za več off-weapon ED), {{Flickering Flame}} (Resist Fire aura), {{Templar's Might}} (Might aura), {{Gore Rider}}, {{String of Ears}}; aura Blessed Aim (attack rating, deadly strike) ali Defiance za obrambo. Alternativa: Act 1 Vigor za hitrejše premikanje med paketi, a mora biti zelo trpežen.",
+      "tips": [
+        "Build je namenjen fortified mapam: vsaka brca zadene en cilj, zato mora vsak zadetek ubiti. Omejitev je AoE, ne škoda.",
+        "S14 ear mape imajo le 100 % dodatnega lifea, zato Dragon Tail tudi tam večinoma ubije z enim zadetkom. S fortified in ear mapami je po avtorju med najmočnejšimi buildi.",
+        "Dragon Flight uporabi takoj, ko je pripravljen: skok, brca. Max IAS ni nujen.",
+        "Bug: napad se včasih ne registrira; takrat se z Dragon Flight umakni (Shadow Master pomaga).",
+        "Na zaslonu okoli 50k škode, s korupcijami do 60k; brez merca z −fire res je build opazno šibkejši."
+      ],
+      "vs_hiim": [
+        "Enako: Dragon Tail, Dragon Talon, Dragon Flight in Burst of Speed na 20; Astreon's Iron Ward, Phoenix, Veil of Steel, Siggard's Staunch, Gore Rider; merc Act 2 z Infinity in Templar's Might.",
+        "Razlika: Hiim nosi Fortitude, Hellmouth, Highlord's Wrath, Wisp Projector in Raven Frost, merc pa Defiance s Crown of Ages, Bloodfist in Marrowwalk."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=1191s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results! (Budget farm Demo)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "19:51–20:31 · Kick",
+      "tips": [
+        "Brce so dobile popravek desinhronizacije (zgrešeni udarci od blizu). Avtor ni prepričan, da je povsem odpravljen."
+      ]
+    }
+  ],
+  "assassin/mind-blast": [
+    {
+      "url": "https://www.youtube.com/watch?v=6F9xbVGabn4",
+      "title": "Don't Mind Me – Straight Blastin'! S14 PD2 Mind Blast (Summon) Assassin Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–17:06 · mini vodič in demo",
+      "skills": "Max Mind Blast in sinergiji Psychic Hammer ter Cloak of Shadows; max Shadow Warrior (velik del škode: Warriorji ponavljajo Mind Blast s pol tvojega skill levela); visoko Weapon Block (dva claw-a); Burst of Speed ali Fade (Fade je varnejši, IAS ni potreben); 1 Blade Shield; Dragon Flight na 20 (cooldown 1 s).",
+      "stats": "Strength in Dexterity samo za opremo, ostalo Vitality. Minimalno 102 FCR, s korupcijami do 174; 32 % blocka dobiš iz Weapon Blocka.",
+      "gear": "2× {{Whispering Mirage}} (po možnosti +2 Shadow Warrior; v S14 izgubil del −enemy physical res) ali crafted claw-a ali Shadow Killer (v S14 okrepljen: več FCR in skillov, a brez −res in dodatne sence), {{Enigma}} (mobilnost), čelada, amulet, rokavice, pas in prstani z assassin skilli, FCR in life po killu, {{Shadow Dancer}} (+shadow disciplines), shadow disciplines skillerji z lifeom in FHR, torch, Annihilus, swap {{Call to Arms}}. Ker drugih statov ne potrebuješ, je v prostih slotih veliko prostora za MF.",
+      "merc": "Act 5 Barbarian (Battle Cry, −enemy physical res) z {{Innocence}}, Amplify Damage ob zadetku, {{Tancred's Hobnails}} in obrambo; preživi bolje od Act 1. Alternativa: Act 1 Vigor z Wrath lokom in {{Innocence}} (Amplify Damage pokrije več pošasti).",
+      "tips": [
+        "S14: Dragon Flight in teleport ne ponastavita več radija Mind Blasta, zato lahko verižiš skoke in ves čas držiš največji radij.",
+        "Mind Blast daj na desni klik; sence ubijajo skupine, ti le skačeš od paketa do paketa. Proti nevarnim paketom uporabi Cloak of Shadows.",
+        "Battle Cry in Amplify Damage na pošastih sta zelo pomembna za škodo.",
+        "Beta nima korupcij, zato build v videu ni na vrhuncu; z rarei do 7 skillov in max FCR je zgornja meja zelo visoka."
+      ],
+      "vs_hiim": [
+        "Enako: Mind Blast, Psychic Hammer in Shadow Warrior na 20, Cloak of Shadows in Burst of Speed; 2× Whispering Mirage, Enigma, rare circlet z +2 assassin skills in FCR, Shadow Dancer, CTA.",
+        "Razlika: Hiimov merc je Act 3 Static Field (Skyfall, Innocence, Exile, Ferocity), ne Act 5 Battle Cry; Hiimov day 2–5 planer (philanthropy777) uporablja set Heaven's Brethren."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=1111s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results! (Budget farm Demo)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "18:31–19:51 · Mind Blast",
+      "tips": [
+        "S14 popravek: Dragon Flight (finisher) ne odstrani več nabojev Mind Blasta, zato AoE ostane velik in mapanje je bolj gladko.",
+        "Po avtorju eden najzabavnejših buildov in odličen S14 starter."
+      ]
+    }
+  ],
+  "assassin/phoenix-strike": [
+    {
+      "url": "https://www.youtube.com/watch?v=Q14JVcueuFI&t=691s",
+      "title": "My Top 3 Season Starters – Project Diablo 2 Season 14",
+      "author": "Sleepy Cat",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "11:31–12:47 · Phoenix Strike",
+      "tips": [
+        "Avtorjev idealni endgame assassin: trojna elementna škoda, zato imunitete skoraj niso problem, sploh z mercem.",
+        "Drugi naboj in finisher pri treh nabojih sprožita veliko strelo v slogu Nove; po avtorju najboljši clear med martial arts skilli. V endgameu zato več lightning facetov.",
+        "Single target je slabši kot pri Fists of Fire, a Dragon Claw lahko finisher sproži dvakrat.",
+        "Ritem: napad, napad, napad, Dragon Flight (cooldown 1 s, šteje kot finisher) do naslednjega paketa. Z dobrim oklepom in pasom je zelo trpežen in zmore vso vsebino."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=1231s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results! (Budget farm Demo)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "20:31–23:41 · spremembe Martial Arts",
+      "tips": [
+        "Phoenix Strike: naboja 1 in 3 sta okrepljena. Najmočnejši ostaja naboj 2, zato je build zdaj prijaznejši do manj izkušenih; z dobrim pilotom je eden najboljših buildov v igri.",
+        "Naboji: vsak napad doda naboj (do 3), finisher (npr. Dragon Flight) jih sprosti.",
+        "Fist of Fire, Cobra Strike, Blades of Ice in Phoenix Strike so po avtorju S tier, Claws of Thunder malo za njimi; vsi dobro čistijo, nekateri bolje na budgetu."
+      ]
+    }
+  ],
+  "assassin/fists-of-fire": [
+    {
+      "url": "https://www.youtube.com/watch?v=Q14JVcueuFI&t=767s",
+      "title": "My Top 3 Season Starters – Project Diablo 2 Season 14",
+      "author": "Sleepy Cat",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "12:47–14:18 · Fists of Fire (in primerjava z Blades of Ice)",
+      "tips": [
+        "Manj AoE kot Phoenix Strike, a pošasti umrejo takoj; škoda gorečih tal je ogromna.",
+        "Že s faceti in dobro opremo brez korupcij ubije Uberje v Tristramu: na tretjem naboju uporabi Dragon Claw za dvojni udarec Fists of Fire.",
+        "Ritem: trije napadi, Dragon Flight do naslednjega paketa.",
+        "Blades of Ice je po avtorju za obema (manj single targeta kot Fists of Fire, slabši clear kot Phoenix), a ga je S14 buff drugega naboja opazno izboljšal."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=1231s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results! (Budget farm Demo)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "20:31–23:41 · spremembe Martial Arts",
+      "tips": [
+        "Fists of Fire: ogenj, ki ostane na tleh, zdaj pravilno dobi sinergije, kar pomaga proti trdnejšim ciljem.",
+        "Fist of Fire, Cobra Strike, Blades of Ice in Phoenix Strike so po avtorju S tier, Claws of Thunder malo za njimi; vsi dobro čistijo, nekateri bolje na budgetu."
+      ]
+    }
+  ],
+  "assassin/cobra-sin": [
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=1231s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results! (Budget farm Demo)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "20:31–23:41 · spremembe Martial Arts",
+      "tips": [
+        "Fist of Fire, Cobra Strike, Blades of Ice in Phoenix Strike so po avtorju S tier, Claws of Thunder malo za njimi; vsi dobro čistijo, nekateri bolje na budgetu."
+      ]
+    }
+  ],
+  "assassin/claws-of-thunder": [
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=1231s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results! (Budget farm Demo)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "20:31–23:41 in 24:51–26:11 · Martial Arts in claw-i",
+      "tips": [
+        "Fist of Fire, Cobra Strike, Blades of Ice in Phoenix Strike so po avtorju S tier, Claws of Thunder malo za njimi; vsi dobro čistijo, nekateri bolje na budgetu.",
+        "{{Stalker's Cull}} ima namesto Deadly Strike zdaj Critical Strike in crit multiplier (boljše, sinergija s Claw and Dagger Mastery).",
+        "{{Whispering Mirage}} je izgubil del −enemy physical res, a dodatna senca ga ohranja med najboljšimi claw-i."
+      ]
+    }
+  ],
+  "assassin/blade-fury": [
+    {
+      "url": "https://www.youtube.com/watch?v=Zx0NOCd7idw&t=1571s",
+      "title": "Project Diablo 2 Season 14 – Assassin Changes and Testing results! (Budget farm Demo)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-16",
+      "part": "26:11–27:31 · Blade Fury",
+      "tips": [
+        "Blade Fury zdaj deluje s Claw and Dagger Mastery (prej bug): dobiš critical strike in škodo, zato so claw-i spet smiselni.",
+        "Avtor je preizkusil {{Stalker's Cull}} in {{Whispering Mirage}}; oba delujeta dobro tudi na nizkem budgetu, build je soliden tudi v endgameu."
+      ]
+    }
+  ],
+  "barbarian/split-throw": [
+    {
+      "url": "https://www.youtube.com/watch?v=ApDZeI9j-n8",
+      "title": "Project Diablo 2 Season 14 – Split Throw Barb! (GG Budget Guide!!)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–20:25 · budget vodič, Uberji, mape in endgame oprema",
+      "skills": "Najprej max Split Throw in Increased Speed (sinergija), nato Concentrate (druga sinergija); po 1 točka v pasive (za bleed različico Deep Wounds); Throwing Mastery dovolj za 100 % pierce (z Battle Commandom); max Battle Command (več skillov, resov in škode); ostanek v Iron Skin ali Combat Reflexes.",
+      "stats": "Strength za opremo, Vitality do zdravega lifea (budget okoli 1.100–1.500), ostalo Dexterity (attack rating in škoda metov).",
+      "gear": "Budget: {{Demon's Arch}} (Balrog Spear ima najboljšo min škodo; kasneje crafted throwing orožje), {{Deception}} v barb čeladi s +Split Throw (crit chance in multiplier), {{Hustle}} (hitrost, breakpointi, half freeze), {{Razortail}} (pierce), {{Steelrend}} (crushing blow zdaj velja za vse projektile) ali {{Laying of Hands}} za IAS, {{Goblin Toe}} (crushing blow), crafted prstan s half freeze (Diamond + Hel + jewel; z Hustle CBF) in dual leech prstan, Hit Power craft amulet (Thul + Sapphire + jewel) z resi, pierceom in barb skilli, {{Head Hunter's Glory}} (resi, Amplify Damage, socketi), swap {{Naj's Puzzler}} (teleport). Max IAS breakpoint, FHR 27/48 (bolje 86). Charmi: max damage za bosse, mastery ali combat skillerji (min škoda) za mape.",
+      "merc": "Budget: Act 5 Might z {{The Vile Husk}} (Amplify Damage), {{Harlequin Crest}} (+skilli za Might, PDR), {{Guardian Angel}}, {{String of Ears}}, {{Lava Gout}} (half freeze, Enchant) in škornji s half freeze. Endgame: Act 1 Vigor s {{Faith}} ali Act 5 z {{Beast}}.",
+      "tips": [
+        "S14: vsi projektili Split Throwa zdaj prožijo bleed in crushing blow; to je glavni buff.",
+        "Budget oprema zmore Uberje in DClone: ločuj bosse, zdravi merca in pusti, da Mephista tanka merc.",
+        "Meči blizu telesa kot Multishot in pusti, da se projektili vrnejo; ne spamaj. S teleportom na swapu ubijaš tudi s povratnimi projektili.",
+        "S crafted orožjem min škoda preseže 10k; zmore fortified in ear mape. Build zahteva nekaj vaje."
+      ],
+      "vs_hiim": [
+        "Enako: Split Throw, Increased Speed, Concentrate, Throwing Mastery in Battle Command na 20; endgame merc Act 1 Vigor s Faith.",
+        "Razlika: Hiimov planer je endgame (crafted throwing orožje, Twilight's Reflection, Giant Skull, Tyrael's Might, Soul Drainer, Highlord's Wrath, Gore Rider, Wisp in BK), video pa budget z Act 5 mercom."
+      ]
+    }
+  ],
+  "amazon/split-throw": [
+    {
+      "url": "https://www.youtube.com/watch?v=3Qf38_6Y63c",
+      "title": "SPLIT THROW AMAZON Full Guide – Project Diablo 2 – Season 14 (Closed Beta)",
+      "author": "Random Diablo Content",
+      "season": "S14 beta",
+      "date": "2026-10-13",
+      "part": "0:00–17:46 · oprema, Uberji, mape in cenejša različica",
+      "skills": "1 Jab, max Javelin and Spear Mastery, Valkyrie, Decoy in Critical Strike; Pierce do 100 %; ostalo v Penetrate; po 1 točka v ostale pasive.",
+      "stats": "Strength za {{Steel Carapace}}, Dexterity za dovolj attack ratinga, ostalo Vitality.",
+      "gear": "Nov runeword {{Jealousy}} (Split Throw kot oskill, −enemy poison res, cold škoda) v Matriarchal Javelin, {{Giant Skull}} (pierce) in {{Steel Carapace}} s Pul runami, {{Spirit Ward}} z Um runami (resi, block), {{Gore Rider}}, {{Wisp Projector}} in {{Raven Frost}}, {{Siggard's Staunch}}, {{Soul Drainer}}, {{Atma's Scarab}} ali {{Highlord's Wrath}} s {{Head Hunter's Glory}} (Amplify Damage ob zadetku), swap {{Call to Arms}} in {{Lidless Wall}}. Alternativa: {{Guillaume's Face}}, {{Razortail}} in {{Highlord's Wrath}} za max deadly strike in 50 % crushing blow. Za Uberje 25 FCR za hitro obnovo Decoyev. Charmi: passive and magic skillerji, small charmi z max škodo, AR in lifeom.",
+      "merc": "Act 1 Vigor s {{Faith}} (Fanaticism), {{Templar's Might}}, {{Andariel's Visage}}, {{War Traveler}}, {{Nosferatu's Coil}} in {{Lava Gout}}.",
+      "tips": [
+        "Zelo trpežna različica: v T3 Blood Moon so jo krave zadele v 23 % primerov, block je na 75 %.",
+        "Uber Tristram in Uber Ancients: vedno obnavljaj Decoy in Valkyrie; Ancients pod 30 sekund.",
+        "Na mapah Decoyev ni treba stalno metati, ker upočasnjujejo.",
+        "Cenejša različica: modri set The Disciple ({{Laying of Hands}}, {{Rite of Passage}}, {{Credendum}}, {{Dark Adherent}}, {{Telling of Beads}}) in {{Carrion Wind}} namesto Raven Frost (CBF da Rite of Passage).",
+        "Avtor je preizkusil tudi Plague Javelin s poison različico Jealousy, a mu je ta igralni slog ljubši."
+      ],
+      "vs_hiim": [
+        "Hiim za Split Throw Amazon nima planerja."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DjFRDx5vlTE&t=481s",
+      "title": "Project Diablo 2 Season 14 – Amazon Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-13",
+      "part": "5:01–9:30 · nov runeword in budget Split Zon",
+      "tips": [
+        "Nov runeword {{Jealousy}} (samo za amazon throwing orožje) da Split Throw kot oskill; +3 javelin skills pride iz baze Matriarchal Javelin.",
+        "Budget Split Zon je dober starter; za merca avtor priporoča {{The Reaper's Toll}} (Amplify Damage).",
+        "Vsi projektili Split Throwa prožijo knockback, blind, freeze, crushing blow, slow in open wounds (enako kot Multishot)."
+      ]
+    }
+  ],
+  "amazon/explosive-arrow": [
+    {
+      "url": "https://www.youtube.com/watch?v=xC3HHqx5GWM",
+      "title": "Project Diablo 2 – Season 14 – Explosive arrow guide w/ progression",
+      "author": "Gregpoe",
+      "season": "S14 beta",
+      "date": "2026-10-12",
+      "part": "0:00–54:42 · napredovanje opreme in demo v T1/T2 mapah",
+      "skills": "Max Exploding Arrow in obe sinergiji (Magic Arrow, Immolation Arrow); po 1 točka v pasive. Pierce: prva točka da 20 %, vsaka naslednja le 2 %, zato pierce raje z opreme. Ostanek v Penetrate (attack rating); ko je AR dovolj, del v Valkyrie ali Dodge in Evade.",
+      "stats": "Strength za opremo, Dexterity za lok (Matriarchal lok rabi okoli 187) in attack rating, ostalo Vitality.",
+      "gear": "Lok: začetni {{Kuko Shakaku}} (+3, 50 % pierce) ali crafted Matriarchal lok, nato {{Cliffkiller}} (IAS, pierce, skilli); {{Blastbark}} je brez IAS prepočasen, samostreli težko dosežejo dobre frame-e. Endgame: {{Mist}} (poceni: skilli, 100 % pierce, vsi resi), {{Zenith}} ali crafted lok s socketi za facete. Oklep: {{Hustle}} (najboljši za IAS breakpoint, 8 frame-ov), nov runeword {{Finesse}}, {{Spirit Forge}}; endgame {{Arkaine's Valor}}, {{Chains of Honor}}, {{Enigma}} ali rare s +2 amazon skills. Čelada: {{Wisdom}} (CBF, pierce, mana po killu), {{Harlequin Crest}}, {{Flickering Flame}}. Pas: rare z lifeom in resi, {{Razortail}} (pierce), {{Goldwrap}}, endgame {{Arachnid Mesh}} ali {{Verdungo's Hearty Cord}}. Rokavice: {{Magnus' Skin}} (pierce, IAS), shop magic rokavice +3 bow skills in 20 IAS, {{Frostburn}} (−10 % fire res). Škornji: {{Treads of Cthon}}, {{Rite of Passage}} (CBF), {{Waterwalk}}, crafted, {{Merman's Sprocket}}. Prstani: {{Raven Frost}} (AR, CBF), {{Nagelring}}, endgame {{Wisp Projector}}, {{Bul-Kathos' Wedding Band}} ali {{The Stone of Jordan}}. Amulet: {{The Cat's Eye}}, {{The Rising Sun}}, blood craft. Quiver: rare z resi in pierceom, {{Razorswitch}}, crafted 2/20 s socketi.",
+      "merc": "Zgodaj Act 5 (Battle Orders, tank), nato Act 5 z {{Beast}} (Fanaticism za IAS breakpoint). Pozneje Act 1 Vigor s {{Faith}} za hitrost ali Act 2 Defiance z {{Infinity}} (z Enigmo in tele-stompom).",
+      "tips": [
+        "S13 rework: vsak zadet cilj sproži eksplozijo in sekundarne eksplozije, a puščica mora zadeti; zgrešena puščica ne naredi nič, zato je attack rating ključen (cilj 6–7k, vsaj 90 % zadetkov).",
+        "Levelanje z Exploding Arrow ni prijetno: levelaj v skupini, nato farmaj Travincal s summon Amazonko in kupi skillerje (vsaj 8).",
+        "Pred prehodom: 100 % pierce, IAS za 8–9 frame-ov, Exploding Arrow okoli levela 35 (6k ognjene škode), vsi resi vsaj 40 v Hellu.",
+        "Najboljše T1 mape: Toan Jungle (boss kliče dodatne pošasti), Lost Temple, Sanctorium, Fall of Caldeum, Poison Well, El Tombs.",
+        "Fire immune pošasti na začetku preskoči; z boljšim lokom jih ubije fizična škoda. Z več skilli raste poraba mane: pomaga life ali mana leech."
+      ],
+      "vs_hiim": [
+        "Enako: Exploding Arrow, Magic Arrow in Immolation Arrow na 20, Pierce in Evade; Hustle, Razortail, Treads of Cthon, Raven Frost, Wisp Projector, rokavice +3 bow skills z IAS; merc z Beast.",
+        "Razlika: Hiim uporablja samostrel Hellrack z Bannerlord's Call in Kira's Guardian, video pa priporoča lok (Cliffkiller, nato Mist ali crafted Matriarchal)."
+      ]
+    }
+  ],
+  "amazon/summon-zon": [
+    {
+      "url": "https://www.youtube.com/watch?v=sl8EzzGhnP8",
+      "title": "Project Diablo 2 Season 14 – Summon Only Amazon Build and Showcase",
+      "author": "Gregpoe",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "0:00–14:08 · build brez loka in demo v T1/T2 mapah",
+      "skills": "Max Decoy in Valkyrie s sinergijama Strafe in Power Strike; 1 Critical Strike; nekaj več v Pierce (Decoyi nimajo drugega vira piercea); ostalo v Penetrate. Passive skillerji Evade in Dodge sami dvignejo do mehke meje.",
+      "stats": "Strength za {{Spirit Ward}}, nič Dexterity in Energy, ostalo Vitality.",
+      "gear": "Igraš kot podpora svojim sencam (»summon necro« slog): {{Suicide Branch}} (FCR, +1 slam in socketi) za 90–99 FCR, {{Spirit Ward}}, {{Enigma}} (Valkyrie napadejo le, če teleportiraš na pošasti), {{Metalgrid}} (Iron Golem z {{Beast}} da Fanaticism; Beast lahko nosiš tudi sam), amulet in rokavice s +2 passive skills in FCR, {{Arachnid Mesh}}, {{Wisp Projector}} (Heart of Wolverine), škornji z resi in FRW, passive skillerji in {{Gheed's Fortune}}. Alternative v roki: {{Eternity}} (revivi), {{Plague}} (Cleansing, FCR); {{Last Wish}} se ne splača.",
+      "merc": "Act 3 Lightning s {{Skyfall}}, dvema {{Dream}} in {{Templar's Might}} (Might aura za sence); manjkajoči FCR nadomestita {{Gloom's Trap}} in {{Trang-Oul's Claws}} (skupaj 50–60 FCR).",
+      "tips": [
+        "Avtor ga sam imenuje »meme« build: počasnejši, a udoben in varen; T1 in T2 mape gredo.",
+        "Ritem: Battle Orders, teleport v paket, nekaj Decoyev, nato Slow Movement, ki več kot prepolovi hitrost pošasti in projektilov.",
+        "Decoy stane 26 mane, build pa mane skoraj ne obnavlja; tega avtor ni povsem rešil. Pazi na Iron Golema z Beast."
+      ],
+      "vs_hiim": [
+        "Enako: Decoy, Valkyrie, Strafe in Penetrate na 20.",
+        "Razlika: Hiimovi planerji uporabljajo lok ali samostrel (Spirit, Passion, Loyalty, Mist) in Peace za dodatno Valkyrie, merc pa ima Amplify Damage ali Vigor; video je brez loka, z Enigmo, Suicide Branch in Act 3 Skyfall mercom."
+      ]
+    }
+  ],
+  "sorceress/frost-nova": [
+    {
+      "url": "https://www.youtube.com/watch?v=f5ueMPYH0yE&t=121s",
+      "title": "Project Diablo 2 Season 14 – Sorc Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "2:01–4:50 · oklepi in Frost Nova",
+      "tips": [
+        "S14: Shiver Armor in Chilling Armor zdaj delata AoE škodo (podobno kot Blizzard). Frost Nova je nova sinergija za Shiver Armor, Blizzard pa za Chilling Armor.",
+        "Frost Nova ima +1 % na sinergijo (skupaj okoli 40 % skill damage). Avtor meni, da to še ni dovolj: problem je majhen AoE, zato bi raje videl manjši doseg in več škode."
+      ]
+    }
+  ],
+  "sorceress/blizzard": [
+    {
+      "url": "https://www.youtube.com/watch?v=f5ueMPYH0yE&t=121s",
+      "title": "Project Diablo 2 Season 14 – Sorc Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "2:01–4:00 · Shiver in Chilling Armor",
+      "tips": [
+        "S14: Shiver Armor in Chilling Armor zdaj delata AoE škodo (podobno kot Blizzard). Frost Nova je nova sinergija za Shiver Armor, Blizzard pa za Chilling Armor."
+      ]
+    }
+  ],
+  "sorceress/combustion": [
+    {
+      "url": "https://www.youtube.com/watch?v=7AAuplKljvg&t=4274s",
+      "title": "PD2 S13 Sorc Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-17",
+      "part": "71:14–82:50 · Endgame Combustion (video pri Hiimovem planerju)",
+      "skills": "Video skill drevesa ne pokaže podrobno. Pred mapo Battle Orders in Shiver Armor; ko je Combustion na cooldownu (2,5 s), meči Fire Ball ali Fire Bolt, ki prek Ormus' Robes prožita dodatne Combustione.",
+      "stats": "Strength za opremo, ostalo Vitality.",
+      "gear": "Orb (BiS +6 in 30 FCR, fire skill dmg in 2 socketa; v videu {{Eschuta's Temper}}), {{Kira's Guardian}} s 3 fire faceti (resi, half freeze), {{Ormus' Robes}} s +Combustion (BiS: vsak Fire Ball ima 8 % možnosti za dodaten Combustion), {{Mara's Kaleidoscope}} (ali amulet s FCR), 2× {{Constricting Ring}} za 200 FCR, {{Phoenix}} (−28 % fire pierce; Redemption, zato ne rabiš MPK in LPK), brilliant škornji s half freeze (s Kira's CBF), torch, Annihilus, fire skillerji in FHR (60 ali 86), swap {{Call to Arms}}.",
+      "merc": "Act 2 z {{Infinity}} (Conviction; skupaj 113 % fire pierce), {{Flickering Flame}} (Resist Fire: resi in +10 % fire dmg), {{Fortitude}}, {{Soul Drainer}} (ali {{Lava Gout}}), {{String of Ears}}, {{Marrowwalk}}.",
+      "tips": [
+        "Avtor je bil skeptik, zdaj pa je navdušen: Tombs v manj kot 4 minutah; po njem je v S13 skupaj z Novo najhitrejši mapper.",
+        "Najboljši za T1 in T2 speed farmanje, T3 zmore, a počasneje.",
+        "200 FCR breakpoint pomeni več Fire Ballov med cooldownom Combustiona (2,5 s) in s tem več procov.",
+        "Single target s Fire Ballom je okoli 17k; s 113 % piercea boss pade v nekaj sekundah."
+      ],
+      "vs_hiim": [
+        "Enako: Combustion, Fire Ball, Fire Bolt in Fire Mastery na 20; Ormus' Robes; merc Act 2 z Infinity in String of Ears.",
+        "Razlika: Hiimovi planerji so Energy Shield buildi (veliko Energy) z Mang Song's Lesson ali Skull Collector, Harlequin Crest, Frostburn, The Rising Sun in 2× Stone of Jordan; video je Vitality build s Phoenix in Kira's Guardian."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=f5ueMPYH0yE&t=290s",
+      "title": "Project Diablo 2 Season 14 – Sorc Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "4:50–6:30 in 11:50–12:30 · Combustion",
+      "tips": [
+        "Načrtovani S14 spremembi (−0,5 s cooldowna in manjši sinergiji Fire Ball/Fire Bolt) sta bili tik pred testom preklicani; Combustion ostaja kot v S13, ko je bil S tier.",
+        "Build igraj šele, ko imaš {{Ormus' Robes}} s +Combustion (kakršen koli roll): dodatni proci in obroči ognja so ključni, ker je cooldown glavna omejitev.",
+        "Deluje že na nizkem budgetu."
+      ]
+    }
+  ],
+  "sorceress/multishot-enchantress": [
+    {
+      "url": "https://www.youtube.com/watch?v=7AAuplKljvg&t=4950s",
+      "title": "PD2 S13 Sorc Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-17",
+      "part": "82:30–96:16 · Endgame Multishot Enchantress (video pri Hiimovem planerju)",
+      "skills": "1 Teleport; max Cold Enchant in sinergija Chilling Armor, max Cold Mastery; max Enchant Fire in sinergija Warmth; ostalo v Fire Mastery.",
+      "stats": "Strength za opremo, ostalo Vitality.",
+      "gear": "{{Widowmaker}} (IAS korupcija), quiver s 4 socketi in cold faceti (ali IAS jeweli za breakpoint), {{Nightwing's Veil}} (BiS), {{Arkaine's Valor}} ali {{Enigma}}, {{Mara's Kaleidoscope}}, {{Magnus' Skin}} (pierce korupcija), {{Wisp Projector}} in {{Bul-Kathos' Wedding Band}} s FCR, brilliant škornji s half freeze in FHR (CBF), torch, Annihilus, FHR skillerji; cilj 100 % pierce. Na swapu {{Memory}} v bazi s +3 Cold in Fire Enchant za pre-buff.",
+      "merc": "Act 3 Prayer z {{Beast}} (Fanaticism, IAS breakpoint 63), {{Flickering Flame}}, {{Templar's Might}} (Might aura), {{Exile}} (Defiance), {{Marrowwalk}}, {{String of Ears}}.",
+      "tips": [
+        "V S13 je build dobil buff na nizkih levelih in okoli 5–10 % nerf v endgameu; še vedno je dober endgame build, a avtorju slog ni najbolj všeč.",
+        "Enigma je hitrejša (brez kazni za škodo po teleportu), Arkaine's Valor udobnejši: po I'm Zantinoob »ročni proti avtomatskemu menjalniku«.",
+        "Brez korupcij v beti manjka 40–50 % škode; s pravimi korupcijami okoli 24–25k škode.",
+        "Pre-buff: najprej Battle Orders, nato Memory s +3 enchanti in buffanje. Ancestral Trial (T2) je odlična mapa: duhovi pogosteje dropajo high rune."
+      ],
+      "vs_hiim": [
+        "Enako: Cold Enchant, Chilling Armor, Cold Mastery in Enchant Fire na 20, Warmth; Widowmaker, Nightwing's Veil, Enigma, Magnus' Skin, Mara's Kaleidoscope, Wisp in BK; merc Act 3 Prayer z Beast, Flickering Flame in Templar's Might.",
+        "Razlika: Hiim nosi Razortail in Echo Quiver, merc pa Shattered Wall in Magefist namesto Exile."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=f5ueMPYH0yE&t=480s",
+      "title": "Project Diablo 2 Season 14 – Sorc Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "8:00–10:00 · budget Enchant",
+      "tips": [
+        "Uporabljaš Enchant Fire in Cold Enchant ter navaden napad z lokom; po avtorju zelo močno na nizkem budgetu in eden najzabavnejših bow buildov. Infinity ni potreben."
+      ]
+    }
+  ],
+  "sorceress/chain-lightning": [
+    {
+      "url": "https://www.youtube.com/watch?v=f5ueMPYH0yE&t=600s",
+      "title": "Project Diablo 2 Season 14 – Sorc Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "10:00–10:50 · budget Chain Lightning",
+      "tips": [
+        "{{Skyfall}} je popravljen: prej Thunderstorm ob castanju ni deloval pravilno.",
+        "Chain Lightning je zelo močan zgodnji mapper tudi brez Infinity in Griffon's Eye."
+      ]
+    }
+  ],
+  "sorceress/thunder-storm": [
+    {
+      "url": "https://www.youtube.com/watch?v=WkFrTYxcaKc",
+      "title": "Project Diablo 2 – Season 14 – Double Skyfall sorceress LOD/Low tier map GOD",
+      "author": "Gregpoe",
+      "season": "S14 beta",
+      "date": "2026-10-13",
+      "part": "0:00–5:50 · kratek pregled in T1 demo",
+      "skills": "Max Thunder Storm s sinergijami in Lightning Mastery; max Teleport (manjša kazen za elementno škodo po teleportu), zato brez Energy Shielda; 1 Warmth, po želji 1 Shiver Armor.",
+      "gear": "{{Skyfall}} v roki (v S14 popravljen: deluje tudi na tebi, zato dvojni Thunder Storm udarci), dva {{Dream}} (čelada in ščit; Holy Shock aura), {{Ormus' Robes}} ali {{Skin of the Vipermagi}}, {{Mara's Kaleidoscope}}, prstan s FCR in life po killu, rokavice z 20 FCR, {{Arachnid Mesh}}, {{Sandstorm Trek}} (poison res), polni skillerji, torch in Annihilus; cilj 105 FCR.",
+      "merc": "Act 3 Lightning skoraj z enako opremo: {{Skyfall}}, dva {{Dream}}, {{Skin of the Vipermagi}}, FCR in {{Waterwalk}}.",
+      "tips": [
+        "Pasiven »auto bomber«: teleportiraš in počakaš na strele; FCR je lahko malo nižji, ker moraš strele tako ali tako počakati.",
+        "Za bosse dodaj Charged Bolt.",
+        "Primeren za LoD vsebino (red portali, Arcane) in T1 mape. Avtor dvomi, da ga razvijalci po sezoni ne bodo oslabili.",
+        "Dream zahteva Jah runo, ki je navadno precej cenejša od Ber."
+      ],
+      "vs_hiim": [
+        "Enako: Thunder Storm, Lightning Mastery in Teleport na 20; Skyfall (planer »End-Game Skyfall«) in Arachnid Mesh; merc Act 3 Static Field s Skyfall in dvema Dream.",
+        "Razlika: Hiim maxa še Charged Bolt in Novo ter nosi Griffon's Eye, Steel Carapace ali Atma's Wail, Occultist in dva Constricting Ring; prvi planer namesto Skyfalla uporablja Infinity."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=f5ueMPYH0yE&t=750s",
+      "title": "Project Diablo 2 Season 14 – Sorc Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-18",
+      "part": "12:30–14:00 · pasivni Thunder Storm",
+      "tips": [
+        "Build z dvema {{Skyfall}}: enega nosiš sam, drugega merc. Popravek Skyfalla v S14 pomeni, da proci Thunder Storma delujejo pravilno.",
+        "Pasiven »auto bomber«: le teleportiraš, Thunder Storm ubija; Nova ali Static Field pomagata. Odličen za LoD farmanje (Arcane Sanctuary), na live strežniku tudi T1 mape.",
+        "Deluje z Energy Shieldom ali brez; avtor ga ne bi uporabljal."
+      ]
+    }
+  ],
+  "sorceress/meteor": [
+    {
+      "url": "https://www.youtube.com/watch?v=7AAuplKljvg&t=0s",
+      "title": "PD2 S13 Sorc Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-17",
+      "part": "0:00–26:00 · Day 1 do Day 3 Meteor: farmanje, Uber Tristram in DClone (video pri Hiimovem planerju)",
+      "skills": "Day 1: po 1 točka v Shiver Armor, Teleport in Warmth; max Meteor, Fire Mastery ter sinergiji Blaze in Inferno. Za Uber Tristram: max Meteor, Fire Mastery, Blaze in Fire Wall (za single target, ni sinergija), ostalo v Inferno; Warmth z opreme, brez Shiver Armor.",
+      "stats": "Strength za opremo (106 za {{Verdungo's Hearty Cord}}), ostalo Vitality.",
+      "gear": "Day 1: {{Spirit}} meč, {{Lore}}, {{Stealth}}, crafted rokavice s FCR, brilliant prstan in brilliant škornji (half freeze, skupaj CBF), caster pas, {{Ancient's Pledge}} v velikem ščitu, amulet s +2 sorc skills. Day 1–3: {{Spirit}}, {{Magefist}}, amulet +3, brilliant prstana, crafted škornji in 5 fire skillerjev; MF različica z 2× {{Nagelring}} (182 MF, 105 FCR). Za DClone: {{Brimstone Rain}} (−enemy physical res, proži dodatne Meteorje, +4 skills, 75 FCR), {{Rockstopper}}, {{Verdungo's Hearty Cord}}, {{Magefist}}, 2× {{Dwarf Star}} (fire absorb), {{Waterwalk}} (max fire res); 60 FHR.",
+      "merc": "Day 1: Act 2 Defiance (PDR tudi zate) z {{Insight}} (Meditation), safety craft čelada in oklep, blood craft rokavice, pas in škornji. Za Uber Tristram: merc s petimi kosi Immortal King setta in resi (lightning 125 zaradi Conviction).",
+      "tips": [
+        "Meteor je poleg ognja tudi fizičen, zato fire immune pošasti niso velik problem.",
+        "Day 1 farmaj Andariel, Act 1 in Act 2 ključe, red portale (Demonic Insignia) in okrepljene corrupted zone. Na zone z dušami (lightning) pojdi šele s polnimi resi.",
+        "Uber Tristram: bosse vleci posamezno, merc tanka, ti ga sproti zdraviš; Fire Wall za single target, Inferno zniža fire res.",
+        "Meteor ima cooldown, zato FCR nad 105 pomaga samo pri teleportu.",
+        "Video je iz S13; Meteor se v S14 ni bistveno spremenil."
+      ],
+      "vs_hiim": [
+        "Enako: Meteor, Fire Mastery in Inferno na 20, Blaze (starter planer); Spirit, Lore in Insight merc (base planer); Magefist in 2× Nagelring (starter).",
+        "Razlika: Hiimov starter nosi Memory, Skin of the Vipermagi in String of Ears, merc Act 2 z The Reaper's Toll in Hustle."
+      ]
+    }
+  ],
+  "sorceress/ice-barrage": [
+    {
+      "url": "https://www.youtube.com/watch?v=7AAuplKljvg&t=3568s",
+      "title": "PD2 S13 Sorc Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-17",
+      "part": "59:28–71:14 · Endgame Ice Barrage in Frozen Orb (video pri Hiimovem planerju)",
+      "skills": "Max Teleport, 1 Warmth, 1 Shiver Armor, max Ice Barrage, Cold Mastery ter sinergiji Ice Bolt in Glacial Spike.",
+      "stats": "Strength za opremo, ostalo Vitality; brez max blocka (na hardcore razmisli).",
+      "gear": "{{Death's Fathom}} s 3 socketi in 5/5 cold faceti (ali orb s +6 Ice Barrage, cold skill dmg in FCR), {{Nightwing's Veil}} s 3 faceti (half freeze; z brilliant škornji CBF) ali 2/20 circlet, {{Mara's Kaleidoscope}} ali 2/20 amulet, rare rokavice z 20–30 FCR (resi, half freeze, MPK), {{Constricting Ring}} (LPK), škornji z MPK korupcijo, sorc torch, cold skill large charmi s FHR, 4 FHR skillerji (60 FHR); cilj 200 FCR (v videu 140).",
+      "merc": "{{Infinity}}, {{Flickering Flame}} (fire res), {{Fortitude}} (ali {{Innocence}} in {{Ferocity}}), {{Soul Drainer}}, {{String of Ears}}, {{Marrowwalk}}.",
+      "tips": [
+        "Avtor ima Ice Barrage za mape raje kot Frozen Orb: Pandemonium v 4:10, kravja mapa v 6–6,5 minute.",
+        "Frozen Orb ima boljši single target, če stojiš na koncu orba, a porabi več mane in je bolj nerodna.",
+        "Video je iz S13. V S14 sta Shiver in Chilling Armor dobila AoE škodo (JuxtAPoser)."
+      ],
+      "vs_hiim": [
+        "Enako: Ice Barrage, Cold Mastery, Ice Bolt, Glacial Spike in Teleport na 20; Death's Fathom, Nightwing's Veil, Mara's Kaleidoscope, Constricting Ring; merc z Infinity in Fortitude.",
+        "Razlika: Hiim nosi Skin of the Vipermagi, Medusa's Gaze, Frostburn, Snowclash, Sandstorm Trek in Stone of Jordan, merc pa Andariel's Visage, Laying of Hands, Gore Rider in Siggard's Staunch."
+      ]
+    }
+  ],
+  "paladin/sanctuary-sacrifice": [
+    {
+      "url": "https://www.youtube.com/watch?v=VwH8rsODV-Q&t=2587s",
+      "title": "PD2 S13 – Paladin Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-16",
+      "part": "43:07–54:21 · Sanctuary Sacrifice z MF opremo (video pri Hiimovem planerju)",
+      "skills": "Max Sanctuary in sinergije Might, Blessed Aim ter Holy Sword; 1 Holy Shield; Sacrifice do levela 18 (največji radij); ostalo v Joust (z Enigmo menjuješ teleport in Joust).",
+      "stats": "Strength za opremo, Dexterity do max blocka, ostalo Vitality.",
+      "gear": "Orožje s +1 skill korupcijo in 2 socketoma (IAS jeweli), {{Harlequin Crest}} (zaradi MF; alternativa circlet s +3 offensive aurami in FCR), {{Enigma}} (BiS), blood craft amulet s +skilli in CBF (v videu {{Mara's Kaleidoscope}}), rokavice in pas z MF ali FCR korupcijo, {{Wisp Projector}} in {{Bul-Kathos' Wedding Band}} (MF ali PDR korupcija), crafted škornji ali {{War Traveler}}, torch, Annihilus, offensive aura skillerji s FRW ali FHR (48 FHR), MF charmi; v videu 322–450 MF.",
+      "merc": "Act 3 Static Field s {{Stormlash}}, {{Flickering Flame}}, {{Innocence}}, {{Exile}} (Defiance, 7 % PDR), {{Marrowwalk}} (CBF), {{Arachnid Mesh}} in {{Occultist}} (FCR); cenejša možnost je Act 2 Defiance s {{Stormspire}}.",
+      "tips": [
+        "Sanctuary zniža magic res pošasti za okoli 28 % in tako zlomi skoraj vse magic imunitete: od map odpade le Royal Crypts, gredo tudi Ruins of Enshrouded Beings in River of Blood.",
+        "Škode je manj kot pri Holy Shock ali Holy Fire Sacrifice (v videu 11k, s korupcijami okoli 15k), a imaš prosto izbiro map in veliko MF; navadno ubiješ v enem ali dveh zadetkih.",
+        "MF vpliva le na predmete, ne na rune."
+      ],
+      "vs_hiim": [
+        "Enako: Sanctuary, Might, Blessed Aim in Holy Sword na 20, Sacrifice; Harlequin Crest, Mara's Kaleidoscope, Wisp Projector, War Traveler, Arachnid Mesh; merc Act 3 s Flickering Flame, Innocence, Exile, Occultist, Arachnid Mesh in Marrowwalk.",
+        "Razlika: Hiim nosi Azurewrath, Skywarden, Arkaine's Valor, Dracul's Grasp in Raven Frost, merc pa Skyfall namesto Stormlasha."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-wUr1y4gkec&t=271s",
+      "title": "Project Diablo 2 Season 14 – Paladin Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-12",
+      "part": "4:31–8:40 · Sanctuary Sacrifice",
+      "tips": [
+        "S14: novi jeweli s % magic skill damage močno okrepijo Sanctuary Sacrifice; poln Griswold's set z do 14 socketi da okoli +42 % magic skill damage.",
+        "Z opremo za drugi dan že čisti T2 ear mape, T3 je mogoč. Najboljši so offensive aura skillerji."
+      ]
+    }
+  ],
+  "paladin/auradin-charge-hoj-2x-dragon": [
+    {
+      "url": "https://www.youtube.com/watch?v=-wUr1y4gkec&t=801s",
+      "title": "Project Diablo 2 Season 14 – Paladin Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-12",
+      "part": "13:21–14:00 · Hand of Justice",
+      "tips": [
+        "S14: {{Hand of Justice}} ima Holy Fire auro na levelu 14 namesto 12, kar neposredno okrepi postavitev z dvema {{Dragon}} in Hand of Justice.",
+        "Avtor omenja, da obstaja tudi budget različica te postavitve."
+      ]
+    }
+  ],
+  "paladin/bow-paladin": [
+    {
+      "url": "https://www.youtube.com/watch?v=xfttjJ7rFVo",
+      "title": "Project Diablo 2 Season 14 – Holy Bolt BowDin Guide! (Budget Mapper)",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–12:28 · budget vodič in demo v ear mapi",
+      "skills": "Max sinergije Holy Bolta: Holy Light, Fist of the Heavens in Holy Nova (v sam Holy Bolt ne daš nič, proci uporabljajo sinergije). Offensive aure niso koristne; Vigor (hitrost) ali Redemption (sustain); ostanek v resist aure ali Meditation.",
+      "stats": "Strength in Dexterity za opremo, ostalo Vitality (okoli 2.000 lifea).",
+      "gear": "{{Endless Hail}} (do +5 Strafe kot oskill), {{Principle}} (40 % možnosti za Holy Bolt level 30; prej 75 %), {{Kira's Guardian}} (resi, half freeze; socketi za nove magic skill damage jewele, skupaj do 9 socketov), {{Tombsong}} (pierce), {{The Cat's Eye}} (FRW, pierce, IAS) ali hit power craft amulet, {{Razortail}} (pierce), {{Dracul's Grasp}} ali {{Magnus' Skin}}, {{Treads of Cthon}} (FRW, pierce), prstana z mano in lifeom po killu ter half freeze (s Kira's CBF), paladin torch, Annihilus, magic damage large charmi; 89 IAS, vsaj 48 FHR. Celotna oprema stane manj kot ena high runa.",
+      "merc": "Act 2 s {{Purity}}, {{Vampire Gaze}}, {{Shaftstop}}, {{Laying of Hands}}, {{String of Ears}}, {{Marrowwalk}}.",
+      "tips": [
+        "Držiš Strafe, Principle pa proži Holy Bolte s polnimi sinergijami; potrebuješ 100 % pierce.",
+        "Magic buildi (FoH, Holy Bolt, Hammerdin) uporabljajo iste charme, zato je dober prehodni build; S14 magic jeweli dodajo še nekaj škode.",
+        "Na tem budgetu T1 in T2 ear mape (pošasti so 2× bolj trpežne), T3 je preveč. Single target je dober, zmore tudi Uberje in DClone."
+      ],
+      "vs_hiim": [
+        "Enako: Holy Light, Fist of the Heavens in Holy Nova na 20; Endless Hail, Principle, The Cat's Eye, Razortail, Treads of Cthon.",
+        "Razlika: Hiim maxa še Blessed Aim, nosi Giant Skull, Aetherwing, Laying of Hands, Carrion Wind in Raven Frost; merc ima Asylum, Andariel's Visage in Heavenly Garb."
+      ]
+    }
+  ],
+  "necromancer/fire-golems": [
+    {
+      "url": "https://www.youtube.com/watch?v=LKix0kGYqOE&t=2791s",
+      "title": "PD2 S13 Necro Guide – Full Progression",
+      "author": "philanthropy777",
+      "season": "S13",
+      "date": "2026-04-21",
+      "part": "46:31–57:15 · Endgame Fire Golems (video pri Hiimovem planerju)",
+      "skills": "Max Fire Golem in sinergije Golem Mastery, Clay Golem, Iron Golem ter Blood Golem (vsaka 9 % na level); najprej Clay Golem (attack rating), nato Iron Golem (obramba), na koncu Blood Golem. 1 Bone Armor, 1 Lower Resist (po želji, za single target), Blood Warp do cooldowna okoli 0,6 s.",
+      "stats": "Strength za opremo, vse ostalo Energy (Bone Armor vpije okoli 1.500); v Vitality nič, life je okoli 1.000.",
+      "gear": "Crafted Dominion wand (+3 Fire Golem, +2 Revive, +3 Golem Mastery), {{Phoenix}} (Redemption za sustain, ker ves čas Blood Warpaš), {{Mara's Kaleidoscope}} ali crafted amulet s +2 skills, {{Trang-Oul's Scales}} s 3 socketi (resi, FHR jeweli za 86 FHR), {{Gravepalm}}, {{Wisp Projector}}, {{Bul-Kathos' Wedding Band}}, {{Arachnid Mesh}}, {{Marrowwalk}} (CBF). Za snapshot: diadem in čelada s +Fire Golem, {{Harlequin Crest}}, {{Ormus' Robes}} s 3 fire faceti, swap s +skilli.",
+      "merc": "Act 2 z {{Infinity}}, {{Flickering Flame}} (Resist Fire: +10 % fire dmg), {{Lava Gout}}, {{Shaftstop}}, {{String of Ears}}, {{Marrowwalk}}; IAS breakpoint 63 (9 frame-ov).",
+      "tips": [
+        "Snapshot: obleci opremo s +skilli in fire skill damage, zapusti igro in se vrni, nato ponovno pokliči golema; vrni običajno opremo. Golemi obdržijo bonuse.",
+        "−enemy fire res na tvoji opremi ne velja za golema, šteje le +fire skill damage.",
+        "Build je bil v S13 oslabljen, a še vedno ubije vse v T3 mapah; v videu manjka 6–7 skillov in 80 % fire skill damage (brez korupcij v beti).",
+        "Cena po avtorjevi oceni okoli 25–40 high run."
+      ],
+      "vs_hiim": [
+        "Enako: Fire Golem, Golem Mastery, Clay Golem, Iron Golem in Blood Golem na 20; Trang-Oul's Scales, Arachnid Mesh, BK; merc Act 2 z Infinity, Flickering Flame, Shaftstop in String of Ears.",
+        "Razlika: Hiim nosi Golemlord's wand, glavo, diadem in amulet, Magefist, Imp Shank in Stone of Jordan; merc ima Dracul's Grasp in Gore Rider."
+      ]
+    }
+  ],
+  "amazon/plague-javelin": [
+    {
+      "url": "https://www.youtube.com/watch?v=AIZF04-hhio",
+      "title": "Don't Look Back! Fortified Meltation! S13 PD2 Plague Javelin Amazon Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S13 beta",
+      "date": "2026-04-21",
+      "part": "0:00–18:07 · mini vodič in demo v fortified mapah",
+      "skills": "Max Plague Javelin in sinergiji Poison Javelin ter Javelin and Spear Mastery; Pierce, dokler z opremo ne dosežeš 100 %; veliko točk v Dodge in Evade.",
+      "stats": "Strength za opremo, Dexterity do max blocka, ostalo Vitality; čim več resov.",
+      "gear": "{{Gargoyle's Bite}} (BiS: poison pierce, skilli), {{Andariel's Visage}}, {{Mara's Kaleidoscope}}, {{Bramble}}, {{Spirit Ward}}, rokavice s skilli (ali {{Venom Grip}}, {{Trang-Oul's Claws}}), {{Carrion Wind}} (proži Poison Creeper, še več −poison res), {{Raven Frost}} (CBF), {{Razortail}} in {{Treads of Cthon}} (pierce), torch, Annihilus, poison in javelin skillerji, FRW in FHR. IAS ni pomemben, ker ima Plague Javelin cooldown 1 s.",
+      "merc": "Act 1 Vigor (hitrost, »run and gun«) z {{Innocence}}: poison ne izkoristi Infinity, izkoristi pa Lower Resist, ki ga Innocence proži tudi med tekom mimo pošasti; merc potrebuje veliko damage reduction.",
+      "tips": [
+        "Tečeš in mečeš vsako sekundo; edino težko je pobiranje plena.",
+        "Najhitreje gre v fortified mapah (T2, T3): pošasti imajo dvojni HP, a še vedno umrejo, poti med njimi so bolj proste, plen in XP sta dvojna. T3 fortified mape nimajo poison immunov.",
+        "Build se že več sezon ni spremenil; je tudi eden najmočnejših bosserjev (DClone, Lucion)."
+      ],
+      "vs_hiim": [
+        "Enako: Plague Javelin, Poison Javelin, Javelin and Spear Mastery in Evade na 20; Gargoyle's Bite, Andariel's Visage, Trang-Oul's Claws, Treads of Cthon, Raven Frost.",
+        "Razlika: Hiim nosi Enigmo, Lidless Wall, Siggard's Staunch, Lancer's amulet in BK; merc je Act 3 Static Field z Beast in Exile, video pa priporoča Act 1 Vigor z Innocence."
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DjFRDx5vlTE&t=41s",
+      "title": "Project Diablo 2 Season 14 – Amazon Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-13",
+      "part": "0:41–2:30 in 7:01–8:00 · javelin drevo in nove možnosti",
+      "tips": [
+        "S14: Poison Javelin in Plague Javelin sta nespremenjena; build ostaja odličen bosser.",
+        "Matriarchal Javelin ima lahko zdaj 3 sockete, zato je Plague Javelin z runewordom {{Venom}} ali {{Plague}} močan bosser."
+      ]
+    }
+  ],
+  "barbarian/whirlwind-dual-wield": [
+    {
+      "url": "https://www.youtube.com/watch?v=hhDGZQRaiHI&t=841s",
+      "title": "Project Diablo 2 Season 14 – Barbarian Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-17",
+      "part": "14:01–18:50 · splošne spremembe in Whirlwind",
+      "tips": [
+        "One-Handed Mastery ima zdaj zgornjo mejo 45 % namesto 35 %. Po avtorju je dodatnih 10 % crita (crit ima 200 % multiplier) velik buff za vse dual wield in enoročne builde.",
+        "Zaradi tega je dual wield Whirlwind v S14 bolj smiseln; budget različica je dual wield bleed z dvema {{Razor's Edge}} in bleed opremo.",
+        "Two-Handed Mastery je le malo oslabljen, Natural Resistance pa omejen na 75 %. Whirlwind ostaja S tier mapper: že s {{Bloodtree Stump}}, {{Lionheart}} in rare čelado ubije večino pošasti v enem ali dveh prehodih."
+      ]
+    }
+  ],
+  "barbarian/frenzy": [
+    {
+      "url": "https://www.youtube.com/watch?v=hhDGZQRaiHI&t=841s",
+      "title": "Project Diablo 2 Season 14 – Barbarian Changes and Testing results",
+      "author": "JuxtAPoser",
+      "season": "S14 beta",
+      "date": "2026-10-17",
+      "part": "14:01–15:30 · splošne spremembe",
+      "tips": [
+        "One-Handed Mastery ima zdaj zgornjo mejo 45 % namesto 35 %. Po avtorju je dodatnih 10 % crita (crit ima 200 % multiplier) velik buff za vse dual wield in enoročne builde.",
+        "Frenzy, Double Swing, Concentrate in Berserk so dobili popravke doslednosti: zadetki se zdaj zanesljiveje registrirajo.",
+        "Natural Resistance je omejen na 75 %."
+      ]
+    }
+  ],
+  "amazon/cold-arrow": [
+    {
+      "url": "https://www.youtube.com/watch?v=1wfkE2PEGR0",
+      "title": "PD2 S12 – GG Min/Maxed Cold Arrow Zon Guide",
+      "author": "philanthropy777",
+      "season": "S12",
+      "date": "2026-01-12",
+      "part": "0:00–27:43 · min/max endgame vodič (video pri Hiimovem planerju)",
+      "skills": "Max Cold Arrow in sinergiji Magic Arrow ter Ice Arrow; 1 Critical Strike, Pierce do 100 %, 1 Penetrate (attack rating); 1 Dodge, max Evade, ostalo v Dodge.",
+      "stats": "Strength za opremo, Dexterity za lok, ostalo Vitality; nič Energy.",
+      "gear": "{{Pus Spitter}} s +3 skills, 45 % IAS (z merc Fanaticism vsaj level 14 breakpoint) in 4 cold faceti, {{Nightwing's Veil}} s 3 faceti, {{Mara's Kaleidoscope}} (ali blood craft amulet z mano po killu), {{Frozen Sorrow}} (+3 dodatne puščice), rokavice +3 bow skills in 20 IAS s pierce korupcijo, {{Snowclash}} (+2, half freeze; z Nightwing's CBF), {{Wisp Projector}} (Heart of Wolverine za AR), {{Bul-Kathos' Wedding Band}} z mano po killu, {{Merman's Sprocket}} (FRW), {{Skullder's Ire}} (MF; alternativa {{Arkaine's Valor}} ali {{Silks of the Victor}}), FRW skillerji, amazon torch, Annihilus, FRW in res small charmi.",
+      "merc": "Act 1 Vigor (merc je le nosilec aure) s {{Faith}} (Fanaticism vsaj level 14 za IAS breakpoint, tudi attack rating), {{Vampire Gaze}} ali {{Andariel's Visage}}, {{Fortitude}}, {{Marrowwalk}} (CBF, PDR korupcija), {{String of Ears}}, {{Lava Gout}} (Enchant Fire: +65 % attack rating). Več +skills na mercu pomeni močnejši Vigor.",
+      "tips": [
+        "Kurzor drži blizu lika: bolj kot je oddaljen, ožje se puščice razpršijo.",
+        "Mape: T1 Westmarch, Jungle, Halls of Torture; T2 Tombs, Skovos, Ancestral Trial (pazi na pajke s strupom); T3 Pandemonium (avtorjev favorit, pod 4:30 z lootom), Plagues, Canyon. Blood Moon ni idealen.",
+        "Single target je dober, a ne odličen. Avtor ocenjuje build z 8,5/10 in meni, da bi bil Fire Arrow hitrejši.",
+        "Video je iz S12; v S13 vodiču philanthropy777 omeni, da je bil Cold Arrow medtem oslabljen."
+      ],
+      "vs_hiim": [
+        "Enako: Cold Arrow, Ice Arrow, Magic Arrow in Pierce na 20, Evade; Pus Spitter, Frozen Sorrow, Nightwing's Veil, Snowclash, Merman's Sprocket, rokavice +3 bow skills z IAS; merc Act 1 Vigor s Faith, Fortitude in Marrowwalk.",
+        "Razlika: Hiim nosi Silks of the Victor, blood craft amulet in 2× Stone of Jordan, merc pa Crown of Ages, Abyssal Ward in Verdungo's."
+      ]
+    }
+  ],
+  "assassin/poison-blade-dance": [
+    {
+      "url": "https://www.youtube.com/watch?v=u7vm8ZcTiv4",
+      "title": "PD2 S12 – Ultra Speed GG Min/Maxed PSN WW Assassin Build Guide!",
+      "author": "philanthropy777",
+      "season": "S12",
+      "date": "2026-01-20",
+      "part": "0:00–24:30 · min/max endgame in budget možnosti (video pri Hiimovem planerju)",
+      "skills": "1 Tiger Strike (s tremi naboji velik melee splash), max Cobra Strike (sinergija za Venom), 1 Blade Shield, max Venom, Claw and Dagger Mastery in Burst of Speed (več FRW); ostalo v Weapon Block. Vrstni red: po 1 točka povsod, nato Cobra Strike, Venom, Claw and Dagger Mastery, Burst of Speed, Weapon Block.",
+      "stats": "Strength in Dexterity za opremo (več Dexterity, če je možnost zadetka pod 90–95 %, da se strup vedno nanese), ostalo Vitality.",
+      "gear": "{{Chaos}} (Blade Dance = assassin Whirlwind) v eth War Fist s +3 Claw and Dagger Mastery (nato +3 Weapon Block, Blade Shield), {{Andariel's Visage}} s 3 poison faceti, {{The Cat's Eye}} (FRW, Dexterity), {{Tyrael's Might}} s 3 socketi (45 % FRW, CBF, resi, škoda proti demonom in undeadom), {{Venom Grip}} (AR korupcija), 2× {{Carrion Wind}} (FRW, Poison Creeper zniža poison res), pas s FRW in life leechem, {{Firelizard's Talons}} s 3 socketi (Blaze ob blocku), {{Infernostride}} (Blaze ob zadetku, ločen proc), assassin torch, shadow disciplines GC-ji s FRW; skupaj okoli 317 % FRW. Pre-buff swap: oprema s +shadow disciplines in +Venom. Budget: Natalya's set ali {{Jade Talon}}, {{Black Hades}} s 4 poison faceti, {{Siggard's Staunch}}, {{Wisp Projector}}, triple res škornji.",
+      "merc": "Act 1 Vigor (merc je le nosilec aure) z {{Mist}} (Concentration: več attack ratinga kot Fanaticism iz {{Faith}}), {{Vampire Gaze}}, {{Templar's Might}}, {{Bannerlord's Call}} (+3 skills za Vigor), {{Marrowwalk}}, {{String of Ears}}, {{Lava Gout}} (Enchant Fire, več AR).",
+      "tips": [
+        "Nad približno 300 % FRW so donosi zelo majhni.",
+        "Blaze iz Firelizard's Talons (ob blocku, 51 % blocka) in iz Infernostride (ob zadetku) imata ločena cooldowna, zato te skoraj ves čas pospešujeta.",
+        "Fizična in poison škoda skupaj pomenita, da greš lahko v vse mape. Najboljše so mape z ozkimi potmi (River of Blood v T2), v T3 Phlegethon in Ruined Cistern; v Throne z increased life Balrogov ne ubiješ več v enem prehodu.",
+        "Video je iz S12."
+      ],
+      "vs_hiim": [
+        "Enako: Cobra Strike, Venom, Claw and Dagger Mastery in Burst of Speed na 20, Weapon Block; Chaos v War Fist, Venom Grip; merc Act 1 Vigor z Vampire Gaze in Marrowwalk.",
+        "Razlika: Hiim nosi Natalya's set (v videu budget možnost) z Verdungo's, Wisp in Raven Frost; merc ima Innocence, Demon Machine in Bloodfist."
+      ]
+    }
   ]
 }
