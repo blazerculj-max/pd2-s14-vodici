@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Runewordi · PD2 S14 buildi</title>
+<meta name="description" content="Runewordi za Project Diablo 2 S14: filtri po bazi in socketih ter iskanje po runah, ki jih imaš.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css?v=87ab96bd">
+<link rel="icon" href="img/skills/druid/Arctic Blast.png">
+<script src="assets/runewords.js?v=af9c0950" defer></script>
+</head>
+<body class="page-items">
+<div class="topbar"><div class="wrap"><a class="brand" href="index.html">PD2 <span>S14</span> buildi</a><nav aria-label="Strani"><a href="index.html">Razredi</a><a href="amazon.html">Amazon</a><a href="assassin.html">Assassin</a><a href="barbarian.html">Barbarian</a><a href="druid.html">Druid</a><a href="necromancer.html">Necromancer</a><a href="paladin.html">Paladin</a><a href="sorceress.html">Sorceress</a><a href="predmeti.html">Predmeti</a><a href="runewordi.html" aria-current="page">Runewordi</a><a href="mape.html">Mape</a><a href="crafting.html">Crafting</a><a href="druid-nacrt.html">Druid plan</a><a href="vodic.html">Vodič</a></nav></div></div>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Runewordi · S14</div>
+<h1>Runewordi</h1>
+<p class="lead">Vsi runewordi s filtri po bazi in številu socketov. Vpiši ali izberi rune, ki jih imaš: poišče, kje se uporabijo, kaj že lahko sestaviš in kje manjka samo še ena runa.</p>
+</div></header>
+<main class="wrap"><section>
+<form class="wfilters" role="search" onsubmit="return false">
+<label class="wsearch"><span class="sr-only">Iskanje</span><input type="search" id="rq" placeholder="Išči po imenu ali statsu: Enigma, Faster Cast Rate, Crushing Blow" autocomplete="off" spellcheck="false"></label>
+<div class="filters" role="group" aria-label="Kam gre runeword" id="rmain"><button type="button" data-m="" aria-pressed="true">Vse</button><button type="button" data-m="weapon" aria-pressed="false">Orožje</button><button type="button" data-m="armor" aria-pressed="false">Oklep</button><button type="button" data-m="shield" aria-pressed="false">Ščit</button><button type="button" data-m="helm" aria-pressed="false">Helm</button></div>
+<div class="filters rsub" role="group" aria-label="Vrsta baze" id="rsub" hidden></div>
+<div class="wsel">
+<label>Socketi<select id="rsock"><option value="">Vsi</option><option value="2">2 os</option><option value="3">3 os</option><option value="4">4 os</option><option value="5">5 os</option><option value="6">6 os</option></select></label>
+<label>Level do<input type="number" id="rreq" min="1" max="99" inputmode="numeric" placeholder="99"></label>
+<label>Razvrsti<select id="rsort"><option value="use">Največ buildov</option><option value="req">Level naraščajoče</option><option value="cheap">Najcenejše rune</option><option value="dear">Najdražje rune</option><option value="name">Ime</option></select></label>
+<label class="chk"><input type="checkbox" id="rused"> samo iz buildov</label>
+<label class="chk"><input type="checkbox" id="rs14"> novi in spremenjeni v S14</label>
+</div>
+<fieldset class="rpick">
+<legend>Moje rune</legend>
+<label class="wsearch"><span class="sr-only">Rune, ki jih imaš</span><input type="text" id="rhave" placeholder="Vpiši rune, npr. Ber, Mal, 2 Ist" autocomplete="off" spellcheck="false"></label>
+<div class="rpal" id="rpal" role="group" aria-label="Izberi rune"></div>
+<div class="filters rmode" role="group" aria-label="Način iskanja po runah" id="rmode"><button type="button" data-mode="any" aria-pressed="true">Vsebuje katero od njih</button><button type="button" data-mode="all" aria-pressed="false">Vsebuje vse izbrane</button><button type="button" data-mode="make" aria-pressed="false">Lahko sestavim</button><button type="button" data-mode="one" aria-pressed="false">Manjka največ 1 runa</button><button type="button" class="linkbtn" id="rclear" hidden>Počisti rune</button></div>
+<p class="muted note-s">Tapni runo za en kos več (do 3), po tretjem jo odstraniš. Pri »Lahko sestavim« štejejo tudi ponovitve, na primer Infinity rabi dva Ber.</p>
+</fieldset>
+</form>
+<div class="wcount" id="rcount" aria-live="polite">Nalagam runeworde …</div>
+<div id="rlist" class="wlist"></div>
+<button type="button" id="rmore" class="wmore" hidden>Pokaži več</button>
+<noscript><p>Iskalnik runewordov potrebuje JavaScript.</p></noscript>
+<script type="application/json" id="rw-s14">{"Madness": {"s": "new", "note": "Nov v S14: 4-socket orožje. Ob zadetku proži curse (Lower Resist, Amplify Damage in druge)."}, "Finesse": {"s": "new", "note": "Nov v S14: 3-socket oklep s pierceom, IAS in extra gold."}, "Deception": {"s": "new", "note": "Nov v S14: 3-socket helm s critical strike chance in multiplierjem."}, "Jealousy": {"s": "new", "note": "Nov v S14: 3-socket amazon metalno orožje s +12 Split Throw. +3 javelin skills pride iz baze Matriarchal Javelin."}, "Gloom": {"s": "changed", "note": "S14: +1 maksimalni curse, curse resistance 30–40 % (prej 20 %), FHR samo še 20 % (prej 20–40 %), brez »damage taken gained as mana«."}, "Famine": {"s": "changed", "note": "S14: −enemy fire, lightning in cold res je zdaj 15–20 % (prej 10–15 %)."}, "Hand of Justice": {"s": "changed", "note": "S14: Holy Fire aura na levelu 14 (prej 12)."}, "Eternity": {"s": "changed", "note": "S14: +12 Revive (prej +4)."}, "Delirium": {"s": "changed", "note": "S14: doda +1 Delirium form (oskill; v obliki skillov ne moreš uporabljati), −10 % enemy physical res in ignore target's defense."}, "Epiphany": {"s": "changed", "note": "S14: FCR 35 % (prej 20 %), lightning damage do 1250 (prej 750)."}}</script>
+<p class="muted note-s" style="margin-top:18px">Statsi so s PD2 wikija (stanje pred S14), novi S14 runewordi s Hiim planerja; S14 spremembe so povzete iz tentative patch notes in prikazane nad statsi. Baze in vrste orožja so izračunane iz tipov baz v Hiim katalogu. Podrobnosti posameznega runeworda so tudi v <a href="predmeti.html">wikiju predmetov</a>.</p>
+</section></main>
+<footer><div class="wrap credits">
+<span>Viri: <a href="https://hiimpd2.com/solo" target="_blank" rel="noopener">Hiim PD2</a> (S14 tier liste in planerji, stanje 2026-10-19), <a href="https://pd2.tools" target="_blank" rel="noopener">pd2.tools</a> (S13 statistika), <a href="https://wiki.projectdiablo2.com" target="_blank" rel="noopener">PD2 wiki</a> in S14 Alliance tentative patch notes.</span>
+<span>Slike predmetov in skillov so last Blizzard Entertainmenta (Diablo II), prevzete iz Hiim planerja. Neuradna stran skupnosti, brez povezave z Blizzardom ali ekipo Project Diablo 2.</span>
+</div></footer>
+<script src="assets/app.js?v=17a7020c"></script>
+</body>
+</html>

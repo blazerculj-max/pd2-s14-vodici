@@ -212,7 +212,8 @@
       var rws = RWS.filter(function (r) { return r.ru.indexOf(nm) >= 0; });
       rws.sort(function (a, b) { return b.nb - a.nb || (a.r || 0) - (b.r || 0); });
       if (rws.length) side.push('<div><h4>Runewordi s to runo (' + rws.length + ')</h4><div class="chips">' +
-        rws.map(function (r) { return '<a class="chip" href="#k=' + encodeURIComponent(r.k) + '"><span class="q-r">' + esc(r.n) + '</span></a>'; }).join('') + '</div></div>');
+        rws.map(function (r) { return '<a class="chip" href="#k=' + encodeURIComponent(r.k) + '"><span class="q-r">' + esc(r.n) + '</span></a>'; }).join('') +
+        '</div><p class="note-s"><a href="runewordi.html#r=' + encodeURIComponent(nm) + '">V iskalniku runewordov s filtri →</a></p></div>');
     }
     if (e.c === 'base') {
       var fitting = RWS.filter(function (r) { return fits(r, e); });

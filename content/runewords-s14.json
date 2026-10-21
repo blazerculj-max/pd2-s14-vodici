@@ -1,0 +1,13 @@
+{
+  "_opis": "Runewordi, ki so v S14 novi ali spremenjeni (povzetek S14 Alliance tentative patch notes). Statsi v tooltipih so z wikija pred S14, zato te opombe veljajo pred njimi.",
+  "Madness": {"s": "new", "note": "Nov v S14: 4-socket orožje. Ob zadetku proži curse (Lower Resist, Amplify Damage in druge)."},
+  "Finesse": {"s": "new", "note": "Nov v S14: 3-socket oklep s pierceom, IAS in extra gold."},
+  "Deception": {"s": "new", "note": "Nov v S14: 3-socket helm s critical strike chance in multiplierjem."},
+  "Jealousy": {"s": "new", "note": "Nov v S14: 3-socket amazon metalno orožje s +12 Split Throw. +3 javelin skills pride iz baze Matriarchal Javelin."},
+  "Gloom": {"s": "changed", "note": "S14: +1 maksimalni curse, curse resistance 30–40 % (prej 20 %), FHR samo še 20 % (prej 20–40 %), brez »damage taken gained as mana«."},
+  "Famine": {"s": "changed", "note": "S14: −enemy fire, lightning in cold res je zdaj 15–20 % (prej 10–15 %)."},
+  "Hand of Justice": {"s": "changed", "note": "S14: Holy Fire aura na levelu 14 (prej 12)."},
+  "Eternity": {"s": "changed", "note": "S14: +12 Revive (prej +4)."},
+  "Delirium": {"s": "changed", "note": "S14: doda +1 Delirium form (oskill; v obliki skillov ne moreš uporabljati), −10 % enemy physical res in ignore target's defense."},
+  "Epiphany": {"s": "changed", "note": "S14: FCR 35 % (prej 20 %), lightning damage do 1250 (prej 750)."}
+}

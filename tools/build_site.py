@@ -1,4 +1,5 @@
 """Iz data/site.json in content/ zgradi statično stran v docs/ (GitHub Pages)."""
+import hashlib
 import html
 import json
 import os
@@ -418,12 +419,23 @@ def build_html(b, cls):
 
 # ---------- strani ----------
 
+def versioned(html_text):
+    """Doda ?v=<hash vsebine> k CSS in JS v assets/, da brskalnik po posodobitvi ne uporabi stare različice."""
+    def rep(m):
+        path = os.path.join(DOCS, "assets", m.group(2))
+        if not os.path.exists(path):
+            return m.group(0)
+        h = hashlib.md5(open(path, "rb").read()).hexdigest()[:8]
+        return f'{m.group(1)}="assets/{m.group(2)}?v={h}"'
+    return re.sub(r'(href|src)="assets/([\w.-]+\.(?:css|js))"', rep, html_text)
+
+
 def page(title, body, current, desc, extra_head="", body_class=""):
     nav = [("index.html", "Razredi")] + [(f'{c["id"]}.html', c["name"]) for c in SITE["classes"]] + [
-        ("predmeti.html", "Predmeti"), ("mape.html", "Mape"), ("crafting.html", "Crafting"),
+        ("predmeti.html", "Predmeti"), ("runewordi.html", "Runewordi"), ("mape.html", "Mape"), ("crafting.html", "Crafting"),
         ("druid-nacrt.html", "Druid plan"), ("vodic.html", "Vodič")]
     nav_html = "".join(f'<a href="{h}"{" aria-current=\"page\"" if h == current else ""}>{e(t)}</a>' for h, t in nav)
-    return f"""<!doctype html>
+    return versioned(f"""<!doctype html>
 <html lang="sl">
 <head>
 <meta charset="utf-8">
@@ -447,7 +459,7 @@ def page(title, body, current, desc, extra_head="", body_class=""):
 <script src="assets/app.js"></script>
 </body>
 </html>
-"""
+""")
 
 
 def index_html():
@@ -478,6 +490,7 @@ def index_html():
 <a class="class-card" href="mape.html"><h3>Mape in imunitete</h3><span class="muted">Vse S14 mape s pošastmi in imunitetami, filter po tvojem elementu, najhitrejši buildi, orbi in map eventi.</span></a>
 <a class="class-card" href="crafting.html"><h3>Crafting vodič</h3><span class="muted">Kako item postane uporaben ali vreden: socketi, nadgradnje, korupcija, reroll, crafti in affixi z alvl.</span></a>
 <a class="class-card" href="predmeti.html"><h3>Wiki predmetov</h3><span class="muted">Iskalnik po vseh uniquih, setih, runewordih, craftih, runah in bazah: statsi z razponi, recepti in kateri buildi jih nosijo.</span></a>
+<a class="class-card" href="runewordi.html"><h3>Runewordi</h3><span class="muted">Vsi runewordi s filtri po bazi (orožje po vrstah, oklep, ščit, helm) in socketih. Vpiši rune, ki jih imaš, in poišči, kje se uporabijo ali kaj že lahko sestaviš.</span></a>
 <a class="class-card" href="vodic.html"><h3>Splošni vodič</h3><span class="muted">Kaj pobirati, budget runewordi, crafting, recepti v cubu, mape za začetnika in S14 spremembe.</span></a>
 <div class="class-card"><h3>PDF za tisk</h3><span class="muted">Druid plan in budget mapper vodič na A4, s kvadratki za kljukice.</span><span class="links"><a href="pdf/Druid-nacrt-S14.pdf">Druid plan (PDF)</a><a href="pdf/Budget-mapper-S14.pdf">Budget mapper (PDF)</a></span></div>
 <a class="class-card" href="assassin.html#b-chain-lightning-sentry"><h3>Za novinca</h3><span class="muted">Najlažji budget mapperji: lightning trapsin, Fire Blast trapsin, Arctic Blast druid, skeleton necro in lightning sorc imajo naš podroben vodič in povzetke video vodičev.</span></a>
@@ -608,6 +621,55 @@ def items_page_html():
     return page("Predmeti · PD2 S14 buildi", body, "predmeti.html",
                 "Wiki predmetov za Project Diablo 2 S14: statsi, recepti in buildi, ki predmet uporabljajo.",
                 extra_head='<script src="assets/items.js" defer></script>', body_class="page-items")
+
+
+def runewords_page_html():
+    mains = [("", "Vse"), ("weapon", "Orožje"), ("armor", "Oklep"), ("shield", "Ščit"), ("helm", "Helm")]
+    mbtn = "".join(f'<button type="button" data-m="{k}" aria-pressed="{str(not k).lower()}">{e(t)}</button>' for k, t in mains)
+    sopt = '<option value="">Vsi</option>' + "".join(f'<option value="{n}">{n} os</option>' for n in range(2, 7))
+    sorts = [("use", "Največ buildov"), ("req", "Level naraščajoče"), ("cheap", "Najcenejše rune"), ("dear", "Najdražje rune"), ("name", "Ime")]
+    sortopt = "".join(f'<option value="{k}">{e(t)}</option>' for k, t in sorts)
+    modes = [("any", "Vsebuje katero od njih"), ("all", "Vsebuje vse izbrane"), ("make", "Lahko sestavim"), ("one", "Manjka največ 1 runa")]
+    modebtn = "".join(f'<button type="button" data-mode="{k}" aria-pressed="{str(k == "any").lower()}">{e(t)}</button>' for k, t in modes)
+    s14 = json.load(open(os.path.join(CONTENT, "runewords-s14.json")))
+    s14.pop("_opis", None)
+    s14_json = json.dumps(s14, ensure_ascii=False).replace("</", "<\\/")
+    body = f"""
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Runewordi · S14</div>
+<h1>Runewordi</h1>
+<p class="lead">Vsi runewordi s filtri po bazi in številu socketov. Vpiši ali izberi rune, ki jih imaš: poišče, kje se uporabijo, kaj že lahko sestaviš in kje manjka samo še ena runa.</p>
+</div></header>
+<main class="wrap"><section>
+<form class="wfilters" role="search" onsubmit="return false">
+<label class="wsearch"><span class="sr-only">Iskanje</span><input type="search" id="rq" placeholder="Išči po imenu ali statsu: Enigma, Faster Cast Rate, Crushing Blow" autocomplete="off" spellcheck="false"></label>
+<div class="filters" role="group" aria-label="Kam gre runeword" id="rmain">{mbtn}</div>
+<div class="filters rsub" role="group" aria-label="Vrsta baze" id="rsub" hidden></div>
+<div class="wsel">
+<label>Socketi<select id="rsock">{sopt}</select></label>
+<label>Level do<input type="number" id="rreq" min="1" max="99" inputmode="numeric" placeholder="99"></label>
+<label>Razvrsti<select id="rsort">{sortopt}</select></label>
+<label class="chk"><input type="checkbox" id="rused"> samo iz buildov</label>
+<label class="chk"><input type="checkbox" id="rs14"> novi in spremenjeni v S14</label>
+</div>
+<fieldset class="rpick">
+<legend>Moje rune</legend>
+<label class="wsearch"><span class="sr-only">Rune, ki jih imaš</span><input type="text" id="rhave" placeholder="Vpiši rune, npr. Ber, Mal, 2 Ist" autocomplete="off" spellcheck="false"></label>
+<div class="rpal" id="rpal" role="group" aria-label="Izberi rune"></div>
+<div class="filters rmode" role="group" aria-label="Način iskanja po runah" id="rmode">{modebtn}<button type="button" class="linkbtn" id="rclear" hidden>Počisti rune</button></div>
+<p class="muted note-s">Tapni runo za en kos več (do 3), po tretjem jo odstraniš. Pri »Lahko sestavim« štejejo tudi ponovitve, na primer Infinity rabi dva Ber.</p>
+</fieldset>
+</form>
+<div class="wcount" id="rcount" aria-live="polite">Nalagam runeworde …</div>
+<div id="rlist" class="wlist"></div>
+<button type="button" id="rmore" class="wmore" hidden>Pokaži več</button>
+<noscript><p>Iskalnik runewordov potrebuje JavaScript.</p></noscript>
+<script type="application/json" id="rw-s14">{s14_json}</script>
+<p class="muted note-s" style="margin-top:18px">Statsi so s PD2 wikija (stanje pred S14), novi S14 runewordi s Hiim planerja; S14 spremembe so povzete iz tentative patch notes in prikazane nad statsi. Baze in vrste orožja so izračunane iz tipov baz v Hiim katalogu. Podrobnosti posameznega runeworda so tudi v <a href="predmeti.html">wikiju predmetov</a>.</p>
+</section></main>"""
+    return page("Runewordi · PD2 S14 buildi", body, "runewordi.html",
+                "Runewordi za Project Diablo 2 S14: filtri po bazi in socketih ter iskanje po runah, ki jih imaš.",
+                extra_head='<script src="assets/runewords.js" defer></script>', body_class="page-items")
 
 
 EL_NAME = {"phys": "Physical", "magic": "Magic", "fire": "Fire", "light": "Lightning", "cold": "Cold", "poison": "Poison"}
@@ -890,6 +952,7 @@ def main():
     open(os.path.join(DOCS, "vodic.html"), "w").write(guide_html())
     open(os.path.join(DOCS, "druid-nacrt.html"), "w").write(druid_plan_html())
     open(os.path.join(DOCS, "predmeti.html"), "w").write(items_page_html())
+    open(os.path.join(DOCS, "runewordi.html"), "w").write(runewords_page_html())
     open(os.path.join(DOCS, "mape.html"), "w").write(maps_page_html())
     open(os.path.join(DOCS, "crafting.html"), "w").write(crafting_page_html())
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")

@@ -471,3 +471,27 @@ details.mapc.is-bad .fit { color: var(--bad); }
 .vid ul.plain { font-size: 0.93rem; }
 .vid-vs { border-top: 1px dashed var(--line); padding-top: 8px; font-size: 0.93rem; display: grid; gap: 4px; }
 @media (max-width: 640px) { .vid .kv { grid-template-columns: minmax(0, 1fr); } .vid .kv dt { padding-top: 6px; } }
+
+/* ===== runewordi ===== */
+.filters[hidden] { display: none; }
+.rsub button { font-size: 0.86rem; padding: 4px 10px; }
+.rpick { border: 1px solid var(--line); background: var(--surface); padding: 10px 12px 4px; margin: 0; display: grid; gap: 8px; min-width: 0; }
+.rpick legend { font-family: var(--font-mono); font-size: 0.76rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding: 0 6px; }
+.rpick .wsearch input { background: var(--bg); }
+.rpal { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 4px; }
+.rpb { font: inherit; font-family: var(--font-mono); font-size: 0.82rem; display: flex; align-items: center; gap: 4px; padding: 3px 6px; background: var(--surface-2); color: var(--muted); border: 1px solid var(--line); cursor: pointer; min-width: 0; }
+.rpb img { width: 22px; height: 22px; flex: none; }
+.rpb .cnt { margin-left: auto; color: var(--accent); font-weight: 500; }
+.rpb[aria-pressed="true"] { color: var(--fg); border-color: var(--accent); background: var(--surface); }
+.rmode { margin-bottom: 4px; }
+.rmode button { font-size: 0.86rem; padding: 4px 10px; }
+.rmode .linkbtn { font-size: 0.86rem; margin-left: 4px; }
+.rw .rrunes { font-family: var(--font-mono); font-size: 0.86rem; color: var(--q-rw); display: flex; flex-wrap: wrap; gap: 0 4px; }
+.rw .rrunes .sep { color: var(--muted); }
+.rr.have { color: var(--good); font-weight: 500; }
+.rr.miss { color: var(--warn); text-decoration: line-through; }
+.chip.have { outline: 1px solid var(--good); }
+.chip.miss { outline: 1px dashed var(--warn); opacity: 0.75; }
+.badge.rmiss { color: var(--warn); }
+.wstats { display: grid; gap: 10px; min-width: 0; }
+.note.rs14 { font-size: 0.92rem; padding: 8px 12px; }
