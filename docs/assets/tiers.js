@@ -26,8 +26,17 @@
   });
 
   // filter po razredu: skrije čipe drugih razredov in posodobi števce v vrsticah
+  var dhBud = document.getElementById('dhbud'), dhFort = document.getElementById('dhfort'), dhCount = document.getElementById('dhcount');
   function applyClass() {
-    document.querySelectorAll('.tchip').forEach(function (c) { c.hidden = !!state.cls && c.dataset.c !== state.cls; });
+    document.querySelectorAll('.tchip, .dhc[data-c]').forEach(function (c) { c.hidden = !!state.cls && c.dataset.c !== state.cls; });
+    var shown = 0;
+    document.querySelectorAll('.dht tbody tr').forEach(function (r) {
+      var hide = (!!state.cls && r.dataset.c !== state.cls) || (dhBud && dhBud.checked && Number(r.dataset.b) < 2) ||
+        (dhFort && dhFort.checked && Number(r.dataset.f) < 2);
+      r.hidden = hide;
+      if (!hide) shown++;
+    });
+    if (dhCount) dhCount.textContent = shown + ' buildov';
     document.querySelectorAll('.trow').forEach(function (r) {
       var n = r.querySelectorAll('.tchip:not([hidden])').length;
       r.querySelector('.tcount').textContent = n;
@@ -43,7 +52,11 @@
 
   function applyBoss() {
     document.querySelectorAll('.bpanel').forEach(function (p) { p.hidden = p.dataset.boss !== state.boss || p.dataset.lvl !== state.lvl; });
+    document.querySelectorAll('.dhboss').forEach(function (p) { p.hidden = p.dataset.boss !== state.boss; });
+    var lvl = document.getElementById('blvl');
+    if (lvl) lvl.hidden = state.boss === 'uber';
   }
+  [dhBud, dhFort].forEach(function (el) { if (el) el.addEventListener('change', applyClass); });
   document.querySelectorAll('#bboss button').forEach(function (b) {
     b.addEventListener('click', function () { state.boss = b.dataset.boss; pressGroup('#bboss', 'boss', state.boss); applyBoss(); });
   });

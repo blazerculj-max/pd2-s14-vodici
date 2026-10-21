@@ -289,6 +289,13 @@ def ratings_html(b):
     if b.get("group"):
         g = ", ".join(f'{GROUP_LABEL.get(x["list"], x["list"])}: <span class="{tier_class(x["tier"])}">{e(x["tier"])}</span>' for x in b["group"])
         cells.append(f'<div class="rate"><span class="rl">Party</span><span>{g}</span></div>')
+    dh = b.get("_dh") or []
+    if dh:
+        rows = "".join(
+            f'<span class="dhr"><span class="rv {dh_class(t["tier"])}">{e(t["tier"])}</span>'
+            + (f' <span class="muted">{e(t["name"])}</span>' if len(dh) > 1 else "")
+            + f'<span class="dfs">{dh_flags_html(t)}</span></span>' for t in dh)
+        cells.append(f'<div class="rate"><span class="rl">DarkHumility (late game)</span>{rows}</div>')
     st = b.get("stats")
     if st:
         ratio = round(st["n95"] / st["n90"] * 100) if st.get("n90") else 0
@@ -312,6 +319,81 @@ def stats_html(st):
 
 _vp = os.path.join(CONTENT, "videos.json")
 VIDEOS = {k: v for k, v in json.load(open(_vp)).items() if not k.startswith("_")} if os.path.exists(_vp) else {}
+
+# DarkHumilityjeva S14 tier lista (tools/fetch_dh.py) in povezava njegovih imen z našimi buildi (content/dh-map.json)
+_dhp = os.path.join(ROOT, "data", "dh", "tierlist.json")
+DH = json.load(open(_dhp)) if os.path.exists(_dhp) else None
+DH_MAP = json.load(open(os.path.join(CONTENT, "dh-map.json")))
+DH_ALIAS = {k: v for k, v in DH_MAP.get("_alias", {}).items() if not k.startswith("_")}
+DH_BY_BUILD = {}
+for _t in (DH or {}).get("tiers", []):
+    for _bid in DH_MAP.get(_t["cls"], {}).get(_t["name"], []):
+        DH_BY_BUILD.setdefault((_t["cls"], _bid), []).append(_t)
+DH_TIERS = ["S++", "S+", "S", "S-", "A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "F+", "F", "F-", "F--", "F---"]
+DH_FLAGS = [
+    ("fort", "Fortified", {"✔✔✔": "fortified mape so zanj odlične", "✔✔": "fortified mape so idealne", "✔": "fortified mape so primerne",
+                           "❌": "fortified map ne priporoča"}),
+    ("budget", "Budget", {"✔✔✔": "za mape rabi zelo malo", "✔✔": "dober na budgetu", "✔": "ima dobre budget možnosti",
+                          "❌": "za late game mape rabi veliko investicije"}),
+    ("hc", "HC", {"✔✔": "za hardcore skoraj ni treba žrtvovati škode", "✔": "za hardcore zmerno žrtvovanje škode",
+                  "❌": "za hardcore veliko žrtvovanja ali težko prilagoditi"}),
+    ("t12", "T1–T2", {"✔✔✔": "v T1–T2 mapah veliko učinkovitejši", "✔✔": "v T1–T2 mapah učinkovitejši",
+                      "✔": "približno enak v vseh tierih", "❌": "v T1–T2 mapah je lahko slabši"}),
+]
+
+
+def dh_rank(t):
+    return DH_TIERS.index(t) if t in DH_TIERS else 99
+
+
+def dh_class(t):
+    return "dh-" + (t or "?")[0].lower()
+
+
+def dh_flags_html(t, short=False):
+    out = []
+    for k, label, mean in DH_FLAGS:
+        v = t.get(k)
+        if not v:
+            continue
+        cls = "dfn" if v == "❌" else "dfy"
+        out.append(f'<span class="df {cls}" title="{e(label)}: {e(mean.get(v, v))}">{e(label)} {e(v)}</span>')
+    return "".join(out)
+
+
+def dh_resolve(name, cls=None):
+    """Ime iz DH seznama → (razred, build) z naše strani ali None."""
+    name = (name or "").strip()
+    for key in ((f"{cls}|{name}",) if cls else ()) + (f"*|{name}",):
+        if key in DH_ALIAS:
+            v = DH_ALIAS[key]
+            if not v:
+                return None
+            c_id, b_id = v.split("/")
+            c = next(c for c in SITE["classes"] if c["id"] == c_id)
+            return c, next(b for b in c["builds"] if b["id"] == b_id)
+    cands = [t for t in (DH or {}).get("tiers", []) if t["name"].strip() == name and (not cls or t["cls"] == cls)]
+    if len({t["cls"] for t in cands}) == 1:
+        ids = DH_MAP.get(cands[0]["cls"], {}).get(cands[0]["name"], [])
+        if ids:
+            c = next(c for c in SITE["classes"] if c["id"] == cands[0]["cls"])
+            return c, next(b for b in c["builds"] if b["id"] == ids[0])
+    if not cls:
+        return None
+    norm = lambda x: re.sub(r"[^a-z0-9]", "", x.lower())
+    def keys(x):
+        out = set()
+        for part in re.split(r"\s*(?:/|\(|\)| - |\+|,|>)\s*", x):
+            n = norm(part)
+            if n:
+                out |= {n, n.rstrip("s")}
+        return out
+    want = keys(name)
+    c = next(c for c in SITE["classes"] if c["id"] == cls)
+    order = {"Top": 0, "Good": 1, "Decent": 2, "Starter": 3}
+    hits = [b for b in c["builds"] if want & (keys(b["name"]) | {norm(b["name"])} | keys((b.get("main") or {}).get("name", "")))]
+    hits.sort(key=lambda b: (order.get(b["tier"], 9), b.get("sort") or 0))
+    return (c, hits[0]) if hits else None
 MISSING_VIDEO_ITEMS = set()
 
 
@@ -385,6 +467,10 @@ def build_html(b, cls):
         badges.append('<span class="badge" style="color:var(--accent)">naš vodič</span>')
     if VIDEOS.get(f'{cls["id"]}/{b["id"]}'):
         badges.append('<span class="badge">video</span>')
+    b["_dh"] = sorted(DH_BY_BUILD.get((cls["id"], b["id"]), []), key=lambda t: dh_rank(t["tier"]))
+    if b["_dh"]:
+        top = b["_dh"][0]["tier"]
+        badges.append(f'<span class="badge {dh_class(top)}" title="DarkHumility late game mapping tier">DH {e(top)}</span>')
     summary = (f'<summary>{img_tag(main.get("img"), "skico lg", main.get("name", ""))}'
                f'<span class="bn"><b>{e(b["name"])}</b><span class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</span></span>'
                f'<span class="badges">{"".join(badges)}</span></summary>')
@@ -407,9 +493,17 @@ def build_html(b, cls):
     else:
         body.append('<div class="muted">Hiim za ta build nima planerja.</div>')
     body.append(stats_html(b.get("stats")))
-    if b.get("links"):
-        links = "".join(f'<a href="{e(l["url"])}" target="_blank" rel="noopener">{e(l.get("label") or "Povezava")}</a>' for l in b["links"] if l.get("url"))
-        body.append(f'<div><h4>Video in vodiči</h4><div class="links">{links}</div></div>')
+    links = [(l["url"], l.get("label") or "Povezava") for l in b.get("links") or [] if l.get("url")]
+    have = {m.group(1) for u, _ in links for m in [re.search(r"(?:v=|youtu\.be/)([\w-]{11})", u)] if m}
+    for t in b.get("_dh") or []:
+        m = re.search(r"v=([\w-]{11})", t.get("video") or "")
+        if m and m.group(1) not in have:
+            have.add(m.group(1))
+            sn = ((DH or {}).get("videos", {}).get(m.group(1)) or {}).get("season")
+            links.append((t["video"], f'DarkHumility{f" (S{sn})" if sn else ""}: {t["name"]}'))
+    if links:
+        links_html = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(lb)}</a>' for u, lb in links)
+        body.append(f'<div><h4>Video in vodiči</h4><div class="links">{links_html}</div></div>')
     if b.get("clear") and b["clear"].get("video"):
         body.append(f'<div class="links"><a href="{e(b["clear"]["video"])}" target="_blank" rel="noopener">Video najhitrejše mape ({e(b["clear"].get("player") or "")})</a></div>')
     starter_attr = "1" if b.get("starter") else "0"
@@ -711,6 +805,9 @@ def tiers_page_html():
                 rows.append((f'b-{t.lower()}', BOSS_LABEL[t], "", chips))
             boss_panels.append(f'<div class="bpanel" data-boss="{bk}" data-lvl="{lvl}"{"" if (bk, lvl) == ("dclone", "t0") else " hidden"}>{tier_rows(rows)}</div>')
     bbtn = "".join(f'<button type="button" data-boss="{k}" aria-pressed="{str(k == "dclone").lower()}">{e(v)}</button>' for k, v in BOSS_NAME.items())
+    if DH:
+        bbtn += '<button type="button" data-boss="uber" aria-pressed="false">Uber Tristram</button>'
+
     lbtn = ('<button type="button" data-lvl="t0" aria-pressed="true">T0 (osnovna)</button>'
             '<button type="button" data-lvl="t2" aria-pressed="false">T2 (najtežja)</button>')
 
@@ -772,9 +869,107 @@ def tiers_page_html():
                          [group_chip(x, gl) for x in ents if x.get("tier") == t]))
         group_html.append(f'<h3 class="tsub">{gname}</h3>{tier_rows(rows)}')
 
+    # DarkHumility: tier lista, seznami in priporočila
+    dh_tab, dh_budget, dh_boss = "", "", {}
+    if DH:
+        cls_name = {c["id"]: c["name"] for c in SITE["classes"]}
+
+        def dh_link(name, cls=None, extra=""):
+            hit = dh_resolve(name, cls)
+            data_c = hit[0]["id"] if hit else (cls or "")
+            if hit:
+                return (f'<a class="dhi" data-c="{data_c}" href="{hit[0]["id"]}.html#b-{e(hit[1]["id"])}">{e(name)}</a>{extra}')
+            return f'<span class="dhi" data-c="{data_c}">{e(name)}</span>{extra}'
+
+        def dh_ol(items, cls=None):
+            return "<ol class=\"dhl\">" + "".join(f"<li>{dh_link(n, cls)}</li>" for n in items) + "</ol>"
+
+        def dh_rec_block(key):
+            r = DH["recs"].get(key)
+            if not r:
+                return ""
+            per = "".join(f'<div class="dhc" data-c="{c}"><b>{e(cls_name.get(c, c))}</b>{dh_ol(items, c)}</div>'
+                          for c, items in r["classes"].items())
+            return (f'<div class="dhrec"><div class="dhc dhover"><b>Najboljših 10 skupaj</b>{dh_ol(r["overall"])}</div>{per}</div>')
+
+        rows = []
+        for t in sorted(DH["tiers"], key=lambda t: (dh_rank(t["tier"]), t["cls"], t["name"])):
+            hit = None
+            ids = DH_MAP.get(t["cls"], {}).get(t["name"], [])
+            if ids:
+                c = next(c for c in SITE["classes"] if c["id"] == t["cls"])
+                hit = (c, next(b for b in c["builds"] if b["id"] == ids[0]))
+            name = (f'<a href="{t["cls"]}.html#b-{e(hit[1]["id"])}">{e(t["name"])}</a>' if hit else e(t["name"]))
+            vm = re.search(r"v=([\w-]{11})", t.get("video") or "")
+            sn = (DH.get("videos", {}).get(vm.group(1)) or {}).get("season") if vm else None
+            vid = (f'<a href="{e(t["video"])}" target="_blank" rel="noopener">video{f" S{sn}" if sn else ""}</a>' if t.get("video") else "")
+            flags = "".join(f'<td class="dft" title="{e(lb)}: {e(mean.get(t.get(k) or "", ""))}">{e(t.get(k) or "")}</td>' for k, lb, mean in DH_FLAGS)
+            rows.append(f'<tr data-c="{t["cls"]}" data-b="{len(t.get("budget") or "") if t.get("budget") != "❌" else 0}" '
+                        f'data-f="{len(t.get("fort") or "") if t.get("fort") != "❌" else 0}">'
+                        f'<td class="{dh_class(t["tier"])} dtier">{e(t["tier"])}</td><td>{name}<span class="muted dtree">{e(cls_name[t["cls"]])} · {e(t.get("tree") or "")}</span></td>'
+                        f'{flags}<td>{vid}</td></tr>')
+        legend = "".join(f'<li><b>{e(lb)}</b>: ' + "; ".join(f"{e(k)} {e(v)}" for k, v in mean.items()) + "</li>" for _, lb, mean in DH_FLAGS)
+        lists = DH["lists"]
+        LIST_SL = {"solo-mapping-top-10": "Najboljših 10 za solo mapping",
+                   "s13-s14-biggest-movers": "Največji premiki S13 → S14",
+                   "solo-top-10-overall-starting-mapping-bosses": "Najboljših 10 skupaj (začetek, mape, bossi)",
+                   "overall-class-power-ranking": "Moč razredov",
+                   "grouping-gods": "Najboljši za skupine (T3, T4)",
+                   "solo-dungeon-capable": "Zmorejo dungeone solo",
+                   "new-on-s14-tier-list": "Novo na S14 listi"}
+        lists_html = []
+        for l in lists:
+            if l["key"] == "overall-class-power-ranking":
+                body_l = "<ol class=\"dhl\">" + "".join(f'<li><a href="{x["name"].lower()}.html">{e(x["name"])}</a></li>' for x in l["items"]) + "</ol>"
+            else:
+                body_l = "<ol class=\"dhl\">" + "".join(
+                    "<li>" + dh_link(x["name"], None,
+                                     f' <span class="muted">{e(x["from"])} → {e(x["to"])}</span>' if x.get("to")
+                                     else (f' <span class="{dh_class(x["tier"])}">{e(x["tier"])}</span>' if x.get("tier") else "")) + "</li>"
+                    for x in l["items"]) + "</ol>"
+            lists_html.append(f'<div class="dhbox"><h4>{e(LIST_SL.get(l["key"], l["title"]))}</h4>{body_l}</div>')
+        res = "".join(f'<li><a href="{e(l["url"])}" target="_blank" rel="noopener">{e(l["label"])}</a></li>' for l in DH["links"])
+        dh_tab = f"""
+<div class="tpanel" id="p-darkhumility" role="tabpanel" aria-labelledby="tab-darkhumility" hidden>
+<p class="tintro"><a href="{e(DH["url"])}" target="_blank" rel="noopener">DarkHumilityjeva S14 late game tier lista</a> (stanje {e(DH["fetched"])}). Merilo je število pošasti na minuto v najboljših T3 mapah za build (prilagojeno za gostoto), s skoraj vrhunsko opremo brez veliko korupcij in z optimalno igro. S je najboljše, F najslabše; + in − sta zgornji in spodnji del tiera. Ime builda vodi na našo stran, kjer ga imamo.</p>
+<div class="filters" role="group" aria-label="Filter DarkHumility" id="dhf"><label class="chk"><input type="checkbox" id="dhbud"> samo budget (✔✔ in več)</label><label class="chk"><input type="checkbox" id="dhfort"> samo za fortified mape (✔✔ in več)</label><span class="muted" id="dhcount"></span></div>
+<div class="tbl-wrap"><table class="tbl dht"><thead><tr><th>Tier</th><th>Build</th><th>Fortified</th><th>Budget</th><th>HC</th><th>T1–T2</th><th>Vodič</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
+<details class="dhkey"><summary>Kaj pomenijo oznake</summary><ul class="plain">{legend}</ul></details>
+<div class="dhgrid">{"".join(lists_html)}</div>
+<h3 class="tsub">Drugi DarkHumilityjevi viri</h3><ul class="plain">{res}</ul>
+</div>"""
+        # budget: DH oznaka »Budget« in priporočeni starterji
+        brow = []
+        for v, label, sub in (("✔✔✔", "Zelo poceni", "za mape rabi zelo malo"), ("✔✔", "Dober na budgetu", ""), ("✔", "Budget možnosti", "")):
+            chips = []
+            for t in sorted([t for t in DH["tiers"] if t.get("budget") == v], key=lambda t: dh_rank(t["tier"])):
+                ids = DH_MAP.get(t["cls"], {}).get(t["name"], [])
+                extra = f' · DH {e(t["tier"])}'
+                if ids:
+                    c = next(c for c in SITE["classes"] if c["id"] == t["cls"])
+                    b = next(b for b in c["builds"] if b["id"] == ids[0])
+                    chips.append(tier_chip(c, b, extra).replace(f'<b>{e(b["name"])}</b>', f'<b>{e(t["name"])}</b>', 1))
+                else:
+                    chips.append(f'<span class="tchip" data-c="{t["cls"]}"><span class="tn"><b>{e(t["name"])}</b>'
+                                 f'<span class="muted">{e(cls_name[t["cls"]])}{extra}</span></span></span>')
+            brow.append(("bud-low" if v == "✔✔✔" else "bud-mid" if v == "✔✔" else "bud-high", f"{label} {v}", sub, chips))
+        dh_budget = f"""
+<h3 class="tsub">DarkHumility: budget ocena</h3>
+<p class="tintro">Oznaka »Budget« iz DarkHumilityjeve tier liste: kako dobro build mapa s poceni opremo. Ob imenu je njegova ocena za late game.</p>
+{tier_rows(brow)}
+<h3 class="tsub">DarkHumility: priporočeni starterji</h3>
+<p class="tintro">Njegov vrstni red starterjev po razredih in najboljših 10 skupaj.</p>
+{dh_rec_block("starter")}"""
+        for k in ("dclone", "rathma", "lucion", "uber"):
+            dh_boss[k] = f'<h3 class="tsub">DarkHumility priporoča</h3>{dh_rec_block(k)}'
+
+    dh_boss_html = "".join(f'<div class="dhboss" data-boss="{k}"{"" if k == "dclone" else " hidden"}>'
+                           + ('<p class="tintro">Hiim za Uber Tristram nima liste, zato je tu samo DarkHumilityjevo priporočilo.</p>' if k == "uber" else "")
+                           + v + "</div>" for k, v in dh_boss.items())
     cbtn = '<button type="button" data-cls="" aria-pressed="true">Vsi razredi</button>' + "".join(
         f'<button type="button" data-cls="{c["id"]}" aria-pressed="false">{e(c["name"])}</button>' for c in SITE["classes"])
-    tabs = [("mapping", "Mapping"), ("bossing", "Bossing"), ("budget", "Budget"), ("skupine", "Skupine")]
+    tabs = [("mapping", "Mapping"), ("bossing", "Bossing"), ("budget", "Budget"), ("skupine", "Skupine")] + (
+        [("darkhumility", "DarkHumility")] if DH else [])
     tbtn = "".join(f'<button type="button" role="tab" id="tab-{k}" aria-controls="p-{k}" aria-selected="{str(k == "mapping").lower()}">{e(t)}</button>' for k, t in tabs)
     body = f"""
 <header class="hero"><div class="wrap">
@@ -796,6 +991,7 @@ def tiers_page_html():
 <div class="filters" role="group" aria-label="Boss" id="bboss">{bbtn}</div>
 <div class="filters" role="group" aria-label="Težavnost" id="blvl">{lbtn}</div>
 {"".join(boss_panels)}
+{dh_boss_html}
 </div>
 
 <div class="tpanel" id="p-budget" role="tabpanel" aria-labelledby="tab-budget" hidden>
@@ -811,13 +1007,15 @@ def tiers_page_html():
 <h3 class="tsub">Samo endgame planer</h3>
 <p class="tintro">Top, Good in Decent buildi, za katere Hiim nima začetnega planerja, zato cene po runah ne moremo oceniti.</p>
 <div class="tcs tflat">{"".join(endonly)}</div>
+{dh_budget}
 </div>
 
 <div class="tpanel" id="p-skupine" role="tabpanel" aria-labelledby="tab-skupine" hidden>
 <p class="tintro">Hiim group tier liste za igro v skupini (do 8 igralcev). Fizične in elementne skupine imajo ločeni listi, ker si delijo aure in curse za svojo vrsto škode.</p>
 {"".join(group_html)}
 </div>
-<p class="muted note-s" style="margin-top:18px">Vir: <a href="https://hiimpd2.com/solo" target="_blank" rel="noopener">Hiim PD2</a> S14 tier liste (mapping, bossing, starter, group), stanje {SITE["updated"]}. Oznaki »vodič« in »video« pomenita naš vodič oziroma povzetek video vodiča pri buildu.</p>
+{dh_tab}
+<p class="muted note-s" style="margin-top:18px">Vir: <a href="https://hiimpd2.com/solo" target="_blank" rel="noopener">Hiim PD2</a> S14 tier liste (mapping, bossing, starter, group), stanje {SITE["updated"]}{f', in <a href="{e(DH["url"])}" target="_blank" rel="noopener">DarkHumilityjeva S14 tier lista</a> (stanje {e(DH["fetched"])})' if DH else ""}. Oznaki »vodič« in »video« pomenita naš vodič oziroma povzetek video vodiča pri buildu.</p>
 </section></main>"""
     return page("Tier liste · PD2 S14 buildi", body, "tier-liste.html",
                 "PD2 S14 tier liste: mapping, bossing, budget in skupine po razredih.",
@@ -886,6 +1084,37 @@ def imm_badges(m):
     return "".join(out)
 
 
+DH_MAP_NOTE = {
+    "All Drops Ethereal (Boss Drops Ethereal Unique)": "vsi dropi so ethereal, boss dropa ethereal unique",
+    "Jewel Overload (Boss Drops Rainbow Facet)": "veliko jewelov, boss dropa Rainbow Facet",
+    "All Monsters 50% Chance To Drop Extra Items (Boss Drop Overload)": "vse pošasti imajo 50 % možnosti za dodaten drop, boss dropa veliko predmetov",
+    "All Drops Corrupted (Boss Drops Corrupted Unique)": "vsi dropi so korumpirani, boss dropa korumpiran unique",
+    "Charm Overload (Boss Drops Skiller)": "veliko charmov, boss dropa skiller",
+    "3 Random Uber Mats": "3 naključni materiali za Uberje",
+    "Larzuk's Puzzle Piece + Box": "Larzuk's Puzzlepiece in Puzzlebox",
+    "All Drops Socketed (Boss Drops Socketed Unique)": "vsi dropi imajo sockete, boss dropa unique s socketi",
+}
+
+
+def dh_map_note(m):
+    """Opomba iz DarkHumilityjeve tabele map, kadar doda kaj novega ali se ne ujema z našimi podatki."""
+    if not DH:
+        return ""
+    key = lambda n: re.sub(r"[^a-z]", "", re.sub(r"^the ", "", n.lower()))
+    d = next((x for x in DH["maps"] if key(x["name"]) == key(m["name"])), None)
+    if not d:
+        return ""
+    parts = []
+    if d.get("note"):
+        parts.append(f'{e(d["tier"].replace("Tier ", "T"))} unique mapa: {e(DH_MAP_NOTE.get(d["note"], d["note"]))}.')
+    if m["tier"].startswith("Tier") and d["tier"] != m["tier"]:
+        parts.append(f'jo ima v {e(d["tier"].replace("Tier ", "T"))}, Hiim v {e(m["tier"].replace("Tier ", "T"))}.')
+    ours = {x["el"] for x in m["imm"]} | set(m.get("extra") or [])
+    if m["tier"].startswith("Tier") and d["imm"] and set(d["imm"]) - ours:
+        parts.append("navaja tudi imunitete " + ", ".join(EL_NAME[x] for x in EL_ORDER if x in set(d["imm"]) - ours) + ".")
+    return (f'<p class="note-s"><b>DarkHumility:</b> {" ".join(parts)}</p>') if parts else ""
+
+
 def map_card(m):
     rows = []
     for mo in m["monsters"]:
@@ -913,7 +1142,7 @@ def map_card(m):
     return (f'<details class="mapc" data-imm="{els}"><summary><span class="mn"><b>{e(m["name"])}</b>'
             f'<span class="meta">{" · ".join(meta)}' + (f' · {len(m["best"])}× najhitrejša' if m["best"] else "") + '</span></span>'
             f'<span class="els">{imm_badges(m)}</span><span class="fit" aria-hidden="true"></span></summary>'
-            f'<div class="mapb">' + (f'<p class="note-s">{e(m["note"])}</p>' if m["note"] else "") + best + extra +
+            f'<div class="mapb">' + (f'<p class="note-s">{e(m["note"])}</p>' if m["note"] else "") + dh_map_note(m) + best + extra +
             f'<div class="tbl-wrap"><table class="tbl mon"><thead><tr><th>Pošast</th><th>Tip</th>{head}</tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div><div class="links">{link}</div></div></details>')
 

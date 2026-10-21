@@ -1,0 +1,3394 @@
+{
+ "url": "https://docs.google.com/spreadsheets/d/1DLkTz-3gtlBgoyxxAot60Ro_76ct3Oz8Bmyhu7Hbwo4/htmlview",
+ "title": "Late Game Solo Mapping Tier List",
+ "fetched": "2026-10-21",
+ "tiers": [
+  {
+   "cls": "sorceress",
+   "tree": "Lightning Tree",
+   "name": "Nova",
+   "tier": "S-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Lightning Tree",
+   "name": "Charged Bolt",
+   "tier": "C",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": "https://www.youtube.com/watch?v=ihfmVRtP49g"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Lightning Tree",
+   "name": "Chain Lightning",
+   "tier": "A+",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=BUdWCG4rYnY"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Lightning Tree",
+   "name": "Teleport Thunder Storm (Passive)",
+   "tier": "B+",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": "https://www.youtube.com/watch?v=9ThR6hgz66o"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Lightning Tree",
+   "name": "Vengeance (Kingslayer)",
+   "tier": "B",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Lightning Tree",
+   "name": "Lightning + Enchant Multiple Shot (Widowmaker)",
+   "tier": "C",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "❌",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Frost Nova",
+   "tier": "S-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=67R385W4vEE"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Frozen Orb",
+   "tier": "S-",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Ice Barrage",
+   "tier": "A+",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=HJZ8tv0I-L4"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Blizzard",
+   "tier": "A+",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=SEJ92-dZ0Xs"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Glacial Spike",
+   "tier": "F",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Cold Enchant - Multiple Shot (Widowmaker)",
+   "tier": "B",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Cold Enchant - Werebear Sorc (Uldyssian's/Odium)",
+   "tier": "F",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "❌",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=a1ThZjeQbK8"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Cold Tree",
+   "name": "Blaze Frost Nova (Dangoon's + Innocence)",
+   "tier": "C-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "❌",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Combustion",
+   "tier": "A",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": "https://www.youtube.com/watch?v=kYIo4qNxJzg"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Meteor",
+   "tier": "C",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Hydra",
+   "tier": "B+",
+   "fort": "✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=iOVwI8ZDtGU"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Inferno",
+   "tier": "C-",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=YGG5P1yJUAw"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Blaze/Fire Wall",
+   "tier": "D",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "❌",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Fire Enchant - Exploding Arrow (Demon Machine)",
+   "tier": "S",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=8sVZK8gUHJA"
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Fire Enchant - Multiple Shot (Widowmaker)",
+   "tier": "B-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "sorceress",
+   "tree": "Fire Tree",
+   "name": "Blaze Fire Ball Proc (Hellslayer + Innocence)",
+   "tier": "D-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "❌",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Elemental Tree",
+   "name": "Twister",
+   "tier": "B",
+   "fort": "✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Elemental Tree",
+   "name": "Tornado",
+   "tier": "C",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Elemental Tree",
+   "name": "Arctic Blast/Hurricane",
+   "tier": "A+",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=NvNt-XRJYBQ"
+  },
+  {
+   "cls": "druid",
+   "tree": "Elemental Tree",
+   "name": "Molten Boulder",
+   "tier": "B-",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=f9YtVB40UeE"
+  },
+  {
+   "cls": "druid",
+   "tree": "Elemental Tree",
+   "name": "Fissure",
+   "tier": "A-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Elemental Tree",
+   "name": "Volcano",
+   "tier": "S+",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=N3Kkf3tqOm8"
+  },
+  {
+   "cls": "druid",
+   "tree": "Shape Shifting Tree",
+   "name": "Bear - Shock Wave",
+   "tier": "B-",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Shape Shifting Tree",
+   "name": "Wolf - Rabies",
+   "tier": "S+",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "❌",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Shape Shifting Tree",
+   "name": "Wolf - Fire Claws",
+   "tier": "A-",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Shape Shifting Tree",
+   "name": "Wolf - Fury",
+   "tier": "C+",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Shape Shifting Tree",
+   "name": "Wolf - Twister Proc Fury (Windhammer + 2x Carrions)",
+   "tier": "D",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=RIqGn9EMfNA"
+  },
+  {
+   "cls": "druid",
+   "tree": "Shape Shifting Tree",
+   "name": "Bear - Maul",
+   "tier": "B-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Summon Tree",
+   "name": "Summon (Wolf Focus)",
+   "tier": "F+",
+   "fort": "✔✔",
+   "budget": "✔✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔✔",
+   "video": "https://www.youtube.com/watch?v=GvHHtAoAIYg"
+  },
+  {
+   "cls": "druid",
+   "tree": "Summon Tree",
+   "name": "Summon (4x Bears Only - Denmother)",
+   "tier": "C",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "druid",
+   "tree": "Summon Tree",
+   "name": "Poison Creeper (Worm Summoning)",
+   "tier": "B+",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=A7fzSxMwRvc"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Chain Lightning Sentry",
+   "tier": "B",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Charged Bolt Sentry",
+   "tier": "F---",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Shock Web",
+   "tier": "D+",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Wake of Fire",
+   "tier": "S+",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=98PbuBTn-ww"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Fire Blast",
+   "tier": "C-",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Death Sentry (Merc Desecrate Proc - Viperfork)",
+   "tier": "C-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "❌",
+   "video": null
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Blade Fury",
+   "tier": "A",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=8gX_KMBq0GI"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Poison Blade Sentinel",
+   "tier": "A",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "assassin",
+   "tree": "Traps Tree",
+   "name": "Physical Blade Sentinel",
+   "tier": "B+",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=QfYfiHNp4S8"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Martial Arts Tree",
+   "name": "Phoenix Strike",
+   "tier": "S-",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=632MDxhX3oU"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Martial Arts Tree",
+   "name": "Cobra Strike",
+   "tier": "S-",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=QJYHejCmcLo"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Martial Arts Tree",
+   "name": "Fists of Fire",
+   "tier": "S-",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=umKRr33fXLE"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Martial Arts Tree",
+   "name": "Claws of Thunder",
+   "tier": "S+",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=aYtSTap2oeQ"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Martial Arts Tree",
+   "name": "Blades of Ice",
+   "tier": "S+",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=2eJ4VzEHhaI"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Martial Arts Tree",
+   "name": "Tiger Strike",
+   "tier": "D",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "assassin",
+   "tree": "Martial Arts Tree",
+   "name": "Dragon Tail",
+   "tier": "S-",
+   "fort": "✔✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=8P8jUV0KqJg"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Shadow Disciplines Tree",
+   "name": "Mind Blast (1-2x Whispering Mirage - Summon Sin)",
+   "tier": "A",
+   "fort": "✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=6F9xbVGabn4"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Other",
+   "name": "Blade Dance",
+   "tier": "B-",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=Ab7MRBqf9rk"
+  },
+  {
+   "cls": "assassin",
+   "tree": "Other",
+   "name": "Venom Bowsin - Multiple Shot (Widowmaker)",
+   "tier": "C-",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "❌",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=52Cpdq5ftMA"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Frenzy",
+   "tier": "B-",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Whirlwind (2-H)",
+   "tier": "A",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=039_L1hXzGw"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Whirlwind (2x 1-H)",
+   "tier": "A-",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Fire Whirlwind (2x Flamebellow)",
+   "tier": "C-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=wiRrg1BzdrI"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Magic Whirlwind (2x Asylum)",
+   "tier": "A",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Hammer Whirlwind (2x Akarat's)",
+   "tier": "D-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Leap Attack (Standard - Massive ED Stick)",
+   "tier": "C+",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Fire Leap Attack (Fissure Proc - Rapture)",
+   "tier": "B",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=vrNuk38LWsc"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "War Cry Proc Leap Attack (Giant Maimer)",
+   "tier": "D+",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Double Throw",
+   "tier": "A",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Split Throw",
+   "tier": "B",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=-MqE7ZFQhKA"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Concentrate",
+   "tier": "A-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=mbs5qKh6pxA"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Combat Tree",
+   "name": "Berserk",
+   "tier": "B-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=JIy7X2gtQk8"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Warcries Tree",
+   "name": "War Cry",
+   "tier": "A",
+   "fort": "✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=hYpQVDhFBSM"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Other",
+   "name": "Bear Barb (Executioner's/Raekor's)",
+   "tier": "C+",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=8fwooHI-wWI"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Other",
+   "name": "Wolf Barb (Wolfhowl)",
+   "tier": "C+",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=6r-UyqfZxXc"
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Other",
+   "name": "Zeal Barb (Ferocity/DC/Wraithskin)",
+   "tier": "C-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "barbarian",
+   "tree": "Other",
+   "name": "Bow Barb - Multiple Shot (Widowmaker)",
+   "tier": "F+",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Lightning Fury",
+   "tier": "A+",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=B0lWpUYxdYw"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Lightning Strike",
+   "tier": "C+",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Power Strike",
+   "tier": "C",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Charged Strike",
+   "tier": "D-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Plague Javelin",
+   "tier": "S-",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=OO90IJmrpQk"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Jab",
+   "tier": "F+",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=VVDymd_eHh4"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Fend",
+   "tier": "B",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=51PjzKikyNg"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Bearzon (Uldyssian's)",
+   "tier": "C-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=aF-t_VIiQug"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Javelin and Spear Tree",
+   "name": "Split Throw (Jealousy)",
+   "tier": "C-",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Multiple Shot (Windforce/High Min Dmg Bow)",
+   "tier": "A",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=1c6-z71o2r8"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Strafe (Demon Machine)",
+   "tier": "A",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=RmiqfrSkbA0"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Crackleshot Strafe (LF/LB Proc)",
+   "tier": "C-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "❌",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Freezing Arrow",
+   "tier": "B",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=jOEEVvl4M74"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Cold Arrow",
+   "tier": "A+",
+   "fort": "✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=qKRcCmn47lY"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Fire Arrow",
+   "tier": "A+",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Exploding Arrow",
+   "tier": "A",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Bow and Crossbow Tree",
+   "name": "Magic Arrow (Asylum)",
+   "tier": "B-",
+   "fort": "✔",
+   "budget": "✔✔✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=D_ayVeitUrs"
+  },
+  {
+   "cls": "amazon",
+   "tree": "Passive and Magic Tree",
+   "name": "Hybrid Strafe/Valkyrie (Ebonbane)",
+   "tier": "B",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "amazon",
+   "tree": "Passive and Magic Tree",
+   "name": "Pure Decoy Summon (Loyalty)",
+   "tier": "D",
+   "fort": "✔✔",
+   "budget": "✔✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Poison and Bone Tree",
+   "name": "Poison Nova",
+   "tier": "A+",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": "https://www.youtube.com/watch?v=BrYownxDufw"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Poison and Bone Tree",
+   "name": "Desecrate",
+   "tier": "S+",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Poison and Bone Tree",
+   "name": "Poison Strike",
+   "tier": "S+",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=BLeOTwgu9k0"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Poison and Bone Tree",
+   "name": "Teeth",
+   "tier": "A-",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔✔",
+   "video": "https://www.youtube.com/watch?v=ZRYFHXDyIyI"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Poison and Bone Tree",
+   "name": "Bone Spear",
+   "tier": "A-",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=sm091dwsXx4"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Poison and Bone Tree",
+   "name": "Bone Wall (Amp + ATD)",
+   "tier": "C+",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=_6kIJo7ULDY"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Poison and Bone Tree",
+   "name": "Corpse Explosion",
+   "tier": "A",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=X04CW9qb7-o"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Physical Skele Summon (Brand + Tombsong)",
+   "tier": "A-",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=MF1oBPHk4rQ"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Green Goblin (Demon Machine Merc + Physical Skeles)",
+   "tier": "B-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Pure Phys Revive (Eternity + ST - Moon Lords)",
+   "tier": "D-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Pure Ele Revive (Eternity + ST - Gloams/Souls)",
+   "tier": "F",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Elemental Summoner (Mage Skeles + Ele Revives)",
+   "tier": "D",
+   "fort": "✔",
+   "budget": "✔✔✔",
+   "hc": "✔",
+   "t12": "✔✔✔",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Fire Golems",
+   "tier": "A+",
+   "fort": "❌",
+   "budget": "✔✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=FzCHZf51-W8"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Blood Golems",
+   "tier": "B-",
+   "fort": "✔",
+   "budget": "✔✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=dxI-wa_Ex5A"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Summoning Tree",
+   "name": "Clay Golems",
+   "tier": "D-",
+   "fort": "✔✔",
+   "budget": "✔✔✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Curses Tree",
+   "name": "Dark Pact",
+   "tier": "B",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=2CEuwf36xI4"
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Curses Tree",
+   "name": "Confuse",
+   "tier": "F---",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "❌",
+   "video": null
+  },
+  {
+   "cls": "necromancer",
+   "tree": "Other",
+   "name": "Passive Boner (Bone Spear Proc - Brand)",
+   "tier": "C",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "❌",
+   "video": "https://www.youtube.com/watch?v=vWiEBbKZ2bM"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Fist of the Heavens",
+   "tier": "S",
+   "fort": "❌",
+   "budget": "✔✔✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=JPwRY9_lc-w"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Holy Bolt",
+   "tier": "D+",
+   "fort": "✔✔",
+   "budget": "✔✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Blessed Hammer (Hdin)",
+   "tier": "A-",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=KFkLXlqnNtw"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Sacrifice Hammer Proc (Akarat's)",
+   "tier": "B",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Physical Zeal (1-H)",
+   "tier": "B",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=hF9ks5QgyAk"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Physical Zeal (2-H)",
+   "tier": "C+",
+   "fort": "✔✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "FOH/Holy Bolt Proc Zeal (Asylum + Principle OR Inno)",
+   "tier": "C",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "❌",
+   "video": "https://www.youtube.com/watch?v=_DBAT4Cw4kE"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Physical Charge (2-H)",
+   "tier": "B-",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=ggi1aWvv9S8"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Vengeance (Azure/Lightsabre/Famine PB)",
+   "tier": "A",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "❌",
+   "video": "https://www.youtube.com/watch?v=8YaA41jeaIE"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Smite",
+   "tier": "C-",
+   "fort": "✔✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔✔",
+   "video": "https://www.youtube.com/watch?v=22V-rRwmZTg"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Physical Sacrifice (1-H) (Schaeffer's)",
+   "tier": "S+",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=Ted9dBRPY3g"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Combat Tree",
+   "name": "Physical Sacrifice (2-H) (Leoric's)",
+   "tier": "S",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Freeze Sacrifice (Native Aura)",
+   "tier": "A+",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=6a-LRsD_eLI"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Fire Sacrifice (Items OR Native)",
+   "tier": "A-",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Shock Sacrifice (Native Aura)",
+   "tier": "S++",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=lmxa0V4Jlyk"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Sanctuary Sacrifice (Native Aura) (Redeemer)",
+   "tier": "B+",
+   "fort": "❌",
+   "budget": "✔✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Shock Charge (Items OR Native)",
+   "tier": "B-",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Freeze Charge (Doom + Shattered Wall)",
+   "tier": "B-",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "✔✔",
+   "t12": "✔",
+   "video": "https://www.youtube.com/watch?v=ofHFYV2cIMo"
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Fire Charge (HOJ + 2x Dragon)",
+   "tier": "A-",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Sanctuary Charge (Native Aura) (Redeemer)",
+   "tier": "B-",
+   "fort": "✔",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Shock Multiple Shot (Widowmaker)",
+   "tier": "D-",
+   "fort": "❌",
+   "budget": "❌",
+   "hc": "❌",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Fire Exploding Arrow (Demon Machine)",
+   "tier": "C+",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "❌",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Holy Fire Beardin (Hellslayer)",
+   "tier": "C-",
+   "fort": "✔",
+   "budget": "❌",
+   "hc": "✔",
+   "t12": "✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Principle Strafe (Endlesshail)",
+   "tier": "C-",
+   "fort": "✔",
+   "budget": "✔✔",
+   "hc": "❌",
+   "t12": "✔✔",
+   "video": null
+  },
+  {
+   "cls": "paladin",
+   "tree": "Offensive Tree",
+   "name": "Thorns Sacrifice (Silence + Bramble)",
+   "tier": "C-",
+   "fort": "❌",
+   "budget": "✔",
+   "hc": "✔",
+   "t12": "✔✔",
+   "video": null
+  }
+ ],
+ "lists": [
+  {
+   "key": "solo-mapping-top-10",
+   "title": "Solo Mapping Top 10",
+   "items": [
+    {
+     "rank": "#1",
+     "name": "Sacrifice",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#2",
+     "name": "Wake of Fire",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#3",
+     "name": "Poison Strike/Desecrate",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#4",
+     "name": "Rabies",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#5",
+     "name": "Volcano",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#6",
+     "name": "Blades of Ice",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#7",
+     "name": "Claws of Thunder",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#8",
+     "name": "Fist of the Heavens",
+     "from": null,
+     "to": null,
+     "tier": "S"
+    },
+    {
+     "rank": "#9",
+     "name": "Fire Enchant - Demon Machine",
+     "from": null,
+     "to": null,
+     "tier": "S"
+    },
+    {
+     "rank": "#10",
+     "name": "Dragon Tail",
+     "from": null,
+     "to": null,
+     "tier": "S-"
+    }
+   ]
+  },
+  {
+   "key": "s13-s14-biggest-movers",
+   "title": "S13 → S14 Biggest Movers",
+   "items": [
+    {
+     "rank": "#1",
+     "name": "Concentrate",
+     "from": "C-",
+     "to": "A-",
+     "tier": null
+    },
+    {
+     "rank": "#2",
+     "name": "Fire Claws",
+     "from": "C-",
+     "to": "A-",
+     "tier": null
+    },
+    {
+     "rank": "#3",
+     "name": "Fist of the Heavens",
+     "from": "B+",
+     "to": "S",
+     "tier": null
+    },
+    {
+     "rank": "#4",
+     "name": "Vengeance Sorc",
+     "from": "D+",
+     "to": "B",
+     "tier": null
+    },
+    {
+     "rank": "#5",
+     "name": "Enchant Multi Shot",
+     "from": "D",
+     "to": "B-",
+     "tier": null
+    },
+    {
+     "rank": "#6",
+     "name": "Shock Wave",
+     "from": "D+",
+     "to": "B-",
+     "tier": null
+    },
+    {
+     "rank": "#7",
+     "name": "Dragon Tail",
+     "from": "B+",
+     "to": "S-",
+     "tier": null
+    },
+    {
+     "rank": "#8",
+     "name": "Claws of Thunder",
+     "from": "A",
+     "to": "S+",
+     "tier": null
+    },
+    {
+     "rank": "#9",
+     "name": "Blades of Ice",
+     "from": "A",
+     "to": "S+",
+     "tier": null
+    },
+    {
+     "rank": "#10",
+     "name": "Mind Blast",
+     "from": "B",
+     "to": "A",
+     "tier": null
+    },
+    {
+     "rank": "#11",
+     "name": "Combustion",
+     "from": "B",
+     "to": "A",
+     "tier": null
+    },
+    {
+     "rank": "#12",
+     "name": "Chain Lightning Sentry",
+     "from": "C+",
+     "to": "B",
+     "tier": null
+    },
+    {
+     "rank": "#13",
+     "name": "Jab",
+     "from": "C-",
+     "to": "F+",
+     "tier": null
+    },
+    {
+     "rank": "#14",
+     "name": "Whirlwind",
+     "from": "S",
+     "to": "A",
+     "tier": null
+    },
+    {
+     "rank": "#15",
+     "name": "Green Goblin",
+     "from": "A-",
+     "to": "B-",
+     "tier": null
+    }
+   ]
+  },
+  {
+   "key": "solo-top-10-overall-starting-mapping-bosses",
+   "title": "Solo Top 10 Overall (Starting/Mapping/Bosses)",
+   "items": [
+    {
+     "rank": "#1",
+     "name": "FOH/Holy Bolt",
+     "from": null,
+     "to": null,
+     "tier": "S"
+    },
+    {
+     "rank": "#2",
+     "name": "Double Throw",
+     "from": null,
+     "to": null,
+     "tier": "A"
+    },
+    {
+     "rank": "#3",
+     "name": "Hydra",
+     "from": null,
+     "to": null,
+     "tier": "B+"
+    },
+    {
+     "rank": "#4",
+     "name": "Wake of Fire/Inferno",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    },
+    {
+     "rank": "#5",
+     "name": "Blizzard",
+     "from": null,
+     "to": null,
+     "tier": "A+"
+    },
+    {
+     "rank": "#6",
+     "name": "Blade Sentinel",
+     "from": null,
+     "to": null,
+     "tier": "A"
+    },
+    {
+     "rank": "#7",
+     "name": "Rabies/Poison Creeper",
+     "from": null,
+     "to": null,
+     "tier": "A"
+    },
+    {
+     "rank": "#8",
+     "name": "Whirlwind",
+     "from": null,
+     "to": null,
+     "tier": "A"
+    },
+    {
+     "rank": "#9",
+     "name": "Vengeance",
+     "from": null,
+     "to": null,
+     "tier": "A"
+    },
+    {
+     "rank": "#10",
+     "name": "Volcano",
+     "from": null,
+     "to": null,
+     "tier": "S+"
+    }
+   ]
+  },
+  {
+   "key": "overall-class-power-ranking",
+   "title": "Overall Class Power Ranking",
+   "items": [
+    {
+     "rank": "#1",
+     "name": "Assassin",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#2",
+     "name": "Druid",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#3",
+     "name": "Paladin",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#4",
+     "name": "Necromancer",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#5",
+     "name": "Sorceress",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#6",
+     "name": "Amazon",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#7",
+     "name": "Barbarian",
+     "from": null,
+     "to": null,
+     "tier": null
+    }
+   ]
+  },
+  {
+   "key": "grouping-gods",
+   "title": "Grouping Gods",
+   "items": [
+    {
+     "rank": "#1",
+     "name": "Dark Pact/Curse Support (Lower Res > Dim > Confuse)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#2",
+     "name": "Max Conviction Aura (FOH > Vengeance)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#3",
+     "name": "Summon Necro (Revives > Golems > Skeles)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#4",
+     "name": "Summon Druid (4x Bears Pref - Max Oak Sage)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#5",
+     "name": "War Cry/BO Support Barbarian (Stormspire Merc)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#6",
+     "name": "Lightning Fury",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#7",
+     "name": "Shockwave (Max Oak Sage)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#8",
+     "name": "Enchantress",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#9",
+     "name": "Summon Barbarian (2x Eternity - Max BO/Grim Ward)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#10",
+     "name": "Freezing Arrow",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#11",
+     "name": "Corpse Explosion (Revive)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#12",
+     "name": "Wake of Fire/Death Sentry",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#13",
+     "name": "Mind Blast/Summon Sin",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#14",
+     "name": "Triple Thunder Storm Static Field (2x Skyfall)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#15",
+     "name": "Multiple Shot (3x Valks)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#16",
+     "name": "Pure Summon Zon",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#17",
+     "name": "Double Throw (Max BO/Grim Ward)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#18",
+     "name": "Arctic Blast (Cold Res Debuff)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#19",
+     "name": "Inferno/Fire Wall (Fire Res Debuff)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#20",
+     "name": "Poison OR Bleed Stackage (e.g. 8x Rabies Druids)",
+     "from": null,
+     "to": null,
+     "tier": null
+    }
+   ]
+  },
+  {
+   "key": "solo-dungeon-capable",
+   "title": "Solo Dungeon Capable",
+   "items": [
+    {
+     "rank": "#1",
+     "name": "Summon Necro (Multiple Elements Required) + Other",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#2",
+     "name": "Corpse Explosion",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#3",
+     "name": "Phoenix Strike",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#4",
+     "name": "Mind Blast/Psychic Hammer (Summon Sin)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#5",
+     "name": "Hybrid Trapper (WoF + LS/CLS + SW + Death Sentry)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#6",
+     "name": "Blade Dance",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#7",
+     "name": "Sanctuary (Zeal/Charge/Sacrifice/Bow)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#8",
+     "name": "Hybrid Ele (Zeal/Charge/Bow)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#9",
+     "name": "Vengeance",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#10",
+     "name": "Elemental Sacrifice",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#11",
+     "name": "Magic Arrow",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#12",
+     "name": "Berserk (Max Battle Cry)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#13",
+     "name": "Double Throw OR Split Throw (Max Battle Cry)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#14",
+     "name": "Summon Barbarian (2x Eternity - Multiple Eles Required)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#15",
+     "name": "Multi-Element Bow Enchantress (Demon Mach or Widow)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#16",
+     "name": "Fire (Volcano/Molten Boulder/Armageddon)",
+     "from": null,
+     "to": null,
+     "tier": null
+    },
+    {
+     "rank": "#17",
+     "name": "Arctic Blast/Tornado",
+     "from": null,
+     "to": null,
+     "tier": null
+    }
+   ]
+  },
+  {
+   "key": "new-on-s14-tier-list",
+   "title": "New On S14 Tier List",
+   "items": [
+    {
+     "rank": "#1",
+     "name": "Skele Archer Focus (Brand + Tombsong)",
+     "from": null,
+     "to": null,
+     "tier": "A-"
+    },
+    {
+     "rank": "#2",
+     "name": "Lightning-Focus Multiple Shot (Widowmaker)",
+     "from": null,
+     "to": null,
+     "tier": "C"
+    },
+    {
+     "rank": "#3",
+     "name": "Blaze Frost Nova (Dangoon's + Innocence)",
+     "from": null,
+     "to": null,
+     "tier": "C-"
+    },
+    {
+     "rank": "#4",
+     "name": "Split Throw (Jealousy)",
+     "from": null,
+     "to": null,
+     "tier": "C-"
+    },
+    {
+     "rank": "#5",
+     "name": "Blaze/Fire Wall",
+     "from": null,
+     "to": null,
+     "tier": "D"
+    },
+    {
+     "rank": "#6",
+     "name": "Blaze Fire Ball Proc (Hellslayer + Innocence)",
+     "from": null,
+     "to": null,
+     "tier": "D-"
+    },
+    {
+     "rank": "#7",
+     "name": "Hammer Whirlwind (2x Akarat's)",
+     "from": null,
+     "to": null,
+     "tier": "D-"
+    },
+    {
+     "rank": "#8",
+     "name": "Bow Barb - Multiple Shot (Widowmaker)",
+     "from": null,
+     "to": null,
+     "tier": "F+"
+    },
+    {
+     "rank": "#9",
+     "name": "Summon (Wolf Focus)",
+     "from": null,
+     "to": null,
+     "tier": "F+"
+    }
+   ]
+  }
+ ],
+ "recs": {
+  "starter": {
+   "title": "DH's Starter Line-up (Recommended Starter Builds)",
+   "classes": {
+    "sorceress": [
+     "Meteor",
+     "Inferno/Fire Wall",
+     "Hydra",
+     "Chain Lightning",
+     "Blizzard",
+     "Combustion",
+     "Frozen Orb",
+     "Ice Barrage",
+     "Charged Bolt"
+    ],
+    "druid": [
+     "Summon - Ravens/Wolves/Bears",
+     "Arctic Blast",
+     "Wind - Tornado/Twister",
+     "Fire - Fissure/Volcano/Molten Boulder/Armageddon",
+     "Poison Creeper/Rabies",
+     "Bear - Shockwave/Summon Support"
+    ],
+    "assassin": [
+     "Mind Blast/Psychic Hammer",
+     "Chain Lightning/Lightning Sentry",
+     "Blade Sentinel/Fury",
+     "Wake of Fire",
+     "Claws of Thunder",
+     "Phoenix Strike",
+     "Cobra Strike",
+     "Blades of Ice"
+    ],
+    "barbarian": [
+     "War Cry/Support",
+     "Double Throw - Deep Wounds",
+     "Split Throw - Deep Wounds",
+     "Whirlwind - Deep Wounds",
+     "Frenzy",
+     "Leap Attack - Deep Wounds"
+    ],
+    "amazon": [
+     "Summon - Decoys/Valks + Strafe",
+     "Fire Arrow/Exploding Arrow",
+     "Magic Arrow",
+     "Lightning Strike",
+     "Poison/Plague Javelin",
+     "Cold Arrow"
+    ],
+    "necromancer": [
+     "Summon - Blood Golems",
+     "Summon - Skeletal Mages/Revives",
+     "Teeth/Bone Spear",
+     "Summon - Fire Golems",
+     "Corpse Explosion",
+     "Poison Strike/Desecrate",
+     "Summon - Clay Golems",
+     "Summon - Skeletal Warriors/Archers",
+     "Dark Pact/Curse Support"
+    ],
+    "paladin": [
+     "Fist of the Heavens/Holy Bolt",
+     "Vengeance",
+     "Blessed Hammer",
+     "Sanctuary Zeal/Sacrifice",
+     "Physical Zeal",
+     "Principle Strafe",
+     "Smite"
+    ]
+   },
+   "overall": [
+    "Meteor",
+    "Summon - Golems",
+    "Fist of the Heavens/Holy Bolt",
+    "War Cry/Support",
+    "Inferno/Fire Wall",
+    "Hydra",
+    "Vengeance",
+    "Summon - Skeletal Mages",
+    "Chain Lightning",
+    "Mind Blast/Psychic Hammer"
+   ],
+   "overall_title": "Overall Top 10 Starters"
+  },
+  "uber": {
+   "title": "DH's Recommended Uber Tristram Builds",
+   "classes": {
+    "sorceress": [
+     "Hydra",
+     "Meteor",
+     "Blizzard/Ice Bolt",
+     "Inferno/Fire Wall",
+     "Fire Bolt/Ball",
+     "Lightning",
+     "Werebear (Cold Enchant - Odium)"
+    ],
+    "druid": [
+     "Maul",
+     "Summon (Dire Wolves > Ravens > Bears)",
+     "Arctic Blast",
+     "Fire Claws",
+     "Fury",
+     "Poison Creeper",
+     "Tornado",
+     "Firestorm"
+    ],
+    "assassin": [
+     "Blade Sentinel/Fury",
+     "Mind Blast (3x Shadows)",
+     "Wake of Inferno/Fire",
+     "Shock Web/Lightning Sentry",
+     "Dragon Tail/Talon",
+     "Cobra Strike",
+     "Fists of Fire",
+     "Blade Dance",
+     "Tiger Strike"
+    ],
+    "barbarian": [
+     "Berserk",
+     "Frenzy",
+     "Bear/Zeal/Jab Barbarian",
+     "Whirlwind",
+     "Wolf Barbarian",
+     "Split Throw",
+     "Double Throw",
+     "Leap Attack",
+     "Concentrate",
+     "Bash"
+    ],
+    "amazon": [
+     "Jab/Fend",
+     "Summon",
+     "Lightning Bolt/Lightning Fury",
+     "Immolation Arrow",
+     "Cold Arrow/Ice Arrow",
+     "Charged Strike"
+    ],
+    "necromancer": [
+     "Summon - Blood Golems (1x Clay)",
+     "Summon - Phys Skeletons/Revive",
+     "Summon - Mage Skeletons/Ele Revive",
+     "Poison Strike/Desecrate/Revive",
+     "Bone Spirit",
+     "Corpse Explosion/Revive"
+    ],
+    "paladin": [
+     "FOH/Holy Bolt",
+     "1-H Physical Zeal",
+     "Smite",
+     "Physical Charge",
+     "Vengeance",
+     "Elemental Zeal/Charge/Werebear"
+    ]
+   },
+   "overall": [
+    "Jab/Fend",
+    "Maul",
+    "Blade Sentinel/Fury",
+    "Berserk",
+    "Blood Golem Summon",
+    "Summon Amazon",
+    "Summon Druid",
+    "FOH/Holy Bolt",
+    "Hydra",
+    "Physical Zeal"
+   ],
+   "overall_title": "Overall Top 10 Uber Tristram Builds"
+  },
+  "dclone": {
+   "title": "DH's Recommended Dclone Killers",
+   "classes": {
+    "sorceress": [
+     "Hydra",
+     "Meteor",
+     "Blizzard",
+     "Fire Wall",
+     "Teleport Thunder Storm",
+     "Lightning/Chain Lightning",
+     "Charged Bolt"
+    ],
+    "druid": [
+     "Maul",
+     "Fury",
+     "Fire (Volcano/Fissure/Armageddon)",
+     "FIre Claws",
+     "Rabies/Poison Creeper",
+     "Summon (Bears/Ravens)",
+     "Arctic Blast"
+    ],
+    "assassin": [
+     "Wake of Fire/Inferno",
+     "Blade Sentinel/Fury",
+     "Lightning Sentry/Chain",
+     "Fists of Fire",
+     "Blades of Ice",
+     "Cobra Strike",
+     "Mind Blast",
+     "Dragon Tail/Dragon Talon"
+    ],
+    "barbarian": [
+     "Double Throw",
+     "Split Throw",
+     "Wolf Barbarian",
+     "Berserk",
+     "Whirlwind",
+     "Bear/Zeal/Jab Barbarian",
+     "Frenzy",
+     "Leap Attack"
+    ],
+    "amazon": [
+     "Jab/Fend",
+     "Plague Javelin",
+     "Split Throw",
+     "Fire Arrow",
+     "Lightning Bolt/Fury",
+     "Cold Arrow/Ice Arrow",
+     "Immolation/Exploding Arrow",
+     "Lightning Strike/Charged Strike",
+     "Strafe/Guided Arrow",
+     "Magic Arrow"
+    ],
+    "necromancer": [
+     "Blood Golems",
+     "Desecrate/Poison Strike/Revive",
+     "Bone Spear/Spirit"
+    ],
+    "paladin": [
+     "2-H Physical Charge",
+     "FOH/Holy Bolt",
+     "Vengeance",
+     "Elemental Werebear",
+     "1-H Physical Zeal",
+     "Smite"
+    ]
+   },
+   "overall": [
+    "Wake of Fire/Inferno",
+    "Jab/Fend",
+    "Maul",
+    "Hydra",
+    "Blade Sentinel/Fury",
+    "Plague Javelin",
+    "Double Throw",
+    "Blood Golems",
+    "2-H Physical Charge",
+    "Split Throw"
+   ],
+   "overall_title": "Overall Top 10 Dclone Killers"
+  },
+  "rathma": {
+   "title": "DH's Recommended Rathma Killers",
+   "classes": {
+    "sorceress": [
+     "Blizzard/Ice Bolt",
+     "Meteor",
+     "Hydra",
+     "Lightning/Chain Lightning",
+     "Frozen Orb",
+     "Teleport Thunder Storm",
+     "Fire Wall"
+    ],
+    "druid": [
+     "Maul",
+     "Fury",
+     "Fire Claws",
+     "Fire (Volcano/Fissure/Armageddon)",
+     "Arctic Blast",
+     "Poison Creeper/Rabies"
+    ],
+    "assassin": [
+     "Blade Sentinel",
+     "Lightning Sentry/Chain",
+     "Wake of Fire/Inferno",
+     "Fists of Fire",
+     "Dragon Tail/Dragon Talon",
+     "Mind Blast",
+     "Cobra Strike",
+     "Blades of Ice"
+    ],
+    "barbarian": [
+     "Berserk",
+     "Double Throw",
+     "Wolf Barbarian",
+     "Bear/Zeal/Jab Barbarian",
+     "Frenzy",
+     "Whirlwind",
+     "Bash",
+     "Split Throw",
+     "Leap Attack"
+    ],
+    "amazon": [
+     "Jab",
+     "Lightning Bolt/Fury",
+     "Lightning Strike/Charged Strike",
+     "Fire Arrow",
+     "Cold Arrow/Ice Arrow",
+     "Immolation/Exploding Arrow",
+     "Split Throw",
+     "Plague Javelin",
+     "Strafe/Guided Arrow"
+    ],
+    "necromancer": [
+     "Desecrate/Poison Strike/Revive",
+     "Blood Golems",
+     "Bone Spear/Spirit"
+    ],
+    "paladin": [
+     "2-H Physical Charge",
+     "Elemental Werebear",
+     "1-H Physical Zeal",
+     "Smite"
+    ]
+   },
+   "overall": [
+    "Maul",
+    "Berserk",
+    "Jab",
+    "2-H Physical Charge",
+    "Blade Sentinel",
+    "Double Throw",
+    "Wolf Barbarian",
+    "Lightning Sentry/Chain",
+    "Lightning Bolt/Fury",
+    "Blizzard"
+   ],
+   "overall_title": "Overall Top 10 Rathma Killers"
+  },
+  "lucion": {
+   "title": "DH's Recommended Lucion Killers",
+   "classes": {
+    "sorceress": [
+     "Hydra",
+     "Blizzard/Ice Blast",
+     "Meteor",
+     "Lightning/Chain Lightning",
+     "Charged Bolt",
+     "Frozen Orb",
+     "Thunder Storm/Nova",
+     "Fire Wall"
+    ],
+    "druid": [
+     "Maul",
+     "Fury",
+     "Fire Claws",
+     "Poison Creeper/Rabies",
+     "Fire (Volcano/Fissure/Armaggeddon)",
+     "Arctic Blast"
+    ],
+    "assassin": [
+     "Fists of Fire",
+     "Blade Sentinel/Fury",
+     "Wake of Fire/Inferno",
+     "Dragon Tail/Dragon Talon",
+     "Cobra Strike",
+     "Blades of Ice",
+     "Mind Blast",
+     "Lightning Sentry/Chain"
+    ],
+    "barbarian": [
+     "Whirlwind",
+     "Bear/Zeal/Jab Barbarian",
+     "Frenzy",
+     "Split Throw",
+     "Wolf Barbarian",
+     "Double Throw",
+     "Berserk",
+     "Leap Attack"
+    ],
+    "amazon": [
+     "Jab/Fend",
+     "Power Strike",
+     "Lightning Strike/Charged Strike",
+     "Lightning Fury/Bolt",
+     "Split Throw",
+     "Plague Javelin",
+     "Fire Arrow",
+     "Cold Arrow/Ice Arrow",
+     "Immolation/Exploding Arrow",
+     "Magic Arrow"
+    ],
+    "necromancer": [
+     "Poison Strike/Desecrate/Revive",
+     "Blood Golems",
+     "Bone Spear/Spirit"
+    ],
+    "paladin": [
+     "Vengeance",
+     "FOH/Holy Bolt",
+     "Smite",
+     "2-H Physical Charge",
+     "1-H Physical Zeal",
+     "Elemental Werebear"
+    ]
+   },
+   "overall": [
+    "Fists of Fire",
+    "Vengeance",
+    "Whirlwind",
+    "Jab/Fend",
+    "Hydra",
+    "FOH/Holy Bolt",
+    "Bear Barbarian",
+    "Blade Sentinel/Fury",
+    "Maul",
+    "Frenzy"
+   ],
+   "overall_title": "Overall Top 10 Lucion Killers"
+  }
+ },
+ "maps": [
+  {
+   "tier": "Tier 1",
+   "name": "Ancestral Trial",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "light": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Fall of Caldeum",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "light": 120,
+    "phys": 115,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Lost Temple",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "cold": 120,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Phlegethon",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "poison": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Ruins of Viz-Jun",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "cold": 120,
+    "phys": 115
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Shadows of Westmarch",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "light": 120,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Tomb of Zoltun Kulle",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "poison": 120,
+    "phys": 115
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Torajan Jungle",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "cold": 120,
+    "poison": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "The Poisoned Well",
+   "unique": false,
+   "new": false,
+   "imm": {},
+   "note": null
+  },
+  {
+   "tier": "Tier 1",
+   "name": "Na-Krul's Abyss",
+   "unique": true,
+   "new": true,
+   "imm": {},
+   "note": "All Drops Ethereal (Boss Drops Ethereal Unique)"
+  },
+  {
+   "tier": "Tier 2",
+   "name": "The Dark Temple",
+   "unique": false,
+   "new": false,
+   "imm": {},
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Descent from Mount Arreat",
+   "unique": false,
+   "new": false,
+   "imm": {},
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Ashen Plains",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "cold": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Canyon of Sescheron",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "phys": 115
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Halls of Torture",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "cold": 120,
+    "light": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Horazon's Memory",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "light": 120,
+    "phys": 115
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Pandemonium Citadel",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "cold": 120,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Ruined Cistern",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "poison": 120,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Sanatorium",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "light": 120,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Sewers of Harrogath",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "poison": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Throne of Insanity",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "poison": 120,
+    "phys": 115
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Fallen Gardens",
+   "unique": true,
+   "new": false,
+   "imm": {},
+   "note": "Jewel Overload (Boss Drops Rainbow Facet)"
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Djinn's Domain",
+   "unique": true,
+   "new": true,
+   "imm": {},
+   "note": "All Monsters 50% Chance To Drop Extra Items (Boss Drop Overload)"
+  },
+  {
+   "tier": "Tier 2",
+   "name": "Warlord of Blood",
+   "unique": true,
+   "new": false,
+   "imm": {},
+   "note": "All Drops Corrupted (Boss Drops Corrupted Unique)"
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Blood Moon",
+   "unique": false,
+   "new": false,
+   "imm": {},
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Kyovoshad",
+   "unique": false,
+   "new": true,
+   "imm": {},
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Arreat Battlefield",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "light": 120,
+    "poison": 120,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Bastion Keep",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "cold": 120,
+    "phys": 115,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Demon Road",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "light": 120,
+    "phys": 115
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "River of Blood",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "light": 120,
+    "poison": 120,
+    "magic": 105
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Royal Crypts",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "cold": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Skovos Stronghold",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "cold": 120,
+    "poison": 120
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Kehjistan Marketplace",
+   "unique": false,
+   "new": false,
+   "imm": {
+    "fire": 120,
+    "phys": 115
+   },
+   "note": null
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Zhar's Sanctum",
+   "unique": true,
+   "new": false,
+   "imm": {},
+   "note": "Charm Overload (Boss Drops Skiller)"
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Outer Void",
+   "unique": true,
+   "new": false,
+   "imm": {},
+   "note": "3 Random Uber Mats"
+  },
+  {
+   "tier": "Tier 3",
+   "name": "Imperial Palace",
+   "unique": true,
+   "new": false,
+   "imm": {},
+   "note": "Larzuk's Puzzle Piece + Box"
+  },
+  {
+   "tier": "Tier 3",
+   "name": "City of Ureh",
+   "unique": true,
+   "new": false,
+   "imm": {},
+   "note": "All Drops Socketed (Boss Drops Socketed Unique)"
+  }
+ ],
+ "links": [
+  {
+   "label": "S14 Data",
+   "url": "https://docs.google.com/spreadsheets/u/0/d/11SCC_TXXoxA-SW-5lM4zqswCJOiXaSWhVZHFI-XO1So/edit"
+  },
+  {
+   "label": "Ultimate Farming Guide",
+   "url": "https://docs.google.com/spreadsheets/d/137uC_CHqDKdwvTDDhHCaMRpmPeResTjf6L2U4SCDdDE/edit?usp=sharing"
+  },
+  {
+   "label": "Ultimate Mercenary Guide",
+   "url": "https://docs.google.com/spreadsheets/u/0/d/1XDmA2lZNeljmCPBaUD_RlGa8aYxeDGmEouUH5n2T7EI/edit"
+  },
+  {
+   "label": "Comprehensive Mapping Guide",
+   "url": "https://www.youtube.com/watch?v=93tVMK7QLGs"
+  }
+ ],
+ "videos": {
+  "ihfmVRtP49g": {
+   "id": "ihfmVRtP49g",
+   "title": "HC SSF PD2 S11 Charged Bolt Sorceress Final Update!",
+   "date": "2025-08-15",
+   "season": 11
+  },
+  "BUdWCG4rYnY": {
+   "id": "BUdWCG4rYnY",
+   "title": "New Setups Unlocked! Improved Performance! S13 PD2 Chain Lightning Sorceress Mini Guide and Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "9ThR6hgz66o": {
+   "id": "9ThR6hgz66o",
+   "title": "Is This Sleeper OP!  - S12 PD2 Thunder Storm Sorceress Mini Guide and Demo",
+   "date": "2025-11-25",
+   "season": 12
+  },
+  "67R385W4vEE": {
+   "id": "67R385W4vEE",
+   "title": "Down but not out! Still one of the fastest mappers? PD2 S10 Frost Nova Sorceress Mini Guide & Demo!",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "HJZ8tv0I-L4": {
+   "id": "HJZ8tv0I-L4",
+   "title": "Ice Barrage Sorceress! PD2 Season 8 Closed Beta Ice Barrage Sorceress Mini Guide and Demo! Speed Map",
+   "date": "2023-09-19",
+   "season": 8
+  },
+  "SEJ92-dZ0Xs": {
+   "id": "SEJ92-dZ0Xs",
+   "title": "This LOD Classic is Back in a Big Way! - PD2 S11 Blizzard Sorceress Mini Guide and Demo",
+   "date": "2025-05-13",
+   "season": 11
+  },
+  "a1ThZjeQbK8": {
+   "id": "a1ThZjeQbK8",
+   "title": "This Weapon Can Be Good!?!? Uldyssian's Cold Enchant Werebear Sorceress Mini Guide and Mapping Demo!",
+   "date": "2024-10-22",
+   "season": null
+  },
+  "kYIo4qNxJzg": {
+   "id": "kYIo4qNxJzg",
+   "title": "Nerfed but not to be Forgotten! PD2 S10 200% FCR Combustion Sorceress Mini Guide and Demo!",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "iOVwI8ZDtGU": {
+   "id": "iOVwI8ZDtGU",
+   "title": "Ghosting Is A 3-Headed Monster But It Does Not Phase Me! PD2 S14 Hydra Sorc Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "YGG5P1yJUAw": {
+   "id": "YGG5P1yJUAw",
+   "title": "Inferno Sorceress Stronger Than Ever! 65K+ DMG Stats/Skills/Merc/Gear/T1/T2/T3 Map Demos - HC S9 PD2",
+   "date": "2024-05-05",
+   "season": 9
+  },
+  "8sVZK8gUHJA": {
+   "id": "8sVZK8gUHJA",
+   "title": "New Exploding Arrow! Sorc?!?  - S12 PD2 Exploding Arrow Fire Enchant Sorceress Mini Guide and Demo",
+   "date": "2025-11-25",
+   "season": 12
+  },
+  "NvNt-XRJYBQ": {
+   "id": "NvNt-XRJYBQ",
+   "title": "Death By Cold Air!  Hardcore Solo-Self Found Arctic Blast Druid Guide and Demos - S12 PD2",
+   "date": "2026-01-29",
+   "season": 12
+  },
+  "f9YtVB40UeE": {
+   "id": "f9YtVB40UeE",
+   "title": "163% FCR HC Staff Bowling/Molten Boulder Druid! 2HHardcore Series - Stats/Skills/Gear/Demos - PD2 S5",
+   "date": "2022-07-24",
+   "season": 5
+  },
+  "N3Kkf3tqOm8": {
+   "id": "N3Kkf3tqOm8",
+   "title": "Burn Baby Burn! Risen to the S10 Top 5! - Volcano/Fire Druid Mini Guide and Mapping Demo",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "RIqGn9EMfNA": {
+   "id": "RIqGn9EMfNA",
+   "title": "Mad Lab Exclusive - New Approach! PD2 S10 Twister Proc Fury Druid Mini Guide & Mapping Demo!",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "GvHHtAoAIYg": {
+   "id": "GvHHtAoAIYg",
+   "title": "The Zoo Just Got an Expansion! - PD2 S11 Summon Druid (Late Game) Mini Guide and Demo",
+   "date": "2025-05-13",
+   "season": 11
+  },
+  "A7fzSxMwRvc": {
+   "id": "A7fzSxMwRvc",
+   "title": "Creepers Are Crazy! - PD2 S11 \"Tentacle\" Druid Mini Guide and Demo",
+   "date": "2025-05-13",
+   "season": 11
+  },
+  "98PbuBTn-ww": {
+   "id": "98PbuBTn-ww",
+   "title": "S9 Wake of Fire (WoF) - Still Melting Maps, Still Top 10! PD2 Season 9 Beta WoF Assassin Testing!",
+   "date": "2024-04-11",
+   "season": 9
+  },
+  "8gX_KMBq0GI": {
+   "id": "8gX_KMBq0GI",
+   "title": "Max Deadly Max Pierce Bullet Hell! Mowed Down! S13 PD2 Blade Fury Assassin Mini Guide and Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "QfYfiHNp4S8": {
+   "id": "QfYfiHNp4S8",
+   "title": "S9 Blade Sentinel - Shred Bosses, Chonk Maps! PD2 Season 9 Closed Beta Blade Assassin Testing!",
+   "date": "2024-04-11",
+   "season": 9
+  },
+  "632MDxhX3oU": {
+   "id": "632MDxhX3oU",
+   "title": "This Martial Sin is Absolutely Cracked - PD2 S11 Phoenix Sin Closed Beta Test - Gear Listed Below!",
+   "date": "2025-05-24",
+   "season": 11
+  },
+  "QJYHejCmcLo": {
+   "id": "QJYHejCmcLo",
+   "title": "Fart Sin is OP w/ Dragon Flight Change!  - S12 PD2 Cobra Strike Assassin Mini Guide and Demo",
+   "date": "2025-11-25",
+   "season": 12
+  },
+  "umKRr33fXLE": {
+   "id": "umKRr33fXLE",
+   "title": "It's Fixed! - Let's Nuke it! S10 PD2 Fists of Fire Assassin Mini Guide and Mapping Demo!",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "aYtSTap2oeQ": {
+   "id": "aYtSTap2oeQ",
+   "title": "We Livin' in Da Dayz O' Thunder - PD2 S11 Claws of Thunder (CoT) Assassin Mini Guide and Demo",
+   "date": "2025-05-13",
+   "season": 11
+  },
+  "2eJ4VzEHhaI": {
+   "id": "2eJ4VzEHhaI",
+   "title": "Complete Rework! - S10 PD2 Blades of Ice Assassin Mini Guide and Mapping Demo!",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "8P8jUV0KqJg": {
+   "id": "8P8jUV0KqJg",
+   "title": "The One Kick Woman! Fort & Ear'd Maps Beware! S14 PD2 Dragon Tail Assassin Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "6F9xbVGabn4": {
+   "id": "6F9xbVGabn4",
+   "title": "Don't Mind Me - Straight Blastin'! S14 PD2 Mind Blast (Summon) Assassin Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "Ab7MRBqf9rk": {
+   "id": "Ab7MRBqf9rk",
+   "title": "Blade Dance Assassin Guide and Demo! - Stats/Skills/Merc/Gear/Demo - S12 PD2 HC SSF Project",
+   "date": "2025-12-25",
+   "season": 12
+  },
+  "52Cpdq5ftMA": {
+   "id": "52Cpdq5ftMA",
+   "title": "Melting Mobs w/ The New Basilisk Quills!  - S12 PD2 Venom Multiple Shot Assassin Mini Guide and Demo",
+   "date": "2025-11-25",
+   "season": 12
+  },
+  "039_L1hXzGw": {
+   "id": "039_L1hXzGw",
+   "title": "Slicin Through Em Like Butter! The Barb is Back! S13 PD2 Whirlwind Barbarian Mini Guide and Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "wiRrg1BzdrI": {
+   "id": "wiRrg1BzdrI",
+   "title": "Flame Whirlwind! PD2 Season 7 Closed Beta 2x Flamebellow Barb Mini Guide and Demo! Burn it all down!",
+   "date": "2023-04-24",
+   "season": 7
+  },
+  "vrNuk38LWsc": {
+   "id": "vrNuk38LWsc",
+   "title": "Mad Rapture Build! S10 PD2 Fissure Proc Leap Barbarian Mini Guide & Demo! Credit: BarryGamingTTV",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "-MqE7ZFQhKA": {
+   "id": "-MqE7ZFQhKA",
+   "title": "Sick New Skill or Scuffed Warlock? S13 PD2 Split Throw Barbarian Mini Guide and Demo",
+   "date": "2026-04-20",
+   "season": 13
+  },
+  "mbs5qKh6pxA": {
+   "id": "mbs5qKh6pxA",
+   "title": "Concentrate! Do You Think This is A Joke? This Is Not A Drill! S14 Conc Barb Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "JIy7X2gtQk8": {
+   "id": "JIy7X2gtQk8",
+   "title": "My 1st HC SSF Rathma Kill Ever! HulkFrogan does it! Lvl 92 Berserk Barbarian Build & Anni Slam!",
+   "date": "2025-08-02",
+   "season": null
+  },
+  "hYpQVDhFBSM": {
+   "id": "hYpQVDhFBSM",
+   "title": "HC SSF PD2 S11 War Cry Barbarian Showcase",
+   "date": "2025-07-31",
+   "season": 11
+  },
+  "8fwooHI-wWI": {
+   "id": "8fwooHI-wWI",
+   "title": "What An Animal! Double Damage Curse Raekor's Slappage! S13 PD2 Bear Barbarian Mini Guide and Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "6r-UyqfZxXc": {
+   "id": "6r-UyqfZxXc",
+   "title": "New Wolfhowl Tested! Is Wolf Barb Dead or Alive? PD2 Season 9 Closed Beta Test Wolf Barbarian Demo!",
+   "date": "2024-04-11",
+   "season": 9
+  },
+  "B0lWpUYxdYw": {
+   "id": "B0lWpUYxdYw",
+   "title": "Lighting It Up! GG Solo-Self Found Setup! Lightning Fury Amazon Guide & Demo! S13 PD2 HC SSF",
+   "date": "2026-06-30",
+   "season": 13
+  },
+  "OO90IJmrpQk": {
+   "id": "OO90IJmrpQk",
+   "title": "One-Shots Fortified & Ear Maps! Plague Javelin Amazon Guide & Demo! S13 PD2 Hardcore Solo Self Found",
+   "date": "2026-06-04",
+   "season": 13
+  },
+  "VVDymd_eHh4": {
+   "id": "VVDymd_eHh4",
+   "title": "PD2 Jabazon Ubers Guide + Demo! Ez Killing w/ Budget + Style! Hardcore SSF Project Diablo 2 Season 3",
+   "date": "2021-09-14",
+   "season": 3
+  },
+  "51PjzKikyNg": {
+   "id": "51PjzKikyNg",
+   "title": "Zon the Impaler - Crazy Fort Mapper and Bosser! It Splashes! S13 PD2 Fend Amazon Mini Guide and Demo",
+   "date": "2026-04-20",
+   "season": 13
+  },
+  "aF-t_VIiQug": {
+   "id": "aF-t_VIiQug",
+   "title": "SheChoseTheBear... Uldyssian's Werebear Amazon Special Showcase! Absolute Plowage! HC SSF PD2 S11",
+   "date": "2025-08-24",
+   "season": 11
+  },
+  "1c6-z71o2r8": {
+   "id": "1c6-z71o2r8",
+   "title": "Drown In A Sea Of Arrows! Big Buffs! PD2 S14 Multi Amazon Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "RmiqfrSkbA0": {
+   "id": "RmiqfrSkbA0",
+   "title": "HC SSF PD2 S11 Demon Machine Strafe Amazon Showcase",
+   "date": "2025-07-20",
+   "season": 11
+  },
+  "jOEEVvl4M74": {
+   "id": "jOEEVvl4M74",
+   "title": "Ice Maiden Meltation - Hardcore Project Diablo 2 PD2 Season 2 Ice Bow Zon/Freezing Arrow Guide",
+   "date": "2021-05-17",
+   "season": 2
+  },
+  "qKRcCmn47lY": {
+   "id": "qKRcCmn47lY",
+   "title": "Cold Zon Going Strong on a Budget! Cold Arrow Amazon Guide & Demo! S13 PD2 Hardcore Solo Self Found",
+   "date": "2026-05-31",
+   "season": 13
+  },
+  "D_ayVeitUrs": {
+   "id": "D_ayVeitUrs",
+   "title": "A Dazzling Land and Air Assault! Run N' Gun! S13 PD2 Magic Arrow Amazon Mini Guide and Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "BrYownxDufw": {
+   "id": "BrYownxDufw",
+   "title": "Poison Nova Necromancer! PD2 Season 7 Closed Beta Mini Guide and Demo! WHAT NERF!?!",
+   "date": "2023-04-26",
+   "season": 7
+  },
+  "BLeOTwgu9k0": {
+   "id": "BLeOTwgu9k0",
+   "title": "This Build Slept Its Way to the Top! S13 PD2 Poison Strike Necromancer Mini Guide and Demo",
+   "date": "2026-04-20",
+   "season": 13
+  },
+  "ZRYFHXDyIyI": {
+   "id": "ZRYFHXDyIyI",
+   "title": "Lvl 99 HC Solo Map ~11K Teeth Necro! Last .5% - The Moment + Gear/Stats/Skills/Demo - PD2 Season 7",
+   "date": "2023-05-31",
+   "season": 7
+  },
+  "sm091dwsXx4": {
+   "id": "sm091dwsXx4",
+   "title": "PD2 S12 HC SSF Bone Necro Update! - Bone Spear Destruction! - Stats/Skills/Gear/T1-T2 Map Demos",
+   "date": "2025-12-11",
+   "season": 12
+  },
+  "_6kIJo7ULDY": {
+   "id": "_6kIJo7ULDY",
+   "title": "You Can Actually Clear Endgame Content With This - PD2 S11 Bone Wall Necromancer Mini Guide and Demo",
+   "date": "2025-05-13",
+   "season": 11
+  },
+  "X04CW9qb7-o": {
+   "id": "X04CW9qb7-o",
+   "title": "The Unstoppable Bomber A3 Merc Style - S12 PD2 Corpse Explosion Necromancer Mini Guide and Demo",
+   "date": "2025-11-25",
+   "season": 12
+  },
+  "MF1oBPHk4rQ": {
+   "id": "MF1oBPHk4rQ",
+   "title": "Necro Turret Go Brrrr! Cry Some More Baby Monsters! PD2 S14 Skele Archer Necro Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "FzCHZf51-W8": {
+   "id": "FzCHZf51-W8",
+   "title": "A S12 Masterpiece - Phoenix + Epiphany + Rain - S12 PD2 Fire Golem Necromancer Mini Guide and Demo",
+   "date": "2025-11-25",
+   "season": 12
+  },
+  "dxI-wa_Ex5A": {
+   "id": "dxI-wa_Ex5A",
+   "title": "Thorns Makes This Build Work! What?!? S13 PD2 Blood Golem Necromancer Mini Guide and Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "2CEuwf36xI4": {
+   "id": "2CEuwf36xI4",
+   "title": "The Madness of The New Dark Pact! PD2 S14 Dark Pact Necromancer Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "vWiEBbKZ2bM": {
+   "id": "vWiEBbKZ2bM",
+   "title": "Passive Boner Necro! PD2 Season 8 Closed Beta Brand Bone Spear Necro Mini Guide and Demo! GG Meme!",
+   "date": "2023-09-19",
+   "season": 8
+  },
+  "JPwRY9_lc-w": {
+   "id": "JPwRY9_lc-w",
+   "title": "Death From Above - Big Buffs - The Flattening - S14 PD2 FOH Paladin Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "KFkLXlqnNtw": {
+   "id": "KFkLXlqnNtw",
+   "title": "The Unstoppable Whirlpool of Death! Will Someone Finally Play Me? PD2 S14 Hdin Mini Guide and Demo",
+   "date": "2026-10-20",
+   "season": 14
+  },
+  "hF9ks5QgyAk": {
+   "id": "hF9ks5QgyAk",
+   "title": "Ear'd AND Fortified!?! DeadlyDH Is Up To The Task! Zeal Paladin Guide & Demo -  S13 HC SSF Project",
+   "date": "2026-06-09",
+   "season": 13
+  },
+  "_DBAT4Cw4kE": {
+   "id": "_DBAT4Cw4kE",
+   "title": "FOH Proc Paladin! PD2 Season 8 Closed Beta Asylum FOH Proc Pally Mini Guide and Demo! Pro Meme!",
+   "date": "2023-09-19",
+   "season": 8
+  },
+  "ggi1aWvv9S8": {
+   "id": "ggi1aWvv9S8",
+   "title": "Solo Push HC Phys Chargedin Reaches Lvl 99 + Final Gear! - 5th 99 Class on HC - S9 HC PD2",
+   "date": "2024-06-29",
+   "season": 9
+  },
+  "8YaA41jeaIE": {
+   "id": "8YaA41jeaIE",
+   "title": "Hardcore Lightning Vengeance Paladin Mapping Guide! - Stats/Skills/Gear/Demos - S12 PD2 HC SSF",
+   "date": "2026-02-10",
+   "season": 12
+  },
+  "22V-rRwmZTg": {
+   "id": "22V-rRwmZTg",
+   "title": "HC SSF PD2 S11 Smite Paladin Fort Mapper Showcase",
+   "date": "2025-08-12",
+   "season": 11
+  },
+  "Ted9dBRPY3g": {
+   "id": "Ted9dBRPY3g",
+   "title": "Full Physical Explosion = Amplified Death! S13 PD2 Physical Sacrifice Paladin Mini Guide & Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "6a-LRsD_eLI": {
+   "id": "6a-LRsD_eLI",
+   "title": "Holy Freeze Sacrifice Nerfed? Dead Build?!?! - PD2 S11  HF Sacrifice Paladin Mini Guide and Demo",
+   "date": "2025-05-13",
+   "season": 11
+  },
+  "lmxa0V4Jlyk": {
+   "id": "lmxa0V4Jlyk",
+   "title": "Best Mapper in the Game? Straight Vaporized! S13 PD2 Holy Shock Sacrifice Paladin Mini Guide & Demo",
+   "date": "2026-04-21",
+   "season": 13
+  },
+  "ofHFYV2cIMo": {
+   "id": "ofHFYV2cIMo",
+   "title": "Reworked & FIXED Charge - Still OP! PD2 S10 Holy Freeze Charge Paladin Mini Guide and Mapping Demo",
+   "date": "2024-10-22",
+   "season": 10
+  },
+  "93tVMK7QLGs": {
+   "id": "93tVMK7QLGs",
+   "title": "Everything Mapping in Project Diablo 2 - S14 Edition! Optimize Your Endgame!",
+   "date": "2026-10-19",
+   "season": 14
+  }
+ }
+}

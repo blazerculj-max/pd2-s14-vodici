@@ -529,3 +529,30 @@ span.tchip { padding-left: 10px; color: var(--muted); }
   .trow .tl .tcount { margin-left: auto; }
   .ttabs button { padding: 8px 10px; font-size: 0.98rem; }
 }
+
+/* ===== DarkHumility ===== */
+.dh-s { color: var(--t-top); } .dh-a { color: var(--t-good); } .dh-b { color: var(--t-decent); } .dh-c { color: var(--q-rare); } .dh-d { color: var(--warn); } .dh-f { color: var(--bad); }
+.rate .dhr { display: grid; gap: 2px; }
+.rate .dhr + .dhr { margin-top: 6px; }
+.dfs { display: flex; flex-wrap: wrap; gap: 4px; }
+.df { font-family: var(--font-mono); font-size: 0.72rem; padding: 0 5px; border: 1px solid var(--line); white-space: nowrap; cursor: help; }
+.df.dfy { color: var(--good); } .df.dfn { color: var(--muted); }
+.dht td, .dht th { vertical-align: top; }
+.dht .dtier { font-family: var(--font-mono); font-weight: 500; white-space: nowrap; }
+.dht .dtree { display: block; font-size: 0.8rem; }
+.dht .dft { white-space: nowrap; cursor: help; text-align: center; }
+.dht tr[hidden] { display: none; }
+#dhf { margin-top: 4px; }
+#dhf .chk { margin-bottom: 0; font-size: 0.9rem; }
+.dhkey { margin: 12px 0; font-size: 0.92rem; }
+.dhkey summary { cursor: pointer; color: var(--accent); }
+.dhgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin-top: 14px; }
+.dhbox { background: var(--surface); border: 1px solid var(--line); padding: 10px 12px; min-width: 0; }
+.dhbox h4, .dhc > b { display: block; margin: 0 0 6px; font-family: var(--font-mono); font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+.dhl { margin: 0; padding-left: 1.6em; display: grid; gap: 2px; font-size: 0.93rem; }
+.dhl .dhi:is(span) { color: var(--muted); }
+.dhrec { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.dhc { background: var(--surface); border: 1px solid var(--line); padding: 10px 12px; min-width: 0; }
+.dhc[hidden], .dhboss[hidden], #blvl[hidden] { display: none; }
+.dhc.dhover { border-color: var(--accent); }
+.dhboss { margin-top: 10px; }

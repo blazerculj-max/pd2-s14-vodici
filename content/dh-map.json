@@ -1,0 +1,389 @@
+{
+  "_opis": "Povezava buildov iz DarkHumilityjeve tier liste (ime v tabeli) z našimi buildi (razred/id). Builda, ki ga ni na naši strani, ni na seznamu. En naš build ima lahko več DH različic.",
+  "sorceress": {
+    "Nova": [
+      "nova"
+    ],
+    "Charged Bolt": [
+      "charged-bolt"
+    ],
+    "Chain Lightning": [
+      "chain-lightning"
+    ],
+    "Teleport Thunder Storm (Passive)": [
+      "thunder-storm"
+    ],
+    "Frost Nova": [
+      "frost-nova"
+    ],
+    "Frozen Orb": [
+      "frozen-orb"
+    ],
+    "Ice Barrage": [
+      "ice-barrage"
+    ],
+    "Blizzard": [
+      "blizzard"
+    ],
+    "Cold Enchant - Multiple Shot (Widowmaker)": [
+      "multishot-enchantress"
+    ],
+    "Fire Enchant - Multiple Shot (Widowmaker)": [
+      "multishot-enchantress"
+    ],
+    "Combustion": [
+      "combustion"
+    ],
+    "Meteor": [
+      "meteor"
+    ],
+    "Hydra": [
+      "hydra"
+    ],
+    "Inferno": [
+      "inferno"
+    ],
+    "Blaze/Fire Wall": [
+      "firewall"
+    ]
+  },
+  "druid": {
+    "Twister": [
+      "twister"
+    ],
+    "Tornado": [
+      "wind-elemental"
+    ],
+    "Arctic Blast/Hurricane": [
+      "cold-elemental-arctic-blast-hurricane"
+    ],
+    "Fissure": [
+      "fissure"
+    ],
+    "Volcano": [
+      "fire-elemental"
+    ],
+    "Bear - Shock Wave": [
+      "bear-shockwave"
+    ],
+    "Wolf - Rabies": [
+      "rabies"
+    ],
+    "Wolf - Fire Claws": [
+      "wolf-fire-claws"
+    ],
+    "Wolf - Fury": [
+      "wolf-fury"
+    ],
+    "Summon (Wolf Focus)": [
+      "summon-druid"
+    ],
+    "Summon (4x Bears Only - Denmother)": [
+      "summon-druid"
+    ],
+    "Poison Creeper (Worm Summoning)": [
+      "pure-poison-creeper"
+    ]
+  },
+  "assassin": {
+    "Chain Lightning Sentry": [
+      "chain-lightning-sentry"
+    ],
+    "Wake of Fire": [
+      "wake-of-fire"
+    ],
+    "Death Sentry (Merc Desecrate Proc - Viperfork)": [
+      "death-sentry"
+    ],
+    "Blade Fury": [
+      "blade-fury"
+    ],
+    "Poison Blade Sentinel": [
+      "blade-sentinel-venom"
+    ],
+    "Physical Blade Sentinel": [
+      "blade-sentinel-phys"
+    ],
+    "Phoenix Strike": [
+      "phoenix-strike"
+    ],
+    "Cobra Strike": [
+      "cobra-sin"
+    ],
+    "Fists of Fire": [
+      "fists-of-fire"
+    ],
+    "Claws of Thunder": [
+      "claws-of-thunder"
+    ],
+    "Blades of Ice": [
+      "blades-of-ice"
+    ],
+    "Dragon Tail": [
+      "dragon-tail-fire-kick"
+    ],
+    "Mind Blast (1-2x Whispering Mirage - Summon Sin)": [
+      "mind-blast",
+      "mind-blast-2"
+    ],
+    "Blade Dance": [
+      "poison-blade-dance",
+      "physical-blade-dance"
+    ]
+  },
+  "barbarian": {
+    "Frenzy": [
+      "frenzy"
+    ],
+    "Whirlwind (2-H)": [
+      "whirlwind-2-h"
+    ],
+    "Whirlwind (2x 1-H)": [
+      "whirlwind-dual-wield"
+    ],
+    "Double Throw": [
+      "double-throw"
+    ],
+    "Split Throw": [
+      "split-throw"
+    ],
+    "War Cry": [
+      "warcry"
+    ],
+    "Wolf Barb (Wolfhowl)": [
+      "wolf-barb"
+    ]
+  },
+  "amazon": {
+    "Lightning Fury": [
+      "lightning-fury"
+    ],
+    "Lightning Strike": [
+      "lightning-strike"
+    ],
+    "Plague Javelin": [
+      "plague-javelin"
+    ],
+    "Jab": [
+      "jab-fend"
+    ],
+    "Fend": [
+      "jab-fend"
+    ],
+    "Split Throw (Jealousy)": [
+      "split-throw"
+    ],
+    "Multiple Shot (Windforce/High Min Dmg Bow)": [
+      "multiple-shot"
+    ],
+    "Strafe (Demon Machine)": [
+      "strafe-demon-machine"
+    ],
+    "Cold Arrow": [
+      "cold-arrow"
+    ],
+    "Fire Arrow": [
+      "fire-arrow"
+    ],
+    "Exploding Arrow": [
+      "explosive-arrow"
+    ],
+    "Magic Arrow (Asylum)": [
+      "magic-arrow"
+    ],
+    "Hybrid Strafe/Valkyrie (Ebonbane)": [
+      "summon-zon"
+    ],
+    "Pure Decoy Summon (Loyalty)": [
+      "pure-summon-decoy-valk"
+    ]
+  },
+  "necromancer": {
+    "Poison Nova": [
+      "poison-nova"
+    ],
+    "Desecrate": [
+      "poison-strike"
+    ],
+    "Poison Strike": [
+      "poison-strike"
+    ],
+    "Teeth": [
+      "teeth-bonespear"
+    ],
+    "Bone Spear": [
+      "teeth-bonespear"
+    ],
+    "Corpse Explosion": [
+      "corpse-explosion"
+    ],
+    "Green Goblin (Demon Machine Merc + Physical Skeles)": [
+      "green-goblin-skeletons"
+    ],
+    "Elemental Summoner (Mage Skeles + Ele Revives)": [
+      "elemental-summoner-mage-skeles-ele-revives"
+    ],
+    "Fire Golems": [
+      "fire-golems"
+    ],
+    "Blood Golems": [
+      "blood-golem"
+    ],
+    "Clay Golems": [
+      "clay-golems"
+    ],
+    "Dark Pact": [
+      "dark-pact"
+    ]
+  },
+  "paladin": {
+    "Fist of the Heavens": [
+      "holy-bolt-foh"
+    ],
+    "Holy Bolt": [
+      "holy-bolt-foh"
+    ],
+    "Blessed Hammer (Hdin)": [
+      "hammerdin"
+    ],
+    "Physical Zeal (1-H)": [
+      "physical-zeal"
+    ],
+    "Physical Charge (2-H)": [
+      "physical-charge-2-h"
+    ],
+    "Vengeance (Azure/Lightsabre/Famine PB)": [
+      "vengeance-1h"
+    ],
+    "Smite": [
+      "smiter"
+    ],
+    "Physical Sacrifice (1-H) (Schaeffer's)": [
+      "physical-sacrifice"
+    ],
+    "Physical Sacrifice (2-H) (Leoric's)": [
+      "physical-sacrifice"
+    ],
+    "Holy Fire Sacrifice (Items OR Native)": [
+      "holy-fire-sacrifice"
+    ],
+    "Holy Shock Sacrifice (Native Aura)": [
+      "light-sacrifice"
+    ],
+    "Sanctuary Sacrifice (Native Aura) (Redeemer)": [
+      "sanctuary-sacrifice"
+    ],
+    "Holy Shock Charge (Items OR Native)": [
+      "ele-charge-native-ele-aura"
+    ],
+    "Holy Fire Charge (HOJ + 2x Dragon)": [
+      "auradin-charge-hoj-2x-dragon"
+    ],
+    "Holy Shock Multiple Shot (Widowmaker)": [
+      "multishot-paladin",
+      "holy-shock-multishot-native-ele-aura"
+    ],
+    "Principle Strafe (Endlesshail)": [
+      "bow-paladin"
+    ]
+  },
+  "_alias": {
+    "_opis": "Imena iz DarkHumilityjevih priporočil in seznamov, ki jih samodejno ujemanje ne poveže pravilno. Ključ »razred|ime« ali »*|ime« (seznami brez razreda), vrednost »razred/id« ali prazno (ni na naši strani).",
+    "druid|Summon - Ravens/Wolves/Bears": "druid/summon-druid",
+    "druid|Summon (Dire Wolves > Ravens > Bears)": "druid/summon-druid",
+    "druid|Summon (Bears/Ravens)": "druid/summon-druid",
+    "druid|Maul": "",
+    "druid|Firestorm": "",
+    "amazon|Summon - Decoys/Valks + Strafe": "amazon/summon-zon",
+    "amazon|Summon": "amazon/summon-zon",
+    "amazon|Lightning Bolt/Fury": "amazon/lightning-fury",
+    "amazon|Strafe/Guided Arrow": "amazon/strafe-demon-machine",
+    "assassin|Chain Lightning/Lightning Sentry": "assassin/chain-lightning-sentry",
+    "assassin|Lightning Sentry/Chain": "assassin/chain-lightning-sentry",
+    "assassin|Shock Web/Lightning Sentry": "assassin/chain-lightning-sentry",
+    "assassin|Wake of Inferno/Fire": "assassin/wake-of-fire",
+    "barbarian|Wolf Barbarian": "barbarian/wolf-barb",
+    "barbarian|Leap Attack - Deep Wounds": "",
+    "necromancer|Summon - Skeletal Mages/Revives": "necromancer/elemental-summoner-mage-skeles-ele-revives",
+    "necromancer|Summon - Phys Skeletons/Revive": "necromancer/green-goblin-skeletons",
+    "necromancer|Summon - Skeletal Warriors/Archers": "necromancer/green-goblin-skeletons",
+    "paladin|Vengeance": "paladin/vengeance-1h",
+    "paladin|Sanctuary Zeal/Sacrifice": "paladin/sanctuary-sacrifice",
+    "paladin|Elemental Zeal/Charge/Werebear": "paladin/ele-charge-native-ele-aura",
+    "paladin|Elemental Werebear": "",
+    "paladin|2-H Physical Charge": "paladin/physical-charge-2-h",
+    "paladin|1-H Physical Zeal": "paladin/physical-zeal",
+    "paladin|Principle Strafe": "paladin/bow-paladin",
+    "sorceress|Thunder Storm/Nova": "sorceress/thunder-storm",
+    "sorceress|Teleport Thunder Storm": "sorceress/thunder-storm",
+    "sorceress|Lightning": "",
+    "*|Wake of Fire/Inferno": "assassin/wake-of-fire",
+    "*|Blood Golem Summon": "necromancer/blood-golem",
+    "*|Summon - Golems": "necromancer/blood-golem",
+    "*|2-H Physical Charge": "paladin/physical-charge-2-h",
+    "*|Summon Amazon": "amazon/summon-zon",
+    "*|Lightning Sentry/Chain": "assassin/chain-lightning-sentry",
+    "*|Summon - Skeletal Mages": "necromancer/elemental-summoner-mage-skeles-ele-revives",
+    "*|Wolf Barbarian": "barbarian/wolf-barb",
+    "*|Summon Druid": "druid/summon-druid",
+    "*|Green Goblin": "necromancer/green-goblin-skeletons",
+    "*|Enchant Multi Shot": "sorceress/multishot-enchantress",
+    "*|Enchantress": "sorceress/multishot-enchantress",
+    "*|Multiple Shot (3x Valks)": "amazon/multiple-shot",
+    "*|Pure Summon Zon": "amazon/pure-summon-decoy-valk",
+    "*|Vengeance Sorc": "",
+    "*|Mind Blast/Summon Sin": "assassin/mind-blast",
+    "*|Wake of Fire/Death Sentry": "assassin/wake-of-fire",
+    "*|Corpse Explosion (Revive)": "necromancer/corpse-explosion",
+    "*|Double Throw (Max BO/Grim Ward)": "barbarian/double-throw",
+    "*|Arctic Blast (Cold Res Debuff)": "druid/cold-elemental-arctic-blast-hurricane",
+    "*|Inferno/Fire Wall (Fire Res Debuff)": "sorceress/inferno",
+    "*|Lightning Fury": "amazon/lightning-fury",
+    "*|Shockwave (Max Oak Sage)": "druid/bear-shockwave",
+    "*|Summon Druid (4x Bears Pref - Max Oak Sage)": "druid/summon-druid",
+    "*|Summon Necro (Revives > Golems > Skeles)": "necromancer/elemental-summoner-mage-skeles-ele-revives",
+    "*|War Cry/BO Support Barbarian (Stormspire Merc)": "barbarian/warcry",
+    "*|Max Conviction Aura (FOH > Vengeance)": "paladin/holy-bolt-foh",
+    "*|Dark Pact/Curse Support (Lower Res > Dim > Confuse)": "necromancer/dark-pact",
+    "*|Triple Thunder Storm Static Field (2x Skyfall)": "sorceress/thunder-storm",
+    "*|Mind Blast/Psychic Hammer (Summon Sin)": "assassin/mind-blast",
+    "*|Hybrid Trapper (WoF + LS/CLS + SW + Death Sentry)": "assassin/wake-of-fire",
+    "*|Fire (Volcano/Molten Boulder/Armageddon)": "druid/fire-elemental",
+    "*|Arctic Blast/Tornado": "druid/cold-elemental-arctic-blast-hurricane",
+    "*|Magic Arrow": "amazon/magic-arrow",
+    "*|Blade Dance": "assassin/poison-blade-dance",
+    "*|Phoenix Strike": "assassin/phoenix-strike",
+    "*|Corpse Explosion": "necromancer/corpse-explosion",
+    "*|Vengeance": "paladin/vengeance-1h",
+    "*|Elemental Sacrifice": "paladin/light-sacrifice",
+    "*|Sanctuary (Zeal/Charge/Sacrifice/Bow)": "paladin/sanctuary-sacrifice",
+    "*|Hybrid Ele (Zeal/Charge/Bow)": "paladin/ele-charge-native-ele-aura",
+    "*|Rabies/Poison Creeper": "druid/rabies",
+    "*|Blizzard": "sorceress/blizzard",
+    "*|Hydra": "sorceress/hydra",
+    "*|Meteor": "sorceress/meteor",
+    "*|Whirlwind": "barbarian/whirlwind-2-h",
+    "*|Blade Sentinel ": "assassin/blade-sentinel-venom",
+    "*|Blade Sentinel": "assassin/blade-sentinel-venom",
+    "*|Blade Sentinel/Fury": "assassin/blade-sentinel-venom",
+    "*|Split Throw": "barbarian/split-throw",
+    "*|FOH/Holy Bolt": "paladin/holy-bolt-foh",
+    "*|Plague Javelin": "amazon/plague-javelin",
+    "*|Double Throw": "barbarian/double-throw",
+    "*|Blood Golems": "necromancer/blood-golem",
+    "*|Jab/Fend": "amazon/jab-fend",
+    "*|Jab": "amazon/jab-fend",
+    "*|Fists of Fire": "assassin/fists-of-fire",
+    "*|Frenzy": "barbarian/frenzy",
+    "*|Physical Zeal": "paladin/physical-zeal",
+    "*|Chain Lightning": "sorceress/chain-lightning",
+    "*|Mind Blast/Psychic Hammer": "assassin/mind-blast",
+    "*|Summon - Skeletal Mages ": "necromancer/elemental-summoner-mage-skeles-ele-revives",
+    "*|War Cry/Support": "barbarian/warcry",
+    "*|Fist of the Heavens/Holy Bolt": "paladin/holy-bolt-foh",
+    "*|Inferno/Fire Wall": "sorceress/inferno",
+    "*|Lightning Bolt/Fury": "amazon/lightning-fury",
+    "*|Volcano": "druid/fire-elemental",
+    "*|Rabies": "druid/rabies"
+  }
+}
