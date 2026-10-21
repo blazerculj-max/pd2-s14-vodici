@@ -1717,5 +1717,76 @@
         "Razlika: Hiim nosi Natalya's set (v videu budget možnost) z Verdungo's, Wisp in Raven Frost; merc ima Innocence, Demon Machine in Bloodfist."
       ]
     }
+  ],
+  "sorceress/hydra": [
+    {
+      "url": "https://www.youtube.com/watch?v=iOVwI8ZDtGU",
+      "title": "Ghosting Is A 3-Headed Monster But It Does Not Phase Me! PD2 S14 Hydra Sorc Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–16:33 · mini vodič in demo",
+      "skills": "Po 1 točka v Shiver Armor, Warmth in Blaze (8 s trajanja); max Fire Mastery, Hydra in sinergije (Fire Bolt); Energy Shield visoko ali max. Teleport ni pomemben, ker se premikaš z Blazom.",
+      "stats": "Strength za opremo, vse ostalo Energy: z Memory na swapu pred mapo prižgeš Energy Shield (v videu level 85) in si zelo trpežen.",
+      "gear": "{{Eschuta's Temper}} (Blaze ob castu, zato se Blaze pogosto obnovi sam; alternativa {{Embersworn}} z enim skillom več ali {{Hand of Justice}} za Holy Fire auro), dva {{Dragon}} (oklep in ščit: več Hydre in Holy Fire aura, ki jo okrepi Fire Mastery), {{Harlequin Crest}}, 2× {{The Stone of Jordan}} (mana, skilli), {{Magefist}}, fire skillerji, torch, Annihilus, swap {{Call to Arms}} in {{Lidless Wall}}, za pre-buff {{Memory}}. Zadošča 70 FCR, ker ima Hydra svojo hitrost streljanja; FHR je pomemben. Z več škode drugje lahko namesto Energy Shielda za sustain nosiš {{Phoenix}}.",
+      "merc": "Act 2 Defiance z {{Infinity}} (Conviction: edini vir −fire res za Hydro), {{Flickering Flame}} (Resist Fire aura doda % fire damage), {{Spectral Plate}} (nov S14 oklep: merc prehaja skozi pošasti kot ti z Blazom), {{Dracul's Grasp}}, {{String of Ears}}, {{Tancred's Hobnails}}.",
+      "tips": [
+        "S14: Blaze zdaj prehaja skozi pošasti, Hydre streljajo hitreje in Blaze ostane tudi po teleportu.",
+        "Hydra šteje kot past: −enemy fire res z opreme in faceti nanjo ne delujeta, % fire damage pa. Fire pierce dobiš le iz merčeve Conviction, curseov in aur.",
+        "Ritem: z Blazom stečeš skozi paket in vanj postaviš Hydre; teleport le, ko ni pošasti v bližini, zato ni kazni za škodo po teleportu. V demo mapi okoli 750 pošasti na minuto.",
+        "Energy Shield hitro pade na mapah, kjer več pošasti pretvarja 80 % fizične škode v elementno; takim mapam se izogibaj."
+      ],
+      "vs_hiim": [
+        "Enako: Fire Mastery, Hydra, Lesser Hydra in Fire Bolt na 20; Eschuta's Temper, dva Dragon, Magefist, 2× Stone of Jordan, CTA in Lidless.",
+        "Razlika: Hiim je Vitality build z max Teleportom, merc pa Act 3 Static Field z Beast in Exile; video je Energy Shield build z Act 2 Infinity mercom."
+      ]
+    }
+  ],
+  "paladin/holy-bolt-foh": [
+    {
+      "url": "https://www.youtube.com/watch?v=JPwRY9_lc-w",
+      "title": "Death From Above – Big Buffs – The Flattening – S14 PD2 FOH Paladin Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–11:29 · mini vodič in demo",
+      "skills": "Max Fist of the Heavens in sinergije Holy Bolt, Holy Light ter Holy Nova; Joust na 25 (najkrajši cooldown); Holy Shield; ostalo v Sanctuary, ki ga imaš prižganega (−enemy magic res).",
+      "stats": "Strength za opremo, Dexterity do max blocka s Holy Shieldom, ostalo Vitality.",
+      "gear": "{{Hand of Blessed Light}} s 4 socketi in S14 jeweli s % magic damage, {{Ephemeral}} (FCR, +combat skills, Slow Movement ob blocku), {{Enigma}}, deli opreme z 20 FCR, prstan s skilli, swap {{Call to Arms}} in {{Herald of Zakarum}}; cilj 125 FCR. Charmi: torch, Annihilus, FCR large charm, paladin combat skillerji in magic damage large charmi (po S14 buffu jewelov je optimalno približno pol inventarja). Life in mana po killu sta glavni sustain (lahko tudi Redemption).",
+      "merc": "Act 3 Static Field (lightning) z {{Innocence}} in {{Exile}}: ob teleportu v paket proži Decrepify, ob zadetku Static Field (proži ga tudi Blade Shield); % lightning damage in FCR za hitrejši Static Field. Avtor bi mercu dodal več damage reduction, npr. {{Verdungo's Hearty Cord}}.",
+      "tips": [
+        "S14 (popravek ob koncu bete): vsi Holy Bolti iz Fist of the Heavens zdaj delajo škodo in pravilno prebijajo; po avtorju je FoH končno pravi skill.",
+        "Ritem: tele-stomp z Enigmo, vmes Joust; Holy Bolt za težje posamezne cilje.",
+        "Alternativa je {{Asylum}} staff (FoH ob castu, dvojni FoH) ali Act 4 merc z Asylum (trojni FoH), a Asylum nima socketov za magic jewele, zato avtorjeva postavitev zdaj nekoliko zmaga."
+      ],
+      "vs_hiim": [
+        "Enako: Fist of the Heavens, Holy Bolt, Holy Nova in Holy Light (Hiimov starter planer).",
+        "Razlika: Hiim ima le starter planer (Spirit, Lore, Stealth, caster crafti, merc Act 2 z Insight); video je endgame s Hand of Blessed Light, Ephemeral in Enigmo."
+      ]
+    }
+  ],
+  "paladin/hammerdin": [
+    {
+      "url": "https://www.youtube.com/watch?v=KFkLXlqnNtw",
+      "title": "The Unstoppable Whirlpool of Death! Will Someone Finally Play Me? PD2 S14 Hdin Mini Guide and Demo",
+      "author": "DarkHumility",
+      "season": "S14 beta",
+      "date": "2026-10-20",
+      "part": "0:00–22:09 · mini vodič in demo",
+      "skills": "Max Blessed Hammer, Blessed Aim in Vigor (sinergije) ter Concentration (brez nje je škoda slaba); Joust na 25; ostalo v Holy Shield ali v resist aure (npr. Resist Lightning za mape z dušami); 1 Redemption po želji.",
+      "stats": "Strength za opremo, Dexterity do max blocka s Holy Shieldom, ostalo Vitality; 125 FCR in 48 FHR.",
+      "gear": "{{Akarat's Devotion}} (ob castu proži dodaten Blessed Hammer), {{Enigma}} (Joust s cooldownom 1,5 s sam ne zadošča), {{Ephemeral}} (FCR, +combat skills, +2 Holy Shield, Slow Movement ob blocku), {{Occultist}} ali {{Frostburn}}, res škornji s FHR, 2× {{Constricting Ring}}, {{Arachnid Mesh}}, Cham za CBF, magic damage large charmi, FCR large charm, torch, Annihilus, swap {{Call to Arms}} in {{Herald of Zakarum}} (edini ščit z +2 all skills, okrepi CTA). Novi S14 jeweli s % magic damage.",
+      "merc": "Act 2 z {{Asylum}} (Sanctuary: edini vir magic piercea; stoji ob tebi in zamrzuje cilje), {{Ferocity}} in {{Innocence}} (Taunt potegne pošasti k tebi), {{Dracul's Grasp}}, {{Siggard's Staunch}}, {{Gore Rider}}; merc potrebuje več resov. Cenejše: {{Heavenly Garb}} (Sanctuary level 6) in poljuben merc, npr. Static Field.",
+      "tips": [
+        "S14: Blessed Hammerji zdaj letijo skozi zidove in ovire, Concentration naredi napade neprekinljive, novi magic jeweli dodajo škodo.",
+        "Ritem: izmenično Enigma teleport in Joust v pakete; v mestu ali za life lahko preklopiš na Redemption ali Vigor, nato nazaj na Concentration.",
+        "Po meritvi pošasti na minuto je med najboljšimi farmerji kravjih map. Map z magic immuni ne delaj, ker imajo tudi po Sanctuary še okoli 99 % odpornosti.",
+        "Strength bug z Enigmo: ob vstopu v novo igro za trenutek obleci opremo z več Strengtha."
+      ],
+      "vs_hiim": [
+        "Enako: Blessed Hammer, Blessed Aim, Vigor in Concentration na 20, Joust; Akarat's Devotion, Herald of Zakarum, Enigma, Occultist, Arachnid Mesh, CTA (Hiimov endgame planer).",
+        "Razlika: Hiim nosi 2/20 circlet, blood craft amulet in Stone of Jordan, merc pa je Act 3 Static Field (Azurewrath ali Doom, Innocence, Exile) namesto Act 2 z Asylum."
+      ]
+    }
   ]
 }
