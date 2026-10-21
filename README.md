@@ -15,6 +15,7 @@ Neuradna stran z buildi za **Project Diablo 2, Season 14 (Alliance)**. Izbereš 
 Poleg tega:
 
 - **Predmeti**: wiki vseh predmetov z iskalnikom, filtri, recepti in buildi, ki predmet nosijo,
+- **Runewordi**: filtri po bazi (vrste orožja, oklep, ščit, helm) in socketih ter iskanje po runah, ki jih imaš (kje se uporabijo, kaj lahko sestaviš, kje manjka ena runa); S14 spremembe so v `content/runewords-s14.json`,
 - **Mape**: vse S14 mape s pošastmi in imunitetami, filter po elementu, najhitrejši buildi, orbi, affixi, korupcije in eventi,
 - **Crafting**: socketi, nadgradnje, korupcija, reroll, S14 craft recepti in affixi z alvl.
 
