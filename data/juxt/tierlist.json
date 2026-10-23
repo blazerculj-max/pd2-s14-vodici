@@ -1,0 +1,7475 @@
+{
+ "url": "https://pd2guides.pages.dev",
+ "fetched": "2026-10-23",
+ "classes": {
+  "amazon": {
+   "updated": "2026-10-23T14:45:05.068Z",
+   "sections": [
+    {
+     "type": "Leveling",
+     "title": "Leveling Builds",
+     "description": "Campaign progression and early setup.",
+     "builds": [
+      {
+       "name": "Magic Arrow -> DecoyZon Nm & Hell",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark"
+       ],
+       "gear": [
+        "Lore",
+        "Harmony",
+        "Loyalty",
+        "Spirit",
+        "Ancients' Pledge"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Amazon Leveling s13",
+         "https://youtu.be/5NbwlSVy8DQ"
+        ],
+        [
+         "Full Walkthrough Zon",
+         "https://www.youtube.com/watch?v=36sN8k_-iaA&list=PLcYJKyZO8zKpmH5e-Ojuw_7pzgCjTDemE&index=5"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Farming",
+     "title": "Early Farming",
+     "description": "Fresh out of the campaign farming.",
+     "builds": [
+      {
+       "name": "Lightning Strike",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A",
+        "Versatility": "C"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Arcane, Cows"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Crescent moon",
+        "Hustle"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "DecoyZon",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Keys, AB, Chaos"
+        ]
+       ],
+       "mercs": [
+        "A4 Dark"
+       ],
+       "gear": [
+        "Peace",
+        "Lore",
+        "Loyalty"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "DecoyZon Early Farming",
+         "https://www.youtube.com/watch?v=JaVoOFuP9Ok&t=12541s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Magic Arrow",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, CZ"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def"
+       ],
+       "gear": [
+        "Melody",
+        "Hustle"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Bossing",
+     "title": "Early Bossing",
+     "description": "T0 / early kills with realistic early gearing.",
+     "builds": [
+      {
+       "name": "DecoyZon",
+       "rank": "A",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "A"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Ubers DecoyZon",
+         "https://youtu.be/JaVoOFuP9Ok?t=12541"
+        ],
+        [
+         "Dclone DecoyZon",
+         "https://youtu.be/XFTyJhcuBy4?t=5371"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Explosive Arrow",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Dclone T0 explozon",
+         "https://youtu.be/eY2dLXx3IXs"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "PlagueZon",
+       "rank": "B",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [
+        "Venom RW"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Magic Arrow",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Jabazon",
+       "rank": "B",
+       "ratings": {
+        "Safety": "C"
+       },
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Jabazon",
+         "https://youtu.be/oR8knsAiUHk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Lightning Bolt",
+       "rank": "B",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [
+        "Crescent moon",
+        "Hustle"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Bolt S13",
+         "https://youtu.be/7ezZawu0VLg"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "CMapper",
+     "title": "Cheap Mappers",
+     "description": "1 big runeword / a few core uniques / no endgame BIS gear or GG slams.",
+     "builds": [
+      {
+       "name": "SummonZon + strafe",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A5 Might",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Ebonbane",
+        "Skillers"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "SummonZon",
+         "https://www.youtube.com/watch?v=PPs8sbJBr8c&feature=youtu.be"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Jab/fend",
+       "rank": "C",
+       "ratings": {
+        "Speed": "C",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Stone Raven",
+        "Jewels"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Jabazon",
+         "https://youtu.be/oR8knsAiUHk"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Light Strike",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Defiance"
+       ],
+       "gear": [
+        "Infinity",
+        "Thunderstroke",
+        "Skillers"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Light Strike",
+         "https://www.youtube.com/watch?v=hymxVFqkfAg"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Magic Arrow",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Defiance"
+       ],
+       "gear": [
+        "Enigma",
+        "Melody",
+        "Magic LC's"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Budget Magic Arrow",
+         "https://youtu.be/qFEthqy2Fys"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Multishot",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "A good crafted/rare bow"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "MS Bleed",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Gut siphon",
+        "Bleed gear"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "MS Bleed",
+         "https://youtu.be/PvsRYm1H0YI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "SplitZon",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Jealousy RW",
+        "Phys damage gear"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Split zon",
+         "https://youtu.be/FXyZ47lL8J4"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "EMapper",
+     "title": "Endgame Mappers",
+     "description": "End-of-season builds with GG slams, BIS uniques and big runewords.",
+     "builds": [
+      {
+       "name": "Fire Arrow",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Fire Arrow",
+         "https://www.youtube.com/watch?v=8i7K7IFqsaQ&t=159s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Cold Arrow",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Cold CBow Zon",
+         "https://www.youtube.com/watch?v=sSmkVBioL_o"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Magic Arrow",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Low"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "MA Closed Beta Demo S12",
+         "https://www.youtube.com/watch?v=7TZUyE2vmVA"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Crackleshot Strafe",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "CrackleShot Strafe Zon",
+         "https://youtu.be/fpRKeT_7lTk"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Explosive Arrow",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "ExploZon Demo/Miniguide",
+         "https://youtu.be/2C5ZvKt42Pw"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "SummonZon Strafe",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Low"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Summon Zon",
+         "https://www.youtube.com/watch?v=PPs8sbJBr8c&feature=youtu.be"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Lstrike",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Light Strike",
+         "https://www.youtube.com/watch?v=hymxVFqkfAg"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Lfury",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Lfury S13",
+         "https://youtu.be/7ezZawu0VLg"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Multishot",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "MS Bleed",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "MS Bleed",
+         "https://youtu.be/PvsRYm1H0YI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "SplitZon",
+       "rank": "B+",
+       "ratings": {},
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Split Zon",
+         "https://youtu.be/FXyZ47lL8J4"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "T2Bosser",
+     "title": "Tier 2 Bossing",
+     "description": "Tier 2 bossing setups and endgame encounters.",
+     "builds": [
+      {
+       "name": "Plague Javelin",
+       "rank": "S",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "S"
+        ],
+        [
+         "Rathma",
+         "S"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Dclone PlagueZon",
+         "https://www.youtube.com/watch?v=7rq08rORHcw"
+        ],
+        [
+         "Rathma Plague Zon",
+         "https://www.youtube.com/watch?v=8OjI_2qD7Rg&t=1s"
+        ],
+        [
+         "Lucion PlagueZon",
+         "https://www.youtube.com/watch?v=br7apV6usq0"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "JabZon",
+       "rank": "S",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "A"
+        ],
+        [
+         "Lucion",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Dclone JabZon",
+         "https://www.youtube.com/watch?v=MwG6Lt97NYo"
+        ],
+        [
+         "Rathma JabZon",
+         "https://www.youtube.com/watch?v=DGHlBtqMgs4"
+        ],
+        [
+         "Lucion Jab Amazon",
+         "https://www.youtube.com/watch?v=R8qfLoCByek"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Explosive Zon",
+       "rank": "B",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Dclone t2 Explozon",
+         "https://youtu.be/paDigxtzyA4?list=PLcYJKyZO8zKqOMyPL-RvBfuV-nd_dJlVK&t=449"
+        ]
+       ],
+       "season": "s14"
+      },
+      {
+       "name": "Lightning Bolt",
+       "rank": "B",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "?"
+        ],
+        [
+         "Lucion",
+         "D"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "N/A"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      }
+     ]
+    }
+   ]
+  },
+  "assassin": {
+   "updated": "2026-10-23T14:45:06.372Z",
+   "sections": [
+    {
+     "type": "Leveling",
+     "title": "Leveling Builds",
+     "description": "Campaign progression and early setup.",
+     "builds": [
+      {
+       "name": "Blade sentinel for Normal > Light traps for NM & Hell",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Insight",
+        "Lore",
+        "+Light Sentry Claw"
+       ],
+       "notes": "Leveling Tips",
+       "links": [
+        [
+         "Leveling Sin S13",
+         "https://youtu.be/F4MVc6-zEgU"
+        ],
+        [
+         "Sin Zero To Hero",
+         "https://youtu.be/oqSF3ZpQWCA"
+        ],
+        [
+         "Sin zero -> Hero walkthrough",
+         "https://youtu.be/E4uXF5sT3Tk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Psychic Hammer -> MindBlast (no respecs)",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "S"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A4 Dark"
+       ],
+       "gear": [
+        "Insight",
+        "Lore",
+        "+MBlast Claws"
+       ],
+       "notes": "Leveling Tips",
+       "links": [
+        [
+         "Leveling Sin S13",
+         "https://youtu.be/F4MVc6-zEgU"
+        ],
+        [
+         "Sin Zero To Hero",
+         "https://youtu.be/oqSF3ZpQWCA"
+        ],
+        [
+         "Sin zero -> Hero walkthrough",
+         "https://youtu.be/E4uXF5sT3Tk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blade Sentinel + Venom all the way",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Edge",
+        "Smoke"
+       ],
+       "notes": "Leveling Tips",
+       "links": [
+        [
+         "Leveling Sin S13",
+         "https://youtu.be/F4MVc6-zEgU"
+        ],
+        [
+         "Sin Zero To Hero",
+         "https://youtu.be/oqSF3ZpQWCA"
+        ],
+        [
+         "Sin zero -> Hero walkthrough",
+         "https://youtu.be/E4uXF5sT3Tk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Light Traps all the way",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Insight",
+        "Lore",
+        "+Light Sentry Claw"
+       ],
+       "notes": "Leveling Tips",
+       "links": [
+        [
+         "Leveling Sin S13",
+         "https://youtu.be/F4MVc6-zEgU"
+        ],
+        [
+         "Sin Zero To Hero",
+         "https://youtu.be/oqSF3ZpQWCA"
+        ],
+        [
+         "Sin zero -> Hero walkthrough",
+         "https://youtu.be/E4uXF5sT3Tk"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Farming",
+     "title": "Early Farming",
+     "description": "Fresh out of the campaign farming.",
+     "builds": [
+      {
+       "name": "Wake Of Fire",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B",
+        "Versatility": "C"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Cows, Maps"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "5+ WoF claws"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Light Traps",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A",
+        "Versatility": "B"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Arcane, CZ"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "5+ CLS Claws"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Wake of Fire",
+         "https://youtu.be/Zx0NOCd7idw?t=394"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Mind Blast",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S",
+        "Versatility": "B"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, CZ"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "Naj Set"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Bossing",
+     "title": "Early Bossing",
+     "description": "T0 / early kills with realistic early gearing.",
+     "builds": [
+      {
+       "name": "Venom Sent",
+       "rank": "A",
+       "ratings": {
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Light Traps",
+       "rank": "S",
+       "ratings": {
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Ubers",
+         "S"
+        ],
+        [
+         "DClone",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "5+ CLS Claws"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Sin Zero To Hero",
+         "https://youtu.be/oqSF3ZpQWCA"
+        ],
+        [
+         "Ubers Demo",
+         "https://youtu.be/F4MVc6-zEgU?t=546"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Mindblast",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Ubers",
+         "A"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "Naj Set"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Traps",
+       "rank": "A",
+       "ratings": {
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Ubers",
+         "A"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "5 + WoI Claws"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Fire Trap early bossing",
+         "https://youtu.be/NQHtmKDHAeE"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "CMapper",
+     "title": "Cheap Mappers",
+     "description": "1 big runeword / a few core uniques / no endgame BIS gear or GG slams.",
+     "builds": [
+      {
+       "name": "Mind Blast",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A4 Dark"
+       ],
+       "gear": [
+        "Shadow Killers",
+        "Shadow Dancers",
+        "Mirage",
+        "Skillers"
+       ],
+       "notes": "Mirage small nerf, Shadow killer small buff, Bug fix for dragon flight consuming Mind Blast charges",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Wake of Fire",
+       "rank": "B",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Skillers",
+        "+5-6 Claws / ghost flame + gerkes"
+       ],
+       "notes": "Better to wait for infy to start mapping",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "BladeDance (Psn)",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Natalya's Set",
+        "Chaos"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "SpinSin Venom",
+         "https://www.youtube.com/watch?v=V8XscQxvx6o"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Fists of Fire",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Kira's Guardian",
+        "Skillers"
+       ],
+       "notes": "Small damage buffs",
+       "links": [
+        [
+         "Fist of Fire",
+         "https://youtu.be/QlLcc9pwaR8"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "BladeFury",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Pierce gear",
+        "Good claw for damage"
+       ],
+       "notes": "Claw & Dagger mastery works with this skill! (buff)",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Cobra",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Venom",
+        "Andariel's Visage",
+        "Jade Talon"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Cobra S13",
+         "https://youtu.be/CZOlhm_XxAI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Kick",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A2 Off"
+       ],
+       "gear": [
+        "War travs",
+        "Fortitude"
+       ],
+       "notes": "Hit Consistency buffs",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Blades of Ice",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Jade talon",
+        "Bartuc claw/black oak shield"
+       ],
+       "notes": "Second charge is faster and goes farther",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "CLS",
+       "rank": "B+",
+       "ratings": {},
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Skillers",
+        "+5-6 Claws",
+        "Stormspire"
+       ],
+       "notes": "Gets much better with big runewords infinity",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "EMapper",
+     "title": "Endgame Mappers",
+     "description": "End-of-season builds with GG slams, BIS uniques and big runewords.",
+     "builds": [
+      {
+       "name": "WoF",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Fists of Fire",
+       "rank": "S+",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Good for ears",
+       "links": [
+        [
+         "FoF Mini Showcase",
+         "https://www.youtube.com/watch?v=vsLheJd5Qb4"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blades of Ice",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Second charge travel longer & faster",
+       "links": [
+        [
+         "Blades of Ice",
+         "https://www.youtube.com/watch?v=WUgm8GEYy6I"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Claws of Thunder",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "COT S12 CB",
+         "https://www.youtube.com/watch?v=Zrb0yCKorvk&t=90s"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Blade Dance (Phys)",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Very High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Mind Blast",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "Mirage small nerf, Shadow killer small buff, Bug fix for dragon flight consuming Mind Blast charges",
+       "links": [
+        [
+         "Mind Blast",
+         "https://www.youtube.com/watch?v=8DOZnvDOfnY&t=151s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Death Sentry",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Dsentry Guide/Demo S12",
+         "https://www.youtube.com/watch?v=y5U9w2D1f8Q"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "MS Venom Sin",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def A3 Prayer",
+        "A2 Off",
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "MS Venom Sin Guide",
+         "https://www.youtube.com/watch?v=-JYsBPzSqKY&t=2062s"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Phoenix",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "First & Third Charge got buffed (mainly uses second charge)",
+       "links": [
+        [
+         "Phoenix CB S12",
+         "https://youtu.be/ypavJ_b5WPU"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Kick",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Runs fortified eared maps like butter",
+       "links": [
+        [
+         "KickSin Demo",
+         "https://www.youtube.com/watch?v=iqRaj5y1W80"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "BladeFury",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A2 Off",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Claw & Dagger mastery works now opening up new damage options",
+       "links": [
+        [
+         "BladeFury S12",
+         "https://www.youtube.com/watch?v=uS2HHvY_sOc"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "BladeDance (Psn)",
+       "rank": "B",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Low"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "SpinSin Venom S12 CB",
+         "https://youtu.be/V8XscQxvx6o"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Cobra",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A5 Bo",
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "A3 Shock nerf -> swap to a5 Bo/a2 Def/A1 vigor",
+       "links": [
+        [
+         "Cobra S13",
+         "https://youtu.be/CZOlhm_XxAI"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "T2Bosser",
+     "title": "Tier 2 Bossing",
+     "description": "Tier 2 bossing setups and endgame encounters.",
+     "builds": [
+      {
+       "name": "Blade Sentinel",
+       "rank": "S",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "S"
+        ],
+        [
+         "Rathma",
+         "A"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Mind Blast",
+       "rank": "B",
+       "ratings": {
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Mblast Rathma",
+         "https://www.youtube.com/watch?v=Z2FxLVp4OKw&t=1013s"
+        ],
+        [
+         "Mblast Lucion",
+         "https://www.youtube.com/watch?v=qqQQkSO5QX4"
+        ],
+        [
+         "MBlast Clone",
+         "https://www.youtube.com/watch?v=BwYXvkUM-aE&t=3s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fist of Fire",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Ground fire damage buffs might be relevant",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Cobra",
+       "rank": "A",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Rathma psn bossing got a big buff",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Traps",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Only good for clone",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Light Traps",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Only good for clone",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    }
+   ]
+  },
+  "barbarian": {
+   "updated": "2026-10-23T14:45:07.713Z",
+   "sections": [
+    {
+     "type": "Leveling",
+     "title": "Leveling Builds",
+     "description": "Campaign progression and early setup.",
+     "builds": [
+      {
+       "name": "Frenzy -> Warcry (swap in NM)",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark",
+        "A2 Def"
+       ],
+       "gear": [
+        "+skills",
+        "FCR"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "S13 - Barb leveling",
+         "https://youtu.be/OWvR2l3utY4"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Frenzy/Double Swing all the way",
+       "rank": "C",
+       "ratings": {
+        "Speed": "C",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark",
+        "A2 Off",
+        "A5 Might"
+       ],
+       "gear": [
+        "Good Weapons"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "S13 - Barb leveling",
+         "https://youtu.be/OWvR2l3utY4"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Frenzy Normal - Nightmare -> WW 2H",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark",
+        "A2 Blessed Aim"
+       ],
+       "gear": [
+        "2H WW Weapon",
+        "Insight"
+       ],
+       "notes": "WW Nerfed (its still good)",
+       "links": [
+        [
+         "S13 - Barb leveling",
+         "https://youtu.be/OWvR2l3utY4"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Throw Normal - Nightmare -> WW 2H",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "steel + Malice",
+        "Insight"
+       ],
+       "notes": "WW Nerfed (its still good)",
+       "links": [
+        [
+         "Barb Leveling",
+         "https://youtu.be/_9RGyXGekCM"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Farming",
+     "title": "Early Farming",
+     "description": "Fresh out of the campaign farming.",
+     "builds": [
+      {
+       "name": "DThrow",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Trav, Pits, Chaos, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A4 Off",
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Good throw weapons"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Warcry",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A",
+        "Versatility": "D"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Trav"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A2 Off"
+       ],
+       "gear": [
+        "Naj set"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "CryBarb CB Demo",
+         "https://www.youtube.com/watch?v=7fvOhD6VA10"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Berserk/Dswing",
+       "rank": "B",
+       "ratings": {
+        "Speed": "C",
+        "Safety": "B",
+        "Versatility": "B"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, Keys"
+        ]
+       ],
+       "mercs": [
+        "A5 Might",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Unbending Will"
+       ],
+       "notes": "crit strike increase from mastery",
+       "links": [
+        [
+         "Dswing Guide",
+         "https://www.youtube.com/watch?v=MOCMSPPWeSk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "WW Bleed",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B",
+        "Versatility": "A+"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Cows, Chaos, Map"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Razor Edges"
+       ],
+       "notes": "crit strike increase from mastery",
+       "links": [
+        [
+         "WW Bleed",
+         "https://www.youtube.com/watch?v=flc0zhRIdJY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "2H WW",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B",
+        "Versatility": "A+"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "CZ, Cows, Chaos, Trav, Map"
+        ]
+       ],
+       "mercs": [
+        "A5 Might",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Insight"
+       ],
+       "notes": "WW Damage nerf, 2H Mastery nerf (its ok)",
+       "links": [
+        [
+         "Early Farm 2H WW",
+         "https://youtu.be/Fu1rDOdl0zE"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Split Throw",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "A",
+        "Versatility": "S"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "CZ, Cows, Chaos, Trav, Map, AB"
+        ]
+       ],
+       "mercs": [
+        "A5 Might",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Good weapon"
+       ],
+       "notes": "CB Now affects all projectile",
+       "links": [
+        [
+         "https://youtu.be/ApDZeI9j-n8",
+         "https://youtu.be/ApDZeI9j-n8"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Bossing",
+     "title": "Early Bossing",
+     "description": "T0 / early kills with realistic early gearing.",
+     "builds": [
+      {
+       "name": "Berserk",
+       "rank": "A+",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A4 Dark",
+        "A5 Might"
+       ],
+       "gear": [
+        "Unbending Will x2"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Zerk T0 Clone Demo",
+         "https://www.youtube.com/watch?v=OlqLYnbjaiA"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Dswing",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [
+        "A4 Dark",
+        "A5 Might"
+       ],
+       "gear": [
+        "Unbending Will x2"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Dswing Dclone",
+         "https://youtu.be/MOCMSPPWeSk?t=830"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Split Throw",
+       "rank": "A+",
+       "ratings": {
+        "Safety": "A+"
+       },
+       "details": [
+        [
+         "Ubers",
+         "S"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A4 Dark",
+        "A5 Might"
+       ],
+       "gear": [
+        "Good weapon (Demon's Arch for unique option)"
+       ],
+       "notes": "CB Now affects all projectile",
+       "links": [
+        [
+         "Barb Split Throw",
+         "https://youtu.be/ApDZeI9j-n8"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "CMapper",
+     "title": "Cheap Mappers",
+     "description": "1 big runeword / a few core uniques / no endgame BIS gear or GG slams.",
+     "builds": [
+      {
+       "name": "WW Phys 2H",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def",
+        "A5 Might"
+       ],
+       "gear": [
+        "IK Set"
+       ],
+       "notes": "Nerfed dps and mastery (its still good)",
+       "links": [
+        [
+         "2H WW IK S13",
+         "https://youtu.be/nJnpKX7eRWo"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "WW Bleed",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Toothrow",
+        "Demonhorn",
+        "Razor's Edges"
+       ],
+       "notes": "crit strike increase from mastery",
+       "links": [
+        [
+         "WW Bleed",
+         "https://www.youtube.com/watch?v=flc0zhRIdJY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Zerk / Double Swing",
+       "rank": "B",
+       "ratings": {
+        "Speed": "C+",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "BK Set"
+       ],
+       "notes": "Hit consistency bug fix",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "DThrow",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Big Weapons"
+       ],
+       "notes": "Melts ear maps",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Warcry barb",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Enigma",
+        "Skillers"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Split Throw",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "B+"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Good Weapon",
+        "Phys Dam gear"
+       ],
+       "notes": "All projectiles now proc CB",
+       "links": [
+        [
+         "Split throw S14",
+         "https://youtu.be/ApDZeI9j-n8"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Concentrate",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "RibCracker",
+        "Phys dam gear"
+       ],
+       "notes": "Now Splashes magic damage",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "EMapper",
+     "title": "Endgame Mappers",
+     "description": "End-of-season builds with GG slams, BIS uniques and big runewords.",
+     "builds": [
+      {
+       "name": "WW Phys (2H)",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "2H nerfs still a great build",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "WW Bleed (dual wield)",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A+"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "10% more crit strike from mastery",
+       "links": [
+        [
+         "WW Bleed",
+         "https://www.youtube.com/watch?v=flc0zhRIdJY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "WW Fire",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B+"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "WW Fire Barb (S12 CB)",
+         "https://www.youtube.com/watch?v=7n8tmvID4Sw&t=1s"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "WW Proc (Cold)",
+       "rank": "C",
+       "ratings": {
+        "Speed": "C",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Cold Proc buff to Bing Sz Wang",
+       "links": [
+        [
+         "WW Proc (Cold)",
+         "https://www.youtube.com/watch?v=LI6SFKwPfkE&t=52s"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "WW Proc (Magic)",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Foh Buffs work for asylum barb, Magic damage jewels",
+       "links": [
+        [
+         "WW Proc (magic)",
+         "https://youtu.be/hjiztTtiQuY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Warcry Barb",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A3 Light"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "CryBarb S10",
+         "https://youtu.be/2MGU6X-2DEo"
+        ],
+        [
+         "CryBarb S12",
+         "http://youtube.com/watch?v=7fvOhD6VA10"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "DThrow Phys",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Throw Baba Demo",
+         "https://www.youtube.com/watch?v=whJZjpCH22c"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Dswing/Zerk",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "10% more crit strike from mastery",
+       "links": [
+        [
+         "Berserk Guide",
+         "https://www.youtube.com/watch?v=jvZtGs84DE8&t=952s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "BearBarb",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Impaler Barb",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Jab nerfs affect it",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Split Throw",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "New Skill!!",
+       "links": [
+        [
+         "Split throw S14",
+         "https://youtu.be/ApDZeI9j-n8"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Concentrate",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Now Splashes Magic damage",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "T2Bosser",
+     "title": "Tier 2 Bossing",
+     "description": "Tier 2 bossing setups and endgame encounters.",
+     "builds": [
+      {
+       "name": "berserk",
+       "rank": "S+",
+       "ratings": {
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "DClone",
+         "S"
+        ],
+        [
+         "Rathma",
+         "S"
+        ],
+        [
+         "Lucion",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Very Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "10% more crit strike from mastery"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Dclone zerk",
+         "https://youtu.be/RDuQk8T0hDY"
+        ],
+        [
+         "Rathma Zerk",
+         "https://youtu.be/LYVsR-vEFY4"
+        ],
+        [
+         "Lucion Zerk",
+         "https://youtu.be/UI9HQpm8DEQ"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Throw",
+       "rank": "C",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "Pillars no longer targetable in dclone make him not viable there"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Wolf Barb",
+       "rank": "B",
+       "ratings": {
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "10% more crit strike from mastery"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Zeal Barb",
+       "rank": "B",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "10% more crit strike from mastery"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "BearBarb",
+       "rank": "C",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "?"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "2H mastery nerfs"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "JaBarb",
+       "rank": "C",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "2H mastery nerfs"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Split Throw",
+       "rank": "A",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "?"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "All projectile proc CB"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    }
+   ]
+  },
+  "druid": {
+   "updated": "2026-10-23T14:45:09.001Z",
+   "sections": [
+    {
+     "type": "Leveling",
+     "title": "Leveling Builds",
+     "description": "Campaign progression and early setup.",
+     "builds": [
+      {
+       "name": "Summoner Zoo",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark w/ Insight",
+        "A1 Vigor With Witchstring"
+       ],
+       "gear": [
+        "Lore",
+        "Smoke",
+        "Ancients Pledge"
+       ],
+       "notes": "Bears damage nerfed, Dire wolves damage & health buffs, spirit wolfs life buffs, pets now gain ds from spirit, HoW nerfs",
+       "links": [
+        [
+         "Leveling",
+         "https://youtu.be/pAMwbqI-ttQ"
+        ],
+        [
+         "Zero > Hero",
+         "https://youtu.be/bcep7mRdV40"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Summoner Vines",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "3+ to creeper club",
+        "3+ to creeper helm",
+        "Ancients pledge"
+       ],
+       "notes": "Creeper was reworked AFTER closed beta so could not fully test (overal seems like a buff)",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Farming",
+     "title": "Early Farming",
+     "description": "Fresh out of the campaign farming.",
+     "builds": [
+      {
+       "name": "Summoner Zoo",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "AB, CZ, Keys, Maps"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A4 Dark"
+       ],
+       "gear": [
+        "Lore",
+        "Smoke",
+        "Ancients Pledge"
+       ],
+       "notes": "Bears do less damage, Dire wolfs do more, Both wolves are tankier, Summons benefit from Barbs Spirit",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Druid",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B",
+        "Versatility": "C"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Cows, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Fissure buffs do not make it better then volcano + boulder",
+       "links": [
+        [
+         "S13 Fire Budget",
+         "https://youtu.be/s9VLmxj0xGQ"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "ShockWave",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "S",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, CZ, Trav"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Memory",
+        "Cerebus"
+       ],
+       "notes": "Deadly strike/Crit works with shockwave",
+       "links": [
+        [
+         "Druid Shockwave",
+         "https://youtu.be/Gt_QnDwWJNs"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Summoner Vines",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "B+",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, Keys, Cows"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Creeper was reworked AFTER closed beta so could not fully test (overal seems like a buff)",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Bossing",
+     "title": "Early Bossing",
+     "description": "T0 / early kills with realistic early gearing.",
+     "builds": [
+      {
+       "name": "Summoner Zoo",
+       "rank": "A",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "A"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Pillars removed (this is a buff)",
+       "links": [
+        [
+         "Druid Ubers",
+         "https://www.youtube.com/watch?v=6PqeB_Q2dz0&list=PLcYJKyZO8zKrTLvk6JpGZYp9CT7VahgoZ&index=31"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Wind",
+       "rank": "C+",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Nado & Twister Buffs (many changes during beta this may change)",
+       "links": [
+        [
+         "Wind DClone",
+         "https://www.youtube.com/watch?v=SqkxCKHWp8I"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Maul",
+       "rank": "B+",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "HoW nerf :(",
+       "links": [
+        [
+         "Maul DCLone",
+         "https://youtu.be/E-QCq0mbxXg"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Druid",
+       "rank": "B",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Fissure Buffs seem big (were implented after closed beta cannot fully test",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Fury Druid",
+       "rank": "B+",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "HoW nerf :(",
+       "links": [
+        [
+         "Fury DClone",
+         "https://youtu.be/BiyJJ0WqY8U"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Summoner Vines",
+       "rank": "A",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "B+"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Single target damage works now :)",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "CMapper",
+     "title": "Cheap Mappers",
+     "description": "1 big runeword / a few core uniques / no endgame BIS gear or GG slams.",
+     "builds": [
+      {
+       "name": "Summoner - Bears",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A4 Dark",
+        "A5 Might",
+        "A2 Off"
+       ],
+       "gear": [
+        "Skillers",
+        "Aldur helm"
+       ],
+       "notes": "Wolfs are stronger, Bears are weaker",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Fury",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "S"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Weapon"
+       ],
+       "notes": "HoW nerf :(",
+       "links": [
+        [
+         "Fury Demo",
+         "https://www.youtube.com/watch?v=e_ljBaEwCTY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fire",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "C"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Ravenlore",
+        "magefist",
+        "Skillers"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Fire Druid S13",
+         "https://youtu.be/s9VLmxj0xGQ"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Wind",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Horizon",
+        "Lance Guard",
+        "WraithSkin"
+       ],
+       "notes": "Damage buffs, DS works with twister",
+       "links": [
+        [
+         "Druid Windy",
+         "https://youtu.be/xKJsqDc-cSE"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Arctic Blast",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Frostwind",
+        "Snowclash",
+        "Skillers"
+       ],
+       "notes": "Amazing at ear maps",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Maul",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "S"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Executioner's Justice"
+       ],
+       "notes": "HoW nerf :(",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Creeper",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A3 Prayer"
+       ],
+       "gear": [
+        "Aldur helm",
+        "+5 club",
+        "Spirit ward",
+        "Titans' Grip"
+       ],
+       "notes": "Creeper was reworked AFTER closed beta so could not fully test (overal seems like a buff)",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Fury Twister Proc",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [
+        "Windhammer",
+        "Carrion Windx2"
+       ],
+       "notes": "Damage buffs, DS works with twister",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Shockwave",
+       "rank": "S-",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "S"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def"
+       ],
+       "gear": [
+        "Wraithskin",
+        "Lance Guard",
+        "Death Cleaver"
+       ],
+       "notes": "DS works with shockwave",
+       "links": [
+        [
+         "Druid Shockwave",
+         "https://youtu.be/Gt_QnDwWJNs"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "EMapper",
+     "title": "Endgame Mappers",
+     "description": "End-of-season builds with GG slams, BIS uniques and big runewords.",
+     "builds": [
+      {
+       "name": "Summoner - Phys",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Bears nerfed, Wolfs buffed, Barb spirit works with summons, Demon machine perform worse now",
+       "links": [
+        [
+         "Summoner Mapper",
+         "https://www.youtube.com/watch?v=9ijKY5LC63I"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Summoner - Vines",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A5 Bo"
+       ],
+       "gear": [],
+       "notes": "Creeper was reworked AFTER closed Rank may change",
+       "links": [
+        [
+         "Creeper Druid",
+         "https://www.youtube.com/watch?v=tGjYKNX-e6w&t=2s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fire",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Fire Druid S12",
+         "https://www.youtube.com/watch?v=Bant6FBQTMg&t=719s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Wind",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Low"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Damage buffs, DS works with Twister (might be S need slams to verify)",
+       "links": [
+        [
+         "Druid Windy",
+         "https://youtu.be/xKJsqDc-cSE"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "ArcBlast",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Melts Ear maps",
+       "links": [
+        [
+         "ArcBlast",
+         "https://youtu.be/MfDwrvvWcPY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "FireClaw",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "Reworked Skill overall performance was similar",
+       "links": [
+        [
+         "FClaw S12 CB",
+         "https://youtu.be/j1jg07XJRss"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fury",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "HoW nerf :(",
+       "links": [
+        [
+         "Fury Demo CB S12",
+         "https://www.youtube.com/watch?v=e_ljBaEwCTY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Maul",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Melts Ear maps",
+       "links": [
+        [
+         "Maul MiniDemo S12",
+         "https://youtu.be/E-QCq0mbxXg"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Rabies",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "New setup (spectral)",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Shockwave",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "s"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "DS works with shockwave",
+       "links": [
+        [
+         "Druid Shockwave",
+         "https://youtu.be/Gt_QnDwWJNs"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "T2Bosser",
+     "title": "Tier 2 Bossing",
+     "description": "Tier 2 bossing setups and endgame encounters.",
+     "builds": [
+      {
+       "name": "Rabies",
+       "rank": "B",
+       "ratings": {},
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Lucion",
+         "C"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Fury",
+       "rank": "B",
+       "ratings": {},
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "A"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Splash buffs are great in lucion/clone",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Maul",
+       "rank": "A",
+       "ratings": {},
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "A"
+        ],
+        [
+         "Lucion",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "slight damage nerfs",
+       "links": [
+        [
+         "Maul Bear Boss",
+         "https://youtu.be/axt_d4cBLXs"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Claw",
+       "rank": "B-",
+       "ratings": {},
+       "details": [
+        [
+         "DClone",
+         "C"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Slight damage buffs (not big)",
+       "links": [
+        [
+         "FireClaw Guide",
+         "https://youtu.be/i8OOL-0u_Bw"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Fire Druid",
+       "rank": "C",
+       "ratings": {},
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "C"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Slight Damage nerfs",
+       "links": [
+        [
+         "Fire Druid Rathma",
+         "https://youtu.be/UosIzkhyf6I"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Creeper",
+       "rank": "?",
+       "ratings": {},
+       "details": [],
+       "mercs": [],
+       "gear": [],
+       "notes": "Creeper was reworked AFTER closed beta so could not fully test",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Summoner",
+       "rank": "?",
+       "ratings": {},
+       "details": [],
+       "mercs": [],
+       "gear": [],
+       "notes": "Pillars removed in dclone (might make dclone possible again) require more testing",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Windruid",
+       "rank": "?",
+       "ratings": {},
+       "details": [],
+       "mercs": [],
+       "gear": [],
+       "notes": "Many reworks to damage rquire further testing",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    }
+   ]
+  },
+  "necromancer": {
+   "updated": "2026-10-23T14:45:09.851Z",
+   "sections": [
+    {
+     "type": "Leveling",
+     "title": "Leveling Builds",
+     "description": "Campaign progression and early setup.",
+     "builds": [
+      {
+       "name": "Psn Strike for Normal -> Clay Golems & Revives for Nm & Hell",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark"
+       ],
+       "gear": [
+        "Smoke",
+        "Lore",
+        "Ancients' Pledge"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Leveling Tips",
+         "https://youtu.be/V9DVKXuwSgQ?t=2130"
+        ],
+        [
+         "Leveling Necro",
+         "https://youtu.be/RUfdIbk1cCA"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Golems all the way",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark"
+       ],
+       "gear": [
+        "Smoke",
+        "Lore",
+        "Ancients' Pledge"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Leveling Tips",
+         "https://youtu.be/V9DVKXuwSgQ?t=2130"
+        ],
+        [
+         "Leveling Necro",
+         "https://youtu.be/RUfdIbk1cCA"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Pstrike for normal -> Blood Golems",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "B+"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark",
+        "A5 Might",
+        "A1 Vigor"
+       ],
+       "gear": [
+        "Edge",
+        "Lore",
+        "Stealth"
+       ],
+       "notes": "Thorns buffed (affects blood golems)",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Farming",
+     "title": "Early Farming",
+     "description": "Fresh out of the campaign farming.",
+     "builds": [
+      {
+       "name": "Blood Golems & Revives",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Keys, Trav, CZ, AB"
+        ]
+       ],
+       "mercs": [
+        "A4 Dark"
+       ],
+       "gear": [],
+       "notes": "Thorns buffed (affects blood golems), now run blood golem > clay",
+       "links": [
+        [
+         "ClayGolems Early",
+         "https://youtu.be/RUfdIbk1cCA?t=93"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Boner",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B",
+        "Versatility": "B"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, Trav, CZ"
+        ]
+       ],
+       "mercs": [
+        "A4 Light",
+        "A2 Def"
+       ],
+       "gear": [
+        "Wand Shopping"
+       ],
+       "notes": "Magic %dmg jewels will buff damage scaling",
+       "links": [
+        [
+         "Teeth Guide",
+         "https://www.youtube.com/watch?v=oxUHUxqZ7KI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Mages & Revives",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, Trav, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A3 Prayer"
+       ],
+       "gear": [
+        "Grim's Burning Dead"
+       ],
+       "notes": "Buff to Lower resist affect mages",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Dark Pact",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B",
+        "Versatility": "C"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Cows, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Wand Shopping"
+       ],
+       "notes": "Weak Single target, Buffs to aoe & damage",
+       "links": [
+        [
+         "Dark Pact",
+         "https://youtu.be/s20ceMMFLLU"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blood Golems",
+       "rank": "A+",
+       "ratings": {},
+       "details": [
+        [
+         "Farming Areas",
+         "Keys, Trav, CZ, AB"
+        ]
+       ],
+       "mercs": [
+        "A4 Dark"
+       ],
+       "gear": [
+        "Edge Rw"
+       ],
+       "notes": "Thorns buffed (affects blood golems)",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Bossing",
+     "title": "Early Bossing",
+     "description": "T0 / early kills with realistic early gearing.",
+     "builds": [
+      {
+       "name": "Blood Golems",
+       "rank": "S+",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "A"
+        ],
+        [
+         "DClone",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "Very Low"
+        ],
+        [
+         "Difficulty",
+         "Very Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "Edge Rw"
+       ],
+       "notes": "Thorns buffed (affects blood golems)",
+       "links": [
+        [
+         "Dclone Blood Golem Budget",
+         "https://youtu.be/i0eYmqmhnWc"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Boner Necro",
+       "rank": "B",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "Shoppable wand",
+        "125 FCR"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "S13 Boner",
+         "https://youtu.be/PyFMnBsuJE8"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blood Golems & Revives",
+       "rank": "S",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "S"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Very Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [
+        "Edge Rw"
+       ],
+       "notes": "Now performs better with blood + revives",
+       "links": [
+        [
+         "Ubers",
+         "https://youtu.be/RUfdIbk1cCA?t=863"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "CMapper",
+     "title": "Cheap Mappers",
+     "description": "1 big runeword / a few core uniques / no endgame BIS gear or GG slams.",
+     "builds": [
+      {
+       "name": "Boner",
+       "rank": "A",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Light",
+        "A2 Def"
+       ],
+       "gear": [
+        "Bone Shade",
+        "Magic LC's",
+        "Skillers"
+       ],
+       "notes": "Magic damage jewels buff damage",
+       "links": [
+        [
+         "S14 Beta",
+         "https://youtu.be/fDy8V8-sAko"
+        ],
+        [
+         "Budget Boner",
+         "https://www.youtube.com/watch?v=oxUHUxqZ7KI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Dark Pact",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A3 Shcok"
+       ],
+       "gear": [
+        "Magic LC's",
+        "Dark Force Spawn",
+        "Blackhand Key"
+       ],
+       "notes": "Bigger aoe, Magic damage jewels buff damage",
+       "links": [
+        [
+         "Budget DP",
+         "https://www.youtube.com/watch?v=7Jl4vxeJXG0&t=123s"
+        ],
+        [
+         "S13 DP Budget",
+         "https://youtu.be/s20ceMMFLLU"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Summoner (phys skelly)",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Phys",
+        "A5 Might"
+       ],
+       "gear": [
+        "Skillers",
+        "Tmight"
+       ],
+       "notes": "Amp base debuff is better, Archer's Buffed",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Pnova",
+       "rank": "S+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A3 Prayer"
+       ],
+       "gear": [
+        "Full Trang",
+        "DeathsWeb"
+       ],
+       "notes": "Scales better early, slightly worse endgame",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Summoner (Mages + Revives)",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A3 Light",
+        "A3 Prayer"
+       ],
+       "gear": [
+        "Grim's Burning Dead",
+        "Skillers"
+       ],
+       "notes": "Lower resist base debuff is better",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Corpse Explosion",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Skillers",
+        "Full Trang"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Poison Strike",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Full Trang",
+        "Venom Rw"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "EMapper",
+     "title": "Endgame Mappers",
+     "description": "End-of-season builds with GG slams, BIS uniques and big runewords.",
+     "builds": [
+      {
+       "name": "Boner",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A4 Light"
+       ],
+       "gear": [],
+       "notes": "Magic damage jewels will buff endgame scaling",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Corpse Explosion",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "CE Demo S12",
+         "https://www.youtube.com/watch?v=NCtdp5ObzcI&t=631s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Dark Pact",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Low"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Aoe buffs, Magic damage jewels will buff endgame scaling",
+       "links": [
+        [
+         "Dark Pact",
+         "https://www.youtube.com/watch?v=iJuAkoAFA1Y&t=71s"
+        ],
+        [
+         "Dp S12 Demo",
+         "https://www.youtube.com/watch?v=7Jl4vxeJXG0&t=123s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Golem",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Very High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "FiGo Mini Showcase/Demo",
+         "https://youtu.be/Gz1_U1seCqA"
+        ]
+       ],
+       "season": "S13"
+      },
+      {
+       "name": "Psn Nova",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A3 Prayer",
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Endgame scaling nerfed, T1/2 will still be S tier",
+       "links": [
+        [
+         "Psn Nova",
+         "https://www.youtube.com/watch?v=ZDLiZOVp6RA&t=909s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Psn Strike",
+       "rank": "S+",
+       "ratings": {
+        "Speed": "S+",
+        "Safety": "A+"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A3 Prayer"
+       ],
+       "gear": [],
+       "notes": "Slight damage nerfes still does ear maps at top speed",
+       "links": [
+        [
+         "Pstrike Demo",
+         "https://www.youtube.com/watch?v=UWXdy6qQX6c"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Green Goblin",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Phys"
+       ],
+       "gear": [],
+       "notes": "Multishot does more damage but less procs for Demon machine slight nerf, Archers Buffed",
+       "links": [
+        [
+         "Green Gobo Beta Demo",
+         "https://www.youtube.com/watch?v=3K2IyPW8FVk&t=937s"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "T2Bosser",
+     "title": "Tier 2 Bossing",
+     "description": "Tier 2 bossing setups and endgame encounters.",
+     "builds": [
+      {
+       "name": "Desecrate",
+       "rank": "B",
+       "ratings": {
+        "Safety": "C"
+       },
+       "details": [
+        [
+         "DClone",
+         "B+"
+        ],
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Rathma bug fixes will make it better",
+       "links": [
+        [
+         "Desecrate Dclone",
+         "https://www.youtube.com/watch?v=hRS6NvFM2ds&ab_channel=JuxtAPoser"
+        ],
+        [
+         "Desecrate Rathma",
+         "https://youtu.be/VwUWfZvJsYI"
+        ],
+        [
+         "Desecrate Lucion",
+         "https://www.youtube.com/watch?v=XpmmwCRRCHs&t=909s&ab_channel=JuxtAPoser"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Psn Strike",
+       "rank": "C+",
+       "ratings": {
+        "Safety": "C"
+       },
+       "details": [
+        [
+         "DClone",
+         "C"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "C"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Rathma bug fixes will make it better but damage nerfs",
+       "links": [
+        [
+         "Pstrike Dclone",
+         "https://www.youtube.com/watch?v=nZzkSlZLKgc"
+        ],
+        [
+         "Pstrike Rathma",
+         "https://www.youtube.com/watch?v=9ynGMiPawjQ"
+        ],
+        [
+         "Pstrike Lucion",
+         "https://www.youtube.com/watch?v=12DiCRnZR4U"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blood Golems",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "A+"
+        ],
+        [
+         "Lucion",
+         "B+"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Cant do rathma",
+       "links": [
+        [
+         "Dclone Blood Golems",
+         "https://youtu.be/IfA2p-9Yg5M"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Bone Necro",
+       "rank": "C",
+       "ratings": {
+        "Safety": "C"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Magic damage jewels will scale build damage",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    }
+   ]
+  },
+  "paladin": {
+   "updated": "2026-10-23T14:45:10.929Z",
+   "sections": [
+    {
+     "type": "Leveling",
+     "title": "Leveling Builds",
+     "description": "Campaign progression and early setup.",
+     "builds": [
+      {
+       "name": "Charge for normal -> Holy bolt for nightmare+hell",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "S"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Spirit",
+        "Lore",
+        "Neophyte"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Leveling Paladin",
+         "https://youtu.be/RtOHU7gvdy4"
+        ],
+        [
+         "Hc SSF Paladin",
+         "https://youtu.be/5sgjV8_AMcw"
+        ],
+        [
+         "Paladin Zero To Hero",
+         "https://youtu.be/GNkIdkeJC-U"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Holy Bolt All the way (saves respec slightly slower)",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "S"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Spirit",
+        "Lore",
+        "Neophyte"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Leveling Paladin",
+         "https://youtu.be/RtOHU7gvdy4"
+        ],
+        [
+         "Hc SSF Paladin",
+         "https://youtu.be/5sgjV8_AMcw"
+        ],
+        [
+         "Paladin Zero To Hero",
+         "https://youtu.be/GNkIdkeJC-U"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Vengence",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Leveling Paladin",
+         "https://youtu.be/RtOHU7gvdy4"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Farming",
+     "title": "Early Farming",
+     "description": "Fresh out of the campaign farming.",
+     "builds": [
+      {
+       "name": "Holy Bolt",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A",
+        "Versatility": "S"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Keys, AB, CZ, Chaos"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Holy Bolt",
+         "https://youtu.be/GNkIdkeJC-U"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Vengence",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Cows, Arcane, Maps"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "FOH",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A",
+        "Versatility": "S"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Naj Set"
+       ],
+       "notes": "Foh bug fix and  buffs",
+       "links": [
+        [
+         "FOH",
+         "https://www.youtube.com/watch?v=uV_MF6QBVUw"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Bossing",
+     "title": "Early Bossing",
+     "description": "T0 / early kills with realistic early gearing.",
+     "builds": [
+      {
+       "name": "Holy Bolt",
+       "rank": "S",
+       "ratings": {
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Ubers",
+         "S"
+        ],
+        [
+         "DClone",
+         "S"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Magic dmg jewels available",
+       "links": [
+        [
+         "Dclone Demo",
+         "https://youtu.be/KX-bTntHcHk?t=1118"
+        ],
+        [
+         "Ubers Demo",
+         "https://youtu.be/RtOHU7gvdy4?t=677"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Smiter",
+       "rank": "B-",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "D"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "More splash radius, Leech",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Charge (Phys)",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "FireBowdin",
+       "rank": "B",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "B"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "HolyFire BowDin S13",
+         "https://youtu.be/gh7K7o7ZjfI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Zeal",
+       "rank": "B",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Zeal/Phys Sac Hybrid S13",
+         "https://youtu.be/xbvMalFgWE0"
+        ]
+       ],
+       "season": "S13"
+      }
+     ]
+    },
+    {
+     "type": "CMapper",
+     "title": "Cheap Mappers",
+     "description": "1 big runeword / a few core uniques / no endgame BIS gear or GG slams.",
+     "builds": [
+      {
+       "name": "Fire Charger",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def",
+        "A3 Prayer"
+       ],
+       "gear": [
+        "Flamebellow",
+        "Fire LC's"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Magic",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A4 Light"
+       ],
+       "gear": [
+        "Azurewrath/Redeemer",
+        "Skillers"
+       ],
+       "notes": "Magic skill jewels (not a big buff)",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Phys",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A5 Might",
+        "A2 Def"
+       ],
+       "gear": [
+        "Schaefer's",
+        "Phys damage gear"
+       ],
+       "notes": "Less self damage total",
+       "links": [
+        [
+         "Zeal/Phys Sac Hybrid S13",
+         "https://youtu.be/xbvMalFgWE0"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Venge",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "S"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A5 Might"
+       ],
+       "gear": [
+        "Kira's Guardian",
+        "Gimmershred",
+        "Sankekur"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Venge S13",
+         "https://youtu.be/A6JP9ap-_dY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fire BowDin",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def"
+       ],
+       "gear": [
+        "Demon Machine",
+        "off Skillers",
+        "Kira"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "HolyFire BowDin S13",
+         "https://youtu.be/gh7K7o7ZjfI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "FoH",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A4 Light"
+       ],
+       "gear": [
+        "Full Gris"
+       ],
+       "notes": "Bug fixes & Buffs",
+       "links": [
+        [
+         "FOH",
+         "https://youtu.be/uV_MF6QBVUw"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "HammerDin",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def",
+        "A4 Light"
+       ],
+       "gear": [
+        "Ephemeral",
+        "Akarat"
+       ],
+       "notes": "Hammers now do not disappear on obstacle collison, Buffs to concenctration aura",
+       "links": [
+        [
+         "Hammerdin",
+         "https://youtu.be/yCvs0upjOxQ"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "HolyBolt BowDin",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B+",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A1 Vigor",
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Magic % Jewels buff damage",
+       "links": [
+        [
+         "Holy Bolt BowDin",
+         "https://youtu.be/xfttjJ7rFVo"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Sacrifice",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B+"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "EMapper",
+     "title": "Endgame Mappers",
+     "description": "End-of-season builds with GG slams, BIS uniques and big runewords.",
+     "builds": [
+      {
+       "name": "Sacrifice - Magic",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Magic damage Jewels",
+       "links": [
+        [
+         "Sac Magic",
+         "https://youtu.be/QsvKl1quIyI"
+        ],
+        [
+         "Mini guide",
+         "https://www.youtube.com/watch?v=FL-a9GMbT4U&feature=youtu.be"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Physical",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Self damage is lowered",
+       "links": [
+        [
+         "Phys Sac",
+         "https://youtu.be/HoEzbF0I6Mk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Cold RW",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Sacrifice Cold",
+         "https://youtu.be/Vx26PRwKmp8"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Cold Native",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Sacrifice Cold",
+         "https://youtu.be/Vx26PRwKmp8"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Light",
+       "rank": "S+",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Light Sac S12 CB",
+         "https://www.youtube.com/watch?v=XjBdLW-U0rw&t=1s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Fire RW",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "Hoj +2 aura level",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Sacrifice - Fire Native",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Venge",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "S"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Low"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Fire Charger",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor"
+       ],
+       "gear": [],
+       "notes": "Hoj +2 aura level",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Phys Charger",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A5 Might"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S13"
+      },
+      {
+       "name": "Fire BowDin",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Fire BowDin",
+         "https://www.youtube.com/watch?v=jvbmjMvTHpU&t=33s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "HolyBolt BowDin",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Low"
+        ]
+       ],
+       "mercs": [
+        "A1 Vigor",
+        "A2 DEF"
+       ],
+       "gear": [],
+       "notes": "Magic dmg Jewels",
+       "links": [
+        [
+         "HolyBolt BowDin",
+         "https://youtu.be/xfttjJ7rFVo"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Foh Din",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A+",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Bug fixes & Buffs (could be S tier waiting more tests)",
+       "links": [
+        [
+         "FOH",
+         "https://youtu.be/uV_MF6QBVUw"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "HammerDin",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Bug fixes & Buffs (could be S tier waiting more tests)",
+       "links": [
+        [
+         "Hammerdin",
+         "https://youtu.be/yCvs0upjOxQ"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "T2Bosser",
+     "title": "Tier 2 Bossing",
+     "description": "Tier 2 bossing setups and endgame encounters.",
+     "builds": [
+      {
+       "name": "Phys Charger",
+       "rank": "A",
+       "ratings": {
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "A"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Phys Charger Guide",
+         "https://youtu.be/I5LbOjE1cvg"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Smite",
+       "rank": "B",
+       "ratings": {
+        "Safety": "C"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Splash buff & leech buff",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Zeal",
+       "rank": "B",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "B"
+        ],
+        [
+         "Lucion",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Holy Bolt",
+       "rank": "B",
+       "ratings": {
+        "Safety": "B+"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Lucion",
+         "C"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Magic Damage Jewels",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "HolyFire BowDin",
+       "rank": "B",
+       "ratings": {
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "T2 Lucion",
+         "https://www.youtube.com/watch?v=TCXrA_5mTTY"
+        ],
+        [
+         "T2 Rathma",
+         "https://www.youtube.com/watch?v=cQeA33tq_OM&t=119s"
+        ],
+        [
+         "T2 Clone",
+         "https://youtu.be/1B039aKnKw0"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    }
+   ]
+  },
+  "sorceress": {
+   "updated": "2026-10-23T14:45:11.484Z",
+   "sections": [
+    {
+     "type": "Leveling",
+     "title": "Leveling Builds",
+     "description": "Campaign progression and early setup.",
+     "builds": [
+      {
+       "name": "Ice Blast + Blizzard through the entire campaign",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Defensive with Insight"
+       ],
+       "gear": [
+        "Lore",
+        "Smoke",
+        "Stealth",
+        "Insight"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Sorceress Leveling",
+         "https://youtu.be/CopLVlZLnqA"
+        ],
+        [
+         "Sorc Zero To Hero",
+         "https://youtu.be/VLY7-_FIcpk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Ice Blast + Blizzard through normal and nightmare, then Meteor for Hell",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Defensive with Insight",
+        "A4 Dark with insight"
+       ],
+       "gear": [
+        "Lore",
+        "Smoke",
+        "Stealth",
+        "Insight"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Sorceress Leveling",
+         "https://youtu.be/CopLVlZLnqA"
+        ],
+        [
+         "Sorc Zero To Hero",
+         "https://youtu.be/VLY7-_FIcpk"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Inferno into Meteor (no respec)",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "C"
+       },
+       "details": [],
+       "mercs": [
+        "A4 Dark",
+        "A5 BO"
+       ],
+       "gear": [
+        "Lore",
+        "Smoke",
+        "Stealth",
+        "Insight"
+       ],
+       "notes": "Blaze Phasing is nice",
+       "links": [
+        [
+         "https://youtu.be/VLY7-_FIcpk",
+         "https://youtu.be/VLY7-_FIcpk"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Farming",
+     "title": "Early Farming",
+     "description": "Fresh out of the campaign farming.",
+     "builds": [
+      {
+       "name": "Meteor",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B",
+        "Versatility": "S"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "AB, Keys"
+        ]
+       ],
+       "mercs": [
+        "A4 Dark",
+        "A2 Def"
+       ],
+       "gear": [
+        "Leaf RW (+3 Meteor base)"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Chain Lightning",
+       "rank": "A",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B",
+        "Versatility": "B"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Arcane, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Spire of Lazarus"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Chain Lightning",
+         "https://youtu.be/RiD_an5w5Bw"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blizzard",
+       "rank": "A",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B",
+        "Versatility": "A"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Chaos, AB, Keys, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Smoke"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Blizzard Budget",
+         "https://www.youtube.com/watch?v=QcLjmZvXTNg"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Hydra",
+       "rank": "C",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "C",
+        "Versatility": "B"
+       },
+       "details": [
+        [
+         "Farming Areas",
+         "Andy, Meph, CZ"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A3 Cold"
+       ],
+       "gear": [
+        "Smoke"
+       ],
+       "notes": "Hydra projectile is faster",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "Early Bossing",
+     "title": "Early Bossing",
+     "description": "T0 / early kills with realistic early gearing.",
+     "builds": [
+      {
+       "name": "Meteor",
+       "rank": "S",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "A"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Easy"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Blizzard",
+       "rank": "S",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "S"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Blaze Phasing helps",
+       "links": [
+        [
+         "Dclone Blizzard",
+         "https://youtu.be/QcLjmZvXTNg?t=959"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Hydra",
+       "rank": "B",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Hydra projectile is faster",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Firewall",
+       "rank": "B",
+       "ratings": {},
+       "details": [
+        [
+         "Ubers",
+         "C"
+        ],
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "Low"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Blaze Phasing helps",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "CMapper",
+     "title": "Cheap Mappers",
+     "description": "1 big runeword / a few core uniques / no endgame BIS gear or GG slams.",
+     "builds": [
+      {
+       "name": "Frozen Orb",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Nightwing",
+        "Dfathom"
+       ],
+       "notes": "",
+       "links": [
+        [
+         "Frozen Orb",
+         "https://youtu.be/9ue-2pJDoAA"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Charged Bolt",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Griffon",
+        "Skyfall"
+       ],
+       "notes": "Sky fall fix",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Ench Bow Sorc fire",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Demon Machine",
+        "Skillers"
+       ],
+       "notes": "Enchant bug fixed (should feel even better)",
+       "links": [
+        [
+         "Fire BowSorc S13",
+         "https://youtu.be/9O70SN88els"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Ench Bow Sorc Cold",
+       "rank": "A",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Widow Maker",
+        "Pierce Gear"
+       ],
+       "notes": "Enchant bug fixed (should feel even better)",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Chain Light",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Griffon",
+        "Skyfall"
+       ],
+       "notes": "Sky fall fix",
+       "links": [
+        [
+         "Chain Light S13",
+         "https://youtu.be/RiD_an5w5Bw"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Nova",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Griffon",
+        "Skyfall"
+       ],
+       "notes": "Sky fall fix",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Hydra",
+       "rank": "B",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "A"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Embersworn",
+        "Skillers"
+       ],
+       "notes": "Hydra projectile is faster",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Combust",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [
+        "Combustion Ormus"
+       ],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "EMapper",
+     "title": "Endgame Mappers",
+     "description": "End-of-season builds with GG slams, BIS uniques and big runewords.",
+     "builds": [
+      {
+       "name": "Frozen Orb",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Frozen Orb Guide",
+         "https://www.youtube.com/watch?v=x3QRWtIISvc&t=1077s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blizzard",
+       "rank": "B+",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Blizzard Full Guide",
+         "https://youtu.be/WYjjoAnLZmY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Frost Nova",
+       "rank": "A",
+       "ratings": {
+        "Speed": "B",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Fnova S10",
+         "https://youtu.be/Rtb-YnDEy5Y"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Combust",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A3 Prayer"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Combust S9",
+         "https://youtu.be/H9hjTRHYQ3s"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Charged Bolt",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "CB Demo",
+         "https://youtu.be/1EOjY0AL8rI"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Nova",
+       "rank": "S",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Chain Light",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def",
+        "A3 Prayer"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "CL CB S12",
+         "https://youtu.be/5d4M2dhQ82s"
+        ],
+        [
+         "Chain Light S13",
+         "https://youtu.be/RiD_an5w5Bw"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Bow Cold Sorc",
+       "rank": "S+",
+       "ratings": {
+        "Speed": "S",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Ench Bug fixed",
+       "links": [],
+       "season": "S14"
+      },
+      {
+       "name": "Bow Fire Sorc",
+       "rank": "A+",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "A"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "Medium"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Ench Bug fixed",
+       "links": [
+        [
+         "Ench Fire Sorc",
+         "https://www.youtube.com/watch?v=VquSU82n7j8"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Hydra",
+       "rank": "A",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "Hydra projectile is faster",
+       "links": [
+        [
+         "Hydra Mapper",
+         "https://youtu.be/pQOilEh9gC4"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Ice Barrage",
+       "rank": "S",
+       "ratings": {
+        "Speed": "A",
+        "Safety": "B"
+       },
+       "details": [
+        [
+         "Gear Req",
+         "High"
+        ]
+       ],
+       "mercs": [
+        "A2 Def"
+       ],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Ice Barrage S12",
+         "https://www.youtube.com/watch?v=Oj9n45S1Ck8&t=496s"
+        ]
+       ],
+       "season": "S14"
+      }
+     ]
+    },
+    {
+     "type": "T2Bosser",
+     "title": "Tier 2 Bossing",
+     "description": "Tier 2 bossing setups and endgame encounters.",
+     "builds": [
+      {
+       "name": "Meteor",
+       "rank": "B",
+       "ratings": {
+        "Safety": "D"
+       },
+       "details": [
+        [
+         "DClone",
+         "B"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "C"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Phasing on blaze is nice",
+       "links": [
+        [
+         "Rathma",
+         "https://youtu.be/K6M2qdMQPgQ"
+        ],
+        [
+         "Lucion",
+         "https://youtu.be/4pvpiF5WTBQ"
+        ],
+        [
+         "Dclone",
+         "https://youtu.be/nuErqBcgSZs"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Hydra",
+       "rank": "B",
+       "ratings": {
+        "Safety": "C"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Hydra Proj is faster, Phasing on blaze",
+       "links": [
+        [
+         "Dclone",
+         "https://youtu.be/2M9HCuQGzKU"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Charged Bolt",
+       "rank": "C",
+       "ratings": {
+        "Safety": "D"
+       },
+       "details": [
+        [
+         "DClone",
+         "C"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Lucion",
+         "B-"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Cbolt Lucion",
+         "https://www.youtube.com/watch?v=9dDLIiM8Izk"
+        ],
+        [
+         "Cbolt Rathma",
+         "https://www.youtube.com/watch?v=oBwplwOHX1w"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Chain Lightning",
+       "rank": "B-",
+       "ratings": {
+        "Safety": "D"
+       },
+       "details": [
+        [
+         "DClone",
+         "C"
+        ],
+        [
+         "Rathma",
+         "C"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "Pillars removed from declone",
+       "links": [
+        [
+         "Rathma Cl",
+         "https://youtu.be/TXtM_AB8zro"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Blizzard + Bolts",
+       "rank": "B+",
+       "ratings": {
+        "Safety": "D"
+       },
+       "details": [
+        [
+         "DClone",
+         "A"
+        ],
+        [
+         "Rathma",
+         "D"
+        ],
+        [
+         "Lucion",
+         "B"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Medium"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [
+        [
+         "Blizzard Full Guide",
+         "https://youtu.be/WYjjoAnLZmY"
+        ]
+       ],
+       "season": "S14"
+      },
+      {
+       "name": "Bow Sorc (fire)",
+       "rank": "C",
+       "ratings": {
+        "Safety": "D"
+       },
+       "details": [
+        [
+         "DClone",
+         "C"
+        ],
+        [
+         "Gear Req",
+         "High"
+        ],
+        [
+         "Difficulty",
+         "Hard"
+        ]
+       ],
+       "mercs": [],
+       "gear": [],
+       "notes": "",
+       "links": [],
+       "season": "S14"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

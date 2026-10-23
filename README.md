@@ -16,6 +16,7 @@ Neuradna stran z buildi za **Project Diablo 2, Season 14 (Alliance)**. Izbereš 
 Poleg tega:
 
 - **Tier liste**: Hiim mapping, bossing (DClone, Rathma, Lucion; T0 in T2), budget (starter lista, najdražja runa v najcenejšem planerju, budget video vodiči) in group liste ter DarkHumilityjeva S14 late game tier lista (zavihek, ocena pri vsakem buildu, njegovi starterji in boss priporočila), s filtrom po razredu,
+- **Za začetnike**: kaj pobirati za svoj razred (na katerih predmetih so +skilli na posamezne skille, +drevo in +class skills ter od katerega levela, iz Hiim affixov), kaj socketaš za preživetje (gemi od chipped do perfect, nizke rune), zgodnji runewordi iz JuxtAPoserjeve opreme, zgodnji magic in rari po slotih, kje gledaš škodo (orožje, skill, minioni, brca; delež škode orožja s PD2 wikija), questi z nagradami in JuxtAPoserjeva S14 tier lista (leveling, zgodnji farming, cenejši mapperji); pri vsakem buildu je še blok »Za začetnike« z virom škode, predmeti za pobrati in JuxtAPoserjevimi ocenami,
 - **Predmeti**: wiki vseh predmetov z iskalnikom, filtri, recepti in buildi, ki predmet nosijo,
 - **Runewordi**: filtri po bazi (vrste orožja, oklep, ščit, helm) in socketih ter iskanje po runah, ki jih imaš (kje se uporabijo, kaj lahko sestaviš, kje manjka ena runa); S14 spremembe so v `content/runewords-s14.json`,
 - **Mape**: vse S14 mape s pošastmi in imunitetami, filter po elementu, najhitrejši buildi, orbi, affixi, korupcije in eventi,
@@ -41,10 +42,13 @@ Skripta po vrsti:
 4. `tools/fetch_pd2tools.py --respec`: posnetki najhitrejših likov (traja dlje)
 5. `tools/fetch_rares.py`: rari, crafti, magic predmeti in korupcije S13 likov 90+ po slotih za vsak glavni skill → `data/pd2tools/rares.json` (že prebrani buildi ostanejo v predpomnilniku, `--force` vse prebere znova)
 6. `tools/fetch_dh.py`: DarkHumilityjeva S14 tier lista (Google Sheet kot xlsx) in podatki o njegovih videih → `data/dh/tierlist.json`; imena njegovih buildov so z našimi povezana v `content/dh-map.json`
-7. `tools/build_data.py`: združi vse v `data/site.json`, `docs/assets/tips.json` in `docs/assets/items.json`
-8. `tools/fetch_images.py`: prenese manjkajoče slike v `docs/img`
-9. `tools/build_guides.py`: podatki za strani Mape in Crafting (`data/guides.json`)
-10. `tools/build_site.py`: zgradi HTML v `docs/`
+7. `tools/fetch_juxt.py`: JuxtAPoserjeva S14 tier lista s pd2guides.pages.dev (njihov API `/api/build-data?class=…`) → `data/juxt/tierlist.json`; imena njegovih buildov so z našimi povezana v `content/juxt-map.json`
+8. `tools/build_data.py`: združi vse v `data/site.json`, `docs/assets/tips.json` in `docs/assets/items.json`
+9. `tools/fetch_images.py`: prenese manjkajoče slike v `docs/img`
+10. `tools/build_guides.py`: podatki za strani Mape in Crafting (`data/guides.json`)
+11. `tools/build_site.py`: zgradi HTML v `docs/`
+
+Vsebino za začetnike (stran in blok pri buildu) sestavi `tools/noob.py`.
 
 Načrt od 1 do 99 računa `tools/plan.py` iz Hiim planerjev (cilji po fazah) in skill dreves v Hiim katalogu (level zahteve, predpogoji, sinergije). Tip buildov (caster, melee, lok, metalec, summoner, trapi) in glavni elementi za izbiro map so ročno v `content/build-profiles.json`; razredne leveling poti so v `CLASS_ROUTE` v `tools/build_site.py`.
 
@@ -58,6 +62,7 @@ Uporablja Python 3, `curl` in za DarkHumilityjevo tabelo `openpyxl`.
 - [pd2.tools](https://pd2.tools): S13 statistika likov (predmeti, skilli) in posnetki skozi sezono
 - [PD2 wiki](https://wiki.projectdiablo2.com): skilli, predmeti, recepti (Horadric Cube, crafting), mape, korupcije, mehanike imunitet
 - [DarkHumility](https://docs.google.com/spreadsheets/d/1DLkTz-3gtlBgoyxxAot60Ro_76ct3Oz8Bmyhu7Hbwo4/htmlview): S14 late game mapping tier lista, starterji, boss priporočila, mape in njegovi video vodiči
+- [JuxtAPoser](https://pd2guides.pages.dev/): S14 tier lista (leveling, zgodnji farming in bossing, cenejši in endgame mapperji, T2 bossing) z opremo in merci
 - S14 Alliance tentative patch notes
 
 Slike predmetov in skillov so last Blizzard Entertainmenta (Diablo II). Stran ni povezana z Blizzardom ali ekipo Project Diablo 2.

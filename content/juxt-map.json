@@ -1,0 +1,75 @@
+{
+  "_opis": "JuxtAPoserjeva imena buildov (pd2guides.pages.dev) → naši buildi (razred/id ali seznam id-jev). Prazen niz: build, ki ga pri nas ni (ali leveling pot). Leveling vnosi so prikazani na strani Začetniki.",
+  "amazon": {
+    "Lightning Strike": "lightning-strike", "Light Strike": "lightning-strike", "Lstrike": "lightning-strike",
+    "DecoyZon": "pure-summon-decoy-valk", "Magic Arrow": "magic-arrow",
+    "Explosive Arrow": "explosive-arrow", "Explosive Zon": "explosive-arrow",
+    "PlagueZon": "plague-javelin", "Plague Javelin": "plague-javelin",
+    "Jabazon": "jab-fend", "Jab/fend": "jab-fend", "JabZon": "jab-fend",
+    "SummonZon + strafe": "summon-zon", "SummonZon Strafe": "summon-zon",
+    "Multishot": "multiple-shot", "MS Bleed": "multiple-shot", "SplitZon": "split-throw",
+    "Fire Arrow": "fire-arrow", "Cold Arrow": "cold-arrow", "Lfury": "lightning-fury",
+    "Lightning Bolt": "", "Crackleshot Strafe": ""
+  },
+  "assassin": {
+    "Wake Of Fire": "wake-of-fire", "Wake of Fire": "wake-of-fire", "WoF": "wake-of-fire", "Fire Traps": "wake-of-fire",
+    "Light Traps": "chain-lightning-sentry", "CLS": "chain-lightning-sentry",
+    "Mind Blast": ["mind-blast", "mind-blast-2"], "Mindblast": ["mind-blast", "mind-blast-2"],
+    "Venom Sent": "blade-sentinel-venom", "Blade Sentinel": "blade-sentinel-phys",
+    "BladeDance (Psn)": "poison-blade-dance", "Blade Dance (Phys)": "physical-blade-dance",
+    "Fists of Fire": "fists-of-fire", "Fist of Fire": "fists-of-fire", "BladeFury": "blade-fury",
+    "Cobra": "cobra-sin", "Kick": "dragon-tail-fire-kick", "Blades of Ice": "blades-of-ice",
+    "Claws of Thunder": "claws-of-thunder", "Death Sentry": "death-sentry", "Phoenix": "phoenix-strike",
+    "MS Venom Sin": ""
+  },
+  "barbarian": {
+    "DThrow": "double-throw", "DThrow Phys": "double-throw", "Throw": "double-throw",
+    "Warcry": "warcry", "Warcry barb": "warcry", "Warcry Barb": "warcry",
+    "WW Bleed": "whirlwind-dual-wield", "WW Bleed (dual wield)": "whirlwind-dual-wield",
+    "2H WW": "whirlwind-2-h", "WW Phys 2H": "whirlwind-2-h", "WW Phys (2H)": "whirlwind-2-h",
+    "Split Throw": "split-throw", "Wolf Barb": "wolf-barb",
+    "Berserk/Dswing": "", "Berserk": "", "berserk": "", "Dswing": "", "Zerk / Double Swing": "", "Dswing/Zerk": "",
+    "Concentrate": "", "WW Fire": "", "WW Proc (Cold)": "", "WW Proc (Magic)": "", "BearBarb": "", "Impaler Barb": "",
+    "Zeal Barb": "", "JaBarb": ""
+  },
+  "druid": {
+    "Summoner Zoo": "summon-druid", "Summoner - Bears": "summon-druid", "Summoner - Phys": "summon-druid", "Summoner": "summon-druid",
+    "Summoner Vines": "pure-poison-creeper", "Summoner - Vines": "pure-poison-creeper", "Creeper": "pure-poison-creeper",
+    "Fire Druid": "fire-elemental", "Fire": "fire-elemental",
+    "ShockWave": "bear-shockwave", "Shockwave": "bear-shockwave",
+    "Wind": "wind-elemental", "Windruid": "wind-elemental",
+    "Fury Druid": "wolf-fury", "Fury": "wolf-fury",
+    "Arctic Blast": "cold-elemental-arctic-blast-hurricane", "ArcBlast": "cold-elemental-arctic-blast-hurricane",
+    "FireClaw": "wolf-fire-claws", "Fire Claw": "wolf-fire-claws", "Rabies": "rabies",
+    "Maul": "", "Fury Twister Proc": ""
+  },
+  "necromancer": {
+    "Blood Golems & Revives": "blood-golem", "Blood Golems": "blood-golem",
+    "Boner": "teeth-bonespear", "Boner Necro": "teeth-bonespear", "Bone Necro": "teeth-bonespear",
+    "Mages & Revives": "elemental-summoner-mage-skeles-ele-revives", "Summoner (Mages + Revives)": "elemental-summoner-mage-skeles-ele-revives",
+    "Dark Pact": "dark-pact", "Pnova": "poison-nova", "Psn Nova": "poison-nova",
+    "Corpse Explosion": "corpse-explosion", "Poison Strike": "poison-strike", "Psn Strike": "poison-strike",
+    "Fire Golem": "fire-golems", "Green Goblin": "green-goblin-skeletons",
+    "Summoner (phys skelly)": "", "Desecrate": ""
+  },
+  "paladin": {
+    "Vengence": ["vengeance-1h", "vengeance-2h-zenith"], "Venge": ["vengeance-1h", "vengeance-2h-zenith"],
+    "Holy Bolt": "holy-bolt-foh", "FOH": "holy-bolt-foh", "FoH": "holy-bolt-foh", "Foh Din": "holy-bolt-foh",
+    "Smiter": "smiter", "Smite": "smiter",
+    "Charge (Phys)": "physical-charge-2-h", "Phys Charger": "physical-charge-2-h",
+    "FireBowdin": "bow-paladin", "Fire BowDin": "bow-paladin", "HolyFire BowDin": "bow-paladin",
+    "Zeal": "physical-zeal", "HammerDin": "hammerdin",
+    "Sacrifice - Phys": "physical-sacrifice", "Sacrifice - Physical": "physical-sacrifice",
+    "Fire Sacrifice": "holy-fire-sacrifice", "Sacrifice - Fire RW": "holy-fire-sacrifice", "Sacrifice - Fire Native": "holy-fire-sacrifice",
+    "Sacrifice - Light": "light-sacrifice",
+    "Fire Charger": "", "Sacrifice - Magic": "", "Sacrifice - Cold RW": "", "Sacrifice - Cold Native": "", "HolyBolt BowDin": ""
+  },
+  "sorceress": {
+    "Meteor": "meteor", "Chain Lightning": "chain-lightning", "Chain Light": "chain-lightning",
+    "Blizzard": "blizzard", "Blizzard + Bolts": "blizzard", "Hydra": "hydra", "Firewall": "firewall",
+    "Frozen Orb": "frozen-orb", "Charged Bolt": "charged-bolt", "Nova": "nova", "Combust": "combustion",
+    "Frost Nova": "frost-nova", "Ice Barrage": "ice-barrage",
+    "Ench Bow Sorc fire": "multishot-enchantress", "Ench Bow Sorc Cold": "multishot-enchantress",
+    "Bow Cold Sorc": "multishot-enchantress", "Bow Fire Sorc": "multishot-enchantress", "Bow Sorc (fire)": "multishot-enchantress"
+  }
+}

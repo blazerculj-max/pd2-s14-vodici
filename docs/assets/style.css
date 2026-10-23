@@ -572,3 +572,20 @@ details.plan[open] > summary { border-bottom: 1px solid var(--line); }
 .rtab td { font-size: 0.9rem; display: grid; gap: 4px; }
 .rbest { font-size: 0.84rem; color: var(--muted); }
 .rbest b { color: var(--fg); font-weight: 500; }
+
+/* Za začetnike: stran in blok pri buildu */
+.ztoc { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 14px; }
+.ztoc a { font-family: var(--font-mono); font-size: 0.82rem; color: var(--muted); text-decoration: none; letter-spacing: 0.04em; }
+.ztoc a:hover, .ztoc a:focus-visible { color: var(--fg); }
+.noobl li, .jxl li, .dkl li { margin-bottom: 8px; }
+.dk { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 1px 6px; border: 1px solid currentColor; white-space: nowrap; }
+.dk-weapon { color: var(--b-trap); } .dk-spell { color: var(--b-sorc); } .dk-minion { color: var(--good); }
+.dk-kick { color: var(--b-ltrap); } .dk-hybrid { color: var(--warn); }
+.badge.jx { color: var(--accent); }
+.gemtab th[scope="row"], .rwtab th[scope="row"] { white-space: nowrap; }
+.gemtab .skico, .rw-runes .skico { width: 24px; height: 24px; vertical-align: middle; margin-right: 4px; }
+.rw-runes { white-space: nowrap; }
+details.noobcls { margin-top: 10px; }
+details.noobcls > summary { grid-template-columns: minmax(0, 1fr) 1rem; }
+details.noobd { margin-bottom: 10px; }
+@media (min-width: 760px) { .dkl { columns: 2; column-gap: 32px; } .dkl li { break-inside: avoid; } }

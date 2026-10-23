@@ -320,6 +320,7 @@ def stats_html(st):
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import plan as PLAN  # noqa: E402
+import noob as NOOB  # noqa: E402
 
 _vp = os.path.join(CONTENT, "videos.json")
 VIDEOS = {k: v for k, v in json.load(open(_vp)).items() if not k.startswith("_")} if os.path.exists(_vp) else {}
@@ -704,7 +705,10 @@ def build_html(b, cls):
     summary = (f'<summary>{img_tag(main.get("img"), "skico lg", main.get("name", ""))}'
                f'<span class="bn"><b>{e(b["name"])}</b><span class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</span></span>'
                f'<span class="badges">{"".join(badges)}</span></summary>')
-    body = [ratings_html(b), f"<div><h4>Leveling</h4>{lev}</div>", plan_html(b, cls, mode)]
+    arch = PROFILES.get(f'{cls["id"]}/{b["id"]}', ["caster", []])[0]
+    noob = ('<details class="plan noobd"><summary>Za začetnike: kje gledaš škodo, kaj pobirati, JuxtAPoser S14</summary>'
+            f'<div class="planb">{NOOB.build_box_html(cls["id"], cls["name"], b, arch)}</div></details>')
+    body = [ratings_html(b), f"<div><h4>Leveling</h4>{lev}</div>", noob, plan_html(b, cls, mode)]
     if guide_file:
         body.append('<div><h4>Naš vodič</h4>' + add_tips_to_fragment(open(os.path.join(CONTENT, "builds", guide_file)).read()) + "</div>")
     vid = videos_html(cls, b)
@@ -755,7 +759,7 @@ def versioned(html_text):
 
 
 def page(title, body, current, desc, extra_head="", body_class=""):
-    nav = [("index.html", "Razredi"), ("tier-liste.html", "Tier liste")] + [(f'{c["id"]}.html', c["name"]) for c in SITE["classes"]] + [
+    nav = [("index.html", "Razredi"), ("zacetniki.html", "Začetniki"), ("tier-liste.html", "Tier liste")] + [(f'{c["id"]}.html', c["name"]) for c in SITE["classes"]] + [
         ("predmeti.html", "Predmeti"), ("runewordi.html", "Runewordi"), ("mape.html", "Mape"), ("crafting.html", "Crafting"),
         ("druid-nacrt.html", "Druid plan"), ("vodic.html", "Vodič")]
     nav_html = "".join(f'<a href="{h}"{" aria-current=\"page\"" if h == current else ""}>{e(t)}</a>' for h, t in nav)
@@ -810,6 +814,7 @@ def index_html():
 <div class="class-grid">{"".join(cards)}</div></section>
 <section><div class="sec-head"><div class="eyebrow">Naši vodiči</div><h2>Kje začeti</h2></div>
 <div class="cols">
+<a class="class-card" href="zacetniki.html"><h3>Za začetnike</h3><span class="muted">Kaj pobirati za svoj razred (+skilli na claws, orbih, wandih …), kaj socketaš za preživetje, zgodnji runewordi in rari, kje gledaš škodo in JuxtAPoserjevi S14 leveling buildi.</span></a>
 <a class="class-card" href="druid-nacrt.html"><h3>Druid plan</h3><span class="muted">Leveling kot summoner, nato Poison Creeper ali Rabies. Točke po levelih, oprema v treh fazah, merc, breakpointi.</span></a>
 <a class="class-card" href="mape.html"><h3>Mape in imunitete</h3><span class="muted">Vse S14 mape s pošastmi in imunitetami, filter po tvojem elementu, najhitrejši buildi, orbi in map eventi.</span></a>
 <a class="class-card" href="crafting.html"><h3>Crafting vodič</h3><span class="muted">Kako item postane uporaben ali vreden: socketi, nadgradnje, korupcija, reroll, crafti in affixi z alvl.</span></a>
@@ -1600,6 +1605,155 @@ def druid_plan_html():
                 "Druid za PD2 S14: leveling kot summoner, nato Poison Creeper ali Rabies.", body_class="page-druid")
 
 
+SLOT_EARLY = [
+    ("Orožje", "Caster: razredno orožje s +skilli (orb »+3 to Meteor«, wand »+3 to Teeth«, claw »+3 to Lightning Sentry«) in FCR ali runeword Spirit ali Leaf. "
+               "Melee, lok in metalno orožje: največji razpon škode in % Enhanced Damage, IAS, life leech; zgodaj Steel, Malice, Strength ali Edge."),
+    ("Ščit ali druga roka", "Resi (Ancients' Pledge, Rhyme, Diamond ali Ral, Tal, Ort, Thul v socketih), pri melee tudi block. "
+                            "Caster: orb, necro glava ali paladin ščit s +skilli."),
+    ("Helm", "Lore (+1 vsi skilli), circlet ali razredni helm s +skilli, life; socket napolni z Ruby."),
+    ("Oklep", "Stealth, kasneje Smoke (resi za Hell); life in resi; socket z Ruby ali Io."),
+    ("Rokavice", "Melee in lok: 20 % IAS. +drevo (pri amazonki, assassinu, druidu in barbu so nekatera drevesa tudi na rokavicah), resi, life."),
+    ("Pas", "Life, resi, FHR, več vrstic za potione."),
+    ("Škornji", "Faster Run/Walk, resi, life. FRW zgodaj prihrani največ časa."),
+    ("Amulet", "+1 ali +2 class skills, FCR, resi, life."),
+    ("Prstana", "Vsi: resi, life, mana. Caster: FCR. Melee: attack rating, life leech, min in max škoda."),
+    ("Charmi", "Small charmi z life, resi ali FHR; grand charm s +1 na tvoje drevo (od levela 42)."),
+]
+
+QUESTS = [
+    ("Act 1 · Den of Evil", "1 skill točka in brezplačen respec pri Akari (enkrat na težavnost)."),
+    ("Act 1 · Tools of the Trade", "Charsi imbue: bel predmet postane rare. Lahko počaka: na višjem levelu je večja možnost za +3 na skille."),
+    ("Act 2 · Radament's Lair", "Book of Skill: 1 skill točka."),
+    ("Act 3 · The Golden Bird", "Potion of Life: +20 life za vedno."),
+    ("Act 3 · Lam Esen's Tome", "5 stat točk."),
+    ("Act 4 · The Fallen Angel (Izual)", "2 skill točki."),
+    ("Act 4 · Hell's Forge", "Naključna runa."),
+    ("Act 5 · Siege on Harrogath", "Larzuk doda sockete: bel predmet dobi največ, kar baza dovoli, magic 1–2, rare, set ali unique 1."),
+    ("Act 5 · Prison of Ice (Anya)", "Scroll of Resistance: +10 vse resi za vedno."),
+]
+
+
+def noob_page_html():
+    tips = json.load(open(os.path.join(DOCS, "assets", "tips.json")))
+    by_cls = {c["id"]: c for c in SITE["classes"]}
+    # zgodnji runewordi iz JuxtAPoserjeve opreme
+    rw_rows = []
+    for it, users in NOOB.early_runewords(ITEMS["items"]):
+        runes = " ".join(img_tag(p, "skico sm", r) + e(r) for p, r in zip(it.get("ri") or [], it.get("ru") or []))
+        mods = "; ".join(NOOB.tip_mods(tips, it["tip"], 4))
+        who = sorted({by_cls[c]["name"] for c, n in users})
+        rw_rows.append(f'<tr><th scope="row"><span class="item q-r" data-tip="{e(it["tip"])}" tabindex="0">{e(it["n"])}</span></th>'
+                       f'<td>{it.get("r", "")}</td><td class="rw-runes">{runes}</td><td>{e(it.get("b") or "")}</td>'
+                       f'<td class="note-s">{e(mods)}</td><td class="note-s muted">{e(", ".join(who))}</td></tr>')
+    rw_tbl = ('<div class="tbl-wrap"><table class="tbl rwtab"><thead><tr><th>Runeword</th><th>Lvl</th><th>Rune</th><th>Baza</th>'
+              f'<th>Glavni statsi (PD2)</th><th>Razredi (JuxtAPoser)</th></tr></thead><tbody>{"".join(rw_rows)}</tbody></table></div>')
+    slot_rows = "".join(f'<tr><th scope="row">{e(s)}</th><td>{e(t)}</td></tr>' for s, t in SLOT_EARLY)
+    arch_rows = "".join(f'<li><b>{e(ARCH_SL.get(a, a))}:</b> {e(t)}</li>' for a, t in ARCH_EARLY.items())
+    quest_rows = "".join(f'<tr><th scope="row">{e(q)}</th><td>{e(t)}</td></tr>' for q, t in QUESTS)
+    # po razredih
+    cls_html = []
+    for c in SITE["classes"]:
+        dmg = []
+        for b in c["builds"]:
+            arch = PROFILES.get(f'{c["id"]}/{b["id"]}', ["caster", []])[0]
+            kind, note = NOOB.damage_kind(c["id"], b, arch)
+            extra = f' ({note[0]} % škode orožja)' if note else ""
+            dmg.append(f'<li><a href="{c["id"]}.html#b-{e(b["id"])}">{e(b["name"])}</a>: <span class="dk dk-{kind}">{e(NOOB.KIND_SL[kind])}</span>{e(extra)}</li>')
+        jx = []
+        if NOOB.JUXT:
+            for s in NOOB.JUXT["classes"].get(c["id"], {}).get("sections", []):
+                if s["type"] not in ("Leveling", "Early Farming", "CMapper"):
+                    continue
+                lis = []
+                for jb in s["builds"]:
+                    ids = NOOB.JUXT_MAP.get(c["id"], {}).get(jb["name"])
+                    ids = [i for i in (ids if isinstance(ids, list) else [ids]) if i]
+                    ours = ", ".join(f'<a href="{c["id"]}.html#b-{e(i)}">{e(next((x["name"] for x in c["builds"] if x["id"] == i), i))}</a>' for i in ids)
+                    lis.append(f'<li>{NOOB.juxt_entry_html(s["type"], jb, link_name=True)}' + (f' · pri nas: {ours}' if ours else "") + "</li>")
+                jx.append(f'<h4>{e(NOOB.SECTION_SL.get(s["type"], s["type"]))}</h4><p class="muted note-s">{e(NOOB.SECTION_DESC_SL.get(s["type"], s.get("description") or ""))}</p><ul class="plain jxl">{"".join(lis)}</ul>')
+        cls_html.append(f'<details class="build noobcls" id="z-{c["id"]}"><summary><span class="bn">{e(c["name"])}</span></summary><div class="planb">'
+                        f'<h4>Kaj pobirati</h4>{NOOB.class_items_html(c["id"], c["name"])}'
+                        f'<h4>Kje gledaš škodo (naši buildi)</h4><ul class="plain dkl">{"".join(dmg)}</ul>'
+                        + (f'<h4 class="jxh">JuxtAPoser S14</h4>{"".join(jx)}' if jx else "") + '</div></details>')
+    juxt_note = (f'JuxtAPoserjeva S14 tier lista s <a href="{e(NOOB.JUXT["url"])}" target="_blank" rel="noopener">pd2guides.pages.dev</a> '
+                 f'(stanje {e(NOOB.JUXT["fetched"])}). Ocene S do D; buildi so večinoma testirani na beti, brez korupcij.') if NOOB.JUXT else ""
+    body = f"""
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Prvi lik v PD2 · S14</div>
+<h1>Za začetnike</h1>
+<p class="lead">Kaj pobirati za svoj razred, kaj vstaviti v sockete, da preživiš, kateri zgodnji runewordi, magic in rare predmeti so dobri ter kje vidiš, koliko škode delaš.</p>
+<nav class="ztoc" aria-label="Vsebina"><a href="#hitro">Na hitro</a><a href="#socketi">Socketi</a><a href="#runewordi">Runewordi</a><a href="#rari">Magic in rari</a><a href="#skoda">Škoda</a><a href="#questi">Questi</a><a href="#razredi">Po razredih</a></nav>
+</div></header>
+<main class="wrap">
+<section id="hitro"><div class="sec-head"><div class="eyebrow">Najprej</div><h2>Na hitro</h2></div>
+<ul class="plain noobl">
+<li><b>Poberi</b> vse rune, geme, jewele, charme, prstane, amulete, circlete, unique in set predmete ter razredne predmete za svoj razred (claws, orbi, wandi, necro glave, pelti, barb helmi, žezla, paladin ščiti, amazon loki in kopja). Bele predmete s socketi poberi, če so baza za runeword. Podrobneje v <a href="vodic.html">splošnem vodiču</a>.</li>
+<li><b>Razredni predmet s +skilli</b> je zgodaj pogosto najboljše orožje: magic claw z »+2 to Lightning Sentry (Assassin Only)« in »+1 to Traps« je za trapsina boljši od vsakega belega orožja. Kateri razredni predmeti obstajajo, je spodaj <a href="#razredi">po razredih</a>.</li>
+<li><b>Preživetje:</b> Ruby v helm in oklep (life), Diamond ali Ral, Tal, Ort, Thul v ščit (resi), Vitality v state, merc z aurom (Act 2 Defiance ali Act 1 Vigor po JuxtAPoserju). V Nightmare in Hell resi padejo, zato jih zbiraj sproti.</li>
+<li><b>Škoda:</b> pri melee, lokih, metanju in Blade skillih jo dela orožje; pri spellih in pasteh skill (+skills, FCR); pri summonih minioni (+skills). Več v razdelku <a href="#skoda">Škoda</a>.</li>
+<li><b>Točke:</b> načrt skill in stat točk po levelih je pri vsakem buildu (»Načrt od 1 do 99«), tam je tudi blok »Za začetnike«.</li>
+</ul></section>
+
+<section id="socketi"><div class="sec-head"><div class="eyebrow">Preživetje</div><h2>Kaj socketaš</h2>
+<p>Gem ali runa da drugačen stat glede na to, kam ga vstaviš. Za preživetje: life v helm in oklep, resi v ščit, leech v orožje (melee). Vstavljeno lahko kasneje odstraniš le z Hel runo in Town Portal scrollom v cubu (gem ali runa se uniči).</p></div>
+<div class="cols">
+<div class="panel"><h4>Helm in oklep</h4><p>Ruby (+10 do +38 life) za vse. Io (+10 Vitality) od levela 35. Shael da 20 % FHR, Sol zmanjša vsak udarec za 7. Topaz za Magic Find, ko že preživiš.</p></div>
+<div class="panel"><h4>Ščit</h4><p>Diamond (+6 do +19 vseh resov) ali ena od Ral, Tal, Ort, Thul (35 % enega resa, zgodaj najboljše za eno runo), kasneje Um (+22 vseh). Skull vrača škodo napadalcu.</p></div>
+<div class="panel"><h4>Orožje</h4><p>Melee: Skull (life in mana leech) ali Amn (7 % life leech), Shael (20 % IAS). Caster orožje s socketi raje uporabi za runeword (Spirit, Leaf, Neophyte).</p></div>
+</div>
+{NOOB.gem_table_html(img_tag)}
+<p class="muted note-s">Vrednosti so od chipped do perfect (perfect po Hiim katalogu). Tri enake geme v cubu združiš v gem višje kakovosti.</p>
+{NOOB.rune_table_html(img_tag)}
+<div class="cols">
+<div class="panel"><h4>Kako dobiš sockete</h4><ul class="plain">
+<li><b>Larzuk</b> (Act 5, Siege on Harrogath): bel predmet dobi največ socketov, kolikor jih baza dovoli; magic 1–2; rare, set in unique 1.</li>
+<li><b>Cube:</b> magic orožje + 3 chipped gemi = magic orožje istega tipa z 1–2 socketoma (nov roll, ilvl 25). Dober način za socketan claw ali orb.</li>
+<li><b>Socket recepti</b> za bele predmete (runa + runa + perfect gem) so v <a href="crafting.html">crafting vodiču</a>.</li>
+</ul></div>
+<div class="panel"><h4>Imbue in reroll</h4><ul class="plain">
+<li><b>Charsi imbue</b> (Act 1): bel predmet brez socketov postane rare z ilvl = tvoj level + 4. Razredni predmeti (claw, orb, wand …) imajo pri imbue veliko večjo možnost za +skilli, ki raste z levelom do 94.</li>
+<li><b>Magic predmet + 3 perfect gemi</b> v cubu: nov roll istega predmeta. Dobro za grand charm z +1 na drevo.</li>
+</ul></div>
+</div>
+</section>
+
+<section id="runewordi"><div class="sec-head"><div class="eyebrow">Iz nizkih run</div><h2>Zgodnji runewordi</h2>
+<p>Runewordi, ki jih JuxtAPoser navaja v S14 opremi za leveling in zgodnji farming. Rune vstaviš v bel predmet z natanko pravim številom socketov, v tem vrstnem redu. Premakni miško na ime za vse statse.</p></div>
+{rw_tbl}
+<p class="muted note-s">Vsi runewordi z iskanjem po runah, ki jih imaš: <a href="runewordi.html">Runewordi</a>.</p>
+</section>
+
+<section id="rari"><div class="sec-head"><div class="eyebrow">Loot</div><h2>Zgodnji magic in rari</h2>
+<p>Magic predmet ima največ dva affixa (pogosto boljša vrednost kot rare), rare jih ima do šest. Pri vsakem preveri, ali ima kaj od tega:</p></div>
+<div class="tbl-wrap"><table class="tbl"><tbody>{slot_rows}</tbody></table></div>
+<h3>Po vrsti builda</h3><ul class="plain">{arch_rows}</ul>
+<p class="muted note-s">Kaj imajo na rarih in katere korupcije iščejo najboljši S13 igralci za posamezen build, je v »Načrt od 1 do 99« pri buildu.</p>
+</section>
+
+<section id="skoda"><div class="sec-head"><div class="eyebrow">Statsi</div><h2>Kje gledaš škodo</h2></div>
+<div class="cols">
+<div class="panel"><h4><span class="dk dk-weapon">orožje</span></h4><p>Melee, lok, metanje, Blade Sentinel, Blade Fury, Vengeance, pri amazonki tudi Magic, Fire in Cold Arrow (del škode orožja). Odpri character screen (C): pri skillu na levem in desnem kliku je izpisana škoda. Orožja primerjaš tako, da ju zamenjaš in pogledaš številko. Na orožju šteje razpon škode (One-Hand, Two-Hand ali Throw Damage), % Enhanced Damage, +min/+max in IAS.</p></div>
+<div class="panel"><h4><span class="dk dk-spell">skill</span></h4><p>Spelli in pasti (Meteor, Blizzard, Lightning Sentry, Holy Bolt, Blessed Hammer, Teeth …). Škodo vidiš v skill drevesu (T): premakni miško na skill. Dvigujejo jo +skills, sinergije (samo vložene točke) in kasneje −% enemy resistance. Orožje šteje le zaradi +skills in FCR.</p></div>
+<div class="panel"><h4><span class="dk dk-minion">minioni</span></h4><p>Summoni (golemi, skeleti, volkovi, Valkyrie, Decoy). Moč dvigujejo +skills in aure; tvoje orožje nanje ne vpliva. Statse miniona vidiš v tooltipu skilla.</p></div>
+<div class="panel"><h4><span class="dk dk-kick">brca</span> in <span class="dk dk-hybrid">mešano</span></h4><p>Dragon Talon in Dragon Tail: škoda je iz kick damage na škornjih ter Strength in Dexterity. Charge-up skilli (Phoenix Strike, Claws of Thunder, Fists of Fire), Poison Strike, Rabies in Cobra Strike: glavnina je iz skilla, orožje šteje za hitrost in zadetek.</p></div>
+</div>
+<p class="muted note-s">Delež škode orožja pri skillih je s PD2 wikija (npr. Blade Sentinel 100 %, Blade Fury 75 %, Magic Arrow 75 %). Kateri build je katere vrste, je spodaj po razredih.</p>
+</section>
+
+<section id="questi"><div class="sec-head"><div class="eyebrow">V vsaki težavnosti</div><h2>Questi, ki jih ne preskočiš</h2></div>
+<div class="tbl-wrap"><table class="tbl"><tbody>{quest_rows}</tbody></table></div>
+</section>
+
+<section id="razredi"><div class="sec-head"><div class="eyebrow">Po razredih</div><h2>Razredni predmeti, škoda in JuxtAPoser</h2>
+<p>Za vsak razred: na katerih predmetih so +skilli (»staffmodi« na posameznih skillih, +drevo, +class skills) in od katerega levela, kje vsak naš build dela škodo ter JuxtAPoserjevi S14 leveling buildi, zgodnji farming in cenejši mapperji z opremo in mercem.</p>
+<p class="muted note-s">{juxt_note} Affixi in levelske zahteve so iz Hiim kataloga.</p></div>
+{"".join(cls_html)}
+</section>
+</main>"""
+    return page("Za začetnike · PD2 S14 buildi", body, "zacetniki.html",
+                "PD2 S14 za začetnike: kaj pobirati za svoj razred, socketi za preživetje, zgodnji runewordi in rari, kje gledaš škodo.")
+
+
 def main():
     global SITE, GUIDES, ITEMS
     SITE = json.load(open(os.path.join(ROOT, "data", "site.json")))
@@ -1616,6 +1770,7 @@ def main():
     open(os.path.join(DOCS, "tier-liste.html"), "w").write(tiers_page_html())
     open(os.path.join(DOCS, "mape.html"), "w").write(maps_page_html())
     open(os.path.join(DOCS, "crafting.html"), "w").write(crafting_page_html())
+    open(os.path.join(DOCS, "zacetniki.html"), "w").write(noob_page_html())
     open(os.path.join(DOCS, ".nojekyll"), "w").write("")
     if MISSING_VIDEO_ITEMS:
         print("povzetki videov: predmeti brez tooltipa:", sorted(MISSING_VIDEO_ITEMS))
