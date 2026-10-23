@@ -10,6 +10,7 @@ Neuradna stran z buildi za **Project Diablo 2, Season 14 (Alliance)**. Izbereš 
 - tooltipi: statsi predmetov z razponi (aktualni PD2 wiki) in sinergije skillov (Hiim + wiki), ob premiku miške ali tapu,
 - recepti in rune pri vsakem planerju ter seznam run za ves build,
 - povzetki video vodičev »Iz videa« (skilli, oprema, merc, nasveti) s primerjavo s Hiim S14 planerjem (`content/videos.json`),
+- načrt od 1 do 99: faze (leveling direktno ali z razredno potjo in respecom, zgodnji farming, T1 in T3 mape brez imunitet na glavni element), skill točke po levelih (s quest točkami in respeci), stat točke, kaj iskati na rarih zgodaj, godly rari, S13 affixi in korupcije po slotih ter S14 korupcije iz planerjev,
 - ostali buildi: Hiim Mid/Bad in neocenjeni, javni planerji iz Hiim galerije, S13 popularni skilli.
 
 Poleg tega:
@@ -38,11 +39,14 @@ Skripta po vrsti:
 2. `tools/fetch_wiki.py`: wiki strani s skilli (predpogoji) in predmeti (statsi za tooltipe)
 3. `tools/fetch_pd2tools.py`: pd2.tools statistika za vsak build (S13)
 4. `tools/fetch_pd2tools.py --respec`: posnetki najhitrejših likov (traja dlje)
-5. `tools/fetch_dh.py`: DarkHumilityjeva S14 tier lista (Google Sheet kot xlsx) in podatki o njegovih videih → `data/dh/tierlist.json`; imena njegovih buildov so z našimi povezana v `content/dh-map.json`
-6. `tools/build_data.py`: združi vse v `data/site.json`, `docs/assets/tips.json` in `docs/assets/items.json`
-7. `tools/fetch_images.py`: prenese manjkajoče slike v `docs/img`
-8. `tools/build_guides.py`: podatki za strani Mape in Crafting (`data/guides.json`)
-9. `tools/build_site.py`: zgradi HTML v `docs/`
+5. `tools/fetch_rares.py`: rari, crafti, magic predmeti in korupcije S13 likov 90+ po slotih za vsak glavni skill → `data/pd2tools/rares.json` (že prebrani buildi ostanejo v predpomnilniku, `--force` vse prebere znova)
+6. `tools/fetch_dh.py`: DarkHumilityjeva S14 tier lista (Google Sheet kot xlsx) in podatki o njegovih videih → `data/dh/tierlist.json`; imena njegovih buildov so z našimi povezana v `content/dh-map.json`
+7. `tools/build_data.py`: združi vse v `data/site.json`, `docs/assets/tips.json` in `docs/assets/items.json`
+8. `tools/fetch_images.py`: prenese manjkajoče slike v `docs/img`
+9. `tools/build_guides.py`: podatki za strani Mape in Crafting (`data/guides.json`)
+10. `tools/build_site.py`: zgradi HTML v `docs/`
+
+Načrt od 1 do 99 računa `tools/plan.py` iz Hiim planerjev (cilji po fazah) in skill dreves v Hiim katalogu (level zahteve, predpogoji, sinergije). Tip buildov (caster, melee, lok, metalec, summoner, trapi) in glavni elementi za izbiro map so ročno v `content/build-profiles.json`; razredne leveling poti so v `CLASS_ROUTE` v `tools/build_site.py`.
 
 `data/hiim/maps/map_meta.json` (oznake map za povezave na Hiim postavitve) je izluščen iz Hiim strani in se ne osvežuje samodejno.
 

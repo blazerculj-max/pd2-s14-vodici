@@ -6,6 +6,7 @@ python3 -I tools/fetch_hiim.py --force
 python3 -I tools/fetch_wiki.py
 python3 -I tools/fetch_pd2tools.py
 python3 -I tools/fetch_pd2tools.py --respec
+python3 -I tools/fetch_rares.py
 python3 -I tools/fetch_dh.py
 python3 -I tools/build_data.py
 python3 -I tools/fetch_images.py

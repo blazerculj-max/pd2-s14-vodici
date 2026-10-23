@@ -556,3 +556,19 @@ span.tchip { padding-left: 10px; color: var(--muted); }
 .dhc[hidden], .dhboss[hidden], #blvl[hidden] { display: none; }
 .dhc.dhover { border-color: var(--accent); }
 .dhboss { margin-top: 10px; }
+
+/* ===== načrt od 1 do 99 ===== */
+details.plan { border: 1px solid var(--line); background: var(--surface); }
+details.plan > summary { cursor: pointer; padding: 10px 12px; font-weight: 700; color: var(--accent); }
+details.plan[open] > summary { border-bottom: 1px solid var(--line); }
+.planb { padding: 10px 12px 14px; display: grid; gap: 10px; min-width: 0; }
+.planb h4 { margin: 8px 0 0; font-family: var(--font-mono); font-size: 0.76rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+.ptab td:first-child { white-space: nowrap; font-family: var(--font-mono); font-size: 0.85rem; vertical-align: top; }
+.ptab td { font-size: 0.93rem; }
+.ptab tr.ph th { text-align: left; background: var(--surface-2); font-size: 0.85rem; color: var(--fg); font-weight: 500; }
+.ptab tr.rs td { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.pq { font-family: var(--font-mono); font-size: 0.68rem; color: var(--accent); border: 1px solid currentColor; padding: 0 3px; margin-left: 4px; cursor: help; }
+.rtab th { text-align: left; vertical-align: top; white-space: nowrap; font-size: 0.88rem; }
+.rtab td { font-size: 0.9rem; display: grid; gap: 4px; }
+.rbest { font-size: 0.84rem; color: var(--muted); }
+.rbest b { color: var(--fg); font-weight: 500; }

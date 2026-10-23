@@ -4,6 +4,7 @@ import html
 import json
 import os
 import re
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, "docs")
@@ -317,6 +318,9 @@ def stats_html(st):
             f'<div class="top">{top}</div>' + (f'<span class="muted">Merc: {merc}</span>' if merc else "") + "</div>")
 
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import plan as PLAN  # noqa: E402
+
 _vp = os.path.join(CONTENT, "videos.json")
 VIDEOS = {k: v for k, v in json.load(open(_vp)).items() if not k.startswith("_")} if os.path.exists(_vp) else {}
 
@@ -448,6 +452,232 @@ def videos_html(cls, b):
               'Pri starejših sezonah preveri, ali se je kaj spremenilo (glej S14 dele in Hiim planer spodaj).</p></div>')
 
 
+# ---------- načrt od 1 do 99 ----------
+
+_bp = json.load(open(os.path.join(CONTENT, "build-profiles.json")))
+PROFILES = {k: v for k, v in _bp.items() if not k.startswith("_")}
+_rp = os.path.join(ROOT, "data", "pd2tools", "rares.json")
+RARES = json.load(open(_rp)) if os.path.exists(_rp) else {}
+# razredna pot za leveling, ko build ne levela sam (Hiim starter z začetnim planerjem in DH priporočilo)
+CLASS_ROUTE = {"amazon": "magic-arrow", "assassin": "chain-lightning-sentry", "barbarian": "warcry",
+               "druid": "summon-druid", "necromancer": "blood-golem", "paladin": "holy-bolt-foh", "sorceress": "meteor"}
+SLOT_SL = {"helm": "Helm", "amulet": "Amulet", "armor": "Oklep", "weapon": "Orožje", "offhand": "Druga roka", "ring": "Prstana",
+           "belt": "Pas", "boots": "Škornji", "gloves": "Rokavice"}
+SLOT_ORDER = ["weapon", "offhand", "helm", "armor", "gloves", "belt", "boots", "amulet", "ring"]
+ARCH_SL = {"caster": "caster", "melee": "melee", "bow": "lok", "throw": "metalno orožje", "summon": "summoner", "trap": "pasti"}
+ARCH_EARLY = {
+    "caster": "FCR (rokavice 20, pas 10–20, amulet in prstana po 10), +skilli (amulet ali circlet s +1/+2), resi, dva vira half freeze za CBF, life in mana po killu, FRW na škornjih.",
+    "melee": "IAS (rokavice 20), ED in min/max škoda, life in mana leech, attack rating, crushing blow in deadly strike (rokavice, helm), resi in FHR.",
+    "bow": "IAS, +bow skills (magic rokavice z +3 in 20 IAS), pierce, Dexterity, attack rating, life leech in resi; crafted quiver.",
+    "throw": "IAS, +throwing ali javelin skills, crushing blow, deadly strike, max škoda, life leech in resi.",
+    "summon": "+summon skills (amulet, helm, ščit ali glava), FCR, resi, life in FHR; minioni dobijo bonus od vseh +skillov.",
+    "trap": "+trap skills, FCR (pasti postavljaš kot spelle), resi, FRW ter life in mana po killu.",
+}
+ARCH_GODLY = {
+    "caster": "Amulet s +2 razrednima skilloma, 20 FCR (samo dropan rare »of the Magus«), resi in life; circlet s +2 razredna ali drevo, 20 FCR in 2 socketoma; rokavice z 20 FCR, resi in half freeze; prstan z 10 FCR, resi in life ali mano; pas z FCR, FHR in resi; škornji s 30+ FRW, FHR in trojnimi resi.",
+    "melee": "Rokavice z 20 IAS, +3 drevo ali ED ter crushing ali deadly strike (craft blood ali hitpower); helm s +2 razrednima skilloma, crushing ali deadly strike (samo dropan rare) in 2 socketoma; amulet s +2 razrednima, IAS ali ED, resi in life leech; prstan z AR, min/max škodo, life leech in resi.",
+    "bow": "Magic rokavice s +3 bow skills in 20 IAS; amulet s +2 razrednima ali +3 bow skills, IAS in resi; quiver s +skilli, pierce in socketi; prstan z AR, Dexterity, life leech in resi.",
+    "throw": "Rokavice z 20 IAS ter crushing ali deadly strike; amulet s +2 razrednima, IAS in resi; metalno orožje z visoko min škodo, ED, socketi in replenish quantity.",
+    "summon": "Amulet s +2 razrednima ali +3 summon skills, FCR in resi; helm ali circlet s +2 razrednima in socketi; ščit (necro glava, paladin ščit) s +summon skills, FCR in resi.",
+    "trap": "Amulet s +2 razrednima ali +3 traps, FCR in resi; rokavice z 20 FCR ali +3 traps; circlet s +2 razrednima, 20 FCR in socketi.",
+}
+
+
+def route_for(cls, b, mode):
+    if mode in ("direct", "mixed"):
+        return None
+    rid = CLASS_ROUTE.get(cls["id"])
+    if not rid or rid == b["id"]:
+        return None
+    return next((x for x in cls["builds"] if x["id"] == rid), None)
+
+
+def plan_rows_html(cls_id, rows):
+    out = []
+    for r in rows:
+        lv = f'{r["from"]}' if r["from"] == r["to"] else f'{r["from"]}–{r["to"]}'
+        txt = ", ".join(f'{e(PLAN.skill_name(cls_id, sk))} {a} → {b2}' if b2 - a > 1 else (f'{e(PLAN.skill_name(cls_id, sk))} {b2}' if a == 0 or b2 == 1 else f'{e(PLAN.skill_name(cls_id, sk))} → {b2}')
+                        for sk, a, b2 in r["skills"])
+        if r["bank"]:
+            txt += (" · " if txt else "") + f'<span class="muted">prihrani {r["bank"]} {plural(r["bank"], "točko", "točki", "točke", "točk").split(" ", 1)[1]}</span>'
+        q = [str(l) for l in range(r["from"], r["to"] + 1) if l in PLAN.QUEST_SKILL]
+        qn = f' <span class="pq" title="skill točke iz questov">+Q</span>' if q else ""
+        out.append(f"<tr><td>{lv}{qn}</td><td>{txt}</td></tr>")
+    return "".join(out)
+
+
+def alloc_html(cls_id, alloc):
+    big = sorted(((k, v) for k, v in alloc.items() if v > 1), key=lambda kv: -kv[1])
+    ones = [k for k, v in alloc.items() if v == 1]
+    txt = ", ".join(f"{e(PLAN.skill_name(cls_id, k))} {v}" for k, v in big)
+    if ones:
+        txt += ("; " if txt else "") + "po 1 točka: " + ", ".join(e(PLAN.skill_name(cls_id, k)) for k in ones)
+    return txt
+
+
+def segs_html(cls_id, segs):
+    out = []
+    for sg in segs:
+        p = sg["planner"]
+        head = f'Lvl {sg["from"]}–{sg["to"]} · cilj: planer »{e(p["label"])}« (level {p["level"]}, {e(p.get("author") or "Hiim")})'
+        out.append(f'<tr class="ph"><th colspan="2">{head}</th></tr>')
+        if sg["respec"]:
+            out.append(f'<tr class="rs"><td>{sg["from"]}</td><td><b>Respec</b> (Akara ali Token of Absolution): {alloc_html(cls_id, sg["start_alloc"])}</td></tr>')
+        out.append(plan_rows_html(cls_id, sg["rows"]))
+    return "".join(out)
+
+
+def stats_stages_html(planners):
+    rows = []
+    for p in PLAN.series(planners):
+        st = p.get("stats") or {}
+        if not any(st.values()):
+            continue
+        rows.append(f'<li><b>Do levela {p["level"]}</b> ({e(p["label"])}): Strength {st.get("str", 0)}, Dexterity {st.get("dex", 0)}, '
+                    f'Vitality {st.get("vit", 0)}, Energy {st.get("ene", 0)}</li>')
+    return "".join(rows)
+
+
+def maps_for(elements, tier):
+    if not elements:
+        return []
+    el = elements[0]
+    return [m["name"] for m in GUIDES["maps"] if m["tier"] == tier and not any(x["el"] == el for x in m["imm"])]
+
+
+def rares_html(key, arch):
+    d = RARES.get(key)
+    parts = [f'<p class="note-s"><b>Zgodaj ({e(ARCH_SL.get(arch, arch))}):</b> {e(ARCH_EARLY.get(arch, ""))}</p>',
+             f'<p class="note-s"><b>Godly rari:</b> {e(ARCH_GODLY.get(arch, ""))}</p>']
+    if not d or not d.get("slots"):
+        parts.append('<p class="muted note-s">Za ta glavni skill ni dovolj S13 podatkov s pd2.tools.</p>')
+        return "".join(parts)
+    rows = []
+    for slot in SLOT_ORDER:
+        sd = d["slots"].get(slot)
+        if not sd or not sd["n"]:
+            continue
+        q = sd["q"]
+        share = lambda k: round(100 * q.get(k, 0) / sd["n"])
+        rare_pct = share("Rare") + share("Crafted") + share("Magic")
+        qtxt = ", ".join(f"{k} {share(k)} %" for k in ("Unique", "Runeword", "Set", "Rare", "Crafted", "Magic") if share(k) >= 5)
+        mods, best = "", ""
+        if rare_pct >= 15 and sd["mods"]:
+            mods = "; ".join(f'{e(lab.replace("#", str(int(med)) if med else "#"))} <span class="muted">({round(100 * cnt / max(1, sd["rares"]))} %, do {mx})</span>'
+                             for lab, cnt, med, mx in sd["mods"][:7])
+            if sd.get("best"):
+                best = f'<div class="rbest"><b>Primer ({e(sd["best"]["q"])} {e(sd["best"]["base"] or "")}):</b> ' + e(" · ".join(x for x in sd["best"]["props"] if x != "Corrupted")) + "</div>"
+        corr = ", ".join(f'{e(lab.replace("#", "X"))} <span class="muted">{round(100 * c / sd["n"])} %</span>' for lab, c in sd["corr"][:4])
+        rows.append(f'<tr><th>{SLOT_SL[slot]}</th><td><span class="muted">{e(qtxt)}</span>'
+                    + (f'<div><b>Na rarih in magic:</b> {mods}</div>{best}' if mods else "")
+                    + (f'<div><b>Korupcije:</b> {corr}</div>' if corr else "") + "</td></tr>")
+    parts.append(f'<p class="note-s muted">S13: {d["chars"]} likov 90+ z {e(d["skill"])} na 20 (pd2.tools). Odstotek pri affixu je delež rarov, craftov in magic predmetov v tem slotu, ki ga imajo; »do« je največja vrednost.</p>'
+                 f'<div class="tbl-wrap"><table class="tbl rtab">{"".join(rows)}</table></div>')
+    return "".join(parts)
+
+
+def s14_corr_html(b):
+    by = {}
+    for p in b.get("planners") or []:
+        for slot, it in (p.get("gear") or {}).items():
+            if isinstance(it, dict) and it.get("corr"):
+                by.setdefault(slot, {}).setdefault(it["corr"], set()).add(it.get("name"))
+    if not by:
+        return ""
+    lab = {"weapon": "orožje", "offhand": "druga roka", "helm": "helm", "armor": "oklep", "gloves": "rokavice", "belt": "pas",
+           "boots": "škornji", "amulet": "amulet", "ring1": "prstan", "ring2": "prstan", "swapWeapon": "swap", "swapOffhand": "swap 2"}
+    items = []
+    for slot, cs in by.items():
+        for c, names in cs.items():
+            items.append(f'{lab.get(slot, slot)} ({e(", ".join(sorted(n for n in names if n)))}): {e(c)}')
+    return '<p class="note-s"><b>Korupcije v Hiim S14 planerjih:</b> ' + "; ".join(items) + ".</p>"
+
+
+def plan_html(b, cls, mode):
+    key = f'{cls["id"]}/{b["id"]}'
+    arch, els = PROFILES.get(key, ["caster", []])
+    route = route_for(cls, b, mode)
+    main = (b.get("main") or {}).get("id")
+    planners = b.get("planners") or []
+    if not PLAN.series(planners):  # build brez planerja: vzemi planer builda z istim glavnim skillom
+        twin = next((x for x in cls["builds"] if x is not b and (x.get("main") or {}).get("id") == main and PLAN.series(x.get("planners") or [])), None)
+        planners = twin["planners"] if twin else []
+    P, no_planner, late = None, False, False
+    if not planners:  # build brez planerja: pokaži vsaj leveling razredne poti
+        no_planner = True
+        route = route or next((x for x in cls["builds"] if x["id"] == CLASS_ROUTE.get(cls["id"]) and x is not b), None)
+        if route:
+            P = PLAN.build_plan(cls["id"], route["main"]["id"], route["planners"])
+    elif planners:
+        if route:
+            first_lvl = min(p["level"] for p in PLAN.series(planners))
+            rl = max(70, min(80, first_lvl))
+            P = PLAN.build_plan(cls["id"], main, planners, (route["name"], route["planners"], route["main"]["id"]), rl)
+        else:
+            P = PLAN.build_plan(cls["id"], main, planners)
+            # glavni skilli pridejo pozno in bi točke dolgo čakale: leveling z razredno potjo, nato respec
+            alt = next((x for x in cls["builds"] if x["id"] == CLASS_ROUTE.get(cls["id"]) and x is not b), None)
+            peak, free = PLAN.early_bank(P) if P else (0, None)
+            if alt and peak >= 7:
+                route, late = alt, True
+                rl = max(24, PLAN.catalog(cls["id"]).get(main, {}).get("reqLevel", 1), free or 0)
+                P = PLAN.build_plan(cls["id"], main, planners, (route["name"], route["planners"], route["main"]["id"]), rl)
+    parts = []
+    # faze
+    ph = []
+    if no_planner and route:
+        ph.append(f'<li><b>Leveling:</b> Hiim za ta build nima planerja; spodaj je leveling razredne poti <a href="#b-{e(route["id"])}">{e(route["name"])}</a>, nato respec v ta build.</li>')
+    elif route and P:
+        why = (" Ključni skilli tega builda so na voljo pozno, zato do takrat levelaš z drugim buildom; Akara da en brezplačen respec na težavnost."
+               if late else "")
+        ph.append(f'<li><b>Leveling (1–{P["respec_level"]}):</b> kot <a href="#b-{e(route["id"])}">{e(route["name"])}</a> (razredna pot), nato respec v ta build.{why}</li>')
+    else:
+        ph.append("<li><b>Leveling:</b> direktno s tem buildom; spodnji načrt gre od levela 1.</li>")
+    own_tags = (b.get("starter") or {}).get("tags") or []
+    tags = own_tags or ((route or {}).get("starter") or {}).get("tags") or []
+    farm = "Chaos Sanctuary, okrepljene corrupted zone, Andariel in Mephisto (MF), ključi (Terror, Hate, Destruction) za Uber Tristram"
+    if tags:
+        who = "Hiim starter oznake" if own_tags else f"z leveling buildom {route['name']}, Hiim starter oznake"
+        ph.append(f"<li><b>Zgodnji farming:</b> {e(', '.join(STARTER_TAG.get(t, t) for t in tags))} ({e(who)}).</li>")
+    else:
+        ph.append(f"<li><b>Zgodnji farming:</b> {e(farm)}.</li>")
+    t1, t3 = maps_for(els, "Tier 1"), maps_for(els, "Tier 3")
+    if els:
+        ph.append(f'<li><b>Zgodnje mape (T1) brez {e(EL_NAME[els[0]])} imunitet:</b> {e(", ".join(t1)) or "—"}.</li>')
+        ph.append(f'<li><b>Kasneje (T3) brez {e(EL_NAME[els[0]])} imunitet:</b> {e(", ".join(t3)) or "—"}.' +
+                  (f' Hiim najhitrejša mapa: {e(b["clear"]["map"])} {fmt_time(b["clear"]["time"])}.' if b.get("clear") else "") + "</li>")
+    dh = (b.get("_dh") or [None])[0]
+    if dh and dh.get("fort"):
+        ph.append(f'<li><b>Fortified mape (DarkHumility):</b> {e(dh["fort"])} · budget {e(dh.get("budget") or "")} · T1–T2 {e(dh.get("t12") or "")}</li>')
+    parts.append(f'<h4>Faze</h4><ul class="plain">{"".join(ph)}</ul>')
+    # skill točke
+    if P:
+        tbl = []
+        if P.get("route"):
+            tbl.append(f'<tr class="ph"><th colspan="2">Leveling kot {e(P["route"]["name"])} (lvl 1–{P["respec_level"]})</th></tr>')
+            for sg in P["route"]["segs"]:
+                tbl.append(plan_rows_html(cls["id"], sg["rows"]))
+            tbl.append(f'<tr class="rs"><td>{P["respec_level"]}</td><td><b>Respec v ta build</b> (Akara ali Token of Absolution), cilj planer »{e(P["respec_planner"]["label"])}«: {alloc_html(cls["id"], P["respec_alloc"])}</td></tr>')
+        tbl.append(segs_html(cls["id"], P["segs"]))
+        if no_planner:
+            tbl.insert(0, f'<tr class="ph"><th colspan="2">Leveling razredne poti {e(route["name"])}</th></tr>')
+        parts.append('<h4>Skill točke po levelih</h4><div class="tbl-wrap"><table class="tbl ptab"><thead><tr><th>Level</th><th>Kam gredo točke</th></tr></thead>'
+                     f'<tbody>{"".join(tbl)}</tbody></table></div>'
+                     '<p class="muted note-s">Izračunano iz Hiim planerjev in skill dreves (level zahteve, predpogoji): najprej predpogoji in skilli z eno točko, nato glavni skill (z auro za škodo izmenično), sinergije in ostali skilli. »+Q« pomeni level, pri katerem računamo s skill točkami iz questa (Den of Evil, Radament, Izual v vsaki težavnosti). »Prihrani« pomeni, da ciljni skill še ni na voljo: točke prihrani ali jih začasno daj v zgodnji skill in jih ob respecu pri Akari vrni.</p>')
+        st = stats_stages_html(planners)
+        stat_rule = ("Vsak level dobiš 5 stat točk, Lam Esen's Tome (Act 3) da še 5 v vsaki težavnosti. Strength in Dexterity dvigni le do zahteve opreme, "
+                     + ("Dexterity tudi do max blocka, če nosiš ščit; " if arch in ("melee", "caster", "summon", "trap") else "Dexterity pri lokih in metalnem orožju tudi za škodo in attack rating; ")
+                     + "vse ostalo v Vitality. Energy samo pri Energy Shield buildih.")
+        parts.append(f'<h4>Stat točke</h4><p class="note-s">{e(stat_rule)}</p>' + (f'<ul class="plain">{st}</ul>' if st else ""))
+    else:
+        parts.append('<p class="muted note-s">Hiim za ta build nima planerja in razred nima leveling poti, zato načrta skill točk ni.</p>')
+    # rari in korupcije
+    rkey = f'{cls["name"]}|{main}' if main else None
+    parts.append("<h4>Rari, godly rari in korupcije</h4>" + rares_html(rkey, arch) + s14_corr_html(b))
+    return ('<details class="plan"><summary>Načrt od 1 do 99: faze, skill in stat točke po levelih, rari in korupcije</summary>'
+            f'<div class="planb">{"".join(parts)}</div></details>')
+
+
 def build_html(b, cls):
     main = b.get("main") or {}
     lev, mode = leveling_html(b, cls)
@@ -474,7 +704,7 @@ def build_html(b, cls):
     summary = (f'<summary>{img_tag(main.get("img"), "skico lg", main.get("name", ""))}'
                f'<span class="bn"><b>{e(b["name"])}</b><span class="meta">{"".join(f"<span>{m}</span>" for m in meta)}</span></span>'
                f'<span class="badges">{"".join(badges)}</span></summary>')
-    body = [ratings_html(b), f"<div><h4>Leveling</h4>{lev}</div>"]
+    body = [ratings_html(b), f"<div><h4>Leveling</h4>{lev}</div>", plan_html(b, cls, mode)]
     if guide_file:
         body.append('<div><h4>Naš vodič</h4>' + add_tips_to_fragment(open(os.path.join(CONTENT, "builds", guide_file)).read()) + "</div>")
     vid = videos_html(cls, b)
